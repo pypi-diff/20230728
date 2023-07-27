@@ -1673,3 +1673,54 @@
 [2023-07-28 01:44:01] INFO root fetch - processPackages [quil]: Remove: archive file [/home/abi/fetcher/tmp/quil-0.4.0rc2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-28 01:44:01] INFO root fetch - main [MainThread]: End processing [quil]: success
 [2023-07-28 01:44:01] INFO root fetch - main [MainThread]: Store serial: [19067497]
+[2023-07-28 01:49:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19067497]
+[2023-07-28 01:49:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-28 01:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqrlew
+[2023-07-28 01:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skyplane-nightly
+[2023-07-28 01:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jamofetch
+[2023-07-28 01:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bayesian-classifier
+[2023-07-28 01:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aviatrix-migration-nat
+[2023-07-28 01:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: climatePy
+[2023-07-28 01:49:13] INFO root fetch - processPackages [bayesian-classifier]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-28 01:49:13] INFO root fetch - processPackages [pyqrlew]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-28 01:49:13] WARNING root fetch - processPackages [aviatrix-migration-nat]: Skipping, unable to determine old version
+[2023-07-28 01:49:13] INFO root fetch - main [MainThread]: End processing [aviatrix-migration-nat] error
+[2023-07-28 01:49:13] INFO root fetch - processPackages [jamofetch]: New version: [3.6.1] Old Version: [3.5.1]
+[2023-07-28 01:49:13] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev20230726] Old Version: [0.3.2.dev20230725]
+[2023-07-28 01:49:13] INFO root fetch - processPackages [climatePy]: New version: [0.4.37] Old Version: [0.4.35]
+[2023-07-28 01:49:13] INFO root fetch - processPackages [jamofetch]: Downloading https://files.pythonhosted.org/packages/df/25/97a78beb5bc05ce94fcb1bd59ca834b5acaffdce5c44a48b6471a01e7aaf/jamofetch-3.5.1.tar.gz
+[2023-07-28 01:49:13] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/65/c9/c8546a3814f9ba60621638568b041de8cb1e92e74eb4e75398563e960269/skyplane_nightly-0.3.2.dev20230725.tar.gz
+[2023-07-28 01:49:13] INFO root fetch - processPackages [pyqrlew]: Downloading https://files.pythonhosted.org/packages/84/44/0efa25a78c8466a7a0ae8c7c493dca2a50d0af75ac3c0b616713cb6216a1/pyqrlew-0.3.0.tar.gz
+[2023-07-28 01:49:13] INFO root fetch - processPackages [bayesian-classifier]: Downloading https://files.pythonhosted.org/packages/f5/41/7f6f29f3c51266acb60b02d506b75e1b4ca2700f7a81160faac010c298b2/bayesian_classifier-1.0.0.tar.gz
+[2023-07-28 01:49:13] INFO root fetch - processPackages [climatePy]: Downloading https://files.pythonhosted.org/packages/d7/97/a2f2661272a901ee23b4acb753e34a70473bb160ec07eab95a91ef10b986/climatePy-0.4.35.tar.gz
+[2023-07-28 01:49:14] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/11/58/22e5c2304e768a399f44ef87b4f3b0c18d97626c91d80f719dad918b0952/skyplane_nightly-0.3.2.dev20230726.tar.gz
+[2023-07-28 01:49:14] INFO root fetch - processPackages [jamofetch]: Downloading https://files.pythonhosted.org/packages/b5/0a/8929342ed49f95e23443a0b42382ffca026ba34da620ada907692077fcab/jamofetch-3.6.1.tar.gz
+[2023-07-28 01:49:14] INFO root fetch - processPackages [bayesian-classifier]: Downloading https://files.pythonhosted.org/packages/dc/a7/d379a376355ed9fd119a26e20ff0e509bc353a669694275aeadffb41bad2/bayesian_classifier-1.0.1.tar.gz
+[2023-07-28 01:49:14] INFO root fetch - processPackages [pyqrlew]: Downloading https://files.pythonhosted.org/packages/a7/ab/028122c69e29ae1b780e49d5869490e824e1d3d2e86cf1be81dfc1984ca5/pyqrlew-0.3.1.tar.gz
+[2023-07-28 01:49:14] INFO root fetch - processPackages [jamofetch]: executing diffoscope
+[2023-07-28 01:49:14] INFO root fetch - processPackages [jamofetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jamofetch-3.5.1.tar.gz tmp/jamofetch-3.6.1.tar.gz --markdown 20230728/j/jamofetch/3.5.1-3.6.1/diff.md --exclude *.pyd
+[2023-07-28 01:49:14] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-07-28 01:49:14] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev20230725.tar.gz tmp/skyplane_nightly-0.3.2.dev20230726.tar.gz --markdown 20230728/s/skyplane-nightly/0.3.2.dev20230725-0.3.2.dev20230726/diff.md --exclude *.pyd
+[2023-07-28 01:49:14] INFO root fetch - processPackages [pyqrlew]: executing diffoscope
+[2023-07-28 01:49:14] INFO root fetch - processPackages [pyqrlew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrlew-0.3.0.tar.gz tmp/pyqrlew-0.3.1.tar.gz --markdown 20230728/p/pyqrlew/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-28 01:49:14] INFO root fetch - processPackages [bayesian-classifier]: executing diffoscope
+[2023-07-28 01:49:14] INFO root fetch - processPackages [bayesian-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bayesian_classifier-1.0.0.tar.gz tmp/bayesian_classifier-1.0.1.tar.gz --markdown 20230728/b/bayesian-classifier/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-28 01:49:14] INFO root fetch - processPackages [climatePy]: Downloading https://files.pythonhosted.org/packages/e9/8a/14f0d04482588145d35c13962c06fce40ebf3285731b7360457696d2dee2/climatePy-0.4.37.tar.gz
+[2023-07-28 01:49:14] INFO root fetch - processPackages [climatePy]: executing diffoscope
+[2023-07-28 01:49:14] INFO root fetch - processPackages [climatePy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climatePy-0.4.35.tar.gz tmp/climatePy-0.4.37.tar.gz --markdown 20230728/c/climatePy/0.4.35-0.4.37/diff.md --exclude *.pyd
+[2023-07-28 01:49:15] INFO root fetch - processPackages [jamofetch]: Remove: archive file [/home/abi/fetcher/tmp/jamofetch-3.5.1.tar.gz]
+[2023-07-28 01:49:15] INFO root fetch - processPackages [jamofetch]: Remove: archive file [/home/abi/fetcher/tmp/jamofetch-3.6.1.tar.gz]
+[2023-07-28 01:49:15] INFO root fetch - main [MainThread]: End processing [jamofetch]: success
+[2023-07-28 01:49:15] INFO root fetch - processPackages [bayesian-classifier]: Remove: archive file [/home/abi/fetcher/tmp/bayesian_classifier-1.0.0.tar.gz]
+[2023-07-28 01:49:15] INFO root fetch - processPackages [bayesian-classifier]: Remove: archive file [/home/abi/fetcher/tmp/bayesian_classifier-1.0.1.tar.gz]
+[2023-07-28 01:49:15] INFO root fetch - main [MainThread]: End processing [bayesian-classifier]: success
+[2023-07-28 01:49:15] INFO root fetch - processPackages [pyqrlew]: Remove: archive file [/home/abi/fetcher/tmp/pyqrlew-0.3.0.tar.gz]
+[2023-07-28 01:49:15] INFO root fetch - processPackages [pyqrlew]: Remove: archive file [/home/abi/fetcher/tmp/pyqrlew-0.3.1.tar.gz]
+[2023-07-28 01:49:15] INFO root fetch - main [MainThread]: End processing [pyqrlew]: success
+[2023-07-28 01:49:15] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230725.tar.gz]
+[2023-07-28 01:49:15] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230726.tar.gz]
+[2023-07-28 01:49:15] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-07-28 01:49:17] INFO root fetch - processPackages [climatePy]: Remove: archive file [/home/abi/fetcher/tmp/climatePy-0.4.35.tar.gz]
+[2023-07-28 01:49:17] INFO root fetch - processPackages [climatePy]: Remove: archive file [/home/abi/fetcher/tmp/climatePy-0.4.37.tar.gz]
+[2023-07-28 01:49:17] INFO root fetch - main [MainThread]: End processing [climatePy]: success
+[2023-07-28 01:49:17] INFO root fetch - main [MainThread]: Store serial: [19067537]
