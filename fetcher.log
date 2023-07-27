@@ -1178,3 +1178,93 @@
 [2023-07-28 01:10:01] INFO root fetch - processPackages [pytest-mqtt]: Remove: archive file [/home/abi/fetcher/tmp/pytest-mqtt-0.3.0.tar.gz]
 [2023-07-28 01:10:01] INFO root fetch - main [MainThread]: End processing [pytest-mqtt]: success
 [2023-07-28 01:10:01] INFO root fetch - main [MainThread]: Store serial: [19067238]
+[2023-07-28 01:15:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19067238]
+[2023-07-28 01:15:10] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-28 01:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mercury-fil
+[2023-07-28 01:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hedges
+[2023-07-28 01:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jamofetch
+[2023-07-28 01:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ephys-link
+[2023-07-28 01:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ladybug-display
+[2023-07-28 01:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edation
+[2023-07-28 01:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: typedhtml
+[2023-07-28 01:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: abacusai
+[2023-07-28 01:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-07-28 01:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qcore
+[2023-07-28 01:15:10] INFO root fetch - processPackages [mercury-fil]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-28 01:15:10] INFO root fetch - processPackages [hedges]: New version: [0.0.1a3] Old Version: [0.0.1a2]
+[2023-07-28 01:15:10] INFO root fetch - processPackages [abacusai]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-28 01:15:10] INFO root fetch - processPackages [typedhtml]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-28 01:15:10] INFO root fetch - processPackages [jamofetch]: New version: [3.5.0] Old Version: [3.4.1]
+[2023-07-28 01:15:10] INFO root fetch - processPackages [edation]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-28 01:15:10] INFO root fetch - processPackages [ephys-link]: New version: [0.9.5] Old Version: [0.9.3]
+[2023-07-28 01:15:10] INFO root fetch - processPackages [ladybug-display]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-28 01:15:10] INFO root fetch - processPackages [qcore]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-28 01:15:10] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.410] Old Version: [0.3.409]
+[2023-07-28 01:15:10] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/ac/06/ed20e404a4b53ae4d7acdf97af8e1afb18f6ab1dd3ccdd9c385973bcbed1/pepperize.cdk-ses-smtp-credentials-0.3.409.tar.gz
+[2023-07-28 01:15:10] INFO root fetch - processPackages [mercury-fil]: Downloading https://files.pythonhosted.org/packages/f1/18/321ac5727ae91aad67686b698e2b8bcd4ed54a3fd52d1181152c06e60982/mercury_fil-0.1.0.tar.gz
+[2023-07-28 01:15:10] INFO root fetch - processPackages [edation]: Downloading https://files.pythonhosted.org/packages/da/86/943e72c9c9098b40d1ab63eed775a7754883422d8affee3ca39dd9f2cac2/edation-0.0.5.tar.gz
+[2023-07-28 01:15:11] INFO root fetch - processPackages [hedges]: Downloading https://files.pythonhosted.org/packages/c8/ac/954196d46e76686302502e24d235796cca6723c6ead400405f3354227e5e/hedges-0.0.1a2.tar.gz
+[2023-07-28 01:15:11] INFO root fetch - processPackages [jamofetch]: Downloading https://files.pythonhosted.org/packages/29/83/50fae89bc1518fdd2406fe87d3b9804622f060d97362876f7ebd0ad4085c/jamofetch-3.4.1.tar.gz
+[2023-07-28 01:15:11] INFO root fetch - processPackages [typedhtml]: Downloading https://files.pythonhosted.org/packages/0f/b6/17892e30428fcabb77f604a133dd762b18c48f5175ebfafad4cb35cca11d/typedhtml-0.1.8.tar.gz
+[2023-07-28 01:15:11] INFO root fetch - processPackages [ephys-link]: Downloading https://files.pythonhosted.org/packages/14/5d/61e9e6917bcd8cfe89f776aa13f3ea6627346f9b6ab5d9efafa99590b09c/ephys_link-0.9.3.tar.gz
+[2023-07-28 01:15:11] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/20/05/12e6e66d0f2b20efe2d4562023d068bd5ea84aba0ae3272ff7660d944e48/abacusai-0.9.1.tar.gz
+[2023-07-28 01:15:11] INFO root fetch - processPackages [ladybug-display]: Downloading https://files.pythonhosted.org/packages/1e/02/cec14e3a43e6e2fc76e6653561b4cf84608834a24c06c7fc25faaa97b4eb/ladybug-display-0.9.0.tar.gz
+[2023-07-28 01:15:11] INFO root fetch - processPackages [qcore]: Downloading https://files.pythonhosted.org/packages/35/14/51bf5d7ef2144494a578f1c47782ef596b673e5ba016c458dc7066cccbb3/qcore-1.9.0.tar.gz
+[2023-07-28 01:15:11] INFO root fetch - processPackages [mercury-fil]: Downloading https://files.pythonhosted.org/packages/21/17/a80dbab8faea24326ef9b3b66a264b07219adc0fb8aa24eda3fd23ff758a/mercury_fil-0.1.1.tar.gz
+[2023-07-28 01:15:11] INFO root fetch - processPackages [typedhtml]: Downloading https://files.pythonhosted.org/packages/99/aa/94aca241cd078e21d96f4ae875daad18b3f9f3770d9456afbd7c31f9a75b/typedhtml-0.1.9.tar.gz
+[2023-07-28 01:15:11] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/f3/a9/180fac1e32afb194a77b372c07bcff04e2889880640863178e2cad61e94a/pepperize.cdk-ses-smtp-credentials-0.3.410.tar.gz
+[2023-07-28 01:15:11] INFO root fetch - processPackages [edation]: Downloading https://files.pythonhosted.org/packages/2b/0f/9e714e04882d0bdfd49db35f701fcea3687ab87c78f0007881e07567dbf7/edation-0.0.6.tar.gz
+[2023-07-28 01:15:11] INFO root fetch - processPackages [hedges]: Downloading https://files.pythonhosted.org/packages/99/bb/f803f80373c83596ab55f1611bdc0598da40b05327c752fcf256cabca731/hedges-0.0.1a3.tar.gz
+[2023-07-28 01:15:11] INFO root fetch - processPackages [jamofetch]: Downloading https://files.pythonhosted.org/packages/a5/3e/d880646ce92dabea566f15b8b0c08c42400790caefbeb2c9e0f703522065/jamofetch-3.5.0.tar.gz
+[2023-07-28 01:15:11] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/2f/8d/d78246b87fef32ca67a6fb9bdb4bfda9bdd690736e1f658aac9fd292cf85/abacusai-0.9.2.tar.gz
+[2023-07-28 01:15:11] INFO root fetch - processPackages [ladybug-display]: Downloading https://files.pythonhosted.org/packages/2d/c2/b6721f755e6df185804937c1af17673d9ac4fc542f6bc7770d02987f1bd7/ladybug-display-0.9.1.tar.gz
+[2023-07-28 01:15:11] INFO root fetch - processPackages [typedhtml]: executing diffoscope
+[2023-07-28 01:15:11] INFO root fetch - processPackages [typedhtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedhtml-0.1.8.tar.gz tmp/typedhtml-0.1.9.tar.gz --markdown 20230728/t/typedhtml/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-28 01:15:11] INFO root fetch - processPackages [mercury-fil]: executing diffoscope
+[2023-07-28 01:15:11] INFO root fetch - processPackages [mercury-fil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury_fil-0.1.0.tar.gz tmp/mercury_fil-0.1.1.tar.gz --markdown 20230728/m/mercury-fil/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-28 01:15:11] INFO root fetch - processPackages [qcore]: Downloading https://files.pythonhosted.org/packages/f3/80/c394cf2b56e9faa8f73da9afedec877a2fcd47a9a41dc8fc90a436e8c965/qcore-1.9.1.tar.gz
+[2023-07-28 01:15:11] INFO root fetch - processPackages [hedges]: executing diffoscope
+[2023-07-28 01:15:11] INFO root fetch - processPackages [hedges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hedges-0.0.1a2.tar.gz tmp/hedges-0.0.1a3.tar.gz --markdown 20230728/h/hedges/0.0.1a2-0.0.1a3/diff.md --exclude *.pyd
+[2023-07-28 01:15:11] INFO root fetch - processPackages [jamofetch]: executing diffoscope
+[2023-07-28 01:15:11] INFO root fetch - processPackages [jamofetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jamofetch-3.4.1.tar.gz tmp/jamofetch-3.5.0.tar.gz --markdown 20230728/j/jamofetch/3.4.1-3.5.0/diff.md --exclude *.pyd
+[2023-07-28 01:15:11] INFO root fetch - processPackages [ephys-link]: Downloading https://files.pythonhosted.org/packages/23/fa/2e22256da9ae1214aba5475d063739a1abb553c80fc8a1a9b5fc2fabf8cc/ephys_link-0.9.5.tar.gz
+[2023-07-28 01:15:11] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-07-28 01:15:11] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.409.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.410.tar.gz --markdown 20230728/p/pepperize.cdk-ses-smtp-credentials/0.3.409-0.3.410/diff.md --exclude *.pyd
+[2023-07-28 01:15:11] INFO root fetch - processPackages [abacusai]: executing diffoscope
+[2023-07-28 01:15:11] INFO root fetch - processPackages [abacusai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abacusai-0.9.1.tar.gz tmp/abacusai-0.9.2.tar.gz --markdown 20230728/a/abacusai/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-28 01:15:11] INFO root fetch - processPackages [edation]: executing diffoscope
+[2023-07-28 01:15:11] INFO root fetch - processPackages [edation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edation-0.0.5.tar.gz tmp/edation-0.0.6.tar.gz --markdown 20230728/e/edation/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-28 01:15:11] WARNING root fetch - processPackages [ephys-link]: Skipping package: exceeds size limit 17569321>=10485760
+[2023-07-28 01:15:11] INFO root fetch - main [MainThread]: End processing [ephys-link] error
+[2023-07-28 01:15:11] INFO root fetch - processPackages [ladybug-display]: executing diffoscope
+[2023-07-28 01:15:11] INFO root fetch - processPackages [ladybug-display]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-display-0.9.0.tar.gz tmp/ladybug-display-0.9.1.tar.gz --markdown 20230728/l/ladybug-display/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-28 01:15:11] INFO root fetch - processPackages [qcore]: executing diffoscope
+[2023-07-28 01:15:11] INFO root fetch - processPackages [qcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcore-1.9.0.tar.gz tmp/qcore-1.9.1.tar.gz --markdown 20230728/q/qcore/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-28 01:15:13] INFO root fetch - processPackages [mercury-fil]: Remove: archive file [/home/abi/fetcher/tmp/mercury_fil-0.1.0.tar.gz]
+[2023-07-28 01:15:13] INFO root fetch - processPackages [mercury-fil]: Remove: archive file [/home/abi/fetcher/tmp/mercury_fil-0.1.1.tar.gz]
+[2023-07-28 01:15:13] INFO root fetch - main [MainThread]: End processing [mercury-fil]: success
+[2023-07-28 01:15:13] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.409.tar.gz]
+[2023-07-28 01:15:13] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.410.tar.gz]
+[2023-07-28 01:15:13] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-07-28 01:15:13] INFO root fetch - processPackages [jamofetch]: Remove: archive file [/home/abi/fetcher/tmp/jamofetch-3.4.1.tar.gz]
+[2023-07-28 01:15:13] INFO root fetch - processPackages [jamofetch]: Remove: archive file [/home/abi/fetcher/tmp/jamofetch-3.5.0.tar.gz]
+[2023-07-28 01:15:13] INFO root fetch - main [MainThread]: End processing [jamofetch]: success
+[2023-07-28 01:15:13] INFO root fetch - processPackages [hedges]: Remove: archive file [/home/abi/fetcher/tmp/hedges-0.0.1a2.tar.gz]
+[2023-07-28 01:15:13] INFO root fetch - processPackages [hedges]: Remove: archive file [/home/abi/fetcher/tmp/hedges-0.0.1a3.tar.gz]
+[2023-07-28 01:15:13] INFO root fetch - main [MainThread]: End processing [hedges]: success
+[2023-07-28 01:15:13] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-0.9.1.tar.gz]
+[2023-07-28 01:15:13] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-0.9.2.tar.gz]
+[2023-07-28 01:15:13] INFO root fetch - main [MainThread]: End processing [abacusai]: success
+[2023-07-28 01:15:13] INFO root fetch - processPackages [typedhtml]: Remove: archive file [/home/abi/fetcher/tmp/typedhtml-0.1.8.tar.gz]
+[2023-07-28 01:15:13] INFO root fetch - processPackages [typedhtml]: Remove: archive file [/home/abi/fetcher/tmp/typedhtml-0.1.9.tar.gz]
+[2023-07-28 01:15:13] INFO root fetch - main [MainThread]: End processing [typedhtml]: success
+[2023-07-28 01:15:13] INFO root fetch - processPackages [edation]: Remove: archive file [/home/abi/fetcher/tmp/edation-0.0.5.tar.gz]
+[2023-07-28 01:15:13] INFO root fetch - processPackages [edation]: Remove: archive file [/home/abi/fetcher/tmp/edation-0.0.6.tar.gz]
+[2023-07-28 01:15:13] INFO root fetch - main [MainThread]: End processing [edation]: success
+[2023-07-28 01:15:13] INFO root fetch - processPackages [qcore]: Remove: archive file [/home/abi/fetcher/tmp/qcore-1.9.0.tar.gz]
+[2023-07-28 01:15:13] INFO root fetch - processPackages [qcore]: Remove: archive file [/home/abi/fetcher/tmp/qcore-1.9.1.tar.gz]
+[2023-07-28 01:15:13] INFO root fetch - main [MainThread]: End processing [qcore]: success
+[2023-07-28 01:15:13] INFO root fetch - processPackages [ladybug-display]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-display-0.9.0.tar.gz]
+[2023-07-28 01:15:13] INFO root fetch - processPackages [ladybug-display]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-display-0.9.1.tar.gz]
+[2023-07-28 01:15:13] INFO root fetch - main [MainThread]: End processing [ladybug-display]: success
+[2023-07-28 01:15:13] INFO root fetch - main [MainThread]: Store serial: [19067267]
