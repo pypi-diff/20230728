@@ -1775,3 +1775,51 @@
 [2023-07-28 01:54:30] INFO root fetch - processPackages [deepchem]: Remove: archive file [/home/abi/fetcher/tmp/deepchem-2.7.2.dev20230727235143.tar.gz]
 [2023-07-28 01:54:30] INFO root fetch - main [MainThread]: End processing [deepchem]: success
 [2023-07-28 01:54:30] INFO root fetch - main [MainThread]: Store serial: [19067564]
+[2023-07-28 01:59:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19067564]
+[2023-07-28 01:59:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-28 01:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lytekitplugins-pods
+[2023-07-28 01:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trainyard
+[2023-07-28 01:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AndroidN
+[2023-07-28 01:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ladybug-radiance
+[2023-07-28 01:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlglot
+[2023-07-28 01:59:39] INFO root fetch - processPackages [ladybug-radiance]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-28 01:59:39] INFO root fetch - processPackages [lytekitplugins-pods]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-28 01:59:39] INFO root fetch - processPackages [trainyard]: New version: [0.0.2] Old Version: [0.0.1a0]
+[2023-07-28 01:59:39] INFO root fetch - processPackages [AndroidN]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 01:59:39] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-07-28 01:59:39] INFO root fetch - processPackages [trainyard]: Downloading https://files.pythonhosted.org/packages/9c/fb/de53aa047a876a27a40c0eed708ca677d4a9bbaa4795693084ed8233d6af/trainyard-0.0.1a0.tar.gz
+[2023-07-28 01:59:39] INFO root fetch - processPackages [lytekitplugins-pods]: Downloading https://files.pythonhosted.org/packages/4b/a1/4bd2381968805041aa65f7a0f24671beee0e7274e58580a79f1c66fc31b2/lytekitplugins-pods-0.6.0.tar.gz
+[2023-07-28 01:59:39] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/20/6b/5034324cd2ac42831b5103037f6a14e518172128c4196b8d01b93dcc76c8/sqlglot-9.0.5.tar.gz
+[2023-07-28 01:59:39] INFO root fetch - processPackages [ladybug-radiance]: Downloading https://files.pythonhosted.org/packages/b0/ff/91803055b3c8044c9519d02536e4e6fb6de2c72652c59cb8ceec1d0d5816/ladybug-radiance-0.2.2.tar.gz
+[2023-07-28 01:59:39] INFO root fetch - processPackages [AndroidN]: Downloading https://files.pythonhosted.org/packages/44/aa/49d94dd773c1711f506edc40fde962d1a7ba858527e07a059901abbba558/AndroidN-0.0.8.tar.gz
+[2023-07-28 01:59:40] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/36/2a/e7389a112e1a7cfd1fcc7c7209a0f8f5ffe905ce8aad03f447367dc9b209/sqlglot-9.0.6.tar.gz
+[2023-07-28 01:59:40] INFO root fetch - processPackages [lytekitplugins-pods]: Downloading https://files.pythonhosted.org/packages/11/4b/26164311a8aa4f0dd145d9bb24fd33f3d4155fd7dd9747a38919b538baa8/lytekitplugins-pods-0.6.1.tar.gz
+[2023-07-28 01:59:40] INFO root fetch - processPackages [trainyard]: Downloading https://files.pythonhosted.org/packages/c0/2d/f2c28fb7fd4b870bd018a7cccdea6124f89b17ab25e947cbe2456abc0189/trainyard-0.0.2.tar.gz
+[2023-07-28 01:59:40] INFO root fetch - processPackages [ladybug-radiance]: Downloading https://files.pythonhosted.org/packages/72/eb/f74872e69da3241e8ab48d33ce9165baf9cc998f5b42c127c5195226dadb/ladybug-radiance-0.2.3.tar.gz
+[2023-07-28 01:59:40] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-07-28 01:59:40] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230728/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-07-28 01:59:40] INFO root fetch - processPackages [lytekitplugins-pods]: executing diffoscope
+[2023-07-28 01:59:40] INFO root fetch - processPackages [lytekitplugins-pods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lytekitplugins-pods-0.6.0.tar.gz tmp/lytekitplugins-pods-0.6.1.tar.gz --markdown 20230728/l/lytekitplugins-pods/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-28 01:59:40] INFO root fetch - processPackages [trainyard]: executing diffoscope
+[2023-07-28 01:59:40] INFO root fetch - processPackages [trainyard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trainyard-0.0.1a0.tar.gz tmp/trainyard-0.0.2.tar.gz --markdown 20230728/t/trainyard/0.0.1a0-0.0.2/diff.md --exclude *.pyd
+[2023-07-28 01:59:40] INFO root fetch - processPackages [ladybug-radiance]: executing diffoscope
+[2023-07-28 01:59:40] INFO root fetch - processPackages [ladybug-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-radiance-0.2.2.tar.gz tmp/ladybug-radiance-0.2.3.tar.gz --markdown 20230728/l/ladybug-radiance/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-28 01:59:40] INFO root fetch - processPackages [AndroidN]: Downloading https://files.pythonhosted.org/packages/da/29/68004e9f2b7e571c4975ba71015791ae1601b70953baf515e5d3f1c02149/AndroidN-0.0.9.tar.gz
+[2023-07-28 01:59:40] INFO root fetch - processPackages [AndroidN]: executing diffoscope
+[2023-07-28 01:59:40] INFO root fetch - processPackages [AndroidN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AndroidN-0.0.8.tar.gz tmp/AndroidN-0.0.9.tar.gz --markdown 20230728/A/AndroidN/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 01:59:41] INFO root fetch - processPackages [trainyard]: Remove: archive file [/home/abi/fetcher/tmp/trainyard-0.0.1a0.tar.gz]
+[2023-07-28 01:59:41] INFO root fetch - processPackages [trainyard]: Remove: archive file [/home/abi/fetcher/tmp/trainyard-0.0.2.tar.gz]
+[2023-07-28 01:59:41] INFO root fetch - main [MainThread]: End processing [trainyard]: success
+[2023-07-28 01:59:41] INFO root fetch - processPackages [lytekitplugins-pods]: Remove: archive file [/home/abi/fetcher/tmp/lytekitplugins-pods-0.6.0.tar.gz]
+[2023-07-28 01:59:41] INFO root fetch - processPackages [lytekitplugins-pods]: Remove: archive file [/home/abi/fetcher/tmp/lytekitplugins-pods-0.6.1.tar.gz]
+[2023-07-28 01:59:41] INFO root fetch - main [MainThread]: End processing [lytekitplugins-pods]: success
+[2023-07-28 01:59:41] INFO root fetch - processPackages [ladybug-radiance]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-radiance-0.2.2.tar.gz]
+[2023-07-28 01:59:41] INFO root fetch - processPackages [ladybug-radiance]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-radiance-0.2.3.tar.gz]
+[2023-07-28 01:59:41] INFO root fetch - main [MainThread]: End processing [ladybug-radiance]: success
+[2023-07-28 01:59:41] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.5.tar.gz]
+[2023-07-28 01:59:41] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
+[2023-07-28 01:59:41] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-07-28 01:59:42] INFO root fetch - processPackages [AndroidN]: Remove: archive file [/home/abi/fetcher/tmp/AndroidN-0.0.8.tar.gz]
+[2023-07-28 01:59:42] INFO root fetch - processPackages [AndroidN]: Remove: archive file [/home/abi/fetcher/tmp/AndroidN-0.0.9.tar.gz]
+[2023-07-28 01:59:42] INFO root fetch - main [MainThread]: End processing [AndroidN]: success
+[2023-07-28 01:59:42] INFO root fetch - main [MainThread]: Store serial: [19067589]
