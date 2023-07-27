@@ -122,3 +122,56 @@
 [2023-07-28 00:01:46] INFO root fetch - processPackages [propertysync]: Remove: archive file [/home/abi/fetcher/tmp/propertysync-0.7.1.tar.gz]
 [2023-07-28 00:01:46] INFO root fetch - main [MainThread]: End processing [propertysync]: success
 [2023-07-28 00:01:46] INFO root fetch - main [MainThread]: Store serial: [19066760]
+[2023-07-28 00:06:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19066760]
+[2023-07-28 00:06:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-28 00:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-labeled-user-defined-values
+[2023-07-28 00:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chiku
+[2023-07-28 00:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apixdev
+[2023-07-28 00:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: baseten
+[2023-07-28 00:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: homeassistant
+[2023-07-28 00:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jupyterlab-midnightsea-theme
+[2023-07-28 00:06:54] INFO root fetch - processPackages [mkdocs-labeled-user-defined-values]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-28 00:06:54] INFO root fetch - processPackages [homeassistant]: New version: [2023.8.0b1] Old Version: [2023.8.0b0]
+[2023-07-28 00:06:54] INFO root fetch - processPackages [chiku]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 00:06:54] INFO root fetch - processPackages [jupyterlab-midnightsea-theme]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-28 00:06:54] INFO root fetch - processPackages [apixdev]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-28 00:06:54] INFO root fetch - processPackages [baseten]: New version: [0.6.9] Old Version: [0.6.7]
+[2023-07-28 00:06:54] INFO root fetch - processPackages [mkdocs-labeled-user-defined-values]: Downloading https://files.pythonhosted.org/packages/1e/8f/1e5549e7e87aaed64127686758b5c55d0eb83b141f504a77baf5c165c5ea/mkdocs_labeled_user_defined_values-1.0.3-py3-none-any.whl
+[2023-07-28 00:06:54] INFO root fetch - processPackages [chiku]: Downloading https://files.pythonhosted.org/packages/53/d4/3b3f5fd0a9b4e9e7626d6e99f14d114808efd45d10acd26420d6ad2aebd4/chiku-0.0.8.tar.gz
+[2023-07-28 00:06:54] INFO root fetch - processPackages [apixdev]: Downloading https://files.pythonhosted.org/packages/bd/08/0cbb85b49dd827a7de6b18ad8c97dfad8dec160eb71bec1e4764203af6b7/apixdev-0.3.1.tar.gz
+[2023-07-28 00:06:54] INFO root fetch - processPackages [jupyterlab-midnightsea-theme]: Downloading https://files.pythonhosted.org/packages/f6/3a/b78672c066dd9b6540b83d8b5cfecc573bfa211557ac2b2bd543a936c727/jupyterlab_midnightsea_theme-0.1.2.tar.gz
+[2023-07-28 00:06:54] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/17/5d/ab1af76ee3fbe4e208fc54ce4d295d59714142e4c92174561051b59dc159/homeassistant-2023.8.0b0.tar.gz
+[2023-07-28 00:06:55] INFO root fetch - processPackages [baseten]: Downloading https://files.pythonhosted.org/packages/e5/35/cfa89b13cddf31dc4f33b10c03c88711deb4425f39f033970f60f15e3712/baseten-0.6.7.tar.gz
+[2023-07-28 00:06:55] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 15812918>=10485760
+[2023-07-28 00:06:55] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2023-07-28 00:06:55] INFO root fetch - processPackages [mkdocs-labeled-user-defined-values]: Downloading https://files.pythonhosted.org/packages/79/42/8f9eb7974a9e13d97b0a4af5c32fe5493a4d58d6810e9dc8ec24c1d662d3/mkdocs_labeled_user_defined_values-1.0.4-py3-none-any.whl
+[2023-07-28 00:06:55] INFO root fetch - processPackages [apixdev]: Downloading https://files.pythonhosted.org/packages/82/3c/fd12b977f239837494a079b1f42cb422deeec2f99ee169e59724d225fb93/apixdev-0.3.2.tar.gz
+[2023-07-28 00:06:55] INFO root fetch - processPackages [chiku]: Downloading https://files.pythonhosted.org/packages/cf/d9/145e90476aeedd34417bd0cbb2f85ff0ebfce5285d81a858a86e1960409d/chiku-0.0.9.tar.gz
+[2023-07-28 00:06:55] INFO root fetch - processPackages [baseten]: Downloading https://files.pythonhosted.org/packages/80/b7/d1a141a59f9ff6a27b38cead0a7d4ca6e2f36699e66b7bf9d803e918483b/baseten-0.6.9.tar.gz
+[2023-07-28 00:06:55] INFO root fetch - processPackages [mkdocs-labeled-user-defined-values]: executing diffoscope
+[2023-07-28 00:06:55] INFO root fetch - processPackages [mkdocs-labeled-user-defined-values]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_labeled_user_defined_values-1.0.3-py3-none-any.whl.zip tmp/mkdocs_labeled_user_defined_values-1.0.4-py3-none-any.whl.zip --markdown 20230728/m/mkdocs-labeled-user-defined-values/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-28 00:06:55] INFO root fetch - processPackages [apixdev]: executing diffoscope
+[2023-07-28 00:06:55] INFO root fetch - processPackages [apixdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apixdev-0.3.1.tar.gz tmp/apixdev-0.3.2.tar.gz --markdown 20230728/a/apixdev/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-28 00:06:55] INFO root fetch - processPackages [jupyterlab-midnightsea-theme]: Downloading https://files.pythonhosted.org/packages/b1/28/fa40b12e3dee2d53c55039dc5edc55163da83b963aa40a7b15f71800d133/jupyterlab_midnightsea_theme-0.1.3.tar.gz
+[2023-07-28 00:06:55] INFO root fetch - processPackages [baseten]: executing diffoscope
+[2023-07-28 00:06:55] INFO root fetch - processPackages [baseten]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseten-0.6.7.tar.gz tmp/baseten-0.6.9.tar.gz --markdown 20230728/b/baseten/0.6.7-0.6.9/diff.md --exclude *.pyd
+[2023-07-28 00:06:55] INFO root fetch - processPackages [chiku]: executing diffoscope
+[2023-07-28 00:06:55] INFO root fetch - processPackages [chiku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chiku-0.0.8.tar.gz tmp/chiku-0.0.9.tar.gz --markdown 20230728/c/chiku/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 00:06:55] INFO root fetch - processPackages [jupyterlab-midnightsea-theme]: executing diffoscope
+[2023-07-28 00:06:55] INFO root fetch - processPackages [jupyterlab-midnightsea-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_midnightsea_theme-0.1.2.tar.gz tmp/jupyterlab_midnightsea_theme-0.1.3.tar.gz --markdown 20230728/j/jupyterlab-midnightsea-theme/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-28 00:06:56] INFO root fetch - processPackages [baseten]: Remove: archive file [/home/abi/fetcher/tmp/baseten-0.6.7.tar.gz]
+[2023-07-28 00:06:56] INFO root fetch - processPackages [baseten]: Remove: archive file [/home/abi/fetcher/tmp/baseten-0.6.9.tar.gz]
+[2023-07-28 00:06:56] INFO root fetch - main [MainThread]: End processing [baseten]: success
+[2023-07-28 00:06:56] INFO root fetch - processPackages [mkdocs-labeled-user-defined-values]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_labeled_user_defined_values-1.0.3-py3-none-any.whl.zip]
+[2023-07-28 00:06:56] INFO root fetch - processPackages [mkdocs-labeled-user-defined-values]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_labeled_user_defined_values-1.0.4-py3-none-any.whl.zip]
+[2023-07-28 00:06:56] INFO root fetch - main [MainThread]: End processing [mkdocs-labeled-user-defined-values]: success
+[2023-07-28 00:06:56] INFO root fetch - processPackages [chiku]: Remove: archive file [/home/abi/fetcher/tmp/chiku-0.0.8.tar.gz]
+[2023-07-28 00:06:56] INFO root fetch - processPackages [chiku]: Remove: archive file [/home/abi/fetcher/tmp/chiku-0.0.9.tar.gz]
+[2023-07-28 00:06:56] INFO root fetch - main [MainThread]: End processing [chiku]: success
+[2023-07-28 00:06:56] INFO root fetch - processPackages [apixdev]: Remove: archive file [/home/abi/fetcher/tmp/apixdev-0.3.1.tar.gz]
+[2023-07-28 00:06:56] INFO root fetch - processPackages [apixdev]: Remove: archive file [/home/abi/fetcher/tmp/apixdev-0.3.2.tar.gz]
+[2023-07-28 00:06:56] INFO root fetch - main [MainThread]: End processing [apixdev]: success
+[2023-07-28 00:06:56] INFO root fetch - processPackages [jupyterlab-midnightsea-theme]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_midnightsea_theme-0.1.2.tar.gz]
+[2023-07-28 00:06:56] INFO root fetch - processPackages [jupyterlab-midnightsea-theme]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_midnightsea_theme-0.1.3.tar.gz]
+[2023-07-28 00:06:56] INFO root fetch - main [MainThread]: End processing [jupyterlab-midnightsea-theme]: success
+[2023-07-28 00:06:56] INFO root fetch - main [MainThread]: Store serial: [19066778]
