@@ -1,0 +1,124 @@
+[2023-07-28 00:01:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19066700]
+[2023-07-28 00:01:40] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-28 00:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: highcharts-core
+[2023-07-28 00:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: orso
+[2023-07-28 00:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eoshep
+[2023-07-28 00:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metabengine
+[2023-07-28 00:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydantic-dop
+[2023-07-28 00:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modal-client
+[2023-07-28 00:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: usefulgram
+[2023-07-28 00:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modal
+[2023-07-28 00:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abstract-gui
+[2023-07-28 00:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: coiled
+[2023-07-28 00:01:41] INFO root fetch - processPackages [modal-client]: New version: [0.50.2764] Old Version: [0.50.2758]
+[2023-07-28 00:01:41] INFO root fetch - processPackages [usefulgram]: New version: [0.0.0a9] Old Version: [0.0.0a8]
+[2023-07-28 00:01:41] WARNING root fetch - processPackages [pydantic-dop]: Skipping, unable to determine old version
+[2023-07-28 00:01:41] INFO root fetch - processPackages [pydantic-dop]: Start processing: dcnum
+[2023-07-28 00:01:41] INFO root fetch - main [MainThread]: End processing [pydantic-dop] error
+[2023-07-28 00:01:41] INFO root fetch - processPackages [metabengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 00:01:41] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.43] Old Version: [0.0.42]
+[2023-07-28 00:01:41] INFO root fetch - processPackages [modal]: New version: [0.50.2764] Old Version: [0.50.2758]
+[2023-07-28 00:01:41] INFO root fetch - processPackages [highcharts-core]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-07-28 00:01:41] INFO root fetch - processPackages [eoshep]: New version: [1.0.9.dev1344] Old Version: [1.0.9.dev1339]
+[2023-07-28 00:01:41] INFO root fetch - processPackages [orso]: New version: [0.0.9] Old Version: [0.0.89]
+[2023-07-28 00:01:41] INFO root fetch - processPackages [coiled]: New version: [0.9.1.dev9] Old Version: [0.9.1.dev8]
+[2023-07-28 00:01:41] INFO root fetch - processPackages [dcnum]: New version: [0.11.6] Old Version: [0.11.5]
+[2023-07-28 00:01:41] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/39/47/1cf0f4778b6f0269deb35630602de8865b2cd48392be76a5efcb9b40ef9e/modal_client-0.50.2758-py3-none-any.whl
+[2023-07-28 00:01:41] INFO root fetch - processPackages [usefulgram]: Downloading https://files.pythonhosted.org/packages/2e/0b/c176ee2a4cca2f15c3d9f3366b81ea095083b0fdd909e565d866ba9a0eb5/usefulgram-0.0.0a8.tar.gz
+[2023-07-28 00:01:41] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/15/1a/1c220b4caec3247044a809d4d9470d0c44bf112a05dae71ce33afbaba17d/dcnum-0.11.5.tar.gz
+[2023-07-28 00:01:41] INFO root fetch - processPackages [metabengine]: Downloading https://files.pythonhosted.org/packages/d9/46/f805a0511272771918fdc2aea3a4bfcf44bdbccec5cb1311e85289a6d128/metabengine-0.0.8.tar.gz
+[2023-07-28 00:01:41] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/22/d0/a65170f1284cc555cb57273153e1a2bf295f9e9a480be46ae104fa450835/abstract_gui-0.0.42-py3.11.egg
+[2023-07-28 00:01:41] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/9b/18/a6fa3162b78068f49a30204661a5b841c51582287c9de604a44fad295f4c/modal-0.50.2758-py3-none-any.whl
+[2023-07-28 00:01:41] INFO root fetch - processPackages [highcharts-core]: Downloading https://files.pythonhosted.org/packages/64/b9/3fc4891aa55777fca257742302a132c51210edb3eaf557c2797cfac27e0f/highcharts_core-1.2.4.tar.gz
+[2023-07-28 00:01:41] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/2f/d9/9a8245a5dc98d6194ae098d07776683055392bc0c589361b02c24de69510/coiled-0.9.1.dev8.tar.gz
+[2023-07-28 00:01:41] INFO root fetch - processPackages [eoshep]: Downloading https://files.pythonhosted.org/packages/84/bb/ca1c8b524764d62818cec50d987ddf555d916d08e7c026adc75a982aa824/eoshep-1.0.9.dev1339-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-28 00:01:41] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/a6/4d/234d23786931ebcc998f664881b9a1a1e7c75c96f27e990d24a9f779bdd7/orso-0.0.89.tar.gz
+[2023-07-28 00:01:41] WARNING root fetch - processPackages [highcharts-core]: Skipping package: exceeds size limit 11567702>=10485760
+[2023-07-28 00:01:41] INFO root fetch - processPackages [highcharts-core]: Start processing: CFXplorer
+[2023-07-28 00:01:41] INFO root fetch - main [MainThread]: End processing [highcharts-core] error
+[2023-07-28 00:01:41] WARNING root fetch - processPackages [eoshep]: Skipping package: exceeds size limit 78247062>=10485760
+[2023-07-28 00:01:41] INFO root fetch - processPackages [eoshep]: Start processing: pkgmt
+[2023-07-28 00:01:41] INFO root fetch - main [MainThread]: End processing [eoshep] error
+[2023-07-28 00:01:41] INFO root fetch - processPackages [CFXplorer]: New version: [0.0.dev6] Old Version: [0.0.dev5]
+[2023-07-28 00:01:41] INFO root fetch - processPackages [usefulgram]: Downloading https://files.pythonhosted.org/packages/74/30/055c6040d72076b5639809c587066ee72fd7f961a9140ad5a7d8ff1c5ea4/usefulgram-0.0.0a9.tar.gz
+[2023-07-28 00:01:41] INFO root fetch - processPackages [pkgmt]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-28 00:01:41] INFO root fetch - processPackages [CFXplorer]: Downloading https://files.pythonhosted.org/packages/9c/5d/aa9389b0f5d7bdbb1d79c1eab54cbb263c37abe609efde9cb7d44462f888/CFXplorer-0.0.dev5.tar.gz
+[2023-07-28 00:01:41] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/8a/74/c7f980b3b10dcee5e3651865e1543155c451c81d2a446a7dc76f4527f6f3/modal_client-0.50.2764-py3-none-any.whl
+[2023-07-28 00:01:42] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/e5/19/9e1516693b8358f602073aa0363dc7345cdf931e92a34e46bdce3d9e19f6/coiled-0.9.1.dev9.tar.gz
+[2023-07-28 00:01:42] INFO root fetch - processPackages [usefulgram]: executing diffoscope
+[2023-07-28 00:01:42] INFO root fetch - processPackages [usefulgram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usefulgram-0.0.0a8.tar.gz tmp/usefulgram-0.0.0a9.tar.gz --markdown 20230728/u/usefulgram/0.0.0a8-0.0.0a9/diff.md --exclude *.pyd
+[2023-07-28 00:01:42] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/5a/b5/5f157087b48eab14660e025f2b304ef021505dfe0ab91e59303734b8792f/abstract_gui-0.0.43-py3.11.egg
+[2023-07-28 00:01:42] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/69/aa/115f30c9be57ae4ee7019286e7054b3d794742da07b58a63b3c64117714a/modal-0.50.2764-py3-none-any.whl
+[2023-07-28 00:01:42] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/68/5b/d54a12f274518c8866d0bdc0d0eb3baae5022dd5e466b612d074c758213c/dcnum-0.11.6.tar.gz
+[2023-07-28 00:01:42] INFO root fetch - processPackages [metabengine]: Downloading https://files.pythonhosted.org/packages/fc/a1/351a6a3649b9c5ad6974c2adfaf669084588817967308e501736db530aa7/metabengine-0.0.9.tar.gz
+[2023-07-28 00:01:42] INFO root fetch - processPackages [pkgmt]: Downloading https://files.pythonhosted.org/packages/24/72/0b92226e3291bdc9c1b2ea78036daebd7399dccabf90eb4845e550b149d4/pkgmt-0.7.1.tar.gz
+[2023-07-28 00:01:42] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/d0/a6/e427d299b4d15d22164372c94c2665865951bb26973a967eca19d3d2493c/orso-0.0.9.tar.gz
+[2023-07-28 00:01:42] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-28 00:01:42] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.42-py3.11.egg tmp/abstract_gui-0.0.43-py3.11.egg --markdown 20230728/a/abstract-gui/0.0.42-0.0.43/diff.md --exclude *.pyd
+[2023-07-28 00:01:42] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-28 00:01:42] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.9.1.dev8.tar.gz tmp/coiled-0.9.1.dev9.tar.gz --markdown 20230728/c/coiled/0.9.1.dev8-0.9.1.dev9/diff.md --exclude *.pyd
+[2023-07-28 00:01:42] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-07-28 00:01:42] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.50.2758-py3-none-any.whl.zip tmp/modal_client-0.50.2764-py3-none-any.whl.zip --markdown 20230728/m/modal-client/0.50.2758-0.50.2764/diff.md --exclude *.pyd
+[2023-07-28 00:01:42] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-07-28 00:01:42] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.50.2758-py3-none-any.whl.zip tmp/modal-0.50.2764-py3-none-any.whl.zip --markdown 20230728/m/modal/0.50.2758-0.50.2764/diff.md --exclude *.pyd
+[2023-07-28 00:01:42] INFO root fetch - processPackages [CFXplorer]: Downloading https://files.pythonhosted.org/packages/73/ae/64f62ad784b3b9739a80642bb396a93573642e60f8e2acbdd811e202224b/CFXplorer-0.0.dev6.tar.gz
+[2023-07-28 00:01:42] INFO root fetch - processPackages [metabengine]: executing diffoscope
+[2023-07-28 00:01:42] INFO root fetch - processPackages [metabengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabengine-0.0.8.tar.gz tmp/metabengine-0.0.9.tar.gz --markdown 20230728/m/metabengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 00:01:42] INFO root fetch - processPackages [dcnum]: executing diffoscope
+[2023-07-28 00:01:42] INFO root fetch - processPackages [dcnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcnum-0.11.5.tar.gz tmp/dcnum-0.11.6.tar.gz --markdown 20230728/d/dcnum/0.11.5-0.11.6/diff.md --exclude *.pyd
+[2023-07-28 00:01:42] INFO root fetch - processPackages [CFXplorer]: executing diffoscope
+[2023-07-28 00:01:42] INFO root fetch - processPackages [CFXplorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CFXplorer-0.0.dev5.tar.gz tmp/CFXplorer-0.0.dev6.tar.gz --markdown 20230728/C/CFXplorer/0.0.dev5-0.0.dev6/diff.md --exclude *.pyd
+[2023-07-28 00:01:42] INFO root fetch - processPackages [pkgmt]: Downloading https://files.pythonhosted.org/packages/28/cd/819339d4a777132c755cbc94893c402f8d08e4283fdcdc615418fb316950/pkgmt-0.7.2.tar.gz
+[2023-07-28 00:01:42] INFO root fetch - processPackages [orso]: executing diffoscope
+[2023-07-28 00:01:42] INFO root fetch - processPackages [orso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orso-0.0.89.tar.gz tmp/orso-0.0.9.tar.gz --markdown 20230728/o/orso/0.0.89-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 00:01:42] INFO root fetch - processPackages [pkgmt]: executing diffoscope
+[2023-07-28 00:01:42] INFO root fetch - processPackages [pkgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgmt-0.7.1.tar.gz tmp/pkgmt-0.7.2.tar.gz --markdown 20230728/p/pkgmt/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-28 00:01:43] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2758-py3-none-any.whl.zip]
+[2023-07-28 00:01:43] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2764-py3-none-any.whl.zip]
+[2023-07-28 00:01:43] INFO root fetch - processPackages [modal]: Start processing: blaster-server
+[2023-07-28 00:01:43] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-07-28 00:01:44] INFO root fetch - processPackages [blaster-server]: New version: [0.0.438] Old Version: [0.0.437b0]
+[2023-07-28 00:01:44] INFO root fetch - processPackages [blaster-server]: Downloading https://files.pythonhosted.org/packages/25/79/49457fc216c1585c84b7e19f053027443ee2b3cefa9f8e02682b613aa741/blaster-server-0.0.437b0.tar.gz
+[2023-07-28 00:01:44] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.42-py3.11.egg]
+[2023-07-28 00:01:44] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.43-py3.11.egg]
+[2023-07-28 00:01:44] INFO root fetch - processPackages [abstract-gui]: Start processing: propertysync
+[2023-07-28 00:01:44] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-28 00:01:44] INFO root fetch - processPackages [metabengine]: Remove: archive file [/home/abi/fetcher/tmp/metabengine-0.0.8.tar.gz]
+[2023-07-28 00:01:44] INFO root fetch - processPackages [metabengine]: Remove: archive file [/home/abi/fetcher/tmp/metabengine-0.0.9.tar.gz]
+[2023-07-28 00:01:44] INFO root fetch - main [MainThread]: End processing [metabengine]: success
+[2023-07-28 00:01:44] INFO root fetch - processPackages [CFXplorer]: Remove: archive file [/home/abi/fetcher/tmp/CFXplorer-0.0.dev5.tar.gz]
+[2023-07-28 00:01:44] INFO root fetch - processPackages [CFXplorer]: Remove: archive file [/home/abi/fetcher/tmp/CFXplorer-0.0.dev6.tar.gz]
+[2023-07-28 00:01:44] INFO root fetch - main [MainThread]: End processing [CFXplorer]: success
+[2023-07-28 00:01:44] INFO root fetch - processPackages [blaster-server]: Downloading https://files.pythonhosted.org/packages/81/66/d43962ab05074dcddc1d70df0f60a14c73968d4809793dc22bf4415ef115/blaster-server-0.0.438.tar.gz
+[2023-07-28 00:01:44] INFO root fetch - processPackages [propertysync]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-28 00:01:44] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.1.dev8.tar.gz]
+[2023-07-28 00:01:44] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.1.dev9.tar.gz]
+[2023-07-28 00:01:44] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-28 00:01:44] INFO root fetch - processPackages [usefulgram]: Remove: archive file [/home/abi/fetcher/tmp/usefulgram-0.0.0a8.tar.gz]
+[2023-07-28 00:01:44] INFO root fetch - processPackages [usefulgram]: Remove: archive file [/home/abi/fetcher/tmp/usefulgram-0.0.0a9.tar.gz]
+[2023-07-28 00:01:44] INFO root fetch - main [MainThread]: End processing [usefulgram]: success
+[2023-07-28 00:01:44] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.89.tar.gz]
+[2023-07-28 00:01:44] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.9.tar.gz]
+[2023-07-28 00:01:44] INFO root fetch - main [MainThread]: End processing [orso]: success
+[2023-07-28 00:01:44] INFO root fetch - processPackages [blaster-server]: executing diffoscope
+[2023-07-28 00:01:44] INFO root fetch - processPackages [blaster-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blaster-server-0.0.437b0.tar.gz tmp/blaster-server-0.0.438.tar.gz --markdown 20230728/b/blaster-server/0.0.437b0-0.0.438/diff.md --exclude *.pyd
+[2023-07-28 00:01:44] INFO root fetch - processPackages [propertysync]: Downloading https://files.pythonhosted.org/packages/46/ea/4d4b8c6f743e649e0224a674516a1d3ac0e7a666891b8635393b9aea80a0/propertysync-0.7.0.tar.gz
+[2023-07-28 00:01:44] INFO root fetch - processPackages [pkgmt]: Remove: archive file [/home/abi/fetcher/tmp/pkgmt-0.7.1.tar.gz]
+[2023-07-28 00:01:44] INFO root fetch - processPackages [pkgmt]: Remove: archive file [/home/abi/fetcher/tmp/pkgmt-0.7.2.tar.gz]
+[2023-07-28 00:01:44] INFO root fetch - main [MainThread]: End processing [pkgmt]: success
+[2023-07-28 00:01:44] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.11.5.tar.gz]
+[2023-07-28 00:01:44] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.11.6.tar.gz]
+[2023-07-28 00:01:44] INFO root fetch - main [MainThread]: End processing [dcnum]: success
+[2023-07-28 00:01:45] INFO root fetch - processPackages [propertysync]: Downloading https://files.pythonhosted.org/packages/eb/82/6017d6d1bcdbd6abb36def82ccc71c3ffd0489ea3e03643ae5961826ff00/propertysync-0.7.1.tar.gz
+[2023-07-28 00:01:45] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2758-py3-none-any.whl.zip]
+[2023-07-28 00:01:45] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2764-py3-none-any.whl.zip]
+[2023-07-28 00:01:45] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-07-28 00:01:45] INFO root fetch - processPackages [propertysync]: executing diffoscope
+[2023-07-28 00:01:45] INFO root fetch - processPackages [propertysync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propertysync-0.7.0.tar.gz tmp/propertysync-0.7.1.tar.gz --markdown 20230728/p/propertysync/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-28 00:01:45] INFO root fetch - processPackages [blaster-server]: Remove: archive file [/home/abi/fetcher/tmp/blaster-server-0.0.437b0.tar.gz]
+[2023-07-28 00:01:45] INFO root fetch - processPackages [blaster-server]: Remove: archive file [/home/abi/fetcher/tmp/blaster-server-0.0.438.tar.gz]
+[2023-07-28 00:01:45] INFO root fetch - main [MainThread]: End processing [blaster-server]: success
+[2023-07-28 00:01:46] INFO root fetch - processPackages [propertysync]: Remove: archive file [/home/abi/fetcher/tmp/propertysync-0.7.0.tar.gz]
+[2023-07-28 00:01:46] INFO root fetch - processPackages [propertysync]: Remove: archive file [/home/abi/fetcher/tmp/propertysync-0.7.1.tar.gz]
+[2023-07-28 00:01:46] INFO root fetch - main [MainThread]: End processing [propertysync]: success
+[2023-07-28 00:01:46] INFO root fetch - main [MainThread]: Store serial: [19066760]
