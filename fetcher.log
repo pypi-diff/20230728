@@ -897,3 +897,59 @@
 [2023-07-28 00:49:11] INFO root fetch - processPackages [customgpt-client]: Remove: archive file [/home/abi/fetcher/tmp/customgpt_client-1.1.5-py3-none-any.whl.zip]
 [2023-07-28 00:49:11] INFO root fetch - main [MainThread]: End processing [customgpt-client]: success
 [2023-07-28 00:49:11] INFO root fetch - main [MainThread]: Store serial: [19067107]
+[2023-07-28 00:54:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19067107]
+[2023-07-28 00:54:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-28 00:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wagtail-cache
+[2023-07-28 00:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RUTTS
+[2023-07-28 00:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emoaccess
+[2023-07-28 00:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: read-structure-step
+[2023-07-28 00:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moptipyapps
+[2023-07-28 00:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cheshire-cat-api
+[2023-07-28 00:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tableau-utilities
+[2023-07-28 00:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: phybers
+[2023-07-28 00:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: modelscan
+[2023-07-28 00:54:20] INFO root fetch - processPackages [wagtail-cache]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-07-28 00:54:20] WARNING root fetch - processPackages [RUTTS]: Skipping, unable to determine old version
+[2023-07-28 00:54:20] WARNING root fetch - processPackages [cheshire-cat-api]: Skipping, unable to determine old version
+[2023-07-28 00:54:20] INFO root fetch - main [MainThread]: End processing [RUTTS] error
+[2023-07-28 00:54:20] INFO root fetch - processPackages [tableau-utilities]: New version: [2.0.64] Old Version: [2.0.63]
+[2023-07-28 00:54:20] INFO root fetch - main [MainThread]: End processing [cheshire-cat-api] error
+[2023-07-28 00:54:20] WARNING root fetch - processPackages [modelscan]: Skipping, unable to determine old version
+[2023-07-28 00:54:20] INFO root fetch - main [MainThread]: End processing [modelscan] error
+[2023-07-28 00:54:20] INFO root fetch - processPackages [phybers]: New version: [0.1.0b1] Old Version: [0.1.0b0]
+[2023-07-28 00:54:20] INFO root fetch - processPackages [moptipyapps]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-28 00:54:20] INFO root fetch - processPackages [read-structure-step]: New version: [2023.7.6] Old Version: [2023.7.27]
+[2023-07-28 00:54:20] WARNING root fetch - processPackages [emoaccess]: Skipping, unable to determine old version
+[2023-07-28 00:54:20] INFO root fetch - main [MainThread]: End processing [emoaccess] error
+[2023-07-28 00:54:20] INFO root fetch - processPackages [moptipyapps]: Downloading https://files.pythonhosted.org/packages/dd/b4/372f1e1ae19b5e3f8b5e9be2bda60edf1667543cd5ae4b16fbd6408c9958/moptipyapps-0.8.8.tar.gz
+[2023-07-28 00:54:20] INFO root fetch - processPackages [wagtail-cache]: Downloading https://files.pythonhosted.org/packages/65/64/f33fb7c2283e71b6f477e9d248778977bc427669cae5c3ee12faf44f8286/wagtail-cache-2.2.0.tar.gz
+[2023-07-28 00:54:20] INFO root fetch - processPackages [phybers]: Downloading https://files.pythonhosted.org/packages/c6/d0/f29cbccaa627d92eeb11162aded353dfe7790c25e9babb80df084c305da7/phybers-0.1.0b0.tar.gz
+[2023-07-28 00:54:20] INFO root fetch - processPackages [tableau-utilities]: Downloading https://files.pythonhosted.org/packages/5c/b5/f4830378a2f8520649a368a6847d9a1cb7c22395a4e16e03247f102ca6b5/tableau_utilities-2.0.63.tar.gz
+[2023-07-28 00:54:20] INFO root fetch - processPackages [read-structure-step]: Downloading https://files.pythonhosted.org/packages/aa/6f/07ba8bf7eeb8dd7f87db1eda3ffe66054f11d3bab4354988f411ceb925f1/read_structure_step-2023.7.27.tar.gz
+[2023-07-28 00:54:20] WARNING root fetch - processPackages [phybers]: Skipping package: exceeds size limit 10648343>=10485760
+[2023-07-28 00:54:20] INFO root fetch - main [MainThread]: End processing [phybers] error
+[2023-07-28 00:54:20] INFO root fetch - processPackages [tableau-utilities]: Downloading https://files.pythonhosted.org/packages/71/f0/b210f92c91f80d41a72a380e2f4dd91ee65f84972baf91a8ab918edf9f0b/tableau_utilities-2.0.64.tar.gz
+[2023-07-28 00:54:20] INFO root fetch - processPackages [wagtail-cache]: Downloading https://files.pythonhosted.org/packages/5b/29/6bfa2bcb8c5306e5aec92f9e3b84db5c652adc5d50d7d2149f88d090eeb5/wagtail-cache-2.3.0.tar.gz
+[2023-07-28 00:54:20] INFO root fetch - processPackages [tableau-utilities]: executing diffoscope
+[2023-07-28 00:54:20] INFO root fetch - processPackages [tableau-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tableau_utilities-2.0.63.tar.gz tmp/tableau_utilities-2.0.64.tar.gz --markdown 20230728/t/tableau-utilities/2.0.63-2.0.64/diff.md --exclude *.pyd
+[2023-07-28 00:54:21] INFO root fetch - processPackages [moptipyapps]: Downloading https://files.pythonhosted.org/packages/99/84/e6a54ea53992f0d12000f77a325b6ffd82fd0a9248f130f966739810c773/moptipyapps-0.8.9.tar.gz
+[2023-07-28 00:54:21] INFO root fetch - processPackages [wagtail-cache]: executing diffoscope
+[2023-07-28 00:54:21] INFO root fetch - processPackages [wagtail-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-cache-2.2.0.tar.gz tmp/wagtail-cache-2.3.0.tar.gz --markdown 20230728/w/wagtail-cache/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-07-28 00:54:21] INFO root fetch - processPackages [read-structure-step]: Downloading https://files.pythonhosted.org/packages/c9/dc/da4dcf0dbf84ebcfb7d7f48a22e5632ea8d1d930ffc891c1ccc099f3cf7a/read_structure_step-2023.7.6.tar.gz
+[2023-07-28 00:54:21] INFO root fetch - processPackages [moptipyapps]: executing diffoscope
+[2023-07-28 00:54:21] INFO root fetch - processPackages [moptipyapps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipyapps-0.8.8.tar.gz tmp/moptipyapps-0.8.9.tar.gz --markdown 20230728/m/moptipyapps/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-28 00:54:21] INFO root fetch - processPackages [read-structure-step]: executing diffoscope
+[2023-07-28 00:54:21] INFO root fetch - processPackages [read-structure-step]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/read_structure_step-2023.7.27.tar.gz tmp/read_structure_step-2023.7.6.tar.gz --markdown 20230728/r/read-structure-step/2023.7.27-2023.7.6/diff.md --exclude *.pyd
+[2023-07-28 00:54:21] INFO root fetch - processPackages [tableau-utilities]: Remove: archive file [/home/abi/fetcher/tmp/tableau_utilities-2.0.63.tar.gz]
+[2023-07-28 00:54:21] INFO root fetch - processPackages [tableau-utilities]: Remove: archive file [/home/abi/fetcher/tmp/tableau_utilities-2.0.64.tar.gz]
+[2023-07-28 00:54:21] INFO root fetch - main [MainThread]: End processing [tableau-utilities]: success
+[2023-07-28 00:54:22] INFO root fetch - processPackages [wagtail-cache]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-cache-2.2.0.tar.gz]
+[2023-07-28 00:54:22] INFO root fetch - processPackages [wagtail-cache]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-cache-2.3.0.tar.gz]
+[2023-07-28 00:54:22] INFO root fetch - main [MainThread]: End processing [wagtail-cache]: success
+[2023-07-28 00:54:22] INFO root fetch - processPackages [read-structure-step]: Remove: archive file [/home/abi/fetcher/tmp/read_structure_step-2023.7.27.tar.gz]
+[2023-07-28 00:54:22] INFO root fetch - processPackages [read-structure-step]: Remove: archive file [/home/abi/fetcher/tmp/read_structure_step-2023.7.6.tar.gz]
+[2023-07-28 00:54:22] INFO root fetch - main [MainThread]: End processing [read-structure-step]: success
+[2023-07-28 00:54:23] INFO root fetch - processPackages [moptipyapps]: Remove: archive file [/home/abi/fetcher/tmp/moptipyapps-0.8.8.tar.gz]
+[2023-07-28 00:54:23] INFO root fetch - processPackages [moptipyapps]: Remove: archive file [/home/abi/fetcher/tmp/moptipyapps-0.8.9.tar.gz]
+[2023-07-28 00:54:23] INFO root fetch - main [MainThread]: End processing [moptipyapps]: success
+[2023-07-28 00:54:23] INFO root fetch - main [MainThread]: Store serial: [19067140]
