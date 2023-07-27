@@ -298,3 +298,54 @@
 [2023-07-28 00:12:10] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.5.1.tar.gz]
 [2023-07-28 00:12:10] INFO root fetch - main [MainThread]: End processing [discovery-capability]: success
 [2023-07-28 00:12:10] INFO root fetch - main [MainThread]: Store serial: [19066819]
+[2023-07-28 00:17:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19066819]
+[2023-07-28 00:17:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-28 00:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hcam-finder
+[2023-07-28 00:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clifn
+[2023-07-28 00:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: usolitaire
+[2023-07-28 00:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: visiongraph
+[2023-07-28 00:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: visionmetrics
+[2023-07-28 00:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: versioned-hdf5
+[2023-07-28 00:17:19] INFO root fetch - processPackages [visiongraph]: New version: [0.1.48.1] Old Version: [0.1.48]
+[2023-07-28 00:17:19] INFO root fetch - processPackages [visionmetrics]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-28 00:17:19] INFO root fetch - processPackages [versioned-hdf5]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-28 00:17:19] INFO root fetch - processPackages [usolitaire]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-28 00:17:19] WARNING root fetch - processPackages [clifn]: Skipping, unable to determine old version
+[2023-07-28 00:17:19] INFO root fetch - main [MainThread]: End processing [clifn] error
+[2023-07-28 00:17:19] INFO root fetch - processPackages [hcam-finder]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-28 00:17:19] INFO root fetch - processPackages [usolitaire]: Downloading https://files.pythonhosted.org/packages/72/54/5c4ae50c725498f2360c98091c823086988fb78e112a48d2554c76d61d3d/usolitaire-1.0.0.tar.gz
+[2023-07-28 00:17:19] INFO root fetch - processPackages [visiongraph]: Downloading https://files.pythonhosted.org/packages/48/ab/e3673ce37af513e18730483679a72e5c0f3c005504573145099b18d25df3/visiongraph-0.1.48-py3-none-any.whl
+[2023-07-28 00:17:19] INFO root fetch - processPackages [visionmetrics]: Downloading https://files.pythonhosted.org/packages/0c/c5/9d69a35d8f43e97044d7f28cc8f94265219086b8b776c225c10ff2b9e524/visionmetrics-0.0.3.tar.gz
+[2023-07-28 00:17:19] INFO root fetch - processPackages [versioned-hdf5]: Downloading https://files.pythonhosted.org/packages/ff/70/133cbfde0c04b97c2890e736abfdb6ade45e3bf2b9967c2502d1078648d8/versioned-hdf5-1.3.8.tar.gz
+[2023-07-28 00:17:19] INFO root fetch - processPackages [hcam-finder]: Downloading https://files.pythonhosted.org/packages/ee/d0/bc885ed5a5bbe0f488f4159fdb8ba851d859b49db67b3ccedd2c01f98b96/hcam_finder-1.3.2.tar.gz
+[2023-07-28 00:17:19] INFO root fetch - processPackages [usolitaire]: Downloading https://files.pythonhosted.org/packages/01/82/81c734cb63f0a3bad8d4a574830ef0af6002c4da6ed2dd9ce3636da98151/usolitaire-1.0.1.tar.gz
+[2023-07-28 00:17:19] INFO root fetch - processPackages [visiongraph]: Downloading https://files.pythonhosted.org/packages/dc/2a/2427e44aa64dd81f2009be85492f121f0383225cb1349e9d1a9b62043068/visiongraph-0.1.48.1-py3-none-any.whl
+[2023-07-28 00:17:19] INFO root fetch - processPackages [usolitaire]: executing diffoscope
+[2023-07-28 00:17:19] INFO root fetch - processPackages [usolitaire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usolitaire-1.0.0.tar.gz tmp/usolitaire-1.0.1.tar.gz --markdown 20230728/u/usolitaire/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-28 00:17:19] INFO root fetch - processPackages [visiongraph]: executing diffoscope
+[2023-07-28 00:17:19] INFO root fetch - processPackages [visiongraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visiongraph-0.1.48-py3-none-any.whl.zip tmp/visiongraph-0.1.48.1-py3-none-any.whl.zip --markdown 20230728/v/visiongraph/0.1.48-0.1.48.1/diff.md --exclude *.pyd
+[2023-07-28 00:17:19] INFO root fetch - processPackages [visionmetrics]: Downloading https://files.pythonhosted.org/packages/71/f5/99ddb7a2a1fd4b117132e1b3c9f36f4a50003912ee43be866139759f21ca/visionmetrics-0.0.4.tar.gz
+[2023-07-28 00:17:19] INFO root fetch - processPackages [hcam-finder]: Downloading https://files.pythonhosted.org/packages/5a/e9/f79e3d568c584f7f68c00753e4f52adefc28b14ff14fb38517acfd284d2b/hcam_finder-1.3.3.tar.gz
+[2023-07-28 00:17:19] INFO root fetch - processPackages [visionmetrics]: executing diffoscope
+[2023-07-28 00:17:19] INFO root fetch - processPackages [visionmetrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visionmetrics-0.0.3.tar.gz tmp/visionmetrics-0.0.4.tar.gz --markdown 20230728/v/visionmetrics/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-28 00:17:20] INFO root fetch - processPackages [versioned-hdf5]: Downloading https://files.pythonhosted.org/packages/dc/9c/0bcc5a79b0f61e26decb3eb09eb54debe26f254bc83efee78baa6e4a7e02/versioned-hdf5-1.3.9.tar.gz
+[2023-07-28 00:17:20] INFO root fetch - processPackages [hcam-finder]: executing diffoscope
+[2023-07-28 00:17:20] INFO root fetch - processPackages [hcam-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcam_finder-1.3.2.tar.gz tmp/hcam_finder-1.3.3.tar.gz --markdown 20230728/h/hcam-finder/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-28 00:17:20] INFO root fetch - processPackages [usolitaire]: Remove: archive file [/home/abi/fetcher/tmp/usolitaire-1.0.0.tar.gz]
+[2023-07-28 00:17:20] INFO root fetch - processPackages [usolitaire]: Remove: archive file [/home/abi/fetcher/tmp/usolitaire-1.0.1.tar.gz]
+[2023-07-28 00:17:20] INFO root fetch - main [MainThread]: End processing [usolitaire]: success
+[2023-07-28 00:17:20] INFO root fetch - processPackages [visionmetrics]: Remove: archive file [/home/abi/fetcher/tmp/visionmetrics-0.0.3.tar.gz]
+[2023-07-28 00:17:20] INFO root fetch - processPackages [visionmetrics]: Remove: archive file [/home/abi/fetcher/tmp/visionmetrics-0.0.4.tar.gz]
+[2023-07-28 00:17:20] INFO root fetch - main [MainThread]: End processing [visionmetrics]: success
+[2023-07-28 00:17:20] INFO root fetch - processPackages [versioned-hdf5]: executing diffoscope
+[2023-07-28 00:17:20] INFO root fetch - processPackages [versioned-hdf5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/versioned-hdf5-1.3.8.tar.gz tmp/versioned-hdf5-1.3.9.tar.gz --markdown 20230728/v/versioned-hdf5/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-28 00:17:21] INFO root fetch - processPackages [visiongraph]: Remove: archive file [/home/abi/fetcher/tmp/visiongraph-0.1.48-py3-none-any.whl.zip]
+[2023-07-28 00:17:21] INFO root fetch - processPackages [visiongraph]: Remove: archive file [/home/abi/fetcher/tmp/visiongraph-0.1.48.1-py3-none-any.whl.zip]
+[2023-07-28 00:17:21] INFO root fetch - main [MainThread]: End processing [visiongraph]: success
+[2023-07-28 00:17:21] INFO root fetch - processPackages [hcam-finder]: Remove: archive file [/home/abi/fetcher/tmp/hcam_finder-1.3.2.tar.gz]
+[2023-07-28 00:17:21] INFO root fetch - processPackages [hcam-finder]: Remove: archive file [/home/abi/fetcher/tmp/hcam_finder-1.3.3.tar.gz]
+[2023-07-28 00:17:21] INFO root fetch - main [MainThread]: End processing [hcam-finder]: success
+[2023-07-28 00:17:21] INFO root fetch - processPackages [versioned-hdf5]: Remove: archive file [/home/abi/fetcher/tmp/versioned-hdf5-1.3.8.tar.gz]
+[2023-07-28 00:17:21] INFO root fetch - processPackages [versioned-hdf5]: Remove: archive file [/home/abi/fetcher/tmp/versioned-hdf5-1.3.9.tar.gz]
+[2023-07-28 00:17:21] INFO root fetch - main [MainThread]: End processing [versioned-hdf5]: success
+[2023-07-28 00:17:21] INFO root fetch - main [MainThread]: Store serial: [19066839]
