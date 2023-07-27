@@ -349,3 +349,74 @@
 [2023-07-28 00:17:21] INFO root fetch - processPackages [versioned-hdf5]: Remove: archive file [/home/abi/fetcher/tmp/versioned-hdf5-1.3.9.tar.gz]
 [2023-07-28 00:17:21] INFO root fetch - main [MainThread]: End processing [versioned-hdf5]: success
 [2023-07-28 00:17:21] INFO root fetch - main [MainThread]: Store serial: [19066839]
+[2023-07-28 00:22:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19066839]
+[2023-07-28 00:22:29] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-28 00:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: similarity-ts
+[2023-07-28 00:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SBMLDiagrams
+[2023-07-28 00:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-gui
+[2023-07-28 00:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyontutils
+[2023-07-28 00:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cheshire-cat-api
+[2023-07-28 00:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: photondemo
+[2023-07-28 00:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dvc-data
+[2023-07-28 00:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: HABZONEpy
+[2023-07-28 00:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cc-py-commons
+[2023-07-28 00:22:30] INFO root fetch - processPackages [cc-py-commons]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-28 00:22:30] INFO root fetch - processPackages [dvc-data]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-07-28 00:22:30] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.46] Old Version: [0.0.45]
+[2023-07-28 00:22:30] INFO root fetch - processPackages [SBMLDiagrams]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-28 00:22:30] INFO root fetch - processPackages [similarity-ts]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-28 00:22:30] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/10/42/502f103d41e21d12b8b73b10aa1f6746d524e08bfb31ef9da54cd09baa4e/cc_py_commons-0.3.8.tar.gz
+[2023-07-28 00:22:30] WARNING root fetch - processPackages [cheshire-cat-api]: Skipping, unable to determine old version
+[2023-07-28 00:22:30] INFO root fetch - main [MainThread]: End processing [cheshire-cat-api] error
+[2023-07-28 00:22:30] INFO root fetch - processPackages [photondemo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 00:22:30] WARNING root fetch - processPackages [HABZONEpy]: Skipping, unable to determine old version
+[2023-07-28 00:22:30] INFO root fetch - main [MainThread]: End processing [HABZONEpy] error
+[2023-07-28 00:22:30] INFO root fetch - processPackages [pyontutils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-28 00:22:30] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/0c/70/5b6c12a3b280d3d13eea9ae32e6dd837a66972d5a01ab7fb4f2fe02bf63e/dvc-data-2.7.0.tar.gz
+[2023-07-28 00:22:30] INFO root fetch - processPackages [SBMLDiagrams]: Downloading https://files.pythonhosted.org/packages/f7/8b/d4a1b8e4284244d2b16fec7a3631c7685dc8ee1b19da2c8fe0a697c0efd9/SBMLDiagrams-1.3.8.tar.gz
+[2023-07-28 00:22:30] INFO root fetch - processPackages [photondemo]: Downloading https://files.pythonhosted.org/packages/0a/6d/7932cd610a0541b76d781bb7f7bdd31d7a2f5dd2384d1eac4c2f87af88f3/photondemo-0.0.8.tar.gz
+[2023-07-28 00:22:30] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/ed/3b/b69ed07247724e9fbb2d311705ea6bad926453907d0c118c8f45778aa0d9/dvc-data-2.7.1.tar.gz
+[2023-07-28 00:22:30] INFO root fetch - processPackages [similarity-ts]: Downloading https://files.pythonhosted.org/packages/3a/5d/fc9c512a78c213110f754cabc4d16aa923a5e6f2326148c03f1bd87c4171/similarity_ts-1.0.3.tar.gz
+[2023-07-28 00:22:30] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/62/0f/a8f67ff16dfadab247c00391f31f27d6749800d87f2f26575260a673ed60/abstract_gui-0.0.46-py3.11.egg
+[2023-07-28 00:22:30] INFO root fetch - processPackages [pyontutils]: Downloading https://files.pythonhosted.org/packages/98/bf/b19c290808ecdc84f7f2b170f870cd2f6e1cc770089ed0733ac81625204a/pyontutils-0.1.8.tar.gz
+[2023-07-28 00:22:30] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/82/40/3f57e851a678f8ab892fc073e96dc9560b1895512dc09d14c8ab97cb6908/cc_py_commons-0.3.9.tar.gz
+[2023-07-28 00:22:30] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-07-28 00:22:30] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-2.7.0.tar.gz tmp/dvc-data-2.7.1.tar.gz --markdown 20230728/d/dvc-data/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-07-28 00:22:30] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-28 00:22:30] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.45-py3.11.egg tmp/abstract_gui-0.0.46-py3.11.egg --markdown 20230728/a/abstract-gui/0.0.45-0.0.46/diff.md --exclude *.pyd
+[2023-07-28 00:22:30] INFO root fetch - processPackages [SBMLDiagrams]: Downloading https://files.pythonhosted.org/packages/96/0a/f1986c1fa550dcfa0a07034ffa0b42c3241a1e44e453ddae7d2cbb97389a/SBMLDiagrams-1.3.9.tar.gz
+[2023-07-28 00:22:30] INFO root fetch - processPackages [photondemo]: Downloading https://files.pythonhosted.org/packages/2f/9e/40812f7ad1e8f5454f4c951d1ed05c6cb8c153661e3ca9c0592c6603a2e0/photondemo-0.0.9.tar.gz
+[2023-07-28 00:22:30] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2023-07-28 00:22:30] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.3.8.tar.gz tmp/cc_py_commons-0.3.9.tar.gz --markdown 20230728/c/cc-py-commons/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-28 00:22:31] INFO root fetch - processPackages [similarity-ts]: Downloading https://files.pythonhosted.org/packages/ae/02/7f53cb656258725bdeadf939865b746a99839b8055aea1361da777c67e78/similarity_ts-1.0.4.tar.gz
+[2023-07-28 00:22:31] INFO root fetch - processPackages [photondemo]: executing diffoscope
+[2023-07-28 00:22:31] INFO root fetch - processPackages [photondemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photondemo-0.0.8.tar.gz tmp/photondemo-0.0.9.tar.gz --markdown 20230728/p/photondemo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 00:22:31] INFO root fetch - processPackages [SBMLDiagrams]: executing diffoscope
+[2023-07-28 00:22:31] INFO root fetch - processPackages [SBMLDiagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SBMLDiagrams-1.3.8.tar.gz tmp/SBMLDiagrams-1.3.9.tar.gz --markdown 20230728/S/SBMLDiagrams/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-28 00:22:31] INFO root fetch - processPackages [similarity-ts]: executing diffoscope
+[2023-07-28 00:22:31] INFO root fetch - processPackages [similarity-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/similarity_ts-1.0.3.tar.gz tmp/similarity_ts-1.0.4.tar.gz --markdown 20230728/s/similarity-ts/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-28 00:22:31] INFO root fetch - processPackages [pyontutils]: Downloading https://files.pythonhosted.org/packages/04/97/3de173ab8be62b6355f44a4a05408c8c1e3d1734f064585a062928dcf8ae/pyontutils-0.1.9.tar.gz
+[2023-07-28 00:22:31] INFO root fetch - processPackages [pyontutils]: executing diffoscope
+[2023-07-28 00:22:31] INFO root fetch - processPackages [pyontutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyontutils-0.1.8.tar.gz tmp/pyontutils-0.1.9.tar.gz --markdown 20230728/p/pyontutils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-28 00:22:31] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.45-py3.11.egg]
+[2023-07-28 00:22:31] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.46-py3.11.egg]
+[2023-07-28 00:22:31] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-28 00:22:32] INFO root fetch - processPackages [photondemo]: Remove: archive file [/home/abi/fetcher/tmp/photondemo-0.0.8.tar.gz]
+[2023-07-28 00:22:32] INFO root fetch - processPackages [photondemo]: Remove: archive file [/home/abi/fetcher/tmp/photondemo-0.0.9.tar.gz]
+[2023-07-28 00:22:32] INFO root fetch - main [MainThread]: End processing [photondemo]: success
+[2023-07-28 00:22:32] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-2.7.0.tar.gz]
+[2023-07-28 00:22:32] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-2.7.1.tar.gz]
+[2023-07-28 00:22:32] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-07-28 00:22:32] INFO root fetch - processPackages [cc-py-commons]: Remove: archive file [/home/abi/fetcher/tmp/cc_py_commons-0.3.8.tar.gz]
+[2023-07-28 00:22:32] INFO root fetch - processPackages [cc-py-commons]: Remove: archive file [/home/abi/fetcher/tmp/cc_py_commons-0.3.9.tar.gz]
+[2023-07-28 00:22:32] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
+[2023-07-28 00:22:32] INFO root fetch - processPackages [SBMLDiagrams]: Remove: archive file [/home/abi/fetcher/tmp/SBMLDiagrams-1.3.8.tar.gz]
+[2023-07-28 00:22:32] INFO root fetch - processPackages [SBMLDiagrams]: Remove: archive file [/home/abi/fetcher/tmp/SBMLDiagrams-1.3.9.tar.gz]
+[2023-07-28 00:22:32] INFO root fetch - main [MainThread]: End processing [SBMLDiagrams]: success
+[2023-07-28 00:22:32] INFO root fetch - processPackages [similarity-ts]: Remove: archive file [/home/abi/fetcher/tmp/similarity_ts-1.0.3.tar.gz]
+[2023-07-28 00:22:32] INFO root fetch - processPackages [similarity-ts]: Remove: archive file [/home/abi/fetcher/tmp/similarity_ts-1.0.4.tar.gz]
+[2023-07-28 00:22:32] INFO root fetch - main [MainThread]: End processing [similarity-ts]: success
+[2023-07-28 00:22:32] INFO root fetch - processPackages [pyontutils]: Remove: archive file [/home/abi/fetcher/tmp/pyontutils-0.1.8.tar.gz]
+[2023-07-28 00:22:32] INFO root fetch - processPackages [pyontutils]: Remove: archive file [/home/abi/fetcher/tmp/pyontutils-0.1.9.tar.gz]
+[2023-07-28 00:22:32] INFO root fetch - main [MainThread]: End processing [pyontutils]: success
+[2023-07-28 00:22:32] INFO root fetch - main [MainThread]: Store serial: [19066879]
