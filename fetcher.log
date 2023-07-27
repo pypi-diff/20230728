@@ -773,3 +773,127 @@
 [2023-07-28 00:43:55] INFO root fetch - processPackages [mkdocs]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-1.5.1.tar.gz]
 [2023-07-28 00:43:55] INFO root fetch - main [MainThread]: End processing [mkdocs]: success
 [2023-07-28 00:43:55] INFO root fetch - main [MainThread]: Store serial: [19067064]
+[2023-07-28 00:48:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19067064]
+[2023-07-28 00:49:03] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-28 00:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygrb-lc
+[2023-07-28 00:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snaptrade-python-sdk
+[2023-07-28 00:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: HABZONEpy
+[2023-07-28 00:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: beam-sdk
+[2023-07-28 00:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roblox-pyc
+[2023-07-28 00:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: humanloop
+[2023-07-28 00:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ovos-dinkum-listener
+[2023-07-28 00:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oci-mlflow
+[2023-07-28 00:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pygrb-lc
+[2023-07-28 00:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: echofish-aws-resample-and-write-to-zarr-store-lambda
+[2023-07-28 00:49:04] INFO root fetch - processPackages [pygrb-lc]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-28 00:49:04] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: New version: [1.0.0.dev20230727222917] Old Version: [1.0.0.dev20230727182051]
+[2023-07-28 00:49:04] INFO root fetch - processPackages [beam-sdk]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-28 00:49:04] WARNING root fetch - processPackages [HABZONEpy]: Skipping, unable to determine old version
+[2023-07-28 00:49:04] INFO root fetch - processPackages [HABZONEpy]: Start processing: modal-client
+[2023-07-28 00:49:04] INFO root fetch - main [MainThread]: End processing [HABZONEpy] error
+[2023-07-28 00:49:04] INFO root fetch - processPackages [pygrb-lc]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-28 00:49:04] INFO root fetch - processPackages [humanloop]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-28 00:49:04] INFO root fetch - processPackages [snaptrade-python-sdk]: New version: [9.0.0] Old Version: [8.4.0]
+[2023-07-28 00:49:04] INFO root fetch - processPackages [oci-mlflow]: New version: [1.0b0] Old Version: [1.0.2]
+[2023-07-28 00:49:04] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-28 00:49:04] INFO root fetch - processPackages [ovos-dinkum-listener]: New version: [0.0.3a2] Old Version: [0.0.2a9]
+[2023-07-28 00:49:04] INFO root fetch - processPackages [modal-client]: New version: [0.50.2764] Old Version: [0.50.2758]
+[2023-07-28 00:49:04] INFO root fetch - processPackages [beam-sdk]: Downloading https://files.pythonhosted.org/packages/d6/21/9666fc17e5c5d3b0f75cde3f0ad0a33e2fe3063aa155fc1fc4593572bb8d/beam-sdk-0.9.8.tar.gz
+[2023-07-28 00:49:04] INFO root fetch - processPackages [pygrb-lc]: Downloading https://files.pythonhosted.org/packages/ec/82/5714b93e66dba115c637ad3fed5ddf73c75a6ee935c9bdf5c0c27d56ac95/pygrb_lc-0.1.3.tar.gz
+[2023-07-28 00:49:04] INFO root fetch - processPackages [pygrb-lc]: Downloading https://files.pythonhosted.org/packages/ec/82/5714b93e66dba115c637ad3fed5ddf73c75a6ee935c9bdf5c0c27d56ac95/pygrb_lc-0.1.3.tar.gz
+[2023-07-28 00:49:04] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-28 00:49:04] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: Downloading https://files.pythonhosted.org/packages/e4/a2/3400968474e38c149db997eff5ee3004d43b7b909b09fe6f8a1d72c0ca3c/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230727182051.tar.gz
+[2023-07-28 00:49:04] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/39/47/1cf0f4778b6f0269deb35630602de8865b2cd48392be76a5efcb9b40ef9e/modal_client-0.50.2758-py3-none-any.whl
+[2023-07-28 00:49:04] INFO root fetch - processPackages [oci-mlflow]: Downloading https://files.pythonhosted.org/packages/44/ab/ff3a0892a26a971072158e1c6ddf8a8291e813c35773dd09164d711dae16/oci_mlflow-1.0.2-py3-none-any.whl
+[2023-07-28 00:49:04] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/f1/b9/4267d841e0747581a912ad1bbbfd431c4a0321da4fe23ecfce74d9c18ee3/humanloop-0.4.8.tar.gz
+[2023-07-28 00:49:04] INFO root fetch - processPackages [snaptrade-python-sdk]: Downloading https://files.pythonhosted.org/packages/6f/c7/47221dc28e809cffa217eee9b3e3ab3b2e102b70f8259c8619c4d06252a1/snaptrade-python-sdk-8.4.0.tar.gz
+[2023-07-28 00:49:04] INFO root fetch - processPackages [ovos-dinkum-listener]: Downloading https://files.pythonhosted.org/packages/22/12/90004795d7f36c8a2ddc6dd54b12d22f1c0eaeb096c07098c4d980132a21/ovos_dinkum_listener-0.0.2a9-py3-none-any.whl
+[2023-07-28 00:49:04] INFO root fetch - processPackages [beam-sdk]: Downloading https://files.pythonhosted.org/packages/64/d7/1ec63c342b9af2c5412a757ed5c8a6c98db462032364060ff95bda50e556/beam-sdk-0.9.9.tar.gz
+[2023-07-28 00:49:04] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-28 00:49:05] INFO root fetch - processPackages [pygrb-lc]: Downloading https://files.pythonhosted.org/packages/c4/42/501e2095bea5d7a787d13dd11b931022c2fdba1d8b3a28b7d0e158e28db6/pygrb_lc-0.1.4.tar.gz
+[2023-07-28 00:49:05] INFO root fetch - processPackages [pygrb-lc]: Downloading https://files.pythonhosted.org/packages/c4/42/501e2095bea5d7a787d13dd11b931022c2fdba1d8b3a28b7d0e158e28db6/pygrb_lc-0.1.4.tar.gz
+[2023-07-28 00:49:05] INFO root fetch - processPackages [beam-sdk]: executing diffoscope
+[2023-07-28 00:49:05] INFO root fetch - processPackages [beam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beam-sdk-0.9.8.tar.gz tmp/beam-sdk-0.9.9.tar.gz --markdown 20230728/b/beam-sdk/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-28 00:49:05] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-28 00:49:05] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230728/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-28 00:49:05] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/8a/74/c7f980b3b10dcee5e3651865e1543155c451c81d2a446a7dc76f4527f6f3/modal_client-0.50.2764-py3-none-any.whl
+[2023-07-28 00:49:05] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: Downloading https://files.pythonhosted.org/packages/8e/f8/db758489e3e74d7e1a41402a02a1b245211faebe28e51259f961e6020fed/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230727222917.tar.gz
+[2023-07-28 00:49:05] INFO root fetch - processPackages [oci-mlflow]: Downloading https://files.pythonhosted.org/packages/b1/90/6f76424dd165d4c80abe9ea239bc957e33907d19713a99e2504f66f74aac/oci_mlflow-1.0b0-py3-none-any.whl
+[2023-07-28 00:49:05] INFO root fetch - processPackages [pygrb-lc]: executing diffoscope
+[2023-07-28 00:49:05] INFO root fetch - processPackages [pygrb-lc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygrb_lc-0.1.3.tar.gz tmp/pygrb_lc-0.1.4.tar.gz --markdown 20230728/p/pygrb-lc/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-28 00:49:05] INFO root fetch - processPackages [pygrb-lc]: executing diffoscope
+[2023-07-28 00:49:05] INFO root fetch - processPackages [pygrb-lc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygrb_lc-0.1.3.tar.gz tmp/pygrb_lc-0.1.4.tar.gz --markdown 20230728/p/pygrb-lc/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-28 00:49:05] INFO root fetch - processPackages [snaptrade-python-sdk]: Downloading https://files.pythonhosted.org/packages/e8/91/81180245a4093fa5b9c1f540d35e7336338579401f2ae021892d41cf39f7/snaptrade-python-sdk-9.0.0.tar.gz
+[2023-07-28 00:49:05] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-07-28 00:49:05] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.50.2758-py3-none-any.whl.zip tmp/modal_client-0.50.2764-py3-none-any.whl.zip --markdown 20230728/m/modal-client/0.50.2758-0.50.2764/diff.md --exclude *.pyd
+[2023-07-28 00:49:05] INFO root fetch - processPackages [ovos-dinkum-listener]: Downloading https://files.pythonhosted.org/packages/31/39/c82b73c1e100263d58f45cd7c4ea1142ef30f5d223ca4bba35e4e194875f/ovos-dinkum-listener-0.0.3a2.tar.gz
+[2023-07-28 00:49:05] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: executing diffoscope
+[2023-07-28 00:49:05] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230727182051.tar.gz tmp/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230727222917.tar.gz --markdown 20230728/e/echofish-aws-resample-and-write-to-zarr-store-lambda/1.0.0.dev20230727182051-1.0.0.dev20230727222917/diff.md --exclude *.pyd
+[2023-07-28 00:49:05] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/84/32/5746adabd7ecbbe87c50804a08d26141ec3c210d49fac450b500adfa126a/humanloop-0.4.9.tar.gz
+[2023-07-28 00:49:05] INFO root fetch - processPackages [snaptrade-python-sdk]: executing diffoscope
+[2023-07-28 00:49:05] INFO root fetch - processPackages [snaptrade-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snaptrade-python-sdk-8.4.0.tar.gz tmp/snaptrade-python-sdk-9.0.0.tar.gz --markdown 20230728/s/snaptrade-python-sdk/8.4.0-9.0.0/diff.md --exclude *.pyd
+[2023-07-28 00:49:05] INFO root fetch - processPackages [oci-mlflow]: executing diffoscope
+[2023-07-28 00:49:05] INFO root fetch - processPackages [oci-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oci_mlflow-1.0.2-py3-none-any.whl.zip tmp/oci_mlflow-1.0b0-py3-none-any.whl.zip --markdown 20230728/o/oci-mlflow/1.0.2-1.0b0/diff.md --exclude *.pyd
+[2023-07-28 00:49:05] INFO root fetch - processPackages [ovos-dinkum-listener]: executing diffoscope
+[2023-07-28 00:49:05] INFO root fetch - processPackages [ovos-dinkum-listener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_dinkum_listener-0.0.2a9-py3-none-any.whl.zip tmp/ovos-dinkum-listener-0.0.3a2.tar.gz --markdown 20230728/o/ovos-dinkum-listener/0.0.2a9-0.0.3a2/diff.md --exclude *.pyd
+[2023-07-28 00:49:05] INFO root fetch - processPackages [humanloop]: executing diffoscope
+[2023-07-28 00:49:05] INFO root fetch - processPackages [humanloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humanloop-0.4.8.tar.gz tmp/humanloop-0.4.9.tar.gz --markdown 20230728/h/humanloop/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-28 00:49:06] INFO root fetch - processPackages [beam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/beam-sdk-0.9.8.tar.gz]
+[2023-07-28 00:49:06] INFO root fetch - processPackages [beam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/beam-sdk-0.9.9.tar.gz]
+[2023-07-28 00:49:06] INFO root fetch - processPackages [beam-sdk]: Start processing: modal
+[2023-07-28 00:49:06] INFO root fetch - main [MainThread]: End processing [beam-sdk]: success
+[2023-07-28 00:49:06] INFO root fetch - processPackages [modal]: New version: [0.50.2764] Old Version: [0.50.2758]
+[2023-07-28 00:49:06] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-28 00:49:06] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-28 00:49:06] INFO root fetch - processPackages [roblox-pyc]: Start processing: pydeezer-asy
+[2023-07-28 00:49:06] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-28 00:49:06] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/9b/18/a6fa3162b78068f49a30204661a5b841c51582287c9de604a44fad295f4c/modal-0.50.2758-py3-none-any.whl
+[2023-07-28 00:49:06] INFO root fetch - processPackages [pydeezer-asy]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-07-28 00:49:06] INFO root fetch - processPackages [pygrb-lc]: Remove: archive file [/home/abi/fetcher/tmp/pygrb_lc-0.1.3.tar.gz]
+[2023-07-28 00:49:06] INFO root fetch - processPackages [pygrb-lc]: Remove: archive file [/home/abi/fetcher/tmp/pygrb_lc-0.1.4.tar.gz]
+[2023-07-28 00:49:06] INFO root fetch - processPackages [pygrb-lc]: Start processing: customgpt-client
+[2023-07-28 00:49:06] INFO root fetch - main [MainThread]: End processing [pygrb-lc]: success
+[2023-07-28 00:49:06] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230727182051.tar.gz]
+[2023-07-28 00:49:06] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-resample-and-write-to-zarr-store-lambda-1.0.0.dev20230727222917.tar.gz]
+[2023-07-28 00:49:06] INFO root fetch - processPackages [echofish-aws-resample-and-write-to-zarr-store-lambda]: Start processing: cheshire-cat-api
+[2023-07-28 00:49:06] INFO root fetch - main [MainThread]: End processing [echofish-aws-resample-and-write-to-zarr-store-lambda]: success
+[2023-07-28 00:49:06] INFO root fetch - main [MainThread]: End processing [pygrb-lc]: success
+[2023-07-28 00:49:06] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/69/aa/115f30c9be57ae4ee7019286e7054b3d794742da07b58a63b3c64117714a/modal-0.50.2764-py3-none-any.whl
+[2023-07-28 00:49:06] INFO root fetch - processPackages [customgpt-client]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-28 00:49:06] WARNING root fetch - processPackages [cheshire-cat-api]: Skipping, unable to determine old version
+[2023-07-28 00:49:06] INFO root fetch - main [MainThread]: End processing [cheshire-cat-api] error
+[2023-07-28 00:49:06] INFO root fetch - processPackages [pydeezer-asy]: Downloading https://files.pythonhosted.org/packages/9f/be/3c33dc570966b3a360314a9503f1d84f688dae8a217e7a761cd25a650c23/pydeezer_asy-2.2.0.tar.gz
+[2023-07-28 00:49:06] INFO root fetch - processPackages [oci-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/oci_mlflow-1.0.2-py3-none-any.whl.zip]
+[2023-07-28 00:49:06] INFO root fetch - processPackages [oci-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/oci_mlflow-1.0b0-py3-none-any.whl.zip]
+[2023-07-28 00:49:06] INFO root fetch - main [MainThread]: End processing [oci-mlflow]: success
+[2023-07-28 00:49:07] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-07-28 00:49:07] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.50.2758-py3-none-any.whl.zip tmp/modal-0.50.2764-py3-none-any.whl.zip --markdown 20230728/m/modal/0.50.2758-0.50.2764/diff.md --exclude *.pyd
+[2023-07-28 00:49:07] INFO root fetch - processPackages [ovos-dinkum-listener]: Remove: archive file [/home/abi/fetcher/tmp/ovos_dinkum_listener-0.0.2a9-py3-none-any.whl.zip]
+[2023-07-28 00:49:07] INFO root fetch - processPackages [ovos-dinkum-listener]: Remove: archive file [/home/abi/fetcher/tmp/ovos-dinkum-listener-0.0.3a2.tar.gz]
+[2023-07-28 00:49:07] INFO root fetch - main [MainThread]: End processing [ovos-dinkum-listener]: success
+[2023-07-28 00:49:07] INFO root fetch - processPackages [customgpt-client]: Downloading https://files.pythonhosted.org/packages/05/f4/3591e7d5ce5e6e52a6a008f37b90640ee73ba71007545c400135e66dcbf7/customgpt_client-1.1.4-py3-none-any.whl
+[2023-07-28 00:49:07] INFO root fetch - processPackages [pydeezer-asy]: Downloading https://files.pythonhosted.org/packages/dd/83/3f39c51e7749177203f1a5118f3209662fb64225df98744335da0da7fc6f/pydeezer_asy-2.2.1.tar.gz
+[2023-07-28 00:49:07] INFO root fetch - processPackages [pydeezer-asy]: executing diffoscope
+[2023-07-28 00:49:07] INFO root fetch - processPackages [customgpt-client]: Downloading https://files.pythonhosted.org/packages/dc/4b/b5b71d0d2cfddd7bf29e4cdf7c9c9d4ef5a3814a1f8e5064581ed86f39e9/customgpt_client-1.1.5-py3-none-any.whl
+[2023-07-28 00:49:07] INFO root fetch - processPackages [pydeezer-asy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydeezer_asy-2.2.0.tar.gz tmp/pydeezer_asy-2.2.1.tar.gz --markdown 20230728/p/pydeezer-asy/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-07-28 00:49:07] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2758-py3-none-any.whl.zip]
+[2023-07-28 00:49:07] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2764-py3-none-any.whl.zip]
+[2023-07-28 00:49:07] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-07-28 00:49:07] INFO root fetch - processPackages [customgpt-client]: executing diffoscope
+[2023-07-28 00:49:07] INFO root fetch - processPackages [customgpt-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customgpt_client-1.1.4-py3-none-any.whl.zip tmp/customgpt_client-1.1.5-py3-none-any.whl.zip --markdown 20230728/c/customgpt-client/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-28 00:49:07] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2758-py3-none-any.whl.zip]
+[2023-07-28 00:49:07] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2764-py3-none-any.whl.zip]
+[2023-07-28 00:49:07] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-07-28 00:49:08] INFO root fetch - processPackages [pydeezer-asy]: Remove: archive file [/home/abi/fetcher/tmp/pydeezer_asy-2.2.0.tar.gz]
+[2023-07-28 00:49:08] INFO root fetch - processPackages [pydeezer-asy]: Remove: archive file [/home/abi/fetcher/tmp/pydeezer_asy-2.2.1.tar.gz]
+[2023-07-28 00:49:08] INFO root fetch - main [MainThread]: End processing [pydeezer-asy]: success
+[2023-07-28 00:49:09] INFO root fetch - processPackages [snaptrade-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/snaptrade-python-sdk-8.4.0.tar.gz]
+[2023-07-28 00:49:09] INFO root fetch - processPackages [snaptrade-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/snaptrade-python-sdk-9.0.0.tar.gz]
+[2023-07-28 00:49:09] INFO root fetch - main [MainThread]: End processing [snaptrade-python-sdk]: success
+[2023-07-28 00:49:09] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.4.8.tar.gz]
+[2023-07-28 00:49:09] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.4.9.tar.gz]
+[2023-07-28 00:49:09] INFO root fetch - main [MainThread]: End processing [humanloop]: success
+[2023-07-28 00:49:11] INFO root fetch - processPackages [customgpt-client]: Remove: archive file [/home/abi/fetcher/tmp/customgpt_client-1.1.4-py3-none-any.whl.zip]
+[2023-07-28 00:49:11] INFO root fetch - processPackages [customgpt-client]: Remove: archive file [/home/abi/fetcher/tmp/customgpt_client-1.1.5-py3-none-any.whl.zip]
+[2023-07-28 00:49:11] INFO root fetch - main [MainThread]: End processing [customgpt-client]: success
+[2023-07-28 00:49:11] INFO root fetch - main [MainThread]: Store serial: [19067107]
