@@ -1268,3 +1268,70 @@
 [2023-07-28 01:15:13] INFO root fetch - processPackages [ladybug-display]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-display-0.9.1.tar.gz]
 [2023-07-28 01:15:13] INFO root fetch - main [MainThread]: End processing [ladybug-display]: success
 [2023-07-28 01:15:13] INFO root fetch - main [MainThread]: Store serial: [19067267]
+[2023-07-28 01:20:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19067267]
+[2023-07-28 01:20:22] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-28 01:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lollms
+[2023-07-28 01:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rime-sdk
+[2023-07-28 01:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pop
+[2023-07-28 01:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lbt-ladybug
+[2023-07-28 01:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mne-qt-browser
+[2023-07-28 01:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onnx2tf
+[2023-07-28 01:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gridworks-cert
+[2023-07-28 01:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mercury-fil
+[2023-07-28 01:20:22] INFO root fetch - processPackages [gridworks-cert]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-28 01:20:22] INFO root fetch - processPackages [mne-qt-browser]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-28 01:20:22] WARNING root fetch - processPackages [mercury-fil]: Skipping, unable to determine old version
+[2023-07-28 01:20:22] INFO root fetch - main [MainThread]: End processing [mercury-fil] error
+[2023-07-28 01:20:22] INFO root fetch - processPackages [rime-sdk]: New version: [2.2.0rc4] Old Version: [2.2.0rc3]
+[2023-07-28 01:20:22] INFO root fetch - processPackages [lbt-ladybug]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-28 01:20:22] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-28 01:20:22] INFO root fetch - processPackages [pop]: New version: [9] Old Version: [8.2]
+[2023-07-28 01:20:22] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/1c/43/541e31187ab2bcd354a873649f94e2559e707fe49beade9175beb1618a6a/rime_sdk-2.2.0rc3.tar.gz
+[2023-07-28 01:20:22] INFO root fetch - processPackages [lollms]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-28 01:20:22] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2023-07-28 01:20:22] INFO root fetch - processPackages [mne-qt-browser]: Downloading https://files.pythonhosted.org/packages/30/60/45ea26bd360f504936a1bac7c349a65076ba475951baf671c34d12394401/mne-qt-browser-0.5.1.tar.gz
+[2023-07-28 01:20:22] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/55/8e/c10a453677812ff66a65c459737c99f6b99cc00da8cc2e27f3a1f924faa0/lollms-2.1.8.tar.gz
+[2023-07-28 01:20:22] INFO root fetch - processPackages [gridworks-cert]: Downloading https://files.pythonhosted.org/packages/1c/05/16f95c5c935fcf22fb017704ef86d3bcf0f52fbb9ebda53376defe07bc6a/gridworks_cert-0.2.0.tar.gz
+[2023-07-28 01:20:22] INFO root fetch - processPackages [lbt-ladybug]: Downloading https://files.pythonhosted.org/packages/e4/ac/474c600d6f495b8d63c49d7689b2b076f0c5f94c22728fe795233852a9e1/lbt-ladybug-0.8.1.tar.gz
+[2023-07-28 01:20:23] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/c9/72/2079f5ef48a348f1bdb24e09585b261cb0cf1b3b113370c57420e3cf1c06/rime_sdk-2.2.0rc4.tar.gz
+[2023-07-28 01:20:23] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2023-07-28 01:20:23] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/6a/83/7745db4a743155e7a857ec418630027696e10e7fb67dfd6805a2496bdb64/lollms-2.1.9.tar.gz
+[2023-07-28 01:20:23] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-07-28 01:20:23] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.2.0rc3.tar.gz tmp/rime_sdk-2.2.0rc4.tar.gz --markdown 20230728/r/rime-sdk/2.2.0rc3-2.2.0rc4/diff.md --exclude *.pyd
+[2023-07-28 01:20:23] INFO root fetch - processPackages [pop]: executing diffoscope
+[2023-07-28 01:20:23] INFO root fetch - processPackages [pop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pop-8.2.tar.gz tmp/pop-9.tar.gz --markdown 20230728/p/pop/8.2-9/diff.md --exclude *.pyd
+[2023-07-28 01:20:23] INFO root fetch - processPackages [gridworks-cert]: Downloading https://files.pythonhosted.org/packages/d9/a2/1b0c8d80ad97456346fc86febbabbf95309e6d52e6f49abe2f11f15b5caf/gridworks_cert-0.3.0.tar.gz
+[2023-07-28 01:20:23] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-07-28 01:20:23] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230728/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-28 01:20:23] INFO root fetch - processPackages [mne-qt-browser]: Downloading https://files.pythonhosted.org/packages/a8/ea/f8b55cf2a4a07f747746affd13660f7f2345babf3163bf51585d1024c4dd/mne-qt-browser-0.5.2.tar.gz
+[2023-07-28 01:20:23] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-07-28 01:20:23] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.8.tar.gz tmp/lollms-2.1.9.tar.gz --markdown 20230728/l/lollms/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-28 01:20:23] INFO root fetch - processPackages [gridworks-cert]: executing diffoscope
+[2023-07-28 01:20:23] INFO root fetch - processPackages [gridworks-cert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridworks_cert-0.2.0.tar.gz tmp/gridworks_cert-0.3.0.tar.gz --markdown 20230728/g/gridworks-cert/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-28 01:20:23] INFO root fetch - processPackages [mne-qt-browser]: executing diffoscope
+[2023-07-28 01:20:23] INFO root fetch - processPackages [mne-qt-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mne-qt-browser-0.5.1.tar.gz tmp/mne-qt-browser-0.5.2.tar.gz --markdown 20230728/m/mne-qt-browser/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-28 01:20:24] INFO root fetch - processPackages [pop]: Remove: archive file [/home/abi/fetcher/tmp/pop-8.2.tar.gz]
+[2023-07-28 01:20:24] INFO root fetch - processPackages [pop]: Remove: archive file [/home/abi/fetcher/tmp/pop-9.tar.gz]
+[2023-07-28 01:20:24] INFO root fetch - main [MainThread]: End processing [pop]: success
+[2023-07-28 01:20:24] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.8.tar.gz]
+[2023-07-28 01:20:24] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.9.tar.gz]
+[2023-07-28 01:20:24] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-07-28 01:20:24] INFO root fetch - processPackages [lbt-ladybug]: Downloading https://files.pythonhosted.org/packages/6e/e7/a4e6dcfc6b2750475acd6dee9e849a991053471ff22a90aa8f986eaef25b/lbt-ladybug-0.9.0.tar.gz
+[2023-07-28 01:20:24] INFO root fetch - processPackages [gridworks-cert]: Remove: archive file [/home/abi/fetcher/tmp/gridworks_cert-0.2.0.tar.gz]
+[2023-07-28 01:20:24] INFO root fetch - processPackages [gridworks-cert]: Remove: archive file [/home/abi/fetcher/tmp/gridworks_cert-0.3.0.tar.gz]
+[2023-07-28 01:20:24] INFO root fetch - main [MainThread]: End processing [gridworks-cert]: success
+[2023-07-28 01:20:25] INFO root fetch - processPackages [mne-qt-browser]: Remove: archive file [/home/abi/fetcher/tmp/mne-qt-browser-0.5.1.tar.gz]
+[2023-07-28 01:20:25] INFO root fetch - processPackages [mne-qt-browser]: Remove: archive file [/home/abi/fetcher/tmp/mne-qt-browser-0.5.2.tar.gz]
+[2023-07-28 01:20:25] INFO root fetch - main [MainThread]: End processing [mne-qt-browser]: success
+[2023-07-28 01:20:25] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2023-07-28 01:20:25] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2023-07-28 01:20:25] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-07-28 01:20:25] INFO root fetch - processPackages [lbt-ladybug]: executing diffoscope
+[2023-07-28 01:20:25] INFO root fetch - processPackages [lbt-ladybug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-ladybug-0.8.1.tar.gz tmp/lbt-ladybug-0.9.0.tar.gz --markdown 20230728/l/lbt-ladybug/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-28 01:20:26] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc3.tar.gz]
+[2023-07-28 01:20:26] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc4.tar.gz]
+[2023-07-28 01:20:26] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-07-28 01:20:27] INFO root fetch - processPackages [lbt-ladybug]: Remove: archive file [/home/abi/fetcher/tmp/lbt-ladybug-0.8.1.tar.gz]
+[2023-07-28 01:20:27] INFO root fetch - processPackages [lbt-ladybug]: Remove: archive file [/home/abi/fetcher/tmp/lbt-ladybug-0.9.0.tar.gz]
+[2023-07-28 01:20:27] INFO root fetch - main [MainThread]: End processing [lbt-ladybug]: success
+[2023-07-28 01:20:27] INFO root fetch - main [MainThread]: Store serial: [19067348]
