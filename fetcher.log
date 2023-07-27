@@ -420,3 +420,89 @@
 [2023-07-28 00:22:32] INFO root fetch - processPackages [pyontutils]: Remove: archive file [/home/abi/fetcher/tmp/pyontutils-0.1.9.tar.gz]
 [2023-07-28 00:22:32] INFO root fetch - main [MainThread]: End processing [pyontutils]: success
 [2023-07-28 00:22:32] INFO root fetch - main [MainThread]: Store serial: [19066879]
+[2023-07-28 00:27:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19066879]
+[2023-07-28 00:27:41] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-28 00:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mergepythonclient
+[2023-07-28 00:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rushd
+[2023-07-28 00:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: random-quotes-generator
+[2023-07-28 00:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-gui
+[2023-07-28 00:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyglotaran-extras
+[2023-07-28 00:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ploomber
+[2023-07-28 00:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: increase
+[2023-07-28 00:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MoskaEngine
+[2023-07-28 00:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ab-test-source-faker
+[2023-07-28 00:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ledfx
+[2023-07-28 00:27:41] INFO root fetch - processPackages [mergepythonclient]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-28 00:27:41] WARNING root fetch - processPackages [ab-test-source-faker]: Skipping, unable to determine old version
+[2023-07-28 00:27:41] INFO root fetch - processPackages [ab-test-source-faker]: Start processing: autogluon.bench
+[2023-07-28 00:27:41] INFO root fetch - main [MainThread]: End processing [ab-test-source-faker] error
+[2023-07-28 00:27:41] INFO root fetch - processPackages [rushd]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-28 00:27:41] INFO root fetch - processPackages [ledfx]: New version: [2.0.71] Old Version: [2.0.69]
+[2023-07-28 00:27:41] INFO root fetch - processPackages [pyglotaran-extras]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-28 00:27:41] WARNING root fetch - processPackages [random-quotes-generator]: Skipping, unable to determine old version
+[2023-07-28 00:27:41] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.47] Old Version: [0.0.46]
+[2023-07-28 00:27:41] INFO root fetch - main [MainThread]: End processing [random-quotes-generator] error
+[2023-07-28 00:27:41] INFO root fetch - processPackages [increase]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-28 00:27:41] INFO root fetch - processPackages [MoskaEngine]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-28 00:27:41] INFO root fetch - processPackages [autogluon.bench]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-28 00:27:41] INFO root fetch - processPackages [ploomber]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-28 00:27:41] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/62/0f/a8f67ff16dfadab247c00391f31f27d6749800d87f2f26575260a673ed60/abstract_gui-0.0.46-py3.11.egg
+[2023-07-28 00:27:41] INFO root fetch - processPackages [mergepythonclient]: Downloading https://files.pythonhosted.org/packages/51/e8/c5e658d116eea75da4894ecfd5abfbd311c860b3eba55025473c28c234f6/mergepythonclient-0.1.2.tar.gz
+[2023-07-28 00:27:41] INFO root fetch - processPackages [rushd]: Downloading https://files.pythonhosted.org/packages/8d/8c/dc788e5c6e186c5013c4ba4af87fcb748cc75fc1b2fb3ce3ecfc23791ebb/rushd-0.4.1.tar.gz
+[2023-07-28 00:27:41] INFO root fetch - processPackages [MoskaEngine]: Downloading https://files.pythonhosted.org/packages/fe/c2/f0b231c9d0ff4f50de363379a5c82685582904d0ae7422cf3d563a60605b/MoskaEngine-0.1.5.tar.gz
+[2023-07-28 00:27:41] INFO root fetch - processPackages [ledfx]: Downloading https://files.pythonhosted.org/packages/79/22/6056e23ef013f62b9a4d032c2bef30b1cf07f1a2d484038f21bad94ec73f/ledfx-2.0.69.tar.gz
+[2023-07-28 00:27:41] INFO root fetch - processPackages [increase]: Downloading https://files.pythonhosted.org/packages/38/04/23245208877a10fba93c724199da0ea129bcdee0336c4a86f3be0888834e/increase-0.8.1.tar.gz
+[2023-07-28 00:27:41] INFO root fetch - processPackages [autogluon.bench]: Downloading https://files.pythonhosted.org/packages/e1/c5/2fa1f6ee0cd2063ebee703fcbe9eed5500cc2571298fb01658c01b1651aa/autogluon.bench-0.2.0.tar.gz
+[2023-07-28 00:27:41] INFO root fetch - processPackages [pyglotaran-extras]: Downloading https://files.pythonhosted.org/packages/2d/80/8c01ae0dcba75d183d324562d5e91842b73e81e5ab5c01c7bffcc9fee6c8/pyglotaran_extras-0.7.0.tar.gz
+[2023-07-28 00:27:41] WARNING root fetch - processPackages [MoskaEngine]: Skipping package: exceeds size limit 16454886>=10485760
+[2023-07-28 00:27:41] INFO root fetch - main [MainThread]: End processing [MoskaEngine] error
+[2023-07-28 00:27:41] INFO root fetch - processPackages [ploomber]: Downloading https://files.pythonhosted.org/packages/9e/09/f09532b768b40c123888ad364edcf2d8efc85bd617e9ff30de3fa37b835e/ploomber-0.9.4-py3-none-any.whl
+[2023-07-28 00:27:41] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/5c/d6/0cb279ca533f19d16f65cacd87a45a5fffd2a345a75ab3ce8048b0d6390a/abstract_gui-0.0.47.tar.gz
+[2023-07-28 00:27:42] INFO root fetch - processPackages [mergepythonclient]: Downloading https://files.pythonhosted.org/packages/35/1a/54367a7eeaf4edfca938db42a40bd9bd71ab9c9235c66da10a6e8e452120/mergepythonclient-0.2.0.tar.gz
+[2023-07-28 00:27:42] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-28 00:27:42] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.46-py3.11.egg tmp/abstract_gui-0.0.47.tar.gz --markdown 20230728/a/abstract-gui/0.0.46-0.0.47/diff.md --exclude *.pyd
+[2023-07-28 00:27:42] INFO root fetch - processPackages [rushd]: Downloading https://files.pythonhosted.org/packages/f2/7e/55326b4a448239a27d93d3b54449c0ad0967f03ad6d17a88ad6827578a2e/rushd-0.4.2.tar.gz
+[2023-07-28 00:27:42] INFO root fetch - processPackages [autogluon.bench]: Downloading https://files.pythonhosted.org/packages/79/08/d1b440e86a9dcf77415d275184784f080ec3909fc34ea67d4b514954310a/autogluon.bench-0.2.1.tar.gz
+[2023-07-28 00:27:42] INFO root fetch - processPackages [mergepythonclient]: executing diffoscope
+[2023-07-28 00:27:42] INFO root fetch - processPackages [mergepythonclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mergepythonclient-0.1.2.tar.gz tmp/mergepythonclient-0.2.0.tar.gz --markdown 20230728/m/mergepythonclient/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-28 00:27:42] INFO root fetch - processPackages [pyglotaran-extras]: Downloading https://files.pythonhosted.org/packages/81/32/284ce88f3177915a429ac1a56d8ee8cd2e1172a54d2a0d23aaf3f7ac40fd/pyglotaran_extras-0.7.1.tar.gz
+[2023-07-28 00:27:42] INFO root fetch - processPackages [increase]: Downloading https://files.pythonhosted.org/packages/35/1a/9728c759dc28ac734c6c3220f0abf89c385a19f2c0b2edab7e7707dd5fe5/increase-0.9.0.tar.gz
+[2023-07-28 00:27:42] INFO root fetch - processPackages [rushd]: executing diffoscope
+[2023-07-28 00:27:42] INFO root fetch - processPackages [rushd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rushd-0.4.1.tar.gz tmp/rushd-0.4.2.tar.gz --markdown 20230728/r/rushd/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-28 00:27:42] INFO root fetch - processPackages [autogluon.bench]: executing diffoscope
+[2023-07-28 00:27:42] INFO root fetch - processPackages [autogluon.bench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.bench-0.2.0.tar.gz tmp/autogluon.bench-0.2.1.tar.gz --markdown 20230728/a/autogluon.bench/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-28 00:27:42] INFO root fetch - processPackages [pyglotaran-extras]: executing diffoscope
+[2023-07-28 00:27:42] INFO root fetch - processPackages [pyglotaran-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglotaran_extras-0.7.0.tar.gz tmp/pyglotaran_extras-0.7.1.tar.gz --markdown 20230728/p/pyglotaran-extras/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-28 00:27:42] INFO root fetch - processPackages [increase]: executing diffoscope
+[2023-07-28 00:27:42] INFO root fetch - processPackages [increase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increase-0.8.1.tar.gz tmp/increase-0.9.0.tar.gz --markdown 20230728/i/increase/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-28 00:27:42] INFO root fetch - processPackages [ploomber]: Downloading https://files.pythonhosted.org/packages/bc/42/a9177ba45f4033604d120c6cbad7f54188220a43491b141700035ad89e4c/ploomber-0.9.5.tar.gz
+[2023-07-28 00:27:42] INFO root fetch - processPackages [ledfx]: Downloading https://files.pythonhosted.org/packages/9a/44/49c88fbf58e41bf38f5065c69aeaa0b243cba034be55f6f8d07e93f3475d/ledfx-2.0.71.tar.gz
+[2023-07-28 00:27:42] INFO root fetch - processPackages [ploomber]: executing diffoscope
+[2023-07-28 00:27:42] INFO root fetch - processPackages [ploomber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomber-0.9.4-py3-none-any.whl.zip tmp/ploomber-0.9.5.tar.gz --markdown 20230728/p/ploomber/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-28 00:27:43] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.46-py3.11.egg]
+[2023-07-28 00:27:43] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.47.tar.gz]
+[2023-07-28 00:27:43] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-28 00:27:43] INFO root fetch - processPackages [ledfx]: executing diffoscope
+[2023-07-28 00:27:43] INFO root fetch - processPackages [ledfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ledfx-2.0.69.tar.gz tmp/ledfx-2.0.71.tar.gz --markdown 20230728/l/ledfx/2.0.69-2.0.71/diff.md --exclude *.pyd
+[2023-07-28 00:27:43] INFO root fetch - processPackages [rushd]: Remove: archive file [/home/abi/fetcher/tmp/rushd-0.4.1.tar.gz]
+[2023-07-28 00:27:43] INFO root fetch - processPackages [rushd]: Remove: archive file [/home/abi/fetcher/tmp/rushd-0.4.2.tar.gz]
+[2023-07-28 00:27:43] INFO root fetch - main [MainThread]: End processing [rushd]: success
+[2023-07-28 00:27:43] INFO root fetch - processPackages [pyglotaran-extras]: Remove: archive file [/home/abi/fetcher/tmp/pyglotaran_extras-0.7.0.tar.gz]
+[2023-07-28 00:27:43] INFO root fetch - processPackages [pyglotaran-extras]: Remove: archive file [/home/abi/fetcher/tmp/pyglotaran_extras-0.7.1.tar.gz]
+[2023-07-28 00:27:43] INFO root fetch - main [MainThread]: End processing [pyglotaran-extras]: success
+[2023-07-28 00:27:44] INFO root fetch - processPackages [autogluon.bench]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.bench-0.2.0.tar.gz]
+[2023-07-28 00:27:44] INFO root fetch - processPackages [autogluon.bench]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.bench-0.2.1.tar.gz]
+[2023-07-28 00:27:44] INFO root fetch - main [MainThread]: End processing [autogluon.bench]: success
+[2023-07-28 00:27:44] INFO root fetch - processPackages [ploomber]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-0.9.4-py3-none-any.whl.zip]
+[2023-07-28 00:27:44] INFO root fetch - processPackages [ploomber]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-0.9.5.tar.gz]
+[2023-07-28 00:27:44] INFO root fetch - main [MainThread]: End processing [ploomber]: success
+[2023-07-28 00:27:44] INFO root fetch - processPackages [increase]: Remove: archive file [/home/abi/fetcher/tmp/increase-0.8.1.tar.gz]
+[2023-07-28 00:27:44] INFO root fetch - processPackages [increase]: Remove: archive file [/home/abi/fetcher/tmp/increase-0.9.0.tar.gz]
+[2023-07-28 00:27:44] INFO root fetch - main [MainThread]: End processing [increase]: success
+[2023-07-28 00:27:48] INFO root fetch - processPackages [mergepythonclient]: Remove: archive file [/home/abi/fetcher/tmp/mergepythonclient-0.1.2.tar.gz]
+[2023-07-28 00:27:48] INFO root fetch - processPackages [mergepythonclient]: Remove: archive file [/home/abi/fetcher/tmp/mergepythonclient-0.2.0.tar.gz]
+[2023-07-28 00:27:48] INFO root fetch - main [MainThread]: End processing [mergepythonclient]: success
+[2023-07-28 00:28:06] INFO root fetch - processPackages [ledfx]: Remove: archive file [/home/abi/fetcher/tmp/ledfx-2.0.69.tar.gz]
+[2023-07-28 00:28:06] INFO root fetch - processPackages [ledfx]: Remove: archive file [/home/abi/fetcher/tmp/ledfx-2.0.71.tar.gz]
+[2023-07-28 00:28:06] INFO root fetch - main [MainThread]: End processing [ledfx]: success
+[2023-07-28 00:28:06] INFO root fetch - main [MainThread]: Store serial: [19066917]
