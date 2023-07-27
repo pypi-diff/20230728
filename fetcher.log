@@ -953,3 +953,82 @@
 [2023-07-28 00:54:23] INFO root fetch - processPackages [moptipyapps]: Remove: archive file [/home/abi/fetcher/tmp/moptipyapps-0.8.9.tar.gz]
 [2023-07-28 00:54:23] INFO root fetch - main [MainThread]: End processing [moptipyapps]: success
 [2023-07-28 00:54:23] INFO root fetch - main [MainThread]: Store serial: [19067140]
+[2023-07-28 00:59:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19067140]
+[2023-07-28 00:59:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-28 00:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: software-mentions-client
+[2023-07-28 00:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trame-video
+[2023-07-28 00:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: recurly
+[2023-07-28 00:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: safe-py-carol
+[2023-07-28 00:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alacorder
+[2023-07-28 00:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qiskit
+[2023-07-28 00:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymmcore-widgets
+[2023-07-28 00:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mesh-database-client
+[2023-07-28 00:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: galpynostatic
+[2023-07-28 00:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: customgpt-client
+[2023-07-28 00:59:32] INFO root fetch - processPackages [trame-video]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-28 00:59:32] WARNING root fetch - processPackages [safe-py-carol]: Skipping, unable to determine old version
+[2023-07-28 00:59:32] INFO root fetch - main [MainThread]: End processing [safe-py-carol] error
+[2023-07-28 00:59:32] INFO root fetch - processPackages [qiskit]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-28 00:59:32] INFO root fetch - processPackages [mesh-database-client]: New version: [1.3] Old Version: [1.2]
+[2023-07-28 00:59:32] INFO root fetch - processPackages [customgpt-client]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-28 00:59:32] WARNING root fetch - processPackages [galpynostatic]: Skipping, unable to determine old version
+[2023-07-28 00:59:32] INFO root fetch - main [MainThread]: End processing [galpynostatic] error
+[2023-07-28 00:59:32] INFO root fetch - processPackages [pymmcore-widgets]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-28 00:59:32] INFO root fetch - processPackages [software-mentions-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-28 00:59:32] INFO root fetch - processPackages [alacorder]: New version: [81.0.3] Old Version: [81.0.2]
+[2023-07-28 00:59:32] INFO root fetch - processPackages [recurly]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-07-28 00:59:32] INFO root fetch - processPackages [mesh-database-client]: Downloading https://files.pythonhosted.org/packages/b0/92/f6b3a9ca4481c8c28ff709f2659bfd09b5a37fe8714185261438eaf121ac/mesh_database_client-1.2-py3-none-any.whl
+[2023-07-28 00:59:32] INFO root fetch - processPackages [customgpt-client]: Downloading https://files.pythonhosted.org/packages/05/f4/3591e7d5ce5e6e52a6a008f37b90640ee73ba71007545c400135e66dcbf7/customgpt_client-1.1.4-py3-none-any.whl
+[2023-07-28 00:59:32] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/1d/a5/9584babf9a45a9451bec7c415f56bbcb74f1357b97fcb5c83aad194774ff/alacorder-81.0.2.tar.gz
+[2023-07-28 00:59:32] INFO root fetch - processPackages [trame-video]: Downloading https://files.pythonhosted.org/packages/b9/f7/caef1a5330a39263038751815b074d72853b3103144a2ddde92638b251b9/trame-video-0.0.1.tar.gz
+[2023-07-28 00:59:32] INFO root fetch - processPackages [pymmcore-widgets]: Downloading https://files.pythonhosted.org/packages/2f/0b/b1e7b75994f95077ab7331d921fed954cd77c1df57b99fd922549d7398cf/pymmcore-widgets-0.3.0.tar.gz
+[2023-07-28 00:59:32] INFO root fetch - processPackages [software-mentions-client]: Downloading https://files.pythonhosted.org/packages/2b/7c/411763b50c3695cbbe180d3fc3bf2aa4e5e17d1ed5e918a5d97f246b4feb/software_mentions_client-0.1.8.tar.gz
+[2023-07-28 00:59:32] INFO root fetch - processPackages [recurly]: Downloading https://files.pythonhosted.org/packages/ce/0a/feb3dd9fc7351b9d38891221a5bf44ce2870f85a7ec66850a64a03403d2d/recurly-4.8.0.tar.gz
+[2023-07-28 00:59:32] INFO root fetch - processPackages [customgpt-client]: Downloading https://files.pythonhosted.org/packages/dc/4b/b5b71d0d2cfddd7bf29e4cdf7c9c9d4ef5a3814a1f8e5064581ed86f39e9/customgpt_client-1.1.5-py3-none-any.whl
+[2023-07-28 00:59:32] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/54/66/cf07488fd52208d90c5123565faa372e0e05305e8d8c0ba08deca8e80849/alacorder-81.0.3.tar.gz
+[2023-07-28 00:59:32] INFO root fetch - processPackages [mesh-database-client]: Downloading https://files.pythonhosted.org/packages/65/22/ad4bd6e437f28223f40971b4f0a2c06fec7ff79780b6f1c8b53e615be39b/mesh_database_client-1.3.tar.gz
+[2023-07-28 00:59:32] INFO root fetch - processPackages [qiskit]: executing diffoscope
+[2023-07-28 00:59:32] INFO root fetch - processPackages [qiskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-0.8.1.tar.gz tmp/qiskit-0.9.0.tar.gz --markdown 20230728/q/qiskit/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-28 00:59:32] INFO root fetch - processPackages [customgpt-client]: executing diffoscope
+[2023-07-28 00:59:32] INFO root fetch - processPackages [customgpt-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customgpt_client-1.1.4-py3-none-any.whl.zip tmp/customgpt_client-1.1.5-py3-none-any.whl.zip --markdown 20230728/c/customgpt-client/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-28 00:59:32] INFO root fetch - processPackages [software-mentions-client]: Downloading https://files.pythonhosted.org/packages/99/01/1b37b4f9dca980e67501ba651c14dd620cb47a85f5b1e77d9156bb4037c3/software_mentions_client-0.1.9.tar.gz
+[2023-07-28 00:59:32] INFO root fetch - processPackages [mesh-database-client]: executing diffoscope
+[2023-07-28 00:59:32] INFO root fetch - processPackages [mesh-database-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesh_database_client-1.2-py3-none-any.whl.zip tmp/mesh_database_client-1.3.tar.gz --markdown 20230728/m/mesh-database-client/1.2-1.3/diff.md --exclude *.pyd
+[2023-07-28 00:59:32] INFO root fetch - processPackages [pymmcore-widgets]: Downloading https://files.pythonhosted.org/packages/fe/f3/97e5f2b0ef2eaef87ac039c4b7fe418dcecb919e788594c5f4b31cf18105/pymmcore-widgets-0.4.0.tar.gz
+[2023-07-28 00:59:32] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-07-28 00:59:32] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-81.0.2.tar.gz tmp/alacorder-81.0.3.tar.gz --markdown 20230728/a/alacorder/81.0.2-81.0.3/diff.md --exclude *.pyd
+[2023-07-28 00:59:32] INFO root fetch - processPackages [trame-video]: Downloading https://files.pythonhosted.org/packages/ea/db/79ab97387b421028a6fa25c4e3ce0c47f3e94e0b1b257e01c2ccf68e6d3a/trame-video-0.0.2.tar.gz
+[2023-07-28 00:59:32] INFO root fetch - processPackages [software-mentions-client]: executing diffoscope
+[2023-07-28 00:59:32] INFO root fetch - processPackages [software-mentions-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/software_mentions_client-0.1.8.tar.gz tmp/software_mentions_client-0.1.9.tar.gz --markdown 20230728/s/software-mentions-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-28 00:59:32] INFO root fetch - processPackages [pymmcore-widgets]: executing diffoscope
+[2023-07-28 00:59:32] INFO root fetch - processPackages [pymmcore-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymmcore-widgets-0.3.0.tar.gz tmp/pymmcore-widgets-0.4.0.tar.gz --markdown 20230728/p/pymmcore-widgets/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-28 00:59:33] INFO root fetch - processPackages [trame-video]: executing diffoscope
+[2023-07-28 00:59:33] INFO root fetch - processPackages [trame-video]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-video-0.0.1.tar.gz tmp/trame-video-0.0.2.tar.gz --markdown 20230728/t/trame-video/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-28 00:59:33] INFO root fetch - processPackages [recurly]: Downloading https://files.pythonhosted.org/packages/c6/64/cfbb00d2572ec0e687aa0b80dc5e78bbd1199e55776a34619b5fbe93bc72/recurly-4.9.0.tar.gz
+[2023-07-28 00:59:33] INFO root fetch - processPackages [recurly]: executing diffoscope
+[2023-07-28 00:59:33] INFO root fetch - processPackages [recurly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recurly-4.8.0.tar.gz tmp/recurly-4.9.0.tar.gz --markdown 20230728/r/recurly/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-07-28 00:59:33] INFO root fetch - processPackages [mesh-database-client]: Remove: archive file [/home/abi/fetcher/tmp/mesh_database_client-1.2-py3-none-any.whl.zip]
+[2023-07-28 00:59:33] INFO root fetch - processPackages [mesh-database-client]: Remove: archive file [/home/abi/fetcher/tmp/mesh_database_client-1.3.tar.gz]
+[2023-07-28 00:59:33] INFO root fetch - main [MainThread]: End processing [mesh-database-client]: success
+[2023-07-28 00:59:33] INFO root fetch - processPackages [qiskit]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-0.8.1.tar.gz]
+[2023-07-28 00:59:33] INFO root fetch - processPackages [qiskit]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-0.9.0.tar.gz]
+[2023-07-28 00:59:33] INFO root fetch - main [MainThread]: End processing [qiskit]: success
+[2023-07-28 00:59:34] INFO root fetch - processPackages [software-mentions-client]: Remove: archive file [/home/abi/fetcher/tmp/software_mentions_client-0.1.8.tar.gz]
+[2023-07-28 00:59:34] INFO root fetch - processPackages [software-mentions-client]: Remove: archive file [/home/abi/fetcher/tmp/software_mentions_client-0.1.9.tar.gz]
+[2023-07-28 00:59:34] INFO root fetch - main [MainThread]: End processing [software-mentions-client]: success
+[2023-07-28 00:59:34] INFO root fetch - processPackages [trame-video]: Remove: archive file [/home/abi/fetcher/tmp/trame-video-0.0.1.tar.gz]
+[2023-07-28 00:59:34] INFO root fetch - processPackages [trame-video]: Remove: archive file [/home/abi/fetcher/tmp/trame-video-0.0.2.tar.gz]
+[2023-07-28 00:59:34] INFO root fetch - main [MainThread]: End processing [trame-video]: success
+[2023-07-28 00:59:34] INFO root fetch - processPackages [recurly]: Remove: archive file [/home/abi/fetcher/tmp/recurly-4.8.0.tar.gz]
+[2023-07-28 00:59:34] INFO root fetch - processPackages [recurly]: Remove: archive file [/home/abi/fetcher/tmp/recurly-4.9.0.tar.gz]
+[2023-07-28 00:59:34] INFO root fetch - main [MainThread]: End processing [recurly]: success
+[2023-07-28 00:59:34] INFO root fetch - processPackages [pymmcore-widgets]: Remove: archive file [/home/abi/fetcher/tmp/pymmcore-widgets-0.3.0.tar.gz]
+[2023-07-28 00:59:34] INFO root fetch - processPackages [pymmcore-widgets]: Remove: archive file [/home/abi/fetcher/tmp/pymmcore-widgets-0.4.0.tar.gz]
+[2023-07-28 00:59:34] INFO root fetch - main [MainThread]: End processing [pymmcore-widgets]: success
+[2023-07-28 00:59:36] INFO root fetch - processPackages [customgpt-client]: Remove: archive file [/home/abi/fetcher/tmp/customgpt_client-1.1.4-py3-none-any.whl.zip]
+[2023-07-28 00:59:36] INFO root fetch - processPackages [customgpt-client]: Remove: archive file [/home/abi/fetcher/tmp/customgpt_client-1.1.5-py3-none-any.whl.zip]
+[2023-07-28 00:59:36] INFO root fetch - main [MainThread]: End processing [customgpt-client]: success
+[2023-07-28 00:59:36] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.0.2.tar.gz]
+[2023-07-28 00:59:36] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.0.3.tar.gz]
+[2023-07-28 00:59:36] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-07-28 00:59:36] INFO root fetch - main [MainThread]: Store serial: [19067179]
