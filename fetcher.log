@@ -506,3 +506,63 @@
 [2023-07-28 00:28:06] INFO root fetch - processPackages [ledfx]: Remove: archive file [/home/abi/fetcher/tmp/ledfx-2.0.71.tar.gz]
 [2023-07-28 00:28:06] INFO root fetch - main [MainThread]: End processing [ledfx]: success
 [2023-07-28 00:28:06] INFO root fetch - main [MainThread]: Store serial: [19066917]
+[2023-07-28 00:33:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19066917]
+[2023-07-28 00:33:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-28 00:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emc-pypi
+[2023-07-28 00:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quiltcore
+[2023-07-28 00:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rutts
+[2023-07-28 00:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rubbrband
+[2023-07-28 00:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-gui
+[2023-07-28 00:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cheshire-cat-api
+[2023-07-28 00:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pankmer
+[2023-07-28 00:33:23] INFO root fetch - processPackages [pankmer]: New version: [0.9.0] Old Version: [0.14.0]
+[2023-07-28 00:33:23] INFO root fetch - processPackages [cheshire-cat-api]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-07-28 00:33:23] INFO root fetch - processPackages [emc-pypi]: New version: [2023.8.2] Old Version: [2023.8.1]
+[2023-07-28 00:33:23] WARNING root fetch - processPackages [rutts]: Skipping, unable to determine old version
+[2023-07-28 00:33:23] INFO root fetch - main [MainThread]: End processing [rutts] error
+[2023-07-28 00:33:23] INFO root fetch - processPackages [emc-pypi]: Downloading https://files.pythonhosted.org/packages/5f/48/aa78c45bcb52f7727217c0ebf23c176cba7fa19bfac05f20ba6899e4aeee/emc-pypi-2023.8.1.tar.gz
+[2023-07-28 00:33:23] INFO root fetch - processPackages [rubbrband]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-28 00:33:23] INFO root fetch - processPackages [quiltcore]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-28 00:33:23] INFO root fetch - processPackages [pankmer]: Downloading https://files.pythonhosted.org/packages/9f/20/bdd63ba755fd833753ef4e605fee03b31e3af05485f0530add811b0bbc5b/pankmer-0.14.0.tar.gz
+[2023-07-28 00:33:23] INFO root fetch - processPackages [cheshire-cat-api]: Downloading https://files.pythonhosted.org/packages/db/a2/a560d66bab438f8ab9b262b1f70e4098bc06f76ef2a5d02960e0fe371795/cheshire-cat-api-0.0.1.tar.gz
+[2023-07-28 00:33:23] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.48] Old Version: [0.0.47]
+[2023-07-28 00:33:23] INFO root fetch - processPackages [rubbrband]: Downloading https://files.pythonhosted.org/packages/51/76/0ad72391b2d07fff899f2e78bee31b308c0cf7cb806c6b0d606bf827f2f1/rubbrband-0.2.8.tar.gz
+[2023-07-28 00:33:23] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/5c/d6/0cb279ca533f19d16f65cacd87a45a5fffd2a345a75ab3ce8048b0d6390a/abstract_gui-0.0.47.tar.gz
+[2023-07-28 00:33:23] INFO root fetch - processPackages [quiltcore]: Downloading https://files.pythonhosted.org/packages/d1/a8/80c1b18612b7843b3e518b46239d4c5621bc28b7590ead61401e646d3cc2/quiltcore-0.2.1.tar.gz
+[2023-07-28 00:33:23] INFO root fetch - processPackages [pankmer]: Downloading https://files.pythonhosted.org/packages/ec/87/885615746e80d9141ab39f7997ee1ac00677e583de2ddcd9b167d76993a6/pankmer-0.9.0.tar.gz
+[2023-07-28 00:33:23] INFO root fetch - processPackages [emc-pypi]: Downloading https://files.pythonhosted.org/packages/f7/6d/c80c9f1d1691ff0d235ccabbcf8c1d692109c137981e85b7d996b1f1cf4c/emc-pypi-2023.8.2.tar.gz
+[2023-07-28 00:33:23] INFO root fetch - processPackages [cheshire-cat-api]: Downloading https://files.pythonhosted.org/packages/0a/cf/e97ccc7c73c40752d00bfd21caac3ad2df8cb90c0dbca3510a3b99bec1c0/cheshire-cat-api-1.0.0.tar.gz
+[2023-07-28 00:33:23] INFO root fetch - processPackages [rubbrband]: Downloading https://files.pythonhosted.org/packages/f3/02/1f9d6b6428771de02e530878ace52e502ac5f82225b4f5d3daba3c6b8e0e/rubbrband-0.2.9.tar.gz
+[2023-07-28 00:33:23] INFO root fetch - processPackages [pankmer]: executing diffoscope
+[2023-07-28 00:33:23] INFO root fetch - processPackages [pankmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pankmer-0.14.0.tar.gz tmp/pankmer-0.9.0.tar.gz --markdown 20230728/p/pankmer/0.14.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-28 00:33:23] INFO root fetch - processPackages [rubbrband]: executing diffoscope
+[2023-07-28 00:33:23] INFO root fetch - processPackages [rubbrband]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubbrband-0.2.8.tar.gz tmp/rubbrband-0.2.9.tar.gz --markdown 20230728/r/rubbrband/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-28 00:33:23] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/19/fc/68f3efd405f48f1dfc53398de4e9147552b1792ebb96e617d7c1ec8db71b/abstract_gui-0.0.48.tar.gz
+[2023-07-28 00:33:23] INFO root fetch - processPackages [quiltcore]: Downloading https://files.pythonhosted.org/packages/f3/5c/896e74eeb8b50ccfae0fa6a0bf3235274799852b3abd8ceca457ba4f4db1/quiltcore-0.3.0.tar.gz
+[2023-07-28 00:33:23] INFO root fetch - processPackages [cheshire-cat-api]: executing diffoscope
+[2023-07-28 00:33:23] INFO root fetch - processPackages [cheshire-cat-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheshire-cat-api-0.0.1.tar.gz tmp/cheshire-cat-api-1.0.0.tar.gz --markdown 20230728/c/cheshire-cat-api/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-28 00:33:23] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-28 00:33:23] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.47.tar.gz tmp/abstract_gui-0.0.48.tar.gz --markdown 20230728/a/abstract-gui/0.0.47-0.0.48/diff.md --exclude *.pyd
+[2023-07-28 00:33:24] INFO root fetch - processPackages [quiltcore]: executing diffoscope
+[2023-07-28 00:33:24] INFO root fetch - processPackages [quiltcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quiltcore-0.2.1.tar.gz tmp/quiltcore-0.3.0.tar.gz --markdown 20230728/q/quiltcore/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-28 00:33:24] INFO root fetch - processPackages [rubbrband]: Remove: archive file [/home/abi/fetcher/tmp/rubbrband-0.2.8.tar.gz]
+[2023-07-28 00:33:24] INFO root fetch - processPackages [rubbrband]: Remove: archive file [/home/abi/fetcher/tmp/rubbrband-0.2.9.tar.gz]
+[2023-07-28 00:33:24] INFO root fetch - main [MainThread]: End processing [rubbrband]: success
+[2023-07-28 00:33:24] INFO root fetch - processPackages [pankmer]: Remove: archive file [/home/abi/fetcher/tmp/pankmer-0.14.0.tar.gz]
+[2023-07-28 00:33:24] INFO root fetch - processPackages [pankmer]: Remove: archive file [/home/abi/fetcher/tmp/pankmer-0.9.0.tar.gz]
+[2023-07-28 00:33:24] INFO root fetch - main [MainThread]: End processing [pankmer]: success
+[2023-07-28 00:33:24] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.47.tar.gz]
+[2023-07-28 00:33:24] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.48.tar.gz]
+[2023-07-28 00:33:24] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-28 00:33:24] INFO root fetch - processPackages [quiltcore]: Remove: archive file [/home/abi/fetcher/tmp/quiltcore-0.2.1.tar.gz]
+[2023-07-28 00:33:24] INFO root fetch - processPackages [quiltcore]: Remove: archive file [/home/abi/fetcher/tmp/quiltcore-0.3.0.tar.gz]
+[2023-07-28 00:33:24] INFO root fetch - main [MainThread]: End processing [quiltcore]: success
+[2023-07-28 00:33:25] INFO root fetch - processPackages [cheshire-cat-api]: Remove: archive file [/home/abi/fetcher/tmp/cheshire-cat-api-0.0.1.tar.gz]
+[2023-07-28 00:33:25] INFO root fetch - processPackages [cheshire-cat-api]: Remove: archive file [/home/abi/fetcher/tmp/cheshire-cat-api-1.0.0.tar.gz]
+[2023-07-28 00:33:25] INFO root fetch - main [MainThread]: End processing [cheshire-cat-api]: success
+[2023-07-28 00:33:25] INFO root fetch - processPackages [emc-pypi]: executing diffoscope
+[2023-07-28 00:33:25] INFO root fetch - processPackages [emc-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emc-pypi-2023.8.1.tar.gz tmp/emc-pypi-2023.8.2.tar.gz --markdown 20230728/e/emc-pypi/2023.8.1-2023.8.2/diff.md --exclude *.pyd
+[2023-07-28 00:33:28] INFO root fetch - processPackages [emc-pypi]: Remove: archive file [/home/abi/fetcher/tmp/emc-pypi-2023.8.1.tar.gz]
+[2023-07-28 00:33:28] INFO root fetch - processPackages [emc-pypi]: Remove: archive file [/home/abi/fetcher/tmp/emc-pypi-2023.8.2.tar.gz]
+[2023-07-28 00:33:28] INFO root fetch - main [MainThread]: End processing [emc-pypi]: success
+[2023-07-28 00:33:28] INFO root fetch - main [MainThread]: Store serial: [19066941]
