@@ -175,3 +175,126 @@
 [2023-07-28 00:06:56] INFO root fetch - processPackages [jupyterlab-midnightsea-theme]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_midnightsea_theme-0.1.3.tar.gz]
 [2023-07-28 00:06:56] INFO root fetch - main [MainThread]: End processing [jupyterlab-midnightsea-theme]: success
 [2023-07-28 00:06:56] INFO root fetch - main [MainThread]: Store serial: [19066778]
+[2023-07-28 00:12:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19066778]
+[2023-07-28 00:12:04] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-28 00:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mosaicml-cli
+[2023-07-28 00:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azure-communication-jobrouter
+[2023-07-28 00:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-gui
+[2023-07-28 00:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: honeybee-grasshopper-energy
+[2023-07-28 00:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: discovery-capability
+[2023-07-28 00:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llm-claude
+[2023-07-28 00:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: threemystic-cloud-client
+[2023-07-28 00:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lbt-grasshopper
+[2023-07-28 00:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mkdocs-labeled-user-defined-values
+[2023-07-28 00:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hcam-widgets
+[2023-07-28 00:12:05] INFO root fetch - processPackages [mosaicml-cli]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-28 00:12:05] WARNING root fetch - processPackages [azure-communication-jobrouter]: Skipping, unable to determine old version
+[2023-07-28 00:12:05] INFO root fetch - processPackages [azure-communication-jobrouter]: Start processing: CFXplorer
+[2023-07-28 00:12:05] INFO root fetch - main [MainThread]: End processing [azure-communication-jobrouter] error
+[2023-07-28 00:12:05] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.52] Old Version: [0.1.51]
+[2023-07-28 00:12:05] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.44] Old Version: [0.0.43]
+[2023-07-28 00:12:05] INFO root fetch - processPackages [mkdocs-labeled-user-defined-values]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-28 00:12:05] INFO root fetch - processPackages [discovery-capability]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-28 00:12:05] INFO root fetch - processPackages [llm-claude]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-28 00:12:05] INFO root fetch - processPackages [lbt-grasshopper]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-07-28 00:12:05] INFO root fetch - processPackages [honeybee-grasshopper-energy]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-28 00:12:05] INFO root fetch - processPackages [CFXplorer]: New version: [0.0.dev7] Old Version: [0.0.dev6]
+[2023-07-28 00:12:05] INFO root fetch - processPackages [hcam-widgets]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-28 00:12:05] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/ee/19/6af03ae7ccb2d18995bb8a66db6c5d9d51cc76c8301ae3494e38eac2c626/threemystic_cloud_client-0.1.51.tar.gz
+[2023-07-28 00:12:05] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/30/e6/3685f99cfd36f45ae30b5ab732ec26ae4730b99648a47480cf683b1142a4/lbt-grasshopper-1.6.8.tar.gz
+[2023-07-28 00:12:05] INFO root fetch - processPackages [mkdocs-labeled-user-defined-values]: Downloading https://files.pythonhosted.org/packages/79/42/8f9eb7974a9e13d97b0a4af5c32fe5493a4d58d6810e9dc8ec24c1d662d3/mkdocs_labeled_user_defined_values-1.0.4-py3-none-any.whl
+[2023-07-28 00:12:05] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/5a/b5/5f157087b48eab14660e025f2b304ef021505dfe0ab91e59303734b8792f/abstract_gui-0.0.43-py3.11.egg
+[2023-07-28 00:12:05] INFO root fetch - processPackages [discovery-capability]: Downloading https://files.pythonhosted.org/packages/28/95/217fbcf7a2f57d0087b46cd230ac55794f39ef3b198d0ab10aacd1c8b7e4/discovery-capability-0.5.0.tar.gz
+[2023-07-28 00:12:05] INFO root fetch - processPackages [mosaicml-cli]: Downloading https://files.pythonhosted.org/packages/05/a3/f1b483267045527f18895800b921360a671da6fbe4e7e4e52455d40fdb5f/mosaicml-cli-0.5.1.tar.gz
+[2023-07-28 00:12:05] INFO root fetch - processPackages [CFXplorer]: Downloading https://files.pythonhosted.org/packages/73/ae/64f62ad784b3b9739a80642bb396a93573642e60f8e2acbdd811e202224b/CFXplorer-0.0.dev6.tar.gz
+[2023-07-28 00:12:05] INFO root fetch - processPackages [llm-claude]: Downloading https://files.pythonhosted.org/packages/62/fe/e037415de6ba72987e7917ce6af0603c5a52fe33372d85cb392d5dbca710/llm-claude-0.2.0.tar.gz
+[2023-07-28 00:12:05] INFO root fetch - processPackages [hcam-widgets]: Downloading https://files.pythonhosted.org/packages/05/d7/aa3ef479f9a28092738616454ea860d4e5012e78ebdfdc1f617046afe176/hcam_widgets-1.1.0.tar.gz
+[2023-07-28 00:12:05] INFO root fetch - processPackages [honeybee-grasshopper-energy]: Downloading https://files.pythonhosted.org/packages/8d/41/2b1f8fcb0e971555f5d09037fa11e4fabeb60e1537e6d7116ac16db47a14/honeybee-grasshopper-energy-1.9.1.tar.gz
+[2023-07-28 00:12:05] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/62/d0/b84a8e0c71759ce11d154390faa42b0f94f5b2a4a273113f010ac8e651bb/threemystic_cloud_client-0.1.52.tar.gz
+[2023-07-28 00:12:05] INFO root fetch - processPackages [mkdocs-labeled-user-defined-values]: Downloading https://files.pythonhosted.org/packages/30/b2/8343faa43bde8f85487b92433450ba77baaddc18672714cf9ee4f75e7589/mkdocs_labeled_user_defined_values-1.0.5-py3-none-any.whl
+[2023-07-28 00:12:05] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/24/e9/d155575f4d38b7ae3d21b6f6e0c4c34409ce3b7b0412b7e24694915ec0e0/lbt-grasshopper-1.6.9.tar.gz
+[2023-07-28 00:12:05] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/e0/6f/363cc18498185c77c3499f7b1da61477c20d29deb19db8168dc59e55da2f/abstract_gui-0.0.44-py3.11.egg
+[2023-07-28 00:12:06] INFO root fetch - processPackages [mosaicml-cli]: Downloading https://files.pythonhosted.org/packages/60/2b/f8fd2aac65466398a8045d0229f377576c5bc6a94a02b09dea1ed3285dcb/mosaicml-cli-0.5.2.tar.gz
+[2023-07-28 00:12:06] INFO root fetch - processPackages [CFXplorer]: Downloading https://files.pythonhosted.org/packages/41/2e/a4ad7fa407a9b27108d97abd34d4d60fe5f7c821a527f549f574e7e77fc3/CFXplorer-0.0.dev7.tar.gz
+[2023-07-28 00:12:06] INFO root fetch - processPackages [llm-claude]: Downloading https://files.pythonhosted.org/packages/1f/a3/92263c07653c4ff54ffc9e5136aceb2a94617ef04c8ade4967ff39ae3192/llm-claude-0.3.0.tar.gz
+[2023-07-28 00:12:06] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-07-28 00:12:06] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.51.tar.gz tmp/threemystic_cloud_client-0.1.52.tar.gz --markdown 20230728/t/threemystic-cloud-client/0.1.51-0.1.52/diff.md --exclude *.pyd
+[2023-07-28 00:12:06] INFO root fetch - processPackages [mkdocs-labeled-user-defined-values]: executing diffoscope
+[2023-07-28 00:12:06] INFO root fetch - processPackages [mkdocs-labeled-user-defined-values]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_labeled_user_defined_values-1.0.4-py3-none-any.whl.zip tmp/mkdocs_labeled_user_defined_values-1.0.5-py3-none-any.whl.zip --markdown 20230728/m/mkdocs-labeled-user-defined-values/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-28 00:12:06] INFO root fetch - processPackages [hcam-widgets]: Downloading https://files.pythonhosted.org/packages/78/d3/118da44d494c08fba33b316644af0bb8500dc4a5974f5e98e8633b08e89c/hcam_widgets-1.1.1.tar.gz
+[2023-07-28 00:12:06] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-28 00:12:06] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.43-py3.11.egg tmp/abstract_gui-0.0.44-py3.11.egg --markdown 20230728/a/abstract-gui/0.0.43-0.0.44/diff.md --exclude *.pyd
+[2023-07-28 00:12:06] INFO root fetch - processPackages [lbt-grasshopper]: executing diffoscope
+[2023-07-28 00:12:06] INFO root fetch - processPackages [lbt-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-grasshopper-1.6.8.tar.gz tmp/lbt-grasshopper-1.6.9.tar.gz --markdown 20230728/l/lbt-grasshopper/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-07-28 00:12:06] INFO root fetch - processPackages [mosaicml-cli]: executing diffoscope
+[2023-07-28 00:12:06] INFO root fetch - processPackages [mosaicml-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaicml-cli-0.5.1.tar.gz tmp/mosaicml-cli-0.5.2.tar.gz --markdown 20230728/m/mosaicml-cli/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-28 00:12:06] INFO root fetch - processPackages [llm-claude]: executing diffoscope
+[2023-07-28 00:12:06] INFO root fetch - processPackages [llm-claude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-claude-0.2.0.tar.gz tmp/llm-claude-0.3.0.tar.gz --markdown 20230728/l/llm-claude/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-28 00:12:06] INFO root fetch - processPackages [CFXplorer]: executing diffoscope
+[2023-07-28 00:12:06] INFO root fetch - processPackages [CFXplorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CFXplorer-0.0.dev6.tar.gz tmp/CFXplorer-0.0.dev7.tar.gz --markdown 20230728/C/CFXplorer/0.0.dev6-0.0.dev7/diff.md --exclude *.pyd
+[2023-07-28 00:12:06] INFO root fetch - processPackages [hcam-widgets]: executing diffoscope
+[2023-07-28 00:12:06] INFO root fetch - processPackages [hcam-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcam_widgets-1.1.0.tar.gz tmp/hcam_widgets-1.1.1.tar.gz --markdown 20230728/h/hcam-widgets/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-28 00:12:06] INFO root fetch - processPackages [discovery-capability]: Downloading https://files.pythonhosted.org/packages/31/48/8f6821787bf859a6459eb2703efd5f674c2a9baf3018ac9f235659d73ec2/discovery-capability-0.5.1.tar.gz
+[2023-07-28 00:12:06] INFO root fetch - processPackages [honeybee-grasshopper-energy]: Downloading https://files.pythonhosted.org/packages/c0/77/5ea4f5cbf977edd2c2511c83b34d974baf46a246f689d9228b3fb66f7a48/honeybee-grasshopper-energy-1.9.2.tar.gz
+[2023-07-28 00:12:06] INFO root fetch - processPackages [discovery-capability]: executing diffoscope
+[2023-07-28 00:12:06] INFO root fetch - processPackages [discovery-capability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-capability-0.5.0.tar.gz tmp/discovery-capability-0.5.1.tar.gz --markdown 20230728/d/discovery-capability/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-28 00:12:06] INFO root fetch - processPackages [honeybee-grasshopper-energy]: executing diffoscope
+[2023-07-28 00:12:06] INFO root fetch - processPackages [honeybee-grasshopper-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-grasshopper-energy-1.9.1.tar.gz tmp/honeybee-grasshopper-energy-1.9.2.tar.gz --markdown 20230728/h/honeybee-grasshopper-energy/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-28 00:12:07] INFO root fetch - processPackages [mkdocs-labeled-user-defined-values]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_labeled_user_defined_values-1.0.4-py3-none-any.whl.zip]
+[2023-07-28 00:12:07] INFO root fetch - processPackages [mkdocs-labeled-user-defined-values]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_labeled_user_defined_values-1.0.5-py3-none-any.whl.zip]
+[2023-07-28 00:12:07] INFO root fetch - processPackages [mkdocs-labeled-user-defined-values]: Start processing: abstract-gui
+[2023-07-28 00:12:07] INFO root fetch - main [MainThread]: End processing [mkdocs-labeled-user-defined-values]: success
+[2023-07-28 00:12:07] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-07-28 00:12:07] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.43-py3.11.egg]
+[2023-07-28 00:12:07] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.44-py3.11.egg]
+[2023-07-28 00:12:07] INFO root fetch - processPackages [abstract-gui]: Start processing: pixelpay-sdk
+[2023-07-28 00:12:07] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-28 00:12:07] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.51.tar.gz]
+[2023-07-28 00:12:07] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.52.tar.gz]
+[2023-07-28 00:12:07] INFO root fetch - processPackages [threemystic-cloud-client]: Start processing: langroid
+[2023-07-28 00:12:07] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-07-28 00:12:07] INFO root fetch - processPackages [langroid]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-28 00:12:07] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/47/e3/9b252a8e3fbd8a571d4d5212025c8db3d1398d42d3b8064046252a938fbd/abstract_gui-0.0.45-py3.11.egg
+[2023-07-28 00:12:07] INFO root fetch - processPackages [CFXplorer]: Remove: archive file [/home/abi/fetcher/tmp/CFXplorer-0.0.dev6.tar.gz]
+[2023-07-28 00:12:07] INFO root fetch - processPackages [CFXplorer]: Remove: archive file [/home/abi/fetcher/tmp/CFXplorer-0.0.dev7.tar.gz]
+[2023-07-28 00:12:07] INFO root fetch - main [MainThread]: End processing [CFXplorer]: success
+[2023-07-28 00:12:07] INFO root fetch - processPackages [pixelpay-sdk]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-28 00:12:07] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.6.8.tar.gz]
+[2023-07-28 00:12:07] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.6.9.tar.gz]
+[2023-07-28 00:12:07] INFO root fetch - main [MainThread]: End processing [lbt-grasshopper]: success
+[2023-07-28 00:12:07] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/50/7f/7a84baab944d9efa300ce573a47110938978a4d7b72cbb13d3a7cf13ee14/langroid-0.1.8.tar.gz
+[2023-07-28 00:12:07] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-28 00:12:07] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.44-py3.11.egg tmp/abstract_gui-0.0.45-py3.11.egg --markdown 20230728/a/abstract-gui/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-07-28 00:12:07] INFO root fetch - processPackages [llm-claude]: Remove: archive file [/home/abi/fetcher/tmp/llm-claude-0.2.0.tar.gz]
+[2023-07-28 00:12:07] INFO root fetch - processPackages [llm-claude]: Remove: archive file [/home/abi/fetcher/tmp/llm-claude-0.3.0.tar.gz]
+[2023-07-28 00:12:07] INFO root fetch - main [MainThread]: End processing [llm-claude]: success
+[2023-07-28 00:12:08] INFO root fetch - processPackages [hcam-widgets]: Remove: archive file [/home/abi/fetcher/tmp/hcam_widgets-1.1.0.tar.gz]
+[2023-07-28 00:12:08] INFO root fetch - processPackages [hcam-widgets]: Remove: archive file [/home/abi/fetcher/tmp/hcam_widgets-1.1.1.tar.gz]
+[2023-07-28 00:12:08] INFO root fetch - main [MainThread]: End processing [hcam-widgets]: success
+[2023-07-28 00:12:08] INFO root fetch - processPackages [pixelpay-sdk]: Downloading https://files.pythonhosted.org/packages/3c/c4/7348e5296ee5e8bcfb4ad30e2e9e30d065f3c568ccf13166679e776939e1/pixelpay-sdk-2.1.0.tar.gz
+[2023-07-28 00:12:08] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/b2/48/00e2d6a1639042a486544d5f5f9200c7e72369b7fcde95da7bc64dd92b55/langroid-0.1.9.tar.gz
+[2023-07-28 00:12:08] INFO root fetch - processPackages [langroid]: executing diffoscope
+[2023-07-28 00:12:08] INFO root fetch - processPackages [langroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-0.1.8.tar.gz tmp/langroid-0.1.9.tar.gz --markdown 20230728/l/langroid/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-28 00:12:08] INFO root fetch - processPackages [pixelpay-sdk]: Downloading https://files.pythonhosted.org/packages/29/e4/ea082db9996a124e0b74f017674ebd1cc1a0abcc4a961e3251fbf53598f7/pixelpay-sdk-2.1.1.tar.gz
+[2023-07-28 00:12:08] INFO root fetch - processPackages [pixelpay-sdk]: executing diffoscope
+[2023-07-28 00:12:08] INFO root fetch - processPackages [pixelpay-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixelpay-sdk-2.1.0.tar.gz tmp/pixelpay-sdk-2.1.1.tar.gz --markdown 20230728/p/pixelpay-sdk/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-28 00:12:08] ERROR root fetch - processPackages [abstract-gui]: Diffoscope failed: time="2023-07-28T00:12:07+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/abstract_gui-0.0.44-py3.11.egg: No such file or directory
+
+[2023-07-28 00:12:08] INFO root fetch - main [MainThread]: End processing [abstract-gui] error
+[2023-07-28 00:12:08] INFO root fetch - processPackages [mosaicml-cli]: Remove: archive file [/home/abi/fetcher/tmp/mosaicml-cli-0.5.1.tar.gz]
+[2023-07-28 00:12:08] INFO root fetch - processPackages [mosaicml-cli]: Remove: archive file [/home/abi/fetcher/tmp/mosaicml-cli-0.5.2.tar.gz]
+[2023-07-28 00:12:08] INFO root fetch - main [MainThread]: End processing [mosaicml-cli]: success
+[2023-07-28 00:12:09] INFO root fetch - processPackages [honeybee-grasshopper-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-grasshopper-energy-1.9.1.tar.gz]
+[2023-07-28 00:12:09] INFO root fetch - processPackages [honeybee-grasshopper-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-grasshopper-energy-1.9.2.tar.gz]
+[2023-07-28 00:12:09] INFO root fetch - main [MainThread]: End processing [honeybee-grasshopper-energy]: success
+[2023-07-28 00:12:09] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.8.tar.gz]
+[2023-07-28 00:12:09] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.9.tar.gz]
+[2023-07-28 00:12:09] INFO root fetch - main [MainThread]: End processing [langroid]: success
+[2023-07-28 00:12:09] INFO root fetch - processPackages [pixelpay-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pixelpay-sdk-2.1.0.tar.gz]
+[2023-07-28 00:12:09] INFO root fetch - processPackages [pixelpay-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pixelpay-sdk-2.1.1.tar.gz]
+[2023-07-28 00:12:09] INFO root fetch - main [MainThread]: End processing [pixelpay-sdk]: success
+[2023-07-28 00:12:10] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.5.0.tar.gz]
+[2023-07-28 00:12:10] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.5.1.tar.gz]
+[2023-07-28 00:12:10] INFO root fetch - main [MainThread]: End processing [discovery-capability]: success
+[2023-07-28 00:12:10] INFO root fetch - main [MainThread]: Store serial: [19066819]
