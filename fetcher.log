@@ -1566,3 +1566,110 @@
 [2023-07-28 01:38:36] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz]
 [2023-07-28 01:38:36] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2023-07-28 01:38:36] INFO root fetch - main [MainThread]: Store serial: [19067454]
+[2023-07-28 01:43:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19067454]
+[2023-07-28 01:43:45] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-28 01:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datatransport
+[2023-07-28 01:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hail
+[2023-07-28 01:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qctrl-client
+[2023-07-28 01:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyotp
+[2023-07-28 01:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openapi-server-dev-test
+[2023-07-28 01:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pipen-report
+[2023-07-28 01:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tmxpy
+[2023-07-28 01:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quil
+[2023-07-28 01:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eql
+[2023-07-28 01:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mercury-fil
+[2023-07-28 01:43:45] INFO root fetch - processPackages [eql]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-28 01:43:45] INFO root fetch - processPackages [pyotp]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-28 01:43:45] INFO root fetch - processPackages [openapi-server-dev-test]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-28 01:43:45] INFO root fetch - processPackages [tmxpy]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-28 01:43:45] INFO root fetch - processPackages [mercury-fil]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-28 01:43:45] INFO root fetch - processPackages [hail]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-28 01:43:45] INFO root fetch - processPackages [qctrl-client]: New version: [7.2.1] Old Version: [7.2.0]
+[2023-07-28 01:43:45] INFO root fetch - processPackages [pipen-report]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-28 01:43:45] INFO root fetch - processPackages [datatransport]: New version: [3.0.7] Old Version: [3.0.6]
+[2023-07-28 01:43:45] INFO root fetch - processPackages [quil]: New version: [0.4.0rc2] Old Version: [0.4.0rc1]
+[2023-07-28 01:43:45] INFO root fetch - processPackages [mercury-fil]: Downloading https://files.pythonhosted.org/packages/d9/15/a32821f110843d6b1483a85286efd280a1b8bad6d6795c5f4f0517fd522a/mercury_fil-0.1.3.tar.gz
+[2023-07-28 01:43:45] INFO root fetch - processPackages [openapi-server-dev-test]: Downloading https://files.pythonhosted.org/packages/c3/f4/498319e9b48d4af82045873cda5c354d4186019bc10083209ae914da5e24/openapi-server-dev-test-1.0.5.tar.gz
+[2023-07-28 01:43:45] INFO root fetch - processPackages [pyotp]: Downloading https://files.pythonhosted.org/packages/7e/f9/4c2ec78572a2d25f669220b8b9700c1133905ff6af9bf93c010778e82c65/pyotp-2.8.0.tar.gz
+[2023-07-28 01:43:45] INFO root fetch - processPackages [eql]: Downloading https://files.pythonhosted.org/packages/5c/35/776783ae64a27de875ef47d1c0e96a667594c58f013413f371a871616f40/eql-0.9.8.tar.gz
+[2023-07-28 01:43:45] INFO root fetch - processPackages [hail]: Downloading https://files.pythonhosted.org/packages/1d/79/af3836ea0d871c9eef733651d0c9a76f631ea963e14203f63b4e1ff97a49/hail-0.2.98-py3-none-any.whl
+[2023-07-28 01:43:45] INFO root fetch - processPackages [tmxpy]: Downloading https://files.pythonhosted.org/packages/ed/8e/a60e1b71a15125005c07352f9f4d6638f9e94d2c3de5938b7fc74af95eb2/tmxpy-0.1.4.tar.gz
+[2023-07-28 01:43:45] INFO root fetch - processPackages [pipen-report]: Downloading https://files.pythonhosted.org/packages/f9/ce/1478680d76ea4b3e79258f5024b603b8fc36ed02144fbd0682120be69689/pipen_report-0.8.0.tar.gz
+[2023-07-28 01:43:45] INFO root fetch - processPackages [qctrl-client]: Downloading https://files.pythonhosted.org/packages/de/cf/8fa035750b94b81318a1f008e61462ed1e0fa333bc2a08bf032a2435d105/qctrl_client-7.2.0.tar.gz
+[2023-07-28 01:43:45] INFO root fetch - processPackages [datatransport]: Downloading https://files.pythonhosted.org/packages/d8/cd/5ce436d7e53ab9b1bdd6ea0be310f682b4433dfb0cdefc51e7f00d04cd3b/datatransport-3.0.6.tar.gz
+[2023-07-28 01:43:45] INFO root fetch - processPackages [quil]: Downloading https://files.pythonhosted.org/packages/67/0e/db7178906c3081542ac764ca400098c2bec8f26b9879939049d992e72972/quil-0.4.0rc1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-28 01:43:45] INFO root fetch - processPackages [pyotp]: Downloading https://files.pythonhosted.org/packages/f3/b2/1d5994ba2acde054a443bd5e2d384175449c7d2b6d1a0614dbca3a63abfc/pyotp-2.9.0.tar.gz
+[2023-07-28 01:43:46] INFO root fetch - processPackages [openapi-server-dev-test]: Downloading https://files.pythonhosted.org/packages/fc/10/af0ed802f8c0a0775d708a1fc0ffcbe868b39080ebdcba02e8ef2efeba6e/openapi-server-dev-test-1.0.6.tar.gz
+[2023-07-28 01:43:46] WARNING root fetch - processPackages [hail]: Skipping package: exceeds size limit 99410480>=10485760
+[2023-07-28 01:43:46] INFO root fetch - processPackages [hail]: Start processing: jamofetch
+[2023-07-28 01:43:46] INFO root fetch - main [MainThread]: End processing [hail] error
+[2023-07-28 01:43:46] INFO root fetch - processPackages [mercury-fil]: Downloading https://files.pythonhosted.org/packages/9b/e1/dc5827146174a7cf4cfaa522ebc6bed38803fa2d9bb757d016b2add5d87b/mercury_fil-0.1.4.tar.gz
+[2023-07-28 01:43:46] INFO root fetch - processPackages [pyotp]: executing diffoscope
+[2023-07-28 01:43:46] INFO root fetch - processPackages [pyotp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyotp-2.8.0.tar.gz tmp/pyotp-2.9.0.tar.gz --markdown 20230728/p/pyotp/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-28 01:43:46] INFO root fetch - processPackages [openapi-server-dev-test]: executing diffoscope
+[2023-07-28 01:43:46] INFO root fetch - processPackages [openapi-server-dev-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi-server-dev-test-1.0.5.tar.gz tmp/openapi-server-dev-test-1.0.6.tar.gz --markdown 20230728/o/openapi-server-dev-test/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-28 01:43:46] INFO root fetch - processPackages [eql]: Downloading https://files.pythonhosted.org/packages/7f/f6/1f769cf5a225f055740679e4cae22c29dd22f9f97a2766d34379c1371588/eql-0.9.9.tar.gz
+[2023-07-28 01:43:46] INFO root fetch - processPackages [qctrl-client]: Downloading https://files.pythonhosted.org/packages/eb/e8/1da8fa813cf34de9527f1e5e5fcf047c78566e799513d58564500c9daa83/qctrl_client-7.2.1.tar.gz
+[2023-07-28 01:43:46] INFO root fetch - processPackages [tmxpy]: Downloading https://files.pythonhosted.org/packages/0c/d9/97df83bb5c16c794295bdc5399136b7c2fdc47930701ff2c061c9eb49998/tmxpy-0.1.5.tar.gz
+[2023-07-28 01:43:46] INFO root fetch - processPackages [jamofetch]: New version: [3.5.1] Old Version: [3.5.0]
+[2023-07-28 01:43:46] INFO root fetch - processPackages [datatransport]: Downloading https://files.pythonhosted.org/packages/1f/dc/f656594d0009d2662a4c9100c8872bca09ec7706b2309731e2738454801e/datatransport-3.0.7.tar.gz
+[2023-07-28 01:43:46] INFO root fetch - processPackages [pipen-report]: Downloading https://files.pythonhosted.org/packages/bd/42/f6e3acca8f25830d56abb0eb2e88b3f896a8c3bf694365bb5ca73fd739d1/pipen_report-0.9.0.tar.gz
+[2023-07-28 01:43:46] INFO root fetch - processPackages [qctrl-client]: executing diffoscope
+[2023-07-28 01:43:46] INFO root fetch - processPackages [qctrl-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl_client-7.2.0.tar.gz tmp/qctrl_client-7.2.1.tar.gz --markdown 20230728/q/qctrl-client/7.2.0-7.2.1/diff.md --exclude *.pyd
+[2023-07-28 01:43:46] INFO root fetch - processPackages [tmxpy]: executing diffoscope
+[2023-07-28 01:43:46] INFO root fetch - processPackages [tmxpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmxpy-0.1.4.tar.gz tmp/tmxpy-0.1.5.tar.gz --markdown 20230728/t/tmxpy/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-28 01:43:46] INFO root fetch - processPackages [datatransport]: executing diffoscope
+[2023-07-28 01:43:46] INFO root fetch - processPackages [datatransport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datatransport-3.0.6.tar.gz tmp/datatransport-3.0.7.tar.gz --markdown 20230728/d/datatransport/3.0.6-3.0.7/diff.md --exclude *.pyd
+[2023-07-28 01:43:46] INFO root fetch - processPackages [pipen-report]: executing diffoscope
+[2023-07-28 01:43:46] INFO root fetch - processPackages [pipen-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_report-0.8.0.tar.gz tmp/pipen_report-0.9.0.tar.gz --markdown 20230728/p/pipen-report/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-28 01:43:46] INFO root fetch - processPackages [mercury-fil]: executing diffoscope
+[2023-07-28 01:43:46] INFO root fetch - processPackages [mercury-fil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury_fil-0.1.3.tar.gz tmp/mercury_fil-0.1.4.tar.gz --markdown 20230728/m/mercury-fil/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-28 01:43:46] INFO root fetch - processPackages [jamofetch]: Downloading https://files.pythonhosted.org/packages/a5/3e/d880646ce92dabea566f15b8b0c08c42400790caefbeb2c9e0f703522065/jamofetch-3.5.0.tar.gz
+[2023-07-28 01:43:46] INFO root fetch - processPackages [quil]: Downloading https://files.pythonhosted.org/packages/e4/0c/eec036843f18a99996ccf6f009bba3ebc0e205a616dc1ad7feb7721e5223/quil-0.4.0rc2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-28 01:43:46] INFO root fetch - processPackages [eql]: executing diffoscope
+[2023-07-28 01:43:46] INFO root fetch - processPackages [eql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eql-0.9.8.tar.gz tmp/eql-0.9.9.tar.gz --markdown 20230728/e/eql/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-28 01:43:46] INFO root fetch - processPackages [jamofetch]: Downloading https://files.pythonhosted.org/packages/df/25/97a78beb5bc05ce94fcb1bd59ca834b5acaffdce5c44a48b6471a01e7aaf/jamofetch-3.5.1.tar.gz
+[2023-07-28 01:43:47] INFO root fetch - processPackages [jamofetch]: executing diffoscope
+[2023-07-28 01:43:47] INFO root fetch - processPackages [jamofetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jamofetch-3.5.0.tar.gz tmp/jamofetch-3.5.1.tar.gz --markdown 20230728/j/jamofetch/3.5.0-3.5.1/diff.md --exclude *.pyd
+[2023-07-28 01:43:47] INFO root fetch - processPackages [quil]: executing diffoscope
+[2023-07-28 01:43:47] INFO root fetch - processPackages [quil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quil-0.4.0rc1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/quil-0.4.0rc2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230728/q/quil/0.4.0rc1-0.4.0rc2/diff.md --exclude *.pyd
+[2023-07-28 01:43:47] INFO root fetch - processPackages [pyotp]: Remove: archive file [/home/abi/fetcher/tmp/pyotp-2.8.0.tar.gz]
+[2023-07-28 01:43:47] INFO root fetch - processPackages [pyotp]: Remove: archive file [/home/abi/fetcher/tmp/pyotp-2.9.0.tar.gz]
+[2023-07-28 01:43:47] INFO root fetch - processPackages [pyotp]: Start processing: pyaware
+[2023-07-28 01:43:47] INFO root fetch - main [MainThread]: End processing [pyotp]: success
+[2023-07-28 01:43:47] INFO root fetch - processPackages [pyaware]: New version: [6.2.1] Old Version: [6.1.1]
+[2023-07-28 01:43:47] INFO root fetch - processPackages [tmxpy]: Remove: archive file [/home/abi/fetcher/tmp/tmxpy-0.1.4.tar.gz]
+[2023-07-28 01:43:47] INFO root fetch - processPackages [tmxpy]: Remove: archive file [/home/abi/fetcher/tmp/tmxpy-0.1.5.tar.gz]
+[2023-07-28 01:43:47] INFO root fetch - main [MainThread]: End processing [tmxpy]: success
+[2023-07-28 01:43:47] INFO root fetch - processPackages [qctrl-client]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_client-7.2.0.tar.gz]
+[2023-07-28 01:43:47] INFO root fetch - processPackages [qctrl-client]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_client-7.2.1.tar.gz]
+[2023-07-28 01:43:47] INFO root fetch - main [MainThread]: End processing [qctrl-client]: success
+[2023-07-28 01:43:47] INFO root fetch - processPackages [openapi-server-dev-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi-server-dev-test-1.0.5.tar.gz]
+[2023-07-28 01:43:47] INFO root fetch - processPackages [openapi-server-dev-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi-server-dev-test-1.0.6.tar.gz]
+[2023-07-28 01:43:47] INFO root fetch - main [MainThread]: End processing [openapi-server-dev-test]: success
+[2023-07-28 01:43:48] INFO root fetch - processPackages [pipen-report]: Remove: archive file [/home/abi/fetcher/tmp/pipen_report-0.8.0.tar.gz]
+[2023-07-28 01:43:48] INFO root fetch - processPackages [pipen-report]: Remove: archive file [/home/abi/fetcher/tmp/pipen_report-0.9.0.tar.gz]
+[2023-07-28 01:43:48] INFO root fetch - main [MainThread]: End processing [pipen-report]: success
+[2023-07-28 01:43:48] INFO root fetch - processPackages [mercury-fil]: Remove: archive file [/home/abi/fetcher/tmp/mercury_fil-0.1.3.tar.gz]
+[2023-07-28 01:43:48] INFO root fetch - processPackages [mercury-fil]: Remove: archive file [/home/abi/fetcher/tmp/mercury_fil-0.1.4.tar.gz]
+[2023-07-28 01:43:48] INFO root fetch - main [MainThread]: End processing [mercury-fil]: success
+[2023-07-28 01:43:48] INFO root fetch - processPackages [pyaware]: Downloading https://files.pythonhosted.org/packages/ab/f0/3a3e7bff3634ae74500ff40cf02e01f57accc265e5e360ae0dca36cac63d/pyaware-6.1.1-py3-none-any.whl
+[2023-07-28 01:43:48] INFO root fetch - processPackages [jamofetch]: Remove: archive file [/home/abi/fetcher/tmp/jamofetch-3.5.0.tar.gz]
+[2023-07-28 01:43:48] INFO root fetch - processPackages [jamofetch]: Remove: archive file [/home/abi/fetcher/tmp/jamofetch-3.5.1.tar.gz]
+[2023-07-28 01:43:48] INFO root fetch - main [MainThread]: End processing [jamofetch]: success
+[2023-07-28 01:43:48] INFO root fetch - processPackages [eql]: Remove: archive file [/home/abi/fetcher/tmp/eql-0.9.8.tar.gz]
+[2023-07-28 01:43:48] INFO root fetch - processPackages [eql]: Remove: archive file [/home/abi/fetcher/tmp/eql-0.9.9.tar.gz]
+[2023-07-28 01:43:48] INFO root fetch - main [MainThread]: End processing [eql]: success
+[2023-07-28 01:43:48] INFO root fetch - processPackages [pyaware]: Downloading https://files.pythonhosted.org/packages/ab/63/19912d91fd8f046dfddcb87d679b619df6584364ef0e556670f47c029b40/pyaware-6.2.1-py3-none-any.whl
+[2023-07-28 01:43:48] INFO root fetch - processPackages [pyaware]: executing diffoscope
+[2023-07-28 01:43:48] INFO root fetch - processPackages [pyaware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaware-6.1.1-py3-none-any.whl.zip tmp/pyaware-6.2.1-py3-none-any.whl.zip --markdown 20230728/p/pyaware/6.1.1-6.2.1/diff.md --exclude *.pyd
+[2023-07-28 01:43:48] INFO root fetch - processPackages [datatransport]: Remove: archive file [/home/abi/fetcher/tmp/datatransport-3.0.6.tar.gz]
+[2023-07-28 01:43:48] INFO root fetch - processPackages [datatransport]: Remove: archive file [/home/abi/fetcher/tmp/datatransport-3.0.7.tar.gz]
+[2023-07-28 01:43:48] INFO root fetch - main [MainThread]: End processing [datatransport]: success
+[2023-07-28 01:43:50] INFO root fetch - processPackages [pyaware]: Remove: archive file [/home/abi/fetcher/tmp/pyaware-6.1.1-py3-none-any.whl.zip]
+[2023-07-28 01:43:50] INFO root fetch - processPackages [pyaware]: Remove: archive file [/home/abi/fetcher/tmp/pyaware-6.2.1-py3-none-any.whl.zip]
+[2023-07-28 01:43:50] INFO root fetch - main [MainThread]: End processing [pyaware]: success
+[2023-07-28 01:44:01] INFO root fetch - processPackages [quil]: Remove: archive file [/home/abi/fetcher/tmp/quil-0.4.0rc1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-28 01:44:01] INFO root fetch - processPackages [quil]: Remove: archive file [/home/abi/fetcher/tmp/quil-0.4.0rc2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-28 01:44:01] INFO root fetch - main [MainThread]: End processing [quil]: success
+[2023-07-28 01:44:01] INFO root fetch - main [MainThread]: Store serial: [19067497]
