@@ -1032,3 +1032,95 @@
 [2023-07-28 00:59:36] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.0.3.tar.gz]
 [2023-07-28 00:59:36] INFO root fetch - main [MainThread]: End processing [alacorder]: success
 [2023-07-28 00:59:36] INFO root fetch - main [MainThread]: Store serial: [19067179]
+[2023-07-28 01:04:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19067179]
+[2023-07-28 01:04:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-28 01:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-speech
+[2023-07-28 01:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipfs-stac
+[2023-07-28 01:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cvxsimulator
+[2023-07-28 01:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: humanloop
+[2023-07-28 01:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dohome-api
+[2023-07-28 01:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tmnt-cu101
+[2023-07-28 01:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autoray
+[2023-07-28 01:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tmnt
+[2023-07-28 01:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gandai
+[2023-07-28 01:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: coiled
+[2023-07-28 01:04:45] INFO root fetch - processPackages [autoray]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-07-28 01:04:45] INFO root fetch - processPackages [ipfs-stac]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-28 01:04:45] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230727] Old Version: [0.7.0b20230726]
+[2023-07-28 01:04:45] INFO root fetch - processPackages [neon-speech]: New version: [4.1.1a1] Old Version: [4.1.0]
+[2023-07-28 01:04:45] INFO root fetch - processPackages [cvxsimulator]: New version: [0.7.0] Old Version: [0.6.3]
+[2023-07-28 01:04:45] INFO root fetch - processPackages [dohome-api]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-28 01:04:45] INFO root fetch - processPackages [gandai]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-07-28 01:04:45] INFO root fetch - processPackages [humanloop]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-28 01:04:45] INFO root fetch - processPackages [coiled]: New version: [0.9.1.dev9] Old Version: [0.9.1.dev8]
+[2023-07-28 01:04:46] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230727] Old Version: [0.7.0b20230726]
+[2023-07-28 01:04:46] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/f8/54/83748179b2f825ec187abe85b4b17481c947eb933612777c748750fc3a4f/tmnt-0.7.0b20230726.tar.gz
+[2023-07-28 01:04:46] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/f1/b9/4267d841e0747581a912ad1bbbfd431c4a0321da4fe23ecfce74d9c18ee3/humanloop-0.4.8.tar.gz
+[2023-07-28 01:04:46] INFO root fetch - processPackages [dohome-api]: Downloading https://files.pythonhosted.org/packages/43/df/a84713ad381e2731c74e022f7142e1692ce7ecf722337dca4109f35d9be2/dohome_api-0.2.7.tar.gz
+[2023-07-28 01:04:46] INFO root fetch - processPackages [cvxsimulator]: Downloading https://files.pythonhosted.org/packages/6a/02/2a9dbb1eaf9393cba3656899bd30457a4ef30f19004ecb6d2428ed04f0cc/cvxsimulator-0.6.3.tar.gz
+[2023-07-28 01:04:46] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/2f/d9/9a8245a5dc98d6194ae098d07776683055392bc0c589361b02c24de69510/coiled-0.9.1.dev8.tar.gz
+[2023-07-28 01:04:46] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/32/18/c0e9b99f7147ba0105fa6c8c890f8e2f6b8f334a3571d46e702b384994d7/tmnt-cu101-0.7.0b20230726.tar.gz
+[2023-07-28 01:04:46] INFO root fetch - processPackages [ipfs-stac]: Downloading https://files.pythonhosted.org/packages/7d/51/eb1606d8bdc3cd1059d58d7cbc09dcced5801935a888d32e9c15e476b4fb/ipfs_stac-0.1.6.tar.gz
+[2023-07-28 01:04:46] INFO root fetch - processPackages [autoray]: Downloading https://files.pythonhosted.org/packages/bc/b3/d4bb9cfa95e800186213c0e260d43731e294011fc4b8fab9effd368b4510/autoray-0.6.5.tar.gz
+[2023-07-28 01:04:46] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/e3/dc/44e27a4d59fba805e858c32b1a29ff262d68592dd6920b0ac4f94b12e8de/gandai-1.3.6.tar.gz
+[2023-07-28 01:04:46] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/e5/19/9e1516693b8358f602073aa0363dc7345cdf931e92a34e46bdce3d9e19f6/coiled-0.9.1.dev9.tar.gz
+[2023-07-28 01:04:46] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/84/32/5746adabd7ecbbe87c50804a08d26141ec3c210d49fac450b500adfa126a/humanloop-0.4.9.tar.gz
+[2023-07-28 01:04:46] INFO root fetch - processPackages [cvxsimulator]: Downloading https://files.pythonhosted.org/packages/13/c0/2c1b4d6a6209379bdb0c383010047d540abf29c036411d117b5f0dfb0327/cvxsimulator-0.7.0.tar.gz
+[2023-07-28 01:04:46] INFO root fetch - processPackages [dohome-api]: Downloading https://files.pythonhosted.org/packages/fe/c3/ae3160d7424c31dfe63b0b95a6defedeea90b97ae83c6337dbe7593950e8/dohome_api-0.2.8.tar.gz
+[2023-07-28 01:04:46] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/ea/a0/a9ae356d17bc0eb7d9aaefea84870f72e328d5fbfd8c96aa4548dec87cbc/tmnt-0.7.0b20230727.tar.gz
+[2023-07-28 01:04:46] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/d4/ee/f168c404dad44ff7468bf620fccc7d6bf94cf7b649cbc8c96178d6810de9/gandai-1.3.7.tar.gz
+[2023-07-28 01:04:46] INFO root fetch - processPackages [neon-speech]: Downloading https://files.pythonhosted.org/packages/b6/f4/bf396e907e1b4e3e20466efd28207602eb257c8f0b65fe30bfe9e9e48232/neon_speech-4.1.1a1.tar.gz
+[2023-07-28 01:04:46] INFO root fetch - processPackages [autoray]: Downloading https://files.pythonhosted.org/packages/ef/02/c2c9a6bd440287f5485e87e4544e737c0c876f09f1486e9aed5e4b9dcbb7/autoray-0.6.6.tar.gz
+[2023-07-28 01:04:46] INFO root fetch - processPackages [humanloop]: executing diffoscope
+[2023-07-28 01:04:46] INFO root fetch - processPackages [humanloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humanloop-0.4.8.tar.gz tmp/humanloop-0.4.9.tar.gz --markdown 20230728/h/humanloop/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-28 01:04:46] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-28 01:04:46] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.9.1.dev8.tar.gz tmp/coiled-0.9.1.dev9.tar.gz --markdown 20230728/c/coiled/0.9.1.dev8-0.9.1.dev9/diff.md --exclude *.pyd
+[2023-07-28 01:04:46] INFO root fetch - processPackages [neon-speech]: executing diffoscope
+[2023-07-28 01:04:46] INFO root fetch - processPackages [neon-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_speech-4.1.0.tar.gz tmp/neon_speech-4.1.1a1.tar.gz --markdown 20230728/n/neon-speech/4.1.0-4.1.1a1/diff.md --exclude *.pyd
+[2023-07-28 01:04:46] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/92/63/bd33d12932ffebb8b4b808d333824613c15bbb734dd4e1b7bbbf1876d321/tmnt-cu101-0.7.0b20230727.tar.gz
+[2023-07-28 01:04:46] INFO root fetch - processPackages [cvxsimulator]: executing diffoscope
+[2023-07-28 01:04:46] INFO root fetch - processPackages [cvxsimulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxsimulator-0.6.3.tar.gz tmp/cvxsimulator-0.7.0.tar.gz --markdown 20230728/c/cvxsimulator/0.6.3-0.7.0/diff.md --exclude *.pyd
+[2023-07-28 01:04:47] INFO root fetch - processPackages [dohome-api]: executing diffoscope
+[2023-07-28 01:04:47] INFO root fetch - processPackages [dohome-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dohome_api-0.2.7.tar.gz tmp/dohome_api-0.2.8.tar.gz --markdown 20230728/d/dohome-api/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-28 01:04:47] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-07-28 01:04:47] INFO root fetch - processPackages [ipfs-stac]: Downloading https://files.pythonhosted.org/packages/e4/0e/316f9d75cfa740c5433a241f343622d600fa0ea5b6621590d6cc4d83c166/ipfs_stac-0.1.7.tar.gz
+[2023-07-28 01:04:47] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230726.tar.gz tmp/tmnt-0.7.0b20230727.tar.gz --markdown 20230728/t/tmnt/0.7.0b20230726-0.7.0b20230727/diff.md --exclude *.pyd
+[2023-07-28 01:04:47] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2023-07-28 01:04:47] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.3.6.tar.gz tmp/gandai-1.3.7.tar.gz --markdown 20230728/g/gandai/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-07-28 01:04:47] INFO root fetch - processPackages [autoray]: executing diffoscope
+[2023-07-28 01:04:47] INFO root fetch - processPackages [ipfs-stac]: executing diffoscope
+[2023-07-28 01:04:47] INFO root fetch - processPackages [autoray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoray-0.6.5.tar.gz tmp/autoray-0.6.6.tar.gz --markdown 20230728/a/autoray/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-07-28 01:04:47] INFO root fetch - processPackages [ipfs-stac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfs_stac-0.1.6.tar.gz tmp/ipfs_stac-0.1.7.tar.gz --markdown 20230728/i/ipfs-stac/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-28 01:04:47] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-07-28 01:04:47] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230726.tar.gz tmp/tmnt-cu101-0.7.0b20230727.tar.gz --markdown 20230728/t/tmnt-cu101/0.7.0b20230726-0.7.0b20230727/diff.md --exclude *.pyd
+[2023-07-28 01:04:48] INFO root fetch - processPackages [neon-speech]: Remove: archive file [/home/abi/fetcher/tmp/neon_speech-4.1.0.tar.gz]
+[2023-07-28 01:04:48] INFO root fetch - processPackages [neon-speech]: Remove: archive file [/home/abi/fetcher/tmp/neon_speech-4.1.1a1.tar.gz]
+[2023-07-28 01:04:48] INFO root fetch - main [MainThread]: End processing [neon-speech]: success
+[2023-07-28 01:04:48] INFO root fetch - processPackages [cvxsimulator]: Remove: archive file [/home/abi/fetcher/tmp/cvxsimulator-0.6.3.tar.gz]
+[2023-07-28 01:04:48] INFO root fetch - processPackages [cvxsimulator]: Remove: archive file [/home/abi/fetcher/tmp/cvxsimulator-0.7.0.tar.gz]
+[2023-07-28 01:04:48] INFO root fetch - main [MainThread]: End processing [cvxsimulator]: success
+[2023-07-28 01:04:48] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230726.tar.gz]
+[2023-07-28 01:04:48] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230727.tar.gz]
+[2023-07-28 01:04:48] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-07-28 01:04:48] INFO root fetch - processPackages [dohome-api]: Remove: archive file [/home/abi/fetcher/tmp/dohome_api-0.2.7.tar.gz]
+[2023-07-28 01:04:48] INFO root fetch - processPackages [dohome-api]: Remove: archive file [/home/abi/fetcher/tmp/dohome_api-0.2.8.tar.gz]
+[2023-07-28 01:04:48] INFO root fetch - main [MainThread]: End processing [dohome-api]: success
+[2023-07-28 01:04:48] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230726.tar.gz]
+[2023-07-28 01:04:48] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230727.tar.gz]
+[2023-07-28 01:04:48] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-07-28 01:04:48] INFO root fetch - processPackages [ipfs-stac]: Remove: archive file [/home/abi/fetcher/tmp/ipfs_stac-0.1.6.tar.gz]
+[2023-07-28 01:04:48] INFO root fetch - processPackages [ipfs-stac]: Remove: archive file [/home/abi/fetcher/tmp/ipfs_stac-0.1.7.tar.gz]
+[2023-07-28 01:04:48] INFO root fetch - main [MainThread]: End processing [ipfs-stac]: success
+[2023-07-28 01:04:48] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.1.dev8.tar.gz]
+[2023-07-28 01:04:48] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.1.dev9.tar.gz]
+[2023-07-28 01:04:48] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-28 01:04:48] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.3.6.tar.gz]
+[2023-07-28 01:04:48] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.3.7.tar.gz]
+[2023-07-28 01:04:48] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2023-07-28 01:04:49] INFO root fetch - processPackages [autoray]: Remove: archive file [/home/abi/fetcher/tmp/autoray-0.6.5.tar.gz]
+[2023-07-28 01:04:49] INFO root fetch - processPackages [autoray]: Remove: archive file [/home/abi/fetcher/tmp/autoray-0.6.6.tar.gz]
+[2023-07-28 01:04:49] INFO root fetch - main [MainThread]: End processing [autoray]: success
+[2023-07-28 01:04:51] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.4.8.tar.gz]
+[2023-07-28 01:04:51] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.4.9.tar.gz]
+[2023-07-28 01:04:51] INFO root fetch - main [MainThread]: End processing [humanloop]: success
+[2023-07-28 01:04:51] INFO root fetch - main [MainThread]: Store serial: [19067209]
