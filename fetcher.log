@@ -1497,3 +1497,72 @@
 [2023-07-28 01:33:14] INFO root fetch - processPackages [jax]: Remove: archive file [/home/abi/fetcher/tmp/jax-0.4.9.tar.gz]
 [2023-07-28 01:33:14] INFO root fetch - main [MainThread]: End processing [jax]: success
 [2023-07-28 01:33:14] INFO root fetch - main [MainThread]: Store serial: [19067429]
+[2023-07-28 01:38:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19067429]
+[2023-07-28 01:38:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-28 01:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agentmemory
+[2023-07-28 01:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-github
+[2023-07-28 01:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyboko
+[2023-07-28 01:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: projen
+[2023-07-28 01:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pympipool
+[2023-07-28 01:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-aws-native
+[2023-07-28 01:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openapi-server-dev-test
+[2023-07-28 01:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sapphire-config
+[2023-07-28 01:38:24] WARNING root fetch - processPackages [pyboko]: Skipping, unable to determine old version
+[2023-07-28 01:38:24] INFO root fetch - main [MainThread]: End processing [pyboko] error
+[2023-07-28 01:38:24] INFO root fetch - processPackages [agentmemory]: New version: [0.2.7] Old Version: [0.2.3]
+[2023-07-28 01:38:24] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.9.1a1641826769] Old Version: [0.9.1a1641824984]
+[2023-07-28 01:38:24] INFO root fetch - processPackages [pympipool]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-07-28 01:38:24] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-28 01:38:24] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-28 01:38:24] INFO root fetch - processPackages [sapphire-config]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-28 01:38:24] INFO root fetch - processPackages [openapi-server-dev-test]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-28 01:38:24] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/89/ce/96408f528e6ba1eda1aea4b6573d97640f6288eac90da3e79f8e64f86ba8/pulumi_aws_native-0.9.1a1641824984.tar.gz
+[2023-07-28 01:38:24] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-07-28 01:38:24] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-28 01:38:24] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/60/d2/c5649c1f482931f51ac9e798aec00fe445d6b73e02f8865697958b497c8f/agentmemory-0.2.3.tar.gz
+[2023-07-28 01:38:24] INFO root fetch - processPackages [pympipool]: Downloading https://files.pythonhosted.org/packages/a2/b2/12e9619a667267693d20038696bb82641e0ff86ed9c25532df239530c604/pympipool-0.5.7.tar.gz
+[2023-07-28 01:38:24] INFO root fetch - processPackages [sapphire-config]: Downloading https://files.pythonhosted.org/packages/7b/b4/31ccb39484b27d70ee8f5aec302eb53a89f94adeb6483e49376ae17f1a25/sapphire_config-1.0.3.tar.gz
+[2023-07-28 01:38:24] INFO root fetch - processPackages [openapi-server-dev-test]: Downloading https://files.pythonhosted.org/packages/67/80/4794b0361f174b3ed126899434d829ef85a85bee9595f7f426f74591a1e7/openapi-server-dev-test-1.0.4.tar.gz
+[2023-07-28 01:38:24] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-07-28 01:38:25] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/c5/18/9e8b8df236b81bb0bae9bd78ac3551ff235749974974287ab4dd99269408/pulumi_aws_native-0.9.1a1641826769.tar.gz
+[2023-07-28 01:38:25] INFO root fetch - processPackages [pympipool]: Downloading https://files.pythonhosted.org/packages/a6/80/4f9ad243f00aa1f48da7c0c31431835eb7e208bc710913d3fcb3fbfd2a6f/pympipool-0.5.8.tar.gz
+[2023-07-28 01:38:25] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-07-28 01:38:25] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230728/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-28 01:38:25] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/35/87/e8ce36c7ad1417e69e394b0f24133c8934f474950b51cc039cf0193ba4ed/agentmemory-0.2.7.tar.gz
+[2023-07-28 01:38:25] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-28 01:38:25] INFO root fetch - processPackages [sapphire-config]: Downloading https://files.pythonhosted.org/packages/0e/29/52b6f494864d5cea24b80d17ab6b72d54ee4a3b245dd6009c562c462f376/sapphire_config-1.0.4.tar.gz
+[2023-07-28 01:38:25] INFO root fetch - processPackages [openapi-server-dev-test]: Downloading https://files.pythonhosted.org/packages/c3/f4/498319e9b48d4af82045873cda5c354d4186019bc10083209ae914da5e24/openapi-server-dev-test-1.0.5.tar.gz
+[2023-07-28 01:38:25] INFO root fetch - processPackages [agentmemory]: executing diffoscope
+[2023-07-28 01:38:25] INFO root fetch - processPackages [agentmemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentmemory-0.2.3.tar.gz tmp/agentmemory-0.2.7.tar.gz --markdown 20230728/a/agentmemory/0.2.3-0.2.7/diff.md --exclude *.pyd
+[2023-07-28 01:38:25] INFO root fetch - processPackages [pympipool]: executing diffoscope
+[2023-07-28 01:38:25] INFO root fetch - processPackages [pympipool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pympipool-0.5.7.tar.gz tmp/pympipool-0.5.8.tar.gz --markdown 20230728/p/pympipool/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-07-28 01:38:25] INFO root fetch - processPackages [sapphire-config]: executing diffoscope
+[2023-07-28 01:38:25] INFO root fetch - processPackages [sapphire-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapphire_config-1.0.3.tar.gz tmp/sapphire_config-1.0.4.tar.gz --markdown 20230728/s/sapphire-config/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-28 01:38:25] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2023-07-28 01:38:25] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz --markdown 20230728/p/pulumi-aws-native/0.9.1a1641824984-0.9.1a1641826769/diff.md --exclude *.pyd
+[2023-07-28 01:38:25] INFO root fetch - processPackages [openapi-server-dev-test]: executing diffoscope
+[2023-07-28 01:38:25] INFO root fetch - processPackages [openapi-server-dev-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi-server-dev-test-1.0.4.tar.gz tmp/openapi-server-dev-test-1.0.5.tar.gz --markdown 20230728/o/openapi-server-dev-test/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-28 01:38:25] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-28 01:38:25] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230728/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-28 01:38:26] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-07-28 01:38:26] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-07-28 01:38:26] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-07-28 01:38:26] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.2.3.tar.gz]
+[2023-07-28 01:38:26] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.2.7.tar.gz]
+[2023-07-28 01:38:26] INFO root fetch - main [MainThread]: End processing [agentmemory]: success
+[2023-07-28 01:38:26] INFO root fetch - processPackages [pympipool]: Remove: archive file [/home/abi/fetcher/tmp/pympipool-0.5.7.tar.gz]
+[2023-07-28 01:38:26] INFO root fetch - processPackages [pympipool]: Remove: archive file [/home/abi/fetcher/tmp/pympipool-0.5.8.tar.gz]
+[2023-07-28 01:38:26] INFO root fetch - main [MainThread]: End processing [pympipool]: success
+[2023-07-28 01:38:26] INFO root fetch - processPackages [sapphire-config]: Remove: archive file [/home/abi/fetcher/tmp/sapphire_config-1.0.3.tar.gz]
+[2023-07-28 01:38:26] INFO root fetch - processPackages [sapphire-config]: Remove: archive file [/home/abi/fetcher/tmp/sapphire_config-1.0.4.tar.gz]
+[2023-07-28 01:38:26] INFO root fetch - main [MainThread]: End processing [sapphire-config]: success
+[2023-07-28 01:38:26] INFO root fetch - processPackages [openapi-server-dev-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi-server-dev-test-1.0.4.tar.gz]
+[2023-07-28 01:38:26] INFO root fetch - processPackages [openapi-server-dev-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi-server-dev-test-1.0.5.tar.gz]
+[2023-07-28 01:38:26] INFO root fetch - main [MainThread]: End processing [openapi-server-dev-test]: success
+[2023-07-28 01:38:27] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-28 01:38:27] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-28 01:38:27] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-28 01:38:36] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz]
+[2023-07-28 01:38:36] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz]
+[2023-07-28 01:38:36] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2023-07-28 01:38:36] INFO root fetch - main [MainThread]: Store serial: [19067454]
