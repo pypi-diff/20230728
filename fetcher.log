@@ -1724,3 +1724,54 @@
 [2023-07-28 01:49:17] INFO root fetch - processPackages [climatePy]: Remove: archive file [/home/abi/fetcher/tmp/climatePy-0.4.37.tar.gz]
 [2023-07-28 01:49:17] INFO root fetch - main [MainThread]: End processing [climatePy]: success
 [2023-07-28 01:49:17] INFO root fetch - main [MainThread]: Store serial: [19067537]
+[2023-07-28 01:54:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19067537]
+[2023-07-28 01:54:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-28 01:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: textboost
+[2023-07-28 01:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepchem
+[2023-07-28 01:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trainyard
+[2023-07-28 01:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecoengine
+[2023-07-28 01:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-gui
+[2023-07-28 01:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lytekit
+[2023-07-28 01:54:27] WARNING root fetch - processPackages [textboost]: Skipping, unable to determine old version
+[2023-07-28 01:54:27] INFO root fetch - main [MainThread]: End processing [textboost] error
+[2023-07-28 01:54:27] INFO root fetch - processPackages [abstract-gui]: New version: [0.0.50.2] Old Version: [0.0.50.1]
+[2023-07-28 01:54:27] INFO root fetch - processPackages [trainyard]: New version: [0.0.1a0] Old Version: [0.0.1]
+[2023-07-28 01:54:27] INFO root fetch - processPackages [lytekit]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-28 01:54:27] INFO root fetch - processPackages [deepchem]: New version: [2.7.2.dev20230727235143] Old Version: [2.7.2.dev20230726122048]
+[2023-07-28 01:54:27] INFO root fetch - processPackages [ecoengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 01:54:27] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/d8/e5/5b3594045f107ce24e058d4f5ac188087d76010f4389991a7c9a9ce4beb6/ecoengine-0.0.8.tar.gz
+[2023-07-28 01:54:27] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/ca/f9/e4b4be28f38108f5b567b0f60da0865ef327d0ee020fc27c46cb8733c8c2/abstract_gui-0.0.50.1.tar.gz
+[2023-07-28 01:54:27] INFO root fetch - processPackages [lytekit]: Downloading https://files.pythonhosted.org/packages/48/cd/6a788f7e7d3a2c6402e6960b97f9026ea7e521c6e6245a58cfb4fc6efb4f/lytekit-0.9.0.tar.gz
+[2023-07-28 01:54:27] INFO root fetch - processPackages [trainyard]: Downloading https://files.pythonhosted.org/packages/16/ef/4fdafb9a224e223dffbf9db9daf7da7eec226ab8f35ef585f91fb041eaec/trainyard-0.0.1.tar.gz
+[2023-07-28 01:54:27] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/e4/d0/2b89f8bc567a5eb0685f5fd4dd1e864c63c3a84d9dd4d24060202621c6b4/deepchem-2.7.2.dev20230726122048.tar.gz
+[2023-07-28 01:54:27] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/b4/06/8712491ed487422ca74801e6051cd89e398183d43abb0a99e904022af6ba/ecoengine-0.0.9.tar.gz
+[2023-07-28 01:54:27] INFO root fetch - processPackages [lytekit]: Downloading https://files.pythonhosted.org/packages/be/b6/90e266a6c058766bec4ce41653490f4b504a5be53aea11f1ff7873bb8d07/lytekit-0.9.1.tar.gz
+[2023-07-28 01:54:27] INFO root fetch - processPackages [trainyard]: Downloading https://files.pythonhosted.org/packages/9c/fb/de53aa047a876a27a40c0eed708ca677d4a9bbaa4795693084ed8233d6af/trainyard-0.0.1a0.tar.gz
+[2023-07-28 01:54:27] INFO root fetch - processPackages [abstract-gui]: Downloading https://files.pythonhosted.org/packages/d1/d4/d63b04643d878b24d778566ff89b6839617bae64ab7aa69b26a5a1deadd6/abstract_gui-0.0.50.2.tar.gz
+[2023-07-28 01:54:27] INFO root fetch - processPackages [trainyard]: executing diffoscope
+[2023-07-28 01:54:27] INFO root fetch - processPackages [trainyard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trainyard-0.0.1.tar.gz tmp/trainyard-0.0.1a0.tar.gz --markdown 20230728/t/trainyard/0.0.1-0.0.1a0/diff.md --exclude *.pyd
+[2023-07-28 01:54:27] INFO root fetch - processPackages [ecoengine]: executing diffoscope
+[2023-07-28 01:54:27] INFO root fetch - processPackages [ecoengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoengine-0.0.8.tar.gz tmp/ecoengine-0.0.9.tar.gz --markdown 20230728/e/ecoengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 01:54:27] INFO root fetch - processPackages [lytekit]: executing diffoscope
+[2023-07-28 01:54:27] INFO root fetch - processPackages [lytekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lytekit-0.9.0.tar.gz tmp/lytekit-0.9.1.tar.gz --markdown 20230728/l/lytekit/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-28 01:54:28] INFO root fetch - processPackages [abstract-gui]: executing diffoscope
+[2023-07-28 01:54:28] INFO root fetch - processPackages [abstract-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_gui-0.0.50.1.tar.gz tmp/abstract_gui-0.0.50.2.tar.gz --markdown 20230728/a/abstract-gui/0.0.50.1-0.0.50.2/diff.md --exclude *.pyd
+[2023-07-28 01:54:28] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/3a/48/3b70be5d9e181074948a6521c4fa4e4b59bd67c6a1511f20d8b6b0dcf604/deepchem-2.7.2.dev20230727235143.tar.gz
+[2023-07-28 01:54:28] INFO root fetch - processPackages [deepchem]: executing diffoscope
+[2023-07-28 01:54:28] INFO root fetch - processPackages [deepchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchem-2.7.2.dev20230726122048.tar.gz tmp/deepchem-2.7.2.dev20230727235143.tar.gz --markdown 20230728/d/deepchem/2.7.2.dev20230726122048-2.7.2.dev20230727235143/diff.md --exclude *.pyd
+[2023-07-28 01:54:28] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.50.1.tar.gz]
+[2023-07-28 01:54:28] INFO root fetch - processPackages [abstract-gui]: Remove: archive file [/home/abi/fetcher/tmp/abstract_gui-0.0.50.2.tar.gz]
+[2023-07-28 01:54:28] INFO root fetch - main [MainThread]: End processing [abstract-gui]: success
+[2023-07-28 01:54:28] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-0.0.8.tar.gz]
+[2023-07-28 01:54:28] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-0.0.9.tar.gz]
+[2023-07-28 01:54:28] INFO root fetch - main [MainThread]: End processing [ecoengine]: success
+[2023-07-28 01:54:29] INFO root fetch - processPackages [trainyard]: Remove: archive file [/home/abi/fetcher/tmp/trainyard-0.0.1.tar.gz]
+[2023-07-28 01:54:29] INFO root fetch - processPackages [trainyard]: Remove: archive file [/home/abi/fetcher/tmp/trainyard-0.0.1a0.tar.gz]
+[2023-07-28 01:54:29] INFO root fetch - main [MainThread]: End processing [trainyard]: success
+[2023-07-28 01:54:29] INFO root fetch - processPackages [lytekit]: Remove: archive file [/home/abi/fetcher/tmp/lytekit-0.9.0.tar.gz]
+[2023-07-28 01:54:29] INFO root fetch - processPackages [lytekit]: Remove: archive file [/home/abi/fetcher/tmp/lytekit-0.9.1.tar.gz]
+[2023-07-28 01:54:29] INFO root fetch - main [MainThread]: End processing [lytekit]: success
+[2023-07-28 01:54:30] INFO root fetch - processPackages [deepchem]: Remove: archive file [/home/abi/fetcher/tmp/deepchem-2.7.2.dev20230726122048.tar.gz]
+[2023-07-28 01:54:30] INFO root fetch - processPackages [deepchem]: Remove: archive file [/home/abi/fetcher/tmp/deepchem-2.7.2.dev20230727235143.tar.gz]
+[2023-07-28 01:54:30] INFO root fetch - main [MainThread]: End processing [deepchem]: success
+[2023-07-28 01:54:30] INFO root fetch - main [MainThread]: Store serial: [19067564]
