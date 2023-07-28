@@ -10284,3 +10284,138 @@
 [2023-07-28 04:40:53] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-28 04:40:53] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
 [2023-07-28 04:40:53] INFO root fetch - main [MainThread]: Store serial: [19070628]
+[2023-07-28 04:46:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19070628]
+[2023-07-28 04:46:17] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-28 04:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shipyard-census
+[2023-07-28 04:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: michael-pan-print-lib
+[2023-07-28 04:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edc
+[2023-07-28 04:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkshell
+[2023-07-28 04:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-07-28 04:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: testflows.github.runners
+[2023-07-28 04:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abstract-ai
+[2023-07-28 04:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: policyengine-us
+[2023-07-28 04:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reteps-ctfcli
+[2023-07-28 04:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lbTool
+[2023-07-28 04:46:17] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-28 04:46:17] WARNING root fetch - processPackages [michael-pan-print-lib]: Skipping, unable to determine old version
+[2023-07-28 04:46:17] INFO root fetch - processPackages [michael-pan-print-lib]: Start processing: scrunch
+[2023-07-28 04:46:17] INFO root fetch - main [MainThread]: End processing [michael-pan-print-lib] error
+[2023-07-28 04:46:17] INFO root fetch - processPackages [shipyard-census]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-07-28 04:46:17] WARNING root fetch - processPackages [mkshell]: Skipping, unable to determine old version
+[2023-07-28 04:46:17] INFO root fetch - processPackages [testflows.github.runners]: New version: [1.2.230728.1024151] Old Version: [1.2.230728.1015912]
+[2023-07-28 04:46:17] INFO root fetch - processPackages [mkshell]: Start processing: anyon
+[2023-07-28 04:46:17] INFO root fetch - main [MainThread]: End processing [mkshell] error
+[2023-07-28 04:46:17] INFO root fetch - processPackages [reteps-ctfcli]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-07-28 04:46:17] INFO root fetch - processPackages [scrunch]: New version: [6.5.2015.post1690508651] Old Version: [6.5.2014.post1690481109]
+[2023-07-28 04:46:17] INFO root fetch - processPackages [lbTool]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-28 04:46:17] INFO root fetch - processPackages [abstract-ai]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-28 04:46:17] INFO root fetch - processPackages [edc]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-28 04:46:17] INFO root fetch - processPackages [policyengine-us]: New version: [0.400.0] Old Version: [0.399.0]
+[2023-07-28 04:46:17] INFO root fetch - processPackages [anyon]: New version: [3.8.9] Old Version: [3.7.9]
+[2023-07-28 04:46:17] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/ef/6b/798c5b0e1a9d0361588b12a5489aa1817230bef480fe74733a6c99e67d7f/testflows.github.runners-1.2.230728.1015912.tar.gz
+[2023-07-28 04:46:18] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/07/9b/1fef3536651bf5be0d852e628f3b2ab74735cb843f4949062f2533e48e9e/abstract_ai-0.1.1.tar.gz
+[2023-07-28 04:46:18] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/ca/16/2303e5df65ede706d83b967cbf127095de86201f750816b8257e52b6fc21/scrunch-6.5.2014.post1690481109.tar.gz
+[2023-07-28 04:46:18] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/9e/5f/3f67830ae90145b736fecb9e25f4fd052a84ef81f9a4621fe2e162552029/policyengine-us-0.399.0.tar.gz
+[2023-07-28 04:46:18] INFO root fetch - processPackages [reteps-ctfcli]: Downloading https://files.pythonhosted.org/packages/c8/dd/c0d18845817d55eca1c5e9c280a3aa68d2674d81ecc39d58a951983258ba/reteps_ctfcli-0.0.13-py3-none-any.whl
+[2023-07-28 04:46:18] INFO root fetch - processPackages [lbTool]: Downloading https://files.pythonhosted.org/packages/4d/44/4d57fe3569d366f2e5f3a7d0a63175a04d43f413e48932437462bac78108/lbTool-1.1.1.tar.gz
+[2023-07-28 04:46:18] INFO root fetch - processPackages [shipyard-census]: Downloading https://files.pythonhosted.org/packages/ef/40/2fdf0e1ecc2d28108d269d458466c702f743f8a8493cfd41657f2e565bec/shipyard_census-0.1.1a1.tar.gz
+[2023-07-28 04:46:18] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/0d/71/fd426ffa8384b1a3dcc003d2c9cdcf108903816623585994a8b806e67082/edc-0.5.8.tar.gz
+[2023-07-28 04:46:18] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/5e/df/1387d51aefb5f4ac114833610f96bfd6448725e49c28752e2ef3ce352773/anyon-3.7.9-cp311-none-win_amd64.whl
+[2023-07-28 04:46:18] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-07-28 04:46:18] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/85/ff/e5b01c3ed1286081e957cccc2c1fbfdec36c6d6861a5d728bd1e9907028e/testflows.github.runners-1.2.230728.1024151.tar.gz
+[2023-07-28 04:46:18] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/2e/c1/1ab0814e51aa137a7e5671a8aba79f90359e2cad7d02523e1e3da98d622a/abstract_ai-0.1.2.tar.gz
+[2023-07-28 04:46:18] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/04/01/ce226759ad2581bd11cd5c6fbcf59e9f376b3180821bbc3b93a8ec47ba46/scrunch-6.5.2015.post1690508651.tar.gz
+[2023-07-28 04:46:18] INFO root fetch - processPackages [lbTool]: Downloading https://files.pythonhosted.org/packages/59/e9/6bfcbc57853063cca0303eb5d61a675dc06dbce593fac6bf9c00c55c01c7/lbTool-1.1.2.tar.gz
+[2023-07-28 04:46:18] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/08/21/fb88f8da127aef884e9595d6706b22c568b090d041bda9b102534537fe5e/policyengine-us-0.400.0.tar.gz
+[2023-07-28 04:46:18] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-07-28 04:46:18] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2014.post1690481109.tar.gz tmp/scrunch-6.5.2015.post1690508651.tar.gz --markdown 20230728/s/scrunch/6.5.2014.post1690481109-6.5.2015.post1690508651/diff.md --exclude *.pyd
+[2023-07-28 04:46:18] INFO root fetch - processPackages [reteps-ctfcli]: Downloading https://files.pythonhosted.org/packages/57/4c/9bb9e5569e5b58184cc55bf1edc9313be26b727007ed61da416538f74ae1/reteps_ctfcli-0.0.14-py3-none-any.whl
+[2023-07-28 04:46:18] INFO root fetch - processPackages [shipyard-census]: Downloading https://files.pythonhosted.org/packages/36/a7/30c013ad74108753ec4a15f8ff095bf0375d383ce97241334f08ce628e17/shipyard_census-0.1.1a2.tar.gz
+[2023-07-28 04:46:18] INFO root fetch - processPackages [testflows.github.runners]: executing diffoscope
+[2023-07-28 04:46:18] INFO root fetch - processPackages [testflows.github.runners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testflows.github.runners-1.2.230728.1015912.tar.gz tmp/testflows.github.runners-1.2.230728.1024151.tar.gz --markdown 20230728/t/testflows.github.runners/1.2.230728.1015912-1.2.230728.1024151/diff.md --exclude *.pyd
+[2023-07-28 04:46:18] INFO root fetch - processPackages [abstract-ai]: executing diffoscope
+[2023-07-28 04:46:18] INFO root fetch - processPackages [abstract-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_ai-0.1.1.tar.gz tmp/abstract_ai-0.1.2.tar.gz --markdown 20230728/a/abstract-ai/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-28 04:46:18] INFO root fetch - processPackages [lbTool]: executing diffoscope
+[2023-07-28 04:46:18] INFO root fetch - processPackages [lbTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbTool-1.1.1.tar.gz tmp/lbTool-1.1.2.tar.gz --markdown 20230728/l/lbTool/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-28 04:46:18] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/c3/e1/9aff20b85318cc37cad1323d68f6b4fc9186339dd91f77988832e79670ee/edc-0.5.9.tar.gz
+[2023-07-28 04:46:18] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/ed/92/409b285914980f035f40d0f929ef3fc963df14955907713e94988241c1dd/anyon-3.8.9-cp311-none-win_amd64.whl
+[2023-07-28 04:46:18] INFO root fetch - processPackages [shipyard-census]: executing diffoscope
+[2023-07-28 04:46:18] INFO root fetch - processPackages [shipyard-census]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_census-0.1.1a1.tar.gz tmp/shipyard_census-0.1.1a2.tar.gz --markdown 20230728/s/shipyard-census/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-07-28 04:46:18] INFO root fetch - processPackages [reteps-ctfcli]: executing diffoscope
+[2023-07-28 04:46:18] INFO root fetch - processPackages [reteps-ctfcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reteps_ctfcli-0.0.13-py3-none-any.whl.zip tmp/reteps_ctfcli-0.0.14-py3-none-any.whl.zip --markdown 20230728/r/reteps-ctfcli/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-07-28 04:46:18] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-28 04:46:18] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.399.0.tar.gz tmp/policyengine-us-0.400.0.tar.gz --markdown 20230728/p/policyengine-us/0.399.0-0.400.0/diff.md --exclude *.pyd
+[2023-07-28 04:46:18] INFO root fetch - processPackages [edc]: executing diffoscope
+[2023-07-28 04:46:18] INFO root fetch - processPackages [edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-0.5.8.tar.gz tmp/edc-0.5.9.tar.gz --markdown 20230728/e/edc/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-28 04:46:19] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-07-28 04:46:19] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.7.9-cp311-none-win_amd64.whl.zip tmp/anyon-3.8.9-cp311-none-win_amd64.whl.zip --markdown 20230728/a/anyon/3.7.9-3.8.9/diff.md --exclude *.pyd
+[2023-07-28 04:46:19] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-07-28 04:46:19] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-07-28 04:46:19] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230728/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-28 04:46:20] INFO root fetch - processPackages [lbTool]: Remove: archive file [/home/abi/fetcher/tmp/lbTool-1.1.1.tar.gz]
+[2023-07-28 04:46:20] INFO root fetch - processPackages [lbTool]: Remove: archive file [/home/abi/fetcher/tmp/lbTool-1.1.2.tar.gz]
+[2023-07-28 04:46:20] INFO root fetch - processPackages [lbTool]: Start processing: pythclient
+[2023-07-28 04:46:20] INFO root fetch - main [MainThread]: End processing [lbTool]: success
+[2023-07-28 04:46:20] INFO root fetch - processPackages [abstract-ai]: Remove: archive file [/home/abi/fetcher/tmp/abstract_ai-0.1.1.tar.gz]
+[2023-07-28 04:46:20] INFO root fetch - processPackages [abstract-ai]: Remove: archive file [/home/abi/fetcher/tmp/abstract_ai-0.1.2.tar.gz]
+[2023-07-28 04:46:20] INFO root fetch - processPackages [abstract-ai]: Start processing: shipyard-census
+[2023-07-28 04:46:20] INFO root fetch - main [MainThread]: End processing [abstract-ai]: success
+[2023-07-28 04:46:20] INFO root fetch - processPackages [shipyard-census]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_census-0.1.1a1.tar.gz]
+[2023-07-28 04:46:20] INFO root fetch - processPackages [pythclient]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-28 04:46:20] INFO root fetch - processPackages [shipyard-census]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_census-0.1.1a2.tar.gz]
+[2023-07-28 04:46:20] INFO root fetch - processPackages [shipyard-census]: Start processing: syntaxlight
+[2023-07-28 04:46:20] INFO root fetch - main [MainThread]: End processing [shipyard-census]: success
+[2023-07-28 04:46:20] INFO root fetch - processPackages [shipyard-census]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-07-28 04:46:20] INFO root fetch - processPackages [syntaxlight]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-28 04:46:20] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.2.230728.1015912.tar.gz]
+[2023-07-28 04:46:20] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.2.230728.1024151.tar.gz]
+[2023-07-28 04:46:20] INFO root fetch - processPackages [testflows.github.runners]: Start processing: fdfat
+[2023-07-28 04:46:20] INFO root fetch - main [MainThread]: End processing [testflows.github.runners]: success
+[2023-07-28 04:46:20] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.7.9-cp311-none-win_amd64.whl.zip]
+[2023-07-28 04:46:20] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.8.9-cp311-none-win_amd64.whl.zip]
+[2023-07-28 04:46:20] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-07-28 04:46:20] INFO root fetch - processPackages [fdfat]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-28 04:46:20] INFO root fetch - processPackages [shipyard-census]: Downloading https://files.pythonhosted.org/packages/ef/40/2fdf0e1ecc2d28108d269d458466c702f743f8a8493cfd41657f2e565bec/shipyard_census-0.1.1a1.tar.gz
+[2023-07-28 04:46:20] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2014.post1690481109.tar.gz]
+[2023-07-28 04:46:20] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2015.post1690508651.tar.gz]
+[2023-07-28 04:46:20] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-07-28 04:46:20] INFO root fetch - processPackages [pythclient]: Downloading https://files.pythonhosted.org/packages/f7/4a/b6a89d47c4cc8291a50df06eaf4d1400650db1f8a5223fa43b4005da89ef/pythclient-0.1.8.tar.gz
+[2023-07-28 04:46:20] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/36/83/b8b6aa8cc6e64ed6d3b37ebb0ed486391b027fa66d3c01812e1e7d424e7e/syntaxlight-0.0.5.tar.gz
+[2023-07-28 04:46:20] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-07-28 04:46:20] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-07-28 04:46:20] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-07-28 04:46:20] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/52/42/506d3fba14d58806c280bd41827378afbc8feb465c3c9021fad9db01c7fe/fdfat-0.1.8.tar.gz
+[2023-07-28 04:46:20] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.8.tar.gz]
+[2023-07-28 04:46:20] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.9.tar.gz]
+[2023-07-28 04:46:20] INFO root fetch - main [MainThread]: End processing [edc]: success
+[2023-07-28 04:46:20] INFO root fetch - processPackages [shipyard-census]: Downloading https://files.pythonhosted.org/packages/36/a7/30c013ad74108753ec4a15f8ff095bf0375d383ce97241334f08ce628e17/shipyard_census-0.1.1a2.tar.gz
+[2023-07-28 04:46:20] INFO root fetch - processPackages [reteps-ctfcli]: Remove: archive file [/home/abi/fetcher/tmp/reteps_ctfcli-0.0.13-py3-none-any.whl.zip]
+[2023-07-28 04:46:20] INFO root fetch - processPackages [reteps-ctfcli]: Remove: archive file [/home/abi/fetcher/tmp/reteps_ctfcli-0.0.14-py3-none-any.whl.zip]
+[2023-07-28 04:46:20] INFO root fetch - main [MainThread]: End processing [reteps-ctfcli]: success
+[2023-07-28 04:46:21] INFO root fetch - processPackages [shipyard-census]: executing diffoscope
+[2023-07-28 04:46:21] INFO root fetch - processPackages [shipyard-census]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_census-0.1.1a1.tar.gz tmp/shipyard_census-0.1.1a2.tar.gz --markdown 20230728/s/shipyard-census/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-07-28 04:46:21] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/91/3e/18df7d15296d14bb6f6b9b270de34d07ae8afd73c9d6fb03df521f58ce11/syntaxlight-0.0.6.tar.gz
+[2023-07-28 04:46:21] INFO root fetch - processPackages [pythclient]: Downloading https://files.pythonhosted.org/packages/d0/c2/a1e61d63a3c055bc977b7e04f2e2fba392dd2901aee64b683a517e9dc68d/pythclient-0.1.9.tar.gz
+[2023-07-28 04:46:21] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-07-28 04:46:21] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.0.5.tar.gz tmp/syntaxlight-0.0.6.tar.gz --markdown 20230728/s/syntaxlight/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-28 04:46:21] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/33/f3/6899c69370589ad43d818b9e5cdb2d0d01d7ef88af4613948080645b45db/fdfat-0.1.9.tar.gz
+[2023-07-28 04:46:21] INFO root fetch - processPackages [pythclient]: executing diffoscope
+[2023-07-28 04:46:21] INFO root fetch - processPackages [pythclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythclient-0.1.8.tar.gz tmp/pythclient-0.1.9.tar.gz --markdown 20230728/p/pythclient/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-28 04:46:21] INFO root fetch - processPackages [fdfat]: executing diffoscope
+[2023-07-28 04:46:21] INFO root fetch - processPackages [fdfat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdfat-0.1.8.tar.gz tmp/fdfat-0.1.9.tar.gz --markdown 20230728/f/fdfat/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-28 04:46:21] INFO root fetch - processPackages [shipyard-census]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_census-0.1.1a1.tar.gz]
+[2023-07-28 04:46:21] INFO root fetch - processPackages [shipyard-census]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_census-0.1.1a2.tar.gz]
+[2023-07-28 04:46:21] INFO root fetch - main [MainThread]: End processing [shipyard-census]: success
+[2023-07-28 04:46:22] INFO root fetch - processPackages [pythclient]: Remove: archive file [/home/abi/fetcher/tmp/pythclient-0.1.8.tar.gz]
+[2023-07-28 04:46:22] INFO root fetch - processPackages [pythclient]: Remove: archive file [/home/abi/fetcher/tmp/pythclient-0.1.9.tar.gz]
+[2023-07-28 04:46:22] INFO root fetch - main [MainThread]: End processing [pythclient]: success
+[2023-07-28 04:46:22] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.5.tar.gz]
+[2023-07-28 04:46:22] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.6.tar.gz]
+[2023-07-28 04:46:22] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-07-28 04:46:22] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.8.tar.gz]
+[2023-07-28 04:46:22] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.9.tar.gz]
+[2023-07-28 04:46:22] INFO root fetch - main [MainThread]: End processing [fdfat]: success
+[2023-07-28 04:46:50] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.399.0.tar.gz]
+[2023-07-28 04:46:50] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.400.0.tar.gz]
+[2023-07-28 04:46:50] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-28 04:46:50] INFO root fetch - main [MainThread]: Store serial: [19070690]
