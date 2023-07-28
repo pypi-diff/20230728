@@ -23269,3 +23269,95 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 14:32:59] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-6.9.0a1643146354.tar.gz]
 [2023-07-28 14:32:59] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2023-07-28 14:32:59] INFO root fetch - main [MainThread]: Store serial: [19075431]
+[2023-07-28 14:38:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19075431]
+[2023-07-28 14:38:08] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-28 14:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cryptobazen-statistics
+[2023-07-28 14:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mypy-boto3-builder
+[2023-07-28 14:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: combadge
+[2023-07-28 14:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih-mio
+[2023-07-28 14:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: titan-iris
+[2023-07-28 14:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: histomicstk
+[2023-07-28 14:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: corflow
+[2023-07-28 14:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiges
+[2023-07-28 14:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mordredcommunity
+[2023-07-28 14:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: projen
+[2023-07-28 14:38:08] INFO root fetch - processPackages [combadge]: New version: [0.2.0] Old Version: [0.1.0rc7]
+[2023-07-28 14:38:08] INFO root fetch - processPackages [mypy-boto3-builder]: New version: [7.9.2] Old Version: [7.9.1]
+[2023-07-28 14:38:09] WARNING root fetch - processPackages [cryptobazen-statistics]: Skipping, unable to determine old version
+[2023-07-28 14:38:09] INFO root fetch - processPackages [cryptobazen-statistics]: Start processing: robotframework-openapi-libcore
+[2023-07-28 14:38:09] INFO root fetch - main [MainThread]: End processing [cryptobazen-statistics] error
+[2023-07-28 14:38:09] INFO root fetch - processPackages [corflow]: New version: [3.2.5] Old Version: [3.2.4]
+[2023-07-28 14:38:09] INFO root fetch - processPackages [mordredcommunity]: New version: [2.0.1rc1] Old Version: [2.0.1]
+[2023-07-28 14:38:09] INFO root fetch - processPackages [pih-mio]: New version: [1.48007] Old Version: [1.48006]
+[2023-07-28 14:38:09] INFO root fetch - processPackages [histomicstk]: New version: [1.2.9.dev9] Old Version: [1.2.9.dev8]
+[2023-07-28 14:38:09] INFO root fetch - processPackages [aiges]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-28 14:38:09] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-28 14:38:09] INFO root fetch - processPackages [titan-iris]: New version: [0.9.3.dev99] Old Version: [0.9.2.dev5]
+[2023-07-28 14:38:09] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/19/29/0b2eaf6b569c7713d39c93cd57fbc79e50755a8a9ce2da3008f463577f0f/pih_mio-1.48006.tar.gz
+[2023-07-28 14:38:09] INFO root fetch - processPackages [robotframework-openapi-libcore]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-28 14:38:09] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-28 14:38:09] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d8/4a/02919e9fa5b5ed0fc3b652fc6bd854246cd85b81a3bf56f61ea4ea1bbe89/titan-iris-0.9.2.dev5.tar.gz
+[2023-07-28 14:38:09] INFO root fetch - processPackages [histomicstk]: Downloading https://files.pythonhosted.org/packages/aa/98/8350c3f72949283d48c8912f0240e67cdf2812e085ae6df7a8bd62b8aa59/histomicstk-1.2.9.dev8.tar.gz
+[2023-07-28 14:38:09] INFO root fetch - processPackages [combadge]: Downloading https://files.pythonhosted.org/packages/95/ef/8a8059d1db8ee684e2faa3d20ccdada428a503c6b135b5ebb2cd81b6725e/combadge-0.1.0rc7.tar.gz
+[2023-07-28 14:38:09] INFO root fetch - processPackages [mypy-boto3-builder]: Downloading https://files.pythonhosted.org/packages/ee/11/341b105bf6345e78400793dd64c53ee46392936cabff33772d368be4ab89/mypy-boto3-builder-7.9.1.tar.gz
+[2023-07-28 14:38:09] INFO root fetch - processPackages [mordredcommunity]: Downloading https://files.pythonhosted.org/packages/1f/e3/2d62d8e9984a3467e5ff1454e0d82dc2283a6727998ee58268e000c04dac/mordredcommunity-2.0.1.tar.gz
+[2023-07-28 14:38:09] INFO root fetch - processPackages [corflow]: Downloading https://files.pythonhosted.org/packages/01/6a/8f3cfe6eab2dea4ce172b0cdf43acc78709e14c83d6c6e05c4d7228386eb/corflow-3.2.4.tar.gz
+[2023-07-28 14:38:09] INFO root fetch - processPackages [aiges]: Downloading https://files.pythonhosted.org/packages/e9/5c/bf2d0d6fedce00e3446e524a5aa7201f7e1ed00162aa2cbbc57ca8c075de/aiges-0.8.8.tar.gz
+[2023-07-28 14:38:09] WARNING root fetch - processPackages [histomicstk]: Skipping package: exceeds size limit 26143923>=10485760
+[2023-07-28 14:38:09] INFO root fetch - main [MainThread]: End processing [histomicstk] error
+[2023-07-28 14:38:09] INFO root fetch - processPackages [robotframework-openapi-libcore]: Downloading https://files.pythonhosted.org/packages/62/40/31952171d54105d46d042ddc4b7c05365cc9e7d286d0b2b4e1918c6c0c69/robotframework_openapi_libcore-1.9.0.tar.gz
+[2023-07-28 14:38:09] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/e6/3c/18cd2bade8545377203ce5c15b460e11ef1f135b4425a3d1901bcb1e2061/titan-iris-0.9.3.dev99.tar.gz
+[2023-07-28 14:38:09] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/41/b8/8a6f2c0b9cc4780f9b208605c88cac849e16036c5bf37ce9f264c4a25e9d/pih_mio-1.48007.tar.gz
+[2023-07-28 14:38:09] INFO root fetch - processPackages [mypy-boto3-builder]: Downloading https://files.pythonhosted.org/packages/fe/ae/2a0da74f6827713d434b6fdb09c80ff83f450cffa43c5b8811492236e7ac/mypy-boto3-builder-7.9.2.tar.gz
+[2023-07-28 14:38:09] INFO root fetch - processPackages [mordredcommunity]: Downloading https://files.pythonhosted.org/packages/89/0c/31945dd85e5edec283a99326b575052230410cb5f88fa79646c507ab94c0/mordredcommunity-2.0.1rc1.tar.gz
+[2023-07-28 14:38:09] INFO root fetch - processPackages [combadge]: Downloading https://files.pythonhosted.org/packages/aa/20/b344f24f7c136abc616300bcc7985f97acacf07a91d810abdfdf2dbc1413/combadge-0.2.0.tar.gz
+[2023-07-28 14:38:09] INFO root fetch - processPackages [corflow]: Downloading https://files.pythonhosted.org/packages/3d/6c/2e56dc53138cb326bdab2a8b7b7006735d86abb5420bcdeb2b82e7e37a94/corflow-3.2.5.tar.gz
+[2023-07-28 14:38:09] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-07-28 14:38:09] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.9.2.dev5.tar.gz tmp/titan-iris-0.9.3.dev99.tar.gz --markdown 20230728/t/titan-iris/0.9.2.dev5-0.9.3.dev99/diff.md --exclude *.pyd
+[2023-07-28 14:38:09] INFO root fetch - processPackages [aiges]: Downloading https://files.pythonhosted.org/packages/69/79/46d6a9d36c04e1b04b372af7578163390cb12d189453ec87c8ce910593b0/aiges-0.8.9.tar.gz
+[2023-07-28 14:38:10] INFO root fetch - processPackages [mypy-boto3-builder]: executing diffoscope
+[2023-07-28 14:38:10] INFO root fetch - processPackages [mypy-boto3-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-builder-7.9.1.tar.gz tmp/mypy-boto3-builder-7.9.2.tar.gz --markdown 20230728/m/mypy-boto3-builder/7.9.1-7.9.2/diff.md --exclude *.pyd
+[2023-07-28 14:38:10] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-28 14:38:10] INFO root fetch - processPackages [pih-mio]: executing diffoscope
+[2023-07-28 14:38:10] INFO root fetch - processPackages [pih-mio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih_mio-1.48006.tar.gz tmp/pih_mio-1.48007.tar.gz --markdown 20230728/p/pih-mio/1.48006-1.48007/diff.md --exclude *.pyd
+[2023-07-28 14:38:10] INFO root fetch - processPackages [combadge]: executing diffoscope
+[2023-07-28 14:38:10] INFO root fetch - processPackages [combadge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/combadge-0.1.0rc7.tar.gz tmp/combadge-0.2.0.tar.gz --markdown 20230728/c/combadge/0.1.0rc7-0.2.0/diff.md --exclude *.pyd
+[2023-07-28 14:38:10] INFO root fetch - processPackages [mordredcommunity]: executing diffoscope
+[2023-07-28 14:38:10] INFO root fetch - processPackages [mordredcommunity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mordredcommunity-2.0.1.tar.gz tmp/mordredcommunity-2.0.1rc1.tar.gz --markdown 20230728/m/mordredcommunity/2.0.1-2.0.1rc1/diff.md --exclude *.pyd
+[2023-07-28 14:38:10] INFO root fetch - processPackages [corflow]: executing diffoscope
+[2023-07-28 14:38:10] INFO root fetch - processPackages [corflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corflow-3.2.4.tar.gz tmp/corflow-3.2.5.tar.gz --markdown 20230728/c/corflow/3.2.4-3.2.5/diff.md --exclude *.pyd
+[2023-07-28 14:38:10] INFO root fetch - processPackages [aiges]: executing diffoscope
+[2023-07-28 14:38:10] INFO root fetch - processPackages [aiges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiges-0.8.8.tar.gz tmp/aiges-0.8.9.tar.gz --markdown 20230728/a/aiges/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-28 14:38:10] INFO root fetch - processPackages [robotframework-openapi-libcore]: Downloading https://files.pythonhosted.org/packages/fd/3a/94299acc5fc583ede493df982e5413135e38d3e43ebb682a8c68f438f3e9/robotframework_openapi_libcore-1.9.1.tar.gz
+[2023-07-28 14:38:10] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-28 14:38:10] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230728/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-28 14:38:10] INFO root fetch - processPackages [robotframework-openapi-libcore]: executing diffoscope
+[2023-07-28 14:38:10] INFO root fetch - processPackages [robotframework-openapi-libcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_openapi_libcore-1.9.0.tar.gz tmp/robotframework_openapi_libcore-1.9.1.tar.gz --markdown 20230728/r/robotframework-openapi-libcore/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-28 14:38:11] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.2.dev5.tar.gz]
+[2023-07-28 14:38:11] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.3.dev99.tar.gz]
+[2023-07-28 14:38:11] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-07-28 14:38:11] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih_mio-1.48006.tar.gz]
+[2023-07-28 14:38:11] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih_mio-1.48007.tar.gz]
+[2023-07-28 14:38:11] INFO root fetch - main [MainThread]: End processing [pih-mio]: success
+[2023-07-28 14:38:11] INFO root fetch - processPackages [corflow]: Remove: archive file [/home/abi/fetcher/tmp/corflow-3.2.4.tar.gz]
+[2023-07-28 14:38:11] INFO root fetch - processPackages [corflow]: Remove: archive file [/home/abi/fetcher/tmp/corflow-3.2.5.tar.gz]
+[2023-07-28 14:38:11] INFO root fetch - main [MainThread]: End processing [corflow]: success
+[2023-07-28 14:38:11] INFO root fetch - processPackages [combadge]: Remove: archive file [/home/abi/fetcher/tmp/combadge-0.1.0rc7.tar.gz]
+[2023-07-28 14:38:11] INFO root fetch - processPackages [combadge]: Remove: archive file [/home/abi/fetcher/tmp/combadge-0.2.0.tar.gz]
+[2023-07-28 14:38:11] INFO root fetch - main [MainThread]: End processing [combadge]: success
+[2023-07-28 14:38:11] INFO root fetch - processPackages [aiges]: Remove: archive file [/home/abi/fetcher/tmp/aiges-0.8.8.tar.gz]
+[2023-07-28 14:38:11] INFO root fetch - processPackages [aiges]: Remove: archive file [/home/abi/fetcher/tmp/aiges-0.8.9.tar.gz]
+[2023-07-28 14:38:11] INFO root fetch - main [MainThread]: End processing [aiges]: success
+[2023-07-28 14:38:12] INFO root fetch - processPackages [robotframework-openapi-libcore]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_openapi_libcore-1.9.0.tar.gz]
+[2023-07-28 14:38:12] INFO root fetch - processPackages [robotframework-openapi-libcore]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_openapi_libcore-1.9.1.tar.gz]
+[2023-07-28 14:38:12] INFO root fetch - main [MainThread]: End processing [robotframework-openapi-libcore]: success
+[2023-07-28 14:38:12] INFO root fetch - processPackages [mordredcommunity]: Remove: archive file [/home/abi/fetcher/tmp/mordredcommunity-2.0.1.tar.gz]
+[2023-07-28 14:38:12] INFO root fetch - processPackages [mordredcommunity]: Remove: archive file [/home/abi/fetcher/tmp/mordredcommunity-2.0.1rc1.tar.gz]
+[2023-07-28 14:38:12] INFO root fetch - main [MainThread]: End processing [mordredcommunity]: success
+[2023-07-28 14:38:12] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-28 14:38:12] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-28 14:38:12] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-28 14:38:12] INFO root fetch - processPackages [mypy-boto3-builder]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-builder-7.9.1.tar.gz]
+[2023-07-28 14:38:12] INFO root fetch - processPackages [mypy-boto3-builder]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-builder-7.9.2.tar.gz]
+[2023-07-28 14:38:12] INFO root fetch - main [MainThread]: End processing [mypy-boto3-builder]: success
+[2023-07-28 14:38:12] INFO root fetch - main [MainThread]: Store serial: [19075471]
