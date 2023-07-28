@@ -23714,3 +23714,186 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 14:53:52] INFO root fetch - processPackages [philander]: Remove: archive file [/home/abi/fetcher/tmp/philander-0.1.1a0.tar.gz]
 [2023-07-28 14:53:52] INFO root fetch - main [MainThread]: End processing [philander]: success
 [2023-07-28 14:53:52] INFO root fetch - main [MainThread]: Store serial: [19075591]
+[2023-07-28 14:58:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19075591]
+[2023-07-28 14:59:00] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-28 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipedrive-wrapper
+[2023-07-28 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: visium-explore
+[2023-07-28 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modgen
+[2023-07-28 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wonder-sdk
+[2023-07-28 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data-ecosystem-services
+[2023-07-28 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pySDC
+[2023-07-28 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: data-ecosystem-services
+[2023-07-28 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cm-two
+[2023-07-28 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cryptobazen-statistics
+[2023-07-28 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: readmedocs-fetcher-haystack
+[2023-07-28 14:59:01] INFO root fetch - processPackages [visium-explore]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-28 14:59:01] INFO root fetch - processPackages [modgen]: New version: [0.2] Old Version: [0.1]
+[2023-07-28 14:59:01] WARNING root fetch - processPackages [readmedocs-fetcher-haystack]: Skipping, unable to determine old version
+[2023-07-28 14:59:01] INFO root fetch - processPackages [readmedocs-fetcher-haystack]: Start processing: NeuralPlayground
+[2023-07-28 14:59:01] INFO root fetch - main [MainThread]: End processing [readmedocs-fetcher-haystack] error
+[2023-07-28 14:59:01] INFO root fetch - processPackages [pySDC]: New version: [5.3.0] Old Version: [5.2.0]
+[2023-07-28 14:59:01] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202307.0.9] Old Version: [202307.0.8]
+[2023-07-28 14:59:01] INFO root fetch - processPackages [pipedrive-wrapper]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-28 14:59:01] INFO root fetch - processPackages [wonder-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-28 14:59:01] INFO root fetch - processPackages [cryptobazen-statistics]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-28 14:59:01] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202307.0.9] Old Version: [202307.0.8]
+[2023-07-28 14:59:01] INFO root fetch - processPackages [cm-two]: New version: [2.3.593] Old Version: [2.3.592]
+[2023-07-28 14:59:01] INFO root fetch - processPackages [NeuralPlayground]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-28 14:59:01] INFO root fetch - processPackages [visium-explore]: Downloading https://files.pythonhosted.org/packages/88/6d/3dbaa46cf439a6bd9ab315cfec622c9e93840e3e2cda57e5912b6728a81f/visium-explore-0.8.0.tar.gz
+[2023-07-28 14:59:01] INFO root fetch - processPackages [pySDC]: Downloading https://files.pythonhosted.org/packages/d9/19/4154042ca95ca4d1d13424bd5f329cdd89a185add0a730cac89bbc1a007e/pySDC-5.2.0.tar.gz
+[2023-07-28 14:59:01] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/e7/af/d8e01a44c8d6ff8404fb660eead08b5501e672e962726f12dcf57cebd237/data_ecosystem_services-202307.0.8.tar.gz
+[2023-07-28 14:59:01] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/e7/af/d8e01a44c8d6ff8404fb660eead08b5501e672e962726f12dcf57cebd237/data_ecosystem_services-202307.0.8.tar.gz
+[2023-07-28 14:59:01] INFO root fetch - processPackages [modgen]: Downloading https://files.pythonhosted.org/packages/4b/38/a62914271c5fe211b2378b670f5ef7aeff2ec1a839385331a1a5e72b46b2/modgen-0.1.tar.gz
+[2023-07-28 14:59:01] INFO root fetch - processPackages [pipedrive-wrapper]: Downloading https://files.pythonhosted.org/packages/1b/10/14091897270e0a616aba782ea2a964fbf49b924efd4a4db20cdf71077f6a/pipedrive-wrapper-1.0.8.tar.gz
+[2023-07-28 14:59:01] INFO root fetch - processPackages [cryptobazen-statistics]: Downloading https://files.pythonhosted.org/packages/39/b5/0ce7d69f5ba04ade9b07fa0edbd5d160f3314f9c0c0015f12e3cabe56ae2/cryptobazen_statistics-0.0.1.tar.gz
+[2023-07-28 14:59:01] INFO root fetch - processPackages [wonder-sdk]: Downloading https://files.pythonhosted.org/packages/37/05/241450cdd86b168a622dc8451f3538b4f32243b5ee9cc34c5c69fd955cfe/wonder-sdk-0.1.8.tar.gz
+[2023-07-28 14:59:01] INFO root fetch - processPackages [NeuralPlayground]: Downloading https://files.pythonhosted.org/packages/66/86/acd49e78ead6b03f9396b43bb21d9a23df20fb4114a5943b4d5fce9dc680/NeuralPlayground-0.0.2.tar.gz
+[2023-07-28 14:59:01] WARNING root fetch - processPackages [pySDC]: Skipping package: exceeds size limit 53460052>=10485760
+[2023-07-28 14:59:01] INFO root fetch - processPackages [pySDC]: Start processing: port-ocean
+[2023-07-28 14:59:01] INFO root fetch - main [MainThread]: End processing [pySDC] error
+[2023-07-28 14:59:01] INFO root fetch - processPackages [port-ocean]: New version: [0.1.3rc1] Old Version: [0.1.2rc3]
+[2023-07-28 14:59:01] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/f6/5d/815c1a7b8c5ddb221e3c74ded2f10e07d671a34f052dc9788ce037dce410/cm_two-2.3.593-py3-none-any.whl
+[2023-07-28 14:59:01] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/61/c4/c24ae9a5015d98034661de84f580a77c2c8aab9179a4e919a041ebd285ca/data_ecosystem_services-202307.0.9.tar.gz
+[2023-07-28 14:59:01] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/61/c4/c24ae9a5015d98034661de84f580a77c2c8aab9179a4e919a041ebd285ca/data_ecosystem_services-202307.0.9.tar.gz
+[2023-07-28 14:59:01] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/69/8a/4c9322ec939e2e37434883de0450710d9049c601a17c48f6c0bd09aa6a1b/port_ocean-0.1.2rc3.tar.gz
+[2023-07-28 14:59:01] INFO root fetch - processPackages [visium-explore]: Downloading https://files.pythonhosted.org/packages/64/e8/aef82f12f329771218227c79cac8c2c8c054d52b125e299f68861e7d4147/visium-explore-0.9.0.tar.gz
+[2023-07-28 14:59:02] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-07-28 14:59:02] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.592-py3-none-any.whl.zip tmp/cm_two-2.3.593-py3-none-any.whl.zip --markdown 20230728/c/cm-two/2.3.592-2.3.593/diff.md --exclude *.pyd
+[2023-07-28 14:59:02] INFO root fetch - processPackages [modgen]: Downloading https://files.pythonhosted.org/packages/e2/39/307bfcd1d53400d67910f369e1e5d4ca5b332c0170dfb3ec601bdc74be4b/modgen-0.2.tar.gz
+[2023-07-28 14:59:02] INFO root fetch - processPackages [cryptobazen-statistics]: Downloading https://files.pythonhosted.org/packages/1a/2c/87324838b38274730688f9a23baf511929a60be16e2267eda9c7c0996671/cryptobazen_statistics-0.0.2.tar.gz
+[2023-07-28 14:59:02] INFO root fetch - processPackages [pipedrive-wrapper]: Downloading https://files.pythonhosted.org/packages/6f/b8/e0242ee18d3d74fdd071b9705c3212dc47e944d7fbcf2a8ff884dc854cda/pipedrive-wrapper-1.0.9.tar.gz
+[2023-07-28 14:59:02] INFO root fetch - processPackages [NeuralPlayground]: Downloading https://files.pythonhosted.org/packages/d6/1d/7dfb61ff6eca10fc929c4cc5b13593c0d762b6d552c42401b2d6d6de2753/NeuralPlayground-0.0.3.tar.gz
+[2023-07-28 14:59:02] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-07-28 14:59:02] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202307.0.8.tar.gz tmp/data_ecosystem_services-202307.0.9.tar.gz --markdown 20230728/d/data-ecosystem-services/202307.0.8-202307.0.9/diff.md --exclude *.pyd
+[2023-07-28 14:59:02] INFO root fetch - processPackages [modgen]: executing diffoscope
+[2023-07-28 14:59:02] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-07-28 14:59:02] INFO root fetch - processPackages [modgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modgen-0.1.tar.gz tmp/modgen-0.2.tar.gz --markdown 20230728/m/modgen/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-28 14:59:02] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202307.0.8.tar.gz tmp/data_ecosystem_services-202307.0.9.tar.gz --markdown 20230728/d/data-ecosystem-services/202307.0.8-202307.0.9/diff.md --exclude *.pyd
+[2023-07-28 14:59:02] INFO root fetch - processPackages [cryptobazen-statistics]: executing diffoscope
+[2023-07-28 14:59:02] INFO root fetch - processPackages [cryptobazen-statistics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptobazen_statistics-0.0.1.tar.gz tmp/cryptobazen_statistics-0.0.2.tar.gz --markdown 20230728/c/cryptobazen-statistics/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-28 14:59:02] INFO root fetch - processPackages [visium-explore]: executing diffoscope
+[2023-07-28 14:59:02] INFO root fetch - processPackages [visium-explore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visium-explore-0.8.0.tar.gz tmp/visium-explore-0.9.0.tar.gz --markdown 20230728/v/visium-explore/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-28 14:59:02] INFO root fetch - processPackages [pipedrive-wrapper]: executing diffoscope
+[2023-07-28 14:59:02] INFO root fetch - processPackages [pipedrive-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipedrive-wrapper-1.0.8.tar.gz tmp/pipedrive-wrapper-1.0.9.tar.gz --markdown 20230728/p/pipedrive-wrapper/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-28 14:59:02] INFO root fetch - processPackages [NeuralPlayground]: executing diffoscope
+[2023-07-28 14:59:02] INFO root fetch - processPackages [NeuralPlayground]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeuralPlayground-0.0.2.tar.gz tmp/NeuralPlayground-0.0.3.tar.gz --markdown 20230728/N/NeuralPlayground/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-28 14:59:02] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/c0/21/9fcaebc25b18663aa24badd85a2cfb9cb99d4cfd0cc8a798e10e20f9d943/port_ocean-0.1.3rc1.tar.gz
+[2023-07-28 14:59:02] INFO root fetch - processPackages [port-ocean]: executing diffoscope
+[2023-07-28 14:59:02] INFO root fetch - processPackages [port-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_ocean-0.1.2rc3.tar.gz tmp/port_ocean-0.1.3rc1.tar.gz --markdown 20230728/p/port-ocean/0.1.2rc3-0.1.3rc1/diff.md --exclude *.pyd
+[2023-07-28 14:59:02] INFO root fetch - processPackages [wonder-sdk]: Downloading https://files.pythonhosted.org/packages/f5/25/4991f4bef37b01368e06cda988181108fda8312bf6cdff12e141d0b13a80/wonder-sdk-0.1.9.tar.gz
+[2023-07-28 14:59:03] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: time="2023-07-28T14:59:02+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-07-28 14:59:03] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-07-28 14:59:03] INFO root fetch - processPackages [wonder-sdk]: executing diffoscope
+[2023-07-28 14:59:03] INFO root fetch - processPackages [wonder-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wonder-sdk-0.1.8.tar.gz tmp/wonder-sdk-0.1.9.tar.gz --markdown 20230728/w/wonder-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-28 14:59:03] INFO root fetch - processPackages [cryptobazen-statistics]: Remove: archive file [/home/abi/fetcher/tmp/cryptobazen_statistics-0.0.1.tar.gz]
+[2023-07-28 14:59:03] INFO root fetch - processPackages [cryptobazen-statistics]: Remove: archive file [/home/abi/fetcher/tmp/cryptobazen_statistics-0.0.2.tar.gz]
+[2023-07-28 14:59:03] INFO root fetch - main [MainThread]: End processing [cryptobazen-statistics]: success
+[2023-07-28 14:59:03] INFO root fetch - processPackages [modgen]: Remove: archive file [/home/abi/fetcher/tmp/modgen-0.1.tar.gz]
+[2023-07-28 14:59:03] INFO root fetch - processPackages [modgen]: Remove: archive file [/home/abi/fetcher/tmp/modgen-0.2.tar.gz]
+[2023-07-28 14:59:03] INFO root fetch - main [MainThread]: End processing [modgen]: success
+[2023-07-28 14:59:03] INFO root fetch - processPackages [pipedrive-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/pipedrive-wrapper-1.0.8.tar.gz]
+[2023-07-28 14:59:03] INFO root fetch - processPackages [pipedrive-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/pipedrive-wrapper-1.0.9.tar.gz]
+[2023-07-28 14:59:03] INFO root fetch - main [MainThread]: End processing [pipedrive-wrapper]: success
+[2023-07-28 14:59:03] INFO root fetch - processPackages [visium-explore]: Remove: archive file [/home/abi/fetcher/tmp/visium-explore-0.8.0.tar.gz]
+[2023-07-28 14:59:03] INFO root fetch - processPackages [visium-explore]: Remove: archive file [/home/abi/fetcher/tmp/visium-explore-0.9.0.tar.gz]
+[2023-07-28 14:59:03] INFO root fetch - main [MainThread]: End processing [visium-explore]: success
+[2023-07-28 14:59:03] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202307.0.8.tar.gz]
+[2023-07-28 14:59:03] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202307.0.9.tar.gz]
+[2023-07-28 14:59:03] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-07-28 14:59:03] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-07-28 14:59:04] INFO root fetch - processPackages [NeuralPlayground]: Remove: archive file [/home/abi/fetcher/tmp/NeuralPlayground-0.0.2.tar.gz]
+[2023-07-28 14:59:04] INFO root fetch - processPackages [NeuralPlayground]: Remove: archive file [/home/abi/fetcher/tmp/NeuralPlayground-0.0.3.tar.gz]
+[2023-07-28 14:59:04] INFO root fetch - main [MainThread]: End processing [NeuralPlayground]: success
+[2023-07-28 14:59:04] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.2rc3.tar.gz]
+[2023-07-28 14:59:04] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.3rc1.tar.gz]
+[2023-07-28 14:59:04] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
+[2023-07-28 14:59:04] INFO root fetch - processPackages [wonder-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-sdk-0.1.8.tar.gz]
+[2023-07-28 14:59:04] INFO root fetch - processPackages [wonder-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-sdk-0.1.9.tar.gz]
+[2023-07-28 14:59:04] INFO root fetch - main [MainThread]: End processing [wonder-sdk]: success
+[2023-07-28 14:59:04] INFO root fetch - main [MainThread]: Store serial: [19075630]
