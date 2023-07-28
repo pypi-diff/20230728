@@ -9490,3 +9490,96 @@
 [2023-07-28 03:45:50] INFO root fetch - processPackages [CyRK]: Remove: archive file [/home/abi/fetcher/tmp/CyRK-0.6.0.tar.gz]
 [2023-07-28 03:45:50] INFO root fetch - main [MainThread]: End processing [CyRK]: success
 [2023-07-28 03:45:50] INFO root fetch - main [MainThread]: Store serial: [19070260]
+[2023-07-28 03:50:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19070260]
+[2023-07-28 03:51:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-28 03:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kingunit
+[2023-07-28 03:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mppsolar
+[2023-07-28 03:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: otter-grader
+[2023-07-28 03:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: benimang
+[2023-07-28 03:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mypy-boto3-sqs
+[2023-07-28 03:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mypy-boto3
+[2023-07-28 03:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: boto3-stubs
+[2023-07-28 03:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: boto3-stubs-lite
+[2023-07-28 03:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mpservice
+[2023-07-28 03:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: docarray
+[2023-07-28 03:51:00] INFO root fetch - processPackages [mppsolar]: New version: [0.9.12] Old Version: [0.9.1]
+[2023-07-28 03:51:00] INFO root fetch - processPackages [kingunit]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-28 03:51:00] INFO root fetch - processPackages [boto3-stubs]: New version: [1.28.9] Old Version: [1.28.8]
+[2023-07-28 03:51:00] INFO root fetch - processPackages [benimang]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-28 03:51:00] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-07-28 03:51:00] INFO root fetch - processPackages [boto3-stubs-lite]: New version: [1.28.9] Old Version: [1.28.8]
+[2023-07-28 03:51:00] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-07-28 03:51:00] INFO root fetch - processPackages [mypy-boto3]: New version: [1.28.9] Old Version: [1.28.8]
+[2023-07-28 03:51:00] INFO root fetch - processPackages [otter-grader]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-07-28 03:51:00] INFO root fetch - processPackages [mypy-boto3-sqs]: New version: [1.28.14] Old Version: [1.28.12]
+[2023-07-28 03:51:00] INFO root fetch - processPackages [boto3-stubs]: Downloading https://files.pythonhosted.org/packages/df/8b/af02f65f26e1e98fee8c0c611cf8c3ca6deb0463c2f45d4415f7c9f48bb6/boto3-stubs-1.28.8.tar.gz
+[2023-07-28 03:51:00] INFO root fetch - processPackages [kingunit]: Downloading https://files.pythonhosted.org/packages/1c/12/3c3194a0d51e4dad63b5f36ba111c9abca6df87629a9c503a79b0bc203f3/kingunit-0.0.7.tar.gz
+[2023-07-28 03:51:00] INFO root fetch - processPackages [mppsolar]: Downloading https://files.pythonhosted.org/packages/6b/31/e960cd826fccc8ffb069d4605d995c555846f8fce9f86e5e121ccedcad86/mppsolar-0.9.1.tar.gz
+[2023-07-28 03:51:00] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/6c/53/9b86c706ade5f74e42d276d659921701a0cf7c8ba099b489c3958cd88b4f/benimang-0.4.8.tar.gz
+[2023-07-28 03:51:00] INFO root fetch - processPackages [mypy-boto3]: Downloading https://files.pythonhosted.org/packages/de/dd/e720f603d6749a27b7e17ef13343e01b5bc0780d46480dab304f13a6d6a8/mypy-boto3-1.28.8.tar.gz
+[2023-07-28 03:51:00] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-07-28 03:51:00] INFO root fetch - processPackages [mypy-boto3-sqs]: Downloading https://files.pythonhosted.org/packages/bc/27/54061252043fcbb6150494a83109c74b16fba9a9f64cadce70f243cf9e32/mypy-boto3-sqs-1.28.12.tar.gz
+[2023-07-28 03:51:00] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/a4/76/0caf3e54fc1b0c685c01abdb7deb283a4e0ab62467df218edf79256efe6d/mpservice-0.9.9.tar.gz
+[2023-07-28 03:51:00] INFO root fetch - processPackages [boto3-stubs-lite]: Downloading https://files.pythonhosted.org/packages/7c/0e/d5a9e7ed1d70cbf71c263e87f650f7a2d7c6c7d82d8106cb71489c4ebf28/boto3-stubs-lite-1.28.8.tar.gz
+[2023-07-28 03:51:00] INFO root fetch - processPackages [otter-grader]: Downloading https://files.pythonhosted.org/packages/70/e5/50dafa46d58198fc2494714e621d62245ade71c67ea3b9246b33e0273d73/otter-grader-5.0.1.tar.gz
+[2023-07-28 03:51:00] INFO root fetch - processPackages [boto3-stubs]: Downloading https://files.pythonhosted.org/packages/99/8e/dcf88125ddc5b201fb5965bb3bb8859156df7786b11abf200f23f176b0b8/boto3-stubs-1.28.9.tar.gz
+[2023-07-28 03:51:01] INFO root fetch - processPackages [mypy-boto3]: Downloading https://files.pythonhosted.org/packages/34/1c/f64753dcc15073137124ae172aa7b93b47c5eed0e19c7e05e0f0ca0d715b/mypy-boto3-1.28.9.tar.gz
+[2023-07-28 03:51:01] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-07-28 03:51:01] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/e6/d8/79c374e4571a77e12f622ba60e902b628a4f241c92211d73f8b66907db49/benimang-0.4.9.tar.gz
+[2023-07-28 03:51:01] INFO root fetch - processPackages [mypy-boto3-sqs]: Downloading https://files.pythonhosted.org/packages/48/06/dfa068699e120686214694c4aa8f137affd5a7f0023d5cacb50d62498a28/mypy-boto3-sqs-1.28.14.tar.gz
+[2023-07-28 03:51:01] INFO root fetch - processPackages [kingunit]: Downloading https://files.pythonhosted.org/packages/09/c8/105d3a57559617bd57969538b1efbaa9111c8059519823c7a9c33182f1cd/kingunit-0.0.8.tar.gz
+[2023-07-28 03:51:01] INFO root fetch - processPackages [boto3-stubs-lite]: Downloading https://files.pythonhosted.org/packages/ed/ac/1351490dd3a6842f767dc8ebe274ae2e22a4b7cef6660ac52040bc983b86/boto3-stubs-lite-1.28.9.tar.gz
+[2023-07-28 03:51:01] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/62/83/992eb812676a1d5b8ffbc5c9ba7e1bd57f82c86ae5c8a0e509834c8df031/mpservice-0.9.9.post1.tar.gz
+[2023-07-28 03:51:01] INFO root fetch - processPackages [mypy-boto3]: executing diffoscope
+[2023-07-28 03:51:01] INFO root fetch - processPackages [mypy-boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-1.28.8.tar.gz tmp/mypy-boto3-1.28.9.tar.gz --markdown 20230728/m/mypy-boto3/1.28.8-1.28.9/diff.md --exclude *.pyd
+[2023-07-28 03:51:01] INFO root fetch - processPackages [benimang]: executing diffoscope
+[2023-07-28 03:51:01] INFO root fetch - processPackages [benimang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benimang-0.4.8.tar.gz tmp/benimang-0.4.9.tar.gz --markdown 20230728/b/benimang/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-28 03:51:01] INFO root fetch - processPackages [mppsolar]: Downloading https://files.pythonhosted.org/packages/fd/87/29296f7b83112ba52d957ad9bd045e73b688905ea29ddda5f44e092a22bc/mppsolar-0.9.12.tar.gz
+[2023-07-28 03:51:01] INFO root fetch - processPackages [kingunit]: executing diffoscope
+[2023-07-28 03:51:01] INFO root fetch - processPackages [kingunit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kingunit-0.0.7.tar.gz tmp/kingunit-0.0.8.tar.gz --markdown 20230728/k/kingunit/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-28 03:51:01] INFO root fetch - processPackages [mypy-boto3-sqs]: executing diffoscope
+[2023-07-28 03:51:01] INFO root fetch - processPackages [mypy-boto3-sqs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-sqs-1.28.12.tar.gz tmp/mypy-boto3-sqs-1.28.14.tar.gz --markdown 20230728/m/mypy-boto3-sqs/1.28.12-1.28.14/diff.md --exclude *.pyd
+[2023-07-28 03:51:01] INFO root fetch - processPackages [boto3-stubs]: executing diffoscope
+[2023-07-28 03:51:01] INFO root fetch - processPackages [boto3-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-1.28.8.tar.gz tmp/boto3-stubs-1.28.9.tar.gz --markdown 20230728/b/boto3-stubs/1.28.8-1.28.9/diff.md --exclude *.pyd
+[2023-07-28 03:51:01] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-07-28 03:51:01] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230728/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-07-28 03:51:01] INFO root fetch - processPackages [boto3-stubs-lite]: executing diffoscope
+[2023-07-28 03:51:01] INFO root fetch - processPackages [boto3-stubs-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-lite-1.28.8.tar.gz tmp/boto3-stubs-lite-1.28.9.tar.gz --markdown 20230728/b/boto3-stubs-lite/1.28.8-1.28.9/diff.md --exclude *.pyd
+[2023-07-28 03:51:01] INFO root fetch - processPackages [otter-grader]: Downloading https://files.pythonhosted.org/packages/68/aa/0756896b378e0b55241ced417f1899debcff08278a5dbf053444de3f42cd/otter-grader-5.0.2.tar.gz
+[2023-07-28 03:51:01] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-07-28 03:51:01] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230728/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-07-28 03:51:01] INFO root fetch - processPackages [otter-grader]: executing diffoscope
+[2023-07-28 03:51:01] INFO root fetch - processPackages [otter-grader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otter-grader-5.0.1.tar.gz tmp/otter-grader-5.0.2.tar.gz --markdown 20230728/o/otter-grader/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-07-28 03:51:01] INFO root fetch - processPackages [mppsolar]: executing diffoscope
+[2023-07-28 03:51:01] INFO root fetch - processPackages [mppsolar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mppsolar-0.9.1.tar.gz tmp/mppsolar-0.9.12.tar.gz --markdown 20230728/m/mppsolar/0.9.1-0.9.12/diff.md --exclude *.pyd
+[2023-07-28 03:51:02] INFO root fetch - processPackages [mypy-boto3]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-1.28.8.tar.gz]
+[2023-07-28 03:51:02] INFO root fetch - processPackages [mypy-boto3]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-1.28.9.tar.gz]
+[2023-07-28 03:51:02] INFO root fetch - main [MainThread]: End processing [mypy-boto3]: success
+[2023-07-28 03:51:02] INFO root fetch - processPackages [kingunit]: Remove: archive file [/home/abi/fetcher/tmp/kingunit-0.0.7.tar.gz]
+[2023-07-28 03:51:02] INFO root fetch - processPackages [kingunit]: Remove: archive file [/home/abi/fetcher/tmp/kingunit-0.0.8.tar.gz]
+[2023-07-28 03:51:02] INFO root fetch - main [MainThread]: End processing [kingunit]: success
+[2023-07-28 03:51:03] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.8.tar.gz]
+[2023-07-28 03:51:03] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.9.tar.gz]
+[2023-07-28 03:51:03] INFO root fetch - main [MainThread]: End processing [benimang]: success
+[2023-07-28 03:51:03] INFO root fetch - processPackages [boto3-stubs]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-1.28.8.tar.gz]
+[2023-07-28 03:51:03] INFO root fetch - processPackages [boto3-stubs]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-1.28.9.tar.gz]
+[2023-07-28 03:51:03] INFO root fetch - main [MainThread]: End processing [boto3-stubs]: success
+[2023-07-28 03:51:03] INFO root fetch - processPackages [mypy-boto3-sqs]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-sqs-1.28.12.tar.gz]
+[2023-07-28 03:51:03] INFO root fetch - processPackages [mypy-boto3-sqs]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-sqs-1.28.14.tar.gz]
+[2023-07-28 03:51:03] INFO root fetch - main [MainThread]: End processing [mypy-boto3-sqs]: success
+[2023-07-28 03:51:03] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.tar.gz]
+[2023-07-28 03:51:03] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.post1.tar.gz]
+[2023-07-28 03:51:03] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-07-28 03:51:03] INFO root fetch - processPackages [boto3-stubs-lite]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-lite-1.28.8.tar.gz]
+[2023-07-28 03:51:03] INFO root fetch - processPackages [boto3-stubs-lite]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-lite-1.28.9.tar.gz]
+[2023-07-28 03:51:03] INFO root fetch - main [MainThread]: End processing [boto3-stubs-lite]: success
+[2023-07-28 03:51:03] INFO root fetch - processPackages [mppsolar]: Remove: archive file [/home/abi/fetcher/tmp/mppsolar-0.9.1.tar.gz]
+[2023-07-28 03:51:03] INFO root fetch - processPackages [mppsolar]: Remove: archive file [/home/abi/fetcher/tmp/mppsolar-0.9.12.tar.gz]
+[2023-07-28 03:51:03] INFO root fetch - main [MainThread]: End processing [mppsolar]: success
+[2023-07-28 03:51:03] INFO root fetch - processPackages [otter-grader]: Remove: archive file [/home/abi/fetcher/tmp/otter-grader-5.0.1.tar.gz]
+[2023-07-28 03:51:03] INFO root fetch - processPackages [otter-grader]: Remove: archive file [/home/abi/fetcher/tmp/otter-grader-5.0.2.tar.gz]
+[2023-07-28 03:51:03] INFO root fetch - main [MainThread]: End processing [otter-grader]: success
+[2023-07-28 03:51:03] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-07-28 03:51:03] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-07-28 03:51:03] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-07-28 03:51:03] INFO root fetch - main [MainThread]: Store serial: [19070298]
