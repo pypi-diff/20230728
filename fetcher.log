@@ -15342,3 +15342,203 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 09:20:33] INFO root fetch - processPackages [yoctools]: Remove: archive file [/home/abi/fetcher/tmp/yoctools-2.0.9.tar.gz]
 [2023-07-28 09:20:33] INFO root fetch - main [MainThread]: End processing [yoctools]: success
 [2023-07-28 09:20:33] INFO root fetch - main [MainThread]: Store serial: [19072741]
+[2023-07-28 09:25:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19072741]
+[2023-07-28 09:25:49] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-28 09:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfq-nightly
+[2023-07-28 09:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metal-python
+[2023-07-28 09:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: charset-mnbvc
+[2023-07-28 09:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyepsilla
+[2023-07-28 09:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FlaskSimpleAuth
+[2023-07-28 09:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-base-comment-template
+[2023-07-28 09:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: startorch
+[2023-07-28 09:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mds-csv-reader
+[2023-07-28 09:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cm-two
+[2023-07-28 09:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: balderplugin-junit
+[2023-07-28 09:25:49] INFO root fetch - processPackages [metal-python]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-28 09:25:49] INFO root fetch - processPackages [odoo-addon-base-comment-template]: New version: [16.0.2.0.0.6] Old Version: [16.0.2.0.0.5]
+[2023-07-28 09:25:49] INFO root fetch - processPackages [mds-csv-reader]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-28 09:25:50] INFO root fetch - processPackages [startorch]: New version: [0.0.1a8] Old Version: [0.0.1a7]
+[2023-07-28 09:25:50] INFO root fetch - processPackages [balderplugin-junit]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-28 09:25:50] INFO root fetch - processPackages [pyepsilla]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-28 09:25:50] INFO root fetch - processPackages [charset-mnbvc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 09:25:50] INFO root fetch - processPackages [cm-two]: New version: [2.3.57] Old Version: [2.3.56]
+[2023-07-28 09:25:50] INFO root fetch - processPackages [FlaskSimpleAuth]: New version: [9.0] Old Version: [8.0]
+[2023-07-28 09:25:50] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230728] Old Version: [0.7.3.dev20230727]
+[2023-07-28 09:25:50] INFO root fetch - processPackages [pyepsilla]: Downloading https://files.pythonhosted.org/packages/01/f6/5d1fdc45c6e3582879f2d44651ec4fb6bc795a9c9ef95278256caf30da37/pyepsilla-0.0.4.tar.gz
+[2023-07-28 09:25:50] INFO root fetch - processPackages [charset-mnbvc]: Downloading https://files.pythonhosted.org/packages/35/3e/aabc51aaa2b5bf163795ac339b8128ee8d3d3cbb2a41fbc4502711649408/charset_mnbvc-0.0.8.tar.gz
+[2023-07-28 09:25:50] INFO root fetch - processPackages [mds-csv-reader]: Downloading https://files.pythonhosted.org/packages/ca/16/6bc5cf5dc3292ad0c0938b8548081ab53729c4aa95c3606ea977ee89cce0/mds_csv_reader-1.0.4.tar.gz
+[2023-07-28 09:25:50] INFO root fetch - processPackages [odoo-addon-base-comment-template]: Downloading https://files.pythonhosted.org/packages/88/33/7412802750dcfab0e96a4cf768f7f5ff6de9a5e5f76526ba5bb8e8d7eb84/odoo_addon_base_comment_template-16.0.2.0.0.5-py3-none-any.whl
+[2023-07-28 09:25:50] INFO root fetch - processPackages [balderplugin-junit]: Downloading https://files.pythonhosted.org/packages/ea/1b/a1ef4d2fc8d2f98f69a0960b1799116e9b881f4fee4f0006320d202ff615/balderplugin-junit-0.0.2.tar.gz
+[2023-07-28 09:25:50] INFO root fetch - processPackages [FlaskSimpleAuth]: Downloading https://files.pythonhosted.org/packages/5e/71/36ac24a6684ef48f4b4d2b0a4cae846f2a26973c0ed5cbc3df7c076eca36/FlaskSimpleAuth-8.0.tar.gz
+[2023-07-28 09:25:50] INFO root fetch - processPackages [startorch]: Downloading https://files.pythonhosted.org/packages/ec/5f/4db225d939de74286710b892c985a355db437051f1f79e3b9b1fc1317137/startorch-0.0.1a7.tar.gz
+[2023-07-28 09:25:50] INFO root fetch - processPackages [metal-python]: Downloading https://files.pythonhosted.org/packages/da/87/ea7df78e12e58839edf84e22e55f4828fa269abd4eda5b854ca1a3f2ae3c/metal_python-0.9.4.tar.gz
+[2023-07-28 09:25:50] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/eb/48/bf746939616205b3c2b35fe96213e230fbef3ff802cf71fad651c1cccb17/cm_two-2.3.57-py3-none-any.whl
+[2023-07-28 09:25:50] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/47/33/361e60645183c7dbe80cbe94a1b93f1a715f6e4228c77c9c44b9d7269cf6/tfq_nightly-0.7.3.dev20230727-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-28 09:25:50] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807264>=10485760
+[2023-07-28 09:25:50] INFO root fetch - processPackages [tfq-nightly]: Start processing: pyepsilla
+[2023-07-28 09:25:50] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-07-28 09:25:50] INFO root fetch - processPackages [pyepsilla]: Downloading https://files.pythonhosted.org/packages/d9/81/4f9e4239207bc5a83fec52f494ce85f8d41b8b1fa5de58c69121c1800590/pyepsilla-0.0.5.tar.gz
+[2023-07-28 09:25:50] INFO root fetch - processPackages [pyepsilla]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-28 09:25:50] INFO root fetch - processPackages [charset-mnbvc]: Downloading https://files.pythonhosted.org/packages/e2/4c/2e9fe70a87082bfb0cd533b91f202bf64048af3056c95cd34907f0873fc2/charset_mnbvc-0.0.9.tar.gz
+[2023-07-28 09:25:50] INFO root fetch - processPackages [pyepsilla]: executing diffoscope
+[2023-07-28 09:25:50] INFO root fetch - processPackages [pyepsilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyepsilla-0.0.4.tar.gz tmp/pyepsilla-0.0.5.tar.gz --markdown 20230728/p/pyepsilla/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-28 09:25:50] INFO root fetch - processPackages [balderplugin-junit]: Downloading https://files.pythonhosted.org/packages/1f/2f/a80617fc2f4da5cc2ed84092545da619cd2964bc94e1eae36d4c47a1bce0/balderplugin-junit-0.0.3.tar.gz
+[2023-07-28 09:25:50] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-07-28 09:25:50] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.56-py3-none-any.whl.zip tmp/cm_two-2.3.57-py3-none-any.whl.zip --markdown 20230728/c/cm-two/2.3.56-2.3.57/diff.md --exclude *.pyd
+[2023-07-28 09:25:50] INFO root fetch - processPackages [startorch]: Downloading https://files.pythonhosted.org/packages/af/39/558f1ac468f6afd992c1a026fef7f47e3e97e81bc760b807fb503338e9e4/startorch-0.0.1a8.tar.gz
+[2023-07-28 09:25:50] INFO root fetch - processPackages [charset-mnbvc]: executing diffoscope
+[2023-07-28 09:25:50] INFO root fetch - processPackages [charset-mnbvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charset_mnbvc-0.0.8.tar.gz tmp/charset_mnbvc-0.0.9.tar.gz --markdown 20230728/c/charset-mnbvc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 09:25:50] INFO root fetch - processPackages [mds-csv-reader]: Downloading https://files.pythonhosted.org/packages/45/61/be55b55321ddfd97e542d4d887c72aace938d0813d385f3d4d1c02a05b72/mds_csv_reader-1.0.5.tar.gz
+[2023-07-28 09:25:50] INFO root fetch - processPackages [odoo-addon-base-comment-template]: Downloading https://files.pythonhosted.org/packages/c5/99/9ecebb2a5ffd85d222f4642bad635a7379f369c1be5737a3e83ecc83ac2b/odoo_addon_base_comment_template-16.0.2.0.0.6-py3-none-any.whl
+[2023-07-28 09:25:50] INFO root fetch - processPackages [balderplugin-junit]: executing diffoscope
+[2023-07-28 09:25:50] INFO root fetch - processPackages [balderplugin-junit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balderplugin-junit-0.0.2.tar.gz tmp/balderplugin-junit-0.0.3.tar.gz --markdown 20230728/b/balderplugin-junit/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-28 09:25:51] INFO root fetch - processPackages [startorch]: executing diffoscope
+[2023-07-28 09:25:51] INFO root fetch - processPackages [startorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/startorch-0.0.1a7.tar.gz tmp/startorch-0.0.1a8.tar.gz --markdown 20230728/s/startorch/0.0.1a7-0.0.1a8/diff.md --exclude *.pyd
+[2023-07-28 09:25:51] INFO root fetch - processPackages [pyepsilla]: Downloading https://files.pythonhosted.org/packages/08/55/dc61dd3aa16e6d2f8972fb990be1439e293cf9b19b2a5f44b5c6d48677b6/pyepsilla-0.0.6.tar.gz
+[2023-07-28 09:25:51] INFO root fetch - processPackages [FlaskSimpleAuth]: Downloading https://files.pythonhosted.org/packages/cc/e7/22c81b3903a0ec999ac9644c1a3e92fed6bdafa388b1e4fe3bb75dc09485/FlaskSimpleAuth-9.0.tar.gz
+[2023-07-28 09:25:51] INFO root fetch - processPackages [mds-csv-reader]: executing diffoscope
+[2023-07-28 09:25:51] INFO root fetch - processPackages [mds-csv-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mds_csv_reader-1.0.4.tar.gz tmp/mds_csv_reader-1.0.5.tar.gz --markdown 20230728/m/mds-csv-reader/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-28 09:25:51] INFO root fetch - processPackages [odoo-addon-base-comment-template]: executing diffoscope
+[2023-07-28 09:25:51] INFO root fetch - processPackages [odoo-addon-base-comment-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_comment_template-16.0.2.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_base_comment_template-16.0.2.0.0.6-py3-none-any.whl.zip --markdown 20230728/o/odoo-addon-base-comment-template/16.0.2.0.0.5-16.0.2.0.0.6/diff.md --exclude *.pyd
+[2023-07-28 09:25:51] INFO root fetch - processPackages [FlaskSimpleAuth]: executing diffoscope
+[2023-07-28 09:25:51] INFO root fetch - processPackages [FlaskSimpleAuth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlaskSimpleAuth-8.0.tar.gz tmp/FlaskSimpleAuth-9.0.tar.gz --markdown 20230728/F/FlaskSimpleAuth/8.0-9.0/diff.md --exclude *.pyd
+[2023-07-28 09:25:51] INFO root fetch - processPackages [pyepsilla]: executing diffoscope
+[2023-07-28 09:25:51] INFO root fetch - processPackages [pyepsilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyepsilla-0.0.5.tar.gz tmp/pyepsilla-0.0.6.tar.gz --markdown 20230728/p/pyepsilla/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-28 09:25:51] INFO root fetch - processPackages [metal-python]: Downloading https://files.pythonhosted.org/packages/d5/0e/f54a789448e772fa8f88c2a2f7da9e92cfc6a441cc42a238b2013db9901e/metal_python-0.9.5.tar.gz
+[2023-07-28 09:25:51] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: time="2023-07-28T09:25:50+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-07-28 09:25:51] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-07-28 09:25:52] INFO root fetch - processPackages [pyepsilla]: Remove: archive file [/home/abi/fetcher/tmp/pyepsilla-0.0.4.tar.gz]
+[2023-07-28 09:25:52] INFO root fetch - processPackages [pyepsilla]: Remove: archive file [/home/abi/fetcher/tmp/pyepsilla-0.0.5.tar.gz]
+[2023-07-28 09:25:52] INFO root fetch - main [MainThread]: End processing [pyepsilla]: success
+[2023-07-28 09:25:52] INFO root fetch - processPackages [metal-python]: executing diffoscope
+[2023-07-28 09:25:52] INFO root fetch - processPackages [metal-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metal_python-0.9.4.tar.gz tmp/metal_python-0.9.5.tar.gz --markdown 20230728/m/metal-python/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-28 09:25:52] INFO root fetch - processPackages [startorch]: Remove: archive file [/home/abi/fetcher/tmp/startorch-0.0.1a7.tar.gz]
+[2023-07-28 09:25:52] INFO root fetch - processPackages [startorch]: Remove: archive file [/home/abi/fetcher/tmp/startorch-0.0.1a8.tar.gz]
+[2023-07-28 09:25:52] INFO root fetch - main [MainThread]: End processing [startorch]: success
+[2023-07-28 09:25:52] INFO root fetch - processPackages [charset-mnbvc]: Remove: archive file [/home/abi/fetcher/tmp/charset_mnbvc-0.0.8.tar.gz]
+[2023-07-28 09:25:52] INFO root fetch - processPackages [charset-mnbvc]: Remove: archive file [/home/abi/fetcher/tmp/charset_mnbvc-0.0.9.tar.gz]
+[2023-07-28 09:25:52] INFO root fetch - main [MainThread]: End processing [charset-mnbvc]: success
+[2023-07-28 09:25:52] INFO root fetch - processPackages [balderplugin-junit]: Remove: archive file [/home/abi/fetcher/tmp/balderplugin-junit-0.0.2.tar.gz]
+[2023-07-28 09:25:52] INFO root fetch - processPackages [balderplugin-junit]: Remove: archive file [/home/abi/fetcher/tmp/balderplugin-junit-0.0.3.tar.gz]
+[2023-07-28 09:25:52] INFO root fetch - main [MainThread]: End processing [balderplugin-junit]: success
+[2023-07-28 09:25:52] ERROR root fetch - processPackages [pyepsilla]: Diffoscope failed: time="2023-07-28T09:25:51+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/pyepsilla-0.0.5.tar.gz does not exist
+
+[2023-07-28 09:25:52] INFO root fetch - main [MainThread]: End processing [pyepsilla] error
+[2023-07-28 09:25:52] INFO root fetch - processPackages [mds-csv-reader]: Remove: archive file [/home/abi/fetcher/tmp/mds_csv_reader-1.0.4.tar.gz]
+[2023-07-28 09:25:52] INFO root fetch - processPackages [mds-csv-reader]: Remove: archive file [/home/abi/fetcher/tmp/mds_csv_reader-1.0.5.tar.gz]
+[2023-07-28 09:25:52] INFO root fetch - main [MainThread]: End processing [mds-csv-reader]: success
+[2023-07-28 09:25:52] INFO root fetch - processPackages [FlaskSimpleAuth]: Remove: archive file [/home/abi/fetcher/tmp/FlaskSimpleAuth-8.0.tar.gz]
+[2023-07-28 09:25:52] INFO root fetch - processPackages [FlaskSimpleAuth]: Remove: archive file [/home/abi/fetcher/tmp/FlaskSimpleAuth-9.0.tar.gz]
+[2023-07-28 09:25:52] INFO root fetch - main [MainThread]: End processing [FlaskSimpleAuth]: success
+[2023-07-28 09:25:53] INFO root fetch - processPackages [odoo-addon-base-comment-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_comment_template-16.0.2.0.0.5-py3-none-any.whl.zip]
+[2023-07-28 09:25:53] INFO root fetch - processPackages [odoo-addon-base-comment-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_comment_template-16.0.2.0.0.6-py3-none-any.whl.zip]
+[2023-07-28 09:25:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-comment-template]: success
+[2023-07-28 09:25:54] INFO root fetch - processPackages [metal-python]: Remove: archive file [/home/abi/fetcher/tmp/metal_python-0.9.4.tar.gz]
+[2023-07-28 09:25:54] INFO root fetch - processPackages [metal-python]: Remove: archive file [/home/abi/fetcher/tmp/metal_python-0.9.5.tar.gz]
+[2023-07-28 09:25:54] INFO root fetch - main [MainThread]: End processing [metal-python]: success
+[2023-07-28 09:25:54] INFO root fetch - main [MainThread]: Store serial: [19072768]
