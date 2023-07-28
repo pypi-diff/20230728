@@ -5362,3 +5362,95 @@
 [2023-07-28 02:54:25] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
 [2023-07-28 02:54:25] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
 [2023-07-28 02:54:25] INFO root fetch - main [MainThread]: Store serial: [19068817]
+[2023-07-28 02:59:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19068817]
+[2023-07-28 02:59:33] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-28 02:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-sns-notify
+[2023-07-28 02:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tabcmd
+[2023-07-28 02:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vscode-server-bin
+[2023-07-28 02:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: policyengine-us
+[2023-07-28 02:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyvidplayer2
+[2023-07-28 02:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-07-28 02:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aemcmc-nightly
+[2023-07-28 02:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jogos-python
+[2023-07-28 02:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zood
+[2023-07-28 02:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: minecraft-script
+[2023-07-28 02:59:33] INFO root fetch - processPackages [vscode-server-bin]: New version: [1.80.2] Old Version: [1.80.1]
+[2023-07-28 02:59:33] INFO root fetch - processPackages [zood]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-07-28 02:59:34] INFO root fetch - processPackages [jogos-python]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-28 02:59:34] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-28 02:59:34] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-28 02:59:34] INFO root fetch - processPackages [tabcmd]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-28 02:59:34] INFO root fetch - processPackages [minecraft-script]: New version: [0.1.410] Old Version: [0.1.409]
+[2023-07-28 02:59:34] WARNING root fetch - processPackages [pyvidplayer2]: Skipping, unable to determine old version
+[2023-07-28 02:59:34] INFO root fetch - processPackages [pyvidplayer2]: Start processing: cdk-lambda-layer-curl
+[2023-07-28 02:59:34] INFO root fetch - main [MainThread]: End processing [pyvidplayer2] error
+[2023-07-28 02:59:34] INFO root fetch - processPackages [policyengine-us]: New version: [0.397.0] Old Version: [0.396.0]
+[2023-07-28 02:59:34] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230727] Old Version: [0.0.8.dev20230726]
+[2023-07-28 02:59:34] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-28 02:59:34] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/de/6b/dc20e1ab435890ac12dda0bb2423c1ee69d3fb3707e6ba8043c44caddf8c/aemcmc-nightly-0.0.8.dev20230726.tar.gz
+[2023-07-28 02:59:34] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-07-28 02:59:34] INFO root fetch - processPackages [jogos-python]: Downloading https://files.pythonhosted.org/packages/68/30/f8f9acc427e8f7c54eb0cda302185a2936f7f67d59a04cc41ee20f5e22a8/jogos_python-0.9.0.tar.gz
+[2023-07-28 02:59:34] INFO root fetch - processPackages [vscode-server-bin]: Downloading https://files.pythonhosted.org/packages/d8/db/0febcf11e448e91d53b3e9bc9e47d5303ff52dbf88095cf537619903a236/vscode_server_bin-1.80.1-py3-none-any.whl
+[2023-07-28 02:59:34] INFO root fetch - processPackages [zood]: Downloading https://files.pythonhosted.org/packages/5c/a7/cfb42c9f6699466a97f37f4d457ac6a7794ac7d557203d20153f1d7ce262/zood-0.7.5.tar.gz
+[2023-07-28 02:59:34] INFO root fetch - processPackages [tabcmd]: Downloading https://files.pythonhosted.org/packages/c9/a0/7192fa100d03c1a53df3317ffa703164e86e267e8b980f68c8da42232315/tabcmd-2.0.8.tar.gz
+[2023-07-28 02:59:34] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2023-07-28 02:59:34] INFO root fetch - processPackages [minecraft-script]: Downloading https://files.pythonhosted.org/packages/f6/97/f2007982ec044fa97424961792b7a95a68bdc053dab0622741b3ef84288c/minecraft_script-0.1.409.tar.gz
+[2023-07-28 02:59:34] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/f5/46/de84873643def01077933ad7ad9fcf527f59fe29913427eb7b37f4dd119e/policyengine-us-0.396.0.tar.gz
+[2023-07-28 02:59:34] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-28 02:59:34] WARNING root fetch - processPackages [vscode-server-bin]: Skipping package: exceeds size limit 55606034>=10485760
+[2023-07-28 02:59:34] INFO root fetch - main [MainThread]: End processing [vscode-server-bin] error
+[2023-07-28 02:59:34] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/e4/32/410fe71f84e50b0ebd28b0549ca6502f4b965e84672d8f40e3fd97d8356f/aemcmc-nightly-0.0.8.dev20230727.tar.gz
+[2023-07-28 02:59:34] INFO root fetch - processPackages [minecraft-script]: Downloading https://files.pythonhosted.org/packages/0c/87/b293305b606dba942ad4f8ff41a79ef1c916bda8c2586f0850a8ca10003b/minecraft_script-0.1.410.tar.gz
+[2023-07-28 02:59:34] INFO root fetch - processPackages [minecraft-script]: executing diffoscope
+[2023-07-28 02:59:34] INFO root fetch - processPackages [minecraft-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minecraft_script-0.1.409.tar.gz tmp/minecraft_script-0.1.410.tar.gz --markdown 20230728/m/minecraft-script/0.1.409-0.1.410/diff.md --exclude *.pyd
+[2023-07-28 02:59:34] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/49/05/d517ade543bb0d02f9a56c9c43566b17ad73a41b1e39aa2400960d65b583/policyengine-us-0.397.0.tar.gz
+[2023-07-28 02:59:34] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-07-28 02:59:34] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230726.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230727.tar.gz --markdown 20230728/a/aemcmc-nightly/0.0.8.dev20230726-0.0.8.dev20230727/diff.md --exclude *.pyd
+[2023-07-28 02:59:34] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2023-07-28 02:59:34] INFO root fetch - processPackages [jogos-python]: Downloading https://files.pythonhosted.org/packages/3e/b1/ed789c121bb392f6bb30c01e629e8eae6cd04621ac3f9f6c835e2caa7478/jogos_python-0.9.1.tar.gz
+[2023-07-28 02:59:34] INFO root fetch - processPackages [zood]: Downloading https://files.pythonhosted.org/packages/0c/04/d1291d54e709f4aaaf28720d8f053823070e815d298927c3ee8e724f6d1d/zood-0.7.6.tar.gz
+[2023-07-28 02:59:34] INFO root fetch - processPackages [tabcmd]: Downloading https://files.pythonhosted.org/packages/49/97/cb640e486930a39f5dae9155aeb0087db86fb7c5f5c9eb2d2955e86280c5/tabcmd-2.0.9.tar.gz
+[2023-07-28 02:59:34] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-07-28 02:59:35] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-28 02:59:35] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.396.0.tar.gz tmp/policyengine-us-0.397.0.tar.gz --markdown 20230728/p/policyengine-us/0.396.0-0.397.0/diff.md --exclude *.pyd
+[2023-07-28 02:59:35] INFO root fetch - processPackages [tabcmd]: executing diffoscope
+[2023-07-28 02:59:35] INFO root fetch - processPackages [tabcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabcmd-2.0.8.tar.gz tmp/tabcmd-2.0.9.tar.gz --markdown 20230728/t/tabcmd/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-28 02:59:35] INFO root fetch - processPackages [zood]: executing diffoscope
+[2023-07-28 02:59:35] INFO root fetch - processPackages [zood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zood-0.7.5.tar.gz tmp/zood-0.7.6.tar.gz --markdown 20230728/z/zood/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-07-28 02:59:35] INFO root fetch - processPackages [jogos-python]: executing diffoscope
+[2023-07-28 02:59:35] INFO root fetch - processPackages [jogos-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jogos_python-0.9.0.tar.gz tmp/jogos_python-0.9.1.tar.gz --markdown 20230728/j/jogos-python/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-28 02:59:35] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-28 02:59:35] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-07-28 02:59:35] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230728/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-28 02:59:35] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-07-28 02:59:35] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230728/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-28 02:59:35] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-28 02:59:35] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230728/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-28 02:59:36] INFO root fetch - processPackages [minecraft-script]: Remove: archive file [/home/abi/fetcher/tmp/minecraft_script-0.1.409.tar.gz]
+[2023-07-28 02:59:36] INFO root fetch - processPackages [minecraft-script]: Remove: archive file [/home/abi/fetcher/tmp/minecraft_script-0.1.410.tar.gz]
+[2023-07-28 02:59:36] INFO root fetch - main [MainThread]: End processing [minecraft-script]: success
+[2023-07-28 02:59:36] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230726.tar.gz]
+[2023-07-28 02:59:36] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230727.tar.gz]
+[2023-07-28 02:59:36] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-07-28 02:59:36] INFO root fetch - processPackages [jogos-python]: Remove: archive file [/home/abi/fetcher/tmp/jogos_python-0.9.0.tar.gz]
+[2023-07-28 02:59:36] INFO root fetch - processPackages [jogos-python]: Remove: archive file [/home/abi/fetcher/tmp/jogos_python-0.9.1.tar.gz]
+[2023-07-28 02:59:36] INFO root fetch - main [MainThread]: End processing [jogos-python]: success
+[2023-07-28 02:59:36] INFO root fetch - processPackages [zood]: Remove: archive file [/home/abi/fetcher/tmp/zood-0.7.5.tar.gz]
+[2023-07-28 02:59:36] INFO root fetch - processPackages [zood]: Remove: archive file [/home/abi/fetcher/tmp/zood-0.7.6.tar.gz]
+[2023-07-28 02:59:36] INFO root fetch - main [MainThread]: End processing [zood]: success
+[2023-07-28 02:59:36] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2023-07-28 02:59:36] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2023-07-28 02:59:36] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-07-28 02:59:37] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-07-28 02:59:37] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-07-28 02:59:37] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-07-28 02:59:37] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-28 02:59:37] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-28 02:59:37] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-28 02:59:37] INFO root fetch - processPackages [tabcmd]: Remove: archive file [/home/abi/fetcher/tmp/tabcmd-2.0.8.tar.gz]
+[2023-07-28 02:59:37] INFO root fetch - processPackages [tabcmd]: Remove: archive file [/home/abi/fetcher/tmp/tabcmd-2.0.9.tar.gz]
+[2023-07-28 02:59:37] INFO root fetch - main [MainThread]: End processing [tabcmd]: success
+[2023-07-28 03:00:05] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.396.0.tar.gz]
+[2023-07-28 03:00:05] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.397.0.tar.gz]
+[2023-07-28 03:00:05] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-28 03:00:05] INFO root fetch - main [MainThread]: Store serial: [19068852]
