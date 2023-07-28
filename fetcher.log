@@ -22307,3 +22307,92 @@ AssertionError: tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip does not exi
 [2023-07-28 13:56:10] INFO root fetch - processPackages [deepsearch-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_toolkit-0.9.0.tar.gz]
 [2023-07-28 13:56:10] INFO root fetch - main [MainThread]: End processing [deepsearch-toolkit]: success
 [2023-07-28 13:56:10] INFO root fetch - main [MainThread]: Store serial: [19075090]
+[2023-07-28 14:01:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19075090]
+[2023-07-28 14:01:19] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-28 14:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alis-build-client
+[2023-07-28 14:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: upgini
+[2023-07-28 14:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: venvs
+[2023-07-28 14:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langfuse
+[2023-07-28 14:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xorbits
+[2023-07-28 14:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydeum-louisgrange
+[2023-07-28 14:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hishel
+[2023-07-28 14:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pybsky
+[2023-07-28 14:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: proxyai
+[2023-07-28 14:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pydeum
+[2023-07-28 14:01:19] WARNING root fetch - processPackages [proxyai]: Skipping, unable to determine old version
+[2023-07-28 14:01:19] INFO root fetch - processPackages [proxyai]: Start processing: stargazer
+[2023-07-28 14:01:19] INFO root fetch - main [MainThread]: End processing [proxyai] error
+[2023-07-28 14:01:19] INFO root fetch - processPackages [alis-build-client]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-28 14:01:19] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-28 14:01:19] INFO root fetch - processPackages [pybsky]: New version: [0.0.2] Old Version: [0.0.17]
+[2023-07-28 14:01:19] INFO root fetch - processPackages [hishel]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-28 14:01:19] WARNING root fetch - processPackages [pydeum-louisgrange]: Skipping, unable to determine old version
+[2023-07-28 14:01:19] INFO root fetch - processPackages [pydeum-louisgrange]: Start processing: spacy-lookups-data
+[2023-07-28 14:01:19] INFO root fetch - main [MainThread]: End processing [pydeum-louisgrange] error
+[2023-07-28 14:01:19] WARNING root fetch - processPackages [pydeum]: Skipping, unable to determine old version
+[2023-07-28 14:01:19] INFO root fetch - main [MainThread]: End processing [pydeum] error
+[2023-07-28 14:01:19] INFO root fetch - processPackages [venvs]: New version: [7.6.0] Old Version: [7.5.1]
+[2023-07-28 14:01:19] INFO root fetch - processPackages [langfuse]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 14:01:19] INFO root fetch - processPackages [xorbits]: New version: [0.5.0] Old Version: [0.4.4]
+[2023-07-28 14:01:19] INFO root fetch - processPackages [alis-build-client]: Downloading https://files.pythonhosted.org/packages/c5/19/963673c79ed9469fa3c3f44a523bc5bfd34165c3cd9fd5fca75c105d90b6/alis_build_client-0.0.4.tar.gz
+[2023-07-28 14:01:19] INFO root fetch - processPackages [stargazer]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-28 14:01:19] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2023-07-28 14:01:19] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/fc/40/3ef74e4912171af535ce42a8496b5d514b756a0b45ff32bc1feed39955ef/langfuse-0.0.8.tar.gz
+[2023-07-28 14:01:19] INFO root fetch - processPackages [pybsky]: Downloading https://files.pythonhosted.org/packages/98/e2/a7c6c54084bfed0afc9ed2bb03308766aab2a503e1687f1d89749c8b939e/pybsky-0.0.17.tar.gz
+[2023-07-28 14:01:19] INFO root fetch - processPackages [spacy-lookups-data]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-07-28 14:01:19] INFO root fetch - processPackages [venvs]: Downloading https://files.pythonhosted.org/packages/b2/c8/240b8f88c3b293366c3016861756d5ef0ab31e558b77642d43ee61203123/venvs-7.5.1.tar.gz
+[2023-07-28 14:01:19] INFO root fetch - processPackages [xorbits]: Downloading https://files.pythonhosted.org/packages/44/17/b256c2568d03481ecd6768da5c6b13b9bf962e9e9537cfdfb27fb779b771/xorbits-0.4.4.tar.gz
+[2023-07-28 14:01:19] INFO root fetch - processPackages [hishel]: Downloading https://files.pythonhosted.org/packages/fc/48/be364ee93af46648032c48d8104e38c12d25570167a39cbb175261f07046/hishel-0.0.2.tar.gz
+[2023-07-28 14:01:19] INFO root fetch - processPackages [stargazer]: Downloading https://files.pythonhosted.org/packages/40/45/c9661ef39a59088e3d5d4a0d9d70cbd7b0e675092547c8aa92ee38567b05/stargazer-0.0.5.tar.gz
+[2023-07-28 14:01:20] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/a3/6a/95eb0d740a1f91ce539617150bdf06282bad7e47ab66b7bf599d696f52d9/langfuse-0.0.9.tar.gz
+[2023-07-28 14:01:20] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2023-07-28 14:01:20] INFO root fetch - processPackages [alis-build-client]: Downloading https://files.pythonhosted.org/packages/82/ec/a2a00d6474654133df49d101f5b744debd5ab305729a0458a2cb46b40ccb/alis_build_client-0.0.5.tar.gz
+[2023-07-28 14:01:20] INFO root fetch - processPackages [spacy-lookups-data]: Downloading https://files.pythonhosted.org/packages/72/cc/0fc40728ca86612c60de09c450eb4c91973677ab22ef4a5f93f96ef3050e/spacy_lookups_data-1.0.3.tar.gz
+[2023-07-28 14:01:20] INFO root fetch - processPackages [langfuse]: executing diffoscope
+[2023-07-28 14:01:20] INFO root fetch - processPackages [langfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfuse-0.0.8.tar.gz tmp/langfuse-0.0.9.tar.gz --markdown 20230728/l/langfuse/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 14:01:20] INFO root fetch - processPackages [pybsky]: Downloading https://files.pythonhosted.org/packages/0b/4f/9bfc6629f95fe43de98933064ceb9fc67e79395357a1a8b13f5cbf9461cc/pybsky-0.0.2.tar.gz
+[2023-07-28 14:01:20] INFO root fetch - processPackages [venvs]: Downloading https://files.pythonhosted.org/packages/63/1c/d4fb132888a56bb03b8a51f98cacfa3f6e90169d3490c4ad102a62d1059d/venvs-7.6.0.tar.gz
+[2023-07-28 14:01:20] INFO root fetch - processPackages [alis-build-client]: executing diffoscope
+[2023-07-28 14:01:20] INFO root fetch - processPackages [alis-build-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alis_build_client-0.0.4.tar.gz tmp/alis_build_client-0.0.5.tar.gz --markdown 20230728/a/alis-build-client/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-28 14:01:20] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-07-28 14:01:20] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230728/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-28 14:01:20] INFO root fetch - processPackages [hishel]: Downloading https://files.pythonhosted.org/packages/bc/8a/f4dbee412973627ba9549eb077d4142b2696294b4f2388724378d12ce7ef/hishel-0.0.3.tar.gz
+[2023-07-28 14:01:20] INFO root fetch - processPackages [venvs]: executing diffoscope
+[2023-07-28 14:01:20] INFO root fetch - processPackages [venvs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venvs-7.5.1.tar.gz tmp/venvs-7.6.0.tar.gz --markdown 20230728/v/venvs/7.5.1-7.6.0/diff.md --exclude *.pyd
+[2023-07-28 14:01:20] INFO root fetch - processPackages [xorbits]: Downloading https://files.pythonhosted.org/packages/e1/1e/a0520921ab0cc3d2755b2ff56f8c53b0149a26dc3169cecc793464745f91/xorbits-0.5.0.tar.gz
+[2023-07-28 14:01:20] INFO root fetch - processPackages [stargazer]: Downloading https://files.pythonhosted.org/packages/0a/eb/0f27398e4d4a08e103d93f8b94231a0062eae732eb776b1a00cb84f9b2a2/stargazer-0.0.6.tar.gz
+[2023-07-28 14:01:20] INFO root fetch - processPackages [pybsky]: executing diffoscope
+[2023-07-28 14:01:20] INFO root fetch - processPackages [pybsky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybsky-0.0.17.tar.gz tmp/pybsky-0.0.2.tar.gz --markdown 20230728/p/pybsky/0.0.17-0.0.2/diff.md --exclude *.pyd
+[2023-07-28 14:01:20] INFO root fetch - processPackages [hishel]: executing diffoscope
+[2023-07-28 14:01:20] INFO root fetch - processPackages [hishel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hishel-0.0.2.tar.gz tmp/hishel-0.0.3.tar.gz --markdown 20230728/h/hishel/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-28 14:01:20] INFO root fetch - processPackages [xorbits]: executing diffoscope
+[2023-07-28 14:01:20] INFO root fetch - processPackages [xorbits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xorbits-0.4.4.tar.gz tmp/xorbits-0.5.0.tar.gz --markdown 20230728/x/xorbits/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2023-07-28 14:01:20] WARNING root fetch - processPackages [spacy-lookups-data]: Skipping package: exceeds size limit 98442245>=10485760
+[2023-07-28 14:01:20] INFO root fetch - main [MainThread]: End processing [spacy-lookups-data] error
+[2023-07-28 14:01:20] INFO root fetch - processPackages [stargazer]: executing diffoscope
+[2023-07-28 14:01:20] INFO root fetch - processPackages [stargazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stargazer-0.0.5.tar.gz tmp/stargazer-0.0.6.tar.gz --markdown 20230728/s/stargazer/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-28 14:01:21] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-0.0.8.tar.gz]
+[2023-07-28 14:01:21] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-0.0.9.tar.gz]
+[2023-07-28 14:01:21] INFO root fetch - main [MainThread]: End processing [langfuse]: success
+[2023-07-28 14:01:21] INFO root fetch - processPackages [alis-build-client]: Remove: archive file [/home/abi/fetcher/tmp/alis_build_client-0.0.4.tar.gz]
+[2023-07-28 14:01:21] INFO root fetch - processPackages [alis-build-client]: Remove: archive file [/home/abi/fetcher/tmp/alis_build_client-0.0.5.tar.gz]
+[2023-07-28 14:01:21] INFO root fetch - main [MainThread]: End processing [alis-build-client]: success
+[2023-07-28 14:01:21] INFO root fetch - processPackages [venvs]: Remove: archive file [/home/abi/fetcher/tmp/venvs-7.5.1.tar.gz]
+[2023-07-28 14:01:21] INFO root fetch - processPackages [venvs]: Remove: archive file [/home/abi/fetcher/tmp/venvs-7.6.0.tar.gz]
+[2023-07-28 14:01:21] INFO root fetch - main [MainThread]: End processing [venvs]: success
+[2023-07-28 14:01:21] INFO root fetch - processPackages [pybsky]: Remove: archive file [/home/abi/fetcher/tmp/pybsky-0.0.17.tar.gz]
+[2023-07-28 14:01:21] INFO root fetch - processPackages [pybsky]: Remove: archive file [/home/abi/fetcher/tmp/pybsky-0.0.2.tar.gz]
+[2023-07-28 14:01:21] INFO root fetch - main [MainThread]: End processing [pybsky]: success
+[2023-07-28 14:01:21] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2023-07-28 14:01:21] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2023-07-28 14:01:21] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-07-28 14:01:21] INFO root fetch - processPackages [stargazer]: Remove: archive file [/home/abi/fetcher/tmp/stargazer-0.0.5.tar.gz]
+[2023-07-28 14:01:21] INFO root fetch - processPackages [stargazer]: Remove: archive file [/home/abi/fetcher/tmp/stargazer-0.0.6.tar.gz]
+[2023-07-28 14:01:21] INFO root fetch - main [MainThread]: End processing [stargazer]: success
+[2023-07-28 14:01:21] INFO root fetch - processPackages [hishel]: Remove: archive file [/home/abi/fetcher/tmp/hishel-0.0.2.tar.gz]
+[2023-07-28 14:01:21] INFO root fetch - processPackages [hishel]: Remove: archive file [/home/abi/fetcher/tmp/hishel-0.0.3.tar.gz]
+[2023-07-28 14:01:21] INFO root fetch - main [MainThread]: End processing [hishel]: success
+[2023-07-28 14:01:27] INFO root fetch - processPackages [xorbits]: Remove: archive file [/home/abi/fetcher/tmp/xorbits-0.4.4.tar.gz]
+[2023-07-28 14:01:27] INFO root fetch - processPackages [xorbits]: Remove: archive file [/home/abi/fetcher/tmp/xorbits-0.5.0.tar.gz]
+[2023-07-28 14:01:27] INFO root fetch - main [MainThread]: End processing [xorbits]: success
+[2023-07-28 14:01:27] INFO root fetch - main [MainThread]: Store serial: [19075152]
