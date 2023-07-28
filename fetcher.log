@@ -15219,3 +15219,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 09:09:18] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
 [2023-07-28 09:09:18] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
 [2023-07-28 09:09:18] INFO root fetch - main [MainThread]: Store serial: [19072691]
+[2023-07-28 09:14:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19072691]
+[2023-07-28 09:14:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-28 09:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stdflow
+[2023-07-28 09:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: il-supermarket-scraper
+[2023-07-28 09:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-nightly
+[2023-07-28 09:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: usepy
+[2023-07-28 09:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: merlin-sdk
+[2023-07-28 09:14:27] INFO root fetch - processPackages [stdflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 09:14:27] INFO root fetch - processPackages [il-supermarket-scraper]: New version: [0.3] Old Version: [0.2.9]
+[2023-07-28 09:14:27] INFO root fetch - processPackages [usepy]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-28 09:14:27] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-07-28 09:14:27] INFO root fetch - processPackages [merlin-sdk]: New version: [0.9.1] Old Version: [0.9.0.dev0]
+[2023-07-28 09:14:27] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/37/2b/dc718c9a789aae941c5744468c42fa99c1ca83c6fc824add3debc6df543d/stdflow-0.0.8.tar.gz
+[2023-07-28 09:14:28] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-07-28 09:14:28] INFO root fetch - processPackages [il-supermarket-scraper]: Downloading https://files.pythonhosted.org/packages/31/ff/d1b9cbfd3c0ace8c8575c66c5fe6b0a44f177f1e9d681d475b43a708f851/il-supermarket-scraper-0.2.9.tar.gz
+[2023-07-28 09:14:28] INFO root fetch - processPackages [usepy]: Downloading https://files.pythonhosted.org/packages/4a/46/2c077edf78729d8df696d196d1fb1cc48ae3f54d74bfe449e92e95467be6/usepy-0.2.5.tar.gz
+[2023-07-28 09:14:28] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/a6/93/1ec49bc87e9c3783e78f1047b5a8045a37c626115351da0f603c1ae6a894/merlin-sdk-0.9.0.dev0.tar.gz
+[2023-07-28 09:14:28] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/93/a7/7a92845fb1a7092159c2fbc2b23c0b733e7c93e5cd012f6538ca900ea3b6/stdflow-0.0.9-py3-none-any.whl
+[2023-07-28 09:14:28] INFO root fetch - processPackages [stdflow]: executing diffoscope
+[2023-07-28 09:14:28] INFO root fetch - processPackages [stdflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdflow-0.0.8.tar.gz tmp/stdflow-0.0.9-py3-none-any.whl.zip --markdown 20230728/s/stdflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 09:14:28] INFO root fetch - processPackages [il-supermarket-scraper]: Downloading https://files.pythonhosted.org/packages/af/10/82097833417ddcd3028a3df7885ff201b79d2c0a85939e8dba7e6b8a95fd/il-supermarket-scraper-0.3.tar.gz
+[2023-07-28 09:14:28] INFO root fetch - processPackages [il-supermarket-scraper]: executing diffoscope
+[2023-07-28 09:14:28] INFO root fetch - processPackages [il-supermarket-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/il-supermarket-scraper-0.2.9.tar.gz tmp/il-supermarket-scraper-0.3.tar.gz --markdown 20230728/i/il-supermarket-scraper/0.2.9-0.3/diff.md --exclude *.pyd
+[2023-07-28 09:14:28] INFO root fetch - processPackages [usepy]: Downloading https://files.pythonhosted.org/packages/92/53/bf9ec28435a840103e36d7b8b13d069ac5111374289ebbdd9d02020b3806/usepy-0.2.6.tar.gz
+[2023-07-28 09:14:28] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-07-28 09:14:28] INFO root fetch - processPackages [usepy]: executing diffoscope
+[2023-07-28 09:14:28] INFO root fetch - processPackages [usepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usepy-0.2.5.tar.gz tmp/usepy-0.2.6.tar.gz --markdown 20230728/u/usepy/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-28 09:14:28] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/48/3b/5e6b41bed4feb59823f7fa8ccbf076c977df12a20955a3c783fab418f126/merlin-sdk-0.9.1.tar.gz
+[2023-07-28 09:14:29] INFO root fetch - processPackages [merlin-sdk]: executing diffoscope
+[2023-07-28 09:14:29] INFO root fetch - processPackages [merlin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-sdk-0.9.0.dev0.tar.gz tmp/merlin-sdk-0.9.1.tar.gz --markdown 20230728/m/merlin-sdk/0.9.0.dev0-0.9.1/diff.md --exclude *.pyd
+[2023-07-28 09:14:29] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-07-28 09:14:29] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230728/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-07-28 09:14:29] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.8.tar.gz]
+[2023-07-28 09:14:29] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.9-py3-none-any.whl.zip]
+[2023-07-28 09:14:29] INFO root fetch - main [MainThread]: End processing [stdflow]: success
+[2023-07-28 09:14:29] INFO root fetch - processPackages [il-supermarket-scraper]: Remove: archive file [/home/abi/fetcher/tmp/il-supermarket-scraper-0.2.9.tar.gz]
+[2023-07-28 09:14:29] INFO root fetch - processPackages [il-supermarket-scraper]: Remove: archive file [/home/abi/fetcher/tmp/il-supermarket-scraper-0.3.tar.gz]
+[2023-07-28 09:14:29] INFO root fetch - main [MainThread]: End processing [il-supermarket-scraper]: success
+[2023-07-28 09:14:29] INFO root fetch - processPackages [usepy]: Remove: archive file [/home/abi/fetcher/tmp/usepy-0.2.5.tar.gz]
+[2023-07-28 09:14:29] INFO root fetch - processPackages [usepy]: Remove: archive file [/home/abi/fetcher/tmp/usepy-0.2.6.tar.gz]
+[2023-07-28 09:14:29] INFO root fetch - main [MainThread]: End processing [usepy]: success
+[2023-07-28 09:14:30] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.0.dev0.tar.gz]
+[2023-07-28 09:14:30] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.1.tar.gz]
+[2023-07-28 09:14:30] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
+[2023-07-28 09:14:37] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-07-28 09:14:37] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-07-28 09:14:37] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-07-28 09:14:37] INFO root fetch - main [MainThread]: Store serial: [19072710]
