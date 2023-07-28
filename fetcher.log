@@ -19214,3 +19214,176 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 11:51:05] INFO root fetch - processPackages [tiledb-plot-widget]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_plot_widget-1.1.0a0-py3-none-any.whl.zip]
 [2023-07-28 11:51:05] INFO root fetch - main [MainThread]: End processing [tiledb-plot-widget]: success
 [2023-07-28 11:51:05] INFO root fetch - main [MainThread]: Store serial: [19074137]
+[2023-07-28 11:56:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19074137]
+[2023-07-28 11:56:14] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-28 11:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AddBookmarket
+[2023-07-28 11:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pactsdk
+[2023-07-28 11:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prr
+[2023-07-28 11:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hirmeos-crossref-citedby-driver
+[2023-07-28 11:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlflow-extra
+[2023-07-28 11:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ttcore
+[2023-07-28 11:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pact-python
+[2023-07-28 11:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: amazon-scrape
+[2023-07-28 11:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: namekoplus
+[2023-07-28 11:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: simple-file-lock
+[2023-07-28 11:56:14] INFO root fetch - processPackages [mlflow-extra]: New version: [2023.4] Old Version: [2023.3]
+[2023-07-28 11:56:14] INFO root fetch - processPackages [hirmeos-crossref-citedby-driver]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-07-28 11:56:14] INFO root fetch - processPackages [AddBookmarket]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-28 11:56:14] INFO root fetch - processPackages [pact-python]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-28 11:56:14] INFO root fetch - processPackages [pactsdk]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-28 11:56:14] INFO root fetch - processPackages [prr]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-28 11:56:14] INFO root fetch - processPackages [amazon-scrape]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-28 11:56:14] INFO root fetch - processPackages [ttcore]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-28 11:56:14] INFO root fetch - processPackages [namekoplus]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-28 11:56:14] INFO root fetch - processPackages [simple-file-lock]: New version: [2023.2] Old Version: [2023.1]
+[2023-07-28 11:56:15] INFO root fetch - processPackages [amazon-scrape]: Downloading https://files.pythonhosted.org/packages/30/dd/674c6134a0ddd1f6a88dc47d2b483f645890879c5638641f9b23ae61917d/amazon_scrape-1.0.3.tar.gz
+[2023-07-28 11:56:15] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/5e/38/04e621101a73cfcafd7c3db72db840f72b380addc32e43820870f950a9a2/namekoplus-0.4.0.tar.gz
+[2023-07-28 11:56:15] INFO root fetch - processPackages [mlflow-extra]: Downloading https://files.pythonhosted.org/packages/9c/24/262a95f234d362aaa9da386d1e055f8f4811acfcd2b056c64b68d82d6748/mlflow_extra-2023.3.tar.gz
+[2023-07-28 11:56:15] INFO root fetch - processPackages [hirmeos-crossref-citedby-driver]: Downloading https://files.pythonhosted.org/packages/e4/14/409fab8b69863a3991b81ed2425cbdd0ef97b021bdb9822b1a197c9885b8/hirmeos-crossref-citedby-driver-0.0.5.tar.gz
+[2023-07-28 11:56:15] INFO root fetch - processPackages [prr]: Downloading https://files.pythonhosted.org/packages/c1/5a/e157ce367c013b590aea940bc2068e16980c8c3e5e726206035ec94374be/prr-0.3.1.tar.gz
+[2023-07-28 11:56:15] INFO root fetch - processPackages [simple-file-lock]: Downloading https://files.pythonhosted.org/packages/8d/eb/ab7ac9a9701e5d3d6e52e484b7892d2d3fd85eda9396f2eebea7645def41/simple_file_lock-2023.1.tar.gz
+[2023-07-28 11:56:15] INFO root fetch - processPackages [AddBookmarket]: Downloading https://files.pythonhosted.org/packages/6e/b1/e5d1e18c0ff21cb69a4bfb2a79e7969890bc4ab13d205865b4b818149e45/AddBookmarket-0.1.3.tar.gz
+[2023-07-28 11:56:15] INFO root fetch - processPackages [pact-python]: Downloading https://files.pythonhosted.org/packages/13/61/3ca036c01b8192a6255f182daeff244e1a4cef6f85cc43a75aea32f91a63/pact-python-2.0.0.tar.gz
+[2023-07-28 11:56:15] INFO root fetch - processPackages [ttcore]: Downloading https://files.pythonhosted.org/packages/51/1c/70d33d101f025bedf2fc3756d7a4fab630b1d605e1bf088f4a8c10697614/ttcore-0.1.8.tar.gz
+[2023-07-28 11:56:15] WARNING root fetch - processPackages [pact-python]: Skipping package: exceeds size limit 87655568>=10485760
+[2023-07-28 11:56:15] INFO root fetch - processPackages [pact-python]: Start processing: steamship
+[2023-07-28 11:56:15] INFO root fetch - main [MainThread]: End processing [pact-python] error
+[2023-07-28 11:56:15] INFO root fetch - processPackages [pactsdk]: Downloading https://files.pythonhosted.org/packages/da/a8/b0419d3fd754b4c46166fc854166f816d3a82dcc8e2257a7a5cbb2da1d36/pactsdk-0.7.0.tar.gz
+[2023-07-28 11:56:15] INFO root fetch - processPackages [amazon-scrape]: Downloading https://files.pythonhosted.org/packages/7d/b9/59c02509c704f02d8851d5d1a0baf45f3e4fc4945e2b39d25a543ffaa9d8/amazon_scrape-1.0.4.tar.gz
+[2023-07-28 11:56:15] INFO root fetch - processPackages [steamship]: New version: [2.7.17] Old Version: [2.3.9]
+[2023-07-28 11:56:15] INFO root fetch - processPackages [hirmeos-crossref-citedby-driver]: Downloading https://files.pythonhosted.org/packages/6d/f6/dbb3c526b2e1c959f3d785a0d386620531a0a5dd105ebfb2c9539a7cde96/hirmeos-crossref-citedby-driver-0.1.0.tar.gz
+[2023-07-28 11:56:15] INFO root fetch - processPackages [mlflow-extra]: Downloading https://files.pythonhosted.org/packages/0f/66/18c53974dc2452d1edd0482cbd786b5bb6142db88048ae3ab01cee62d705/mlflow_extra-2023.4.tar.gz
+[2023-07-28 11:56:15] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/60/55/7fc020a9990969ea052207878f371444a480f48a1ae034409d663660c02f/namekoplus-0.4.1.tar.gz
+[2023-07-28 11:56:15] INFO root fetch - processPackages [amazon-scrape]: executing diffoscope
+[2023-07-28 11:56:15] INFO root fetch - processPackages [amazon-scrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon_scrape-1.0.3.tar.gz tmp/amazon_scrape-1.0.4.tar.gz --markdown 20230728/a/amazon-scrape/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-28 11:56:15] INFO root fetch - processPackages [AddBookmarket]: Downloading https://files.pythonhosted.org/packages/64/10/0021787b18deedcfe335b680db1915b20df5dd2fea7231c80c394e708165/AddBookmarket-0.1.4.tar.gz
+[2023-07-28 11:56:15] INFO root fetch - processPackages [ttcore]: Downloading https://files.pythonhosted.org/packages/3f/46/0608e5be850842dbcb21cd1f71acb784b21570acd86223548ac7b762195f/ttcore-0.1.9.tar.gz
+[2023-07-28 11:56:15] INFO root fetch - processPackages [simple-file-lock]: Downloading https://files.pythonhosted.org/packages/58/73/d896d1a10d2ffea171f05701bc7b5ba71e63b8ba18a921f2a683ccb41cf4/simple_file_lock-2023.2.tar.gz
+[2023-07-28 11:56:15] INFO root fetch - processPackages [prr]: Downloading https://files.pythonhosted.org/packages/60/e6/3b25165896eb956a478c0504a6fa23e7220e73c31e7214eefd43b1f4f35c/prr-0.4.0.tar.gz
+[2023-07-28 11:56:15] INFO root fetch - processPackages [pactsdk]: Downloading https://files.pythonhosted.org/packages/dd/86/b41c28db76a7a6ca61331bf961d7d84a3060584ff7ba3ec2e0f812008bbb/pactsdk-0.7.1.tar.gz
+[2023-07-28 11:56:15] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/8a/2c/45284b04a7bcb421510b1bbb2e3f826c87946551d954eb3a3cd6b481fe09/steamship-2.3.9.tar.gz
+[2023-07-28 11:56:15] INFO root fetch - processPackages [mlflow-extra]: executing diffoscope
+[2023-07-28 11:56:15] INFO root fetch - processPackages [mlflow-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow_extra-2023.3.tar.gz tmp/mlflow_extra-2023.4.tar.gz --markdown 20230728/m/mlflow-extra/2023.3-2023.4/diff.md --exclude *.pyd
+[2023-07-28 11:56:15] INFO root fetch - processPackages [hirmeos-crossref-citedby-driver]: executing diffoscope
+[2023-07-28 11:56:15] INFO root fetch - processPackages [hirmeos-crossref-citedby-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hirmeos-crossref-citedby-driver-0.0.5.tar.gz tmp/hirmeos-crossref-citedby-driver-0.1.0.tar.gz --markdown 20230728/h/hirmeos-crossref-citedby-driver/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-07-28 11:56:15] INFO root fetch - processPackages [AddBookmarket]: executing diffoscope
+[2023-07-28 11:56:15] INFO root fetch - processPackages [AddBookmarket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AddBookmarket-0.1.3.tar.gz tmp/AddBookmarket-0.1.4.tar.gz --markdown 20230728/A/AddBookmarket/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-28 11:56:15] INFO root fetch - processPackages [ttcore]: executing diffoscope
+[2023-07-28 11:56:15] INFO root fetch - processPackages [ttcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttcore-0.1.8.tar.gz tmp/ttcore-0.1.9.tar.gz --markdown 20230728/t/ttcore/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-28 11:56:15] INFO root fetch - processPackages [simple-file-lock]: executing diffoscope
+[2023-07-28 11:56:15] INFO root fetch - processPackages [simple-file-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_file_lock-2023.1.tar.gz tmp/simple_file_lock-2023.2.tar.gz --markdown 20230728/s/simple-file-lock/2023.1-2023.2/diff.md --exclude *.pyd
+[2023-07-28 11:56:15] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-07-28 11:56:15] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.4.0.tar.gz tmp/namekoplus-0.4.1.tar.gz --markdown 20230728/n/namekoplus/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-28 11:56:16] INFO root fetch - processPackages [pactsdk]: executing diffoscope
+[2023-07-28 11:56:16] INFO root fetch - processPackages [pactsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pactsdk-0.7.0.tar.gz tmp/pactsdk-0.7.1.tar.gz --markdown 20230728/p/pactsdk/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-28 11:56:16] INFO root fetch - processPackages [prr]: executing diffoscope
+[2023-07-28 11:56:16] INFO root fetch - processPackages [prr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prr-0.3.1.tar.gz tmp/prr-0.4.0.tar.gz --markdown 20230728/p/prr/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-28 11:56:16] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/fc/7f/490997e5736bb6baca2fd79ebdb477307b56adeb7eeac9f7575d42158aa4/steamship-2.7.17.tar.gz
+[2023-07-28 11:56:16] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-07-28 11:56:16] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.9.tar.gz tmp/steamship-2.7.17.tar.gz --markdown 20230728/s/steamship/2.3.9-2.7.17/diff.md --exclude *.pyd
+[2023-07-28 11:56:16] INFO root fetch - processPackages [amazon-scrape]: Remove: archive file [/home/abi/fetcher/tmp/amazon_scrape-1.0.3.tar.gz]
+[2023-07-28 11:56:16] INFO root fetch - processPackages [amazon-scrape]: Remove: archive file [/home/abi/fetcher/tmp/amazon_scrape-1.0.4.tar.gz]
+[2023-07-28 11:56:16] INFO root fetch - processPackages [amazon-scrape]: Start processing: nucliadb
+[2023-07-28 11:56:16] INFO root fetch - main [MainThread]: End processing [amazon-scrape]: success
+[2023-07-28 11:56:16] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-28 11:56:17] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2023-07-28 11:56:17] INFO root fetch - processPackages [hirmeos-crossref-citedby-driver]: Remove: archive file [/home/abi/fetcher/tmp/hirmeos-crossref-citedby-driver-0.0.5.tar.gz]
+[2023-07-28 11:56:17] INFO root fetch - processPackages [hirmeos-crossref-citedby-driver]: Remove: archive file [/home/abi/fetcher/tmp/hirmeos-crossref-citedby-driver-0.1.0.tar.gz]
+[2023-07-28 11:56:17] INFO root fetch - processPackages [hirmeos-crossref-citedby-driver]: Start processing: nucliadb-client
+[2023-07-28 11:56:17] INFO root fetch - main [MainThread]: End processing [hirmeos-crossref-citedby-driver]: success
+[2023-07-28 11:56:17] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-28 11:56:17] INFO root fetch - processPackages [AddBookmarket]: Remove: archive file [/home/abi/fetcher/tmp/AddBookmarket-0.1.3.tar.gz]
+[2023-07-28 11:56:17] INFO root fetch - processPackages [AddBookmarket]: Remove: archive file [/home/abi/fetcher/tmp/AddBookmarket-0.1.4.tar.gz]
+[2023-07-28 11:56:17] INFO root fetch - processPackages [AddBookmarket]: Start processing: nucliadb-dataset
+[2023-07-28 11:56:17] INFO root fetch - main [MainThread]: End processing [AddBookmarket]: success
+[2023-07-28 11:56:17] INFO root fetch - processPackages [mlflow-extra]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_extra-2023.3.tar.gz]
+[2023-07-28 11:56:17] INFO root fetch - processPackages [mlflow-extra]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_extra-2023.4.tar.gz]
+[2023-07-28 11:56:17] INFO root fetch - processPackages [mlflow-extra]: Start processing: nucliadb-models
+[2023-07-28 11:56:17] INFO root fetch - main [MainThread]: End processing [mlflow-extra]: success
+[2023-07-28 11:56:17] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2023-07-28 11:56:17] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/e9/f9/e883083a5a0915d9eef487a6fa094cee59f24bf25f983e64b02d3dd71a9f/nucliadb_client-2.9.0.post266-py3-none-any.whl
+[2023-07-28 11:56:17] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-28 11:56:17] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-28 11:56:17] INFO root fetch - processPackages [simple-file-lock]: Remove: archive file [/home/abi/fetcher/tmp/simple_file_lock-2023.1.tar.gz]
+[2023-07-28 11:56:17] INFO root fetch - processPackages [simple-file-lock]: Remove: archive file [/home/abi/fetcher/tmp/simple_file_lock-2023.2.tar.gz]
+[2023-07-28 11:56:17] INFO root fetch - processPackages [simple-file-lock]: Start processing: nucliadb-protos
+[2023-07-28 11:56:17] INFO root fetch - main [MainThread]: End processing [simple-file-lock]: success
+[2023-07-28 11:56:17] INFO root fetch - processPackages [ttcore]: Remove: archive file [/home/abi/fetcher/tmp/ttcore-0.1.8.tar.gz]
+[2023-07-28 11:56:17] INFO root fetch - processPackages [ttcore]: Remove: archive file [/home/abi/fetcher/tmp/ttcore-0.1.9.tar.gz]
+[2023-07-28 11:56:17] INFO root fetch - processPackages [ttcore]: Start processing: django-datadog-logger
+[2023-07-28 11:56:17] INFO root fetch - main [MainThread]: End processing [ttcore]: success
+[2023-07-28 11:56:17] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-07-28 11:56:17] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230728/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-28 11:56:17] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-28 11:56:17] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.0.tar.gz]
+[2023-07-28 11:56:17] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.1.tar.gz]
+[2023-07-28 11:56:17] INFO root fetch - processPackages [namekoplus]: Start processing: nucliadb-sdk
+[2023-07-28 11:56:17] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-07-28 11:56:17] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2023-07-28 11:56:17] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/24/40/81827f509054d15496de510289a599e8f6d34f706b2371d86d048fbc0db0/nucliadb_client-2.9.0.post267-py3-none-any.whl
+[2023-07-28 11:56:17] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2023-07-28 11:56:17] INFO root fetch - processPackages [pactsdk]: Remove: archive file [/home/abi/fetcher/tmp/pactsdk-0.7.0.tar.gz]
+[2023-07-28 11:56:17] INFO root fetch - processPackages [pactsdk]: Remove: archive file [/home/abi/fetcher/tmp/pactsdk-0.7.1.tar.gz]
+[2023-07-28 11:56:17] INFO root fetch - processPackages [pactsdk]: Start processing: nucliadb-utils
+[2023-07-28 11:56:17] INFO root fetch - main [MainThread]: End processing [pactsdk]: success
+[2023-07-28 11:56:17] INFO root fetch - processPackages [django-datadog-logger]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-28 11:56:17] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2023-07-28 11:56:17] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-28 11:56:17] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-07-28 11:56:17] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230728/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-28 11:56:18] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-28 11:56:18] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2023-07-28 11:56:18] INFO root fetch - processPackages [django-datadog-logger]: Downloading https://files.pythonhosted.org/packages/18/79/dcb12e447c55c6f6dac3575bfa0b0aa69b07d1935175d9fb779d48d9c69e/django-datadog-logger-0.6.1.tar.gz
+[2023-07-28 11:56:18] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2023-07-28 11:56:18] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2023-07-28 11:56:18] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2023-07-28 11:56:18] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2023-07-28 11:56:18] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-07-28 11:56:18] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230728/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-28 11:56:18] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-07-28 11:56:18] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230728/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-28 11:56:18] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2023-07-28 11:56:18] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-07-28 11:56:18] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230728/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-28 11:56:18] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2023-07-28 11:56:18] INFO root fetch - processPackages [django-datadog-logger]: Downloading https://files.pythonhosted.org/packages/07/9e/3763b2ed240138683768c54eccc4e9da833eb2d1b71df7ad86197b04cf1d/django-datadog-logger-0.6.2.tar.gz
+[2023-07-28 11:56:18] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-07-28 11:56:18] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230728/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-28 11:56:18] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-07-28 11:56:18] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230728/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-28 11:56:18] INFO root fetch - processPackages [django-datadog-logger]: executing diffoscope
+[2023-07-28 11:56:18] INFO root fetch - processPackages [django-datadog-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-datadog-logger-0.6.1.tar.gz tmp/django-datadog-logger-0.6.2.tar.gz --markdown 20230728/d/django-datadog-logger/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-28 11:56:19] INFO root fetch - processPackages [prr]: Remove: archive file [/home/abi/fetcher/tmp/prr-0.3.1.tar.gz]
+[2023-07-28 11:56:19] INFO root fetch - processPackages [prr]: Remove: archive file [/home/abi/fetcher/tmp/prr-0.4.0.tar.gz]
+[2023-07-28 11:56:19] INFO root fetch - processPackages [prr]: Start processing: pao-utils
+[2023-07-28 11:56:19] INFO root fetch - main [MainThread]: End processing [prr]: success
+[2023-07-28 11:56:19] WARNING root fetch - processPackages [pao-utils]: Skipping, unable to determine old version
+[2023-07-28 11:56:19] INFO root fetch - main [MainThread]: End processing [pao-utils] error
+[2023-07-28 11:56:19] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-28 11:56:19] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-28 11:56:19] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-07-28 11:56:19] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-28 11:56:19] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-28 11:56:19] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-07-28 11:56:19] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-28 11:56:19] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-28 11:56:19] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-07-28 11:56:19] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-28 11:56:19] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-28 11:56:19] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-07-28 11:56:19] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-28 11:56:19] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-28 11:56:19] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-07-28 11:56:20] INFO root fetch - processPackages [django-datadog-logger]: Remove: archive file [/home/abi/fetcher/tmp/django-datadog-logger-0.6.1.tar.gz]
+[2023-07-28 11:56:20] INFO root fetch - processPackages [django-datadog-logger]: Remove: archive file [/home/abi/fetcher/tmp/django-datadog-logger-0.6.2.tar.gz]
+[2023-07-28 11:56:20] INFO root fetch - main [MainThread]: End processing [django-datadog-logger]: success
+[2023-07-28 11:56:20] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-28 11:56:20] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-28 11:56:20] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-07-28 11:56:20] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-28 11:56:20] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-28 11:56:20] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-07-28 11:56:20] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.3.9.tar.gz]
+[2023-07-28 11:56:20] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.7.17.tar.gz]
+[2023-07-28 11:56:20] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-07-28 11:56:20] INFO root fetch - main [MainThread]: Store serial: [19074193]
