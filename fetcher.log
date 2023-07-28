@@ -12299,3 +12299,87 @@
 [2023-07-28 06:12:52] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.7.15.3.6.tar.gz]
 [2023-07-28 06:12:52] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-07-28 06:12:52] INFO root fetch - main [MainThread]: Store serial: [19071458]
+[2023-07-28 06:17:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19071458]
+[2023-07-28 06:18:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-28 06:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: selectable-text
+[2023-07-28 06:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-webstack
+[2023-07-28 06:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snok
+[2023-07-28 06:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-mis-builder-budget
+[2023-07-28 06:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pystools
+[2023-07-28 06:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: froog
+[2023-07-28 06:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wpcsys
+[2023-07-28 06:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-multi-company
+[2023-07-28 06:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: anyforce
+[2023-07-28 06:18:01] INFO root fetch - processPackages [django-webstack]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-28 06:18:01] INFO root fetch - processPackages [odoo-addon-mis-builder-budget]: New version: [16.0.5.0.1.5] Old Version: [16.0.5.0.1.4]
+[2023-07-28 06:18:01] INFO root fetch - processPackages [selectable-text]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-28 06:18:01] INFO root fetch - processPackages [froog]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-28 06:18:01] INFO root fetch - processPackages [snok]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 06:18:01] INFO root fetch - processPackages [wpcsys]: New version: [2.1.7.1] Old Version: [2.1.7]
+[2023-07-28 06:18:01] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 06:18:01] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: New version: [16.0.20230612.0] Old Version: [16.0.20230525.0]
+[2023-07-28 06:18:01] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/6c/23/0d234bc4818387654e6cca84fa79525ef8a16b30a4ee3a4c3182d027973a/django-webstack-1.4.1.tar.gz
+[2023-07-28 06:18:01] INFO root fetch - processPackages [wpcsys]: Downloading https://files.pythonhosted.org/packages/6e/b9/2bc33cbcc0bea5e2680a36b0db188cc850dc1901578c26470e5608f8ef32/wpcsys-2.1.7.tar.gz
+[2023-07-28 06:18:01] INFO root fetch - processPackages [anyforce]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-28 06:18:01] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/d3/f1/f6fef6b574bd57970579f257d2f3b2adf9f6b87b20d9dc2c11e18d2a4a47/pystools-0.0.8.tar.gz
+[2023-07-28 06:18:01] INFO root fetch - processPackages [selectable-text]: Downloading https://files.pythonhosted.org/packages/23/67/378dd034f37e6ec2431c91c7b037f9e7233e139b379a69e8cb5554617810/selectable_text-0.0.3.tar.gz
+[2023-07-28 06:18:01] INFO root fetch - processPackages [froog]: Downloading https://files.pythonhosted.org/packages/0e/92/181d4c4d28fdf8dfbb4f45223bb09a430c8b6849420b0c20648587520ada/froog-0.1.7.tar.gz
+[2023-07-28 06:18:01] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: Downloading https://files.pythonhosted.org/packages/f9/77/9d2ad2088d61adeb05ea175963c7937999bdedda56fc3f191c5fc61e6fc6/odoo_addons_oca_multi_company-16.0.20230525.0-py3-none-any.whl
+[2023-07-28 06:18:01] INFO root fetch - processPackages [odoo-addon-mis-builder-budget]: Downloading https://files.pythonhosted.org/packages/9b/08/c25b48de0dc9853c8bf95ba2824fe2bf5f43ef2a9b72473b2a8efe29cff4/odoo_addon_mis_builder_budget-16.0.5.0.1.4-py3-none-any.whl
+[2023-07-28 06:18:01] INFO root fetch - processPackages [snok]: Downloading https://files.pythonhosted.org/packages/77/84/f4da540098a63a20561a4eabc3a085403f873b6759547533829959f50dec/snok-0.0.8.tar.gz
+[2023-07-28 06:18:02] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/75/22/a60c6e897bc29038e83b0aaba8bd40f9465d8ba0f62d101cda65ef7d9d3a/anyforce-0.8.2.tar.gz
+[2023-07-28 06:18:02] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/c0/af/564c5a536505f431ce5dc97bf5f17979174ae2add9bd0ce49a730af86538/django-webstack-1.4.2.tar.gz
+[2023-07-28 06:18:02] INFO root fetch - processPackages [selectable-text]: Downloading https://files.pythonhosted.org/packages/8f/b3/16fc4fba00e16ae8dff7b8f33d220470fa04c938a23718e52f5361825c2b/selectable_text-0.0.4.tar.gz
+[2023-07-28 06:18:02] INFO root fetch - processPackages [froog]: Downloading https://files.pythonhosted.org/packages/a9/ff/8eaa171e361c341a5eae29a861017205473738b24efdb3d9dfcc534609d9/froog-0.1.8.tar.gz
+[2023-07-28 06:18:02] INFO root fetch - processPackages [odoo-addon-mis-builder-budget]: Downloading https://files.pythonhosted.org/packages/9f/19/b48b6a6c293ce55abc4b67d746a1ce67989abe438fb5a6755da2e89fa124/odoo_addon_mis_builder_budget-16.0.5.0.1.5-py3-none-any.whl
+[2023-07-28 06:18:02] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/9b/5a/9f2cf38e22565c5aa2ecb7be3dbecb7a44f7d23efbd86fd532eacd613f62/pystools-0.0.9.tar.gz
+[2023-07-28 06:18:02] INFO root fetch - processPackages [selectable-text]: executing diffoscope
+[2023-07-28 06:18:02] INFO root fetch - processPackages [selectable-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selectable_text-0.0.3.tar.gz tmp/selectable_text-0.0.4.tar.gz --markdown 20230728/s/selectable-text/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-28 06:18:02] INFO root fetch - processPackages [froog]: executing diffoscope
+[2023-07-28 06:18:02] INFO root fetch - processPackages [froog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/froog-0.1.7.tar.gz tmp/froog-0.1.8.tar.gz --markdown 20230728/f/froog/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-28 06:18:02] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: Downloading https://files.pythonhosted.org/packages/a6/d1/7cb924dffef6c34ff581b3a9c84d5c3f00471ae9fc7dabceb64bf8a27d47/odoo_addons_oca_multi_company-16.0.20230612.0-py3-none-any.whl
+[2023-07-28 06:18:02] INFO root fetch - processPackages [django-webstack]: executing diffoscope
+[2023-07-28 06:18:02] INFO root fetch - processPackages [django-webstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-webstack-1.4.1.tar.gz tmp/django-webstack-1.4.2.tar.gz --markdown 20230728/d/django-webstack/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-28 06:18:02] INFO root fetch - processPackages [wpcsys]: Downloading https://files.pythonhosted.org/packages/e4/26/e5edc5dd37474f12de18ff5f4183f67e687beadf0e7f71ada460819ca98f/wpcsys-2.1.7.1.tar.gz
+[2023-07-28 06:18:02] INFO root fetch - processPackages [odoo-addon-mis-builder-budget]: executing diffoscope
+[2023-07-28 06:18:02] INFO root fetch - processPackages [odoo-addon-mis-builder-budget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mis_builder_budget-16.0.5.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_mis_builder_budget-16.0.5.0.1.5-py3-none-any.whl.zip --markdown 20230728/o/odoo-addon-mis-builder-budget/16.0.5.0.1.4-16.0.5.0.1.5/diff.md --exclude *.pyd
+[2023-07-28 06:18:02] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: executing diffoscope
+[2023-07-28 06:18:02] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_multi_company-16.0.20230525.0-py3-none-any.whl.zip tmp/odoo_addons_oca_multi_company-16.0.20230612.0-py3-none-any.whl.zip --markdown 20230728/o/odoo-addons-oca-multi-company/16.0.20230525.0-16.0.20230612.0/diff.md --exclude *.pyd
+[2023-07-28 06:18:02] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/9b/ab/c662247bed8dd85fa8c1d2517b08f7688328858eb44bfe36bed0b0aed718/anyforce-0.9.0.tar.gz
+[2023-07-28 06:18:02] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-07-28 06:18:02] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230728/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 06:18:02] INFO root fetch - processPackages [snok]: Downloading https://files.pythonhosted.org/packages/39/0e/0a854f8c899c6ff1c39f119dd502a6e81c43e41e4a98f1a9d9e06896f96f/snok-0.0.9.tar.gz
+[2023-07-28 06:18:02] INFO root fetch - processPackages [anyforce]: executing diffoscope
+[2023-07-28 06:18:02] INFO root fetch - processPackages [anyforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyforce-0.8.2.tar.gz tmp/anyforce-0.9.0.tar.gz --markdown 20230728/a/anyforce/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-28 06:18:02] INFO root fetch - processPackages [snok]: executing diffoscope
+[2023-07-28 06:18:02] INFO root fetch - processPackages [snok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snok-0.0.8.tar.gz tmp/snok-0.0.9.tar.gz --markdown 20230728/s/snok/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 06:18:02] INFO root fetch - processPackages [wpcsys]: executing diffoscope
+[2023-07-28 06:18:02] INFO root fetch - processPackages [wpcsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wpcsys-2.1.7.tar.gz tmp/wpcsys-2.1.7.1.tar.gz --markdown 20230728/w/wpcsys/2.1.7-2.1.7.1/diff.md --exclude *.pyd
+[2023-07-28 06:18:03] INFO root fetch - processPackages [froog]: Remove: archive file [/home/abi/fetcher/tmp/froog-0.1.7.tar.gz]
+[2023-07-28 06:18:03] INFO root fetch - processPackages [froog]: Remove: archive file [/home/abi/fetcher/tmp/froog-0.1.8.tar.gz]
+[2023-07-28 06:18:03] INFO root fetch - main [MainThread]: End processing [froog]: success
+[2023-07-28 06:18:03] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.8.tar.gz]
+[2023-07-28 06:18:03] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.9.tar.gz]
+[2023-07-28 06:18:03] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-07-28 06:18:04] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.8.2.tar.gz]
+[2023-07-28 06:18:04] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.9.0.tar.gz]
+[2023-07-28 06:18:04] INFO root fetch - main [MainThread]: End processing [anyforce]: success
+[2023-07-28 06:18:04] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_multi_company-16.0.20230525.0-py3-none-any.whl.zip]
+[2023-07-28 06:18:04] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_multi_company-16.0.20230612.0-py3-none-any.whl.zip]
+[2023-07-28 06:18:04] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-multi-company]: success
+[2023-07-28 06:18:04] INFO root fetch - processPackages [selectable-text]: Remove: archive file [/home/abi/fetcher/tmp/selectable_text-0.0.3.tar.gz]
+[2023-07-28 06:18:04] INFO root fetch - processPackages [selectable-text]: Remove: archive file [/home/abi/fetcher/tmp/selectable_text-0.0.4.tar.gz]
+[2023-07-28 06:18:04] INFO root fetch - main [MainThread]: End processing [selectable-text]: success
+[2023-07-28 06:18:04] INFO root fetch - processPackages [odoo-addon-mis-builder-budget]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mis_builder_budget-16.0.5.0.1.4-py3-none-any.whl.zip]
+[2023-07-28 06:18:04] INFO root fetch - processPackages [odoo-addon-mis-builder-budget]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mis_builder_budget-16.0.5.0.1.5-py3-none-any.whl.zip]
+[2023-07-28 06:18:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-mis-builder-budget]: success
+[2023-07-28 06:18:04] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.4.1.tar.gz]
+[2023-07-28 06:18:04] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.4.2.tar.gz]
+[2023-07-28 06:18:04] INFO root fetch - main [MainThread]: End processing [django-webstack]: success
+[2023-07-28 06:18:04] INFO root fetch - processPackages [snok]: Remove: archive file [/home/abi/fetcher/tmp/snok-0.0.8.tar.gz]
+[2023-07-28 06:18:04] INFO root fetch - processPackages [snok]: Remove: archive file [/home/abi/fetcher/tmp/snok-0.0.9.tar.gz]
+[2023-07-28 06:18:04] INFO root fetch - main [MainThread]: End processing [snok]: success
+[2023-07-28 06:18:04] INFO root fetch - processPackages [wpcsys]: Remove: archive file [/home/abi/fetcher/tmp/wpcsys-2.1.7.tar.gz]
+[2023-07-28 06:18:04] INFO root fetch - processPackages [wpcsys]: Remove: archive file [/home/abi/fetcher/tmp/wpcsys-2.1.7.1.tar.gz]
+[2023-07-28 06:18:04] INFO root fetch - main [MainThread]: End processing [wpcsys]: success
+[2023-07-28 06:18:04] INFO root fetch - main [MainThread]: Store serial: [19071485]
