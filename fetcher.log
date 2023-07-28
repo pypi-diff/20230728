@@ -5520,3 +5520,51 @@
 [2023-07-28 03:05:17] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
 [2023-07-28 03:05:17] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
 [2023-07-28 03:05:17] INFO root fetch - main [MainThread]: Store serial: [19068876]
+[2023-07-28 03:10:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19068876]
+[2023-07-28 03:10:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-28 03:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-hugo-deploy
+[2023-07-28 03:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: typer-tinydb
+[2023-07-28 03:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansible-risk-insight
+[2023-07-28 03:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cohere-sagemaker
+[2023-07-28 03:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onqlave-python-sdk-pilot
+[2023-07-28 03:10:27] INFO root fetch - processPackages [cohere-sagemaker]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-28 03:10:27] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 03:10:27] INFO root fetch - processPackages [ansible-risk-insight]: New version: [0.1.8] Old Version: [0.1.7rc2]
+[2023-07-28 03:10:27] INFO root fetch - processPackages [typer-tinydb]: New version: [0.1.4.post0] Old Version: [0.1.4]
+[2023-07-28 03:10:27] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-28 03:10:27] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Downloading https://files.pythonhosted.org/packages/59/52/27818a5b0dc9fe59434c9f8dd87931c7b1e1d7bfb5c4444e786d74d04257/onqlave-python-sdk-pilot-0.0.8.tar.gz
+[2023-07-28 03:10:27] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-07-28 03:10:27] INFO root fetch - processPackages [cohere-sagemaker]: Downloading https://files.pythonhosted.org/packages/a0/73/0358e1e7c0c8a2cb869b4db3a1e0ab480aeabcc465729d4481eb24a95d77/cohere-sagemaker-0.7.1.tar.gz
+[2023-07-28 03:10:27] INFO root fetch - processPackages [ansible-risk-insight]: Downloading https://files.pythonhosted.org/packages/1c/56/b7e2ddb38b6546315aca2127a68ddfa778261e23a09c06522f15c2e307b9/ansible-risk-insight-0.1.7rc2.tar.gz
+[2023-07-28 03:10:27] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-07-28 03:10:27] INFO root fetch - processPackages [typer-tinydb]: Downloading https://files.pythonhosted.org/packages/df/7d/217465c875e45f0355653e0207473f4448ac6bdfec7cc22d35854e8cd21a/typer_tinydb-0.1.4.tar.gz
+[2023-07-28 03:10:27] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Downloading https://files.pythonhosted.org/packages/63/b0/994ce6161d7a0abbf7a7adef4b05993a95b3f12dcef78d435a13caa4c412/onqlave-python-sdk-pilot-0.0.9.tar.gz
+[2023-07-28 03:10:27] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-07-28 03:10:27] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230728/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-28 03:10:27] INFO root fetch - processPackages [cohere-sagemaker]: Downloading https://files.pythonhosted.org/packages/26/4e/041573e9abb60e5fcbf658325d7ee235841f391bfba0f3d54fa899bbc9ef/cohere-sagemaker-0.7.2.tar.gz
+[2023-07-28 03:10:27] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: executing diffoscope
+[2023-07-28 03:10:27] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onqlave-python-sdk-pilot-0.0.8.tar.gz tmp/onqlave-python-sdk-pilot-0.0.9.tar.gz --markdown 20230728/o/onqlave-python-sdk-pilot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 03:10:27] INFO root fetch - processPackages [cohere-sagemaker]: executing diffoscope
+[2023-07-28 03:10:27] INFO root fetch - processPackages [cohere-sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohere-sagemaker-0.7.1.tar.gz tmp/cohere-sagemaker-0.7.2.tar.gz --markdown 20230728/c/cohere-sagemaker/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-28 03:10:27] INFO root fetch - processPackages [typer-tinydb]: Downloading https://files.pythonhosted.org/packages/5c/fe/3fe34e570a81e27fcacadd0257ddcba885be20f9c23f9ee3e19014f78bad/typer_tinydb-0.1.4.post0.tar.gz
+[2023-07-28 03:10:27] INFO root fetch - processPackages [ansible-risk-insight]: Downloading https://files.pythonhosted.org/packages/3b/02/db1065ca979e47828fe7bfa0ff1d668dfd1556aa950c1bb01ada930728ef/ansible-risk-insight-0.1.8.tar.gz
+[2023-07-28 03:10:28] INFO root fetch - processPackages [typer-tinydb]: executing diffoscope
+[2023-07-28 03:10:28] INFO root fetch - processPackages [typer-tinydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typer_tinydb-0.1.4.tar.gz tmp/typer_tinydb-0.1.4.post0.tar.gz --markdown 20230728/t/typer-tinydb/0.1.4-0.1.4.post0/diff.md --exclude *.pyd
+[2023-07-28 03:10:28] INFO root fetch - processPackages [ansible-risk-insight]: executing diffoscope
+[2023-07-28 03:10:28] INFO root fetch - processPackages [ansible-risk-insight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-risk-insight-0.1.7rc2.tar.gz tmp/ansible-risk-insight-0.1.8.tar.gz --markdown 20230728/a/ansible-risk-insight/0.1.7rc2-0.1.8/diff.md --exclude *.pyd
+[2023-07-28 03:10:28] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-07-28 03:10:28] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-07-28 03:10:28] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-07-28 03:10:28] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-sdk-pilot-0.0.8.tar.gz]
+[2023-07-28 03:10:28] INFO root fetch - processPackages [onqlave-python-sdk-pilot]: Remove: archive file [/home/abi/fetcher/tmp/onqlave-python-sdk-pilot-0.0.9.tar.gz]
+[2023-07-28 03:10:28] INFO root fetch - main [MainThread]: End processing [onqlave-python-sdk-pilot]: success
+[2023-07-28 03:10:28] INFO root fetch - processPackages [cohere-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/cohere-sagemaker-0.7.1.tar.gz]
+[2023-07-28 03:10:28] INFO root fetch - processPackages [cohere-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/cohere-sagemaker-0.7.2.tar.gz]
+[2023-07-28 03:10:28] INFO root fetch - main [MainThread]: End processing [cohere-sagemaker]: success
+[2023-07-28 03:10:28] INFO root fetch - processPackages [typer-tinydb]: Remove: archive file [/home/abi/fetcher/tmp/typer_tinydb-0.1.4.tar.gz]
+[2023-07-28 03:10:28] INFO root fetch - processPackages [typer-tinydb]: Remove: archive file [/home/abi/fetcher/tmp/typer_tinydb-0.1.4.post0.tar.gz]
+[2023-07-28 03:10:28] INFO root fetch - main [MainThread]: End processing [typer-tinydb]: success
+[2023-07-28 03:10:29] INFO root fetch - processPackages [ansible-risk-insight]: Remove: archive file [/home/abi/fetcher/tmp/ansible-risk-insight-0.1.7rc2.tar.gz]
+[2023-07-28 03:10:29] INFO root fetch - processPackages [ansible-risk-insight]: Remove: archive file [/home/abi/fetcher/tmp/ansible-risk-insight-0.1.8.tar.gz]
+[2023-07-28 03:10:29] INFO root fetch - main [MainThread]: End processing [ansible-risk-insight]: success
+[2023-07-28 03:10:29] INFO root fetch - main [MainThread]: Store serial: [19068891]
