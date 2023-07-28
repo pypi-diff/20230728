@@ -5454,3 +5454,69 @@
 [2023-07-28 03:00:05] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.397.0.tar.gz]
 [2023-07-28 03:00:05] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-28 03:00:05] INFO root fetch - main [MainThread]: Store serial: [19068852]
+[2023-07-28 03:05:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19068852]
+[2023-07-28 03:05:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-28 03:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tsbs
+[2023-07-28 03:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ix-cli
+[2023-07-28 03:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adafri
+[2023-07-28 03:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dodevops
+[2023-07-28 03:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-07-28 03:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymmcore-plus
+[2023-07-28 03:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hyperopt-prophet
+[2023-07-28 03:05:14] INFO root fetch - processPackages [pymmcore-plus]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-28 03:05:14] INFO root fetch - processPackages [ix-cli]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-28 03:05:14] INFO root fetch - processPackages [hyperopt-prophet]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-28 03:05:14] INFO root fetch - processPackages [dodevops]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-28 03:05:14] INFO root fetch - processPackages [adafri]: New version: [0.0.66] Old Version: [0.0.65]
+[2023-07-28 03:05:14] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-07-28 03:05:14] INFO root fetch - processPackages [tsbs]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-28 03:05:14] INFO root fetch - processPackages [pymmcore-plus]: Downloading https://files.pythonhosted.org/packages/5c/f4/c0402075522e792ea5e048c6b589d317834e23a0e66b670bf9322cc8388d/pymmcore_plus-0.7.0.tar.gz
+[2023-07-28 03:05:15] INFO root fetch - processPackages [hyperopt-prophet]: Downloading https://files.pythonhosted.org/packages/8b/09/a39d313b50924f6f5db061cfdb3e55fd90bbd4b213b2cf93332ead23f935/hyperopt_prophet-0.2.1.tar.gz
+[2023-07-28 03:05:15] INFO root fetch - processPackages [dodevops]: Downloading https://files.pythonhosted.org/packages/1a/18/06c2488148b2257582b58138dc3697e62cc7a847d51f00a381e948d75b1a/dodevops-0.1.8.tar.gz
+[2023-07-28 03:05:15] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2023-07-28 03:05:15] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/f7/4c/2875b5514d9845681d50ae9b1628848f067f868b83942ebcdf6c5a906825/adafri-0.0.65.tar.gz
+[2023-07-28 03:05:15] INFO root fetch - processPackages [ix-cli]: Downloading https://files.pythonhosted.org/packages/7b/74/7f74bf370859c8270262aebf7b29a6b0146400cba10a44c19264e0838fa8/ix_cli-0.1.2.tar.gz
+[2023-07-28 03:05:15] INFO root fetch - processPackages [tsbs]: Downloading https://files.pythonhosted.org/packages/bc/8c/d556302c08e345c4fd29a90016cc9eedcaa6e517357c9f2f23aa2c1e5d04/tsbs-0.0.1.tar.gz
+[2023-07-28 03:05:15] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2023-07-28 03:05:15] INFO root fetch - processPackages [pymmcore-plus]: Downloading https://files.pythonhosted.org/packages/3e/c1/e6277cef0afbe8d58d369521c782f86ec24b94ca4605ebb5baf94fdb1e22/pymmcore_plus-0.7.1.tar.gz
+[2023-07-28 03:05:15] INFO root fetch - processPackages [dodevops]: Downloading https://files.pythonhosted.org/packages/41/5d/c2423ea8b261b7a7034db4214baef9f7e4474e8e2ac9d884063cc022e455/dodevops-0.1.9.tar.gz
+[2023-07-28 03:05:15] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/b5/35/4f094248151466220f45e59fb6a8560c807a67e66de3bd4d1c4c802ab335/adafri-0.0.66.tar.gz
+[2023-07-28 03:05:15] INFO root fetch - processPackages [hyperopt-prophet]: Downloading https://files.pythonhosted.org/packages/0a/b4/a84bc25382972dd3f365ae60fcf4e66a1405aa4b8b7e300a63a414450919/hyperopt_prophet-0.2.2.tar.gz
+[2023-07-28 03:05:15] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-07-28 03:05:15] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230728/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-07-28 03:05:15] INFO root fetch - processPackages [pymmcore-plus]: executing diffoscope
+[2023-07-28 03:05:15] INFO root fetch - processPackages [pymmcore-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymmcore_plus-0.7.0.tar.gz tmp/pymmcore_plus-0.7.1.tar.gz --markdown 20230728/p/pymmcore-plus/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-28 03:05:15] INFO root fetch - processPackages [hyperopt-prophet]: executing diffoscope
+[2023-07-28 03:05:15] INFO root fetch - processPackages [hyperopt-prophet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperopt_prophet-0.2.1.tar.gz tmp/hyperopt_prophet-0.2.2.tar.gz --markdown 20230728/h/hyperopt-prophet/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-28 03:05:15] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-28 03:05:15] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.65.tar.gz tmp/adafri-0.0.66.tar.gz --markdown 20230728/a/adafri/0.0.65-0.0.66/diff.md --exclude *.pyd
+[2023-07-28 03:05:15] INFO root fetch - processPackages [dodevops]: executing diffoscope
+[2023-07-28 03:05:15] INFO root fetch - processPackages [dodevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dodevops-0.1.8.tar.gz tmp/dodevops-0.1.9.tar.gz --markdown 20230728/d/dodevops/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-28 03:05:15] INFO root fetch - processPackages [ix-cli]: Downloading https://files.pythonhosted.org/packages/ab/cc/1ee6dac4b4876e9bcc29be73bf3855abb5aa310c919e5c2da5cf953409ac/ix_cli-0.1.3.tar.gz
+[2023-07-28 03:05:15] INFO root fetch - processPackages [tsbs]: Downloading https://files.pythonhosted.org/packages/3c/75/6674245dcf5325f1bb0c8474c943eeee74f106512ef322a87dfb2abc136f/tsbs-0.0.2.tar.gz
+[2023-07-28 03:05:15] INFO root fetch - processPackages [ix-cli]: executing diffoscope
+[2023-07-28 03:05:15] INFO root fetch - processPackages [ix-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ix_cli-0.1.2.tar.gz tmp/ix_cli-0.1.3.tar.gz --markdown 20230728/i/ix-cli/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-28 03:05:15] INFO root fetch - processPackages [tsbs]: executing diffoscope
+[2023-07-28 03:05:15] INFO root fetch - processPackages [tsbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsbs-0.0.1.tar.gz tmp/tsbs-0.0.2.tar.gz --markdown 20230728/t/tsbs/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-28 03:05:16] INFO root fetch - processPackages [hyperopt-prophet]: Remove: archive file [/home/abi/fetcher/tmp/hyperopt_prophet-0.2.1.tar.gz]
+[2023-07-28 03:05:16] INFO root fetch - processPackages [hyperopt-prophet]: Remove: archive file [/home/abi/fetcher/tmp/hyperopt_prophet-0.2.2.tar.gz]
+[2023-07-28 03:05:16] INFO root fetch - main [MainThread]: End processing [hyperopt-prophet]: success
+[2023-07-28 03:05:16] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.65.tar.gz]
+[2023-07-28 03:05:16] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.66.tar.gz]
+[2023-07-28 03:05:16] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-28 03:05:17] INFO root fetch - processPackages [ix-cli]: Remove: archive file [/home/abi/fetcher/tmp/ix_cli-0.1.2.tar.gz]
+[2023-07-28 03:05:17] INFO root fetch - processPackages [ix-cli]: Remove: archive file [/home/abi/fetcher/tmp/ix_cli-0.1.3.tar.gz]
+[2023-07-28 03:05:17] INFO root fetch - main [MainThread]: End processing [ix-cli]: success
+[2023-07-28 03:05:17] INFO root fetch - processPackages [tsbs]: Remove: archive file [/home/abi/fetcher/tmp/tsbs-0.0.1.tar.gz]
+[2023-07-28 03:05:17] INFO root fetch - processPackages [tsbs]: Remove: archive file [/home/abi/fetcher/tmp/tsbs-0.0.2.tar.gz]
+[2023-07-28 03:05:17] INFO root fetch - main [MainThread]: End processing [tsbs]: success
+[2023-07-28 03:05:17] INFO root fetch - processPackages [pymmcore-plus]: Remove: archive file [/home/abi/fetcher/tmp/pymmcore_plus-0.7.0.tar.gz]
+[2023-07-28 03:05:17] INFO root fetch - processPackages [pymmcore-plus]: Remove: archive file [/home/abi/fetcher/tmp/pymmcore_plus-0.7.1.tar.gz]
+[2023-07-28 03:05:17] INFO root fetch - main [MainThread]: End processing [pymmcore-plus]: success
+[2023-07-28 03:05:17] INFO root fetch - processPackages [dodevops]: Remove: archive file [/home/abi/fetcher/tmp/dodevops-0.1.8.tar.gz]
+[2023-07-28 03:05:17] INFO root fetch - processPackages [dodevops]: Remove: archive file [/home/abi/fetcher/tmp/dodevops-0.1.9.tar.gz]
+[2023-07-28 03:05:17] INFO root fetch - main [MainThread]: End processing [dodevops]: success
+[2023-07-28 03:05:17] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2023-07-28 03:05:17] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2023-07-28 03:05:17] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-07-28 03:05:17] INFO root fetch - main [MainThread]: Store serial: [19068876]
