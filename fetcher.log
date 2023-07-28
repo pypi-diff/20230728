@@ -18684,3 +18684,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 11:34:29] INFO root fetch - processPackages [cosmosis]: Remove: archive file [/home/abi/fetcher/tmp/cosmosis-3.0.1.tar.gz]
 [2023-07-28 11:34:29] INFO root fetch - main [MainThread]: End processing [cosmosis]: success
 [2023-07-28 11:34:29] INFO root fetch - main [MainThread]: Store serial: [19073961]
+[2023-07-28 11:39:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19073961]
+[2023-07-28 11:39:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-28 11:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dj-whisperer
+[2023-07-28 11:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sunpeek
+[2023-07-28 11:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloud-pak-operations-cli
+[2023-07-28 11:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: json-tools2
+[2023-07-28 11:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: markmini
+[2023-07-28 11:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nrv-py
+[2023-07-28 11:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pkgUdit
+[2023-07-28 11:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-contributor-assets
+[2023-07-28 11:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ec2-api
+[2023-07-28 11:39:38] INFO root fetch - processPackages [dj-whisperer]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-28 11:39:38] INFO root fetch - processPackages [pkgUdit]: New version: [1.1.5.9] Old Version: [1.1.5.8]
+[2023-07-28 11:39:38] INFO root fetch - processPackages [nrv-py]: New version: [0.9.9a0] Old Version: [0.9.9]
+[2023-07-28 11:39:38] WARNING root fetch - processPackages [markmini]: Skipping, unable to determine old version
+[2023-07-28 11:39:38] INFO root fetch - processPackages [json-tools2]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-28 11:39:38] INFO root fetch - main [MainThread]: End processing [markmini] error
+[2023-07-28 11:39:38] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post919] Old Version: [1.0.0.post918]
+[2023-07-28 11:39:38] INFO root fetch - processPackages [cloud-pak-operations-cli]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-28 11:39:38] INFO root fetch - processPackages [sunpeek]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-28 11:39:38] INFO root fetch - processPackages [pkgUdit]: Downloading https://files.pythonhosted.org/packages/f5/69/931d2fd66734e43519b7f521b1e404e3e22d6d506e68c7ee3019882edf6e/pkgUdit-1.1.5.8.tar.gz
+[2023-07-28 11:39:38] INFO root fetch - processPackages [nrv-py]: Downloading https://files.pythonhosted.org/packages/83/8e/1950aa8c1f0b2fc34d6260ab5aa0923f48d1ac629020b1c8bccb34f71e75/nrv-py-0.9.9.tar.gz
+[2023-07-28 11:39:38] INFO root fetch - processPackages [cloud-pak-operations-cli]: Downloading https://files.pythonhosted.org/packages/2e/49/b223890ea20e9357dabd55ca9fab1b10f8bd004389d99b1580cca37c9675/cloud-pak-operations-cli-0.4.0.tar.gz
+[2023-07-28 11:39:38] INFO root fetch - processPackages [ec2-api]: New version: [9.0.1] Old Version: [9.0.0.0rc1]
+[2023-07-28 11:39:38] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/34/ef/ee7281dbeefb19e383bb9f1e8180a8c2816c5ea9d0b3b7efcf86963383f9/nucliadb_contributor_assets-1.0.0.post918-py3-none-any.whl
+[2023-07-28 11:39:38] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/75/11/c1129d47d71b51a4ebaa5203fb1429c030f22742a5176a877bb98440bd43/sunpeek-0.3.0-py3-none-any.whl
+[2023-07-28 11:39:39] INFO root fetch - processPackages [dj-whisperer]: Downloading https://files.pythonhosted.org/packages/cd/46/a1ea348f3204e1f6a58eb11e8b6218d0a16fcd004caf201d94961160b888/dj-whisperer-0.2.8.tar.gz
+[2023-07-28 11:39:39] INFO root fetch - processPackages [json-tools2]: Downloading https://files.pythonhosted.org/packages/9c/56/619e073a28d43d7827f5e04ed7bae202719faceb3ca3786129294f4469ec/json-tools2-0.0.6.tar.gz
+[2023-07-28 11:39:39] INFO root fetch - processPackages [ec2-api]: Downloading https://files.pythonhosted.org/packages/b7/a1/8bd8236f410335fd6fb3ba9ece53cb520b0785ffd05855fa1d77a5729c9c/ec2-api-9.0.0.0rc1.tar.gz
+[2023-07-28 11:39:39] INFO root fetch - processPackages [nrv-py]: Downloading https://files.pythonhosted.org/packages/86/be/eb5824b254571c75d109a273e4b87aaf122407a4dd7caa98c105b520e3d1/nrv-py-0.9.9a0.tar.gz
+[2023-07-28 11:39:39] INFO root fetch - processPackages [pkgUdit]: Downloading https://files.pythonhosted.org/packages/35/1d/ae0701c056f18f911f290fb448488483dd8df216023ae58a8cddfaaa972e/pkgUdit-1.1.5.9.tar.gz
+[2023-07-28 11:39:39] INFO root fetch - processPackages [cloud-pak-operations-cli]: Downloading https://files.pythonhosted.org/packages/91/c5/0b281a5e3168b8f53a8ef21541c0f3a6edd9aa0f6c60f8f8ec59a4242482/cloud-pak-operations-cli-0.4.1.tar.gz
+[2023-07-28 11:39:39] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/c6/e7/31bb2c5eb819a0de9637c8d5a3d99467dc0e5ecb2f8d3fc85c933031bd28/sunpeek-0.3.1-py3-none-any.whl
+[2023-07-28 11:39:39] INFO root fetch - processPackages [dj-whisperer]: Downloading https://files.pythonhosted.org/packages/1e/1d/47fdb71b6958124b0c9a9fedd98fdc6001393e01da4625d8a9cec075660e/dj-whisperer-0.2.9.tar.gz
+[2023-07-28 11:39:39] INFO root fetch - processPackages [json-tools2]: Downloading https://files.pythonhosted.org/packages/5c/96/ab4aa7ba589ac9895aa4dbbf9b9de5a2372adb78ddd8d3b736c15a393bc4/json-tools2-0.0.7.tar.gz
+[2023-07-28 11:39:39] INFO root fetch - processPackages [cloud-pak-operations-cli]: executing diffoscope
+[2023-07-28 11:39:39] INFO root fetch - processPackages [cloud-pak-operations-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-pak-operations-cli-0.4.0.tar.gz tmp/cloud-pak-operations-cli-0.4.1.tar.gz --markdown 20230728/c/cloud-pak-operations-cli/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-28 11:39:39] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/9e/af/edb29e377fceabd1c248ce6d69c1dd83c55fa6951f9d33403ccedf28a466/nucliadb_contributor_assets-1.0.0.post919-py3-none-any.whl
+[2023-07-28 11:39:39] INFO root fetch - processPackages [pkgUdit]: executing diffoscope
+[2023-07-28 11:39:39] INFO root fetch - processPackages [pkgUdit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgUdit-1.1.5.8.tar.gz tmp/pkgUdit-1.1.5.9.tar.gz --markdown 20230728/p/pkgUdit/1.1.5.8-1.1.5.9/diff.md --exclude *.pyd
+[2023-07-28 11:39:39] INFO root fetch - processPackages [nrv-py]: executing diffoscope
+[2023-07-28 11:39:39] INFO root fetch - processPackages [nrv-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrv-py-0.9.9.tar.gz tmp/nrv-py-0.9.9a0.tar.gz --markdown 20230728/n/nrv-py/0.9.9-0.9.9a0/diff.md --exclude *.pyd
+[2023-07-28 11:39:39] INFO root fetch - processPackages [json-tools2]: executing diffoscope
+[2023-07-28 11:39:39] INFO root fetch - processPackages [json-tools2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-tools2-0.0.6.tar.gz tmp/json-tools2-0.0.7.tar.gz --markdown 20230728/j/json-tools2/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-28 11:39:39] INFO root fetch - processPackages [dj-whisperer]: executing diffoscope
+[2023-07-28 11:39:39] INFO root fetch - processPackages [dj-whisperer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-whisperer-0.2.8.tar.gz tmp/dj-whisperer-0.2.9.tar.gz --markdown 20230728/d/dj-whisperer/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-28 11:39:39] INFO root fetch - processPackages [sunpeek]: executing diffoscope
+[2023-07-28 11:39:39] INFO root fetch - processPackages [sunpeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunpeek-0.3.0-py3-none-any.whl.zip tmp/sunpeek-0.3.1-py3-none-any.whl.zip --markdown 20230728/s/sunpeek/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-28 11:39:39] INFO root fetch - processPackages [ec2-api]: Downloading https://files.pythonhosted.org/packages/c9/f8/bc15c9b3ba216e59ef25215c2231405a26e91aa479c677b6cbc5ae569fc5/ec2-api-9.0.1.tar.gz
+[2023-07-28 11:39:39] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-07-28 11:39:39] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post918-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post919-py3-none-any.whl.zip --markdown 20230728/n/nucliadb-contributor-assets/1.0.0.post918-1.0.0.post919/diff.md --exclude *.pyd
+[2023-07-28 11:39:40] INFO root fetch - processPackages [ec2-api]: executing diffoscope
+[2023-07-28 11:39:40] INFO root fetch - processPackages [ec2-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ec2-api-9.0.0.0rc1.tar.gz tmp/ec2-api-9.0.1.tar.gz --markdown 20230728/e/ec2-api/9.0.0.0rc1-9.0.1/diff.md --exclude *.pyd
+[2023-07-28 11:39:40] INFO root fetch - processPackages [pkgUdit]: Remove: archive file [/home/abi/fetcher/tmp/pkgUdit-1.1.5.8.tar.gz]
+[2023-07-28 11:39:40] INFO root fetch - processPackages [pkgUdit]: Remove: archive file [/home/abi/fetcher/tmp/pkgUdit-1.1.5.9.tar.gz]
+[2023-07-28 11:39:40] INFO root fetch - main [MainThread]: End processing [pkgUdit]: success
+[2023-07-28 11:39:41] INFO root fetch - processPackages [json-tools2]: Remove: archive file [/home/abi/fetcher/tmp/json-tools2-0.0.6.tar.gz]
+[2023-07-28 11:39:41] INFO root fetch - processPackages [json-tools2]: Remove: archive file [/home/abi/fetcher/tmp/json-tools2-0.0.7.tar.gz]
+[2023-07-28 11:39:41] INFO root fetch - main [MainThread]: End processing [json-tools2]: success
+[2023-07-28 11:39:41] INFO root fetch - processPackages [dj-whisperer]: Remove: archive file [/home/abi/fetcher/tmp/dj-whisperer-0.2.8.tar.gz]
+[2023-07-28 11:39:41] INFO root fetch - processPackages [dj-whisperer]: Remove: archive file [/home/abi/fetcher/tmp/dj-whisperer-0.2.9.tar.gz]
+[2023-07-28 11:39:41] INFO root fetch - main [MainThread]: End processing [dj-whisperer]: success
+[2023-07-28 11:39:41] INFO root fetch - processPackages [nrv-py]: Remove: archive file [/home/abi/fetcher/tmp/nrv-py-0.9.9.tar.gz]
+[2023-07-28 11:39:41] INFO root fetch - processPackages [nrv-py]: Remove: archive file [/home/abi/fetcher/tmp/nrv-py-0.9.9a0.tar.gz]
+[2023-07-28 11:39:41] INFO root fetch - main [MainThread]: End processing [nrv-py]: success
+[2023-07-28 11:39:41] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post918-py3-none-any.whl.zip]
+[2023-07-28 11:39:41] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post919-py3-none-any.whl.zip]
+[2023-07-28 11:39:41] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-07-28 11:39:41] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.3.0-py3-none-any.whl.zip]
+[2023-07-28 11:39:41] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.3.1-py3-none-any.whl.zip]
+[2023-07-28 11:39:41] INFO root fetch - main [MainThread]: End processing [sunpeek]: success
+[2023-07-28 11:39:41] INFO root fetch - processPackages [cloud-pak-operations-cli]: Remove: archive file [/home/abi/fetcher/tmp/cloud-pak-operations-cli-0.4.0.tar.gz]
+[2023-07-28 11:39:41] INFO root fetch - processPackages [cloud-pak-operations-cli]: Remove: archive file [/home/abi/fetcher/tmp/cloud-pak-operations-cli-0.4.1.tar.gz]
+[2023-07-28 11:39:41] INFO root fetch - main [MainThread]: End processing [cloud-pak-operations-cli]: success
+[2023-07-28 11:39:42] INFO root fetch - processPackages [ec2-api]: Remove: archive file [/home/abi/fetcher/tmp/ec2-api-9.0.0.0rc1.tar.gz]
+[2023-07-28 11:39:42] INFO root fetch - processPackages [ec2-api]: Remove: archive file [/home/abi/fetcher/tmp/ec2-api-9.0.1.tar.gz]
+[2023-07-28 11:39:42] INFO root fetch - main [MainThread]: End processing [ec2-api]: success
+[2023-07-28 11:39:42] INFO root fetch - main [MainThread]: Store serial: [19073989]
