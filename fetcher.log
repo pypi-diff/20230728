@@ -23621,3 +23621,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 14:48:39] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cloudquery-plugin-sdk-0.0.5.tar.gz]
 [2023-07-28 14:48:39] INFO root fetch - main [MainThread]: End processing [cloudquery-plugin-sdk]: success
 [2023-07-28 14:48:39] INFO root fetch - main [MainThread]: Store serial: [19075562]
+[2023-07-28 14:53:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19075562]
+[2023-07-28 14:53:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-28 14:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih-mio
+[2023-07-28 14:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ncbi-genome-download
+[2023-07-28 14:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pharindoko.cdk-internal-gateway
+[2023-07-28 14:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sunpeek
+[2023-07-28 14:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prevo
+[2023-07-28 14:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: manticore
+[2023-07-28 14:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: djangoldp-application
+[2023-07-28 14:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dcicutils
+[2023-07-28 14:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: philander
+[2023-07-28 14:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: geoserverx
+[2023-07-28 14:53:48] INFO root fetch - processPackages [ncbi-genome-download]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-28 14:53:48] INFO root fetch - processPackages [prevo]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-28 14:53:48] INFO root fetch - processPackages [pih-mio]: New version: [1.48009] Old Version: [1.48008]
+[2023-07-28 14:53:48] INFO root fetch - processPackages [geoserverx]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-28 14:53:48] INFO root fetch - processPackages [philander]: New version: [0.1.1a0] Old Version: [0.1]
+[2023-07-28 14:53:48] INFO root fetch - processPackages [dcicutils]: New version: [7.6.0.2b4] Old Version: [7.6.0.1b4]
+[2023-07-28 14:53:48] INFO root fetch - processPackages [sunpeek]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-28 14:53:48] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-28 14:53:48] INFO root fetch - processPackages [djangoldp-application]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-28 14:53:48] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230728] Old Version: [0.3.8.dev230726]
+[2023-07-28 14:53:48] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/cb/b8/9bf855642cc0da011884b7124f8d61f3df0c690815d50765edf14c937a54/pih-mio-1.48008.tar.gz
+[2023-07-28 14:53:48] INFO root fetch - processPackages [djangoldp-application]: Downloading https://files.pythonhosted.org/packages/e7/5b/b66a25ea4eee4fd562594f7a67bb76831bce2312ec37756d6231d945b7eb/djangoldp_application-2.0.0.tar.gz
+[2023-07-28 14:53:48] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/c6/e7/31bb2c5eb819a0de9637c8d5a3d99467dc0e5ecb2f8d3fc85c933031bd28/sunpeek-0.3.1-py3-none-any.whl
+[2023-07-28 14:53:48] INFO root fetch - processPackages [philander]: Downloading https://files.pythonhosted.org/packages/ee/fc/95eb0dad9516868692e3e8b61820f791c19dee1076f511a5969cec3a40fa/philander-0.1.tar.gz
+[2023-07-28 14:53:48] INFO root fetch - processPackages [ncbi-genome-download]: Downloading https://files.pythonhosted.org/packages/f8/41/56cc8f997de26320e43fe65e11e4010291f92dc46525e7ee9a7d974fb2a7/ncbi-genome-download-0.3.2.tar.gz
+[2023-07-28 14:53:48] INFO root fetch - processPackages [prevo]: Downloading https://files.pythonhosted.org/packages/58/ec/5d4f8aee7df3016880ad1c2bf6fdd3fa1ddd7327146334a5af5a1fe73b81/prevo-0.8.1.tar.gz
+[2023-07-28 14:53:48] INFO root fetch - processPackages [geoserverx]: Downloading https://files.pythonhosted.org/packages/7e/4c/917c471d2b7d74e90c0aa628fe3dfbee3a980654904949ea3f7f520bd995/geoserverx-0.0.1.tar.gz
+[2023-07-28 14:53:48] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/ed/f4/4d16c1be90d619726d54a45a1154f3573bb50e83343ab4bbebd81d778e81/dcicutils-7.6.0.1b4.tar.gz
+[2023-07-28 14:53:48] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Downloading https://files.pythonhosted.org/packages/44/af/776f05e5bae33847701876c6f3d922ef73f5b4e86e14be753dd36b2b2688/pharindoko.cdk-internal-gateway-1.1.8.tar.gz
+[2023-07-28 14:53:48] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/19/9f/432f86d01d9cb4308aade93bdf56160499c9edf459560af99641ffb7812c/manticore-0.3.8.dev230726.tar.gz
+[2023-07-28 14:53:48] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/3c/39/25ee2059365a3bf7893d727a2a7783c5f43ac302c22f998fa029b84aaf19/pih-mio-1.48009.tar.gz
+[2023-07-28 14:53:48] INFO root fetch - processPackages [djangoldp-application]: Downloading https://files.pythonhosted.org/packages/6d/c7/fdab818ecb5261109bd9259e2201292069f811ef6493c088e7d6d80127ca/djangoldp_application-2.0.1.tar.gz
+[2023-07-28 14:53:48] INFO root fetch - processPackages [ncbi-genome-download]: Downloading https://files.pythonhosted.org/packages/d8/6b/75d324699f57430aae0b1687adb89a4ba00c96b268230d569ae31eb79877/ncbi-genome-download-0.3.3.tar.gz
+[2023-07-28 14:53:48] INFO root fetch - processPackages [geoserverx]: Downloading https://files.pythonhosted.org/packages/6e/df/8c4ce5180c579c9255d72c65b506b737f0afeef5dcc1c10050b46ff25ae0/geoserverx-0.0.2.tar.gz
+[2023-07-28 14:53:48] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/30/7d/1a66a32780cf4f7b283da473bc309c78d8804c4bb9d4ce232711c3e76b7e/sunpeek-0.3.2-py3-none-any.whl
+[2023-07-28 14:53:49] INFO root fetch - processPackages [philander]: Downloading https://files.pythonhosted.org/packages/14/ff/fbb5aac2a0abd26d08cb71f247ca59537530f2b284adc91691d85b2b6b09/philander-0.1.1a0.tar.gz
+[2023-07-28 14:53:49] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/b3/7b/4d66f3adca0c3329907205cb3e76d8aa63aeb5823f2726b75f5d938b7a33/dcicutils-7.6.0.2b4.tar.gz
+[2023-07-28 14:53:49] INFO root fetch - processPackages [ncbi-genome-download]: executing diffoscope
+[2023-07-28 14:53:49] INFO root fetch - processPackages [ncbi-genome-download]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncbi-genome-download-0.3.2.tar.gz tmp/ncbi-genome-download-0.3.3.tar.gz --markdown 20230728/n/ncbi-genome-download/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-28 14:53:49] INFO root fetch - processPackages [pih-mio]: executing diffoscope
+[2023-07-28 14:53:49] INFO root fetch - processPackages [pih-mio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-mio-1.48008.tar.gz tmp/pih-mio-1.48009.tar.gz --markdown 20230728/p/pih-mio/1.48008-1.48009/diff.md --exclude *.pyd
+[2023-07-28 14:53:49] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Downloading https://files.pythonhosted.org/packages/00/8c/415bb9054570c25a0cea31fd3d3aa5661d2c81cc5dd2816784d542246f9b/pharindoko.cdk-internal-gateway-1.1.9.tar.gz
+[2023-07-28 14:53:49] INFO root fetch - processPackages [prevo]: Downloading https://files.pythonhosted.org/packages/26/f3/2e237b95ea66098709c5f36c7124c87b977ae797e141696103b35a9f04bc/prevo-0.9.0.tar.gz
+[2023-07-28 14:53:49] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/c8/7e/fc8020b68f0f248a87cea8f50edde12ba736c210b26f8fd1595ff1950cf7/manticore-0.3.8.dev230728.tar.gz
+[2023-07-28 14:53:49] INFO root fetch - processPackages [djangoldp-application]: executing diffoscope
+[2023-07-28 14:53:49] INFO root fetch - processPackages [djangoldp-application]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_application-2.0.0.tar.gz tmp/djangoldp_application-2.0.1.tar.gz --markdown 20230728/d/djangoldp-application/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-28 14:53:49] INFO root fetch - processPackages [geoserverx]: executing diffoscope
+[2023-07-28 14:53:49] INFO root fetch - processPackages [geoserverx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoserverx-0.0.1.tar.gz tmp/geoserverx-0.0.2.tar.gz --markdown 20230728/g/geoserverx/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-28 14:53:49] INFO root fetch - processPackages [sunpeek]: executing diffoscope
+[2023-07-28 14:53:49] INFO root fetch - processPackages [sunpeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunpeek-0.3.1-py3-none-any.whl.zip tmp/sunpeek-0.3.2-py3-none-any.whl.zip --markdown 20230728/s/sunpeek/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-28 14:53:49] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-07-28 14:53:49] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230726.tar.gz tmp/manticore-0.3.8.dev230728.tar.gz --markdown 20230728/m/manticore/0.3.8.dev230726-0.3.8.dev230728/diff.md --exclude *.pyd
+[2023-07-28 14:53:49] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2023-07-28 14:53:49] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-7.6.0.1b4.tar.gz tmp/dcicutils-7.6.0.2b4.tar.gz --markdown 20230728/d/dcicutils/7.6.0.1b4-7.6.0.2b4/diff.md --exclude *.pyd
+[2023-07-28 14:53:49] INFO root fetch - processPackages [prevo]: executing diffoscope
+[2023-07-28 14:53:49] INFO root fetch - processPackages [prevo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prevo-0.8.1.tar.gz tmp/prevo-0.9.0.tar.gz --markdown 20230728/p/prevo/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-28 14:53:49] INFO root fetch - processPackages [philander]: executing diffoscope
+[2023-07-28 14:53:49] INFO root fetch - processPackages [philander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philander-0.1.tar.gz tmp/philander-0.1.1a0.tar.gz --markdown 20230728/p/philander/0.1-0.1.1a0/diff.md --exclude *.pyd
+[2023-07-28 14:53:49] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: executing diffoscope
+[2023-07-28 14:53:49] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharindoko.cdk-internal-gateway-1.1.8.tar.gz tmp/pharindoko.cdk-internal-gateway-1.1.9.tar.gz --markdown 20230728/p/pharindoko.cdk-internal-gateway/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-28 14:53:50] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-1.48008.tar.gz]
+[2023-07-28 14:53:50] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-1.48009.tar.gz]
+[2023-07-28 14:53:50] INFO root fetch - main [MainThread]: End processing [pih-mio]: success
+[2023-07-28 14:53:50] INFO root fetch - processPackages [ncbi-genome-download]: Remove: archive file [/home/abi/fetcher/tmp/ncbi-genome-download-0.3.2.tar.gz]
+[2023-07-28 14:53:50] INFO root fetch - processPackages [ncbi-genome-download]: Remove: archive file [/home/abi/fetcher/tmp/ncbi-genome-download-0.3.3.tar.gz]
+[2023-07-28 14:53:50] INFO root fetch - main [MainThread]: End processing [ncbi-genome-download]: success
+[2023-07-28 14:53:50] INFO root fetch - processPackages [djangoldp-application]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_application-2.0.0.tar.gz]
+[2023-07-28 14:53:50] INFO root fetch - processPackages [djangoldp-application]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_application-2.0.1.tar.gz]
+[2023-07-28 14:53:50] INFO root fetch - main [MainThread]: End processing [djangoldp-application]: success
+[2023-07-28 14:53:50] INFO root fetch - processPackages [geoserverx]: Remove: archive file [/home/abi/fetcher/tmp/geoserverx-0.0.1.tar.gz]
+[2023-07-28 14:53:50] INFO root fetch - processPackages [geoserverx]: Remove: archive file [/home/abi/fetcher/tmp/geoserverx-0.0.2.tar.gz]
+[2023-07-28 14:53:50] INFO root fetch - main [MainThread]: End processing [geoserverx]: success
+[2023-07-28 14:53:51] INFO root fetch - processPackages [prevo]: Remove: archive file [/home/abi/fetcher/tmp/prevo-0.8.1.tar.gz]
+[2023-07-28 14:53:51] INFO root fetch - processPackages [prevo]: Remove: archive file [/home/abi/fetcher/tmp/prevo-0.9.0.tar.gz]
+[2023-07-28 14:53:51] INFO root fetch - main [MainThread]: End processing [prevo]: success
+[2023-07-28 14:53:51] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Remove: archive file [/home/abi/fetcher/tmp/pharindoko.cdk-internal-gateway-1.1.8.tar.gz]
+[2023-07-28 14:53:51] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Remove: archive file [/home/abi/fetcher/tmp/pharindoko.cdk-internal-gateway-1.1.9.tar.gz]
+[2023-07-28 14:53:51] INFO root fetch - main [MainThread]: End processing [pharindoko.cdk-internal-gateway]: success
+[2023-07-28 14:53:51] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.3.1-py3-none-any.whl.zip]
+[2023-07-28 14:53:51] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.3.2-py3-none-any.whl.zip]
+[2023-07-28 14:53:51] INFO root fetch - main [MainThread]: End processing [sunpeek]: success
+[2023-07-28 14:53:51] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-7.6.0.1b4.tar.gz]
+[2023-07-28 14:53:51] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-7.6.0.2b4.tar.gz]
+[2023-07-28 14:53:51] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2023-07-28 14:53:51] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230726.tar.gz]
+[2023-07-28 14:53:51] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230728.tar.gz]
+[2023-07-28 14:53:51] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-07-28 14:53:52] INFO root fetch - processPackages [philander]: Remove: archive file [/home/abi/fetcher/tmp/philander-0.1.tar.gz]
+[2023-07-28 14:53:52] INFO root fetch - processPackages [philander]: Remove: archive file [/home/abi/fetcher/tmp/philander-0.1.1a0.tar.gz]
+[2023-07-28 14:53:52] INFO root fetch - main [MainThread]: End processing [philander]: success
+[2023-07-28 14:53:52] INFO root fetch - main [MainThread]: Store serial: [19075591]
