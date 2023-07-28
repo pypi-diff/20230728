@@ -14034,3 +14034,94 @@
 [2023-07-28 08:13:22] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-winsvc-1.7.7.tar.gz]
 [2023-07-28 08:13:22] INFO root fetch - main [MainThread]: End processing [Nuitka-winsvc]: success
 [2023-07-28 08:13:22] INFO root fetch - main [MainThread]: Store serial: [19072230]
+[2023-07-28 08:18:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19072230]
+[2023-07-28 08:18:30] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-28 08:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydantic-client
+[2023-07-28 08:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyg-nightly
+[2023-07-28 08:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python3-commons
+[2023-07-28 08:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: michaelPanPrintLib
+[2023-07-28 08:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s
+[2023-07-28 08:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pretext
+[2023-07-28 08:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-safedelete-e2e
+[2023-07-28 08:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: addnumroohann
+[2023-07-28 08:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk8s
+[2023-07-28 08:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: waveforms
+[2023-07-28 08:18:30] WARNING root fetch - processPackages [pydantic-client]: Skipping, unable to determine old version
+[2023-07-28 08:18:30] INFO root fetch - processPackages [pydantic-client]: Start processing: raycut
+[2023-07-28 08:18:30] INFO root fetch - main [MainThread]: End processing [pydantic-client] error
+[2023-07-28 08:18:30] INFO root fetch - processPackages [python3-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 08:18:30] INFO root fetch - processPackages [django-safedelete-e2e]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-28 08:18:31] INFO root fetch - processPackages [michaelPanPrintLib]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-28 08:18:31] WARNING root fetch - processPackages [addnumroohann]: Skipping, unable to determine old version
+[2023-07-28 08:18:31] INFO root fetch - processPackages [addnumroohann]: Start processing: easypoint
+[2023-07-28 08:18:31] INFO root fetch - main [MainThread]: End processing [addnumroohann] error
+[2023-07-28 08:18:31] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230727] Old Version: [2.4.0.dev20230726]
+[2023-07-28 08:18:31] INFO root fetch - processPackages [waveforms]: New version: [1.6.7] Old Version: [1.6.6]
+[2023-07-28 08:18:31] INFO root fetch - processPackages [raycut]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-28 08:18:31] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-28 08:18:31] INFO root fetch - processPackages [pretext]: New version: [1.7.3.dev20230728] Old Version: [1.7.3.dev20230727]
+[2023-07-28 08:18:31] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-28 08:18:31] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/bf/c8/0c6e2be5da9e98f3ef9785b90534561c96614596a7f0aebaa9d36627b045/pretext-1.7.3.dev20230727.tar.gz
+[2023-07-28 08:18:31] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/89/a8/65eaca09094f95cfb077e830c305f90b4e6c31860b96d93438b07c6bb82f/pyg_nightly-2.4.0.dev20230726.tar.gz
+[2023-07-28 08:18:31] WARNING root fetch - processPackages [easypoint]: Skipping, unable to determine old version
+[2023-07-28 08:18:31] INFO root fetch - main [MainThread]: End processing [easypoint] error
+[2023-07-28 08:18:31] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/3d/47/77e98aabfd51b3e6f8909fb7a515d7978843cd537ee465aaa998ff7ef8ae/python3-commons-0.0.8.tar.gz
+[2023-07-28 08:18:31] INFO root fetch - processPackages [django-safedelete-e2e]: Downloading https://files.pythonhosted.org/packages/af/15/f84e9e4eebac4494316b8604268fd54610f76b2c65364cfc6360fdd47dff/django-safedelete-e2e-0.3.6.tar.gz
+[2023-07-28 08:18:31] INFO root fetch - processPackages [michaelPanPrintLib]: Downloading https://files.pythonhosted.org/packages/12/f7/eb522d7dec93871b827c4b2948a3faab89ae2ef3ab0a736a05e4470d9744/michaelPanPrintLib-0.0.1.tar.gz
+[2023-07-28 08:18:31] INFO root fetch - processPackages [raycut]: Downloading https://files.pythonhosted.org/packages/e9/70/4b0eedc449fef2f9d7951d01f1af1eabd6047bb98088347303261d4e8920/raycut-0.0.3.tar.gz
+[2023-07-28 08:18:31] INFO root fetch - processPackages [waveforms]: Downloading https://files.pythonhosted.org/packages/eb/eb/8a740d0ca83c6473d963c7cf844d82c3d7b7280da0115fb685aca50bdf0c/waveforms-1.6.6.tar.gz
+[2023-07-28 08:18:31] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2023-07-28 08:18:31] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2023-07-28 08:18:31] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/5f/f3/d875107dc7e55fe5a35509025413eff64f7d978dbceb19982e18ba1a5ca3/python3-commons-0.0.9.tar.gz
+[2023-07-28 08:18:31] INFO root fetch - processPackages [michaelPanPrintLib]: Downloading https://files.pythonhosted.org/packages/98/b6/1ebe70e240c317b8c869cf70ef6baed41db29ca43b6866384d2f77f01511/michaelPanPrintLib-0.0.2.tar.gz
+[2023-07-28 08:18:31] INFO root fetch - processPackages [django-safedelete-e2e]: Downloading https://files.pythonhosted.org/packages/12/12/dc5e2698ad6cb6ed31c93f9d10f9849b661640bdc5919a34ebe561657dd6/django-safedelete-e2e-0.3.7.tar.gz
+[2023-07-28 08:18:31] INFO root fetch - processPackages [raycut]: Downloading https://files.pythonhosted.org/packages/35/8d/335dd393d314cab652f38763d3c80c48af8276f79e09321ad322d7980284/raycut-0.0.4.tar.gz
+[2023-07-28 08:18:31] INFO root fetch - processPackages [michaelPanPrintLib]: executing diffoscope
+[2023-07-28 08:18:31] INFO root fetch - processPackages [michaelPanPrintLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/michaelPanPrintLib-0.0.1.tar.gz tmp/michaelPanPrintLib-0.0.2.tar.gz --markdown 20230728/m/michaelPanPrintLib/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-28 08:18:31] INFO root fetch - processPackages [django-safedelete-e2e]: executing diffoscope
+[2023-07-28 08:18:31] INFO root fetch - processPackages [django-safedelete-e2e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-safedelete-e2e-0.3.6.tar.gz tmp/django-safedelete-e2e-0.3.7.tar.gz --markdown 20230728/d/django-safedelete-e2e/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-28 08:18:31] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/46/6a/89c315d0917b2c9bb8a70c9db811ff1cc7f2c39fb074de635697f905ccbe/pretext-1.7.3.dev20230728.tar.gz
+[2023-07-28 08:18:31] INFO root fetch - processPackages [waveforms]: Downloading https://files.pythonhosted.org/packages/4e/bf/fe4d12c1c54de3d836b0d17ffb081426493a1d448f23ec6f01de0ea1b4d2/waveforms-1.6.7.tar.gz
+[2023-07-28 08:18:31] INFO root fetch - processPackages [python3-commons]: executing diffoscope
+[2023-07-28 08:18:31] INFO root fetch - processPackages [python3-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3-commons-0.0.8.tar.gz tmp/python3-commons-0.0.9.tar.gz --markdown 20230728/p/python3-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 08:18:31] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2023-07-28 08:18:31] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/e7/e2/ae9c92b4253a4fbd4380cf7dfb49ed5fc204b1fdbaf5c006941f91002363/pyg_nightly-2.4.0.dev20230727.tar.gz
+[2023-07-28 08:18:31] INFO root fetch - processPackages [raycut]: executing diffoscope
+[2023-07-28 08:18:31] INFO root fetch - processPackages [raycut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raycut-0.0.3.tar.gz tmp/raycut-0.0.4.tar.gz --markdown 20230728/r/raycut/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-28 08:18:31] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2023-07-28 08:18:32] INFO root fetch - processPackages [waveforms]: executing diffoscope
+[2023-07-28 08:18:32] INFO root fetch - processPackages [waveforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waveforms-1.6.6.tar.gz tmp/waveforms-1.6.7.tar.gz --markdown 20230728/w/waveforms/1.6.6-1.6.7/diff.md --exclude *.pyd
+[2023-07-28 08:18:32] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-28 08:18:32] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20230728/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-28 08:18:32] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-28 08:18:32] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20230728/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-28 08:18:32] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-07-28 08:18:32] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.7.3.dev20230727.tar.gz tmp/pretext-1.7.3.dev20230728.tar.gz --markdown 20230728/p/pretext/1.7.3.dev20230727-1.7.3.dev20230728/diff.md --exclude *.pyd
+[2023-07-28 08:18:32] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-07-28 08:18:32] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230726.tar.gz tmp/pyg_nightly-2.4.0.dev20230727.tar.gz --markdown 20230728/p/pyg-nightly/2.4.0.dev20230726-2.4.0.dev20230727/diff.md --exclude *.pyd
+[2023-07-28 08:18:33] INFO root fetch - processPackages [michaelPanPrintLib]: Remove: archive file [/home/abi/fetcher/tmp/michaelPanPrintLib-0.0.1.tar.gz]
+[2023-07-28 08:18:33] INFO root fetch - processPackages [michaelPanPrintLib]: Remove: archive file [/home/abi/fetcher/tmp/michaelPanPrintLib-0.0.2.tar.gz]
+[2023-07-28 08:18:33] INFO root fetch - main [MainThread]: End processing [michaelPanPrintLib]: success
+[2023-07-28 08:18:33] INFO root fetch - processPackages [django-safedelete-e2e]: Remove: archive file [/home/abi/fetcher/tmp/django-safedelete-e2e-0.3.6.tar.gz]
+[2023-07-28 08:18:33] INFO root fetch - processPackages [django-safedelete-e2e]: Remove: archive file [/home/abi/fetcher/tmp/django-safedelete-e2e-0.3.7.tar.gz]
+[2023-07-28 08:18:33] INFO root fetch - main [MainThread]: End processing [django-safedelete-e2e]: success
+[2023-07-28 08:18:33] INFO root fetch - processPackages [raycut]: Remove: archive file [/home/abi/fetcher/tmp/raycut-0.0.3.tar.gz]
+[2023-07-28 08:18:33] INFO root fetch - processPackages [raycut]: Remove: archive file [/home/abi/fetcher/tmp/raycut-0.0.4.tar.gz]
+[2023-07-28 08:18:33] INFO root fetch - main [MainThread]: End processing [raycut]: success
+[2023-07-28 08:18:33] INFO root fetch - processPackages [python3-commons]: Remove: archive file [/home/abi/fetcher/tmp/python3-commons-0.0.8.tar.gz]
+[2023-07-28 08:18:33] INFO root fetch - processPackages [python3-commons]: Remove: archive file [/home/abi/fetcher/tmp/python3-commons-0.0.9.tar.gz]
+[2023-07-28 08:18:33] INFO root fetch - main [MainThread]: End processing [python3-commons]: success
+[2023-07-28 08:18:33] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2023-07-28 08:18:33] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2023-07-28 08:18:33] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-28 08:18:33] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-28 08:18:34] INFO root fetch - processPackages [waveforms]: Remove: archive file [/home/abi/fetcher/tmp/waveforms-1.6.6.tar.gz]
+[2023-07-28 08:18:34] INFO root fetch - processPackages [waveforms]: Remove: archive file [/home/abi/fetcher/tmp/waveforms-1.6.7.tar.gz]
+[2023-07-28 08:18:34] INFO root fetch - main [MainThread]: End processing [waveforms]: success
+[2023-07-28 08:18:35] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230726.tar.gz]
+[2023-07-28 08:18:35] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230727.tar.gz]
+[2023-07-28 08:18:35] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-07-28 08:18:36] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.3.dev20230727.tar.gz]
+[2023-07-28 08:18:36] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.3.dev20230728.tar.gz]
+[2023-07-28 08:18:36] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-07-28 08:18:36] INFO root fetch - main [MainThread]: Store serial: [19072274]
