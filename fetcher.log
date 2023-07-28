@@ -9971,3 +9971,116 @@
 [2023-07-28 04:22:51] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-07-28 04:22:51] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-07-28 04:22:51] INFO root fetch - main [MainThread]: Store serial: [19070478]
+[2023-07-28 04:27:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19070478]
+[2023-07-28 04:28:00] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-28 04:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: a2y-modbus
+[2023-07-28 04:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shipyard-census
+[2023-07-28 04:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-dingtalk
+[2023-07-28 04:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shipdan-serializer-tester
+[2023-07-28 04:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: awsiotsdk
+[2023-07-28 04:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyqpanda
+[2023-07-28 04:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: minlog
+[2023-07-28 04:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lesscode-py
+[2023-07-28 04:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: liquisource
+[2023-07-28 04:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: roblox-pyc
+[2023-07-28 04:28:00] WARNING root fetch - processPackages [shipyard-census]: Skipping, unable to determine old version
+[2023-07-28 04:28:00] INFO root fetch - processPackages [shipyard-census]: Start processing: policyengine-us
+[2023-07-28 04:28:00] INFO root fetch - main [MainThread]: End processing [shipyard-census] error
+[2023-07-28 04:28:00] INFO root fetch - processPackages [a2y-modbus]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-28 04:28:00] INFO root fetch - processPackages [shipdan-serializer-tester]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 04:28:00] INFO root fetch - processPackages [awsiotsdk]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-07-28 04:28:00] INFO root fetch - processPackages [minlog]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-28 04:28:00] INFO root fetch - processPackages [liquisource]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-07-28 04:28:00] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-28 04:28:00] INFO root fetch - processPackages [pyqpanda]: New version: [3.7.9] Old Version: [3.7.8]
+[2023-07-28 04:28:00] INFO root fetch - processPackages [lesscode-py]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-28 04:28:00] INFO root fetch - processPackages [policyengine-us]: New version: [0.399.0] Old Version: [0.398.0]
+[2023-07-28 04:28:00] INFO root fetch - processPackages [alibabacloud-dingtalk]: New version: [2.0.28] Old Version: [2.0.27]
+[2023-07-28 04:28:00] INFO root fetch - processPackages [minlog]: Downloading https://files.pythonhosted.org/packages/38/2a/deda40d7f3ec4653af1a83be53184b46b2497def27adb15395d691b5b17c/minlog-0.3.1.tar.gz
+[2023-07-28 04:28:00] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-28 04:28:00] INFO root fetch - processPackages [shipdan-serializer-tester]: Downloading https://files.pythonhosted.org/packages/13/50/6467c91e2bac944713092fadbe409e81e0fe05fa83546aeab0869bb8417e/shipdan_serializer_tester-0.0.8.tar.gz
+[2023-07-28 04:28:00] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/93/59/9c87e90597a4fc3c2567abe4a0ff19fd2b89df126eacc6b3d22b92ec47b4/lesscode-py-0.3.8.tar.gz
+[2023-07-28 04:28:00] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/a5/c3/8f28ce552759606e1ea6f66e056c01a9ee97a1a7ce5d83255672b25b7b07/policyengine-us-0.398.0.tar.gz
+[2023-07-28 04:28:00] INFO root fetch - processPackages [a2y-modbus]: Downloading https://files.pythonhosted.org/packages/da/9d/99dbc3bcad7b34c7d041c40ec07af3b6fdd9a832e28760e2fd9866bfada1/a2y_modbus-0.9.1-cp36-cp36m-win32.whl
+[2023-07-28 04:28:00] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/12/68/bda9cdcbfbf465b7e72dd9d84a2d0d2aecac7413493c11e2aef65173157c/liquisource-1.2.6.tar.gz
+[2023-07-28 04:28:00] INFO root fetch - processPackages [awsiotsdk]: Downloading https://files.pythonhosted.org/packages/93/56/39ae6e2d1eb926f7614b21b2823865546e4f442bbaa4c9ef61e51ca441ec/awsiotsdk-1.9.2.tar.gz
+[2023-07-28 04:28:00] INFO root fetch - processPackages [pyqpanda]: Downloading https://files.pythonhosted.org/packages/50/f9/66201796204e427fbf33fe21b46d12e78657f02be4cc7780f926e423da57/pyqpanda-3.7.8-cp39-none-win_amd64.whl
+[2023-07-28 04:28:00] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/21/6e/1186ed0ce7d3702f993a8471a5a8ef0550ee25b35205d4301f1f3688fdc9/alibabacloud_dingtalk-2.0.27.tar.gz
+[2023-07-28 04:28:01] WARNING root fetch - processPackages [pyqpanda]: Skipping package: exceeds size limit 12551929>=10485760
+[2023-07-28 04:28:01] INFO root fetch - processPackages [pyqpanda]: Start processing: oloren
+[2023-07-28 04:28:01] INFO root fetch - main [MainThread]: End processing [pyqpanda] error
+[2023-07-28 04:28:01] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-28 04:28:01] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/64/97/cec698b665aba9a27d2cddb9f7528a8982bbaa3379372774ff671e45fb3e/lesscode-py-0.3.9.tar.gz
+[2023-07-28 04:28:01] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 04:28:01] INFO root fetch - processPackages [minlog]: Downloading https://files.pythonhosted.org/packages/9b/9f/a7e39a384e93cac4414a1b9f2936a5cebd808098731a3f890c935b971f6a/minlog-0.4.0.tar.gz
+[2023-07-28 04:28:01] INFO root fetch - processPackages [shipdan-serializer-tester]: Downloading https://files.pythonhosted.org/packages/6a/3f/9d0cc249174e6b359f79ddb8c5fa6ab5bbddd333fedffbb6776681bdaaf1/shipdan_serializer_tester-0.0.9.tar.gz
+[2023-07-28 04:28:01] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/d5/e7/64b62184cc67f76caf2a3fe1e7a0a184d4be615bfaf22a1ee9aff592084e/liquisource-1.2.7.tar.gz
+[2023-07-28 04:28:01] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-07-28 04:28:01] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-28 04:28:01] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230728/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-28 04:28:01] INFO root fetch - processPackages [a2y-modbus]: Downloading https://files.pythonhosted.org/packages/06/c4/44b64958656060477ac765b1ab6b5be0d550927bd3a6c95c74bab937d9a5/a2y_modbus-0.9.2-cp36-cp36m-win32.whl
+[2023-07-28 04:28:01] INFO root fetch - processPackages [lesscode-py]: executing diffoscope
+[2023-07-28 04:28:01] INFO root fetch - processPackages [lesscode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode-py-0.3.8.tar.gz tmp/lesscode-py-0.3.9.tar.gz --markdown 20230728/l/lesscode-py/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-28 04:28:01] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/9e/5f/3f67830ae90145b736fecb9e25f4fd052a84ef81f9a4621fe2e162552029/policyengine-us-0.399.0.tar.gz
+[2023-07-28 04:28:01] INFO root fetch - processPackages [shipdan-serializer-tester]: executing diffoscope
+[2023-07-28 04:28:01] INFO root fetch - processPackages [shipdan-serializer-tester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipdan_serializer_tester-0.0.8.tar.gz tmp/shipdan_serializer_tester-0.0.9.tar.gz --markdown 20230728/s/shipdan-serializer-tester/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 04:28:01] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/11/7c/98773acfabcf7e3cb02e5b2bf4307b10bd6bf9d29151f0bb65aaf87624a3/alibabacloud_dingtalk-2.0.28.tar.gz
+[2023-07-28 04:28:01] INFO root fetch - processPackages [minlog]: executing diffoscope
+[2023-07-28 04:28:01] INFO root fetch - processPackages [minlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minlog-0.3.1.tar.gz tmp/minlog-0.4.0.tar.gz --markdown 20230728/m/minlog/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-28 04:28:01] INFO root fetch - processPackages [awsiotsdk]: Downloading https://files.pythonhosted.org/packages/40/77/ae34bf438d0ab7e9b0c3bd541aa710e116096199e8a4624b509f1e7b846c/awsiotsdk-1.9.3.tar.gz
+[2023-07-28 04:28:01] INFO root fetch - processPackages [liquisource]: executing diffoscope
+[2023-07-28 04:28:01] INFO root fetch - processPackages [liquisource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liquisource-1.2.6.tar.gz tmp/liquisource-1.2.7.tar.gz --markdown 20230728/l/liquisource/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-07-28 04:28:01] INFO root fetch - processPackages [a2y-modbus]: executing diffoscope
+[2023-07-28 04:28:01] INFO root fetch - processPackages [a2y-modbus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a2y_modbus-0.9.1-cp36-cp36m-win32.whl.zip tmp/a2y_modbus-0.9.2-cp36-cp36m-win32.whl.zip --markdown 20230728/a/a2y-modbus/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-28 04:28:01] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-28 04:28:01] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.398.0.tar.gz tmp/policyengine-us-0.399.0.tar.gz --markdown 20230728/p/policyengine-us/0.398.0-0.399.0/diff.md --exclude *.pyd
+[2023-07-28 04:28:01] INFO root fetch - processPackages [alibabacloud-dingtalk]: executing diffoscope
+[2023-07-28 04:28:01] INFO root fetch - processPackages [alibabacloud-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dingtalk-2.0.27.tar.gz tmp/alibabacloud_dingtalk-2.0.28.tar.gz --markdown 20230728/a/alibabacloud-dingtalk/2.0.27-2.0.28/diff.md --exclude *.pyd
+[2023-07-28 04:28:01] INFO root fetch - processPackages [awsiotsdk]: executing diffoscope
+[2023-07-28 04:28:01] INFO root fetch - processPackages [awsiotsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsiotsdk-1.9.2.tar.gz tmp/awsiotsdk-1.9.3.tar.gz --markdown 20230728/a/awsiotsdk/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-07-28 04:28:02] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-07-28 04:28:02] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-07-28 04:28:02] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230728/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 04:28:02] INFO root fetch - processPackages [minlog]: Remove: archive file [/home/abi/fetcher/tmp/minlog-0.3.1.tar.gz]
+[2023-07-28 04:28:02] INFO root fetch - processPackages [minlog]: Remove: archive file [/home/abi/fetcher/tmp/minlog-0.4.0.tar.gz]
+[2023-07-28 04:28:02] INFO root fetch - processPackages [minlog]: Start processing: iam-actions
+[2023-07-28 04:28:02] INFO root fetch - main [MainThread]: End processing [minlog]: success
+[2023-07-28 04:28:02] INFO root fetch - processPackages [shipdan-serializer-tester]: Remove: archive file [/home/abi/fetcher/tmp/shipdan_serializer_tester-0.0.8.tar.gz]
+[2023-07-28 04:28:02] INFO root fetch - processPackages [shipdan-serializer-tester]: Remove: archive file [/home/abi/fetcher/tmp/shipdan_serializer_tester-0.0.9.tar.gz]
+[2023-07-28 04:28:02] INFO root fetch - processPackages [shipdan-serializer-tester]: Start processing: sbc-classification
+[2023-07-28 04:28:02] INFO root fetch - main [MainThread]: End processing [shipdan-serializer-tester]: success
+[2023-07-28 04:28:03] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230728] Old Version: [1.2.20230727]
+[2023-07-28 04:28:03] INFO root fetch - processPackages [a2y-modbus]: Remove: archive file [/home/abi/fetcher/tmp/a2y_modbus-0.9.1-cp36-cp36m-win32.whl.zip]
+[2023-07-28 04:28:03] INFO root fetch - processPackages [a2y-modbus]: Remove: archive file [/home/abi/fetcher/tmp/a2y_modbus-0.9.2-cp36-cp36m-win32.whl.zip]
+[2023-07-28 04:28:03] INFO root fetch - main [MainThread]: End processing [a2y-modbus]: success
+[2023-07-28 04:28:03] WARNING root fetch - processPackages [sbc-classification]: Skipping, unable to determine old version
+[2023-07-28 04:28:03] INFO root fetch - main [MainThread]: End processing [sbc-classification] error
+[2023-07-28 04:28:03] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/f9/46/cb3be8329404693dff0c78de879d73f564862e27c5b7a0d477111000e1d4/iam_actions-1.2.20230727.tar.gz
+[2023-07-28 04:28:03] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-28 04:28:03] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-28 04:28:03] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-28 04:28:03] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.2.6.tar.gz]
+[2023-07-28 04:28:03] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.2.7.tar.gz]
+[2023-07-28 04:28:03] INFO root fetch - main [MainThread]: End processing [liquisource]: success
+[2023-07-28 04:28:03] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.8.tar.gz]
+[2023-07-28 04:28:03] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.9.tar.gz]
+[2023-07-28 04:28:03] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
+[2023-07-28 04:28:03] INFO root fetch - processPackages [awsiotsdk]: Remove: archive file [/home/abi/fetcher/tmp/awsiotsdk-1.9.2.tar.gz]
+[2023-07-28 04:28:03] INFO root fetch - processPackages [awsiotsdk]: Remove: archive file [/home/abi/fetcher/tmp/awsiotsdk-1.9.3.tar.gz]
+[2023-07-28 04:28:03] INFO root fetch - main [MainThread]: End processing [awsiotsdk]: success
+[2023-07-28 04:28:03] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/89/62/a51d7315d9afe9c5ef24915323fdd4fdbf14aea2ac791326be7b53e79bd4/iam_actions-1.2.20230728.tar.gz
+[2023-07-28 04:28:03] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-07-28 04:28:03] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230727.tar.gz tmp/iam_actions-1.2.20230728.tar.gz --markdown 20230728/i/iam-actions/1.2.20230727-1.2.20230728/diff.md --exclude *.pyd
+[2023-07-28 04:28:05] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.27.tar.gz]
+[2023-07-28 04:28:05] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.28.tar.gz]
+[2023-07-28 04:28:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
+[2023-07-28 04:28:07] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-07-28 04:28:07] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-07-28 04:28:07] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-07-28 04:28:08] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230727.tar.gz]
+[2023-07-28 04:28:08] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230728.tar.gz]
+[2023-07-28 04:28:08] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-07-28 04:28:33] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.398.0.tar.gz]
+[2023-07-28 04:28:33] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.399.0.tar.gz]
+[2023-07-28 04:28:33] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-28 04:28:33] INFO root fetch - main [MainThread]: Store serial: [19070533]
