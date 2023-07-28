@@ -17381,3 +17381,75 @@ AssertionError: tmp/pyepsilla-0.0.5.tar.gz does not exist
 [2023-07-28 10:55:27] INFO root fetch - processPackages [heat-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/heat-dashboard-9.0.0.0rc1.tar.gz]
 [2023-07-28 10:55:27] INFO root fetch - main [MainThread]: End processing [heat-dashboard]: success
 [2023-07-28 10:55:27] INFO root fetch - main [MainThread]: Store serial: [19073558]
+[2023-07-28 11:00:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19073558]
+[2023-07-28 11:00:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-28 11:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opencv-gst-rtsp-server
+[2023-07-28 11:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: upgini
+[2023-07-28 11:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyterlab-nodeeditor
+[2023-07-28 11:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: confutilPPP
+[2023-07-28 11:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thetis
+[2023-07-28 11:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: codeclean
+[2023-07-28 11:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.projen-awscdk-construct
+[2023-07-28 11:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: automation-editor
+[2023-07-28 11:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tiledb-prompt-options
+[2023-07-28 11:00:36] INFO root fetch - processPackages [codeclean]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-28 11:00:36] ERROR root fetch - processPackages [thetis]: Unable to get metadata: No such project 'thetis'
+[2023-07-28 11:00:36] INFO root fetch - main [MainThread]: End processing [thetis] error
+[2023-07-28 11:00:36] INFO root fetch - processPackages [jupyterlab-nodeeditor]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-28 11:00:36] INFO root fetch - processPackages [confutilPPP]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-07-28 11:00:36] INFO root fetch - processPackages [tiledb-prompt-options]: New version: [1.1.0a0] Old Version: [1.1.0]
+[2023-07-28 11:00:36] INFO root fetch - processPackages [automation-editor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 11:00:36] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-28 11:00:36] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-28 11:00:36] WARNING root fetch - processPackages [opencv-gst-rtsp-server]: Skipping, unable to determine old version
+[2023-07-28 11:00:36] INFO root fetch - main [MainThread]: End processing [opencv-gst-rtsp-server] error
+[2023-07-28 11:00:36] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Downloading https://files.pythonhosted.org/packages/bb/47/b3a13768fd87f562a5e604f00c72fab4248f1666573262cdc6a9c8df1cbb/jupyterlab_nodeeditor-1.0.7.tar.gz
+[2023-07-28 11:00:36] INFO root fetch - processPackages [codeclean]: Downloading https://files.pythonhosted.org/packages/20/03/ef113860fc797e488d30f199df5382a54d12d07362ffbc4ed52a78c02c98/codeclean-1.0.0.tar.gz
+[2023-07-28 11:00:36] INFO root fetch - processPackages [tiledb-prompt-options]: Downloading https://files.pythonhosted.org/packages/41/9e/8ffe3144e2d0fc1571c067df37b3a8853a07e17cdef95abbc9e3d73895e1/tiledb_prompt_options-1.1.0-py2.py3-none-any.whl
+[2023-07-28 11:00:36] INFO root fetch - processPackages [confutilPPP]: Downloading https://files.pythonhosted.org/packages/46/37/6a6659b4b8abb7777455cc809c25d019b221602d0abf933573b358836963/confutilPPP-1.0.3.tar.gz
+[2023-07-28 11:00:36] INFO root fetch - processPackages [automation-editor]: Downloading https://files.pythonhosted.org/packages/a6/cc/235d014fef7e03686b0488b987150241cb106dcd6fd45abc8fcb6af5a349/automation_editor-0.0.8.tar.gz
+[2023-07-28 11:00:36] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2023-07-28 11:00:36] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/73/65/dda73a01dc2ff283b57f83a0bbc3f1c935027e6ee30e4e6bc15797d67da0/pepperize.projen-awscdk-construct-0.0.98.tar.gz
+[2023-07-28 11:00:36] INFO root fetch - processPackages [codeclean]: Downloading https://files.pythonhosted.org/packages/fe/3b/602e7eee5169d81aad280e0c892ca648e9f318d34109916c919efad7ed44/codeclean-1.0.1.tar.gz
+[2023-07-28 11:00:36] INFO root fetch - processPackages [tiledb-prompt-options]: Downloading https://files.pythonhosted.org/packages/fb/f3/81861466fd7699e7d0434beae151311994e0d82a3e39a17eec8be606cfe4/tiledb_prompt_options-1.1.0a0-py2.py3-none-any.whl
+[2023-07-28 11:00:36] INFO root fetch - processPackages [confutilPPP]: Downloading https://files.pythonhosted.org/packages/33/54/d9a68a9eccce125fe16755b34f89565864b160c694fda1a59ca342a4334b/confutilPPP-1.1.0.tar.gz
+[2023-07-28 11:00:37] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Downloading https://files.pythonhosted.org/packages/a7/6b/93a1507068f91da3df28fa3e8484ae98990a08086a3f0dc12a7109f85fc9/jupyterlab_nodeeditor-1.0.8.tar.gz
+[2023-07-28 11:00:37] INFO root fetch - processPackages [codeclean]: executing diffoscope
+[2023-07-28 11:00:37] INFO root fetch - processPackages [codeclean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeclean-1.0.0.tar.gz tmp/codeclean-1.0.1.tar.gz --markdown 20230728/c/codeclean/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-28 11:00:37] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/f5/d1/e1f4c78f27c0f4fcdd4024b42cd0ac56deada431e5cac3ce9363aec5c5dd/pepperize.projen-awscdk-construct-0.0.99.tar.gz
+[2023-07-28 11:00:37] INFO root fetch - processPackages [tiledb-prompt-options]: executing diffoscope
+[2023-07-28 11:00:37] INFO root fetch - processPackages [tiledb-prompt-options]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_prompt_options-1.1.0-py2.py3-none-any.whl.zip tmp/tiledb_prompt_options-1.1.0a0-py2.py3-none-any.whl.zip --markdown 20230728/t/tiledb-prompt-options/1.1.0-1.1.0a0/diff.md --exclude *.pyd
+[2023-07-28 11:00:37] INFO root fetch - processPackages [confutilPPP]: executing diffoscope
+[2023-07-28 11:00:37] INFO root fetch - processPackages [confutilPPP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confutilPPP-1.0.3.tar.gz tmp/confutilPPP-1.1.0.tar.gz --markdown 20230728/c/confutilPPP/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-07-28 11:00:37] INFO root fetch - processPackages [automation-editor]: Downloading https://files.pythonhosted.org/packages/50/4c/caa76f5eb438558d75b65bbcb114724ff8359c2db4245dd07c86a05485a5/automation_editor-0.0.9.tar.gz
+[2023-07-28 11:00:37] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2023-07-28 11:00:37] INFO root fetch - processPackages [automation-editor]: executing diffoscope
+[2023-07-28 11:00:37] INFO root fetch - processPackages [automation-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_editor-0.0.8.tar.gz tmp/automation_editor-0.0.9.tar.gz --markdown 20230728/a/automation-editor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 11:00:37] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-07-28 11:00:37] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230728/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-28 11:00:37] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-07-28 11:00:37] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230728/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-28 11:00:37] INFO root fetch - processPackages [jupyterlab-nodeeditor]: executing diffoscope
+[2023-07-28 11:00:37] INFO root fetch - processPackages [jupyterlab-nodeeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_nodeeditor-1.0.7.tar.gz tmp/jupyterlab_nodeeditor-1.0.8.tar.gz --markdown 20230728/j/jupyterlab-nodeeditor/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-28 11:00:38] INFO root fetch - processPackages [codeclean]: Remove: archive file [/home/abi/fetcher/tmp/codeclean-1.0.0.tar.gz]
+[2023-07-28 11:00:38] INFO root fetch - processPackages [codeclean]: Remove: archive file [/home/abi/fetcher/tmp/codeclean-1.0.1.tar.gz]
+[2023-07-28 11:00:38] INFO root fetch - main [MainThread]: End processing [codeclean]: success
+[2023-07-28 11:00:38] INFO root fetch - processPackages [confutilPPP]: Remove: archive file [/home/abi/fetcher/tmp/confutilPPP-1.0.3.tar.gz]
+[2023-07-28 11:00:38] INFO root fetch - processPackages [confutilPPP]: Remove: archive file [/home/abi/fetcher/tmp/confutilPPP-1.1.0.tar.gz]
+[2023-07-28 11:00:38] INFO root fetch - main [MainThread]: End processing [confutilPPP]: success
+[2023-07-28 11:00:38] INFO root fetch - processPackages [automation-editor]: Remove: archive file [/home/abi/fetcher/tmp/automation_editor-0.0.8.tar.gz]
+[2023-07-28 11:00:38] INFO root fetch - processPackages [automation-editor]: Remove: archive file [/home/abi/fetcher/tmp/automation_editor-0.0.9.tar.gz]
+[2023-07-28 11:00:38] INFO root fetch - main [MainThread]: End processing [automation-editor]: success
+[2023-07-28 11:00:38] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz]
+[2023-07-28 11:00:38] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz]
+[2023-07-28 11:00:38] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-07-28 11:00:38] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2023-07-28 11:00:38] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2023-07-28 11:00:38] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-07-28 11:00:38] INFO root fetch - processPackages [tiledb-prompt-options]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_prompt_options-1.1.0-py2.py3-none-any.whl.zip]
+[2023-07-28 11:00:38] INFO root fetch - processPackages [tiledb-prompt-options]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_prompt_options-1.1.0a0-py2.py3-none-any.whl.zip]
+[2023-07-28 11:00:38] INFO root fetch - main [MainThread]: End processing [tiledb-prompt-options]: success
+[2023-07-28 11:00:42] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nodeeditor-1.0.7.tar.gz]
+[2023-07-28 11:00:42] INFO root fetch - processPackages [jupyterlab-nodeeditor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nodeeditor-1.0.8.tar.gz]
+[2023-07-28 11:00:42] INFO root fetch - main [MainThread]: End processing [jupyterlab-nodeeditor]: success
+[2023-07-28 11:00:42] INFO root fetch - main [MainThread]: Store serial: [19073591]
