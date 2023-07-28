@@ -15542,3 +15542,87 @@ AssertionError: tmp/pyepsilla-0.0.5.tar.gz does not exist
 [2023-07-28 09:25:54] INFO root fetch - processPackages [metal-python]: Remove: archive file [/home/abi/fetcher/tmp/metal_python-0.9.5.tar.gz]
 [2023-07-28 09:25:54] INFO root fetch - main [MainThread]: End processing [metal-python]: success
 [2023-07-28 09:25:54] INFO root fetch - main [MainThread]: Store serial: [19072768]
+[2023-07-28 09:30:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19072768]
+[2023-07-28 09:31:03] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-28 09:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: h3ronpy
+[2023-07-28 09:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genpypress
+[2023-07-28 09:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AlgorithmLib
+[2023-07-28 09:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: logfire-python
+[2023-07-28 09:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysensibo
+[2023-07-28 09:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyepsilla
+[2023-07-28 09:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-eventmonitor
+[2023-07-28 09:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agentcomlink
+[2023-07-28 09:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: KiMoPack
+[2023-07-28 09:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: feincms3
+[2023-07-28 09:31:03] INFO root fetch - processPackages [nonebot-plugin-eventmonitor]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-28 09:31:03] INFO root fetch - processPackages [genpypress]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-28 09:31:03] INFO root fetch - processPackages [agentcomlink]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-28 09:31:03] INFO root fetch - processPackages [pysensibo]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-28 09:31:03] INFO root fetch - processPackages [pyepsilla]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-28 09:31:03] INFO root fetch - processPackages [logfire-python]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-28 09:31:03] INFO root fetch - processPackages [h3ronpy]: New version: [0.9.0] Old Version: [0.17.4]
+[2023-07-28 09:31:03] INFO root fetch - processPackages [AlgorithmLib]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-07-28 09:31:03] INFO root fetch - processPackages [KiMoPack]: New version: [7.1.8] Old Version: [7.1.7]
+[2023-07-28 09:31:03] INFO root fetch - processPackages [feincms3]: New version: [4.1.0] Old Version: [4.0a1]
+[2023-07-28 09:31:03] INFO root fetch - processPackages [pysensibo]: Downloading https://files.pythonhosted.org/packages/af/4c/8116c33c00bca7b5a5fff60756f8391e12b67b1d1e5ef744286e16a99e08/pysensibo-1.0.8.tar.gz
+[2023-07-28 09:31:03] INFO root fetch - processPackages [nonebot-plugin-eventmonitor]: Downloading https://files.pythonhosted.org/packages/1b/91/74d43c546279abcb68db9e7520a9d1ad8bb9f57b2c28f424ebf4be89c7ca/nonebot_plugin_eventmonitor-0.1.9.tar.gz
+[2023-07-28 09:31:04] INFO root fetch - processPackages [KiMoPack]: Downloading https://files.pythonhosted.org/packages/65/a8/7907b04486b7c9fd96c1a2203f4fd22f274da01b3fbc54ff13e919c07192/KiMoPack-7.1.7.tar.gz
+[2023-07-28 09:31:04] INFO root fetch - processPackages [AlgorithmLib]: Downloading https://files.pythonhosted.org/packages/78/f1/2fbac4aa9ef115eda50059c81431330d595bbf744e9ac898466afc3a85ee/AlgorithmLib-3.9.8.tar.gz
+[2023-07-28 09:31:04] INFO root fetch - processPackages [h3ronpy]: Downloading https://files.pythonhosted.org/packages/ad/bf/6feca53dd0797fd83e117b8547c1cba41e46782f824d2b1b2b57dac84bd4/h3ronpy-0.17.4.tar.gz
+[2023-07-28 09:31:04] INFO root fetch - processPackages [agentcomlink]: Downloading https://files.pythonhosted.org/packages/b5/ed/1fbbd4c743675f0b143d42f36236a2097e7a660b50e45d28ed3537b3d876/agentcomlink-0.1.0.tar.gz
+[2023-07-28 09:31:04] INFO root fetch - processPackages [genpypress]: Downloading https://files.pythonhosted.org/packages/c7/83/e197c70e19fd0c9c66398a9772e8e2969f8da51346fff7f3f05de1040461/genpypress-0.1.8.tar.gz
+[2023-07-28 09:31:04] INFO root fetch - processPackages [feincms3]: Downloading https://files.pythonhosted.org/packages/45/7b/2f58fc8d58818aeed8f074401de6dc80255f5137a2bafed6bd6adb01e979/feincms3-4.0a1.tar.gz
+[2023-07-28 09:31:04] WARNING root fetch - processPackages [KiMoPack]: Skipping package: exceeds size limit 71602357>=10485760
+[2023-07-28 09:31:04] INFO root fetch - main [MainThread]: End processing [KiMoPack] error
+[2023-07-28 09:31:04] INFO root fetch - processPackages [logfire-python]: Downloading https://files.pythonhosted.org/packages/a4/04/f2541a8cc6133ead53e8e0707871710232a9867b15d783d2185334a71781/logfire-python-0.0.7.tar.gz
+[2023-07-28 09:31:04] INFO root fetch - processPackages [pyepsilla]: Downloading https://files.pythonhosted.org/packages/a0/b4/fb0d067144d813449afcd52e7bddb9a4cf93bc7bf04e03154e5d27beed67/pyepsilla-0.0.7.tar.gz
+[2023-07-28 09:31:04] WARNING root fetch - processPackages [AlgorithmLib]: Skipping package: exceeds size limit 14952675>=10485760
+[2023-07-28 09:31:04] INFO root fetch - main [MainThread]: End processing [AlgorithmLib] error
+[2023-07-28 09:31:04] INFO root fetch - processPackages [pyepsilla]: executing diffoscope
+[2023-07-28 09:31:04] INFO root fetch - processPackages [pyepsilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyepsilla-0.0.6.tar.gz tmp/pyepsilla-0.0.7.tar.gz --markdown 20230728/p/pyepsilla/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-28 09:31:04] INFO root fetch - processPackages [nonebot-plugin-eventmonitor]: Downloading https://files.pythonhosted.org/packages/8b/a0/5313509f1b392911439fd3aeda8b4ac1460979891ce03d3f786d72efade2/nonebot_plugin_eventmonitor-0.2.0.tar.gz
+[2023-07-28 09:31:04] INFO root fetch - processPackages [agentcomlink]: Downloading https://files.pythonhosted.org/packages/29/5b/429509456ffbde4c94be29f4e84f7a1e4d1bf3203d25b19ac75ed60d597e/agentcomlink-0.1.1.tar.gz
+[2023-07-28 09:31:04] INFO root fetch - processPackages [pysensibo]: Downloading https://files.pythonhosted.org/packages/74/b9/30a2c00590d3482692d7b5e8d6094384f519992a13ae674c69db37cdd068/pysensibo-1.0.9.tar.gz
+[2023-07-28 09:31:04] INFO root fetch - processPackages [logfire-python]: Downloading https://files.pythonhosted.org/packages/06/41/896109405073cbe5766562bd6daa7feed962bb8e17fe62a87050aad394b7/logfire-python-0.0.8.tar.gz
+[2023-07-28 09:31:04] INFO root fetch - processPackages [nonebot-plugin-eventmonitor]: executing diffoscope
+[2023-07-28 09:31:04] INFO root fetch - processPackages [nonebot-plugin-eventmonitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_eventmonitor-0.1.9.tar.gz tmp/nonebot_plugin_eventmonitor-0.2.0.tar.gz --markdown 20230728/n/nonebot-plugin-eventmonitor/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-28 09:31:04] INFO root fetch - processPackages [feincms3]: Downloading https://files.pythonhosted.org/packages/d2/bb/3deeaefb8cd03ccb098f72c516fa6f9f0b9b8c7a4d774641905827ee0867/feincms3-4.1.0.tar.gz
+[2023-07-28 09:31:04] INFO root fetch - processPackages [agentcomlink]: executing diffoscope
+[2023-07-28 09:31:04] INFO root fetch - processPackages [agentcomlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentcomlink-0.1.0.tar.gz tmp/agentcomlink-0.1.1.tar.gz --markdown 20230728/a/agentcomlink/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-28 09:31:04] INFO root fetch - processPackages [h3ronpy]: Downloading https://files.pythonhosted.org/packages/45/4d/a1fcb52afacaa7c5423a66451d3ca770e7bc404e9f69d402b0c352299f90/h3ronpy-0.9.0.tar.gz
+[2023-07-28 09:31:04] INFO root fetch - processPackages [logfire-python]: executing diffoscope
+[2023-07-28 09:31:04] INFO root fetch - processPackages [logfire-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logfire-python-0.0.7.tar.gz tmp/logfire-python-0.0.8.tar.gz --markdown 20230728/l/logfire-python/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-28 09:31:04] INFO root fetch - processPackages [feincms3]: executing diffoscope
+[2023-07-28 09:31:04] INFO root fetch - processPackages [feincms3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feincms3-4.0a1.tar.gz tmp/feincms3-4.1.0.tar.gz --markdown 20230728/f/feincms3/4.0a1-4.1.0/diff.md --exclude *.pyd
+[2023-07-28 09:31:04] INFO root fetch - processPackages [pysensibo]: executing diffoscope
+[2023-07-28 09:31:04] INFO root fetch - processPackages [pysensibo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysensibo-1.0.8.tar.gz tmp/pysensibo-1.0.9.tar.gz --markdown 20230728/p/pysensibo/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-28 09:31:04] INFO root fetch - processPackages [h3ronpy]: executing diffoscope
+[2023-07-28 09:31:04] INFO root fetch - processPackages [h3ronpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h3ronpy-0.17.4.tar.gz tmp/h3ronpy-0.9.0.tar.gz --markdown 20230728/h/h3ronpy/0.17.4-0.9.0/diff.md --exclude *.pyd
+[2023-07-28 09:31:05] INFO root fetch - processPackages [pyepsilla]: Remove: archive file [/home/abi/fetcher/tmp/pyepsilla-0.0.6.tar.gz]
+[2023-07-28 09:31:05] INFO root fetch - processPackages [pyepsilla]: Remove: archive file [/home/abi/fetcher/tmp/pyepsilla-0.0.7.tar.gz]
+[2023-07-28 09:31:05] INFO root fetch - main [MainThread]: End processing [pyepsilla]: success
+[2023-07-28 09:31:05] INFO root fetch - processPackages [genpypress]: Downloading https://files.pythonhosted.org/packages/2a/9e/608e959428fc7982d96135c6b3793e003806144ecfc6116570adc2f29066/genpypress-0.1.9.tar.gz
+[2023-07-28 09:31:05] INFO root fetch - processPackages [nonebot-plugin-eventmonitor]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_eventmonitor-0.1.9.tar.gz]
+[2023-07-28 09:31:05] INFO root fetch - processPackages [nonebot-plugin-eventmonitor]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_eventmonitor-0.2.0.tar.gz]
+[2023-07-28 09:31:05] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-eventmonitor]: success
+[2023-07-28 09:31:05] INFO root fetch - processPackages [agentcomlink]: Remove: archive file [/home/abi/fetcher/tmp/agentcomlink-0.1.0.tar.gz]
+[2023-07-28 09:31:05] INFO root fetch - processPackages [agentcomlink]: Remove: archive file [/home/abi/fetcher/tmp/agentcomlink-0.1.1.tar.gz]
+[2023-07-28 09:31:05] INFO root fetch - main [MainThread]: End processing [agentcomlink]: success
+[2023-07-28 09:31:05] INFO root fetch - processPackages [pysensibo]: Remove: archive file [/home/abi/fetcher/tmp/pysensibo-1.0.8.tar.gz]
+[2023-07-28 09:31:05] INFO root fetch - processPackages [pysensibo]: Remove: archive file [/home/abi/fetcher/tmp/pysensibo-1.0.9.tar.gz]
+[2023-07-28 09:31:05] INFO root fetch - main [MainThread]: End processing [pysensibo]: success
+[2023-07-28 09:31:05] INFO root fetch - processPackages [logfire-python]: Remove: archive file [/home/abi/fetcher/tmp/logfire-python-0.0.7.tar.gz]
+[2023-07-28 09:31:05] INFO root fetch - processPackages [logfire-python]: Remove: archive file [/home/abi/fetcher/tmp/logfire-python-0.0.8.tar.gz]
+[2023-07-28 09:31:05] INFO root fetch - main [MainThread]: End processing [logfire-python]: success
+[2023-07-28 09:31:06] INFO root fetch - processPackages [h3ronpy]: Remove: archive file [/home/abi/fetcher/tmp/h3ronpy-0.17.4.tar.gz]
+[2023-07-28 09:31:06] INFO root fetch - processPackages [h3ronpy]: Remove: archive file [/home/abi/fetcher/tmp/h3ronpy-0.9.0.tar.gz]
+[2023-07-28 09:31:06] INFO root fetch - main [MainThread]: End processing [h3ronpy]: success
+[2023-07-28 09:31:06] INFO root fetch - processPackages [feincms3]: Remove: archive file [/home/abi/fetcher/tmp/feincms3-4.0a1.tar.gz]
+[2023-07-28 09:31:06] INFO root fetch - processPackages [feincms3]: Remove: archive file [/home/abi/fetcher/tmp/feincms3-4.1.0.tar.gz]
+[2023-07-28 09:31:06] INFO root fetch - main [MainThread]: End processing [feincms3]: success
+[2023-07-28 09:31:06] INFO root fetch - processPackages [genpypress]: executing diffoscope
+[2023-07-28 09:31:06] INFO root fetch - processPackages [genpypress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genpypress-0.1.8.tar.gz tmp/genpypress-0.1.9.tar.gz --markdown 20230728/g/genpypress/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-28 09:31:07] INFO root fetch - processPackages [genpypress]: Remove: archive file [/home/abi/fetcher/tmp/genpypress-0.1.8.tar.gz]
+[2023-07-28 09:31:07] INFO root fetch - processPackages [genpypress]: Remove: archive file [/home/abi/fetcher/tmp/genpypress-0.1.9.tar.gz]
+[2023-07-28 09:31:07] INFO root fetch - main [MainThread]: End processing [genpypress]: success
+[2023-07-28 09:31:07] INFO root fetch - main [MainThread]: Store serial: [19072798]
