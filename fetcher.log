@@ -18179,3 +18179,115 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 11:17:47] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.0.6.tar.gz]
 [2023-07-28 11:17:47] INFO root fetch - main [MainThread]: End processing [lark-oapi]: success
 [2023-07-28 11:17:47] INFO root fetch - main [MainThread]: Store serial: [19073797]
+[2023-07-28 11:22:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19073797]
+[2023-07-28 11:22:56] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-28 11:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-recommendations
+[2023-07-28 11:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apit212
+[2023-07-28 11:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickstart-vdk
+[2023-07-28 11:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: intel-optimization-for-horovod
+[2023-07-28 11:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2023-07-28 11:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: polly-python
+[2023-07-28 11:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spanishconjugator
+[2023-07-28 11:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cerializer
+[2023-07-28 11:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: manila
+[2023-07-28 11:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tbp-nightly
+[2023-07-28 11:22:56] INFO root fetch - processPackages [azure-recommendations]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-28 11:22:57] INFO root fetch - processPackages [intel-optimization-for-horovod]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-28 11:22:57] INFO root fetch - processPackages [apit212]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-28 11:22:57] INFO root fetch - processPackages [cerializer]: New version: [1.3.0] Old Version: [1.2.7]
+[2023-07-28 11:22:57] INFO root fetch - processPackages [polly-python]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-28 11:22:57] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-28 11:22:57] INFO root fetch - processPackages [manila]: New version: [9.1.5] Old Version: [9.1.4]
+[2023-07-28 11:22:57] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.948436673.dev12518] Old Version: [0.2.948131372.dev12515]
+[2023-07-28 11:22:57] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-07-28 11:22:57] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-28 11:22:57] INFO root fetch - processPackages [intel-optimization-for-horovod]: Downloading https://files.pythonhosted.org/packages/11/db/ca86700d4e637491c169008273b61bfbd41556b4d460fecd134967a77b41/intel_optimization_for_horovod-0.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-28 11:22:57] INFO root fetch - processPackages [apit212]: Downloading https://files.pythonhosted.org/packages/e2/be/c4a9a8366e21a077e8838dc2f9ab1b4cdd9083f8902454cd08a80ca28ed8/apit212-1.0.0.tar.gz
+[2023-07-28 11:22:57] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-28 11:22:57] INFO root fetch - processPackages [cerializer]: Downloading https://files.pythonhosted.org/packages/be/6f/2e31c1b0db97e1aeee3fcc5a0fc8643ee4d1a7e336729f25a14ce843eb8b/cerializer-1.2.7.tar.gz
+[2023-07-28 11:22:57] INFO root fetch - processPackages [azure-recommendations]: Downloading https://files.pythonhosted.org/packages/d0/24/5f5436d97838f3ceb8b73d4403fcefcb56d1dede71ea2dff3947f5a5a254/azure_recommendations-0.3.4.tar.gz
+[2023-07-28 11:22:57] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-07-28 11:22:57] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/86/21/4eeab3fd1839b5f6fe604549081123cb12702e07ff3cfde3382891c19035/quickstart-vdk-0.2.948131372.dev12515.tar.gz
+[2023-07-28 11:22:57] INFO root fetch - processPackages [polly-python]: Downloading https://files.pythonhosted.org/packages/fb/bd/de0a48596eb40401f5a5924d914d036f5253463966d59c90d5f27afabb6d/polly-python-0.4.0.tar.gz
+[2023-07-28 11:22:57] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-28 11:22:57] INFO root fetch - processPackages [manila]: Downloading https://files.pythonhosted.org/packages/c8/4d/5186da41a24e5e613de3c44ea6e3dd76b697d8de3c5f3f28ba3e822db849/manila-9.1.4.tar.gz
+[2023-07-28 11:22:57] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-28 11:22:57] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-28 11:22:57] INFO root fetch - processPackages [apit212]: Downloading https://files.pythonhosted.org/packages/fb/fa/4d8baddfa611c1d08d1c388957642f8e94d8dd96e8ac4c513734b6b42dd8/apit212-1.0.1.tar.gz
+[2023-07-28 11:22:57] INFO root fetch - processPackages [polly-python]: Downloading https://files.pythonhosted.org/packages/c9/61/30a6164b95e34efd8ebbaebb27d7cdc7468b1189f457af9a89463be76c79/polly-python-0.4.1.tar.gz
+[2023-07-28 11:22:57] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/07/d5/f4fe17f639523f350aec9b984a29ae4cf972c48a86a47a54dd1d441d2397/quickstart-vdk-0.2.948436673.dev12518.tar.gz
+[2023-07-28 11:22:58] INFO root fetch - processPackages [cerializer]: Downloading https://files.pythonhosted.org/packages/2f/12/42b0f64118c720a2a16e6a3b89fd4db51b204021e36c05f6ba08826cc092/cerializer-1.3.0.tar.gz
+[2023-07-28 11:22:58] INFO root fetch - processPackages [azure-recommendations]: Downloading https://files.pythonhosted.org/packages/09/f5/f04138492a93bf253b02e0d87b90dbfe99ae12a6caf97decdba581d9803d/azure_recommendations-0.3.5.tar.gz
+[2023-07-28 11:22:58] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-28 11:22:58] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230728/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-28 11:22:58] INFO root fetch - processPackages [apit212]: executing diffoscope
+[2023-07-28 11:22:58] INFO root fetch - processPackages [apit212]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apit212-1.0.0.tar.gz tmp/apit212-1.0.1.tar.gz --markdown 20230728/a/apit212/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-28 11:22:58] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-28 11:22:58] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230728/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-28 11:22:58] INFO root fetch - processPackages [polly-python]: executing diffoscope
+[2023-07-28 11:22:58] INFO root fetch - processPackages [polly-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polly-python-0.4.0.tar.gz tmp/polly-python-0.4.1.tar.gz --markdown 20230728/p/polly-python/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-28 11:22:58] INFO root fetch - processPackages [azure-recommendations]: executing diffoscope
+[2023-07-28 11:22:58] INFO root fetch - processPackages [azure-recommendations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure_recommendations-0.3.4.tar.gz tmp/azure_recommendations-0.3.5.tar.gz --markdown 20230728/a/azure-recommendations/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-28 11:22:58] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-07-28 11:22:58] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.948131372.dev12515.tar.gz tmp/quickstart-vdk-0.2.948436673.dev12518.tar.gz --markdown 20230728/q/quickstart-vdk/0.2.948131372.dev12515-0.2.948436673.dev12518/diff.md --exclude *.pyd
+[2023-07-28 11:22:58] INFO root fetch - processPackages [cerializer]: executing diffoscope
+[2023-07-28 11:22:58] INFO root fetch - processPackages [cerializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerializer-1.2.7.tar.gz tmp/cerializer-1.3.0.tar.gz --markdown 20230728/c/cerializer/1.2.7-1.3.0/diff.md --exclude *.pyd
+[2023-07-28 11:22:58] WARNING root fetch - processPackages [intel-optimization-for-horovod]: Skipping package: exceeds size limit 18338042>=10485760
+[2023-07-28 11:22:58] INFO root fetch - processPackages [intel-optimization-for-horovod]: Start processing: pih-mio
+[2023-07-28 11:22:58] INFO root fetch - main [MainThread]: End processing [intel-optimization-for-horovod] error
+[2023-07-28 11:22:58] INFO root fetch - processPackages [pih-mio]: New version: [1.48002] Old Version: [1.48001]
+[2023-07-28 11:22:58] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/ee/bc/3c32e21ee871f9f77a2b510b7d06e126914dc9d6c8058c3365b33f92068e/pih_mio-1.48001.tar.gz
+[2023-07-28 11:22:58] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/24/a6/2049388829ac05c123074084ba5157db0e952e0511b4955a999a81ad5668/pih_mio-1.48002.tar.gz
+[2023-07-28 11:22:59] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-07-28 11:22:59] INFO root fetch - processPackages [manila]: Downloading https://files.pythonhosted.org/packages/dc/0b/98df61720f34ffa55ec872a616da8b6cf85bfd82c3c6b22d284ffa6ea078/manila-9.1.5.tar.gz
+[2023-07-28 11:22:59] INFO root fetch - processPackages [pih-mio]: executing diffoscope
+[2023-07-28 11:22:59] INFO root fetch - processPackages [pih-mio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih_mio-1.48001.tar.gz tmp/pih_mio-1.48002.tar.gz --markdown 20230728/p/pih-mio/1.48001-1.48002/diff.md --exclude *.pyd
+[2023-07-28 11:22:59] INFO root fetch - processPackages [azure-recommendations]: Remove: archive file [/home/abi/fetcher/tmp/azure_recommendations-0.3.4.tar.gz]
+[2023-07-28 11:22:59] INFO root fetch - processPackages [azure-recommendations]: Remove: archive file [/home/abi/fetcher/tmp/azure_recommendations-0.3.5.tar.gz]
+[2023-07-28 11:22:59] INFO root fetch - processPackages [azure-recommendations]: Start processing: pulumi-ec
+[2023-07-28 11:22:59] INFO root fetch - main [MainThread]: End processing [azure-recommendations]: success
+[2023-07-28 11:22:59] INFO root fetch - processPackages [pulumi-ec]: New version: [0.5.2a1690534446] Old Version: [0.5.2a1690534432]
+[2023-07-28 11:22:59] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-28 11:22:59] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-28 11:22:59] INFO root fetch - processPackages [spanishconjugator]: Start processing: pulumi-ec
+[2023-07-28 11:22:59] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-28 11:22:59] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-28 11:22:59] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-07-28 11:22:59] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230728/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-07-28 11:22:59] INFO root fetch - processPackages [pulumi-ec]: New version: [0.5.2a1690534446] Old Version: [0.5.2a1690534432]
+[2023-07-28 11:22:59] INFO root fetch - processPackages [apit212]: Remove: archive file [/home/abi/fetcher/tmp/apit212-1.0.0.tar.gz]
+[2023-07-28 11:22:59] INFO root fetch - processPackages [apit212]: Remove: archive file [/home/abi/fetcher/tmp/apit212-1.0.1.tar.gz]
+[2023-07-28 11:22:59] INFO root fetch - main [MainThread]: End processing [apit212]: success
+[2023-07-28 11:22:59] INFO root fetch - processPackages [polly-python]: Remove: archive file [/home/abi/fetcher/tmp/polly-python-0.4.0.tar.gz]
+[2023-07-28 11:22:59] INFO root fetch - processPackages [polly-python]: Remove: archive file [/home/abi/fetcher/tmp/polly-python-0.4.1.tar.gz]
+[2023-07-28 11:22:59] INFO root fetch - main [MainThread]: End processing [polly-python]: success
+[2023-07-28 11:22:59] INFO root fetch - processPackages [cerializer]: Remove: archive file [/home/abi/fetcher/tmp/cerializer-1.2.7.tar.gz]
+[2023-07-28 11:22:59] INFO root fetch - processPackages [cerializer]: Remove: archive file [/home/abi/fetcher/tmp/cerializer-1.3.0.tar.gz]
+[2023-07-28 11:22:59] INFO root fetch - main [MainThread]: End processing [cerializer]: success
+[2023-07-28 11:22:59] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.948131372.dev12515.tar.gz]
+[2023-07-28 11:22:59] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.948436673.dev12518.tar.gz]
+[2023-07-28 11:22:59] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-07-28 11:22:59] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/ff/0b/5e2d428d51dd332ee9dc32edd29fda24f208273021581dff7387d6239380/pulumi_ec-0.5.2a1690534432.tar.gz
+[2023-07-28 11:22:59] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/ff/0b/5e2d428d51dd332ee9dc32edd29fda24f208273021581dff7387d6239380/pulumi_ec-0.5.2a1690534432.tar.gz
+[2023-07-28 11:23:00] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/46/55/abd0e93e960c5c275addb80a84d3961844af265d11c4d7e919ed6d00d07c/pulumi_ec-0.5.2a1690534446.tar.gz
+[2023-07-28 11:23:00] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/46/55/abd0e93e960c5c275addb80a84d3961844af265d11c4d7e919ed6d00d07c/pulumi_ec-0.5.2a1690534446.tar.gz
+[2023-07-28 11:23:00] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih_mio-1.48001.tar.gz]
+[2023-07-28 11:23:00] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih_mio-1.48002.tar.gz]
+[2023-07-28 11:23:00] INFO root fetch - main [MainThread]: End processing [pih-mio]: success
+[2023-07-28 11:23:00] INFO root fetch - processPackages [pulumi-ec]: executing diffoscope
+[2023-07-28 11:23:00] INFO root fetch - processPackages [pulumi-ec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ec-0.5.2a1690534432.tar.gz tmp/pulumi_ec-0.5.2a1690534446.tar.gz --markdown 20230728/p/pulumi-ec/0.5.2a1690534432-0.5.2a1690534446/diff.md --exclude *.pyd
+[2023-07-28 11:23:00] INFO root fetch - processPackages [pulumi-ec]: executing diffoscope
+[2023-07-28 11:23:00] INFO root fetch - processPackages [pulumi-ec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ec-0.5.2a1690534432.tar.gz tmp/pulumi_ec-0.5.2a1690534446.tar.gz --markdown 20230728/p/pulumi-ec/0.5.2a1690534432-0.5.2a1690534446/diff.md --exclude *.pyd
+[2023-07-28 11:23:00] INFO root fetch - processPackages [manila]: executing diffoscope
+[2023-07-28 11:23:00] INFO root fetch - processPackages [manila]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manila-9.1.4.tar.gz tmp/manila-9.1.5.tar.gz --markdown 20230728/m/manila/9.1.4-9.1.5/diff.md --exclude *.pyd
+[2023-07-28 11:23:01] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.5.2a1690534432.tar.gz]
+[2023-07-28 11:23:01] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.5.2a1690534446.tar.gz]
+[2023-07-28 11:23:01] INFO root fetch - main [MainThread]: End processing [pulumi-ec]: success
+[2023-07-28 11:23:01] INFO root fetch - main [MainThread]: End processing [pulumi-ec]: success
+[2023-07-28 11:23:01] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-07-28 11:23:01] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-07-28 11:23:01] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-07-28 11:23:10] INFO root fetch - processPackages [manila]: Remove: archive file [/home/abi/fetcher/tmp/manila-9.1.4.tar.gz]
+[2023-07-28 11:23:10] INFO root fetch - processPackages [manila]: Remove: archive file [/home/abi/fetcher/tmp/manila-9.1.5.tar.gz]
+[2023-07-28 11:23:10] INFO root fetch - main [MainThread]: End processing [manila]: success
+[2023-07-28 11:23:10] INFO root fetch - main [MainThread]: Store serial: [19073839]
