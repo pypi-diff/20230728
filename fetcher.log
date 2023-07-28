@@ -21205,3 +21205,131 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 13:09:06] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.90.tar.gz]
 [2023-07-28 13:09:06] INFO root fetch - main [MainThread]: End processing [moptipy]: success
 [2023-07-28 13:09:06] INFO root fetch - main [MainThread]: Store serial: [19074719]
+[2023-07-28 13:14:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19074719]
+[2023-07-28 13:14:15] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-28 13:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proctracer
+[2023-07-28 13:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agoraiot
+[2023-07-28 13:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agora-busclient
+[2023-07-28 13:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agora-config
+[2023-07-28 13:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: numbers-parser
+[2023-07-28 13:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agora-logging
+[2023-07-28 13:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agora-redis-client
+[2023-07-28 13:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agora-utils
+[2023-07-28 13:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: syngen
+[2023-07-28 13:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: omero-py
+[2023-07-28 13:14:15] INFO root fetch - processPackages [agora-busclient]: New version: [1.1.35] Old Version: [1.1.34]
+[2023-07-28 13:14:15] INFO root fetch - processPackages [agora-utils]: New version: [1.1.35] Old Version: [1.1.34]
+[2023-07-28 13:14:16] INFO root fetch - processPackages [proctracer]: New version: [0.0.23] Old Version: [0.0.21]
+[2023-07-28 13:14:16] INFO root fetch - processPackages [agora-logging]: New version: [1.1.35] Old Version: [1.1.34]
+[2023-07-28 13:14:16] INFO root fetch - processPackages [agora-redis-client]: New version: [1.1.35] Old Version: [1.1.34]
+[2023-07-28 13:14:16] INFO root fetch - processPackages [agoraiot]: New version: [1.1.35] Old Version: [1.1.34]
+[2023-07-28 13:14:16] INFO root fetch - processPackages [agora-config]: New version: [1.1.35] Old Version: [1.1.34]
+[2023-07-28 13:14:16] INFO root fetch - processPackages [omero-py]: New version: [5.9.3] Old Version: [5.9.2]
+[2023-07-28 13:14:16] INFO root fetch - processPackages [numbers-parser]: New version: [4.2.0] Old Version: [4.1.2]
+[2023-07-28 13:14:16] INFO root fetch - processPackages [syngen]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-28 13:14:16] INFO root fetch - processPackages [agora-config]: Downloading https://files.pythonhosted.org/packages/27/a3/10eda6970d0b308186f6d87ad275c79b61bfcb0a54c9a554106f8c8e7a0b/agora_config-1.1.34-py2.py3-none-any.whl
+[2023-07-28 13:14:16] INFO root fetch - processPackages [agora-busclient]: Downloading https://files.pythonhosted.org/packages/a5/dc/bfe09bb382e86b5eb86faf6ed074cab7adeb10058cd7c55a621548d3a538/agora_busclient-1.1.34-py2.py3-none-any.whl
+[2023-07-28 13:14:16] INFO root fetch - processPackages [agora-utils]: Downloading https://files.pythonhosted.org/packages/80/00/53c3cfd42a84bf26e766f3f356b5eed026df07a122359b294b8e8af258cb/agora_utils-1.1.34-py2.py3-none-any.whl
+[2023-07-28 13:14:16] INFO root fetch - processPackages [agora-redis-client]: Downloading https://files.pythonhosted.org/packages/b1/41/b3cf313d26b0113783303401736040c6aebff8cf3b77211744fdb6d9b569/agora_redis_client-1.1.34-py2.py3-none-any.whl
+[2023-07-28 13:14:16] INFO root fetch - processPackages [proctracer]: Downloading https://files.pythonhosted.org/packages/94/f0/4bfbcb488a47227c19181d5a424ad0e398eba8e3bebb0860c75b17b75660/proctracer-0.0.21.tar.gz
+[2023-07-28 13:14:16] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/d1/5c/1a07748f97870290d6219c56768425459aa1519f941153183894348fc83a/syngen-0.1.8.tar.gz
+[2023-07-28 13:14:16] INFO root fetch - processPackages [agora-logging]: Downloading https://files.pythonhosted.org/packages/a3/c4/54e0232f952c1931a9c34cf5b78dc0694df4f917576a4f6c635541d4998f/agora_logging-1.1.34-py2.py3-none-any.whl
+[2023-07-28 13:14:16] INFO root fetch - processPackages [agoraiot]: Downloading https://files.pythonhosted.org/packages/56/d7/4895fe4cfab0e9de6c67bc8a3592024224139f5ae0e24f15624125556cbe/agoraiot-1.1.34-py2.py3-none-any.whl
+[2023-07-28 13:14:16] INFO root fetch - processPackages [numbers-parser]: Downloading https://files.pythonhosted.org/packages/74/4b/e7134bc677811f8d87fa40ee41ec774dcc333777dc47d6b0cde09eb2e60c/numbers_parser-4.1.2.tar.gz
+[2023-07-28 13:14:16] INFO root fetch - processPackages [omero-py]: Downloading https://files.pythonhosted.org/packages/ef/d1/2e96bfeff6010b899452901bbf0be8ddd6efe6429d87210b47af1406c664/omero-py-5.9.2.tar.gz
+[2023-07-28 13:14:16] INFO root fetch - processPackages [agora-busclient]: Downloading https://files.pythonhosted.org/packages/bf/1a/17ffdc994fd5f363687ae05c24eeb40d610fb9a59ab098e6df821725ef64/agora_busclient-1.1.35-py2.py3-none-any.whl
+[2023-07-28 13:14:16] INFO root fetch - processPackages [agora-config]: Downloading https://files.pythonhosted.org/packages/19/0f/82d0b92e0a0dc9868880524905e2b165c85c6458801d75232f8732a5f81f/agora_config-1.1.35-py2.py3-none-any.whl
+[2023-07-28 13:14:16] INFO root fetch - processPackages [agora-utils]: Downloading https://files.pythonhosted.org/packages/c8/cc/0c51cef0efe07f77eb9c11ec34fa2d1f15973522e1550dbf454a2b60db9d/agora_utils-1.1.35-py2.py3-none-any.whl
+[2023-07-28 13:14:16] INFO root fetch - processPackages [proctracer]: Downloading https://files.pythonhosted.org/packages/5b/b7/db093fdf11a25f8079ff730579e681c11345754896001822ee3c0f2dbbf1/proctracer-0.0.23.tar.gz
+[2023-07-28 13:14:16] INFO root fetch - processPackages [agora-redis-client]: Downloading https://files.pythonhosted.org/packages/92/50/182b4f0f22d32f090abb75116f30fb3019b08a7710daa936019085ed9717/agora_redis_client-1.1.35-py2.py3-none-any.whl
+[2023-07-28 13:14:16] INFO root fetch - processPackages [agora-logging]: Downloading https://files.pythonhosted.org/packages/d5/8a/c659ee63ecd60588477953a4d6ebbf60bdf929d7d93e2217393fee0ecccb/agora_logging-1.1.35-py2.py3-none-any.whl
+[2023-07-28 13:14:16] INFO root fetch - processPackages [agoraiot]: Downloading https://files.pythonhosted.org/packages/b0/2d/2fdcb293102ba6df946726d32a7e5317f45835740f6c2a642fad7e8844f7/agoraiot-1.1.35-py2.py3-none-any.whl
+[2023-07-28 13:14:16] INFO root fetch - processPackages [agora-busclient]: executing diffoscope
+[2023-07-28 13:14:16] INFO root fetch - processPackages [agora-busclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_busclient-1.1.34-py2.py3-none-any.whl.zip tmp/agora_busclient-1.1.35-py2.py3-none-any.whl.zip --markdown 20230728/a/agora-busclient/1.1.34-1.1.35/diff.md --exclude *.pyd
+[2023-07-28 13:14:16] INFO root fetch - processPackages [numbers-parser]: Downloading https://files.pythonhosted.org/packages/e8/39/91019a50ceb6a8548fb5b69078d331e6d51de66cf78278be51f0fb2ac343/numbers_parser-4.2.0.tar.gz
+[2023-07-28 13:14:16] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/1c/ec/09634635304cfe54bd538c9f136477113b28b8b56e10596aec3cf678573a/syngen-0.1.9.tar.gz
+[2023-07-28 13:14:17] INFO root fetch - processPackages [proctracer]: executing diffoscope
+[2023-07-28 13:14:17] INFO root fetch - processPackages [proctracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proctracer-0.0.21.tar.gz tmp/proctracer-0.0.23.tar.gz --markdown 20230728/p/proctracer/0.0.21-0.0.23/diff.md --exclude *.pyd
+[2023-07-28 13:14:17] INFO root fetch - processPackages [agora-utils]: executing diffoscope
+[2023-07-28 13:14:17] INFO root fetch - processPackages [agora-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_utils-1.1.34-py2.py3-none-any.whl.zip tmp/agora_utils-1.1.35-py2.py3-none-any.whl.zip --markdown 20230728/a/agora-utils/1.1.34-1.1.35/diff.md --exclude *.pyd
+[2023-07-28 13:14:17] INFO root fetch - processPackages [agora-config]: executing diffoscope
+[2023-07-28 13:14:17] INFO root fetch - processPackages [agora-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_config-1.1.34-py2.py3-none-any.whl.zip tmp/agora_config-1.1.35-py2.py3-none-any.whl.zip --markdown 20230728/a/agora-config/1.1.34-1.1.35/diff.md --exclude *.pyd
+[2023-07-28 13:14:17] INFO root fetch - processPackages [agora-redis-client]: executing diffoscope
+[2023-07-28 13:14:17] INFO root fetch - processPackages [agora-redis-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_redis_client-1.1.34-py2.py3-none-any.whl.zip tmp/agora_redis_client-1.1.35-py2.py3-none-any.whl.zip --markdown 20230728/a/agora-redis-client/1.1.34-1.1.35/diff.md --exclude *.pyd
+[2023-07-28 13:14:17] INFO root fetch - processPackages [agora-logging]: executing diffoscope
+[2023-07-28 13:14:17] INFO root fetch - processPackages [agora-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_logging-1.1.34-py2.py3-none-any.whl.zip tmp/agora_logging-1.1.35-py2.py3-none-any.whl.zip --markdown 20230728/a/agora-logging/1.1.34-1.1.35/diff.md --exclude *.pyd
+[2023-07-28 13:14:17] INFO root fetch - processPackages [agoraiot]: executing diffoscope
+[2023-07-28 13:14:17] INFO root fetch - processPackages [agoraiot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agoraiot-1.1.34-py2.py3-none-any.whl.zip tmp/agoraiot-1.1.35-py2.py3-none-any.whl.zip --markdown 20230728/a/agoraiot/1.1.34-1.1.35/diff.md --exclude *.pyd
+[2023-07-28 13:14:17] INFO root fetch - processPackages [numbers-parser]: executing diffoscope
+[2023-07-28 13:14:17] INFO root fetch - processPackages [numbers-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numbers_parser-4.1.2.tar.gz tmp/numbers_parser-4.2.0.tar.gz --markdown 20230728/n/numbers-parser/4.1.2-4.2.0/diff.md --exclude *.pyd
+[2023-07-28 13:14:17] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2023-07-28 13:14:17] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.1.8.tar.gz tmp/syngen-0.1.9.tar.gz --markdown 20230728/s/syngen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-28 13:14:17] INFO root fetch - processPackages [omero-py]: Downloading https://files.pythonhosted.org/packages/31/56/aa311a79b8a3ba18c0dab434329816cc768974b90ae0a8414a7f155d4fe5/omero-py-5.9.3.tar.gz
+[2023-07-28 13:14:18] INFO root fetch - processPackages [agora-busclient]: Remove: archive file [/home/abi/fetcher/tmp/agora_busclient-1.1.34-py2.py3-none-any.whl.zip]
+[2023-07-28 13:14:18] INFO root fetch - processPackages [agora-busclient]: Remove: archive file [/home/abi/fetcher/tmp/agora_busclient-1.1.35-py2.py3-none-any.whl.zip]
+[2023-07-28 13:14:18] INFO root fetch - processPackages [agora-busclient]: Start processing: agentloop
+[2023-07-28 13:14:18] INFO root fetch - main [MainThread]: End processing [agora-busclient]: success
+[2023-07-28 13:14:18] INFO root fetch - processPackages [agentloop]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-28 13:14:18] INFO root fetch - processPackages [agora-utils]: Remove: archive file [/home/abi/fetcher/tmp/agora_utils-1.1.34-py2.py3-none-any.whl.zip]
+[2023-07-28 13:14:18] INFO root fetch - processPackages [agora-utils]: Remove: archive file [/home/abi/fetcher/tmp/agora_utils-1.1.35-py2.py3-none-any.whl.zip]
+[2023-07-28 13:14:18] INFO root fetch - processPackages [agora-utils]: Start processing: dissect.target
+[2023-07-28 13:14:18] INFO root fetch - main [MainThread]: End processing [agora-utils]: success
+[2023-07-28 13:14:18] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-07-28 13:14:18] INFO root fetch - processPackages [agoraiot]: Remove: archive file [/home/abi/fetcher/tmp/agoraiot-1.1.34-py2.py3-none-any.whl.zip]
+[2023-07-28 13:14:18] INFO root fetch - processPackages [agoraiot]: Remove: archive file [/home/abi/fetcher/tmp/agoraiot-1.1.35-py2.py3-none-any.whl.zip]
+[2023-07-28 13:14:18] INFO root fetch - processPackages [agoraiot]: Start processing: pystasis
+[2023-07-28 13:14:18] INFO root fetch - main [MainThread]: End processing [agoraiot]: success
+[2023-07-28 13:14:18] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-07-28 13:14:18] INFO root fetch - processPackages [proctracer]: Remove: archive file [/home/abi/fetcher/tmp/proctracer-0.0.21.tar.gz]
+[2023-07-28 13:14:18] INFO root fetch - processPackages [proctracer]: Remove: archive file [/home/abi/fetcher/tmp/proctracer-0.0.23.tar.gz]
+[2023-07-28 13:14:18] INFO root fetch - processPackages [proctracer]: Start processing: amazon-scrape
+[2023-07-28 13:14:18] INFO root fetch - main [MainThread]: End processing [proctracer]: success
+[2023-07-28 13:14:18] WARNING root fetch - processPackages [pystasis]: Skipping, unable to determine old version
+[2023-07-28 13:14:18] INFO root fetch - processPackages [pystasis]: Start processing: pulumi-flux
+[2023-07-28 13:14:18] INFO root fetch - main [MainThread]: End processing [pystasis] error
+[2023-07-28 13:14:18] INFO root fetch - processPackages [agentloop]: Downloading https://files.pythonhosted.org/packages/81/ff/338197fb7e262d8e1fd917cafa483bbad9a66cc5c289442a5ca3c8d6f8ab/agentloop-0.1.4.tar.gz
+[2023-07-28 13:14:18] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-07-28 13:14:18] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-07-28 13:14:18] INFO root fetch - processPackages [agora-config]: Remove: archive file [/home/abi/fetcher/tmp/agora_config-1.1.34-py2.py3-none-any.whl.zip]
+[2023-07-28 13:14:18] INFO root fetch - processPackages [agora-config]: Remove: archive file [/home/abi/fetcher/tmp/agora_config-1.1.35-py2.py3-none-any.whl.zip]
+[2023-07-28 13:14:18] INFO root fetch - main [MainThread]: End processing [agora-config]: success
+[2023-07-28 13:14:18] INFO root fetch - processPackages [amazon-scrape]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-28 13:14:18] INFO root fetch - processPackages [agora-redis-client]: Remove: archive file [/home/abi/fetcher/tmp/agora_redis_client-1.1.34-py2.py3-none-any.whl.zip]
+[2023-07-28 13:14:18] INFO root fetch - processPackages [agora-redis-client]: Remove: archive file [/home/abi/fetcher/tmp/agora_redis_client-1.1.35-py2.py3-none-any.whl.zip]
+[2023-07-28 13:14:18] INFO root fetch - main [MainThread]: End processing [agora-redis-client]: success
+[2023-07-28 13:14:18] INFO root fetch - processPackages [agora-logging]: Remove: archive file [/home/abi/fetcher/tmp/agora_logging-1.1.34-py2.py3-none-any.whl.zip]
+[2023-07-28 13:14:18] INFO root fetch - processPackages [agora-logging]: Remove: archive file [/home/abi/fetcher/tmp/agora_logging-1.1.35-py2.py3-none-any.whl.zip]
+[2023-07-28 13:14:18] INFO root fetch - main [MainThread]: End processing [agora-logging]: success
+[2023-07-28 13:14:18] INFO root fetch - processPackages [amazon-scrape]: Downloading https://files.pythonhosted.org/packages/30/dd/674c6134a0ddd1f6a88dc47d2b483f645890879c5638641f9b23ae61917d/amazon_scrape-1.0.3.tar.gz
+[2023-07-28 13:14:18] INFO root fetch - processPackages [pulumi-flux]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-28 13:14:18] INFO root fetch - processPackages [omero-py]: executing diffoscope
+[2023-07-28 13:14:18] INFO root fetch - processPackages [omero-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omero-py-5.9.2.tar.gz tmp/omero-py-5.9.3.tar.gz --markdown 20230728/o/omero-py/5.9.2-5.9.3/diff.md --exclude *.pyd
+[2023-07-28 13:14:18] INFO root fetch - processPackages [agentloop]: Downloading https://files.pythonhosted.org/packages/2c/f2/eda5263693d12eaab0ec45f4fd929a4cb236b5013c3edc2bb00a8b9b80c6/agentloop-0.1.5.tar.gz
+[2023-07-28 13:14:18] INFO root fetch - processPackages [amazon-scrape]: Downloading https://files.pythonhosted.org/packages/7d/b9/59c02509c704f02d8851d5d1a0baf45f3e4fc4945e2b39d25a543ffaa9d8/amazon_scrape-1.0.4.tar.gz
+[2023-07-28 13:14:18] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.1.8.tar.gz]
+[2023-07-28 13:14:18] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.1.9.tar.gz]
+[2023-07-28 13:14:18] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2023-07-28 13:14:18] INFO root fetch - processPackages [pulumi-flux]: Downloading https://files.pythonhosted.org/packages/31/71/bd0658462e9ab262f4daa82bcfefe5358c4af2f147d518997e8c59e391ce/pulumi_flux-1.0.0.tar.gz
+[2023-07-28 13:14:19] INFO root fetch - processPackages [agentloop]: executing diffoscope
+[2023-07-28 13:14:19] INFO root fetch - processPackages [agentloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentloop-0.1.4.tar.gz tmp/agentloop-0.1.5.tar.gz --markdown 20230728/a/agentloop/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-28 13:14:19] INFO root fetch - processPackages [numbers-parser]: Remove: archive file [/home/abi/fetcher/tmp/numbers_parser-4.1.2.tar.gz]
+[2023-07-28 13:14:19] INFO root fetch - processPackages [numbers-parser]: Remove: archive file [/home/abi/fetcher/tmp/numbers_parser-4.2.0.tar.gz]
+[2023-07-28 13:14:19] INFO root fetch - main [MainThread]: End processing [numbers-parser]: success
+[2023-07-28 13:14:19] INFO root fetch - processPackages [amazon-scrape]: executing diffoscope
+[2023-07-28 13:14:19] INFO root fetch - processPackages [amazon-scrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon_scrape-1.0.3.tar.gz tmp/amazon_scrape-1.0.4.tar.gz --markdown 20230728/a/amazon-scrape/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-28 13:14:19] INFO root fetch - processPackages [pulumi-flux]: Downloading https://files.pythonhosted.org/packages/6a/e5/0187e65e09c4e7e33e9fc9bc3e7ed818870bfdc0da816acea23056f4ed50/pulumi_flux-1.0.1.tar.gz
+[2023-07-28 13:14:19] INFO root fetch - processPackages [pulumi-flux]: executing diffoscope
+[2023-07-28 13:14:19] INFO root fetch - processPackages [pulumi-flux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_flux-1.0.0.tar.gz tmp/pulumi_flux-1.0.1.tar.gz --markdown 20230728/p/pulumi-flux/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-28 13:14:19] INFO root fetch - processPackages [amazon-scrape]: Remove: archive file [/home/abi/fetcher/tmp/amazon_scrape-1.0.3.tar.gz]
+[2023-07-28 13:14:19] INFO root fetch - processPackages [amazon-scrape]: Remove: archive file [/home/abi/fetcher/tmp/amazon_scrape-1.0.4.tar.gz]
+[2023-07-28 13:14:19] INFO root fetch - main [MainThread]: End processing [amazon-scrape]: success
+[2023-07-28 13:14:19] INFO root fetch - processPackages [agentloop]: Remove: archive file [/home/abi/fetcher/tmp/agentloop-0.1.4.tar.gz]
+[2023-07-28 13:14:19] INFO root fetch - processPackages [agentloop]: Remove: archive file [/home/abi/fetcher/tmp/agentloop-0.1.5.tar.gz]
+[2023-07-28 13:14:19] INFO root fetch - main [MainThread]: End processing [agentloop]: success
+[2023-07-28 13:14:20] INFO root fetch - processPackages [pulumi-flux]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_flux-1.0.0.tar.gz]
+[2023-07-28 13:14:20] INFO root fetch - processPackages [pulumi-flux]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_flux-1.0.1.tar.gz]
+[2023-07-28 13:14:20] INFO root fetch - main [MainThread]: End processing [pulumi-flux]: success
+[2023-07-28 13:14:22] INFO root fetch - processPackages [omero-py]: Remove: archive file [/home/abi/fetcher/tmp/omero-py-5.9.2.tar.gz]
+[2023-07-28 13:14:22] INFO root fetch - processPackages [omero-py]: Remove: archive file [/home/abi/fetcher/tmp/omero-py-5.9.3.tar.gz]
+[2023-07-28 13:14:22] INFO root fetch - main [MainThread]: End processing [omero-py]: success
+[2023-07-28 13:14:22] INFO root fetch - main [MainThread]: Store serial: [19074763]
