@@ -14191,3 +14191,164 @@
 [2023-07-28 08:26:46] ERROR root fetch - processPackages [circt]: Timeout during execution of pkgdiff
 [2023-07-28 08:26:46] INFO root fetch - main [MainThread]: End processing [circt] error
 [2023-07-28 08:26:46] INFO root fetch - main [MainThread]: Store serial: [19072307]
+[2023-07-28 08:31:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19072307]
+[2023-07-28 08:31:55] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-28 08:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-28 08:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keyof
+[2023-07-28 08:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: krcg-bot
+[2023-07-28 08:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amazon-scrape
+[2023-07-28 08:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gitaudit
+[2023-07-28 08:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ptulsconv
+[2023-07-28 08:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Corrfunc
+[2023-07-28 08:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: awesomepython
+[2023-07-28 08:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: keyof
+[2023-07-28 08:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qiskit-classroom-converter
+[2023-07-28 08:31:55] INFO root fetch - processPackages [keyof]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-28 08:31:55] INFO root fetch - processPackages [ptulsconv]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-07-28 08:31:55] WARNING root fetch - processPackages [awesomepython]: Skipping, unable to determine old version
+[2023-07-28 08:31:55] INFO root fetch - processPackages [awesomepython]: Start processing: Tyf
+[2023-07-28 08:31:55] INFO root fetch - main [MainThread]: End processing [awesomepython] error
+[2023-07-28 08:31:55] INFO root fetch - processPackages [amazon-scrape]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-28 08:31:55] INFO root fetch - processPackages [keyof]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-28 08:31:55] INFO root fetch - processPackages [krcg-bot]: New version: [3.4] Old Version: [3.3]
+[2023-07-28 08:31:55] WARNING root fetch - processPackages [qiskit-classroom-converter]: Skipping, unable to determine old version
+[2023-07-28 08:31:55] INFO root fetch - processPackages [qiskit-classroom-converter]: Start processing: addnumroohann
+[2023-07-28 08:31:55] INFO root fetch - main [MainThread]: End processing [qiskit-classroom-converter] error
+[2023-07-28 08:31:55] INFO root fetch - processPackages [Corrfunc]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-07-28 08:31:55] INFO root fetch - processPackages [gitaudit]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-07-28 08:31:55] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-28 08:31:55] INFO root fetch - processPackages [Tyf]: New version: [1.5.1] Old Version: [1.4.3]
+[2023-07-28 08:31:55] INFO root fetch - processPackages [addnumroohann]: New version: [0.1] Old Version: [0.0.2]
+[2023-07-28 08:31:56] INFO root fetch - processPackages [keyof]: Downloading https://files.pythonhosted.org/packages/32/b3/a4df4e91ac7b003ddc5d596247b3e94c37df39468b86a244586f67be784f/keyof-0.3.1.tar.gz
+[2023-07-28 08:31:56] INFO root fetch - processPackages [keyof]: Downloading https://files.pythonhosted.org/packages/32/b3/a4df4e91ac7b003ddc5d596247b3e94c37df39468b86a244586f67be784f/keyof-0.3.1.tar.gz
+[2023-07-28 08:31:56] INFO root fetch - processPackages [amazon-scrape]: Downloading https://files.pythonhosted.org/packages/2c/43/43fcf6df35eff9b161ef6c67facef91078683fe3e2ec98464b65e1a843f3/amazon_scrape-1.0.0.tar.gz
+[2023-07-28 08:31:56] INFO root fetch - processPackages [ptulsconv]: Downloading https://files.pythonhosted.org/packages/36/47/7ef3f3cd349c8d85e62e9a60a13f7bbbcff3ef129f8c7ddfeaa10e882b61/ptulsconv-2.0.1.tar.gz
+[2023-07-28 08:31:56] INFO root fetch - processPackages [Corrfunc]: Downloading https://files.pythonhosted.org/packages/45/6a/8bbe83eeb3027278dbf85be2f96dd3038ff4b0af431e5c672d91550b27d3/Corrfunc-2.5.0.tar.gz
+[2023-07-28 08:31:56] INFO root fetch - processPackages [Tyf]: Downloading https://files.pythonhosted.org/packages/0b/6d/6a181e6d9127eeb63c6b4a498e3927aae0f45d758c3e351f1bae0c01993b/Tyf-1.4.3.tar.gz
+[2023-07-28 08:31:56] INFO root fetch - processPackages [addnumroohann]: Downloading https://files.pythonhosted.org/packages/89/34/30250463d90287dc22237edf157ee04ad982eca780a0df7b18fe062f71ff/addnumroohann-0.0.2-py3-none-any.whl
+[2023-07-28 08:31:56] INFO root fetch - processPackages [krcg-bot]: Downloading https://files.pythonhosted.org/packages/94/ad/d17471cd72747f5dd1298f6e880800fff6f14afffe6f9e582b0b88ca1c68/krcg-bot-3.3.tar.gz
+[2023-07-28 08:31:56] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/2d/30/e3485fc05b26e6d8d4ef8c4523b201e1e9c27c1f31908756f521ca2c8274/gitaudit-0.8.8.tar.gz
+[2023-07-28 08:31:56] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-28 08:31:56] WARNING root fetch - processPackages [Corrfunc]: Skipping package: exceeds size limit 26062830>=10485760
+[2023-07-28 08:31:56] INFO root fetch - processPackages [Corrfunc]: Start processing: fake-bpy-module-latest
+[2023-07-28 08:31:56] INFO root fetch - main [MainThread]: End processing [Corrfunc] error
+[2023-07-28 08:31:56] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230728] Old Version: [20230726]
+[2023-07-28 08:31:56] INFO root fetch - processPackages [keyof]: Downloading https://files.pythonhosted.org/packages/88/a7/80f8d9175c3339ca31bd2e97c395290c7fcbe563e10a98943dd7a0fc0ace/keyof-0.3.2.tar.gz
+[2023-07-28 08:31:56] INFO root fetch - processPackages [keyof]: Downloading https://files.pythonhosted.org/packages/88/a7/80f8d9175c3339ca31bd2e97c395290c7fcbe563e10a98943dd7a0fc0ace/keyof-0.3.2.tar.gz
+[2023-07-28 08:31:56] INFO root fetch - processPackages [amazon-scrape]: Downloading https://files.pythonhosted.org/packages/13/2e/2918871fe255857ff20d1b32ab4e4c6a55fa39543ba12bf10fc894a5f7f4/amazon_scrape-1.0.1.tar.gz
+[2023-07-28 08:31:56] INFO root fetch - processPackages [ptulsconv]: Downloading https://files.pythonhosted.org/packages/b7/4d/62c1e365fda5d0a6b44562b88855cd5e5edca4f4e04204d7d04cb1b500a4/ptulsconv-2.1.0.tar.gz
+[2023-07-28 08:31:56] INFO root fetch - processPackages [addnumroohann]: Downloading https://files.pythonhosted.org/packages/99/8e/d4756c654d202049d46b8b60c939a3cbcb6352df3c6958d1f80dc0a83d9b/addnumroohann-0.1-py3-none-any.whl
+[2023-07-28 08:31:56] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/6d/54/70a010633ae2008eb8086ae94d16bdd384331aa2117faa3e29f8ccfbfd59/gitaudit-0.9.0.tar.gz
+[2023-07-28 08:31:56] INFO root fetch - processPackages [krcg-bot]: Downloading https://files.pythonhosted.org/packages/e2/a2/8aa7a02590015d5bad6f6f59d39088f927d5a2581e0b81eb08ffd1231ba5/krcg-bot-3.4.tar.gz
+[2023-07-28 08:31:56] INFO root fetch - processPackages [Tyf]: Downloading https://files.pythonhosted.org/packages/ee/03/9c5bfe4248809273fdcebfd9e603845adcc605c2caf6e9e3996b0ded182a/Tyf-1.5.1.tar.gz
+[2023-07-28 08:31:56] INFO root fetch - processPackages [amazon-scrape]: executing diffoscope
+[2023-07-28 08:31:56] INFO root fetch - processPackages [amazon-scrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon_scrape-1.0.0.tar.gz tmp/amazon_scrape-1.0.1.tar.gz --markdown 20230728/a/amazon-scrape/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-28 08:31:56] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/60/8e/1bf7debda5e7f582f8146d61be79629e1dd7534f391e926097ad672c0681/fake-bpy-module-latest-20230726.tar.gz
+[2023-07-28 08:31:56] INFO root fetch - processPackages [ptulsconv]: executing diffoscope
+[2023-07-28 08:31:56] INFO root fetch - processPackages [ptulsconv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptulsconv-2.0.1.tar.gz tmp/ptulsconv-2.1.0.tar.gz --markdown 20230728/p/ptulsconv/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-07-28 08:31:56] INFO root fetch - processPackages [keyof]: executing diffoscope
+[2023-07-28 08:31:56] INFO root fetch - processPackages [keyof]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyof-0.3.1.tar.gz tmp/keyof-0.3.2.tar.gz --markdown 20230728/k/keyof/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-28 08:31:56] INFO root fetch - processPackages [keyof]: executing diffoscope
+[2023-07-28 08:31:56] INFO root fetch - processPackages [keyof]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyof-0.3.1.tar.gz tmp/keyof-0.3.2.tar.gz --markdown 20230728/k/keyof/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-28 08:31:56] INFO root fetch - processPackages [addnumroohann]: executing diffoscope
+[2023-07-28 08:31:56] INFO root fetch - processPackages [addnumroohann]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/addnumroohann-0.0.2-py3-none-any.whl.zip tmp/addnumroohann-0.1-py3-none-any.whl.zip --markdown 20230728/a/addnumroohann/0.0.2-0.1/diff.md --exclude *.pyd
+[2023-07-28 08:31:56] INFO root fetch - processPackages [gitaudit]: executing diffoscope
+[2023-07-28 08:31:56] INFO root fetch - processPackages [gitaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitaudit-0.8.8.tar.gz tmp/gitaudit-0.9.0.tar.gz --markdown 20230728/g/gitaudit/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-07-28 08:31:57] INFO root fetch - processPackages [krcg-bot]: executing diffoscope
+[2023-07-28 08:31:57] INFO root fetch - processPackages [krcg-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krcg-bot-3.3.tar.gz tmp/krcg-bot-3.4.tar.gz --markdown 20230728/k/krcg-bot/3.3-3.4/diff.md --exclude *.pyd
+[2023-07-28 08:31:57] INFO root fetch - processPackages [Tyf]: executing diffoscope
+[2023-07-28 08:31:57] INFO root fetch - processPackages [Tyf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Tyf-1.4.3.tar.gz tmp/Tyf-1.5.1.tar.gz --markdown 20230728/T/Tyf/1.4.3-1.5.1/diff.md --exclude *.pyd
+[2023-07-28 08:31:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-28 08:31:57] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/d1/06/35e8ad4a61d08f5e2f2402367adf44a42e644c04591511059d6e1f4e3b00/fake-bpy-module-latest-20230728.tar.gz
+[2023-07-28 08:31:57] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-07-28 08:31:57] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230726.tar.gz tmp/fake-bpy-module-latest-20230728.tar.gz --markdown 20230728/f/fake-bpy-module-latest/20230726-20230728/diff.md --exclude *.pyd
+[2023-07-28 08:31:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-28 08:31:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230728/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-28 08:31:58] INFO root fetch - processPackages [keyof]: Remove: archive file [/home/abi/fetcher/tmp/keyof-0.3.1.tar.gz]
+[2023-07-28 08:31:58] INFO root fetch - processPackages [keyof]: Remove: archive file [/home/abi/fetcher/tmp/keyof-0.3.2.tar.gz]
+[2023-07-28 08:31:58] INFO root fetch - processPackages [keyof]: Start processing: emzed-remote-client
+[2023-07-28 08:31:58] INFO root fetch - main [MainThread]: End processing [keyof]: success
+[2023-07-28 08:31:58] WARNING root fetch - processPackages [emzed-remote-client]: Skipping, unable to determine old version
+[2023-07-28 08:31:58] INFO root fetch - processPackages [emzed-remote-client]: Start processing: chemtools-py
+[2023-07-28 08:31:58] INFO root fetch - main [MainThread]: End processing [emzed-remote-client] error
+[2023-07-28 08:31:58] INFO root fetch - processPackages [amazon-scrape]: Remove: archive file [/home/abi/fetcher/tmp/amazon_scrape-1.0.0.tar.gz]
+[2023-07-28 08:31:58] INFO root fetch - processPackages [amazon-scrape]: Remove: archive file [/home/abi/fetcher/tmp/amazon_scrape-1.0.1.tar.gz]
+[2023-07-28 08:31:58] INFO root fetch - processPackages [amazon-scrape]: Start processing: slist
+[2023-07-28 08:31:58] INFO root fetch - main [MainThread]: End processing [amazon-scrape]: success
+[2023-07-28 08:31:58] INFO root fetch - processPackages [addnumroohann]: Remove: archive file [/home/abi/fetcher/tmp/addnumroohann-0.0.2-py3-none-any.whl.zip]
+[2023-07-28 08:31:58] INFO root fetch - processPackages [addnumroohann]: Remove: archive file [/home/abi/fetcher/tmp/addnumroohann-0.1-py3-none-any.whl.zip]
+[2023-07-28 08:31:58] INFO root fetch - processPackages [addnumroohann]: Start processing: devchat-ask
+[2023-07-28 08:31:58] INFO root fetch - main [MainThread]: End processing [addnumroohann]: success
+[2023-07-28 08:31:58] WARNING root fetch - processPackages [chemtools-py]: Skipping, unable to determine old version
+[2023-07-28 08:31:58] INFO root fetch - processPackages [chemtools-py]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-28 08:31:58] INFO root fetch - main [MainThread]: End processing [chemtools-py] error
+[2023-07-28 08:31:58] INFO root fetch - processPackages [slist]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-28 08:31:58] INFO root fetch - processPackages [devchat-ask]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-28 08:31:58] INFO root fetch - processPackages [keyof]: Start processing: cog2
+[2023-07-28 08:31:58] INFO root fetch - processPackages [ptulsconv]: Remove: archive file [/home/abi/fetcher/tmp/ptulsconv-2.0.1.tar.gz]
+[2023-07-28 08:31:58] INFO root fetch - main [MainThread]: End processing [keyof]: success
+[2023-07-28 08:31:58] INFO root fetch - processPackages [ptulsconv]: Remove: archive file [/home/abi/fetcher/tmp/ptulsconv-2.1.0.tar.gz]
+[2023-07-28 08:31:58] INFO root fetch - main [MainThread]: End processing [ptulsconv]: success
+[2023-07-28 08:31:58] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-28 08:31:58] INFO root fetch - processPackages [cog2]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-28 08:31:58] INFO root fetch - processPackages [devchat-ask]: Downloading https://files.pythonhosted.org/packages/38/b4/b740b6e48bc9096fd8e87d422dc66164a9c24962b00c1850b144b407aa68/devchat_ask-0.0.7-cp311-cp311-win_amd64.whl
+[2023-07-28 08:31:58] INFO root fetch - processPackages [cog2]: Downloading https://files.pythonhosted.org/packages/8f/fa/7abf39b93251a9f0644b0620d93d43ec79b880016451e3a9cce181a574c5/cog2-0.1.5.tar.gz
+[2023-07-28 08:31:58] INFO root fetch - processPackages [Tyf]: Remove: archive file [/home/abi/fetcher/tmp/Tyf-1.4.3.tar.gz]
+[2023-07-28 08:31:58] INFO root fetch - processPackages [Tyf]: Remove: archive file [/home/abi/fetcher/tmp/Tyf-1.5.1.tar.gz]
+[2023-07-28 08:31:58] INFO root fetch - processPackages [slist]: Downloading https://files.pythonhosted.org/packages/9e/de/b5303a792337bb341fa2e8fb5ae56f14a171ac055f78d48d9ff354204413/slist-0.1.6.tar.gz
+[2023-07-28 08:31:58] INFO root fetch - main [MainThread]: End processing [Tyf]: success
+[2023-07-28 08:31:58] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.8.8.tar.gz]
+[2023-07-28 08:31:58] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.9.0.tar.gz]
+[2023-07-28 08:31:58] INFO root fetch - main [MainThread]: End processing [gitaudit]: success
+[2023-07-28 08:31:58] INFO root fetch - processPackages [krcg-bot]: Remove: archive file [/home/abi/fetcher/tmp/krcg-bot-3.3.tar.gz]
+[2023-07-28 08:31:58] INFO root fetch - processPackages [krcg-bot]: Remove: archive file [/home/abi/fetcher/tmp/krcg-bot-3.4.tar.gz]
+[2023-07-28 08:31:58] INFO root fetch - main [MainThread]: End processing [krcg-bot]: success
+[2023-07-28 08:31:58] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-28 08:31:58] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230728/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-28 08:31:59] INFO root fetch - processPackages [cog2]: Downloading https://files.pythonhosted.org/packages/f6/e1/98fcb01c7302b6c81527a742aa475bf760a67b9e5d6ecc13cecc6b3133fb/cog2-0.1.6.tar.gz
+[2023-07-28 08:31:59] INFO root fetch - processPackages [slist]: Downloading https://files.pythonhosted.org/packages/68/ee/2bc62feca1dce67c2798fdd5d04df7ac083b2a665d8941f4a75fd08d1d3b/slist-0.1.7.tar.gz
+[2023-07-28 08:31:59] INFO root fetch - processPackages [slist]: executing diffoscope
+[2023-07-28 08:31:59] INFO root fetch - processPackages [slist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slist-0.1.6.tar.gz tmp/slist-0.1.7.tar.gz --markdown 20230728/s/slist/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-28 08:31:59] INFO root fetch - processPackages [devchat-ask]: Downloading https://files.pythonhosted.org/packages/e1/40/73ee530a10174b75bcea330f32a93953942d0d8ecc4aeb1024aa71199452/devchat_ask-0.0.8-cp311-cp311-macosx_12_0_arm64.whl
+[2023-07-28 08:31:59] INFO root fetch - processPackages [cog2]: executing diffoscope
+[2023-07-28 08:31:59] INFO root fetch - processPackages [cog2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cog2-0.1.5.tar.gz tmp/cog2-0.1.6.tar.gz --markdown 20230728/c/cog2/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-28 08:31:59] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-28 08:31:59] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-28 08:31:59] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-28 08:31:59] INFO root fetch - processPackages [devchat-ask]: executing diffoscope
+[2023-07-28 08:31:59] INFO root fetch - processPackages [devchat-ask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devchat_ask-0.0.7-cp311-cp311-win_amd64.whl.zip tmp/devchat_ask-0.0.8-cp311-cp311-macosx_12_0_arm64.whl.zip --markdown 20230728/d/devchat-ask/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-28 08:31:59] ERROR root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Diffoscope failed: time="2023-07-28T08:31:58+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz does not exist
+
+[2023-07-28 08:31:59] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui] error
+[2023-07-28 08:32:00] INFO root fetch - processPackages [slist]: Remove: archive file [/home/abi/fetcher/tmp/slist-0.1.6.tar.gz]
+[2023-07-28 08:32:00] INFO root fetch - processPackages [slist]: Remove: archive file [/home/abi/fetcher/tmp/slist-0.1.7.tar.gz]
+[2023-07-28 08:32:00] INFO root fetch - main [MainThread]: End processing [slist]: success
+[2023-07-28 08:32:00] INFO root fetch - processPackages [cog2]: Remove: archive file [/home/abi/fetcher/tmp/cog2-0.1.5.tar.gz]
+[2023-07-28 08:32:00] INFO root fetch - processPackages [cog2]: Remove: archive file [/home/abi/fetcher/tmp/cog2-0.1.6.tar.gz]
+[2023-07-28 08:32:00] INFO root fetch - main [MainThread]: End processing [cog2]: success
+[2023-07-28 08:32:00] INFO root fetch - processPackages [devchat-ask]: Remove: archive file [/home/abi/fetcher/tmp/devchat_ask-0.0.7-cp311-cp311-win_amd64.whl.zip]
+[2023-07-28 08:32:00] INFO root fetch - processPackages [devchat-ask]: Remove: archive file [/home/abi/fetcher/tmp/devchat_ask-0.0.8-cp311-cp311-macosx_12_0_arm64.whl.zip]
+[2023-07-28 08:32:00] INFO root fetch - main [MainThread]: End processing [devchat-ask]: success
+[2023-07-28 08:32:02] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230726.tar.gz]
+[2023-07-28 08:32:02] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230728.tar.gz]
+[2023-07-28 08:32:02] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-07-28 08:32:02] INFO root fetch - main [MainThread]: Store serial: [19072375]
