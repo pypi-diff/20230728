@@ -18762,3 +18762,338 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 11:39:42] INFO root fetch - processPackages [ec2-api]: Remove: archive file [/home/abi/fetcher/tmp/ec2-api-9.0.1.tar.gz]
 [2023-07-28 11:39:42] INFO root fetch - main [MainThread]: End processing [ec2-api]: success
 [2023-07-28 11:39:42] INFO root fetch - main [MainThread]: Store serial: [19073989]
+[2023-07-28 11:44:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19073989]
+[2023-07-28 11:44:50] INFO root fetch - main [MainThread]: Found 38 changed packages
+[2023-07-28 11:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: summa-embed
+[2023-07-28 11:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unitsnet-py
+[2023-07-28 11:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hydronaut
+[2023-07-28 11:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elasticai-creator
+[2023-07-28 11:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: authentikate
+[2023-07-28 11:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kodexa-cli
+[2023-07-28 11:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bullhorn
+[2023-07-28 11:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: azure-mgmt-sql
+[2023-07-28 11:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vdk-control-cli
+[2023-07-28 11:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vdk-core
+[2023-07-28 11:44:51] INFO root fetch - processPackages [azure-mgmt-sql]: New version: [4.0.0b9] Old Version: [4.0.0b8]
+[2023-07-28 11:44:51] INFO root fetch - processPackages [vdk-control-cli]: New version: [1.3.948436673] Old Version: [1.3.946154660]
+[2023-07-28 11:44:51] WARNING root fetch - processPackages [authentikate]: Skipping, unable to determine old version
+[2023-07-28 11:44:51] INFO root fetch - processPackages [authentikate]: Start processing: vdk-heartbeat
+[2023-07-28 11:44:51] INFO root fetch - main [MainThread]: End processing [authentikate] error
+[2023-07-28 11:44:51] INFO root fetch - processPackages [hydronaut]: New version: [2023.9] Old Version: [2023.8]
+[2023-07-28 11:44:51] INFO root fetch - processPackages [unitsnet-py]: New version: [0.1.50] Old Version: [0.1.49]
+[2023-07-28 11:44:51] INFO root fetch - processPackages [bullhorn]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-28 11:44:51] INFO root fetch - processPackages [elasticai-creator]: New version: [0.9.0] Old Version: [0.7.0]
+[2023-07-28 11:44:51] INFO root fetch - processPackages [summa-embed]: New version: [0.17.8] Old Version: [0.17.7]
+[2023-07-28 11:44:51] INFO root fetch - processPackages [vdk-core]: New version: [0.3.948436673] Old Version: [0.3.944573153]
+[2023-07-28 11:44:51] INFO root fetch - processPackages [kodexa-cli]: New version: [6.3.35690535825] Old Version: [6.3.35654118139]
+[2023-07-28 11:44:51] INFO root fetch - processPackages [vdk-heartbeat]: New version: [0.6.948436673] Old Version: [0.6.944778073]
+[2023-07-28 11:44:51] INFO root fetch - processPackages [hydronaut]: Downloading https://files.pythonhosted.org/packages/9d/7e/b225a7a7a2ffb86b4ed3fe056e172c078f041e79eabad986817c4a68a007/hydronaut-2023.8.tar.gz
+[2023-07-28 11:44:51] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/db/98/e2d1ac9e249f3cedced10eefca9ba59403d611abd06f92a8827b24f44152/unitsnet-py-0.1.49.tar.gz
+[2023-07-28 11:44:51] INFO root fetch - processPackages [azure-mgmt-sql]: Downloading https://files.pythonhosted.org/packages/b5/4f/a5dfd452b1c4969300a38d0ee5fce4f2f24d7e935afb1cc33c3ee78c0302/azure-mgmt-sql-4.0.0b8.zip
+[2023-07-28 11:44:51] INFO root fetch - processPackages [vdk-control-cli]: Downloading https://files.pythonhosted.org/packages/f0/02/89bbe5038f98156716362047bc010d9e41f42e1229f0c643c61b7cc07fca/vdk-control-cli-1.3.946154660.tar.gz
+[2023-07-28 11:44:51] INFO root fetch - processPackages [vdk-heartbeat]: Downloading https://files.pythonhosted.org/packages/69/49/becdc5d9ce4e72f7925f18803ab2969447027b7f1720a59a8dc23b376672/vdk-heartbeat-0.6.944778073.tar.gz
+[2023-07-28 11:44:51] INFO root fetch - processPackages [summa-embed]: Downloading https://files.pythonhosted.org/packages/1f/ca/7d1b6d9708631980064fe1827d375ee8077236c3b20d7dc87bce7a36f8c1/summa_embed-0.17.7.tar.gz
+[2023-07-28 11:44:51] INFO root fetch - processPackages [bullhorn]: Downloading https://files.pythonhosted.org/packages/f3/c1/51210e6901a3efb4af266074a88282286ebd0119dcc5750bdfcf10105680/bullhorn-0.0.4.tar.gz
+[2023-07-28 11:44:51] INFO root fetch - processPackages [elasticai-creator]: Downloading https://files.pythonhosted.org/packages/f4/f4/3c8441508e7e4c9f560d0bb8bfbfc64a417b96a55a09af93424946816450/elasticai.creator-0.7.0.tar.gz
+[2023-07-28 11:44:51] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/c6/11/68ce801c4092eff5a56e9bb897c413fa7d677b847f290d53e7e68a3b0dd7/kodexa_cli-6.3.35654118139.tar.gz
+[2023-07-28 11:44:51] INFO root fetch - processPackages [vdk-core]: Downloading https://files.pythonhosted.org/packages/64/f9/c74448f110a74d7386bb8121d713a31f4f4552577132660f5b3d8412381f/vdk-core-0.3.944573153.tar.gz
+[2023-07-28 11:44:51] INFO root fetch - processPackages [hydronaut]: Downloading https://files.pythonhosted.org/packages/3d/59/c4998d8baa4060422ab6762f749beca1991fee8049c534d779d8abda658d/hydronaut-2023.9.tar.gz
+[2023-07-28 11:44:52] INFO root fetch - processPackages [hydronaut]: executing diffoscope
+[2023-07-28 11:44:52] INFO root fetch - processPackages [hydronaut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydronaut-2023.8.tar.gz tmp/hydronaut-2023.9.tar.gz --markdown 20230728/h/hydronaut/2023.8-2023.9/diff.md --exclude *.pyd
+[2023-07-28 11:44:52] INFO root fetch - processPackages [vdk-heartbeat]: Downloading https://files.pythonhosted.org/packages/55/d7/165cf13725a55f76c3b2b3ce9095cc0c656172394b5652387f1753c6ecb2/vdk-heartbeat-0.6.948436673.tar.gz
+[2023-07-28 11:44:52] INFO root fetch - processPackages [summa-embed]: Downloading https://files.pythonhosted.org/packages/6b/ea/150d0c00b745d433ff3c5141fc5860aa80bc411f482be6781499f6c5ac8a/summa_embed-0.17.8.tar.gz
+[2023-07-28 11:44:52] INFO root fetch - processPackages [bullhorn]: Downloading https://files.pythonhosted.org/packages/15/f7/27749ddac4e78a41a9a896f1809a65a7c03d56592f0fe3b94cd16d0498f5/bullhorn-0.0.5.tar.gz
+[2023-07-28 11:44:52] INFO root fetch - processPackages [vdk-control-cli]: Downloading https://files.pythonhosted.org/packages/45/14/00dede63b7e256176654fffc2a338c2bc730739ed5d96d39c99d0d62e683/vdk-control-cli-1.3.948436673.tar.gz
+[2023-07-28 11:44:52] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/57/27/57405182353fe4abd4116eadfc821dd9e4f725816f8ef07947b34da47ccd/unitsnet-py-0.1.50.tar.gz
+[2023-07-28 11:44:52] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/1b/2d/a783228625216d3d03289955e389fa2ee3cad129d1eb51869f6c90d75b22/kodexa_cli-6.3.35690535825.tar.gz
+[2023-07-28 11:44:52] INFO root fetch - processPackages [vdk-core]: Downloading https://files.pythonhosted.org/packages/f8/07/19eb869da43cbfc4619b220d72f8ec3f4e5d4572184013c940347840e8ad/vdk-core-0.3.948436673.tar.gz
+[2023-07-28 11:44:52] INFO root fetch - processPackages [elasticai-creator]: Downloading https://files.pythonhosted.org/packages/41/00/ecf6fd2903be8cf829d89408464d3338913631ab10066e0541a95b004b45/elasticai.creator-0.9.0.tar.gz
+[2023-07-28 11:44:52] INFO root fetch - processPackages [vdk-heartbeat]: executing diffoscope
+[2023-07-28 11:44:52] INFO root fetch - processPackages [vdk-heartbeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-heartbeat-0.6.944778073.tar.gz tmp/vdk-heartbeat-0.6.948436673.tar.gz --markdown 20230728/v/vdk-heartbeat/0.6.944778073-0.6.948436673/diff.md --exclude *.pyd
+[2023-07-28 11:44:52] INFO root fetch - processPackages [bullhorn]: executing diffoscope
+[2023-07-28 11:44:52] INFO root fetch - processPackages [bullhorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bullhorn-0.0.4.tar.gz tmp/bullhorn-0.0.5.tar.gz --markdown 20230728/b/bullhorn/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-28 11:44:52] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-07-28 11:44:52] INFO root fetch - processPackages [vdk-control-cli]: executing diffoscope
+[2023-07-28 11:44:52] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.3.35654118139.tar.gz tmp/kodexa_cli-6.3.35690535825.tar.gz --markdown 20230728/k/kodexa-cli/6.3.35654118139-6.3.35690535825/diff.md --exclude *.pyd
+[2023-07-28 11:44:52] INFO root fetch - processPackages [summa-embed]: executing diffoscope
+[2023-07-28 11:44:52] INFO root fetch - processPackages [vdk-control-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-control-cli-1.3.946154660.tar.gz tmp/vdk-control-cli-1.3.948436673.tar.gz --markdown 20230728/v/vdk-control-cli/1.3.946154660-1.3.948436673/diff.md --exclude *.pyd
+[2023-07-28 11:44:52] INFO root fetch - processPackages [summa-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summa_embed-0.17.7.tar.gz tmp/summa_embed-0.17.8.tar.gz --markdown 20230728/s/summa-embed/0.17.7-0.17.8/diff.md --exclude *.pyd
+[2023-07-28 11:44:52] INFO root fetch - processPackages [unitsnet-py]: executing diffoscope
+[2023-07-28 11:44:52] INFO root fetch - processPackages [unitsnet-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitsnet-py-0.1.49.tar.gz tmp/unitsnet-py-0.1.50.tar.gz --markdown 20230728/u/unitsnet-py/0.1.49-0.1.50/diff.md --exclude *.pyd
+[2023-07-28 11:44:52] INFO root fetch - processPackages [vdk-core]: executing diffoscope
+[2023-07-28 11:44:52] INFO root fetch - processPackages [vdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-core-0.3.944573153.tar.gz tmp/vdk-core-0.3.948436673.tar.gz --markdown 20230728/v/vdk-core/0.3.944573153-0.3.948436673/diff.md --exclude *.pyd
+[2023-07-28 11:44:52] INFO root fetch - processPackages [elasticai-creator]: executing diffoscope
+[2023-07-28 11:44:52] INFO root fetch - processPackages [elasticai-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elasticai.creator-0.7.0.tar.gz tmp/elasticai.creator-0.9.0.tar.gz --markdown 20230728/e/elasticai-creator/0.7.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-28 11:44:52] INFO root fetch - processPackages [azure-mgmt-sql]: Downloading https://files.pythonhosted.org/packages/87/bf/8641af0272d36dd2e3c709f6331087efbccb34475cce793b767db5791f90/azure-mgmt-sql-4.0.0b9.zip
+[2023-07-28 11:44:53] INFO root fetch - processPackages [azure-mgmt-sql]: executing diffoscope
+[2023-07-28 11:44:53] INFO root fetch - processPackages [azure-mgmt-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-sql-4.0.0b8.zip tmp/azure-mgmt-sql-4.0.0b9.zip --markdown 20230728/a/azure-mgmt-sql/4.0.0b8-4.0.0b9/diff.md --exclude *.pyd
+[2023-07-28 11:44:53] INFO root fetch - processPackages [hydronaut]: Remove: archive file [/home/abi/fetcher/tmp/hydronaut-2023.8.tar.gz]
+[2023-07-28 11:44:53] INFO root fetch - processPackages [hydronaut]: Remove: archive file [/home/abi/fetcher/tmp/hydronaut-2023.9.tar.gz]
+[2023-07-28 11:44:53] INFO root fetch - processPackages [hydronaut]: Start processing: vdk-control-api-auth
+[2023-07-28 11:44:53] INFO root fetch - main [MainThread]: End processing [hydronaut]: success
+[2023-07-28 11:44:53] INFO root fetch - processPackages [vdk-control-api-auth]: New version: [0.1.948436673] Old Version: [0.1.824443273]
+[2023-07-28 11:44:53] INFO root fetch - processPackages [vdk-control-api-auth]: Downloading https://files.pythonhosted.org/packages/b8/5e/420e295efec39fe54e0d89415086ee1157317215a948ce3aa5fa5e424a18/vdk-control-api-auth-0.1.824443273.tar.gz
+[2023-07-28 11:44:53] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.3.35654118139.tar.gz]
+[2023-07-28 11:44:53] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.3.35690535825.tar.gz]
+[2023-07-28 11:44:53] INFO root fetch - processPackages [kodexa-cli]: Start processing: vdk-ingest-http
+[2023-07-28 11:44:53] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-07-28 11:44:53] INFO root fetch - processPackages [bullhorn]: Remove: archive file [/home/abi/fetcher/tmp/bullhorn-0.0.4.tar.gz]
+[2023-07-28 11:44:53] INFO root fetch - processPackages [bullhorn]: Remove: archive file [/home/abi/fetcher/tmp/bullhorn-0.0.5.tar.gz]
+[2023-07-28 11:44:53] INFO root fetch - processPackages [bullhorn]: Start processing: vdk-csv
+[2023-07-28 11:44:53] INFO root fetch - main [MainThread]: End processing [bullhorn]: success
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-heartbeat]: Remove: archive file [/home/abi/fetcher/tmp/vdk-heartbeat-0.6.944778073.tar.gz]
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-heartbeat]: Remove: archive file [/home/abi/fetcher/tmp/vdk-heartbeat-0.6.948436673.tar.gz]
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-heartbeat]: Start processing: lesscode-py
+[2023-07-28 11:44:54] INFO root fetch - main [MainThread]: End processing [vdk-heartbeat]: success
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-ingest-http]: New version: [0.2.948436673] Old Version: [0.2.824443273]
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-control-api-auth]: Downloading https://files.pythonhosted.org/packages/b4/3e/2b751e532b130a2653b1aa3a6a5c7fb9e5b5e9ccd2e183fa41c6e692b191/vdk-control-api-auth-0.1.948436673.tar.gz
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-csv]: New version: [0.1.948436673] Old Version: [0.1.824443273]
+[2023-07-28 11:44:54] INFO root fetch - processPackages [lesscode-py]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-control-api-auth]: executing diffoscope
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-control-api-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-control-api-auth-0.1.824443273.tar.gz tmp/vdk-control-api-auth-0.1.948436673.tar.gz --markdown 20230728/v/vdk-control-api-auth/0.1.824443273-0.1.948436673/diff.md --exclude *.pyd
+[2023-07-28 11:44:54] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/93/59/9c87e90597a4fc3c2567abe4a0ff19fd2b89df126eacc6b3d22b92ec47b4/lesscode-py-0.3.8.tar.gz
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-control-cli]: Remove: archive file [/home/abi/fetcher/tmp/vdk-control-cli-1.3.946154660.tar.gz]
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-control-cli]: Remove: archive file [/home/abi/fetcher/tmp/vdk-control-cli-1.3.948436673.tar.gz]
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-control-cli]: Start processing: vdk-ingest-file
+[2023-07-28 11:44:54] INFO root fetch - main [MainThread]: End processing [vdk-control-cli]: success
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-ingest-http]: Downloading https://files.pythonhosted.org/packages/1f/d3/10724c6e76c3f258138cc663703b2256f5af3b9079ff1754b2e98b0fbf2f/vdk-ingest-http-0.2.824443273.tar.gz
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-csv]: Downloading https://files.pythonhosted.org/packages/af/09/f67bb8db3ff8f0019b7ec8109442908aae97ad9c9a0f4cc1e68c2a96bef7/vdk-csv-0.1.824443273.tar.gz
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-ingest-file]: New version: [0.1.948436673] Old Version: [0.1.824443273]
+[2023-07-28 11:44:54] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/64/97/cec698b665aba9a27d2cddb9f7528a8982bbaa3379372774ff671e45fb3e/lesscode-py-0.3.9.tar.gz
+[2023-07-28 11:44:54] INFO root fetch - processPackages [lesscode-py]: executing diffoscope
+[2023-07-28 11:44:54] INFO root fetch - processPackages [lesscode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode-py-0.3.8.tar.gz tmp/lesscode-py-0.3.9.tar.gz --markdown 20230728/l/lesscode-py/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-ingest-file]: Downloading https://files.pythonhosted.org/packages/68/e5/b1c2f8abe018df46cf6738bc2df25a1734858da352f838da2b36861eee59/vdk-ingest-file-0.1.824443273.tar.gz
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-core]: Remove: archive file [/home/abi/fetcher/tmp/vdk-core-0.3.944573153.tar.gz]
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-core]: Remove: archive file [/home/abi/fetcher/tmp/vdk-core-0.3.948436673.tar.gz]
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-core]: Start processing: vdk-gdp-execution-id
+[2023-07-28 11:44:54] INFO root fetch - main [MainThread]: End processing [vdk-core]: success
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-ingest-http]: Downloading https://files.pythonhosted.org/packages/84/69/6ba500ba1e9fd1d042f5bcac12433890f057858cecbdecea27d65593e298/vdk-ingest-http-0.2.948436673.tar.gz
+[2023-07-28 11:44:54] INFO root fetch - processPackages [elasticai-creator]: Remove: archive file [/home/abi/fetcher/tmp/elasticai.creator-0.7.0.tar.gz]
+[2023-07-28 11:44:54] INFO root fetch - processPackages [elasticai-creator]: Remove: archive file [/home/abi/fetcher/tmp/elasticai.creator-0.9.0.tar.gz]
+[2023-07-28 11:44:54] INFO root fetch - processPackages [elasticai-creator]: Start processing: vdk-dag
+[2023-07-28 11:44:54] INFO root fetch - main [MainThread]: End processing [elasticai-creator]: success
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-csv]: Downloading https://files.pythonhosted.org/packages/b9/81/59be68f1cc2b2dbe67c7436f3cfe196bda335b800877cef8b3e31bc1949b/vdk-csv-0.1.948436673.tar.gz
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-gdp-execution-id]: New version: [0.0.948436673] Old Version: [0.0.863985686]
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-dag]: New version: [0.1.948436673] Old Version: [0.1.884801326]
+[2023-07-28 11:44:54] INFO root fetch - processPackages [summa-embed]: Remove: archive file [/home/abi/fetcher/tmp/summa_embed-0.17.7.tar.gz]
+[2023-07-28 11:44:54] INFO root fetch - processPackages [summa-embed]: Remove: archive file [/home/abi/fetcher/tmp/summa_embed-0.17.8.tar.gz]
+[2023-07-28 11:44:54] INFO root fetch - processPackages [summa-embed]: Start processing: vdk-logging-format
+[2023-07-28 11:44:54] INFO root fetch - main [MainThread]: End processing [summa-embed]: success
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-ingest-http]: executing diffoscope
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-ingest-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-ingest-http-0.2.824443273.tar.gz tmp/vdk-ingest-http-0.2.948436673.tar.gz --markdown 20230728/v/vdk-ingest-http/0.2.824443273-0.2.948436673/diff.md --exclude *.pyd
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-csv]: executing diffoscope
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-logging-format]: New version: [0.1.948436673] Old Version: [0.1.824443273]
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-csv-0.1.824443273.tar.gz tmp/vdk-csv-0.1.948436673.tar.gz --markdown 20230728/v/vdk-csv/0.1.824443273-0.1.948436673/diff.md --exclude *.pyd
+[2023-07-28 11:44:54] INFO root fetch - processPackages [vdk-gdp-execution-id]: Downloading https://files.pythonhosted.org/packages/52/c3/3d11d7c1f3bfb534ae66a6d99348e8f3dd532c34256ee236a7d253cf0db7/vdk-gdp-execution-id-0.0.863985686.tar.gz
+[2023-07-28 11:44:55] INFO root fetch - processPackages [vdk-dag]: Downloading https://files.pythonhosted.org/packages/f1/49/be74eb1318b6efc8952ab509ca9edc5746d0f44796d2009449f67f33d0d1/vdk-dag-0.1.884801326.tar.gz
+[2023-07-28 11:44:55] INFO root fetch - processPackages [vdk-ingest-file]: Downloading https://files.pythonhosted.org/packages/e3/cc/685f49a66a68ab4e45a7be8f1ce9e9f384733b3512ecffa4ced62399e3b5/vdk-ingest-file-0.1.948436673.tar.gz
+[2023-07-28 11:44:55] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.49.tar.gz]
+[2023-07-28 11:44:55] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.50.tar.gz]
+[2023-07-28 11:44:55] INFO root fetch - processPackages [unitsnet-py]: Start processing: vdk-lineage-model
+[2023-07-28 11:44:55] INFO root fetch - main [MainThread]: End processing [unitsnet-py]: success
+[2023-07-28 11:44:55] INFO root fetch - processPackages [vdk-logging-format]: Downloading https://files.pythonhosted.org/packages/59/02/04923e7b4ed0b2ff552835ef1c61583a00036d4b20445640c5bb1fd24f94/vdk-logging-format-0.1.824443273.tar.gz
+[2023-07-28 11:44:55] INFO root fetch - processPackages [vdk-lineage-model]: New version: [0.0.948436673] Old Version: [0.0.824443273]
+[2023-07-28 11:44:55] INFO root fetch - processPackages [vdk-ingest-file]: executing diffoscope
+[2023-07-28 11:44:55] INFO root fetch - processPackages [vdk-ingest-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-ingest-file-0.1.824443273.tar.gz tmp/vdk-ingest-file-0.1.948436673.tar.gz --markdown 20230728/v/vdk-ingest-file/0.1.824443273-0.1.948436673/diff.md --exclude *.pyd
+[2023-07-28 11:44:55] INFO root fetch - processPackages [vdk-gdp-execution-id]: Downloading https://files.pythonhosted.org/packages/40/28/9b629790e599d4f493a71cd5fabfde3ba4e11cc9b963cc50ca584fb08a6a/vdk-gdp-execution-id-0.0.948436673.tar.gz
+[2023-07-28 11:44:55] INFO root fetch - processPackages [vdk-dag]: Downloading https://files.pythonhosted.org/packages/e2/05/32a3cb2d8f45b40e7bd19b33fa88c4515df4041d025a701e6d2d9b386955/vdk-dag-0.1.948436673.tar.gz
+[2023-07-28 11:44:55] INFO root fetch - processPackages [vdk-logging-format]: Downloading https://files.pythonhosted.org/packages/7f/cc/5d5a22ddd7134a86e3e677011acce861cc1192fe68ee5c5d80830b2db2e9/vdk-logging-format-0.1.948436673.tar.gz
+[2023-07-28 11:44:55] INFO root fetch - processPackages [vdk-lineage-model]: Downloading https://files.pythonhosted.org/packages/42/4a/fdcd034293d6b60e2abe0c6214a612e29c8868fa614153f9222071f47bac/vdk-lineage-model-0.0.824443273.tar.gz
+[2023-07-28 11:44:55] INFO root fetch - processPackages [vdk-gdp-execution-id]: executing diffoscope
+[2023-07-28 11:44:55] INFO root fetch - processPackages [vdk-gdp-execution-id]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-gdp-execution-id-0.0.863985686.tar.gz tmp/vdk-gdp-execution-id-0.0.948436673.tar.gz --markdown 20230728/v/vdk-gdp-execution-id/0.0.863985686-0.0.948436673/diff.md --exclude *.pyd
+[2023-07-28 11:44:55] INFO root fetch - processPackages [vdk-dag]: executing diffoscope
+[2023-07-28 11:44:55] INFO root fetch - processPackages [vdk-dag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-dag-0.1.884801326.tar.gz tmp/vdk-dag-0.1.948436673.tar.gz --markdown 20230728/v/vdk-dag/0.1.884801326-0.1.948436673/diff.md --exclude *.pyd
+[2023-07-28 11:44:55] INFO root fetch - processPackages [vdk-logging-format]: executing diffoscope
+[2023-07-28 11:44:55] INFO root fetch - processPackages [vdk-logging-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-logging-format-0.1.824443273.tar.gz tmp/vdk-logging-format-0.1.948436673.tar.gz --markdown 20230728/v/vdk-logging-format/0.1.824443273-0.1.948436673/diff.md --exclude *.pyd
+[2023-07-28 11:44:55] INFO root fetch - processPackages [vdk-control-api-auth]: Remove: archive file [/home/abi/fetcher/tmp/vdk-control-api-auth-0.1.824443273.tar.gz]
+[2023-07-28 11:44:55] INFO root fetch - processPackages [vdk-control-api-auth]: Remove: archive file [/home/abi/fetcher/tmp/vdk-control-api-auth-0.1.948436673.tar.gz]
+[2023-07-28 11:44:55] INFO root fetch - processPackages [vdk-control-api-auth]: Start processing: vdk-jobs-troubleshooting
+[2023-07-28 11:44:55] INFO root fetch - main [MainThread]: End processing [vdk-control-api-auth]: success
+[2023-07-28 11:44:55] INFO root fetch - processPackages [vdk-jobs-troubleshooting]: New version: [0.2.948436673] Old Version: [0.2.824443273]
+[2023-07-28 11:44:55] INFO root fetch - processPackages [vdk-lineage-model]: Downloading https://files.pythonhosted.org/packages/54/ed/25c78f8cf7d14b8d206c334644092be3246ad3ece9780f79c190eadfcda2/vdk-lineage-model-0.0.948436673.tar.gz
+[2023-07-28 11:44:55] INFO root fetch - processPackages [vdk-lineage-model]: executing diffoscope
+[2023-07-28 11:44:55] INFO root fetch - processPackages [vdk-lineage-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-lineage-model-0.0.824443273.tar.gz tmp/vdk-lineage-model-0.0.948436673.tar.gz --markdown 20230728/v/vdk-lineage-model/0.0.824443273-0.0.948436673/diff.md --exclude *.pyd
+[2023-07-28 11:44:55] INFO root fetch - processPackages [vdk-jobs-troubleshooting]: Downloading https://files.pythonhosted.org/packages/74/5d/ebf7fac1df5e9eb17070787a464f677cfb729ed5707655b71a2c88e8b4c4/vdk-jobs-troubleshooting-0.2.824443273.tar.gz
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-csv]: Remove: archive file [/home/abi/fetcher/tmp/vdk-csv-0.1.824443273.tar.gz]
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-csv]: Remove: archive file [/home/abi/fetcher/tmp/vdk-csv-0.1.948436673.tar.gz]
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-csv]: Start processing: vdk-ipython
+[2023-07-28 11:44:56] INFO root fetch - main [MainThread]: End processing [vdk-csv]: success
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-ipython]: New version: [0.1.948436673] Old Version: [0.1.919227134]
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-jobs-troubleshooting]: Downloading https://files.pythonhosted.org/packages/43/f4/c367bfaf98d11e93b01774ff076a67920ec4cadad644a66d502840d85562/vdk-jobs-troubleshooting-0.2.948436673.tar.gz
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-ingest-http]: Remove: archive file [/home/abi/fetcher/tmp/vdk-ingest-http-0.2.824443273.tar.gz]
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-ingest-http]: Remove: archive file [/home/abi/fetcher/tmp/vdk-ingest-http-0.2.948436673.tar.gz]
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-ingest-http]: Start processing: designate
+[2023-07-28 11:44:56] INFO root fetch - main [MainThread]: End processing [vdk-ingest-http]: success
+[2023-07-28 11:44:56] INFO root fetch - processPackages [designate]: New version: [9.0.2] Old Version: [9.0.1]
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-jobs-troubleshooting]: executing diffoscope
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-jobs-troubleshooting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-jobs-troubleshooting-0.2.824443273.tar.gz tmp/vdk-jobs-troubleshooting-0.2.948436673.tar.gz --markdown 20230728/v/vdk-jobs-troubleshooting/0.2.824443273-0.2.948436673/diff.md --exclude *.pyd
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-ipython]: Downloading https://files.pythonhosted.org/packages/0d/ef/f1e06769183568d7399bc248e4716c798663ea4b4a3f8817ba438a198484/vdk-ipython-0.1.919227134.tar.gz
+[2023-07-28 11:44:56] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.8.tar.gz]
+[2023-07-28 11:44:56] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.9.tar.gz]
+[2023-07-28 11:44:56] INFO root fetch - processPackages [lesscode-py]: Start processing: vdk-lineage
+[2023-07-28 11:44:56] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-lineage]: New version: [0.3.948436673] Old Version: [0.3.826474487]
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-ingest-file]: Remove: archive file [/home/abi/fetcher/tmp/vdk-ingest-file-0.1.824443273.tar.gz]
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-ingest-file]: Remove: archive file [/home/abi/fetcher/tmp/vdk-ingest-file-0.1.948436673.tar.gz]
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-ingest-file]: Start processing: lark-oapi
+[2023-07-28 11:44:56] INFO root fetch - main [MainThread]: End processing [vdk-ingest-file]: success
+[2023-07-28 11:44:56] INFO root fetch - processPackages [lark-oapi]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-28 11:44:56] INFO root fetch - processPackages [designate]: Downloading https://files.pythonhosted.org/packages/a3/6d/8d9558d48326e60b0ec9ecda73994233723d18b8de6ef7aa54e909ecc8e2/designate-9.0.1.tar.gz
+[2023-07-28 11:44:56] INFO root fetch - processPackages [lark-oapi]: Downloading https://files.pythonhosted.org/packages/03/12/9d738059afd7295e2305f32307ca21eb73f7088c796dda3a32dc3297b535/lark-oapi-1.0.7.tar.gz
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-lineage]: Downloading https://files.pythonhosted.org/packages/cb/29/67b5070fb07ab5200d5e718e8febb0224fba5017e301410ffd3769392e6d/vdk-lineage-0.3.826474487.tar.gz
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-ipython]: Downloading https://files.pythonhosted.org/packages/15/b3/a9d9e48593d5ff36baf28fb8f1fb6ae0d93634274c6f6e7deba6fb139d64/vdk-ipython-0.1.948436673.tar.gz
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-gdp-execution-id]: Remove: archive file [/home/abi/fetcher/tmp/vdk-gdp-execution-id-0.0.863985686.tar.gz]
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-gdp-execution-id]: Remove: archive file [/home/abi/fetcher/tmp/vdk-gdp-execution-id-0.0.948436673.tar.gz]
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-gdp-execution-id]: Start processing: vdk-notebook
+[2023-07-28 11:44:56] INFO root fetch - main [MainThread]: End processing [vdk-gdp-execution-id]: success
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-logging-format]: Remove: archive file [/home/abi/fetcher/tmp/vdk-logging-format-0.1.824443273.tar.gz]
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-logging-format]: Remove: archive file [/home/abi/fetcher/tmp/vdk-logging-format-0.1.948436673.tar.gz]
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-logging-format]: Start processing: vdk-properties-fs
+[2023-07-28 11:44:56] INFO root fetch - main [MainThread]: End processing [vdk-logging-format]: success
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-ipython]: executing diffoscope
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-ipython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-ipython-0.1.919227134.tar.gz tmp/vdk-ipython-0.1.948436673.tar.gz --markdown 20230728/v/vdk-ipython/0.1.919227134-0.1.948436673/diff.md --exclude *.pyd
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-notebook]: New version: [0.1.948436673] Old Version: [0.1.914806943]
+[2023-07-28 11:44:56] INFO root fetch - processPackages [vdk-properties-fs]: New version: [0.0.948436673] Old Version: [0.0.824443273]
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-lineage]: Downloading https://files.pythonhosted.org/packages/c6/64/4028592a4231299837c1a255ca0540d66c4f4d6d19bf97b28267e335d4cc/vdk-lineage-0.3.948436673.tar.gz
+[2023-07-28 11:44:57] INFO root fetch - processPackages [lark-oapi]: Downloading https://files.pythonhosted.org/packages/db/89/d513f03ed62dcdcc01cb27016c2024510981035e3eee919442d6bef15fd4/lark-oapi-1.0.8.tar.gz
+[2023-07-28 11:44:57] INFO root fetch - processPackages [designate]: Downloading https://files.pythonhosted.org/packages/4e/33/6ac2cb498f99f3669dafb90821f9e7780c9ac5c90e67c417273259dc61e8/designate-9.0.2.tar.gz
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-dag]: Remove: archive file [/home/abi/fetcher/tmp/vdk-dag-0.1.884801326.tar.gz]
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-dag]: Remove: archive file [/home/abi/fetcher/tmp/vdk-dag-0.1.948436673.tar.gz]
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-dag]: Start processing: vdk-plugin-control-cli
+[2023-07-28 11:44:57] INFO root fetch - main [MainThread]: End processing [vdk-dag]: success
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-notebook]: Downloading https://files.pythonhosted.org/packages/80/d8/8a4692cf74ba2a84a9c634e07aeff6e5658da53ed7b5e6bf88830aa62b24/vdk-notebook-0.1.914806943.tar.gz
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-lineage]: executing diffoscope
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-lineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-lineage-0.3.826474487.tar.gz tmp/vdk-lineage-0.3.948436673.tar.gz --markdown 20230728/v/vdk-lineage/0.3.826474487-0.3.948436673/diff.md --exclude *.pyd
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-properties-fs]: Downloading https://files.pythonhosted.org/packages/7a/13/c742a1db5a55c7bd7a3886bdeed7a7d7f7b154ff812782b4fe0863f7e549/vdk-properties-fs-0.0.824443273.tar.gz
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-plugin-control-cli]: New version: [0.1.948436673] Old Version: [0.1.928743296]
+[2023-07-28 11:44:57] INFO root fetch - processPackages [lark-oapi]: executing diffoscope
+[2023-07-28 11:44:57] INFO root fetch - processPackages [lark-oapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lark-oapi-1.0.7.tar.gz tmp/lark-oapi-1.0.8.tar.gz --markdown 20230728/l/lark-oapi/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-lineage-model]: Remove: archive file [/home/abi/fetcher/tmp/vdk-lineage-model-0.0.824443273.tar.gz]
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-lineage-model]: Remove: archive file [/home/abi/fetcher/tmp/vdk-lineage-model-0.0.948436673.tar.gz]
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-lineage-model]: Start processing: vdk-server
+[2023-07-28 11:44:57] INFO root fetch - main [MainThread]: End processing [vdk-lineage-model]: success
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-server]: New version: [0.1.948436673] Old Version: [0.1.927572457]
+[2023-07-28 11:44:57] INFO root fetch - processPackages [designate]: executing diffoscope
+[2023-07-28 11:44:57] INFO root fetch - processPackages [designate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/designate-9.0.1.tar.gz tmp/designate-9.0.2.tar.gz --markdown 20230728/d/designate/9.0.1-9.0.2/diff.md --exclude *.pyd
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-notebook]: Downloading https://files.pythonhosted.org/packages/33/72/aae1eb9cc785baafc59ab13fa510ff43c09632e52d6fe0257f6a76a25b5b/vdk-notebook-0.1.948436673.tar.gz
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-plugin-control-cli]: Downloading https://files.pythonhosted.org/packages/81/d4/a5b7808be872e48daab28bba7a1bcb29601150c8c96049e4e38f3f9659a4/vdk-plugin-control-cli-0.1.928743296.tar.gz
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-properties-fs]: Downloading https://files.pythonhosted.org/packages/78/5c/3ea2f75fc728abcb48ce593418f4ed9b1e849ca5b1481ad92c01d9d168d6/vdk-properties-fs-0.0.948436673.tar.gz
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-jobs-troubleshooting]: Remove: archive file [/home/abi/fetcher/tmp/vdk-jobs-troubleshooting-0.2.824443273.tar.gz]
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-jobs-troubleshooting]: Remove: archive file [/home/abi/fetcher/tmp/vdk-jobs-troubleshooting-0.2.948436673.tar.gz]
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-jobs-troubleshooting]: Start processing: gitlab-arc-fs
+[2023-07-28 11:44:57] INFO root fetch - main [MainThread]: End processing [vdk-jobs-troubleshooting]: success
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-notebook]: executing diffoscope
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-notebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-notebook-0.1.914806943.tar.gz tmp/vdk-notebook-0.1.948436673.tar.gz --markdown 20230728/v/vdk-notebook/0.1.914806943-0.1.948436673/diff.md --exclude *.pyd
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-properties-fs]: executing diffoscope
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-properties-fs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-properties-fs-0.0.824443273.tar.gz tmp/vdk-properties-fs-0.0.948436673.tar.gz --markdown 20230728/v/vdk-properties-fs/0.0.824443273-0.0.948436673/diff.md --exclude *.pyd
+[2023-07-28 11:44:57] INFO root fetch - processPackages [gitlab-arc-fs]: New version: [0.0.9.dev1] Old Version: [0.0.8.dev1]
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-server]: Downloading https://files.pythonhosted.org/packages/84/63/bd9f4d11c2b78fc7b95d0ad24aa475f72438f7f08fe7063f72e19651f13d/vdk-server-0.1.927572457.tar.gz
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-plugin-control-cli]: Downloading https://files.pythonhosted.org/packages/6e/f4/74befe7283144446b0cdc597701d8f6988f0ca48fb419b1d180258e2c72e/vdk-plugin-control-cli-0.1.948436673.tar.gz
+[2023-07-28 11:44:57] INFO root fetch - processPackages [gitlab-arc-fs]: Downloading https://files.pythonhosted.org/packages/0e/13/96cc6617347f539f4105aa2d8c22e0f59367d4839663ee5456fdf3fa2047/gitlab_arc_fs-0.0.8.dev1.tar.gz
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-plugin-control-cli]: executing diffoscope
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-plugin-control-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-plugin-control-cli-0.1.928743296.tar.gz tmp/vdk-plugin-control-cli-0.1.948436673.tar.gz --markdown 20230728/v/vdk-plugin-control-cli/0.1.928743296-0.1.948436673/diff.md --exclude *.pyd
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-server]: Downloading https://files.pythonhosted.org/packages/1c/5f/6a3364e0d3ce8da915c0409916e009620a0ddc1fa4d4141a703ea2aa5616/vdk-server-0.1.948436673.tar.gz
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-ipython]: Remove: archive file [/home/abi/fetcher/tmp/vdk-ipython-0.1.919227134.tar.gz]
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-ipython]: Remove: archive file [/home/abi/fetcher/tmp/vdk-ipython-0.1.948436673.tar.gz]
+[2023-07-28 11:44:57] INFO root fetch - processPackages [vdk-ipython]: Start processing: vdk-meta-jobs
+[2023-07-28 11:44:57] INFO root fetch - main [MainThread]: End processing [vdk-ipython]: success
+[2023-07-28 11:44:58] INFO root fetch - processPackages [vdk-server]: executing diffoscope
+[2023-07-28 11:44:58] INFO root fetch - processPackages [vdk-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-server-0.1.927572457.tar.gz tmp/vdk-server-0.1.948436673.tar.gz --markdown 20230728/v/vdk-server/0.1.927572457-0.1.948436673/diff.md --exclude *.pyd
+[2023-07-28 11:44:58] INFO root fetch - processPackages [vdk-meta-jobs]: New version: [0.1.948436673] Old Version: [0.1.878788105]
+[2023-07-28 11:44:58] INFO root fetch - processPackages [vdk-meta-jobs]: Downloading https://files.pythonhosted.org/packages/d8/a7/ed35e414187c966fd16296eb6a381dee0e0167ae9720a658a2fbcece01d6/vdk-meta-jobs-0.1.878788105.tar.gz
+[2023-07-28 11:44:58] INFO root fetch - processPackages [gitlab-arc-fs]: Downloading https://files.pythonhosted.org/packages/0f/cd/99d970c989763e4c968b7bc029225b30885ba89e68822868e6b6f5cf5be8/gitlab_arc_fs-0.0.9.dev1.tar.gz
+[2023-07-28 11:44:58] INFO root fetch - processPackages [vdk-meta-jobs]: Downloading https://files.pythonhosted.org/packages/fc/69/ebc96f90b24bf815a59965e5bf13b217b81124325e67eb0b125048ef183f/vdk-meta-jobs-0.1.948436673.tar.gz
+[2023-07-28 11:44:58] INFO root fetch - processPackages [vdk-lineage]: Remove: archive file [/home/abi/fetcher/tmp/vdk-lineage-0.3.826474487.tar.gz]
+[2023-07-28 11:44:58] INFO root fetch - processPackages [vdk-lineage]: Remove: archive file [/home/abi/fetcher/tmp/vdk-lineage-0.3.948436673.tar.gz]
+[2023-07-28 11:44:58] INFO root fetch - processPackages [vdk-lineage]: Start processing: vdk-test-utils
+[2023-07-28 11:44:58] INFO root fetch - main [MainThread]: End processing [vdk-lineage]: success
+[2023-07-28 11:44:58] INFO root fetch - processPackages [vdk-test-utils]: New version: [0.2.948436673] Old Version: [0.2.911997964]
+[2023-07-28 11:44:58] INFO root fetch - processPackages [vdk-meta-jobs]: executing diffoscope
+[2023-07-28 11:44:58] INFO root fetch - processPackages [vdk-meta-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-meta-jobs-0.1.878788105.tar.gz tmp/vdk-meta-jobs-0.1.948436673.tar.gz --markdown 20230728/v/vdk-meta-jobs/0.1.878788105-0.1.948436673/diff.md --exclude *.pyd
+[2023-07-28 11:44:58] INFO root fetch - processPackages [gitlab-arc-fs]: executing diffoscope
+[2023-07-28 11:44:58] INFO root fetch - processPackages [gitlab-arc-fs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab_arc_fs-0.0.8.dev1.tar.gz tmp/gitlab_arc_fs-0.0.9.dev1.tar.gz --markdown 20230728/g/gitlab-arc-fs/0.0.8.dev1-0.0.9.dev1/diff.md --exclude *.pyd
+[2023-07-28 11:44:58] INFO root fetch - processPackages [vdk-test-utils]: Downloading https://files.pythonhosted.org/packages/6b/9c/d736efeaf988fb4e3409c6b504f402fe7fbc93e7da3b87cb1c367bebbdd2/vdk-test-utils-0.2.911997964.tar.gz
+[2023-07-28 11:44:58] INFO root fetch - processPackages [vdk-notebook]: Remove: archive file [/home/abi/fetcher/tmp/vdk-notebook-0.1.914806943.tar.gz]
+[2023-07-28 11:44:58] INFO root fetch - processPackages [vdk-notebook]: Remove: archive file [/home/abi/fetcher/tmp/vdk-notebook-0.1.948436673.tar.gz]
+[2023-07-28 11:44:58] INFO root fetch - processPackages [vdk-notebook]: Start processing: vdk-smarter
+[2023-07-28 11:44:58] INFO root fetch - main [MainThread]: End processing [vdk-notebook]: success
+[2023-07-28 11:44:58] INFO root fetch - processPackages [vdk-properties-fs]: Remove: archive file [/home/abi/fetcher/tmp/vdk-properties-fs-0.0.824443273.tar.gz]
+[2023-07-28 11:44:58] INFO root fetch - processPackages [vdk-properties-fs]: Remove: archive file [/home/abi/fetcher/tmp/vdk-properties-fs-0.0.948436673.tar.gz]
+[2023-07-28 11:44:58] INFO root fetch - processPackages [vdk-properties-fs]: Start processing: nonebot-plugin-osubot
+[2023-07-28 11:44:58] INFO root fetch - main [MainThread]: End processing [vdk-properties-fs]: success
+[2023-07-28 11:44:59] INFO root fetch - processPackages [vdk-smarter]: New version: [0.1.948436673] Old Version: [0.1.924312320]
+[2023-07-28 11:44:59] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [3.1.0] Old Version: [3.0.2]
+[2023-07-28 11:44:59] INFO root fetch - processPackages [vdk-test-utils]: Downloading https://files.pythonhosted.org/packages/75/6c/bcd4ae57a34850f55f47c812b0443898bf9e56a5bc07d0fa1db0c54982e0/vdk-test-utils-0.2.948436673.tar.gz
+[2023-07-28 11:44:59] INFO root fetch - processPackages [vdk-smarter]: Downloading https://files.pythonhosted.org/packages/a3/cf/149f9d848e67383f8cff98c428e39bcef336890731ee431d680be217eb37/vdk-smarter-0.1.924312320.tar.gz
+[2023-07-28 11:44:59] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/3e/06/e01b08de5c1f8a59826efc1bdbb2d90025dcd16a9cc5a09594c1ba6cc7f3/nonebot-plugin-osubot-3.0.2.tar.gz
+[2023-07-28 11:44:59] INFO root fetch - processPackages [vdk-plugin-control-cli]: Remove: archive file [/home/abi/fetcher/tmp/vdk-plugin-control-cli-0.1.928743296.tar.gz]
+[2023-07-28 11:44:59] INFO root fetch - processPackages [vdk-plugin-control-cli]: Remove: archive file [/home/abi/fetcher/tmp/vdk-plugin-control-cli-0.1.948436673.tar.gz]
+[2023-07-28 11:44:59] INFO root fetch - processPackages [vdk-plugin-control-cli]: Start processing: vdk-sqlite
+[2023-07-28 11:44:59] INFO root fetch - main [MainThread]: End processing [vdk-plugin-control-cli]: success
+[2023-07-28 11:44:59] INFO root fetch - processPackages [vdk-test-utils]: executing diffoscope
+[2023-07-28 11:44:59] INFO root fetch - processPackages [vdk-test-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-test-utils-0.2.911997964.tar.gz tmp/vdk-test-utils-0.2.948436673.tar.gz --markdown 20230728/v/vdk-test-utils/0.2.911997964-0.2.948436673/diff.md --exclude *.pyd
+[2023-07-28 11:44:59] INFO root fetch - processPackages [vdk-sqlite]: New version: [0.1.948436673] Old Version: [0.1.824443273]
+[2023-07-28 11:44:59] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29658268>=10485760
+[2023-07-28 11:44:59] INFO root fetch - processPackages [nonebot-plugin-osubot]: Start processing: vdk-snowflake
+[2023-07-28 11:44:59] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2023-07-28 11:44:59] INFO root fetch - processPackages [vdk-server]: Remove: archive file [/home/abi/fetcher/tmp/vdk-server-0.1.927572457.tar.gz]
+[2023-07-28 11:44:59] INFO root fetch - processPackages [vdk-server]: Remove: archive file [/home/abi/fetcher/tmp/vdk-server-0.1.948436673.tar.gz]
+[2023-07-28 11:44:59] INFO root fetch - processPackages [vdk-server]: Start processing: vdk-trino
+[2023-07-28 11:44:59] INFO root fetch - main [MainThread]: End processing [vdk-server]: success
+[2023-07-28 11:44:59] INFO root fetch - processPackages [vdk-snowflake]: New version: [0.2.948436673] Old Version: [0.2.824443273]
+[2023-07-28 11:44:59] INFO root fetch - processPackages [vdk-trino]: New version: [0.4.948436673] Old Version: [0.4.944393829]
+[2023-07-28 11:44:59] INFO root fetch - processPackages [vdk-smarter]: Downloading https://files.pythonhosted.org/packages/ec/84/e73fcd162eb96174bc9a4495c2f2c8637d070a125be0666e9151085f241b/vdk-smarter-0.1.948436673.tar.gz
+[2023-07-28 11:44:59] INFO root fetch - processPackages [vdk-sqlite]: Downloading https://files.pythonhosted.org/packages/94/f3/3ffded0293b89bf09fda4b18748b77993aaf3e3ee5093c4d06fcaf11e998/vdk-sqlite-0.1.824443273.tar.gz
+[2023-07-28 11:44:59] INFO root fetch - processPackages [vdk-smarter]: executing diffoscope
+[2023-07-28 11:44:59] INFO root fetch - processPackages [vdk-smarter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-smarter-0.1.924312320.tar.gz tmp/vdk-smarter-0.1.948436673.tar.gz --markdown 20230728/v/vdk-smarter/0.1.924312320-0.1.948436673/diff.md --exclude *.pyd
+[2023-07-28 11:44:59] INFO root fetch - processPackages [vdk-snowflake]: Downloading https://files.pythonhosted.org/packages/f0/be/b0fb2756570953a46e7f764885692318f87406c61cb6cffe3f47adac6cb3/vdk-snowflake-0.2.824443273.tar.gz
+[2023-07-28 11:44:59] INFO root fetch - processPackages [vdk-trino]: Downloading https://files.pythonhosted.org/packages/c1/e2/8f118d923a35360ea129ef943675e16a4c90f5b3693b85b589572e4b33ec/vdk-trino-0.4.944393829.tar.gz
+[2023-07-28 11:44:59] INFO root fetch - processPackages [vdk-sqlite]: Downloading https://files.pythonhosted.org/packages/de/ae/519349ae5e95af4a016bccba93489b1364e449cb4fc16983e11715e2938c/vdk-sqlite-0.1.948436673.tar.gz
+[2023-07-28 11:45:00] INFO root fetch - processPackages [vdk-snowflake]: Downloading https://files.pythonhosted.org/packages/a2/78/e4de97ea55e7dcb4df401849269976c0b8210b6cdb35780a9bfb0bfb9b62/vdk-snowflake-0.2.948436673.tar.gz
+[2023-07-28 11:45:00] INFO root fetch - processPackages [vdk-sqlite]: executing diffoscope
+[2023-07-28 11:45:00] INFO root fetch - processPackages [vdk-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-sqlite-0.1.824443273.tar.gz tmp/vdk-sqlite-0.1.948436673.tar.gz --markdown 20230728/v/vdk-sqlite/0.1.824443273-0.1.948436673/diff.md --exclude *.pyd
+[2023-07-28 11:45:00] INFO root fetch - processPackages [vdk-snowflake]: executing diffoscope
+[2023-07-28 11:45:00] INFO root fetch - processPackages [vdk-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-snowflake-0.2.824443273.tar.gz tmp/vdk-snowflake-0.2.948436673.tar.gz --markdown 20230728/v/vdk-snowflake/0.2.824443273-0.2.948436673/diff.md --exclude *.pyd
+[2023-07-28 11:45:00] INFO root fetch - processPackages [vdk-trino]: Downloading https://files.pythonhosted.org/packages/ea/7e/14f7593a87f15edb1f40491364c0653db0d59207e2be1a435c88ed1df071/vdk-trino-0.4.948436673.tar.gz
+[2023-07-28 11:45:00] INFO root fetch - processPackages [vdk-meta-jobs]: Remove: archive file [/home/abi/fetcher/tmp/vdk-meta-jobs-0.1.878788105.tar.gz]
+[2023-07-28 11:45:00] INFO root fetch - processPackages [vdk-meta-jobs]: Remove: archive file [/home/abi/fetcher/tmp/vdk-meta-jobs-0.1.948436673.tar.gz]
+[2023-07-28 11:45:00] INFO root fetch - processPackages [vdk-meta-jobs]: Start processing: lesscode-utils
+[2023-07-28 11:45:00] INFO root fetch - main [MainThread]: End processing [vdk-meta-jobs]: success
+[2023-07-28 11:45:00] INFO root fetch - processPackages [vdk-trino]: executing diffoscope
+[2023-07-28 11:45:00] INFO root fetch - processPackages [vdk-trino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-trino-0.4.944393829.tar.gz tmp/vdk-trino-0.4.948436673.tar.gz --markdown 20230728/v/vdk-trino/0.4.944393829-0.4.948436673/diff.md --exclude *.pyd
+[2023-07-28 11:45:00] INFO root fetch - processPackages [gitlab-arc-fs]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_arc_fs-0.0.8.dev1.tar.gz]
+[2023-07-28 11:45:00] INFO root fetch - processPackages [gitlab-arc-fs]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_arc_fs-0.0.9.dev1.tar.gz]
+[2023-07-28 11:45:00] INFO root fetch - main [MainThread]: End processing [gitlab-arc-fs]: success
+[2023-07-28 11:45:00] INFO root fetch - processPackages [lesscode-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 11:45:00] INFO root fetch - processPackages [lesscode-utils]: Downloading https://files.pythonhosted.org/packages/f6/0c/2674b4b125ed692da753914dfb77b1585abef09ecc652e664392f26b82d6/lesscode_utils-0.0.8.tar.gz
+[2023-07-28 11:45:00] INFO root fetch - processPackages [lesscode-utils]: Downloading https://files.pythonhosted.org/packages/bc/9a/1d07f1121fb39c72396bc71511135f407e314dc626a3fb88ff75f1827718/lesscode_utils-0.0.9.tar.gz
+[2023-07-28 11:45:00] INFO root fetch - processPackages [vdk-test-utils]: Remove: archive file [/home/abi/fetcher/tmp/vdk-test-utils-0.2.911997964.tar.gz]
+[2023-07-28 11:45:00] INFO root fetch - processPackages [vdk-test-utils]: Remove: archive file [/home/abi/fetcher/tmp/vdk-test-utils-0.2.948436673.tar.gz]
+[2023-07-28 11:45:00] INFO root fetch - main [MainThread]: End processing [vdk-test-utils]: success
+[2023-07-28 11:45:00] INFO root fetch - processPackages [lesscode-utils]: executing diffoscope
+[2023-07-28 11:45:00] INFO root fetch - processPackages [lesscode-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_utils-0.0.8.tar.gz tmp/lesscode_utils-0.0.9.tar.gz --markdown 20230728/l/lesscode-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 11:45:01] INFO root fetch - processPackages [vdk-smarter]: Remove: archive file [/home/abi/fetcher/tmp/vdk-smarter-0.1.924312320.tar.gz]
+[2023-07-28 11:45:01] INFO root fetch - processPackages [vdk-smarter]: Remove: archive file [/home/abi/fetcher/tmp/vdk-smarter-0.1.948436673.tar.gz]
+[2023-07-28 11:45:01] INFO root fetch - main [MainThread]: End processing [vdk-smarter]: success
+[2023-07-28 11:45:01] INFO root fetch - processPackages [vdk-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/vdk-snowflake-0.2.824443273.tar.gz]
+[2023-07-28 11:45:01] INFO root fetch - processPackages [vdk-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/vdk-snowflake-0.2.948436673.tar.gz]
+[2023-07-28 11:45:01] INFO root fetch - main [MainThread]: End processing [vdk-snowflake]: success
+[2023-07-28 11:45:01] INFO root fetch - processPackages [vdk-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/vdk-sqlite-0.1.824443273.tar.gz]
+[2023-07-28 11:45:01] INFO root fetch - processPackages [vdk-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/vdk-sqlite-0.1.948436673.tar.gz]
+[2023-07-28 11:45:01] INFO root fetch - main [MainThread]: End processing [vdk-sqlite]: success
+[2023-07-28 11:45:01] INFO root fetch - processPackages [vdk-trino]: Remove: archive file [/home/abi/fetcher/tmp/vdk-trino-0.4.944393829.tar.gz]
+[2023-07-28 11:45:01] INFO root fetch - processPackages [vdk-trino]: Remove: archive file [/home/abi/fetcher/tmp/vdk-trino-0.4.948436673.tar.gz]
+[2023-07-28 11:45:01] INFO root fetch - main [MainThread]: End processing [vdk-trino]: success
+[2023-07-28 11:45:01] INFO root fetch - processPackages [lesscode-utils]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_utils-0.0.8.tar.gz]
+[2023-07-28 11:45:01] INFO root fetch - processPackages [lesscode-utils]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_utils-0.0.9.tar.gz]
+[2023-07-28 11:45:01] INFO root fetch - main [MainThread]: End processing [lesscode-utils]: success
+[2023-07-28 11:45:02] INFO root fetch - processPackages [azure-mgmt-sql]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-sql-4.0.0b8.zip]
+[2023-07-28 11:45:02] INFO root fetch - processPackages [azure-mgmt-sql]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-sql-4.0.0b9.zip]
+[2023-07-28 11:45:02] INFO root fetch - main [MainThread]: End processing [azure-mgmt-sql]: success
+[2023-07-28 11:45:03] INFO root fetch - processPackages [designate]: Remove: archive file [/home/abi/fetcher/tmp/designate-9.0.1.tar.gz]
+[2023-07-28 11:45:03] INFO root fetch - processPackages [designate]: Remove: archive file [/home/abi/fetcher/tmp/designate-9.0.2.tar.gz]
+[2023-07-28 11:45:03] INFO root fetch - main [MainThread]: End processing [designate]: success
+[2023-07-28 11:45:52] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.0.7.tar.gz]
+[2023-07-28 11:45:52] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.0.8.tar.gz]
+[2023-07-28 11:45:52] INFO root fetch - main [MainThread]: End processing [lark-oapi]: success
+[2023-07-28 11:45:52] INFO root fetch - main [MainThread]: Store serial: [19074089]
