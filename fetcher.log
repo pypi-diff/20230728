@@ -16736,3 +16736,109 @@ AssertionError: tmp/pyepsilla-0.0.5.tar.gz does not exist
 [2023-07-28 10:23:56] INFO root fetch - processPackages [navis]: Remove: archive file [/home/abi/fetcher/tmp/navis-1.5.0.tar.gz]
 [2023-07-28 10:23:56] INFO root fetch - main [MainThread]: End processing [navis]: success
 [2023-07-28 10:23:56] INFO root fetch - main [MainThread]: Store serial: [19073283]
+[2023-07-28 10:29:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19073283]
+[2023-07-28 10:29:06] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-28 10:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyaud-plugins
+[2023-07-28 10:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vprikol-api-python
+[2023-07-28 10:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rfidtools
+[2023-07-28 10:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geohydrodemo
+[2023-07-28 10:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastapi-authlib
+[2023-07-28 10:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rcd-dev-kit
+[2023-07-28 10:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-base-report-to-printer
+[2023-07-28 10:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tinyscript
+[2023-07-28 10:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rfidtools
+[2023-07-28 10:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-sale-coupon-domain-product-reward-fixed-price
+[2023-07-28 10:29:06] WARNING root fetch - processPackages [odoo14-addon-sale-coupon-domain-product-reward-fixed-price]: Skipping, unable to determine old version
+[2023-07-28 10:29:06] INFO root fetch - processPackages [odoo14-addon-sale-coupon-domain-product-reward-fixed-price]: Start processing: nucliadb-contributor-assets
+[2023-07-28 10:29:06] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-coupon-domain-product-reward-fixed-price] error
+[2023-07-28 10:29:06] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: New version: [16.0.1.1.4] Old Version: [16.0.1.1.3]
+[2023-07-28 10:29:06] INFO root fetch - processPackages [rcd-dev-kit]: New version: [2.1.0] Old Version: [2.0.4]
+[2023-07-28 10:29:06] INFO root fetch - processPackages [rfidtools]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-28 10:29:06] INFO root fetch - processPackages [vprikol-api-python]: New version: [1.6] Old Version: [1.5]
+[2023-07-28 10:29:06] WARNING root fetch - processPackages [geohydrodemo]: Skipping, unable to determine old version
+[2023-07-28 10:29:06] INFO root fetch - processPackages [geohydrodemo]: Start processing: wheezy.template
+[2023-07-28 10:29:06] INFO root fetch - main [MainThread]: End processing [geohydrodemo] error
+[2023-07-28 10:29:06] INFO root fetch - processPackages [pyaud-plugins]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-28 10:29:06] INFO root fetch - processPackages [fastapi-authlib]: New version: [0.0.4a1] Old Version: [0.0.3a1]
+[2023-07-28 10:29:06] INFO root fetch - processPackages [rfidtools]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-28 10:29:06] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post915] Old Version: [1.0.0.post913]
+[2023-07-28 10:29:06] INFO root fetch - processPackages [tinyscript]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-07-28 10:29:06] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/d4/3e/e16a80a0791616d232b441ae8c47c044aae30a209e6158899ed00daa650c/odoo_addon_base_report_to_printer-16.0.1.1.3-py3-none-any.whl
+[2023-07-28 10:29:06] INFO root fetch - processPackages [rfidtools]: Downloading https://files.pythonhosted.org/packages/62/a0/23dda4e431292111de23ac59d6fca01542e285ec0e70f8a63e5871b35735/rfidtools-1.0.2.tar.gz
+[2023-07-28 10:29:07] INFO root fetch - processPackages [fastapi-authlib]: Downloading https://files.pythonhosted.org/packages/4c/8e/f8eeebfdc431b7df57d3361e3f2a7d54fadf575620f30841d0db5a8591b5/fastapi_authlib-0.0.3a1.tar.gz
+[2023-07-28 10:29:07] INFO root fetch - processPackages [rfidtools]: Downloading https://files.pythonhosted.org/packages/62/a0/23dda4e431292111de23ac59d6fca01542e285ec0e70f8a63e5871b35735/rfidtools-1.0.2.tar.gz
+[2023-07-28 10:29:07] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/b9/ed/ed345d6deacfe10fb0c2a15f308c9f2432585b82277d93add763691574ac/nucliadb_contributor_assets-1.0.0.post913-py3-none-any.whl
+[2023-07-28 10:29:07] INFO root fetch - processPackages [wheezy.template]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-07-28 10:29:07] INFO root fetch - processPackages [rcd-dev-kit]: Downloading https://files.pythonhosted.org/packages/0b/9f/7f7044e86a3801bfae6adc3e9a01183e316f3381a1955508003a2fce1ddf/rcd_dev_kit-2.0.4.tar.gz
+[2023-07-28 10:29:07] INFO root fetch - processPackages [pyaud-plugins]: Downloading https://files.pythonhosted.org/packages/9b/cb/f0437756f91c79e23a2719dce162939a4e007676b5a4640330d670a3aedb/pyaud-plugins-0.8.0.tar.gz
+[2023-07-28 10:29:07] INFO root fetch - processPackages [vprikol-api-python]: Downloading https://files.pythonhosted.org/packages/27/ac/fa0ee002a0da490481282e799cb3bdc1354f1e7b58fe17a41c52e67a5786/vprikol_api_python-1.5.tar.gz
+[2023-07-28 10:29:07] INFO root fetch - processPackages [tinyscript]: Downloading https://files.pythonhosted.org/packages/45/d0/3393f08eca58519f8e94086418ba3efe9502ad4acb3cc377fe73b08f64ab/tinyscript-1.9.4.tar.gz
+[2023-07-28 10:29:07] INFO root fetch - processPackages [wheezy.template]: Downloading https://files.pythonhosted.org/packages/9f/81/659038f48d53bb1a9f4ff97b8b2c53f2cb7ff60003b22d57b4dd22d8da0c/wheezy.template-3.1.0.tar.gz
+[2023-07-28 10:29:07] INFO root fetch - processPackages [rfidtools]: Downloading https://files.pythonhosted.org/packages/d4/10/940284e65b077695def57b48011f36a8880acff2445a10666bf74dbd6bb0/rfidtools-1.0.3.tar.gz
+[2023-07-28 10:29:07] INFO root fetch - processPackages [rfidtools]: Downloading https://files.pythonhosted.org/packages/d4/10/940284e65b077695def57b48011f36a8880acff2445a10666bf74dbd6bb0/rfidtools-1.0.3.tar.gz
+[2023-07-28 10:29:07] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/f1/fd/d105805c271155d9df42d3e8e63cbfb0e2504c101d8724e0cae5ae390b1d/odoo_addon_base_report_to_printer-16.0.1.1.4-py3-none-any.whl
+[2023-07-28 10:29:07] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/2f/9b/4354457d081e1a1d2ad2e3ca01de4ebd9ed5c81b7e5f38016e66d5c8f3fc/nucliadb_contributor_assets-1.0.0.post915-py3-none-any.whl
+[2023-07-28 10:29:07] INFO root fetch - processPackages [fastapi-authlib]: Downloading https://files.pythonhosted.org/packages/f2/5c/f908f7e04595f95fbe01ecd7bb40b126bc42d1a63c64f49af0d46b73ed36/fastapi_authlib-0.0.4a1.tar.gz
+[2023-07-28 10:29:07] INFO root fetch - processPackages [rcd-dev-kit]: Downloading https://files.pythonhosted.org/packages/cf/4d/36a9fea121aab766571b952639edda971d237c0f519e55c80a9aa4ef088c/rcd_dev_kit-2.1.0.tar.gz
+[2023-07-28 10:29:07] INFO root fetch - processPackages [vprikol-api-python]: Downloading https://files.pythonhosted.org/packages/2c/2a/a990af571e3e1c7243fa02a59294b305b4bd185d01208d2637189c4cf81e/vprikol_api_python-1.6.tar.gz
+[2023-07-28 10:29:07] INFO root fetch - processPackages [tinyscript]: Downloading https://files.pythonhosted.org/packages/a4/92/f1a76d3caa9d4c9a8eea462e7b0ebce18a722fc05ccdba197c2ce598db2b/tinyscript-1.9.5.tar.gz
+[2023-07-28 10:29:07] INFO root fetch - processPackages [rfidtools]: executing diffoscope
+[2023-07-28 10:29:07] INFO root fetch - processPackages [rfidtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfidtools-1.0.2.tar.gz tmp/rfidtools-1.0.3.tar.gz --markdown 20230728/r/rfidtools/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-28 10:29:07] INFO root fetch - processPackages [rfidtools]: executing diffoscope
+[2023-07-28 10:29:07] INFO root fetch - processPackages [rfidtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfidtools-1.0.2.tar.gz tmp/rfidtools-1.0.3.tar.gz --markdown 20230728/r/rfidtools/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-28 10:29:07] INFO root fetch - processPackages [pyaud-plugins]: Downloading https://files.pythonhosted.org/packages/70/7c/228930375d77344cb43928f01652245060cf9d6bd3cb7ab9b6ba2ed0b92c/pyaud-plugins-0.9.0.tar.gz
+[2023-07-28 10:29:07] INFO root fetch - processPackages [vprikol-api-python]: executing diffoscope
+[2023-07-28 10:29:07] INFO root fetch - processPackages [vprikol-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vprikol_api_python-1.5.tar.gz tmp/vprikol_api_python-1.6.tar.gz --markdown 20230728/v/vprikol-api-python/1.5-1.6/diff.md --exclude *.pyd
+[2023-07-28 10:29:07] INFO root fetch - processPackages [rcd-dev-kit]: executing diffoscope
+[2023-07-28 10:29:07] INFO root fetch - processPackages [rcd-dev-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcd_dev_kit-2.0.4.tar.gz tmp/rcd_dev_kit-2.1.0.tar.gz --markdown 20230728/r/rcd-dev-kit/2.0.4-2.1.0/diff.md --exclude *.pyd
+[2023-07-28 10:29:07] INFO root fetch - processPackages [fastapi-authlib]: executing diffoscope
+[2023-07-28 10:29:07] INFO root fetch - processPackages [fastapi-authlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_authlib-0.0.3a1.tar.gz tmp/fastapi_authlib-0.0.4a1.tar.gz --markdown 20230728/f/fastapi-authlib/0.0.3a1-0.0.4a1/diff.md --exclude *.pyd
+[2023-07-28 10:29:07] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: executing diffoscope
+[2023-07-28 10:29:07] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_report_to_printer-16.0.1.1.3-py3-none-any.whl.zip tmp/odoo_addon_base_report_to_printer-16.0.1.1.4-py3-none-any.whl.zip --markdown 20230728/o/odoo-addon-base-report-to-printer/16.0.1.1.3-16.0.1.1.4/diff.md --exclude *.pyd
+[2023-07-28 10:29:07] INFO root fetch - processPackages [wheezy.template]: Downloading https://files.pythonhosted.org/packages/c7/68/7eb1db53f4fee9a8d230c54a1633a97a355b4983e797d9e06b1edf54f86b/wheezy.template-3.2.0.tar.gz
+[2023-07-28 10:29:07] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-07-28 10:29:07] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post913-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post915-py3-none-any.whl.zip --markdown 20230728/n/nucliadb-contributor-assets/1.0.0.post913-1.0.0.post915/diff.md --exclude *.pyd
+[2023-07-28 10:29:08] INFO root fetch - processPackages [pyaud-plugins]: executing diffoscope
+[2023-07-28 10:29:08] INFO root fetch - processPackages [pyaud-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaud-plugins-0.8.0.tar.gz tmp/pyaud-plugins-0.9.0.tar.gz --markdown 20230728/p/pyaud-plugins/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-28 10:29:08] INFO root fetch - processPackages [wheezy.template]: executing diffoscope
+[2023-07-28 10:29:08] INFO root fetch - processPackages [wheezy.template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheezy.template-3.1.0.tar.gz tmp/wheezy.template-3.2.0.tar.gz --markdown 20230728/w/wheezy.template/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-07-28 10:29:08] INFO root fetch - processPackages [tinyscript]: executing diffoscope
+[2023-07-28 10:29:08] INFO root fetch - processPackages [tinyscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyscript-1.9.4.tar.gz tmp/tinyscript-1.9.5.tar.gz --markdown 20230728/t/tinyscript/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-07-28 10:29:09] INFO root fetch - processPackages [vprikol-api-python]: Remove: archive file [/home/abi/fetcher/tmp/vprikol_api_python-1.5.tar.gz]
+[2023-07-28 10:29:09] INFO root fetch - processPackages [vprikol-api-python]: Remove: archive file [/home/abi/fetcher/tmp/vprikol_api_python-1.6.tar.gz]
+[2023-07-28 10:29:09] INFO root fetch - processPackages [vprikol-api-python]: Start processing: fund-alchemy
+[2023-07-28 10:29:09] INFO root fetch - main [MainThread]: End processing [vprikol-api-python]: success
+[2023-07-28 10:29:09] INFO root fetch - processPackages [fund-alchemy]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-28 10:29:09] INFO root fetch - processPackages [rfidtools]: Remove: archive file [/home/abi/fetcher/tmp/rfidtools-1.0.2.tar.gz]
+[2023-07-28 10:29:09] INFO root fetch - processPackages [rfidtools]: Remove: archive file [/home/abi/fetcher/tmp/rfidtools-1.0.3.tar.gz]
+[2023-07-28 10:29:09] INFO root fetch - main [MainThread]: End processing [rfidtools]: success
+[2023-07-28 10:29:09] INFO root fetch - processPackages [rcd-dev-kit]: Remove: archive file [/home/abi/fetcher/tmp/rcd_dev_kit-2.0.4.tar.gz]
+[2023-07-28 10:29:09] INFO root fetch - processPackages [rcd-dev-kit]: Remove: archive file [/home/abi/fetcher/tmp/rcd_dev_kit-2.1.0.tar.gz]
+[2023-07-28 10:29:09] INFO root fetch - main [MainThread]: End processing [rcd-dev-kit]: success
+[2023-07-28 10:29:09] INFO root fetch - main [MainThread]: End processing [rfidtools]: success
+[2023-07-28 10:29:09] INFO root fetch - processPackages [fastapi-authlib]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_authlib-0.0.3a1.tar.gz]
+[2023-07-28 10:29:09] INFO root fetch - processPackages [fastapi-authlib]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_authlib-0.0.4a1.tar.gz]
+[2023-07-28 10:29:09] INFO root fetch - main [MainThread]: End processing [fastapi-authlib]: success
+[2023-07-28 10:29:09] INFO root fetch - processPackages [pyaud-plugins]: Remove: archive file [/home/abi/fetcher/tmp/pyaud-plugins-0.8.0.tar.gz]
+[2023-07-28 10:29:09] INFO root fetch - processPackages [pyaud-plugins]: Remove: archive file [/home/abi/fetcher/tmp/pyaud-plugins-0.9.0.tar.gz]
+[2023-07-28 10:29:09] INFO root fetch - main [MainThread]: End processing [pyaud-plugins]: success
+[2023-07-28 10:29:09] INFO root fetch - processPackages [fund-alchemy]: Downloading https://files.pythonhosted.org/packages/ac/98/a811c03c028ff5597a32cf70036605af40e9cee4ac274aa01a988b80ffa7/fund_alchemy-1.0.8.tar.gz
+[2023-07-28 10:29:09] INFO root fetch - processPackages [wheezy.template]: Remove: archive file [/home/abi/fetcher/tmp/wheezy.template-3.1.0.tar.gz]
+[2023-07-28 10:29:09] INFO root fetch - processPackages [wheezy.template]: Remove: archive file [/home/abi/fetcher/tmp/wheezy.template-3.2.0.tar.gz]
+[2023-07-28 10:29:09] INFO root fetch - main [MainThread]: End processing [wheezy.template]: success
+[2023-07-28 10:29:09] INFO root fetch - processPackages [tinyscript]: Remove: archive file [/home/abi/fetcher/tmp/tinyscript-1.9.4.tar.gz]
+[2023-07-28 10:29:09] INFO root fetch - processPackages [tinyscript]: Remove: archive file [/home/abi/fetcher/tmp/tinyscript-1.9.5.tar.gz]
+[2023-07-28 10:29:09] INFO root fetch - main [MainThread]: End processing [tinyscript]: success
+[2023-07-28 10:29:09] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_report_to_printer-16.0.1.1.3-py3-none-any.whl.zip]
+[2023-07-28 10:29:09] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_report_to_printer-16.0.1.1.4-py3-none-any.whl.zip]
+[2023-07-28 10:29:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-report-to-printer]: success
+[2023-07-28 10:29:09] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post913-py3-none-any.whl.zip]
+[2023-07-28 10:29:09] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post915-py3-none-any.whl.zip]
+[2023-07-28 10:29:10] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-07-28 10:29:10] INFO root fetch - processPackages [fund-alchemy]: Downloading https://files.pythonhosted.org/packages/c2/ff/f325db4e27f4d4ab88704ce41f27c044add15034c1029abaf5dff697dc20/fund_alchemy-1.0.9.tar.gz
+[2023-07-28 10:29:10] INFO root fetch - processPackages [fund-alchemy]: executing diffoscope
+[2023-07-28 10:29:10] INFO root fetch - processPackages [fund-alchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fund_alchemy-1.0.8.tar.gz tmp/fund_alchemy-1.0.9.tar.gz --markdown 20230728/f/fund-alchemy/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-28 10:29:10] INFO root fetch - processPackages [fund-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/fund_alchemy-1.0.8.tar.gz]
+[2023-07-28 10:29:10] INFO root fetch - processPackages [fund-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/fund_alchemy-1.0.9.tar.gz]
+[2023-07-28 10:29:10] INFO root fetch - main [MainThread]: End processing [fund-alchemy]: success
+[2023-07-28 10:29:10] INFO root fetch - main [MainThread]: Store serial: [19073322]
