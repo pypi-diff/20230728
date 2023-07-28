@@ -10419,3 +10419,81 @@
 [2023-07-28 04:46:50] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.400.0.tar.gz]
 [2023-07-28 04:46:50] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-28 04:46:50] INFO root fetch - main [MainThread]: Store serial: [19070690]
+[2023-07-28 04:51:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19070690]
+[2023-07-28 04:51:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-28 04:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyasic
+[2023-07-28 04:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: guc
+[2023-07-28 04:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: honeybee-doe2
+[2023-07-28 04:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-twitter
+[2023-07-28 04:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: benimang
+[2023-07-28 04:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlx-exec
+[2023-07-28 04:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shipyard-census
+[2023-07-28 04:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-huaweicloud
+[2023-07-28 04:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlx-batis
+[2023-07-28 04:51:59] INFO root fetch - processPackages [sqlx-exec]: New version: [1.2.5] Old Version: [1.2.3]
+[2023-07-28 04:51:59] WARNING root fetch - processPackages [guc]: Skipping, unable to determine old version
+[2023-07-28 04:51:59] INFO root fetch - main [MainThread]: End processing [guc] error
+[2023-07-28 04:51:59] INFO root fetch - processPackages [sqlx-batis]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-28 04:51:59] INFO root fetch - processPackages [pulumi-huaweicloud]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-28 04:51:59] INFO root fetch - processPackages [shipyard-census]: New version: [0.1.1a3] Old Version: [0.1.1a2]
+[2023-07-28 04:51:59] INFO root fetch - processPackages [honeybee-doe2]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-28 04:51:59] INFO root fetch - processPackages [nonebot-plugin-twitter]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-28 04:51:59] INFO root fetch - processPackages [pyasic]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-28 04:51:59] INFO root fetch - processPackages [benimang]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-28 04:51:59] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/6c/53/9b86c706ade5f74e42d276d659921701a0cf7c8ba099b489c3958cd88b4f/benimang-0.4.8.tar.gz
+[2023-07-28 04:51:59] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/2c/01/58f7c0f48ee1e9ff2c2a5cb7f540dc1ac786737854113f3d81b929112f52/sqlx-exec-1.2.3.tar.gz
+[2023-07-28 04:51:59] INFO root fetch - processPackages [honeybee-doe2]: Downloading https://files.pythonhosted.org/packages/b0/30/25c1d20dd268fce38aeab1919ae2754107f5009683e4f543f7639de20775/honeybee-doe2-0.8.1.tar.gz
+[2023-07-28 04:51:59] INFO root fetch - processPackages [shipyard-census]: Downloading https://files.pythonhosted.org/packages/36/a7/30c013ad74108753ec4a15f8ff095bf0375d383ce97241334f08ce628e17/shipyard_census-0.1.1a2.tar.gz
+[2023-07-28 04:51:59] INFO root fetch - processPackages [sqlx-batis]: Downloading https://files.pythonhosted.org/packages/8f/f8/ab7871599564243441c62ab9298e74e1b89e04a2fe770a052fe03ae2b0e3/sqlx-batis-0.1.0.tar.gz
+[2023-07-28 04:51:59] INFO root fetch - processPackages [pulumi-huaweicloud]: Downloading https://files.pythonhosted.org/packages/ca/18/d8ba86c157cec600ed4d2308416c7bca09106df555a0e7960ce1b2078678/pulumi_huaweicloud-0.0.7.tar.gz
+[2023-07-28 04:51:59] INFO root fetch - processPackages [nonebot-plugin-twitter]: Downloading https://files.pythonhosted.org/packages/9c/e0/1f7d4e0558cdc4f1df44d21afd5c0a5a282342e869b38b9180fe2cb60457/nonebot-plugin-twitter-0.1.8.tar.gz
+[2023-07-28 04:51:59] INFO root fetch - processPackages [pyasic]: Downloading https://files.pythonhosted.org/packages/8b/cb/6d4cd3f342cc1eda735f322c923e89b06fb809652bccc8f7ba41b10189f2/pyasic-0.9.3.tar.gz
+[2023-07-28 04:51:59] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/e6/d8/79c374e4571a77e12f622ba60e902b628a4f241c92211d73f8b66907db49/benimang-0.4.9.tar.gz
+[2023-07-28 04:51:59] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/95/bb/e25a9e377a89add460a976e8fb1a7ac388ea84c8e0e74bd069d74b18351d/sqlx-exec-1.2.5.tar.gz
+[2023-07-28 04:52:00] INFO root fetch - processPackages [nonebot-plugin-twitter]: Downloading https://files.pythonhosted.org/packages/42/48/740b266dd097b00466b57c12f5b9703ac80295f7825f466d895fffa78ccb/nonebot-plugin-twitter-0.1.9.tar.gz
+[2023-07-28 04:52:00] INFO root fetch - processPackages [shipyard-census]: Downloading https://files.pythonhosted.org/packages/e1/dd/691ef2fb3013456cbbc868386b768dd5675a33870183953f93bf54abe0f8/shipyard_census-0.1.1a3.tar.gz
+[2023-07-28 04:52:00] INFO root fetch - processPackages [honeybee-doe2]: Downloading https://files.pythonhosted.org/packages/7c/85/a26fd982e02184fd9f17e33b5df1858b1647e0046163749ebd9cac2da219/honeybee-doe2-0.8.2.tar.gz
+[2023-07-28 04:52:00] INFO root fetch - processPackages [sqlx-batis]: Downloading https://files.pythonhosted.org/packages/e8/1e/20b7d481a89c91cf1b2f93b5475e1ed7f9b32dcefae087b3c02bbab2809e/sqlx-batis-0.1.1.tar.gz
+[2023-07-28 04:52:00] INFO root fetch - processPackages [benimang]: executing diffoscope
+[2023-07-28 04:52:00] INFO root fetch - processPackages [benimang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benimang-0.4.8.tar.gz tmp/benimang-0.4.9.tar.gz --markdown 20230728/b/benimang/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-28 04:52:00] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2023-07-28 04:52:00] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-1.2.3.tar.gz tmp/sqlx-exec-1.2.5.tar.gz --markdown 20230728/s/sqlx-exec/1.2.3-1.2.5/diff.md --exclude *.pyd
+[2023-07-28 04:52:00] INFO root fetch - processPackages [nonebot-plugin-twitter]: executing diffoscope
+[2023-07-28 04:52:00] INFO root fetch - processPackages [nonebot-plugin-twitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-twitter-0.1.8.tar.gz tmp/nonebot-plugin-twitter-0.1.9.tar.gz --markdown 20230728/n/nonebot-plugin-twitter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-28 04:52:00] INFO root fetch - processPackages [pyasic]: Downloading https://files.pythonhosted.org/packages/70/30/6c8b77c23f901b5c8b406344a29a98220a0b5212116530bd177635c4430d/pyasic-0.9.4.tar.gz
+[2023-07-28 04:52:00] INFO root fetch - processPackages [honeybee-doe2]: executing diffoscope
+[2023-07-28 04:52:00] INFO root fetch - processPackages [honeybee-doe2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-doe2-0.8.1.tar.gz tmp/honeybee-doe2-0.8.2.tar.gz --markdown 20230728/h/honeybee-doe2/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-28 04:52:00] INFO root fetch - processPackages [shipyard-census]: executing diffoscope
+[2023-07-28 04:52:00] INFO root fetch - processPackages [shipyard-census]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_census-0.1.1a2.tar.gz tmp/shipyard_census-0.1.1a3.tar.gz --markdown 20230728/s/shipyard-census/0.1.1a2-0.1.1a3/diff.md --exclude *.pyd
+[2023-07-28 04:52:00] INFO root fetch - processPackages [pulumi-huaweicloud]: Downloading https://files.pythonhosted.org/packages/90/d6/b7c8c10cd14753c770b74cb79d96613ede33ac4b6505255927682f502ec3/pulumi_huaweicloud-0.0.8.tar.gz
+[2023-07-28 04:52:00] INFO root fetch - processPackages [sqlx-batis]: executing diffoscope
+[2023-07-28 04:52:00] INFO root fetch - processPackages [sqlx-batis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-batis-0.1.0.tar.gz tmp/sqlx-batis-0.1.1.tar.gz --markdown 20230728/s/sqlx-batis/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-28 04:52:00] INFO root fetch - processPackages [pyasic]: executing diffoscope
+[2023-07-28 04:52:00] INFO root fetch - processPackages [pyasic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasic-0.9.3.tar.gz tmp/pyasic-0.9.4.tar.gz --markdown 20230728/p/pyasic/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-28 04:52:00] INFO root fetch - processPackages [pulumi-huaweicloud]: executing diffoscope
+[2023-07-28 04:52:00] INFO root fetch - processPackages [pulumi-huaweicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_huaweicloud-0.0.7.tar.gz tmp/pulumi_huaweicloud-0.0.8.tar.gz --markdown 20230728/p/pulumi-huaweicloud/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-28 04:52:01] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.8.tar.gz]
+[2023-07-28 04:52:01] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.9.tar.gz]
+[2023-07-28 04:52:01] INFO root fetch - main [MainThread]: End processing [benimang]: success
+[2023-07-28 04:52:01] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.2.3.tar.gz]
+[2023-07-28 04:52:01] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.2.5.tar.gz]
+[2023-07-28 04:52:01] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
+[2023-07-28 04:52:01] INFO root fetch - processPackages [nonebot-plugin-twitter]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-twitter-0.1.8.tar.gz]
+[2023-07-28 04:52:01] INFO root fetch - processPackages [nonebot-plugin-twitter]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-twitter-0.1.9.tar.gz]
+[2023-07-28 04:52:01] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-twitter]: success
+[2023-07-28 04:52:01] INFO root fetch - processPackages [sqlx-batis]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-batis-0.1.0.tar.gz]
+[2023-07-28 04:52:01] INFO root fetch - processPackages [sqlx-batis]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-batis-0.1.1.tar.gz]
+[2023-07-28 04:52:01] INFO root fetch - main [MainThread]: End processing [sqlx-batis]: success
+[2023-07-28 04:52:01] INFO root fetch - processPackages [honeybee-doe2]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-doe2-0.8.1.tar.gz]
+[2023-07-28 04:52:01] INFO root fetch - processPackages [honeybee-doe2]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-doe2-0.8.2.tar.gz]
+[2023-07-28 04:52:01] INFO root fetch - main [MainThread]: End processing [honeybee-doe2]: success
+[2023-07-28 04:52:01] INFO root fetch - processPackages [shipyard-census]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_census-0.1.1a2.tar.gz]
+[2023-07-28 04:52:01] INFO root fetch - processPackages [shipyard-census]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_census-0.1.1a3.tar.gz]
+[2023-07-28 04:52:01] INFO root fetch - main [MainThread]: End processing [shipyard-census]: success
+[2023-07-28 04:52:01] INFO root fetch - processPackages [pyasic]: Remove: archive file [/home/abi/fetcher/tmp/pyasic-0.9.3.tar.gz]
+[2023-07-28 04:52:01] INFO root fetch - processPackages [pyasic]: Remove: archive file [/home/abi/fetcher/tmp/pyasic-0.9.4.tar.gz]
+[2023-07-28 04:52:01] INFO root fetch - main [MainThread]: End processing [pyasic]: success
+[2023-07-28 04:52:07] INFO root fetch - processPackages [pulumi-huaweicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_huaweicloud-0.0.7.tar.gz]
+[2023-07-28 04:52:07] INFO root fetch - processPackages [pulumi-huaweicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_huaweicloud-0.0.8.tar.gz]
+[2023-07-28 04:52:07] INFO root fetch - main [MainThread]: End processing [pulumi-huaweicloud]: success
+[2023-07-28 04:52:07] INFO root fetch - main [MainThread]: Store serial: [19070721]
