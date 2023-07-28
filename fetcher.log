@@ -14352,3 +14352,111 @@ AssertionError: tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz does not e
 [2023-07-28 08:32:02] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230728.tar.gz]
 [2023-07-28 08:32:02] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-07-28 08:32:02] INFO root fetch - main [MainThread]: Store serial: [19072375]
+[2023-07-28 08:37:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19072375]
+[2023-07-28 08:37:12] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-28 08:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kingunit-inspector
+[2023-07-28 08:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyyardian
+[2023-07-28 08:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-visualizer
+[2023-07-28 08:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amazon-scrape
+[2023-07-28 08:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eyeball-pp
+[2023-07-28 08:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: piet
+[2023-07-28 08:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: irdev-pycolor
+[2023-07-28 08:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: raycut
+[2023-07-28 08:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rfidtools
+[2023-07-28 08:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chopro-epub
+[2023-07-28 08:37:12] INFO root fetch - processPackages [kingunit-inspector]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-28 08:37:12] INFO root fetch - processPackages [langchain-visualizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 08:37:13] WARNING root fetch - processPackages [chopro-epub]: Skipping, unable to determine old version
+[2023-07-28 08:37:13] INFO root fetch - processPackages [chopro-epub]: Start processing: oarepo-runtime
+[2023-07-28 08:37:13] INFO root fetch - main [MainThread]: End processing [chopro-epub] error
+[2023-07-28 08:37:13] INFO root fetch - processPackages [eyeball-pp]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-28 08:37:13] INFO root fetch - processPackages [amazon-scrape]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-28 08:37:13] INFO root fetch - processPackages [pyyardian]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-28 08:37:13] INFO root fetch - processPackages [irdev-pycolor]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-28 08:37:13] INFO root fetch - processPackages [raycut]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-28 08:37:13] INFO root fetch - processPackages [rfidtools]: New version: [1.0.0] Old Version: [0.1.3]
+[2023-07-28 08:37:13] WARNING root fetch - processPackages [piet]: Skipping, unable to determine old version
+[2023-07-28 08:37:13] INFO root fetch - processPackages [piet]: Start processing: python-univer
+[2023-07-28 08:37:13] INFO root fetch - main [MainThread]: End processing [piet] error
+[2023-07-28 08:37:13] INFO root fetch - processPackages [amazon-scrape]: Downloading https://files.pythonhosted.org/packages/13/2e/2918871fe255857ff20d1b32ab4e4c6a55fa39543ba12bf10fc894a5f7f4/amazon_scrape-1.0.1.tar.gz
+[2023-07-28 08:37:13] INFO root fetch - processPackages [oarepo-runtime]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-28 08:37:13] INFO root fetch - processPackages [kingunit-inspector]: Downloading https://files.pythonhosted.org/packages/66/9d/d400a543c5defa7558f50819598ff8fd78b6b53d32bc6a5e8f9f0ae47ddf/kingunit_inspector-0.0.5.tar.gz
+[2023-07-28 08:37:13] INFO root fetch - processPackages [pyyardian]: Downloading https://files.pythonhosted.org/packages/60/9e/76a7e05241468ad69c37d689e5ed4f413b3729adc1d40e6cd051780b41be/pyyardian-1.0.0.tar.gz
+[2023-07-28 08:37:13] INFO root fetch - processPackages [raycut]: Downloading https://files.pythonhosted.org/packages/35/8d/335dd393d314cab652f38763d3c80c48af8276f79e09321ad322d7980284/raycut-0.0.4.tar.gz
+[2023-07-28 08:37:13] INFO root fetch - processPackages [python-univer]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-07-28 08:37:13] INFO root fetch - processPackages [langchain-visualizer]: Downloading https://files.pythonhosted.org/packages/46/10/50d74f58550ffe5eca61ea43df7e98b776b69381027b0311ee3754767bf4/langchain_visualizer-0.0.8.tar.gz
+[2023-07-28 08:37:13] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/17/18/dcc7b08301454d96434492978faaaf5d8f943c96d8560d5742eb6824dfcd/oarepo-runtime-1.3.8.tar.gz
+[2023-07-28 08:37:13] INFO root fetch - processPackages [eyeball-pp]: Downloading https://files.pythonhosted.org/packages/eb/ea/64555264dade7c7ba4bbb687455bad8dba923423c4b6e3c82898e4b7270c/eyeball_pp-0.0.4.tar.gz
+[2023-07-28 08:37:13] INFO root fetch - processPackages [rfidtools]: Downloading https://files.pythonhosted.org/packages/25/f6/8c40e076a282a17430652ec069732694203cd6f018773a7037eee6634963/rfidtools-0.1.3.tar.gz
+[2023-07-28 08:37:13] INFO root fetch - processPackages [irdev-pycolor]: Downloading https://files.pythonhosted.org/packages/44/c4/984cce1d31e5ef02d9b335b756b3607c66faf2b32d932fcc568fcc64571f/irdev_pycolor-1.0.0.tar.gz
+[2023-07-28 08:37:13] INFO root fetch - processPackages [python-univer]: Downloading https://files.pythonhosted.org/packages/dc/5a/bc84255ae74a83a005191188bdfe6f6627fd6e2b1a33565af0acc22880b1/python-univer-1.4.7.tar.gz
+[2023-07-28 08:37:13] INFO root fetch - processPackages [amazon-scrape]: Downloading https://files.pythonhosted.org/packages/83/0a/d847c03b8ad3b32eaf9cc8450d83881687a1e95313bdf4bc55de367e65d5/amazon_scrape-1.0.2.tar.gz
+[2023-07-28 08:37:13] INFO root fetch - processPackages [kingunit-inspector]: Downloading https://files.pythonhosted.org/packages/25/bc/e92ac38cb9e330ba1619a8fdff517f0216f24c231f3b1732de300afa0746/kingunit_inspector-0.0.6.tar.gz
+[2023-07-28 08:37:13] INFO root fetch - processPackages [pyyardian]: Downloading https://files.pythonhosted.org/packages/6a/6d/59f2bb3209b8ad5a5fb1f19ec5e1c6b670768f001acc9346bd9ae042a536/pyyardian-1.0.1.tar.gz
+[2023-07-28 08:37:13] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/d4/a6/bbef3bd266677026b7d501efe81bd8f82ca65597bab5e89f9a32ef64b034/oarepo-runtime-1.3.9.tar.gz
+[2023-07-28 08:37:13] INFO root fetch - processPackages [raycut]: Downloading https://files.pythonhosted.org/packages/19/88/81bef5dacbb71170a7da4de095e0bd431d495b02663fc6a039125a1b0b1c/raycut-0.0.5.tar.gz
+[2023-07-28 08:37:14] INFO root fetch - processPackages [eyeball-pp]: Downloading https://files.pythonhosted.org/packages/3d/1c/a64d519d42a4c85ed22ecd84458e0ecd5025222d401824299dd8eaceecc0/eyeball_pp-0.0.5.tar.gz
+[2023-07-28 08:37:14] INFO root fetch - processPackages [langchain-visualizer]: Downloading https://files.pythonhosted.org/packages/cb/63/161612739a89467e0de9234ac5cae8c9eabeae5a5d9e53e7fc8469dde38e/langchain_visualizer-0.0.9.tar.gz
+[2023-07-28 08:37:14] INFO root fetch - processPackages [rfidtools]: Downloading https://files.pythonhosted.org/packages/ac/b1/cca006eb4a466dc183f98269226afc06a2d3d9b1f76a49d34cc598707863/rfidtools-1.0.0.tar.gz
+[2023-07-28 08:37:14] INFO root fetch - processPackages [irdev-pycolor]: Downloading https://files.pythonhosted.org/packages/7a/0e/fecf7a9f1ae119e828950a7a6682710b10cc392007e7a0a17e3809589c83/irdev_pycolor-1.0.1.tar.gz
+[2023-07-28 08:37:14] INFO root fetch - processPackages [kingunit-inspector]: executing diffoscope
+[2023-07-28 08:37:14] INFO root fetch - processPackages [kingunit-inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kingunit_inspector-0.0.5.tar.gz tmp/kingunit_inspector-0.0.6.tar.gz --markdown 20230728/k/kingunit-inspector/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-28 08:37:14] INFO root fetch - processPackages [amazon-scrape]: executing diffoscope
+[2023-07-28 08:37:14] INFO root fetch - processPackages [amazon-scrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon_scrape-1.0.1.tar.gz tmp/amazon_scrape-1.0.2.tar.gz --markdown 20230728/a/amazon-scrape/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-28 08:37:14] INFO root fetch - processPackages [oarepo-runtime]: executing diffoscope
+[2023-07-28 08:37:14] INFO root fetch - processPackages [oarepo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-runtime-1.3.8.tar.gz tmp/oarepo-runtime-1.3.9.tar.gz --markdown 20230728/o/oarepo-runtime/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-28 08:37:14] INFO root fetch - processPackages [pyyardian]: executing diffoscope
+[2023-07-28 08:37:14] INFO root fetch - processPackages [pyyardian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyyardian-1.0.0.tar.gz tmp/pyyardian-1.0.1.tar.gz --markdown 20230728/p/pyyardian/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-28 08:37:14] INFO root fetch - processPackages [eyeball-pp]: executing diffoscope
+[2023-07-28 08:37:14] INFO root fetch - processPackages [eyeball-pp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyeball_pp-0.0.4.tar.gz tmp/eyeball_pp-0.0.5.tar.gz --markdown 20230728/e/eyeball-pp/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-28 08:37:14] INFO root fetch - processPackages [raycut]: executing diffoscope
+[2023-07-28 08:37:14] INFO root fetch - processPackages [raycut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raycut-0.0.4.tar.gz tmp/raycut-0.0.5.tar.gz --markdown 20230728/r/raycut/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-28 08:37:14] INFO root fetch - processPackages [rfidtools]: executing diffoscope
+[2023-07-28 08:37:14] INFO root fetch - processPackages [rfidtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfidtools-0.1.3.tar.gz tmp/rfidtools-1.0.0.tar.gz --markdown 20230728/r/rfidtools/0.1.3-1.0.0/diff.md --exclude *.pyd
+[2023-07-28 08:37:14] INFO root fetch - processPackages [python-univer]: Downloading https://files.pythonhosted.org/packages/96/9c/e6d1fde11c9a95418c2ff19331dcfae884dd7303fe58f4bcefe5eb98c6e7/python-univer-1.4.8.tar.gz
+[2023-07-28 08:37:14] INFO root fetch - processPackages [irdev-pycolor]: executing diffoscope
+[2023-07-28 08:37:14] INFO root fetch - processPackages [irdev-pycolor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irdev_pycolor-1.0.0.tar.gz tmp/irdev_pycolor-1.0.1.tar.gz --markdown 20230728/i/irdev-pycolor/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-28 08:37:14] INFO root fetch - processPackages [python-univer]: executing diffoscope
+[2023-07-28 08:37:14] INFO root fetch - processPackages [python-univer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-univer-1.4.7.tar.gz tmp/python-univer-1.4.8.tar.gz --markdown 20230728/p/python-univer/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-07-28 08:37:14] INFO root fetch - processPackages [langchain-visualizer]: executing diffoscope
+[2023-07-28 08:37:14] INFO root fetch - processPackages [langchain-visualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_visualizer-0.0.8.tar.gz tmp/langchain_visualizer-0.0.9.tar.gz --markdown 20230728/l/langchain-visualizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 08:37:15] INFO root fetch - processPackages [pyyardian]: Remove: archive file [/home/abi/fetcher/tmp/pyyardian-1.0.0.tar.gz]
+[2023-07-28 08:37:15] INFO root fetch - processPackages [pyyardian]: Remove: archive file [/home/abi/fetcher/tmp/pyyardian-1.0.1.tar.gz]
+[2023-07-28 08:37:15] INFO root fetch - processPackages [pyyardian]: Start processing: gitops
+[2023-07-28 08:37:15] INFO root fetch - main [MainThread]: End processing [pyyardian]: success
+[2023-07-28 08:37:15] INFO root fetch - processPackages [gitops]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-07-28 08:37:15] INFO root fetch - processPackages [raycut]: Remove: archive file [/home/abi/fetcher/tmp/raycut-0.0.4.tar.gz]
+[2023-07-28 08:37:15] INFO root fetch - processPackages [raycut]: Remove: archive file [/home/abi/fetcher/tmp/raycut-0.0.5.tar.gz]
+[2023-07-28 08:37:15] INFO root fetch - main [MainThread]: End processing [raycut]: success
+[2023-07-28 08:37:15] INFO root fetch - processPackages [gitops]: Downloading https://files.pythonhosted.org/packages/d7/7d/32d8e2cd57d1b9f160168c79642b03cce3c879758c84179733a2bcb095d5/gitops-0.9.7.tar.gz
+[2023-07-28 08:37:15] INFO root fetch - processPackages [oarepo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-runtime-1.3.8.tar.gz]
+[2023-07-28 08:37:15] INFO root fetch - processPackages [oarepo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-runtime-1.3.9.tar.gz]
+[2023-07-28 08:37:15] INFO root fetch - main [MainThread]: End processing [oarepo-runtime]: success
+[2023-07-28 08:37:15] INFO root fetch - processPackages [irdev-pycolor]: Remove: archive file [/home/abi/fetcher/tmp/irdev_pycolor-1.0.0.tar.gz]
+[2023-07-28 08:37:15] INFO root fetch - processPackages [irdev-pycolor]: Remove: archive file [/home/abi/fetcher/tmp/irdev_pycolor-1.0.1.tar.gz]
+[2023-07-28 08:37:15] INFO root fetch - main [MainThread]: End processing [irdev-pycolor]: success
+[2023-07-28 08:37:15] INFO root fetch - processPackages [rfidtools]: Remove: archive file [/home/abi/fetcher/tmp/rfidtools-0.1.3.tar.gz]
+[2023-07-28 08:37:15] INFO root fetch - processPackages [rfidtools]: Remove: archive file [/home/abi/fetcher/tmp/rfidtools-1.0.0.tar.gz]
+[2023-07-28 08:37:15] INFO root fetch - main [MainThread]: End processing [rfidtools]: success
+[2023-07-28 08:37:15] INFO root fetch - processPackages [amazon-scrape]: Remove: archive file [/home/abi/fetcher/tmp/amazon_scrape-1.0.1.tar.gz]
+[2023-07-28 08:37:15] INFO root fetch - processPackages [amazon-scrape]: Remove: archive file [/home/abi/fetcher/tmp/amazon_scrape-1.0.2.tar.gz]
+[2023-07-28 08:37:15] INFO root fetch - main [MainThread]: End processing [amazon-scrape]: success
+[2023-07-28 08:37:16] INFO root fetch - processPackages [kingunit-inspector]: Remove: archive file [/home/abi/fetcher/tmp/kingunit_inspector-0.0.5.tar.gz]
+[2023-07-28 08:37:16] INFO root fetch - processPackages [kingunit-inspector]: Remove: archive file [/home/abi/fetcher/tmp/kingunit_inspector-0.0.6.tar.gz]
+[2023-07-28 08:37:16] INFO root fetch - main [MainThread]: End processing [kingunit-inspector]: success
+[2023-07-28 08:37:16] INFO root fetch - processPackages [gitops]: Downloading https://files.pythonhosted.org/packages/35/a2/a6b8ecb5528074acc324a799084d617910b5f9457284406808a542b0c1c1/gitops-0.9.8.tar.gz
+[2023-07-28 08:37:16] INFO root fetch - processPackages [eyeball-pp]: Remove: archive file [/home/abi/fetcher/tmp/eyeball_pp-0.0.4.tar.gz]
+[2023-07-28 08:37:16] INFO root fetch - processPackages [eyeball-pp]: Remove: archive file [/home/abi/fetcher/tmp/eyeball_pp-0.0.5.tar.gz]
+[2023-07-28 08:37:16] INFO root fetch - main [MainThread]: End processing [eyeball-pp]: success
+[2023-07-28 08:37:16] INFO root fetch - processPackages [gitops]: executing diffoscope
+[2023-07-28 08:37:16] INFO root fetch - processPackages [gitops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitops-0.9.7.tar.gz tmp/gitops-0.9.8.tar.gz --markdown 20230728/g/gitops/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-07-28 08:37:16] INFO root fetch - processPackages [langchain-visualizer]: Remove: archive file [/home/abi/fetcher/tmp/langchain_visualizer-0.0.8.tar.gz]
+[2023-07-28 08:37:16] INFO root fetch - processPackages [langchain-visualizer]: Remove: archive file [/home/abi/fetcher/tmp/langchain_visualizer-0.0.9.tar.gz]
+[2023-07-28 08:37:16] INFO root fetch - main [MainThread]: End processing [langchain-visualizer]: success
+[2023-07-28 08:37:16] INFO root fetch - processPackages [python-univer]: Remove: archive file [/home/abi/fetcher/tmp/python-univer-1.4.7.tar.gz]
+[2023-07-28 08:37:16] INFO root fetch - processPackages [python-univer]: Remove: archive file [/home/abi/fetcher/tmp/python-univer-1.4.8.tar.gz]
+[2023-07-28 08:37:16] INFO root fetch - main [MainThread]: End processing [python-univer]: success
+[2023-07-28 08:37:16] INFO root fetch - processPackages [gitops]: Remove: archive file [/home/abi/fetcher/tmp/gitops-0.9.7.tar.gz]
+[2023-07-28 08:37:16] INFO root fetch - processPackages [gitops]: Remove: archive file [/home/abi/fetcher/tmp/gitops-0.9.8.tar.gz]
+[2023-07-28 08:37:16] INFO root fetch - main [MainThread]: End processing [gitops]: success
+[2023-07-28 08:37:16] INFO root fetch - main [MainThread]: Store serial: [19072416]
