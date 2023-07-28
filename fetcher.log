@@ -12825,3 +12825,48 @@
 [2023-07-28 06:54:28] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.7.7.tar.gz]
 [2023-07-28 06:54:28] INFO root fetch - main [MainThread]: End processing [pami]: success
 [2023-07-28 06:54:28] INFO root fetch - main [MainThread]: Store serial: [19071766]
+[2023-07-28 06:59:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19071766]
+[2023-07-28 06:59:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-28 06:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autoparaselenium
+[2023-07-28 06:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adafruit-circuitpython-minimqtt
+[2023-07-28 06:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xklb
+[2023-07-28 06:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: instructor
+[2023-07-28 06:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lbTool
+[2023-07-28 06:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CTkTable
+[2023-07-28 06:59:37] INFO root fetch - processPackages [adafruit-circuitpython-minimqtt]: New version: [7.4.1] Old Version: [7.4.0]
+[2023-07-28 06:59:37] INFO root fetch - processPackages [xklb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-28 06:59:37] INFO root fetch - processPackages [autoparaselenium]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-28 06:59:37] WARNING root fetch - processPackages [lbTool]: Skipping, unable to determine old version
+[2023-07-28 06:59:37] INFO root fetch - main [MainThread]: End processing [lbTool] error
+[2023-07-28 06:59:37] WARNING root fetch - processPackages [instructor]: Skipping, unable to determine old version
+[2023-07-28 06:59:37] INFO root fetch - main [MainThread]: End processing [instructor] error
+[2023-07-28 06:59:37] INFO root fetch - processPackages [autoparaselenium]: Downloading https://files.pythonhosted.org/packages/2d/26/4f1207b29779385e29d286e2457b0ba6399929c2c61298e96d5f93652841/autoparaselenium-0.3.0.tar.gz
+[2023-07-28 06:59:37] INFO root fetch - processPackages [CTkTable]: New version: [0.8] Old Version: [0.7]
+[2023-07-28 06:59:37] INFO root fetch - processPackages [adafruit-circuitpython-minimqtt]: Downloading https://files.pythonhosted.org/packages/4d/74/10122f61e7da708bec94fe433446c9d617f8332fa0975f271d3a0351267f/adafruit-circuitpython-minimqtt-7.4.0.tar.gz
+[2023-07-28 06:59:37] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/10/78/158da1876f9993e387cbd6f3e863998fb3d36545c88820f91a57f7a97b99/xklb-2.2.8.tar.gz
+[2023-07-28 06:59:37] INFO root fetch - processPackages [CTkTable]: Downloading https://files.pythonhosted.org/packages/38/a4/ed059be3a6e36a9d77a67adfb8d8b6e5a892d8598348fd8893dbc05e67b7/CTkTable-0.7.tar.gz
+[2023-07-28 06:59:37] INFO root fetch - processPackages [autoparaselenium]: Downloading https://files.pythonhosted.org/packages/fb/79/7c6d2b7686c190717b69b765c66892e056056fd0fb6e9be410d97957d5e5/autoparaselenium-0.3.1.tar.gz
+[2023-07-28 06:59:37] INFO root fetch - processPackages [adafruit-circuitpython-minimqtt]: Downloading https://files.pythonhosted.org/packages/30/e6/f21023c969bb2d74908fd144e0e59a2a3c7d18595961ffc55b23b5f5f1ac/adafruit-circuitpython-minimqtt-7.4.1.tar.gz
+[2023-07-28 06:59:37] INFO root fetch - processPackages [autoparaselenium]: executing diffoscope
+[2023-07-28 06:59:37] INFO root fetch - processPackages [autoparaselenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoparaselenium-0.3.0.tar.gz tmp/autoparaselenium-0.3.1.tar.gz --markdown 20230728/a/autoparaselenium/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-28 06:59:37] INFO root fetch - processPackages [adafruit-circuitpython-minimqtt]: executing diffoscope
+[2023-07-28 06:59:37] INFO root fetch - processPackages [adafruit-circuitpython-minimqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-minimqtt-7.4.0.tar.gz tmp/adafruit-circuitpython-minimqtt-7.4.1.tar.gz --markdown 20230728/a/adafruit-circuitpython-minimqtt/7.4.0-7.4.1/diff.md --exclude *.pyd
+[2023-07-28 06:59:38] INFO root fetch - processPackages [CTkTable]: Downloading https://files.pythonhosted.org/packages/88/81/5acd5380e1135295804cf0e53b5bb51ff3c8c1b2188c4e0f00a1553a758c/CTkTable-0.8.tar.gz
+[2023-07-28 06:59:38] INFO root fetch - processPackages [CTkTable]: executing diffoscope
+[2023-07-28 06:59:38] INFO root fetch - processPackages [CTkTable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTkTable-0.7.tar.gz tmp/CTkTable-0.8.tar.gz --markdown 20230728/C/CTkTable/0.7-0.8/diff.md --exclude *.pyd
+[2023-07-28 06:59:38] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/21/af/fbdd09ebcfd5aa404fbf007cfe827b2b56fcfd19c73cc4b3f7f672fe0b3c/xklb-2.2.9.tar.gz
+[2023-07-28 06:59:38] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-07-28 06:59:38] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.2.8.tar.gz tmp/xklb-2.2.9.tar.gz --markdown 20230728/x/xklb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-28 06:59:38] INFO root fetch - processPackages [autoparaselenium]: Remove: archive file [/home/abi/fetcher/tmp/autoparaselenium-0.3.0.tar.gz]
+[2023-07-28 06:59:38] INFO root fetch - processPackages [autoparaselenium]: Remove: archive file [/home/abi/fetcher/tmp/autoparaselenium-0.3.1.tar.gz]
+[2023-07-28 06:59:38] INFO root fetch - main [MainThread]: End processing [autoparaselenium]: success
+[2023-07-28 06:59:38] INFO root fetch - processPackages [CTkTable]: Remove: archive file [/home/abi/fetcher/tmp/CTkTable-0.7.tar.gz]
+[2023-07-28 06:59:38] INFO root fetch - processPackages [CTkTable]: Remove: archive file [/home/abi/fetcher/tmp/CTkTable-0.8.tar.gz]
+[2023-07-28 06:59:38] INFO root fetch - main [MainThread]: End processing [CTkTable]: success
+[2023-07-28 06:59:38] INFO root fetch - processPackages [adafruit-circuitpython-minimqtt]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-minimqtt-7.4.0.tar.gz]
+[2023-07-28 06:59:38] INFO root fetch - processPackages [adafruit-circuitpython-minimqtt]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-minimqtt-7.4.1.tar.gz]
+[2023-07-28 06:59:38] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-minimqtt]: success
+[2023-07-28 06:59:39] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.8.tar.gz]
+[2023-07-28 06:59:39] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
+[2023-07-28 06:59:39] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-07-28 06:59:39] INFO root fetch - main [MainThread]: Store serial: [19071790]
