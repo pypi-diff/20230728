@@ -21147,3 +21147,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 13:03:54] INFO root fetch - processPackages [opensafely]: Remove: archive file [/home/abi/fetcher/tmp/opensafely-1.9.2.tar.gz]
 [2023-07-28 13:03:54] INFO root fetch - main [MainThread]: End processing [opensafely]: success
 [2023-07-28 13:03:54] INFO root fetch - main [MainThread]: Store serial: [19074694]
+[2023-07-28 13:08:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19074694]
+[2023-07-28 13:09:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-28 13:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bamt
+[2023-07-28 13:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moptipy
+[2023-07-28 13:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finbourne-identity-sdk
+[2023-07-28 13:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pkgAnant
+[2023-07-28 13:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hikari_orchestrator
+[2023-07-28 13:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pkgAnant
+[2023-07-28 13:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-aujob
+[2023-07-28 13:09:02] INFO root fetch - processPackages [pkgAnant]: New version: [3.3.4] Old Version: [3.3.3]
+[2023-07-28 13:09:02] INFO root fetch - processPackages [moptipy]: New version: [0.9.90] Old Version: [0.9.9]
+[2023-07-28 13:09:02] INFO root fetch - processPackages [bamt]: New version: [1.1.41] Old Version: [1.1.40]
+[2023-07-28 13:09:02] WARNING root fetch - processPackages [hikari_orchestrator]: Skipping, unable to determine old version
+[2023-07-28 13:09:02] INFO root fetch - main [MainThread]: End processing [hikari_orchestrator] error
+[2023-07-28 13:09:02] INFO root fetch - processPackages [pkgAnant]: New version: [3.3.4] Old Version: [3.3.3]
+[2023-07-28 13:09:02] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [0.0.840] Old Version: [0.0.2515]
+[2023-07-28 13:09:02] INFO root fetch - processPackages [pkgAnant]: Downloading https://files.pythonhosted.org/packages/bd/79/0afed452b7709de9c4ea77938c98ae84492a1274f9ba179244b9d067ad58/pkgAnant-3.3.3.tar.gz
+[2023-07-28 13:09:02] INFO root fetch - processPackages [nonebot-plugin-aujob]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-28 13:09:02] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/86/d3/45297bbff0974d528e5da780bc1bf48f8418230162685da0ba8212246056/moptipy-0.9.9.tar.gz
+[2023-07-28 13:09:02] INFO root fetch - processPackages [pkgAnant]: Downloading https://files.pythonhosted.org/packages/bd/79/0afed452b7709de9c4ea77938c98ae84492a1274f9ba179244b9d067ad58/pkgAnant-3.3.3.tar.gz
+[2023-07-28 13:09:02] INFO root fetch - processPackages [nonebot-plugin-aujob]: Downloading https://files.pythonhosted.org/packages/fd/b0/a616f30ca46c4153733342dd3691eb7622b2b0faab14842b72dba8cae2ca/nonebot_plugin_aujob-0.0.3.tar.gz
+[2023-07-28 13:09:02] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/8b/fd/a10cf94e2bb73300aa9868e25769d0d83d3d8865e28d80b01aea4b5febd6/finbourne-identity-sdk-0.0.2515.tar.gz
+[2023-07-28 13:09:02] INFO root fetch - processPackages [bamt]: Downloading https://files.pythonhosted.org/packages/13/57/2c08ea159019f58fe356978482c8412c67ca36edd3226ebb35df30a9e8d2/BAMT-1.1.40.tar.gz
+[2023-07-28 13:09:03] INFO root fetch - processPackages [pkgAnant]: Downloading https://files.pythonhosted.org/packages/7f/f8/84550b59fccb6c1153ea9fde7ebc00dea63b917b688e1439980c3dde19a7/pkgAnant-3.3.4.tar.gz
+[2023-07-28 13:09:03] INFO root fetch - processPackages [pkgAnant]: Downloading https://files.pythonhosted.org/packages/7f/f8/84550b59fccb6c1153ea9fde7ebc00dea63b917b688e1439980c3dde19a7/pkgAnant-3.3.4.tar.gz
+[2023-07-28 13:09:03] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/60/02/556fee55b1aaf556ab945658f46e9f25aae842d2790fb15aa1ad81b2ba2a/finbourne-identity-sdk-0.0.840.tar.gz
+[2023-07-28 13:09:03] INFO root fetch - processPackages [pkgAnant]: executing diffoscope
+[2023-07-28 13:09:03] INFO root fetch - processPackages [pkgAnant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgAnant-3.3.3.tar.gz tmp/pkgAnant-3.3.4.tar.gz --markdown 20230728/p/pkgAnant/3.3.3-3.3.4/diff.md --exclude *.pyd
+[2023-07-28 13:09:03] INFO root fetch - processPackages [pkgAnant]: executing diffoscope
+[2023-07-28 13:09:03] INFO root fetch - processPackages [pkgAnant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgAnant-3.3.3.tar.gz tmp/pkgAnant-3.3.4.tar.gz --markdown 20230728/p/pkgAnant/3.3.3-3.3.4/diff.md --exclude *.pyd
+[2023-07-28 13:09:03] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/00/e4/9ca7fc68c27590ecab5dff76b9f51ed4ea7f2ad0702c1462a84c66b6f60d/moptipy-0.9.90.tar.gz
+[2023-07-28 13:09:03] INFO root fetch - processPackages [bamt]: Downloading https://files.pythonhosted.org/packages/20/de/53c10713a64917c726b07123ba6d7e6e1275096f8df9a15a4e820438958c/bamt-1.1.41.tar.gz
+[2023-07-28 13:09:03] INFO root fetch - processPackages [nonebot-plugin-aujob]: Downloading https://files.pythonhosted.org/packages/3b/41/94bfbf23778eea9fc2b04321622dd0f9ca1068d49df3b2f64a6d08df06a1/nonebot_plugin_aujob-0.0.4.tar.gz
+[2023-07-28 13:09:03] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2023-07-28 13:09:03] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-identity-sdk-0.0.2515.tar.gz tmp/finbourne-identity-sdk-0.0.840.tar.gz --markdown 20230728/f/finbourne-identity-sdk/0.0.2515-0.0.840/diff.md --exclude *.pyd
+[2023-07-28 13:09:03] INFO root fetch - processPackages [bamt]: executing diffoscope
+[2023-07-28 13:09:03] INFO root fetch - processPackages [bamt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BAMT-1.1.40.tar.gz tmp/bamt-1.1.41.tar.gz --markdown 20230728/b/bamt/1.1.40-1.1.41/diff.md --exclude *.pyd
+[2023-07-28 13:09:03] INFO root fetch - processPackages [moptipy]: executing diffoscope
+[2023-07-28 13:09:03] INFO root fetch - processPackages [moptipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipy-0.9.9.tar.gz tmp/moptipy-0.9.90.tar.gz --markdown 20230728/m/moptipy/0.9.9-0.9.90/diff.md --exclude *.pyd
+[2023-07-28 13:09:03] INFO root fetch - processPackages [nonebot-plugin-aujob]: executing diffoscope
+[2023-07-28 13:09:03] INFO root fetch - processPackages [nonebot-plugin-aujob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_aujob-0.0.3.tar.gz tmp/nonebot_plugin_aujob-0.0.4.tar.gz --markdown 20230728/n/nonebot-plugin-aujob/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-28 13:09:04] INFO root fetch - processPackages [pkgAnant]: Remove: archive file [/home/abi/fetcher/tmp/pkgAnant-3.3.3.tar.gz]
+[2023-07-28 13:09:04] INFO root fetch - processPackages [pkgAnant]: Remove: archive file [/home/abi/fetcher/tmp/pkgAnant-3.3.4.tar.gz]
+[2023-07-28 13:09:04] INFO root fetch - main [MainThread]: End processing [pkgAnant]: success
+[2023-07-28 13:09:04] INFO root fetch - main [MainThread]: End processing [pkgAnant]: success
+[2023-07-28 13:09:04] INFO root fetch - processPackages [nonebot-plugin-aujob]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_aujob-0.0.3.tar.gz]
+[2023-07-28 13:09:04] INFO root fetch - processPackages [nonebot-plugin-aujob]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_aujob-0.0.4.tar.gz]
+[2023-07-28 13:09:04] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-aujob]: success
+[2023-07-28 13:09:05] INFO root fetch - processPackages [bamt]: Remove: archive file [/home/abi/fetcher/tmp/BAMT-1.1.40.tar.gz]
+[2023-07-28 13:09:05] INFO root fetch - processPackages [bamt]: Remove: archive file [/home/abi/fetcher/tmp/bamt-1.1.41.tar.gz]
+[2023-07-28 13:09:05] INFO root fetch - main [MainThread]: End processing [bamt]: success
+[2023-07-28 13:09:05] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.2515.tar.gz]
+[2023-07-28 13:09:05] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.840.tar.gz]
+[2023-07-28 13:09:05] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2023-07-28 13:09:06] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.9.tar.gz]
+[2023-07-28 13:09:06] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.90.tar.gz]
+[2023-07-28 13:09:06] INFO root fetch - main [MainThread]: End processing [moptipy]: success
+[2023-07-28 13:09:06] INFO root fetch - main [MainThread]: Store serial: [19074719]
