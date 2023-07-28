@@ -22459,3 +22459,93 @@ AssertionError: tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip does not exi
 [2023-07-28 14:06:40] INFO root fetch - processPackages [ewoksweb]: Remove: archive file [/home/abi/fetcher/tmp/ewoksweb-0.3.0rc0.tar.gz]
 [2023-07-28 14:06:40] INFO root fetch - main [MainThread]: End processing [ewoksweb]: success
 [2023-07-28 14:06:40] INFO root fetch - main [MainThread]: Store serial: [19075183]
+[2023-07-28 14:11:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19075183]
+[2023-07-28 14:11:48] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-28 14:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: statspack
+[2023-07-28 14:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-07-28 14:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: horusdemodlib
+[2023-07-28 14:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: koherent
+[2023-07-28 14:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: femagtools
+[2023-07-28 14:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nuregi
+[2023-07-28 14:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-aap
+[2023-07-28 14:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neptune-pytorch
+[2023-07-28 14:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wasmpy-build
+[2023-07-28 14:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pybsky
+[2023-07-28 14:11:49] INFO root fetch - processPackages [statspack]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-07-28 14:11:49] INFO root fetch - processPackages [wasmpy-build]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-28 14:11:49] INFO root fetch - processPackages [horusdemodlib]: New version: [0.3.9] Old Version: [0.3.7]
+[2023-07-28 14:11:49] INFO root fetch - processPackages [nuregi]: New version: [0.2.0.dev2] Old Version: [0.2.0.dev1]
+[2023-07-28 14:11:49] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-28 14:11:49] INFO root fetch - processPackages [neptune-pytorch]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-28 14:11:49] INFO root fetch - processPackages [python-aap]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-28 14:11:49] INFO root fetch - processPackages [pybsky]: New version: [0.0.2] Old Version: [0.0.18]
+[2023-07-28 14:11:49] WARNING root fetch - processPackages [koherent]: Skipping, unable to determine old version
+[2023-07-28 14:11:49] INFO root fetch - processPackages [koherent]: Start processing: spinspg
+[2023-07-28 14:11:49] INFO root fetch - main [MainThread]: End processing [koherent] error
+[2023-07-28 14:11:49] INFO root fetch - processPackages [femagtools]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-28 14:11:49] WARNING root fetch - processPackages [spinspg]: Skipping, unable to determine old version
+[2023-07-28 14:11:49] INFO root fetch - main [MainThread]: End processing [spinspg] error
+[2023-07-28 14:11:49] INFO root fetch - processPackages [nuregi]: Downloading https://files.pythonhosted.org/packages/1f/f9/04ec7187bab2a5dbef95c56d2bf1773a8b6b28512207e40291a5539e78a7/nuregi-0.2.0.dev1.tar.gz
+[2023-07-28 14:11:49] INFO root fetch - processPackages [wasmpy-build]: Downloading https://files.pythonhosted.org/packages/82/ce/45a4c5a86c8a30daba48459c87e5413bddb7e1b3f45d3781582609938dd3/wasmpy-build-0.4.0.tar.gz
+[2023-07-28 14:11:49] INFO root fetch - processPackages [python-aap]: Downloading https://files.pythonhosted.org/packages/89/b2/8fc623cddf0686260770ade0dfe84c79dabd5c36acd725c6a5e9155061aa/python_aap-0.0.2.tar.gz
+[2023-07-28 14:11:49] INFO root fetch - processPackages [statspack]: Downloading https://files.pythonhosted.org/packages/fd/87/779f53a43227278cacbf3b5d216d4b9337e5719906ee3dd59e88907c026c/statspack-0.1.0.tar.gz
+[2023-07-28 14:11:49] INFO root fetch - processPackages [horusdemodlib]: Downloading https://files.pythonhosted.org/packages/22/de/ffae1ac1786790a303b7f7286536903097ef994d93014b81c29975afbf75/horusdemodlib-0.3.7.tar.gz
+[2023-07-28 14:11:49] INFO root fetch - processPackages [pybsky]: Downloading https://files.pythonhosted.org/packages/3f/58/43c8685855598088f235c5cc2fa9befbe754c4a6d82a7bc75ec68ff01995/pybsky-0.0.18.tar.gz
+[2023-07-28 14:11:49] INFO root fetch - processPackages [neptune-pytorch]: Downloading https://files.pythonhosted.org/packages/9f/2c/7701140f163dd5240b2c4ac0c5d6b764ab7400daeafd1b49db6fbeac6086/neptune_pytorch-1.0.0.tar.gz
+[2023-07-28 14:11:49] INFO root fetch - processPackages [femagtools]: Downloading https://files.pythonhosted.org/packages/1f/3f/32df19e572388ceda415ccacb19ed1e23bb3b05883a8db5bd99706db0912/femagtools-1.3.1.tar.gz
+[2023-07-28 14:11:49] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-07-28 14:11:49] INFO root fetch - processPackages [python-aap]: Downloading https://files.pythonhosted.org/packages/0c/01/a7cac2a280183145ac00235ef695733c1c45ad3f4a78953fa8092f2e4dd0/python_aap-0.0.3.tar.gz
+[2023-07-28 14:11:49] INFO root fetch - processPackages [pybsky]: Downloading https://files.pythonhosted.org/packages/0b/4f/9bfc6629f95fe43de98933064ceb9fc67e79395357a1a8b13f5cbf9461cc/pybsky-0.0.2.tar.gz
+[2023-07-28 14:11:50] INFO root fetch - processPackages [nuregi]: Downloading https://files.pythonhosted.org/packages/a2/dc/5ec0bc42a41ff507e565f1e28698432e6aef9d8581fe17685ab996641d47/nuregi-0.2.0.dev2.tar.gz
+[2023-07-28 14:11:50] INFO root fetch - processPackages [wasmpy-build]: Downloading https://files.pythonhosted.org/packages/e9/f6/fde0b97afa1e5f41c8145e6c21b22304c24ef9ef7c75de5e4cad3e1d0b35/wasmpy-build-0.4.1.tar.gz
+[2023-07-28 14:11:50] INFO root fetch - processPackages [statspack]: Downloading https://files.pythonhosted.org/packages/47/e4/9b7c4b06211bc7f10a5fe368830cd14da7c7c7100014880b71cb0215e352/statspack-0.1.2.tar.gz
+[2023-07-28 14:11:50] INFO root fetch - processPackages [neptune-pytorch]: Downloading https://files.pythonhosted.org/packages/99/18/1a3fbb13e0743d4752baa359a5f3f151123c0d0ce7921f9d6be625c57f5d/neptune_pytorch-1.0.1.tar.gz
+[2023-07-28 14:11:50] INFO root fetch - processPackages [python-aap]: executing diffoscope
+[2023-07-28 14:11:50] INFO root fetch - processPackages [python-aap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_aap-0.0.2.tar.gz tmp/python_aap-0.0.3.tar.gz --markdown 20230728/p/python-aap/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-28 14:11:50] INFO root fetch - processPackages [pybsky]: executing diffoscope
+[2023-07-28 14:11:50] INFO root fetch - processPackages [pybsky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybsky-0.0.18.tar.gz tmp/pybsky-0.0.2.tar.gz --markdown 20230728/p/pybsky/0.0.18-0.0.2/diff.md --exclude *.pyd
+[2023-07-28 14:11:50] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-07-28 14:11:50] INFO root fetch - processPackages [horusdemodlib]: Downloading https://files.pythonhosted.org/packages/b1/14/e36f42a19ae9af42f5a3a153477607ca959e83a8ec6f3653a240b4f8476c/horusdemodlib-0.3.9.tar.gz
+[2023-07-28 14:11:50] INFO root fetch - processPackages [femagtools]: Downloading https://files.pythonhosted.org/packages/14/fc/8aedb8e057eccc7e3000b241a23172d3a3f1ca9bd4a7ca979bf14d4a9ecd/femagtools-1.3.2.tar.gz
+[2023-07-28 14:11:50] INFO root fetch - processPackages [nuregi]: executing diffoscope
+[2023-07-28 14:11:50] INFO root fetch - processPackages [nuregi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuregi-0.2.0.dev1.tar.gz tmp/nuregi-0.2.0.dev2.tar.gz --markdown 20230728/n/nuregi/0.2.0.dev1-0.2.0.dev2/diff.md --exclude *.pyd
+[2023-07-28 14:11:50] INFO root fetch - processPackages [neptune-pytorch]: executing diffoscope
+[2023-07-28 14:11:50] INFO root fetch - processPackages [neptune-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neptune_pytorch-1.0.0.tar.gz tmp/neptune_pytorch-1.0.1.tar.gz --markdown 20230728/n/neptune-pytorch/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-28 14:11:50] INFO root fetch - processPackages [statspack]: executing diffoscope
+[2023-07-28 14:11:50] INFO root fetch - processPackages [statspack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statspack-0.1.0.tar.gz tmp/statspack-0.1.2.tar.gz --markdown 20230728/s/statspack/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-07-28 14:11:50] INFO root fetch - processPackages [wasmpy-build]: executing diffoscope
+[2023-07-28 14:11:50] INFO root fetch - processPackages [wasmpy-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wasmpy-build-0.4.0.tar.gz tmp/wasmpy-build-0.4.1.tar.gz --markdown 20230728/w/wasmpy-build/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-28 14:11:50] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-07-28 14:11:50] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230728/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-28 14:11:50] INFO root fetch - processPackages [femagtools]: executing diffoscope
+[2023-07-28 14:11:50] INFO root fetch - processPackages [femagtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femagtools-1.3.1.tar.gz tmp/femagtools-1.3.2.tar.gz --markdown 20230728/f/femagtools/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-28 14:11:50] INFO root fetch - processPackages [horusdemodlib]: executing diffoscope
+[2023-07-28 14:11:50] INFO root fetch - processPackages [horusdemodlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horusdemodlib-0.3.7.tar.gz tmp/horusdemodlib-0.3.9.tar.gz --markdown 20230728/h/horusdemodlib/0.3.7-0.3.9/diff.md --exclude *.pyd
+[2023-07-28 14:11:51] INFO root fetch - processPackages [python-aap]: Remove: archive file [/home/abi/fetcher/tmp/python_aap-0.0.2.tar.gz]
+[2023-07-28 14:11:51] INFO root fetch - processPackages [python-aap]: Remove: archive file [/home/abi/fetcher/tmp/python_aap-0.0.3.tar.gz]
+[2023-07-28 14:11:51] INFO root fetch - main [MainThread]: End processing [python-aap]: success
+[2023-07-28 14:11:51] INFO root fetch - processPackages [pybsky]: Remove: archive file [/home/abi/fetcher/tmp/pybsky-0.0.18.tar.gz]
+[2023-07-28 14:11:51] INFO root fetch - processPackages [pybsky]: Remove: archive file [/home/abi/fetcher/tmp/pybsky-0.0.2.tar.gz]
+[2023-07-28 14:11:51] INFO root fetch - main [MainThread]: End processing [pybsky]: success
+[2023-07-28 14:11:51] INFO root fetch - processPackages [neptune-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/neptune_pytorch-1.0.0.tar.gz]
+[2023-07-28 14:11:51] INFO root fetch - processPackages [neptune-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/neptune_pytorch-1.0.1.tar.gz]
+[2023-07-28 14:11:51] INFO root fetch - main [MainThread]: End processing [neptune-pytorch]: success
+[2023-07-28 14:11:51] INFO root fetch - processPackages [nuregi]: Remove: archive file [/home/abi/fetcher/tmp/nuregi-0.2.0.dev1.tar.gz]
+[2023-07-28 14:11:51] INFO root fetch - processPackages [nuregi]: Remove: archive file [/home/abi/fetcher/tmp/nuregi-0.2.0.dev2.tar.gz]
+[2023-07-28 14:11:51] INFO root fetch - main [MainThread]: End processing [nuregi]: success
+[2023-07-28 14:11:51] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz]
+[2023-07-28 14:11:51] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz]
+[2023-07-28 14:11:51] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-07-28 14:11:51] INFO root fetch - processPackages [statspack]: Remove: archive file [/home/abi/fetcher/tmp/statspack-0.1.0.tar.gz]
+[2023-07-28 14:11:51] INFO root fetch - processPackages [statspack]: Remove: archive file [/home/abi/fetcher/tmp/statspack-0.1.2.tar.gz]
+[2023-07-28 14:11:51] INFO root fetch - main [MainThread]: End processing [statspack]: success
+[2023-07-28 14:11:51] INFO root fetch - processPackages [horusdemodlib]: Remove: archive file [/home/abi/fetcher/tmp/horusdemodlib-0.3.7.tar.gz]
+[2023-07-28 14:11:51] INFO root fetch - processPackages [horusdemodlib]: Remove: archive file [/home/abi/fetcher/tmp/horusdemodlib-0.3.9.tar.gz]
+[2023-07-28 14:11:51] INFO root fetch - main [MainThread]: End processing [horusdemodlib]: success
+[2023-07-28 14:11:52] INFO root fetch - processPackages [femagtools]: Remove: archive file [/home/abi/fetcher/tmp/femagtools-1.3.1.tar.gz]
+[2023-07-28 14:11:52] INFO root fetch - processPackages [femagtools]: Remove: archive file [/home/abi/fetcher/tmp/femagtools-1.3.2.tar.gz]
+[2023-07-28 14:11:52] INFO root fetch - main [MainThread]: End processing [femagtools]: success
+[2023-07-28 14:11:54] INFO root fetch - processPackages [wasmpy-build]: Remove: archive file [/home/abi/fetcher/tmp/wasmpy-build-0.4.0.tar.gz]
+[2023-07-28 14:11:54] INFO root fetch - processPackages [wasmpy-build]: Remove: archive file [/home/abi/fetcher/tmp/wasmpy-build-0.4.1.tar.gz]
+[2023-07-28 14:11:54] INFO root fetch - main [MainThread]: End processing [wasmpy-build]: success
+[2023-07-28 14:11:54] INFO root fetch - main [MainThread]: Store serial: [19075220]
