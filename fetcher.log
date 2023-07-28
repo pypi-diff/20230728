@@ -16949,3 +16949,72 @@ AssertionError: tmp/pyepsilla-0.0.5.tar.gz does not exist
 [2023-07-28 10:34:23] INFO root fetch - processPackages [skill-sdk]: Remove: archive file [/home/abi/fetcher/tmp/skill-sdk-2.2.tar.gz]
 [2023-07-28 10:34:23] INFO root fetch - main [MainThread]: End processing [skill-sdk]: success
 [2023-07-28 10:34:23] INFO root fetch - main [MainThread]: Store serial: [19073359]
+[2023-07-28 10:39:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19073359]
+[2023-07-28 10:39:32] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-28 10:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-07-28 10:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rfidtools
+[2023-07-28 10:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: visyn-core
+[2023-07-28 10:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opencv-gst-rtsp-server
+[2023-07-28 10:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ycf
+[2023-07-28 10:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rfidtools
+[2023-07-28 10:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: benchmark-utils
+[2023-07-28 10:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hikari-core
+[2023-07-28 10:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bk-resource
+[2023-07-28 10:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-base-comment-template
+[2023-07-28 10:39:32] WARNING root fetch - processPackages [rfidtools]: Skipping, unable to determine old version
+[2023-07-28 10:39:32] INFO root fetch - main [MainThread]: End processing [rfidtools] error
+[2023-07-28 10:39:32] INFO root fetch - processPackages [bk-resource]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-28 10:39:32] INFO root fetch - processPackages [benchmark-utils]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-07-28 10:39:32] INFO root fetch - processPackages [visyn-core]: New version: [3.1.0] Old Version: [3.0.1]
+[2023-07-28 10:39:32] WARNING root fetch - processPackages [rfidtools]: Skipping, unable to determine old version
+[2023-07-28 10:39:32] INFO root fetch - main [MainThread]: End processing [rfidtools] error
+[2023-07-28 10:39:32] WARNING root fetch - processPackages [opencv-gst-rtsp-server]: Skipping, unable to determine old version
+[2023-07-28 10:39:32] INFO root fetch - processPackages [odoo-addon-base-comment-template]: New version: [16.0.2.0.1] Old Version: [16.0.2.0.0.6]
+[2023-07-28 10:39:32] INFO root fetch - main [MainThread]: End processing [opencv-gst-rtsp-server] error
+[2023-07-28 10:39:32] WARNING root fetch - processPackages [ycf]: Skipping, unable to determine old version
+[2023-07-28 10:39:32] INFO root fetch - main [MainThread]: End processing [ycf] error
+[2023-07-28 10:39:32] INFO root fetch - processPackages [hikari-core]: New version: [0.9.0.5] Old Version: [0.9.0.4]
+[2023-07-28 10:39:32] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.3.9.7.2] Old Version: [0.3.9.7.1]
+[2023-07-28 10:39:32] INFO root fetch - processPackages [odoo-addon-base-comment-template]: Downloading https://files.pythonhosted.org/packages/c5/99/9ecebb2a5ffd85d222f4642bad635a7379f369c1be5737a3e83ecc83ac2b/odoo_addon_base_comment_template-16.0.2.0.0.6-py3-none-any.whl
+[2023-07-28 10:39:32] INFO root fetch - processPackages [hikari-core]: Downloading https://files.pythonhosted.org/packages/79/01/fdea28ccc7bf3e943451271b5b5e354d87c9bdabc70a6b4be28c2c2cba17/hikari_core-0.9.0.4.tar.gz
+[2023-07-28 10:39:32] INFO root fetch - processPackages [benchmark-utils]: Downloading https://files.pythonhosted.org/packages/46/d1/fe3b0dad22f0b2f45e48a883ab50b2ef56b11256d97f98660b42c370b63d/benchmark_utils-0.2.1.tar.gz
+[2023-07-28 10:39:32] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/b6/32/c2b1b14f5d824a6666b7f92575eb0a382edbc4ef30ce07be82a823ebe89f/nonebot_plugin_stable_diffusion_diao-0.3.9.7.1.tar.gz
+[2023-07-28 10:39:32] INFO root fetch - processPackages [bk-resource]: Downloading https://files.pythonhosted.org/packages/fd/89/b4c299360598f054177b6dc15eb170fd4cbf0db02edced8bfcf0671bb089/bk_resource-0.4.1.tar.gz
+[2023-07-28 10:39:32] INFO root fetch - processPackages [visyn-core]: Downloading https://files.pythonhosted.org/packages/19/3d/2a942a6be95c9eb47055ccdfdeb1c35befe18ba7ed782b158afd00a7b8a3/visyn_core-3.0.1-py3-none-any.whl
+[2023-07-28 10:39:33] INFO root fetch - processPackages [benchmark-utils]: Downloading https://files.pythonhosted.org/packages/50/93/5c7b8d4f7205bce828b25edf195af08723368c79efb5d5e7bbae4a4e75a7/benchmark_utils-0.2.3.tar.gz
+[2023-07-28 10:39:33] INFO root fetch - processPackages [hikari-core]: Downloading https://files.pythonhosted.org/packages/5e/53/2f5995fbb09c80b126b4cb255418cc9558b6a36317072be701a38b1717a1/hikari_core-0.9.0.5.tar.gz
+[2023-07-28 10:39:33] INFO root fetch - processPackages [odoo-addon-base-comment-template]: Downloading https://files.pythonhosted.org/packages/71/87/5bed8382bb04725287a1fd227132f71bdf28a117736bfab13c463fde2f7e/odoo_addon_base_comment_template-16.0.2.0.1-py3-none-any.whl
+[2023-07-28 10:39:33] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/b2/ff/33acb6f75a8d798764e203ba49ba88ea65f41b3d10383005833d39d40e5d/nonebot_plugin_stable_diffusion_diao-0.3.9.7.2.tar.gz
+[2023-07-28 10:39:33] INFO root fetch - processPackages [bk-resource]: Downloading https://files.pythonhosted.org/packages/80/fa/802722ea1bef6c3aa28543182deff264ce654cdb78db6b376ef2e04a3365/bk_resource-0.4.2.tar.gz
+[2023-07-28 10:39:33] INFO root fetch - processPackages [benchmark-utils]: executing diffoscope
+[2023-07-28 10:39:33] INFO root fetch - processPackages [benchmark-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmark_utils-0.2.1.tar.gz tmp/benchmark_utils-0.2.3.tar.gz --markdown 20230728/b/benchmark-utils/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-07-28 10:39:33] INFO root fetch - processPackages [visyn-core]: Downloading https://files.pythonhosted.org/packages/20/43/6e2d566d300ba84b4b5dd093c83f1b101adbb3b8dd3d07c31f88e63dc8c8/visyn_core-3.1.0-py3-none-any.whl
+[2023-07-28 10:39:33] INFO root fetch - processPackages [odoo-addon-base-comment-template]: executing diffoscope
+[2023-07-28 10:39:33] INFO root fetch - processPackages [odoo-addon-base-comment-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_comment_template-16.0.2.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_base_comment_template-16.0.2.0.1-py3-none-any.whl.zip --markdown 20230728/o/odoo-addon-base-comment-template/16.0.2.0.0.6-16.0.2.0.1/diff.md --exclude *.pyd
+[2023-07-28 10:39:33] INFO root fetch - processPackages [hikari-core]: executing diffoscope
+[2023-07-28 10:39:33] INFO root fetch - processPackages [hikari-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikari_core-0.9.0.4.tar.gz tmp/hikari_core-0.9.0.5.tar.gz --markdown 20230728/h/hikari-core/0.9.0.4-0.9.0.5/diff.md --exclude *.pyd
+[2023-07-28 10:39:33] INFO root fetch - processPackages [bk-resource]: executing diffoscope
+[2023-07-28 10:39:33] INFO root fetch - processPackages [bk-resource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bk_resource-0.4.1.tar.gz tmp/bk_resource-0.4.2.tar.gz --markdown 20230728/b/bk-resource/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-28 10:39:33] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-07-28 10:39:33] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.7.1.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.7.2.tar.gz --markdown 20230728/n/nonebot-plugin-stable-diffusion-diao/0.3.9.7.1-0.3.9.7.2/diff.md --exclude *.pyd
+[2023-07-28 10:39:33] INFO root fetch - processPackages [visyn-core]: executing diffoscope
+[2023-07-28 10:39:33] INFO root fetch - processPackages [visyn-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visyn_core-3.0.1-py3-none-any.whl.zip tmp/visyn_core-3.1.0-py3-none-any.whl.zip --markdown 20230728/v/visyn-core/3.0.1-3.1.0/diff.md --exclude *.pyd
+[2023-07-28 10:39:34] INFO root fetch - processPackages [benchmark-utils]: Remove: archive file [/home/abi/fetcher/tmp/benchmark_utils-0.2.1.tar.gz]
+[2023-07-28 10:39:34] INFO root fetch - processPackages [benchmark-utils]: Remove: archive file [/home/abi/fetcher/tmp/benchmark_utils-0.2.3.tar.gz]
+[2023-07-28 10:39:34] INFO root fetch - main [MainThread]: End processing [benchmark-utils]: success
+[2023-07-28 10:39:34] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.7.1.tar.gz]
+[2023-07-28 10:39:34] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.7.2.tar.gz]
+[2023-07-28 10:39:34] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-07-28 10:39:34] INFO root fetch - processPackages [bk-resource]: Remove: archive file [/home/abi/fetcher/tmp/bk_resource-0.4.1.tar.gz]
+[2023-07-28 10:39:34] INFO root fetch - processPackages [bk-resource]: Remove: archive file [/home/abi/fetcher/tmp/bk_resource-0.4.2.tar.gz]
+[2023-07-28 10:39:34] INFO root fetch - main [MainThread]: End processing [bk-resource]: success
+[2023-07-28 10:39:34] INFO root fetch - processPackages [hikari-core]: Remove: archive file [/home/abi/fetcher/tmp/hikari_core-0.9.0.4.tar.gz]
+[2023-07-28 10:39:34] INFO root fetch - processPackages [hikari-core]: Remove: archive file [/home/abi/fetcher/tmp/hikari_core-0.9.0.5.tar.gz]
+[2023-07-28 10:39:34] INFO root fetch - main [MainThread]: End processing [hikari-core]: success
+[2023-07-28 10:39:34] INFO root fetch - processPackages [odoo-addon-base-comment-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_comment_template-16.0.2.0.0.6-py3-none-any.whl.zip]
+[2023-07-28 10:39:34] INFO root fetch - processPackages [odoo-addon-base-comment-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_comment_template-16.0.2.0.1-py3-none-any.whl.zip]
+[2023-07-28 10:39:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-comment-template]: success
+[2023-07-28 10:39:35] INFO root fetch - processPackages [visyn-core]: Remove: archive file [/home/abi/fetcher/tmp/visyn_core-3.0.1-py3-none-any.whl.zip]
+[2023-07-28 10:39:35] INFO root fetch - processPackages [visyn-core]: Remove: archive file [/home/abi/fetcher/tmp/visyn_core-3.1.0-py3-none-any.whl.zip]
+[2023-07-28 10:39:35] INFO root fetch - main [MainThread]: End processing [visyn-core]: success
+[2023-07-28 10:39:35] INFO root fetch - main [MainThread]: Store serial: [19073400]
