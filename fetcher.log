@@ -10084,3 +10084,90 @@
 [2023-07-28 04:28:33] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.399.0.tar.gz]
 [2023-07-28 04:28:33] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-28 04:28:33] INFO root fetch - main [MainThread]: Store serial: [19070533]
+[2023-07-28 04:33:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19070533]
+[2023-07-28 04:33:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-28 04:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: naif-eop-high-prec
+[2023-07-28 04:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: benimang
+[2023-07-28 04:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edc-appointment
+[2023-07-28 04:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edc-facility
+[2023-07-28 04:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alanapy
+[2023-07-28 04:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: graphreduce
+[2023-07-28 04:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edc-locator
+[2023-07-28 04:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-account-budget-oca
+[2023-07-28 04:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sbc-classification
+[2023-07-28 04:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gggdtparser
+[2023-07-28 04:33:42] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-28 04:33:42] INFO root fetch - processPackages [edc-appointment]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-28 04:33:42] INFO root fetch - processPackages [graphreduce]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-07-28 04:33:42] WARNING root fetch - processPackages [sbc-classification]: Skipping, unable to determine old version
+[2023-07-28 04:33:42] INFO root fetch - main [MainThread]: End processing [sbc-classification] error
+[2023-07-28 04:33:42] INFO root fetch - processPackages [alanapy]: New version: [0.9] Old Version: [0.15]
+[2023-07-28 04:33:42] INFO root fetch - processPackages [edc-locator]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-28 04:33:42] INFO root fetch - processPackages [edc-facility]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-28 04:33:42] INFO root fetch - processPackages [benimang]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-28 04:33:42] INFO root fetch - processPackages [odoo14-addon-account-budget-oca]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-07-28 04:33:42] INFO root fetch - processPackages [gggdtparser]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-28 04:33:42] INFO root fetch - processPackages [edc-facility]: Downloading https://files.pythonhosted.org/packages/f8/43/83ddfd23c29814a9582db7d419729670f9c76a8c30ea48150565efb2e059/edc_facility-0.3.8-py3-none-any.whl
+[2023-07-28 04:33:42] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/6c/53/9b86c706ade5f74e42d276d659921701a0cf7c8ba099b489c3958cd88b4f/benimang-0.4.8.tar.gz
+[2023-07-28 04:33:42] INFO root fetch - processPackages [edc-appointment]: Downloading https://files.pythonhosted.org/packages/f8/13/58ebbfd6de5f2213f4f7217b376f9cf74076ac8297a3033abf3e189f3a31/edc_appointment-0.3.8-py3-none-any.whl
+[2023-07-28 04:33:42] INFO root fetch - processPackages [alanapy]: Downloading https://files.pythonhosted.org/packages/a8/d5/cff36daaf994f700d08d2817a80f311188e0e750ec68b92b766ce188bd77/alanapy-0.15.tar.gz
+[2023-07-28 04:33:42] INFO root fetch - processPackages [graphreduce]: Downloading https://files.pythonhosted.org/packages/31/ae/12bd472f023781703ede16c400af27c8b2268844595b585fdba3aa873110/graphreduce-1.5.1.tar.gz
+[2023-07-28 04:33:42] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/09/ed/7488d5d961ce08546f5ee7ced9b28382ede88767e23d898f7a089dbd5065/naif_eop_high_prec-2023.7.8.tar.gz
+[2023-07-28 04:33:42] INFO root fetch - processPackages [edc-locator]: Downloading https://files.pythonhosted.org/packages/23/dc/5dfe8e311dc347218bf82960648dd9859311bda95f3734940080bbee8770/edc_locator-0.3.8-py3-none-any.whl
+[2023-07-28 04:33:42] INFO root fetch - processPackages [odoo14-addon-account-budget-oca]: Downloading https://files.pythonhosted.org/packages/c9/1b/728f7ade883112666694e43df8763867f0584ba6a539839cd7a9c2bbe087/odoo14_addon_account_budget_oca-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-07-28 04:33:42] INFO root fetch - processPackages [gggdtparser]: Downloading https://files.pythonhosted.org/packages/fb/f0/0c6f17945051779052712acb1f89576f318a602e3f9472202a0ad5e222db/gggdtparser-0.1.1.tar.gz
+[2023-07-28 04:33:43] INFO root fetch - processPackages [edc-facility]: Downloading https://files.pythonhosted.org/packages/25/df/5c2c19681b3a879f977740022bc5a788ede02f38db0703d0f9c08b2d0300/edc-facility-0.3.9.tar.gz
+[2023-07-28 04:33:43] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/e6/d8/79c374e4571a77e12f622ba60e902b628a4f241c92211d73f8b66907db49/benimang-0.4.9.tar.gz
+[2023-07-28 04:33:43] INFO root fetch - processPackages [edc-appointment]: Downloading https://files.pythonhosted.org/packages/10/c7/d34ba3e8a95cc8c2dd0b0dab4375371ad481c46f2b9edfe550ebcc8c8cbc/edc_appointment-0.3.9-py3-none-any.whl
+[2023-07-28 04:33:43] INFO root fetch - processPackages [alanapy]: Downloading https://files.pythonhosted.org/packages/2c/33/fa7118279782bd920d77fd7b293dbfdab5a7c1650c71e2360020b096068a/alanapy-0.9.tar.gz
+[2023-07-28 04:33:43] INFO root fetch - processPackages [edc-facility]: executing diffoscope
+[2023-07-28 04:33:43] INFO root fetch - processPackages [edc-facility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_facility-0.3.8-py3-none-any.whl.zip tmp/edc-facility-0.3.9.tar.gz --markdown 20230728/e/edc-facility/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-28 04:33:43] INFO root fetch - processPackages [graphreduce]: Downloading https://files.pythonhosted.org/packages/5a/fc/5adb5779220941f443888867b1490b1c99eaf335c73b3bd01eae08119fc7/graphreduce-1.5.2.tar.gz
+[2023-07-28 04:33:43] INFO root fetch - processPackages [benimang]: executing diffoscope
+[2023-07-28 04:33:43] INFO root fetch - processPackages [benimang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benimang-0.4.8.tar.gz tmp/benimang-0.4.9.tar.gz --markdown 20230728/b/benimang/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-28 04:33:43] INFO root fetch - processPackages [alanapy]: executing diffoscope
+[2023-07-28 04:33:43] INFO root fetch - processPackages [alanapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alanapy-0.15.tar.gz tmp/alanapy-0.9.tar.gz --markdown 20230728/a/alanapy/0.15-0.9/diff.md --exclude *.pyd
+[2023-07-28 04:33:43] INFO root fetch - processPackages [edc-locator]: Downloading https://files.pythonhosted.org/packages/8d/89/63cfcd98d138c00cbdb907bc1bf53adc8d3af73e2a79ce70d1e6deccd71a/edc_locator-0.3.9-py3-none-any.whl
+[2023-07-28 04:33:43] INFO root fetch - processPackages [gggdtparser]: Downloading https://files.pythonhosted.org/packages/aa/52/d81a8eb9d1c831352da738ebab873d00954da8890485ec979f30c862bcdd/gggdtparser-0.1.2.tar.gz
+[2023-07-28 04:33:43] INFO root fetch - processPackages [graphreduce]: executing diffoscope
+[2023-07-28 04:33:43] INFO root fetch - processPackages [graphreduce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphreduce-1.5.1.tar.gz tmp/graphreduce-1.5.2.tar.gz --markdown 20230728/g/graphreduce/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-07-28 04:33:43] INFO root fetch - processPackages [odoo14-addon-account-budget-oca]: Downloading https://files.pythonhosted.org/packages/55/df/6951045403a0585dddb754343097c56b1336f3dfe421abdc8361317e2718/odoo14_addon_account_budget_oca-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-07-28 04:33:43] INFO root fetch - processPackages [edc-appointment]: executing diffoscope
+[2023-07-28 04:33:43] INFO root fetch - processPackages [edc-appointment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_appointment-0.3.8-py3-none-any.whl.zip tmp/edc_appointment-0.3.9-py3-none-any.whl.zip --markdown 20230728/e/edc-appointment/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-28 04:33:43] INFO root fetch - processPackages [edc-locator]: executing diffoscope
+[2023-07-28 04:33:43] INFO root fetch - processPackages [edc-locator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_locator-0.3.8-py3-none-any.whl.zip tmp/edc_locator-0.3.9-py3-none-any.whl.zip --markdown 20230728/e/edc-locator/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-28 04:33:43] INFO root fetch - processPackages [odoo14-addon-account-budget-oca]: executing diffoscope
+[2023-07-28 04:33:43] INFO root fetch - processPackages [odoo14-addon-account-budget-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_budget_oca-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_account_budget_oca-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230728/o/odoo14-addon-account-budget-oca/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-07-28 04:33:43] INFO root fetch - processPackages [gggdtparser]: executing diffoscope
+[2023-07-28 04:33:43] INFO root fetch - processPackages [gggdtparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gggdtparser-0.1.1.tar.gz tmp/gggdtparser-0.1.2.tar.gz --markdown 20230728/g/gggdtparser/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-28 04:33:43] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/a2/f8/57853410d5affd1adacbfb12a5d90596ba94081ec97e3ffc215261ba9fea/naif_eop_high_prec-2023.7.9.tar.gz
+[2023-07-28 04:33:44] INFO root fetch - processPackages [edc-facility]: Remove: archive file [/home/abi/fetcher/tmp/edc_facility-0.3.8-py3-none-any.whl.zip]
+[2023-07-28 04:33:44] INFO root fetch - processPackages [edc-facility]: Remove: archive file [/home/abi/fetcher/tmp/edc-facility-0.3.9.tar.gz]
+[2023-07-28 04:33:44] INFO root fetch - main [MainThread]: End processing [edc-facility]: success
+[2023-07-28 04:33:44] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.8.tar.gz]
+[2023-07-28 04:33:44] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.9.tar.gz]
+[2023-07-28 04:33:44] INFO root fetch - main [MainThread]: End processing [benimang]: success
+[2023-07-28 04:33:44] INFO root fetch - processPackages [graphreduce]: Remove: archive file [/home/abi/fetcher/tmp/graphreduce-1.5.1.tar.gz]
+[2023-07-28 04:33:44] INFO root fetch - processPackages [graphreduce]: Remove: archive file [/home/abi/fetcher/tmp/graphreduce-1.5.2.tar.gz]
+[2023-07-28 04:33:44] INFO root fetch - main [MainThread]: End processing [graphreduce]: success
+[2023-07-28 04:33:44] INFO root fetch - processPackages [alanapy]: Remove: archive file [/home/abi/fetcher/tmp/alanapy-0.15.tar.gz]
+[2023-07-28 04:33:44] INFO root fetch - processPackages [alanapy]: Remove: archive file [/home/abi/fetcher/tmp/alanapy-0.9.tar.gz]
+[2023-07-28 04:33:44] INFO root fetch - main [MainThread]: End processing [alanapy]: success
+[2023-07-28 04:33:44] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-07-28 04:33:44] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.7.8.tar.gz tmp/naif_eop_high_prec-2023.7.9.tar.gz --markdown 20230728/n/naif-eop-high-prec/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-28 04:33:45] INFO root fetch - processPackages [gggdtparser]: Remove: archive file [/home/abi/fetcher/tmp/gggdtparser-0.1.1.tar.gz]
+[2023-07-28 04:33:45] INFO root fetch - processPackages [gggdtparser]: Remove: archive file [/home/abi/fetcher/tmp/gggdtparser-0.1.2.tar.gz]
+[2023-07-28 04:33:45] INFO root fetch - main [MainThread]: End processing [gggdtparser]: success
+[2023-07-28 04:33:45] INFO root fetch - processPackages [edc-locator]: Remove: archive file [/home/abi/fetcher/tmp/edc_locator-0.3.8-py3-none-any.whl.zip]
+[2023-07-28 04:33:45] INFO root fetch - processPackages [edc-locator]: Remove: archive file [/home/abi/fetcher/tmp/edc_locator-0.3.9-py3-none-any.whl.zip]
+[2023-07-28 04:33:45] INFO root fetch - main [MainThread]: End processing [edc-locator]: success
+[2023-07-28 04:33:45] INFO root fetch - processPackages [odoo14-addon-account-budget-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_budget_oca-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-07-28 04:33:45] INFO root fetch - processPackages [odoo14-addon-account-budget-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_budget_oca-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-07-28 04:33:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-budget-oca]: success
+[2023-07-28 04:33:45] INFO root fetch - processPackages [edc-appointment]: Remove: archive file [/home/abi/fetcher/tmp/edc_appointment-0.3.8-py3-none-any.whl.zip]
+[2023-07-28 04:33:45] INFO root fetch - processPackages [edc-appointment]: Remove: archive file [/home/abi/fetcher/tmp/edc_appointment-0.3.9-py3-none-any.whl.zip]
+[2023-07-28 04:33:45] INFO root fetch - main [MainThread]: End processing [edc-appointment]: success
+[2023-07-28 04:33:47] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.8.tar.gz]
+[2023-07-28 04:33:47] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.9.tar.gz]
+[2023-07-28 04:33:47] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-07-28 04:33:47] INFO root fetch - main [MainThread]: Store serial: [19070565]
