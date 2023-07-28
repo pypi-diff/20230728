@@ -12187,3 +12187,73 @@
 [2023-07-28 06:02:27] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod303-16.0.2.3.0.5-py3-none-any.whl.zip]
 [2023-07-28 06:02:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod303]: success
 [2023-07-28 06:02:27] INFO root fetch - main [MainThread]: Store serial: [19071406]
+[2023-07-28 06:07:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19071406]
+[2023-07-28 06:07:36] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-28 06:07:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coconut-develop
+[2023-07-28 06:07:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyperopt-prophet
+[2023-07-28 06:07:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mynacode
+[2023-07-28 06:07:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vulcan-sql
+[2023-07-28 06:07:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-azurerm
+[2023-07-28 06:07:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cjptools
+[2023-07-28 06:07:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: intersight
+[2023-07-28 06:07:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: LbCondaWrappers
+[2023-07-28 06:07:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-webstack
+[2023-07-28 06:07:36] INFO root fetch - processPackages [hyperopt-prophet]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-28 06:07:36] INFO root fetch - processPackages [django-webstack]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-28 06:07:36] INFO root fetch - processPackages [LbCondaWrappers]: New version: [0.4.1] Old Version: [0.3.4]
+[2023-07-28 06:07:36] INFO root fetch - processPackages [intersight]: New version: [1.0.9.6484] Old Version: [1.0.9.6207]
+[2023-07-28 06:07:36] WARNING root fetch - processPackages [cjptools]: Skipping, unable to determine old version
+[2023-07-28 06:07:36] INFO root fetch - main [MainThread]: End processing [cjptools] error
+[2023-07-28 06:07:36] INFO root fetch - processPackages [vulcan-sql]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-28 06:07:36] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-28 06:07:36] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.2.post0.dev9] Old Version: [3.0.2.post0.dev8]
+[2023-07-28 06:07:36] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: New version: [9.0.5] Old Version: [9.0.4]
+[2023-07-28 06:07:36] INFO root fetch - processPackages [hyperopt-prophet]: Downloading https://files.pythonhosted.org/packages/75/e1/b2de35cc062df540de04f60182a7c1e7bfae9adfe6eac9ad0cae81b2c273/hyperopt_prophet-0.2.3.tar.gz
+[2023-07-28 06:07:36] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/2e/f7/b2a641d9a273fd9baadc25af9aaceb83dba3fd296accdadadbca36bb79af/django-webstack-1.4.0.tar.gz
+[2023-07-28 06:07:36] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-28 06:07:36] INFO root fetch - processPackages [vulcan-sql]: Downloading https://files.pythonhosted.org/packages/ff/e0/4ec47c6474ec66fa5c924fa3269c61e59193756319f7894efcc3a0c21809/vulcan-sql-0.7.0.tar.gz
+[2023-07-28 06:07:36] INFO root fetch - processPackages [intersight]: Downloading https://files.pythonhosted.org/packages/ff/40/daaa754993e7cb8462afdc89a9772328cc5717951e766da83fa93944e043/intersight-1.0.9.6207.tar.gz
+[2023-07-28 06:07:36] INFO root fetch - processPackages [LbCondaWrappers]: Downloading https://files.pythonhosted.org/packages/3b/69/68554eaa8a3bd8eb3a3db051c6172925e0794a80e0077c4d04e646eeb0db/LbCondaWrappers-0.3.4.tar.gz
+[2023-07-28 06:07:36] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Downloading https://files.pythonhosted.org/packages/d3/38/18335d4c5b435cbcd1ea44d2c39af28b7296fe15e040b1f1d77024229d6a/cdktf-cdktf-provider-azurerm-9.0.4.tar.gz
+[2023-07-28 06:07:36] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/76/ba/83f4a7e45967086c125a6525e086526f469362e3a1327a44f8df15d67400/coconut-develop-3.0.2.post0.dev8.tar.gz
+[2023-07-28 06:07:37] WARNING root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Skipping package: exceeds size limit 31169044>=10485760
+[2023-07-28 06:07:37] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-azurerm] error
+[2023-07-28 06:07:37] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-28 06:07:37] INFO root fetch - processPackages [hyperopt-prophet]: Downloading https://files.pythonhosted.org/packages/f6/f3/1ce263da47e6c9d3df44775e4e0ad7e0f7e0464fd5873a573385d82de46c/hyperopt_prophet-0.2.4.tar.gz
+[2023-07-28 06:07:37] WARNING root fetch - processPackages [intersight]: Skipping package: exceeds size limit 16195201>=10485760
+[2023-07-28 06:07:37] INFO root fetch - main [MainThread]: End processing [intersight] error
+[2023-07-28 06:07:37] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-28 06:07:37] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230728/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-28 06:07:37] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/6c/23/0d234bc4818387654e6cca84fa79525ef8a16b30a4ee3a4c3182d027973a/django-webstack-1.4.1.tar.gz
+[2023-07-28 06:07:37] INFO root fetch - processPackages [vulcan-sql]: Downloading https://files.pythonhosted.org/packages/d8/5b/e06da231706162df0386195a5821668d87015d46e9be56ce1a56fbced363/vulcan-sql-0.7.1.tar.gz
+[2023-07-28 06:07:37] INFO root fetch - processPackages [LbCondaWrappers]: Downloading https://files.pythonhosted.org/packages/90/b4/8573fab3a9418e040d4f76506b5a960e9e094f55199115c7dc3f384ba357/LbCondaWrappers-0.4.1.tar.gz
+[2023-07-28 06:07:37] INFO root fetch - processPackages [hyperopt-prophet]: executing diffoscope
+[2023-07-28 06:07:37] INFO root fetch - processPackages [hyperopt-prophet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperopt_prophet-0.2.3.tar.gz tmp/hyperopt_prophet-0.2.4.tar.gz --markdown 20230728/h/hyperopt-prophet/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-28 06:07:37] INFO root fetch - processPackages [vulcan-sql]: executing diffoscope
+[2023-07-28 06:07:37] INFO root fetch - processPackages [vulcan-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vulcan-sql-0.7.0.tar.gz tmp/vulcan-sql-0.7.1.tar.gz --markdown 20230728/v/vulcan-sql/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-28 06:07:37] INFO root fetch - processPackages [LbCondaWrappers]: executing diffoscope
+[2023-07-28 06:07:37] INFO root fetch - processPackages [LbCondaWrappers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LbCondaWrappers-0.3.4.tar.gz tmp/LbCondaWrappers-0.4.1.tar.gz --markdown 20230728/L/LbCondaWrappers/0.3.4-0.4.1/diff.md --exclude *.pyd
+[2023-07-28 06:07:37] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/d7/8d/949a59bb813ee853bbb1d03d15a3f5a3de89562602ada8e1a9cca581a8d5/coconut-develop-3.0.2.post0.dev9.tar.gz
+[2023-07-28 06:07:37] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-07-28 06:07:37] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.2.post0.dev8.tar.gz tmp/coconut-develop-3.0.2.post0.dev9.tar.gz --markdown 20230728/c/coconut-develop/3.0.2.post0.dev8-3.0.2.post0.dev9/diff.md --exclude *.pyd
+[2023-07-28 06:07:37] INFO root fetch - processPackages [django-webstack]: executing diffoscope
+[2023-07-28 06:07:37] INFO root fetch - processPackages [django-webstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-webstack-1.4.0.tar.gz tmp/django-webstack-1.4.1.tar.gz --markdown 20230728/d/django-webstack/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-28 06:07:38] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-28 06:07:38] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-28 06:07:38] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-28 06:07:38] INFO root fetch - processPackages [hyperopt-prophet]: Remove: archive file [/home/abi/fetcher/tmp/hyperopt_prophet-0.2.3.tar.gz]
+[2023-07-28 06:07:38] INFO root fetch - processPackages [hyperopt-prophet]: Remove: archive file [/home/abi/fetcher/tmp/hyperopt_prophet-0.2.4.tar.gz]
+[2023-07-28 06:07:38] INFO root fetch - main [MainThread]: End processing [hyperopt-prophet]: success
+[2023-07-28 06:07:38] INFO root fetch - processPackages [vulcan-sql]: Remove: archive file [/home/abi/fetcher/tmp/vulcan-sql-0.7.0.tar.gz]
+[2023-07-28 06:07:38] INFO root fetch - processPackages [vulcan-sql]: Remove: archive file [/home/abi/fetcher/tmp/vulcan-sql-0.7.1.tar.gz]
+[2023-07-28 06:07:38] INFO root fetch - main [MainThread]: End processing [vulcan-sql]: success
+[2023-07-28 06:07:38] INFO root fetch - processPackages [LbCondaWrappers]: Remove: archive file [/home/abi/fetcher/tmp/LbCondaWrappers-0.3.4.tar.gz]
+[2023-07-28 06:07:38] INFO root fetch - processPackages [LbCondaWrappers]: Remove: archive file [/home/abi/fetcher/tmp/LbCondaWrappers-0.4.1.tar.gz]
+[2023-07-28 06:07:38] INFO root fetch - main [MainThread]: End processing [LbCondaWrappers]: success
+[2023-07-28 06:07:38] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.4.0.tar.gz]
+[2023-07-28 06:07:38] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.4.1.tar.gz]
+[2023-07-28 06:07:38] INFO root fetch - main [MainThread]: End processing [django-webstack]: success
+[2023-07-28 06:07:38] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev8.tar.gz]
+[2023-07-28 06:07:38] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev9.tar.gz]
+[2023-07-28 06:07:38] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-07-28 06:07:38] INFO root fetch - main [MainThread]: Store serial: [19071433]
