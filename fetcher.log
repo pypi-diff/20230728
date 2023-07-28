@@ -16200,3 +16200,127 @@ AssertionError: tmp/pyepsilla-0.0.5.tar.gz does not exist
 [2023-07-28 10:02:57] INFO root fetch - processPackages [diffoscope]: Remove: archive file [/home/abi/fetcher/tmp/diffoscope-99.tar.gz]
 [2023-07-28 10:02:57] INFO root fetch - main [MainThread]: End processing [diffoscope]: success
 [2023-07-28 10:02:57] INFO root fetch - main [MainThread]: Store serial: [19073077]
+[2023-07-28 10:08:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19073077]
+[2023-07-28 10:08:07] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-28 10:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volworld-aws-api-common
+[2023-07-28 10:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tortoise-api-model
+[2023-07-28 10:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agentaction
+[2023-07-28 10:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kioss
+[2023-07-28 10:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tortoise-api
+[2023-07-28 10:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smartscheduler
+[2023-07-28 10:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-forestadmin
+[2023-07-28 10:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: volworld-aws-api-common
+[2023-07-28 10:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ipyeos
+[2023-07-28 10:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lyrebird
+[2023-07-28 10:08:07] INFO root fetch - processPackages [agentaction]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-28 10:08:07] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-28 10:08:07] INFO root fetch - processPackages [tortoise-api-model]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-28 10:08:07] INFO root fetch - processPackages [kioss]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-28 10:08:07] INFO root fetch - processPackages [tortoise-api]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-28 10:08:07] WARNING root fetch - processPackages [smartscheduler]: Skipping, unable to determine old version
+[2023-07-28 10:08:07] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-28 10:08:07] INFO root fetch - processPackages [smartscheduler]: Start processing: volworld-aws-api-common
+[2023-07-28 10:08:07] INFO root fetch - main [MainThread]: End processing [smartscheduler] error
+[2023-07-28 10:08:07] INFO root fetch - processPackages [django-forestadmin]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-07-28 10:08:07] INFO root fetch - processPackages [ipyeos]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-07-28 10:08:07] INFO root fetch - processPackages [lyrebird]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-07-28 10:08:07] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-28 10:08:07] INFO root fetch - processPackages [agentaction]: Downloading https://files.pythonhosted.org/packages/ff/a0/66c54649cafe28ed1afa77b6801bc2ab1d5cfd67629f70a25126ce4800c9/agentaction-0.1.4.tar.gz
+[2023-07-28 10:08:07] INFO root fetch - processPackages [tortoise-api-model]: Downloading https://files.pythonhosted.org/packages/3a/72/3bbfa78240ffcf49b24ace5e2f146ed52ace530ea723fcdc7583dd3656b0/tortoise_api_model-0.0.4.tar.gz
+[2023-07-28 10:08:07] INFO root fetch - processPackages [tortoise-api]: Downloading https://files.pythonhosted.org/packages/e8/b0/70903c4497ad3ee2949febadf892adde8544423451843e2721cd311f4b1b/tortoise-api-0.2.1.tar.gz
+[2023-07-28 10:08:07] INFO root fetch - processPackages [kioss]: Downloading https://files.pythonhosted.org/packages/fd/96/fb49fbdb4cfc92708debabdc0ac88fa1adb433d1a513df6cda7c765ad0c9/kioss-0.1.1.tar.gz
+[2023-07-28 10:08:07] INFO root fetch - processPackages [ipyeos]: Downloading https://files.pythonhosted.org/packages/a2/9f/4e6627e52e75921a2ff2e59db08709c714dedb16c73b76c2fcc567be6094/ipyeos-0.4.7.tar.gz
+[2023-07-28 10:08:07] INFO root fetch - processPackages [django-forestadmin]: Downloading https://files.pythonhosted.org/packages/42/04/465c700441a002959b33afded7a9e1bbb2201a41e489a3adf94feee02620/django-forestadmin-1.6.2.tar.gz
+[2023-07-28 10:08:07] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/c7/82/7aefcc55e9d34309e43a1c4f62f535a10cbf84c23f14b0b54efb88505de6/volworld_aws_api_common-0.1.98.tar.gz
+[2023-07-28 10:08:07] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/c7/82/7aefcc55e9d34309e43a1c4f62f535a10cbf84c23f14b0b54efb88505de6/volworld_aws_api_common-0.1.98.tar.gz
+[2023-07-28 10:08:07] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/c7/82/7aefcc55e9d34309e43a1c4f62f535a10cbf84c23f14b0b54efb88505de6/volworld_aws_api_common-0.1.98.tar.gz
+[2023-07-28 10:08:07] INFO root fetch - processPackages [lyrebird]: Downloading https://files.pythonhosted.org/packages/06/13/4ab9bba5638766ee4616a2f79ef2b14a6cc420f30ee45746325841de3068/lyrebird-2.9.1.tar.gz
+[2023-07-28 10:08:08] INFO root fetch - processPackages [tortoise-api-model]: Downloading https://files.pythonhosted.org/packages/ba/2b/616a9241ae0364b60cb1f60ba923c273063af72154fb4d0ed6c078b5b900/tortoise_api_model-0.0.5.tar.gz
+[2023-07-28 10:08:08] INFO root fetch - processPackages [agentaction]: Downloading https://files.pythonhosted.org/packages/2d/54/46584e0bc10462fabcfcce191b9dd8219160c2f12ef282d645fd1669beed/agentaction-0.1.5.tar.gz
+[2023-07-28 10:08:08] INFO root fetch - processPackages [tortoise-api]: Downloading https://files.pythonhosted.org/packages/de/bb/0ba8e391257e2b9cffd830c95b8147d18e26ba1207aa142eacf415f32f4c/tortoise-api-0.2.2.tar.gz
+[2023-07-28 10:08:08] INFO root fetch - processPackages [kioss]: Downloading https://files.pythonhosted.org/packages/c7/d7/b57b6eebc40ec24029b3ee1fa0c6c05ccf5eb41579472a30e54337dcb8a1/kioss-0.1.2.tar.gz
+[2023-07-28 10:08:08] INFO root fetch - processPackages [django-forestadmin]: Downloading https://files.pythonhosted.org/packages/72/91/f05c61b6e64b929fe7ec3e8b38fc985948b5ae011cd9002bb3ce54207886/django-forestadmin-1.6.3.tar.gz
+[2023-07-28 10:08:08] INFO root fetch - processPackages [ipyeos]: Downloading https://files.pythonhosted.org/packages/e2/b3/5d9ff60ccd5aad450fb981ec089462de97c659dea3b17571f8ab8e582bc9/ipyeos-0.4.8.tar.gz
+[2023-07-28 10:08:08] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/85/c0/0151fa36df35a94f04ec24e70e3a88eb186696b9f9258ee1d18d894c66d6/volworld_aws_api_common-0.1.99.tar.gz
+[2023-07-28 10:08:08] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/85/c0/0151fa36df35a94f04ec24e70e3a88eb186696b9f9258ee1d18d894c66d6/volworld_aws_api_common-0.1.99.tar.gz
+[2023-07-28 10:08:08] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/85/c0/0151fa36df35a94f04ec24e70e3a88eb186696b9f9258ee1d18d894c66d6/volworld_aws_api_common-0.1.99.tar.gz
+[2023-07-28 10:08:08] INFO root fetch - processPackages [tortoise-api-model]: executing diffoscope
+[2023-07-28 10:08:08] INFO root fetch - processPackages [tortoise-api-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tortoise_api_model-0.0.4.tar.gz tmp/tortoise_api_model-0.0.5.tar.gz --markdown 20230728/t/tortoise-api-model/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-28 10:08:08] INFO root fetch - processPackages [agentaction]: executing diffoscope
+[2023-07-28 10:08:08] INFO root fetch - processPackages [agentaction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentaction-0.1.4.tar.gz tmp/agentaction-0.1.5.tar.gz --markdown 20230728/a/agentaction/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-28 10:08:08] INFO root fetch - processPackages [tortoise-api]: executing diffoscope
+[2023-07-28 10:08:08] INFO root fetch - processPackages [tortoise-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tortoise-api-0.2.1.tar.gz tmp/tortoise-api-0.2.2.tar.gz --markdown 20230728/t/tortoise-api/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-28 10:08:08] INFO root fetch - processPackages [kioss]: executing diffoscope
+[2023-07-28 10:08:08] INFO root fetch - processPackages [kioss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kioss-0.1.1.tar.gz tmp/kioss-0.1.2.tar.gz --markdown 20230728/k/kioss/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-28 10:08:08] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-07-28 10:08:08] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.98.tar.gz tmp/volworld_aws_api_common-0.1.99.tar.gz --markdown 20230728/v/volworld-aws-api-common/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-28 10:08:08] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-07-28 10:08:08] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-07-28 10:08:08] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.98.tar.gz tmp/volworld_aws_api_common-0.1.99.tar.gz --markdown 20230728/v/volworld-aws-api-common/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-28 10:08:08] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.98.tar.gz tmp/volworld_aws_api_common-0.1.99.tar.gz --markdown 20230728/v/volworld-aws-api-common/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-28 10:08:08] INFO root fetch - processPackages [django-forestadmin]: executing diffoscope
+[2023-07-28 10:08:08] INFO root fetch - processPackages [django-forestadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-forestadmin-1.6.2.tar.gz tmp/django-forestadmin-1.6.3.tar.gz --markdown 20230728/d/django-forestadmin/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-07-28 10:08:08] INFO root fetch - processPackages [ipyeos]: executing diffoscope
+[2023-07-28 10:08:08] INFO root fetch - processPackages [ipyeos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyeos-0.4.7.tar.gz tmp/ipyeos-0.4.8.tar.gz --markdown 20230728/i/ipyeos/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-07-28 10:08:09] INFO root fetch - processPackages [lyrebird]: Downloading https://files.pythonhosted.org/packages/77/cb/ae987ef021622334d287593ae7760a4c9bac044e030a96acf5a262910328/lyrebird-2.9.2.tar.gz
+[2023-07-28 10:08:09] INFO root fetch - processPackages [agentaction]: Remove: archive file [/home/abi/fetcher/tmp/agentaction-0.1.4.tar.gz]
+[2023-07-28 10:08:09] INFO root fetch - processPackages [agentaction]: Remove: archive file [/home/abi/fetcher/tmp/agentaction-0.1.5.tar.gz]
+[2023-07-28 10:08:09] INFO root fetch - processPackages [agentaction]: Start processing: AlgorithmLib
+[2023-07-28 10:08:09] INFO root fetch - main [MainThread]: End processing [agentaction]: success
+[2023-07-28 10:08:09] INFO root fetch - processPackages [AlgorithmLib]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-07-28 10:08:09] INFO root fetch - processPackages [tortoise-api-model]: Remove: archive file [/home/abi/fetcher/tmp/tortoise_api_model-0.0.4.tar.gz]
+[2023-07-28 10:08:09] INFO root fetch - processPackages [tortoise-api-model]: Remove: archive file [/home/abi/fetcher/tmp/tortoise_api_model-0.0.5.tar.gz]
+[2023-07-28 10:08:09] INFO root fetch - processPackages [tortoise-api-model]: Start processing: pyglove
+[2023-07-28 10:08:09] INFO root fetch - main [MainThread]: End processing [tortoise-api-model]: success
+[2023-07-28 10:08:09] INFO root fetch - processPackages [pyglove]: New version: [0.4.2.dev20230728] Old Version: [0.4.2.dev20230727]
+[2023-07-28 10:08:09] INFO root fetch - processPackages [AlgorithmLib]: Downloading https://files.pythonhosted.org/packages/78/f1/2fbac4aa9ef115eda50059c81431330d595bbf744e9ac898466afc3a85ee/AlgorithmLib-3.9.8.tar.gz
+[2023-07-28 10:08:09] INFO root fetch - processPackages [tortoise-api]: Remove: archive file [/home/abi/fetcher/tmp/tortoise-api-0.2.1.tar.gz]
+[2023-07-28 10:08:09] INFO root fetch - processPackages [tortoise-api]: Remove: archive file [/home/abi/fetcher/tmp/tortoise-api-0.2.2.tar.gz]
+[2023-07-28 10:08:09] INFO root fetch - processPackages [tortoise-api]: Start processing: femto-admin
+[2023-07-28 10:08:09] INFO root fetch - main [MainThread]: End processing [tortoise-api]: success
+[2023-07-28 10:08:09] INFO root fetch - processPackages [volworld-aws-api-common]: Remove: archive file [/home/abi/fetcher/tmp/volworld_aws_api_common-0.1.98.tar.gz]
+[2023-07-28 10:08:09] INFO root fetch - processPackages [volworld-aws-api-common]: Remove: archive file [/home/abi/fetcher/tmp/volworld_aws_api_common-0.1.99.tar.gz]
+[2023-07-28 10:08:09] INFO root fetch - processPackages [volworld-aws-api-common]: Start processing: corporate-reputation
+[2023-07-28 10:08:09] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-07-28 10:08:09] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/b1/d5/681b366882f4ea392cd05ee75a5b6c5eb8fa2ef43f206654fa2a6f836ae6/pyglove-0.4.2.dev20230727.tar.gz
+[2023-07-28 10:08:09] WARNING root fetch - processPackages [AlgorithmLib]: Skipping package: exceeds size limit 14952675>=10485760
+[2023-07-28 10:08:09] INFO root fetch - main [MainThread]: End processing [AlgorithmLib] error
+[2023-07-28 10:08:09] INFO root fetch - processPackages [femto-admin]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-28 10:08:09] INFO root fetch - processPackages [kioss]: Remove: archive file [/home/abi/fetcher/tmp/kioss-0.1.1.tar.gz]
+[2023-07-28 10:08:09] INFO root fetch - processPackages [kioss]: Remove: archive file [/home/abi/fetcher/tmp/kioss-0.1.2.tar.gz]
+[2023-07-28 10:08:09] INFO root fetch - main [MainThread]: End processing [kioss]: success
+[2023-07-28 10:08:09] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-07-28 10:08:10] INFO root fetch - processPackages [corporate-reputation]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-28 10:08:10] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-07-28 10:08:10] INFO root fetch - processPackages [femto-admin]: Downloading https://files.pythonhosted.org/packages/19/fe/cd359b9f8904b399d01166d8a1e8b752582ccde91d192f9bf59dabe751a2/femto-admin-0.1.0.tar.gz
+[2023-07-28 10:08:10] INFO root fetch - processPackages [corporate-reputation]: Downloading https://files.pythonhosted.org/packages/a1/b9/caf463a14802d27e342eb4d3d3e9722d6da16bbe294d89b7420b7592c149/corporate_reputation-0.8.0.tar.gz
+[2023-07-28 10:08:10] INFO root fetch - processPackages [femto-admin]: Downloading https://files.pythonhosted.org/packages/d6/44/38f4e6a916a68f821b2b491149484ba5f21c78b649a0868f57c25fe4a83d/femto-admin-0.1.1.tar.gz
+[2023-07-28 10:08:10] INFO root fetch - processPackages [corporate-reputation]: Downloading https://files.pythonhosted.org/packages/ed/6c/a3d03b3414917feb6d88e475b974255d5625409b12849677ac549720cd68/corporate_reputation-0.9.0.tar.gz
+[2023-07-28 10:08:10] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/dd/64/668be88d9bd02545a668222c2e9f07fdcf9c32d81412f08e9164fc95f164/pyglove-0.4.2.dev20230728.tar.gz
+[2023-07-28 10:08:10] INFO root fetch - processPackages [corporate-reputation]: executing diffoscope
+[2023-07-28 10:08:10] INFO root fetch - processPackages [corporate-reputation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corporate_reputation-0.8.0.tar.gz tmp/corporate_reputation-0.9.0.tar.gz --markdown 20230728/c/corporate-reputation/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-28 10:08:10] INFO root fetch - processPackages [femto-admin]: executing diffoscope
+[2023-07-28 10:08:10] INFO root fetch - processPackages [femto-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femto-admin-0.1.0.tar.gz tmp/femto-admin-0.1.1.tar.gz --markdown 20230728/f/femto-admin/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-28 10:08:10] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-28 10:08:10] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.2.dev20230727.tar.gz tmp/pyglove-0.4.2.dev20230728.tar.gz --markdown 20230728/p/pyglove/0.4.2.dev20230727-0.4.2.dev20230728/diff.md --exclude *.pyd
+[2023-07-28 10:08:10] INFO root fetch - processPackages [django-forestadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-forestadmin-1.6.2.tar.gz]
+[2023-07-28 10:08:10] INFO root fetch - processPackages [django-forestadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-forestadmin-1.6.3.tar.gz]
+[2023-07-28 10:08:10] INFO root fetch - main [MainThread]: End processing [django-forestadmin]: success
+[2023-07-28 10:08:10] INFO root fetch - processPackages [ipyeos]: Remove: archive file [/home/abi/fetcher/tmp/ipyeos-0.4.7.tar.gz]
+[2023-07-28 10:08:10] INFO root fetch - processPackages [ipyeos]: Remove: archive file [/home/abi/fetcher/tmp/ipyeos-0.4.8.tar.gz]
+[2023-07-28 10:08:10] INFO root fetch - main [MainThread]: End processing [ipyeos]: success
+[2023-07-28 10:08:10] INFO root fetch - processPackages [lyrebird]: executing diffoscope
+[2023-07-28 10:08:10] INFO root fetch - processPackages [lyrebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrebird-2.9.1.tar.gz tmp/lyrebird-2.9.2.tar.gz --markdown 20230728/l/lyrebird/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-07-28 10:08:11] INFO root fetch - processPackages [corporate-reputation]: Remove: archive file [/home/abi/fetcher/tmp/corporate_reputation-0.8.0.tar.gz]
+[2023-07-28 10:08:11] INFO root fetch - processPackages [corporate-reputation]: Remove: archive file [/home/abi/fetcher/tmp/corporate_reputation-0.9.0.tar.gz]
+[2023-07-28 10:08:11] INFO root fetch - main [MainThread]: End processing [corporate-reputation]: success
+[2023-07-28 10:08:11] INFO root fetch - processPackages [femto-admin]: Remove: archive file [/home/abi/fetcher/tmp/femto-admin-0.1.0.tar.gz]
+[2023-07-28 10:08:11] INFO root fetch - processPackages [femto-admin]: Remove: archive file [/home/abi/fetcher/tmp/femto-admin-0.1.1.tar.gz]
+[2023-07-28 10:08:11] INFO root fetch - main [MainThread]: End processing [femto-admin]: success
+[2023-07-28 10:08:12] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.2.dev20230727.tar.gz]
+[2023-07-28 10:08:12] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.2.dev20230728.tar.gz]
+[2023-07-28 10:08:12] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-28 10:08:13] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-2.9.1.tar.gz]
+[2023-07-28 10:08:13] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-2.9.2.tar.gz]
+[2023-07-28 10:08:13] INFO root fetch - main [MainThread]: End processing [lyrebird]: success
+[2023-07-28 10:08:13] INFO root fetch - main [MainThread]: Store serial: [19073135]
