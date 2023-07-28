@@ -19097,3 +19097,120 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 11:45:52] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.0.8.tar.gz]
 [2023-07-28 11:45:52] INFO root fetch - main [MainThread]: End processing [lark-oapi]: success
 [2023-07-28 11:45:52] INFO root fetch - main [MainThread]: Store serial: [19074089]
+[2023-07-28 11:50:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19074089]
+[2023-07-28 11:51:01] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-28 11:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finbourne-identity-sdk
+[2023-07-28 11:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: st-login-form
+[2023-07-28 11:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seveno-pyutil
+[2023-07-28 11:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: benimang
+[2023-07-28 11:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: panda-utils
+[2023-07-28 11:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stressed-cyrillic-tools
+[2023-07-28 11:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tiledb-plot-widget
+[2023-07-28 11:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: linopy
+[2023-07-28 11:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bestnlp
+[2023-07-28 11:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: krules-companion-client
+[2023-07-28 11:51:01] INFO root fetch - processPackages [linopy]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-28 11:51:01] INFO root fetch - processPackages [st-login-form]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-28 11:51:02] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [0.0.840] Old Version: [0.0.2513]
+[2023-07-28 11:51:02] INFO root fetch - processPackages [panda-utils]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-28 11:51:02] INFO root fetch - processPackages [bestnlp]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-28 11:51:02] INFO root fetch - processPackages [tiledb-plot-widget]: New version: [1.1.0a0] Old Version: [1.1.0]
+[2023-07-28 11:51:02] WARNING root fetch - processPackages [krules-companion-client]: Skipping, unable to determine old version
+[2023-07-28 11:51:02] INFO root fetch - processPackages [krules-companion-client]: Start processing: abbyPython
+[2023-07-28 11:51:02] INFO root fetch - main [MainThread]: End processing [krules-companion-client] error
+[2023-07-28 11:51:02] INFO root fetch - processPackages [stressed-cyrillic-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-28 11:51:02] INFO root fetch - processPackages [seveno-pyutil]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-07-28 11:51:02] INFO root fetch - processPackages [benimang]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-07-28 11:51:02] INFO root fetch - processPackages [abbyPython]: New version: [2.2.0] Old Version: [2.0.0]
+[2023-07-28 11:51:02] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f1/cc/1904b584559764553e74e7f6cf031be1d67b7d429c3962987515543c0d72/finbourne-identity-sdk-0.0.2513.tar.gz
+[2023-07-28 11:51:02] INFO root fetch - processPackages [st-login-form]: Downloading https://files.pythonhosted.org/packages/8a/a1/33529af9d875dfbe0d2d919bdfb1de653eb4fa07aee09542bd346850d649/st-login-form-0.2.1.tar.gz
+[2023-07-28 11:51:02] INFO root fetch - processPackages [linopy]: Downloading https://files.pythonhosted.org/packages/af/8f/b60f48dd94c9aa0848794587b344655ee2b34b75d28a29af705a750d419f/linopy-0.2.2.tar.gz
+[2023-07-28 11:51:02] INFO root fetch - processPackages [bestnlp]: Downloading https://files.pythonhosted.org/packages/e4/24/de6bcc57ce88afba553b3e8a795816342c5f358580e39666b9bde46f80fb/bestnlp-1.0.0-py3-none-any.whl
+[2023-07-28 11:51:02] INFO root fetch - processPackages [stressed-cyrillic-tools]: Downloading https://files.pythonhosted.org/packages/cb/d8/6be75211b3eb5f7a7e1c77035d4023e9f8ba069bf0fbab54a1608e4b88b0/stressed_cyrillic_tools-0.1.8.tar.gz
+[2023-07-28 11:51:02] INFO root fetch - processPackages [seveno-pyutil]: Downloading https://files.pythonhosted.org/packages/c6/5a/a2a885e048d44b63b36be4973a9db7e5ed9054388fe259b9c200afd8bbf6/seveno-pyutil-0.8.4.tar.gz
+[2023-07-28 11:51:02] INFO root fetch - processPackages [abbyPython]: Downloading https://files.pythonhosted.org/packages/a4/1e/0cb0c30c3f361f6ee92a95d313e7f21e08f4dda7df958aacb0239dbd52fb/abbyPython-2.0.0.tar.gz
+[2023-07-28 11:51:02] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/53/48/44bcf70988ff6f350a7a8d598248c5af84641929be139b1e268cd53f2410/benimang-0.4.6.tar.gz
+[2023-07-28 11:51:02] INFO root fetch - processPackages [panda-utils]: Downloading https://files.pythonhosted.org/packages/59/31/3ad9bd47934dcc10c53451e820fff82b94a85512f8348f2f57c67ada2d00/panda_utils-1.4.0.tar.gz
+[2023-07-28 11:51:02] INFO root fetch - processPackages [tiledb-plot-widget]: Downloading https://files.pythonhosted.org/packages/9f/b0/1675fa4100a9188ca2c728ecc59464f6634efdd40004f90c10d4c2da56d7/tiledb_plot_widget-1.1.0-py3-none-any.whl
+[2023-07-28 11:51:02] INFO root fetch - processPackages [st-login-form]: Downloading https://files.pythonhosted.org/packages/b9/10/10e65d6eb7669a49609272a8c55df5b9bcd3670d6f1201d21f5a562bdc52/st-login-form-0.3.0.tar.gz
+[2023-07-28 11:51:02] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/60/02/556fee55b1aaf556ab945658f46e9f25aae842d2790fb15aa1ad81b2ba2a/finbourne-identity-sdk-0.0.840.tar.gz
+[2023-07-28 11:51:02] INFO root fetch - processPackages [bestnlp]: Downloading https://files.pythonhosted.org/packages/c4/c6/0e48bc0ac4d18df3bb92c730e99334d27a354df51129e33904ebb7e0ef9b/bestnlp-1.0.1-py3-none-any.whl
+[2023-07-28 11:51:02] INFO root fetch - processPackages [st-login-form]: executing diffoscope
+[2023-07-28 11:51:02] INFO root fetch - processPackages [st-login-form]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st-login-form-0.2.1.tar.gz tmp/st-login-form-0.3.0.tar.gz --markdown 20230728/s/st-login-form/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-28 11:51:02] INFO root fetch - processPackages [seveno-pyutil]: Downloading https://files.pythonhosted.org/packages/42/84/787b2b5198c743f1d3a06a9e1a725aad150f1cb080d7113a06addc045991/seveno-pyutil-0.8.5.tar.gz
+[2023-07-28 11:51:02] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2023-07-28 11:51:02] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-identity-sdk-0.0.2513.tar.gz tmp/finbourne-identity-sdk-0.0.840.tar.gz --markdown 20230728/f/finbourne-identity-sdk/0.0.2513-0.0.840/diff.md --exclude *.pyd
+[2023-07-28 11:51:02] INFO root fetch - processPackages [abbyPython]: Downloading https://files.pythonhosted.org/packages/a5/bc/4696e3d69641b758db4a68947c14275dea8d53cb9c4dc03822e39c5a80cd/abbyPython-2.2.0.tar.gz
+[2023-07-28 11:51:02] INFO root fetch - processPackages [panda-utils]: Downloading https://files.pythonhosted.org/packages/ce/2d/e9bebe160ea8c0e25d1e3cbb49cc7f9ff0803bbe54595d56d368fc94c124/panda_utils-1.4.1.tar.gz
+[2023-07-28 11:51:02] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/26/12/07fe98de75a60c5be794f0bdf3be406b5827e657bb350cf76634562437e2/benimang-0.4.7.tar.gz
+[2023-07-28 11:51:02] INFO root fetch - processPackages [linopy]: Downloading https://files.pythonhosted.org/packages/13/c7/d8e42dfbf8cbd3cc1691a5d5a01d36fc60bd42da6473d591e3afb69abbb3/linopy-0.2.3.tar.gz
+[2023-07-28 11:51:02] INFO root fetch - processPackages [stressed-cyrillic-tools]: Downloading https://files.pythonhosted.org/packages/a3/43/d5a9bcda50e5f07b3b22244c2a8ae45f0e653abcdc3ca59762aa4efa58d1/stressed_cyrillic_tools-0.1.9.tar.gz
+[2023-07-28 11:51:02] INFO root fetch - processPackages [bestnlp]: executing diffoscope
+[2023-07-28 11:51:02] INFO root fetch - processPackages [bestnlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bestnlp-1.0.0-py3-none-any.whl.zip tmp/bestnlp-1.0.1-py3-none-any.whl.zip --markdown 20230728/b/bestnlp/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-28 11:51:03] INFO root fetch - processPackages [seveno-pyutil]: executing diffoscope
+[2023-07-28 11:51:03] INFO root fetch - processPackages [seveno-pyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seveno-pyutil-0.8.4.tar.gz tmp/seveno-pyutil-0.8.5.tar.gz --markdown 20230728/s/seveno-pyutil/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-07-28 11:51:03] INFO root fetch - processPackages [tiledb-plot-widget]: Downloading https://files.pythonhosted.org/packages/36/c3/f400e1a38004b811a4b464abc2122056f5d7d666525b63dd897c165923eb/tiledb_plot_widget-1.1.0a0-py3-none-any.whl
+[2023-07-28 11:51:03] INFO root fetch - processPackages [abbyPython]: executing diffoscope
+[2023-07-28 11:51:03] INFO root fetch - processPackages [abbyPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abbyPython-2.0.0.tar.gz tmp/abbyPython-2.2.0.tar.gz --markdown 20230728/a/abbyPython/2.0.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-28 11:51:03] INFO root fetch - processPackages [panda-utils]: executing diffoscope
+[2023-07-28 11:51:03] INFO root fetch - processPackages [panda-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda_utils-1.4.0.tar.gz tmp/panda_utils-1.4.1.tar.gz --markdown 20230728/p/panda-utils/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-28 11:51:03] INFO root fetch - processPackages [benimang]: executing diffoscope
+[2023-07-28 11:51:03] INFO root fetch - processPackages [benimang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benimang-0.4.6.tar.gz tmp/benimang-0.4.7.tar.gz --markdown 20230728/b/benimang/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-07-28 11:51:03] INFO root fetch - processPackages [linopy]: executing diffoscope
+[2023-07-28 11:51:03] INFO root fetch - processPackages [linopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linopy-0.2.2.tar.gz tmp/linopy-0.2.3.tar.gz --markdown 20230728/l/linopy/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-28 11:51:03] INFO root fetch - processPackages [tiledb-plot-widget]: executing diffoscope
+[2023-07-28 11:51:03] INFO root fetch - processPackages [stressed-cyrillic-tools]: executing diffoscope
+[2023-07-28 11:51:03] INFO root fetch - processPackages [tiledb-plot-widget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_plot_widget-1.1.0-py3-none-any.whl.zip tmp/tiledb_plot_widget-1.1.0a0-py3-none-any.whl.zip --markdown 20230728/t/tiledb-plot-widget/1.1.0-1.1.0a0/diff.md --exclude *.pyd
+[2023-07-28 11:51:03] INFO root fetch - processPackages [stressed-cyrillic-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stressed_cyrillic_tools-0.1.8.tar.gz tmp/stressed_cyrillic_tools-0.1.9.tar.gz --markdown 20230728/s/stressed-cyrillic-tools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-28 11:51:04] INFO root fetch - processPackages [st-login-form]: Remove: archive file [/home/abi/fetcher/tmp/st-login-form-0.2.1.tar.gz]
+[2023-07-28 11:51:04] INFO root fetch - processPackages [st-login-form]: Remove: archive file [/home/abi/fetcher/tmp/st-login-form-0.3.0.tar.gz]
+[2023-07-28 11:51:04] INFO root fetch - processPackages [st-login-form]: Start processing: geoaitool
+[2023-07-28 11:51:04] INFO root fetch - main [MainThread]: End processing [st-login-form]: success
+[2023-07-28 11:51:04] WARNING root fetch - processPackages [geoaitool]: Skipping, unable to determine old version
+[2023-07-28 11:51:04] INFO root fetch - processPackages [geoaitool]: Start processing: passwordP
+[2023-07-28 11:51:04] INFO root fetch - main [MainThread]: End processing [geoaitool] error
+[2023-07-28 11:51:04] INFO root fetch - processPackages [passwordP]: New version: [1.1.7.7] Old Version: [1.1.1.1]
+[2023-07-28 11:51:04] INFO root fetch - processPackages [abbyPython]: Remove: archive file [/home/abi/fetcher/tmp/abbyPython-2.0.0.tar.gz]
+[2023-07-28 11:51:04] INFO root fetch - processPackages [abbyPython]: Remove: archive file [/home/abi/fetcher/tmp/abbyPython-2.2.0.tar.gz]
+[2023-07-28 11:51:04] INFO root fetch - processPackages [abbyPython]: Start processing: mvf
+[2023-07-28 11:51:04] INFO root fetch - main [MainThread]: End processing [abbyPython]: success
+[2023-07-28 11:51:04] INFO root fetch - processPackages [mvf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 11:51:04] INFO root fetch - processPackages [mvf]: Downloading https://files.pythonhosted.org/packages/ec/46/218119b311de91583a4d4e3441fcac6ac1f0ba72cf1304ddd1954dd37bc7/mvf-0.0.8.tar.gz
+[2023-07-28 11:51:04] INFO root fetch - processPackages [bestnlp]: Remove: archive file [/home/abi/fetcher/tmp/bestnlp-1.0.0-py3-none-any.whl.zip]
+[2023-07-28 11:51:04] INFO root fetch - processPackages [bestnlp]: Remove: archive file [/home/abi/fetcher/tmp/bestnlp-1.0.1-py3-none-any.whl.zip]
+[2023-07-28 11:51:04] INFO root fetch - main [MainThread]: End processing [bestnlp]: success
+[2023-07-28 11:51:04] INFO root fetch - processPackages [passwordP]: Downloading https://files.pythonhosted.org/packages/aa/2c/f805e27da5217e9dc3c7f39f70cc2295568c5596537d4a9b1b3bdec4a30f/passwordP-1.1.1.1.tar.gz
+[2023-07-28 11:51:04] INFO root fetch - processPackages [stressed-cyrillic-tools]: Remove: archive file [/home/abi/fetcher/tmp/stressed_cyrillic_tools-0.1.8.tar.gz]
+[2023-07-28 11:51:04] INFO root fetch - processPackages [stressed-cyrillic-tools]: Remove: archive file [/home/abi/fetcher/tmp/stressed_cyrillic_tools-0.1.9.tar.gz]
+[2023-07-28 11:51:04] INFO root fetch - main [MainThread]: End processing [stressed-cyrillic-tools]: success
+[2023-07-28 11:51:04] INFO root fetch - processPackages [seveno-pyutil]: Remove: archive file [/home/abi/fetcher/tmp/seveno-pyutil-0.8.4.tar.gz]
+[2023-07-28 11:51:04] INFO root fetch - processPackages [seveno-pyutil]: Remove: archive file [/home/abi/fetcher/tmp/seveno-pyutil-0.8.5.tar.gz]
+[2023-07-28 11:51:04] INFO root fetch - main [MainThread]: End processing [seveno-pyutil]: success
+[2023-07-28 11:51:04] INFO root fetch - processPackages [mvf]: Downloading https://files.pythonhosted.org/packages/e1/2f/2cf930164b12f93ff6c0e1739054784311abd14c2c9c3c65a63f7524b22a/mvf-0.0.9.tar.gz
+[2023-07-28 11:51:04] INFO root fetch - processPackages [panda-utils]: Remove: archive file [/home/abi/fetcher/tmp/panda_utils-1.4.0.tar.gz]
+[2023-07-28 11:51:04] INFO root fetch - processPackages [panda-utils]: Remove: archive file [/home/abi/fetcher/tmp/panda_utils-1.4.1.tar.gz]
+[2023-07-28 11:51:04] INFO root fetch - main [MainThread]: End processing [panda-utils]: success
+[2023-07-28 11:51:04] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.6.tar.gz]
+[2023-07-28 11:51:04] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.7.tar.gz]
+[2023-07-28 11:51:04] INFO root fetch - main [MainThread]: End processing [benimang]: success
+[2023-07-28 11:51:04] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.2513.tar.gz]
+[2023-07-28 11:51:04] INFO root fetch - processPackages [passwordP]: Downloading https://files.pythonhosted.org/packages/d9/e2/3f0c3eb254f668bb9885e4382fcfa29b171977224891bd375f594283c301/passwordP-1.1.7.7.tar.gz
+[2023-07-28 11:51:04] INFO root fetch - processPackages [mvf]: executing diffoscope
+[2023-07-28 11:51:04] INFO root fetch - processPackages [mvf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvf-0.0.8.tar.gz tmp/mvf-0.0.9.tar.gz --markdown 20230728/m/mvf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 11:51:04] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.840.tar.gz]
+[2023-07-28 11:51:04] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2023-07-28 11:51:05] INFO root fetch - processPackages [passwordP]: executing diffoscope
+[2023-07-28 11:51:05] INFO root fetch - processPackages [passwordP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passwordP-1.1.1.1.tar.gz tmp/passwordP-1.1.7.7.tar.gz --markdown 20230728/p/passwordP/1.1.1.1-1.1.7.7/diff.md --exclude *.pyd
+[2023-07-28 11:51:05] INFO root fetch - processPackages [linopy]: Remove: archive file [/home/abi/fetcher/tmp/linopy-0.2.2.tar.gz]
+[2023-07-28 11:51:05] INFO root fetch - processPackages [linopy]: Remove: archive file [/home/abi/fetcher/tmp/linopy-0.2.3.tar.gz]
+[2023-07-28 11:51:05] INFO root fetch - main [MainThread]: End processing [linopy]: success
+[2023-07-28 11:51:05] INFO root fetch - processPackages [passwordP]: Remove: archive file [/home/abi/fetcher/tmp/passwordP-1.1.1.1.tar.gz]
+[2023-07-28 11:51:05] INFO root fetch - processPackages [passwordP]: Remove: archive file [/home/abi/fetcher/tmp/passwordP-1.1.7.7.tar.gz]
+[2023-07-28 11:51:05] INFO root fetch - main [MainThread]: End processing [passwordP]: success
+[2023-07-28 11:51:05] INFO root fetch - processPackages [mvf]: Remove: archive file [/home/abi/fetcher/tmp/mvf-0.0.8.tar.gz]
+[2023-07-28 11:51:05] INFO root fetch - processPackages [mvf]: Remove: archive file [/home/abi/fetcher/tmp/mvf-0.0.9.tar.gz]
+[2023-07-28 11:51:05] INFO root fetch - main [MainThread]: End processing [mvf]: success
+[2023-07-28 11:51:05] INFO root fetch - processPackages [tiledb-plot-widget]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_plot_widget-1.1.0-py3-none-any.whl.zip]
+[2023-07-28 11:51:05] INFO root fetch - processPackages [tiledb-plot-widget]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_plot_widget-1.1.0a0-py3-none-any.whl.zip]
+[2023-07-28 11:51:05] INFO root fetch - main [MainThread]: End processing [tiledb-plot-widget]: success
+[2023-07-28 11:51:05] INFO root fetch - main [MainThread]: Store serial: [19074137]
