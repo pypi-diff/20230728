@@ -17112,3 +17112,130 @@ AssertionError: tmp/pyepsilla-0.0.5.tar.gz does not exist
 [2023-07-28 10:44:57] INFO root fetch - processPackages [trove]: Remove: archive file [/home/abi/fetcher/tmp/trove-8.0.1.tar.gz]
 [2023-07-28 10:44:57] INFO root fetch - main [MainThread]: End processing [trove]: success
 [2023-07-28 10:44:57] INFO root fetch - main [MainThread]: Store serial: [19073438]
+[2023-07-28 10:50:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19073438]
+[2023-07-28 10:50:06] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-28 10:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tdp-core
+[2023-07-28 10:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mass-analytics
+[2023-07-28 10:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dissect.target
+[2023-07-28 10:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opencv-gst-rtsp-server
+[2023-07-28 10:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: co2mpas-driver
+[2023-07-28 10:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vessim
+[2023-07-28 10:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apit212
+[2023-07-28 10:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: speakleash
+[2023-07-28 10:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gtempco2
+[2023-07-28 10:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: idev-pycolor
+[2023-07-28 10:50:06] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-07-28 10:50:06] INFO root fetch - processPackages [gtempco2]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-28 10:50:06] INFO root fetch - processPackages [co2mpas-driver]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-28 10:50:06] INFO root fetch - processPackages [opencv-gst-rtsp-server]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-28 10:50:06] INFO root fetch - processPackages [mass-analytics]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-28 10:50:06] INFO root fetch - processPackages [apit212]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 10:50:06] INFO root fetch - processPackages [tdp-core]: New version: [9.0.0] Old Version: [20.1.0]
+[2023-07-28 10:50:06] WARNING root fetch - processPackages [idev-pycolor]: Skipping, unable to determine old version
+[2023-07-28 10:50:06] INFO root fetch - processPackages [idev-pycolor]: Start processing: textboost
+[2023-07-28 10:50:06] INFO root fetch - main [MainThread]: End processing [idev-pycolor] error
+[2023-07-28 10:50:06] INFO root fetch - processPackages [speakleash]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-07-28 10:50:06] INFO root fetch - processPackages [vessim]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-28 10:50:06] INFO root fetch - processPackages [gtempco2]: Downloading https://files.pythonhosted.org/packages/92/82/86816018feac54eb0786cb897bb1c2ee32bcfdadb47161bffac3e26b2a75/gtempco2-0.0.5.tar.gz
+[2023-07-28 10:50:06] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-07-28 10:50:06] INFO root fetch - processPackages [apit212]: Downloading https://files.pythonhosted.org/packages/82/89/161613e95d047d6cfd55f725b75e0dd0be4facb848f7935d7ab91bc9f8a0/apit212-0.0.8.tar.gz
+[2023-07-28 10:50:06] INFO root fetch - processPackages [mass-analytics]: Downloading https://files.pythonhosted.org/packages/50/68/0e88d56222aaa0168e3bdb6139eed83fd048a7c77d2f15ca419eb1bf5888/mass_analytics-1.0.8.tar.gz
+[2023-07-28 10:50:06] WARNING root fetch - processPackages [textboost]: Skipping, unable to determine old version
+[2023-07-28 10:50:06] INFO root fetch - processPackages [textboost]: Start processing: TDCRPy
+[2023-07-28 10:50:06] INFO root fetch - main [MainThread]: End processing [textboost] error
+[2023-07-28 10:50:06] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-07-28 10:50:06] INFO root fetch - processPackages [dissect.target]: Start processing: trove-dashboard
+[2023-07-28 10:50:06] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-07-28 10:50:06] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 10:50:06] INFO root fetch - processPackages [opencv-gst-rtsp-server]: Downloading https://files.pythonhosted.org/packages/72/7e/860b9f2d6b8a3ba501dc4de6a337ea118b607a73357f38b0dc933d542eca/opencv_gst_rtsp_server-0.1.0.tar.gz
+[2023-07-28 10:50:06] INFO root fetch - processPackages [tdp-core]: Downloading https://files.pythonhosted.org/packages/c0/cb/d583f02e0d6fa06113c6c140533c4eeb9107ae798cffd69b8b676d687850/tdp_core-20.1.0-py3-none-any.whl
+[2023-07-28 10:50:06] INFO root fetch - processPackages [co2mpas-driver]: Downloading https://files.pythonhosted.org/packages/10/4f/b33c4fbd386a8e798b2ed6caf785d271fbfe15b0956a1c4f708057439808/co2mpas_driver-1.3.3.tar.gz
+[2023-07-28 10:50:06] INFO root fetch - processPackages [trove-dashboard]: New version: [9.0.1] Old Version: [9.0.0.0rc1]
+[2023-07-28 10:50:06] INFO root fetch - processPackages [vessim]: Downloading https://files.pythonhosted.org/packages/d3/e0/b71e37ef01e0a98c6ea090076f69e24f19610c8c9cad22c3e0f6151a0480/vessim-0.1.0.tar.gz
+[2023-07-28 10:50:06] INFO root fetch - processPackages [speakleash]: Downloading https://files.pythonhosted.org/packages/dc/74/4b9ace664b093d0665f2e5a9c6b53295b0b37ffd6525f399ee1e0f1c7743/speakleash-0.2.1.tar.gz
+[2023-07-28 10:50:07] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-28 10:50:07] INFO root fetch - processPackages [gtempco2]: Downloading https://files.pythonhosted.org/packages/69/e9/a8418eb5309c4b68e111837e956f824ef2d4fc04f15b07ba25c20de157ee/gtempco2-0.0.6.tar.gz
+[2023-07-28 10:50:07] INFO root fetch - processPackages [mass-analytics]: Downloading https://files.pythonhosted.org/packages/91/ed/69a1a184aaad7267ed67f71d0b45cf1555f76f61df527a0a80e49919a420/mass_analytics-1.0.9.tar.gz
+[2023-07-28 10:50:07] INFO root fetch - processPackages [trove-dashboard]: Downloading https://files.pythonhosted.org/packages/f6/f6/0e842519bb9ccd177098e09cde92e8703bfbc3f449720ebdf1961a21d18d/trove-dashboard-9.0.0.0rc1.tar.gz
+[2023-07-28 10:50:07] INFO root fetch - processPackages [apit212]: Downloading https://files.pythonhosted.org/packages/7d/32/e2693189db8da006df5f28aaa59057deddb4938171177a984965eb589c57/apit212-0.0.9.tar.gz
+[2023-07-28 10:50:07] INFO root fetch - processPackages [opencv-gst-rtsp-server]: Downloading https://files.pythonhosted.org/packages/68/76/f7d9a388169b799103221b8e38590713db34dc349339a15e630fb2ce04e5/opencv_gst_rtsp_server-0.1.1.tar.gz
+[2023-07-28 10:50:07] INFO root fetch - processPackages [gtempco2]: executing diffoscope
+[2023-07-28 10:50:07] INFO root fetch - processPackages [gtempco2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtempco2-0.0.5.tar.gz tmp/gtempco2-0.0.6.tar.gz --markdown 20230728/g/gtempco2/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-28 10:50:07] INFO root fetch - processPackages [mass-analytics]: executing diffoscope
+[2023-07-28 10:50:07] INFO root fetch - processPackages [mass-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_analytics-1.0.8.tar.gz tmp/mass_analytics-1.0.9.tar.gz --markdown 20230728/m/mass-analytics/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-28 10:50:07] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-28 10:50:07] INFO root fetch - processPackages [co2mpas-driver]: Downloading https://files.pythonhosted.org/packages/26/e0/1c0d72a415358dfb1d6b70b03da231b083c9e247b14b3ae26f670b8afae6/co2mpas_driver-1.3.4.tar.gz
+[2023-07-28 10:50:07] INFO root fetch - processPackages [speakleash]: Downloading https://files.pythonhosted.org/packages/36/f9/67bfb5ab8de8f843e6221b5baf1090b9f053795a26e0be3e377acc38be1d/speakleash-0.2.3.tar.gz
+[2023-07-28 10:50:07] INFO root fetch - processPackages [apit212]: executing diffoscope
+[2023-07-28 10:50:07] INFO root fetch - processPackages [apit212]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apit212-0.0.8.tar.gz tmp/apit212-0.0.9.tar.gz --markdown 20230728/a/apit212/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 10:50:07] INFO root fetch - processPackages [tdp-core]: Downloading https://files.pythonhosted.org/packages/1d/cf/bc4f8ac5c2a64d009a93ca460d99b8b9dc0cf4ab4fcd8a118815d76ea717/tdp_core-9.0.0.tar.gz
+[2023-07-28 10:50:07] INFO root fetch - processPackages [vessim]: Downloading https://files.pythonhosted.org/packages/85/3d/efc4f8db14a43469321216303a32f287d065b19b9fc54be8ca4dc939fad8/vessim-0.2.0.tar.gz
+[2023-07-28 10:50:07] INFO root fetch - processPackages [opencv-gst-rtsp-server]: executing diffoscope
+[2023-07-28 10:50:07] INFO root fetch - processPackages [opencv-gst-rtsp-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencv_gst_rtsp_server-0.1.0.tar.gz tmp/opencv_gst_rtsp_server-0.1.1.tar.gz --markdown 20230728/o/opencv-gst-rtsp-server/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-28 10:50:07] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-28 10:50:07] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230728/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 10:50:07] INFO root fetch - processPackages [co2mpas-driver]: executing diffoscope
+[2023-07-28 10:50:07] INFO root fetch - processPackages [co2mpas-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/co2mpas_driver-1.3.3.tar.gz tmp/co2mpas_driver-1.3.4.tar.gz --markdown 20230728/c/co2mpas-driver/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-28 10:50:07] INFO root fetch - processPackages [speakleash]: executing diffoscope
+[2023-07-28 10:50:07] INFO root fetch - processPackages [speakleash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakleash-0.2.1.tar.gz tmp/speakleash-0.2.3.tar.gz --markdown 20230728/s/speakleash/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-07-28 10:50:07] INFO root fetch - processPackages [vessim]: executing diffoscope
+[2023-07-28 10:50:07] INFO root fetch - processPackages [vessim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessim-0.1.0.tar.gz tmp/vessim-0.2.0.tar.gz --markdown 20230728/v/vessim/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-28 10:50:07] INFO root fetch - processPackages [trove-dashboard]: Downloading https://files.pythonhosted.org/packages/9e/63/beb30b23ffb4d0f276a6fb436473aa230a68948e54698979a614a28a5ed7/trove-dashboard-9.0.1.tar.gz
+[2023-07-28 10:50:07] INFO root fetch - processPackages [tdp-core]: executing diffoscope
+[2023-07-28 10:50:07] INFO root fetch - processPackages [tdp-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdp_core-20.1.0-py3-none-any.whl.zip tmp/tdp_core-9.0.0.tar.gz --markdown 20230728/t/tdp-core/20.1.0-9.0.0/diff.md --exclude *.pyd
+[2023-07-28 10:50:08] INFO root fetch - processPackages [trove-dashboard]: executing diffoscope
+[2023-07-28 10:50:08] INFO root fetch - processPackages [trove-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trove-dashboard-9.0.0.0rc1.tar.gz tmp/trove-dashboard-9.0.1.tar.gz --markdown 20230728/t/trove-dashboard/9.0.0.0rc1-9.0.1/diff.md --exclude *.pyd
+[2023-07-28 10:50:09] INFO root fetch - processPackages [gtempco2]: Remove: archive file [/home/abi/fetcher/tmp/gtempco2-0.0.5.tar.gz]
+[2023-07-28 10:50:09] INFO root fetch - processPackages [gtempco2]: Remove: archive file [/home/abi/fetcher/tmp/gtempco2-0.0.6.tar.gz]
+[2023-07-28 10:50:09] INFO root fetch - processPackages [gtempco2]: Start processing: underthesea
+[2023-07-28 10:50:09] INFO root fetch - main [MainThread]: End processing [gtempco2]: success
+[2023-07-28 10:50:09] INFO root fetch - processPackages [apit212]: Remove: archive file [/home/abi/fetcher/tmp/apit212-0.0.8.tar.gz]
+[2023-07-28 10:50:09] INFO root fetch - processPackages [apit212]: Remove: archive file [/home/abi/fetcher/tmp/apit212-0.0.9.tar.gz]
+[2023-07-28 10:50:09] INFO root fetch - processPackages [apit212]: Start processing: esbmtk
+[2023-07-28 10:50:09] INFO root fetch - main [MainThread]: End processing [apit212]: success
+[2023-07-28 10:50:09] INFO root fetch - processPackages [mass-analytics]: Remove: archive file [/home/abi/fetcher/tmp/mass_analytics-1.0.8.tar.gz]
+[2023-07-28 10:50:09] INFO root fetch - processPackages [mass-analytics]: Remove: archive file [/home/abi/fetcher/tmp/mass_analytics-1.0.9.tar.gz]
+[2023-07-28 10:50:09] INFO root fetch - processPackages [mass-analytics]: Start processing: agentcomlink
+[2023-07-28 10:50:09] INFO root fetch - main [MainThread]: End processing [mass-analytics]: success
+[2023-07-28 10:50:09] INFO root fetch - processPackages [underthesea]: New version: [6.7.0] Old Version: [6.6.0]
+[2023-07-28 10:50:09] INFO root fetch - processPackages [agentcomlink]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-28 10:50:09] INFO root fetch - processPackages [speakleash]: Remove: archive file [/home/abi/fetcher/tmp/speakleash-0.2.1.tar.gz]
+[2023-07-28 10:50:09] INFO root fetch - processPackages [speakleash]: Remove: archive file [/home/abi/fetcher/tmp/speakleash-0.2.3.tar.gz]
+[2023-07-28 10:50:09] INFO root fetch - main [MainThread]: End processing [speakleash]: success
+[2023-07-28 10:50:09] INFO root fetch - processPackages [esbmtk]: New version: [0.9.0.1] Old Version: [0.8.0.0]
+[2023-07-28 10:50:09] INFO root fetch - processPackages [agentcomlink]: Downloading https://files.pythonhosted.org/packages/b5/ed/1fbbd4c743675f0b143d42f36236a2097e7a660b50e45d28ed3537b3d876/agentcomlink-0.1.0.tar.gz
+[2023-07-28 10:50:09] INFO root fetch - processPackages [opencv-gst-rtsp-server]: Remove: archive file [/home/abi/fetcher/tmp/opencv_gst_rtsp_server-0.1.0.tar.gz]
+[2023-07-28 10:50:09] INFO root fetch - processPackages [opencv-gst-rtsp-server]: Remove: archive file [/home/abi/fetcher/tmp/opencv_gst_rtsp_server-0.1.1.tar.gz]
+[2023-07-28 10:50:09] INFO root fetch - main [MainThread]: End processing [opencv-gst-rtsp-server]: success
+[2023-07-28 10:50:09] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-28 10:50:09] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-28 10:50:09] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-28 10:50:09] INFO root fetch - processPackages [tdp-core]: Remove: archive file [/home/abi/fetcher/tmp/tdp_core-20.1.0-py3-none-any.whl.zip]
+[2023-07-28 10:50:09] INFO root fetch - processPackages [tdp-core]: Remove: archive file [/home/abi/fetcher/tmp/tdp_core-9.0.0.tar.gz]
+[2023-07-28 10:50:09] INFO root fetch - main [MainThread]: End processing [tdp-core]: success
+[2023-07-28 10:50:09] INFO root fetch - processPackages [vessim]: Remove: archive file [/home/abi/fetcher/tmp/vessim-0.1.0.tar.gz]
+[2023-07-28 10:50:09] INFO root fetch - processPackages [vessim]: Remove: archive file [/home/abi/fetcher/tmp/vessim-0.2.0.tar.gz]
+[2023-07-28 10:50:09] INFO root fetch - main [MainThread]: End processing [vessim]: success
+[2023-07-28 10:50:09] INFO root fetch - processPackages [co2mpas-driver]: Remove: archive file [/home/abi/fetcher/tmp/co2mpas_driver-1.3.3.tar.gz]
+[2023-07-28 10:50:09] INFO root fetch - processPackages [co2mpas-driver]: Remove: archive file [/home/abi/fetcher/tmp/co2mpas_driver-1.3.4.tar.gz]
+[2023-07-28 10:50:09] INFO root fetch - main [MainThread]: End processing [co2mpas-driver]: success
+[2023-07-28 10:50:09] INFO root fetch - processPackages [underthesea]: Downloading https://files.pythonhosted.org/packages/33/ba/1de0f8e5786d3945a6346fe005553a9e0b8880eaf827089f32659ecdccd6/underthesea-6.6.0.tar.gz
+[2023-07-28 10:50:09] WARNING root fetch - processPackages [underthesea]: Skipping package: exceeds size limit 21431570>=10485760
+[2023-07-28 10:50:09] INFO root fetch - main [MainThread]: End processing [underthesea] error
+[2023-07-28 10:50:09] INFO root fetch - processPackages [agentcomlink]: Downloading https://files.pythonhosted.org/packages/29/5b/429509456ffbde4c94be29f4e84f7a1e4d1bf3203d25b19ac75ed60d597e/agentcomlink-0.1.1.tar.gz
+[2023-07-28 10:50:09] INFO root fetch - processPackages [esbmtk]: Downloading https://files.pythonhosted.org/packages/bb/db/43f864ec19c6c352197cac358cf900d69e03025a4f4390aa7881849fde27/esbmtk-0.8.0.0.tar.gz
+[2023-07-28 10:50:09] INFO root fetch - processPackages [agentcomlink]: executing diffoscope
+[2023-07-28 10:50:09] INFO root fetch - processPackages [agentcomlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentcomlink-0.1.0.tar.gz tmp/agentcomlink-0.1.1.tar.gz --markdown 20230728/a/agentcomlink/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-28 10:50:09] INFO root fetch - processPackages [esbmtk]: Downloading https://files.pythonhosted.org/packages/11/6f/87ddaf24ac6364989ab766f93b2f007ea867ce40fd85816050640df525c4/esbmtk-0.9.0.1.tar.gz
+[2023-07-28 10:50:10] INFO root fetch - processPackages [trove-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/trove-dashboard-9.0.0.0rc1.tar.gz]
+[2023-07-28 10:50:10] INFO root fetch - processPackages [trove-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/trove-dashboard-9.0.1.tar.gz]
+[2023-07-28 10:50:10] INFO root fetch - main [MainThread]: End processing [trove-dashboard]: success
+[2023-07-28 10:50:10] INFO root fetch - processPackages [esbmtk]: executing diffoscope
+[2023-07-28 10:50:10] INFO root fetch - processPackages [esbmtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esbmtk-0.8.0.0.tar.gz tmp/esbmtk-0.9.0.1.tar.gz --markdown 20230728/e/esbmtk/0.8.0.0-0.9.0.1/diff.md --exclude *.pyd
+[2023-07-28 10:50:10] INFO root fetch - processPackages [agentcomlink]: Remove: archive file [/home/abi/fetcher/tmp/agentcomlink-0.1.0.tar.gz]
+[2023-07-28 10:50:10] INFO root fetch - processPackages [agentcomlink]: Remove: archive file [/home/abi/fetcher/tmp/agentcomlink-0.1.1.tar.gz]
+[2023-07-28 10:50:10] INFO root fetch - main [MainThread]: End processing [agentcomlink]: success
+[2023-07-28 10:50:11] INFO root fetch - processPackages [esbmtk]: Remove: archive file [/home/abi/fetcher/tmp/esbmtk-0.8.0.0.tar.gz]
+[2023-07-28 10:50:11] INFO root fetch - processPackages [esbmtk]: Remove: archive file [/home/abi/fetcher/tmp/esbmtk-0.9.0.1.tar.gz]
+[2023-07-28 10:50:11] INFO root fetch - main [MainThread]: End processing [esbmtk]: success
+[2023-07-28 10:50:11] INFO root fetch - main [MainThread]: Store serial: [19073492]
