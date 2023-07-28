@@ -15815,3 +15815,51 @@ AssertionError: tmp/pyepsilla-0.0.5.tar.gz does not exist
 [2023-07-28 09:41:55] INFO root fetch - processPackages [lycium]: Remove: archive file [/home/abi/fetcher/tmp/lycium-0.2.9.tar.gz]
 [2023-07-28 09:41:55] INFO root fetch - main [MainThread]: End processing [lycium]: success
 [2023-07-28 09:41:55] INFO root fetch - main [MainThread]: Store serial: [19072883]
+[2023-07-28 09:46:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19072883]
+[2023-07-28 09:47:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-28 09:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blueapps
+[2023-07-28 09:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dnsblock-update
+[2023-07-28 09:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vvv-rpc-server
+[2023-07-28 09:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: core-devoops
+[2023-07-28 09:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nifti-mrs
+[2023-07-28 09:47:04] INFO root fetch - processPackages [vvv-rpc-server]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 09:47:04] INFO root fetch - processPackages [core-devoops]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 09:47:04] INFO root fetch - processPackages [blueapps]: New version: [4.7.1rc0] Old Version: [4.7.1]
+[2023-07-28 09:47:04] INFO root fetch - processPackages [dnsblock-update]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-28 09:47:04] INFO root fetch - processPackages [core-devoops]: Downloading https://files.pythonhosted.org/packages/3c/93/adfe9f514ec315e817eaf2e1c5f1bb25cf7d0f2cbc936770e2c979d2aabd/core_devoops-0.0.8.tar.gz
+[2023-07-28 09:47:04] INFO root fetch - processPackages [nifti-mrs]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-28 09:47:04] INFO root fetch - processPackages [vvv-rpc-server]: Downloading https://files.pythonhosted.org/packages/02/10/0ffc092590ef9e2b2243308bd40afc64cb6bd6bf2f2545a05baf01100f5e/vvv_rpc_server-0.0.8-py3-none-any.whl
+[2023-07-28 09:47:04] INFO root fetch - processPackages [dnsblock-update]: Downloading https://files.pythonhosted.org/packages/fb/2b/c7350c502763d23ac21c5419d4eb8cf7d914466ec445cfc44005000c9b16/dnsblock_update-0.0.1.tar.gz
+[2023-07-28 09:47:04] INFO root fetch - processPackages [blueapps]: Downloading https://files.pythonhosted.org/packages/c3/1c/8f55b4f8e3eb8b8f11829a1908f89a632d0f981ac001239ad6ecc89f3167/blueapps-4.7.1.tar.gz
+[2023-07-28 09:47:04] INFO root fetch - processPackages [core-devoops]: Downloading https://files.pythonhosted.org/packages/2a/51/6533d996524e40b530571bc10bc34c3cb3d204851df2ef711ffaf9c70b84/core_devoops-0.0.9.tar.gz
+[2023-07-28 09:47:04] INFO root fetch - processPackages [nifti-mrs]: Downloading https://files.pythonhosted.org/packages/f8/12/5b95abe67f67e910c19162d02a5a6d61d6d51e4c8bcfddd818fe7c3e0200/nifti_mrs-1.0.0.tar.gz
+[2023-07-28 09:47:04] INFO root fetch - processPackages [core-devoops]: executing diffoscope
+[2023-07-28 09:47:04] INFO root fetch - processPackages [core-devoops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_devoops-0.0.8.tar.gz tmp/core_devoops-0.0.9.tar.gz --markdown 20230728/c/core-devoops/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 09:47:04] INFO root fetch - processPackages [blueapps]: Downloading https://files.pythonhosted.org/packages/b7/d6/bf2e23fc898bbbf687373f61f99584daede962900a960466b4f8b3818b22/blueapps-4.7.1rc0.tar.gz
+[2023-07-28 09:47:04] INFO root fetch - processPackages [dnsblock-update]: Downloading https://files.pythonhosted.org/packages/f2/60/92fc3e9c8890f448b0116a97c79f1d48d00b24d4ce248829839757037e78/dnsblock_update-0.0.2.tar.gz
+[2023-07-28 09:47:04] INFO root fetch - processPackages [vvv-rpc-server]: Downloading https://files.pythonhosted.org/packages/ee/81/a3518c47e42917b630faed5072d460f441038ca9c66f5cfca1ba15e97f42/vvv_rpc_server-0.0.9-py3-none-any.whl
+[2023-07-28 09:47:04] INFO root fetch - processPackages [nifti-mrs]: Downloading https://files.pythonhosted.org/packages/89/d8/32c6f389b9e67b3b1b686bebf8ad338c1c8c4875aaa844d358a6efd4851f/nifti_mrs-1.0.1.tar.gz
+[2023-07-28 09:47:04] INFO root fetch - processPackages [dnsblock-update]: executing diffoscope
+[2023-07-28 09:47:04] INFO root fetch - processPackages [dnsblock-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnsblock_update-0.0.1.tar.gz tmp/dnsblock_update-0.0.2.tar.gz --markdown 20230728/d/dnsblock-update/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-28 09:47:04] INFO root fetch - processPackages [blueapps]: executing diffoscope
+[2023-07-28 09:47:04] INFO root fetch - processPackages [blueapps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueapps-4.7.1.tar.gz tmp/blueapps-4.7.1rc0.tar.gz --markdown 20230728/b/blueapps/4.7.1-4.7.1rc0/diff.md --exclude *.pyd
+[2023-07-28 09:47:04] INFO root fetch - processPackages [vvv-rpc-server]: executing diffoscope
+[2023-07-28 09:47:04] INFO root fetch - processPackages [vvv-rpc-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vvv_rpc_server-0.0.8-py3-none-any.whl.zip tmp/vvv_rpc_server-0.0.9-py3-none-any.whl.zip --markdown 20230728/v/vvv-rpc-server/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 09:47:04] INFO root fetch - processPackages [nifti-mrs]: executing diffoscope
+[2023-07-28 09:47:04] INFO root fetch - processPackages [nifti-mrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nifti_mrs-1.0.0.tar.gz tmp/nifti_mrs-1.0.1.tar.gz --markdown 20230728/n/nifti-mrs/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-28 09:47:05] INFO root fetch - processPackages [core-devoops]: Remove: archive file [/home/abi/fetcher/tmp/core_devoops-0.0.8.tar.gz]
+[2023-07-28 09:47:05] INFO root fetch - processPackages [core-devoops]: Remove: archive file [/home/abi/fetcher/tmp/core_devoops-0.0.9.tar.gz]
+[2023-07-28 09:47:05] INFO root fetch - main [MainThread]: End processing [core-devoops]: success
+[2023-07-28 09:47:05] INFO root fetch - processPackages [dnsblock-update]: Remove: archive file [/home/abi/fetcher/tmp/dnsblock_update-0.0.1.tar.gz]
+[2023-07-28 09:47:05] INFO root fetch - processPackages [dnsblock-update]: Remove: archive file [/home/abi/fetcher/tmp/dnsblock_update-0.0.2.tar.gz]
+[2023-07-28 09:47:05] INFO root fetch - main [MainThread]: End processing [dnsblock-update]: success
+[2023-07-28 09:47:06] INFO root fetch - processPackages [nifti-mrs]: Remove: archive file [/home/abi/fetcher/tmp/nifti_mrs-1.0.0.tar.gz]
+[2023-07-28 09:47:06] INFO root fetch - processPackages [nifti-mrs]: Remove: archive file [/home/abi/fetcher/tmp/nifti_mrs-1.0.1.tar.gz]
+[2023-07-28 09:47:06] INFO root fetch - main [MainThread]: End processing [nifti-mrs]: success
+[2023-07-28 09:47:06] INFO root fetch - processPackages [blueapps]: Remove: archive file [/home/abi/fetcher/tmp/blueapps-4.7.1.tar.gz]
+[2023-07-28 09:47:06] INFO root fetch - processPackages [blueapps]: Remove: archive file [/home/abi/fetcher/tmp/blueapps-4.7.1rc0.tar.gz]
+[2023-07-28 09:47:06] INFO root fetch - main [MainThread]: End processing [blueapps]: success
+[2023-07-28 09:47:06] INFO root fetch - processPackages [vvv-rpc-server]: Remove: archive file [/home/abi/fetcher/tmp/vvv_rpc_server-0.0.8-py3-none-any.whl.zip]
+[2023-07-28 09:47:06] INFO root fetch - processPackages [vvv-rpc-server]: Remove: archive file [/home/abi/fetcher/tmp/vvv_rpc_server-0.0.9-py3-none-any.whl.zip]
+[2023-07-28 09:47:06] INFO root fetch - main [MainThread]: End processing [vvv-rpc-server]: success
+[2023-07-28 09:47:06] INFO root fetch - main [MainThread]: Store serial: [19072907]
