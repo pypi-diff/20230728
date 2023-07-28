@@ -21399,3 +21399,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 13:19:34] INFO root fetch - processPackages [scriptworker]: Remove: archive file [/home/abi/fetcher/tmp/scriptworker-9.0.0.tar.gz]
 [2023-07-28 13:19:34] INFO root fetch - main [MainThread]: End processing [scriptworker]: success
 [2023-07-28 13:19:34] INFO root fetch - main [MainThread]: Store serial: [19074784]
+[2023-07-28 13:24:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19074784]
+[2023-07-28 13:24:43] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-28 13:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ntscraper
+[2023-07-28 13:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AstroInstrumentAD
+[2023-07-28 13:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: commonbase
+[2023-07-28 13:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anta
+[2023-07-28 13:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seagoat
+[2023-07-28 13:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: matter-observability
+[2023-07-28 13:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-xformula
+[2023-07-28 13:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: localstack-extension-hello-world
+[2023-07-28 13:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-tailscale
+[2023-07-28 13:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: seppmail-converter
+[2023-07-28 13:24:43] INFO root fetch - processPackages [ntscraper]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-28 13:24:43] WARNING root fetch - processPackages [localstack-extension-hello-world]: Skipping, unable to determine old version
+[2023-07-28 13:24:43] INFO root fetch - processPackages [localstack-extension-hello-world]: Start processing: pybsky
+[2023-07-28 13:24:43] INFO root fetch - main [MainThread]: End processing [localstack-extension-hello-world] error
+[2023-07-28 13:24:43] INFO root fetch - processPackages [django-xformula]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-28 13:24:43] INFO root fetch - processPackages [commonbase]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-28 13:24:43] INFO root fetch - processPackages [matter-observability]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-28 13:24:43] INFO root fetch - processPackages [seagoat]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-07-28 13:24:43] INFO root fetch - processPackages [anta]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-28 13:24:43] INFO root fetch - processPackages [AstroInstrumentAD]: New version: [0.14] Old Version: [0.13]
+[2023-07-28 13:24:43] INFO root fetch - processPackages [seppmail-converter]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-28 13:24:43] INFO root fetch - processPackages [pulumi-tailscale]: New version: [0.9.1a1656330156] Old Version: [0.9.0]
+[2023-07-28 13:24:43] INFO root fetch - processPackages [pybsky]: New version: [0.0.2] Old Version: [0.0.16]
+[2023-07-28 13:24:43] INFO root fetch - processPackages [commonbase]: Downloading https://files.pythonhosted.org/packages/50/e0/142dd6cefbca5f13f78e4c66411b4c24381a5c535df911f88141befb2126/commonbase-0.1.4.tar.gz
+[2023-07-28 13:24:43] INFO root fetch - processPackages [anta]: Downloading https://files.pythonhosted.org/packages/2b/c5/bca135b6ec950d1045acf2a6bc4ea12ff8c0f254ed3e4a400611227a31fe/anta-0.7.0.tar.gz
+[2023-07-28 13:24:43] INFO root fetch - processPackages [seppmail-converter]: Downloading https://files.pythonhosted.org/packages/82/22/7a7be088a995b172fc2f3c8c61aaa7d2ae980541c2c53ab33f7f2a690941/seppmail_converter-1.0.1.tar.gz
+[2023-07-28 13:24:43] INFO root fetch - processPackages [ntscraper]: Downloading https://files.pythonhosted.org/packages/a8/b8/16670af14b9b6ebd936054f5e556141e8e4930df39b448eb4c1845c8309b/ntscraper-0.1.6.tar.gz
+[2023-07-28 13:24:43] INFO root fetch - processPackages [AstroInstrumentAD]: Downloading https://files.pythonhosted.org/packages/e0/f0/cab4a4b811e6d632f02f06ad06d24f044ffd228bdc40076084c212cc67ec/AstroInstrumentAD-0.13.tar.gz
+[2023-07-28 13:24:43] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/af/fc/1aa615a8e44d21b520ec05aa57ea2ee6f62de762047b4ad8ccec73544ac3/pulumi_tailscale-0.9.0.tar.gz
+[2023-07-28 13:24:43] INFO root fetch - processPackages [matter-observability]: Downloading https://files.pythonhosted.org/packages/59/5a/d0bec03a9c9a04c076279343c0a36d59af37fc00171222375e5438e6047e/matter_observability-1.4.0-py3-none-any.whl
+[2023-07-28 13:24:43] INFO root fetch - processPackages [django-xformula]: Downloading https://files.pythonhosted.org/packages/22/1b/ba5e7f31174ff6a307be4cc42789475d0faeb6e04e72a243c555460be946/django_xformula-0.1.2.tar.gz
+[2023-07-28 13:24:43] INFO root fetch - processPackages [seagoat]: Downloading https://files.pythonhosted.org/packages/9b/52/ae9c2d54367e287e7a0d9dc525257faa2f86915c2c18da0eb7df2946bc78/seagoat-0.5.5.tar.gz
+[2023-07-28 13:24:43] INFO root fetch - processPackages [pybsky]: Downloading https://files.pythonhosted.org/packages/97/5d/b8bb4f72d8a45c6eb0d65f09387d9fea25a01194568bc514476dff0d553e/pybsky-0.0.16.tar.gz
+[2023-07-28 13:24:44] INFO root fetch - processPackages [commonbase]: Downloading https://files.pythonhosted.org/packages/62/72/709e5d123847269491bd25f085912d4b8d3d50c217de3a0cdb20b326744a/commonbase-0.1.5.tar.gz
+[2023-07-28 13:24:44] INFO root fetch - processPackages [seppmail-converter]: Downloading https://files.pythonhosted.org/packages/67/57/fa8ff976ac521878d879135c50cd0edceda25d50a95f33fe62ea5d52697c/seppmail_converter-1.0.2.tar.gz
+[2023-07-28 13:24:44] INFO root fetch - processPackages [ntscraper]: Downloading https://files.pythonhosted.org/packages/37/6c/8d1ab2451943b05ada60decad330297978754e057199b12afed4c86fb0e5/ntscraper-0.1.7.tar.gz
+[2023-07-28 13:24:44] INFO root fetch - processPackages [anta]: Downloading https://files.pythonhosted.org/packages/8c/92/bd5cd173726c0bf3cde1a647228aca0cc247a93ef9a5cb9b1aeb15d98e86/anta-0.7.1.tar.gz
+[2023-07-28 13:24:44] WARNING root fetch - processPackages [commonbase]: Skipping package: exceeds size limit 23164304>=10485760
+[2023-07-28 13:24:44] INFO root fetch - processPackages [commonbase]: Start processing: subgroups
+[2023-07-28 13:24:44] INFO root fetch - main [MainThread]: End processing [commonbase] error
+[2023-07-28 13:24:44] INFO root fetch - processPackages [AstroInstrumentAD]: Downloading https://files.pythonhosted.org/packages/71/05/8f235a914b7be95cd858684e0e420eebf837593b07f44cb3ec078a3dc099/AstroInstrumentAD-0.14.tar.gz
+[2023-07-28 13:24:44] INFO root fetch - processPackages [django-xformula]: Downloading https://files.pythonhosted.org/packages/6a/db/68feb40e576443f997b0568130e2083ef08c5506febdf984a94d3a9daee1/django_xformula-0.1.3.tar.gz
+[2023-07-28 13:24:44] INFO root fetch - processPackages [seppmail-converter]: executing diffoscope
+[2023-07-28 13:24:44] INFO root fetch - processPackages [seppmail-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seppmail_converter-1.0.1.tar.gz tmp/seppmail_converter-1.0.2.tar.gz --markdown 20230728/s/seppmail-converter/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-28 13:24:44] INFO root fetch - processPackages [seagoat]: Downloading https://files.pythonhosted.org/packages/52/de/c0eecddad78d108f482493985294a7ad3bf96134a5b262824f78b38986ce/seagoat-0.5.6.tar.gz
+[2023-07-28 13:24:44] INFO root fetch - processPackages [matter-observability]: Downloading https://files.pythonhosted.org/packages/27/31/70db6fcb3797ea2bfdd210968f9beca54b5b33ec80157de3cde30edd4e82/matter_observability-1.5.0-py3-none-any.whl
+[2023-07-28 13:24:44] INFO root fetch - processPackages [subgroups]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-28 13:24:44] INFO root fetch - processPackages [AstroInstrumentAD]: executing diffoscope
+[2023-07-28 13:24:44] INFO root fetch - processPackages [AstroInstrumentAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AstroInstrumentAD-0.13.tar.gz tmp/AstroInstrumentAD-0.14.tar.gz --markdown 20230728/A/AstroInstrumentAD/0.13-0.14/diff.md --exclude *.pyd
+[2023-07-28 13:24:44] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/a3/d6/938674a37f5324fe6d787b4f3efbeeebc5d750fd8c8c25fb2198b11e6a4d/pulumi_tailscale-0.9.1a1656330156.tar.gz
+[2023-07-28 13:24:44] INFO root fetch - processPackages [ntscraper]: executing diffoscope
+[2023-07-28 13:24:44] INFO root fetch - processPackages [ntscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntscraper-0.1.6.tar.gz tmp/ntscraper-0.1.7.tar.gz --markdown 20230728/n/ntscraper/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-28 13:24:44] INFO root fetch - processPackages [pybsky]: Downloading https://files.pythonhosted.org/packages/0b/4f/9bfc6629f95fe43de98933064ceb9fc67e79395357a1a8b13f5cbf9461cc/pybsky-0.0.2.tar.gz
+[2023-07-28 13:24:44] INFO root fetch - processPackages [anta]: executing diffoscope
+[2023-07-28 13:24:44] INFO root fetch - processPackages [anta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anta-0.7.0.tar.gz tmp/anta-0.7.1.tar.gz --markdown 20230728/a/anta/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-28 13:24:44] INFO root fetch - processPackages [django-xformula]: executing diffoscope
+[2023-07-28 13:24:44] INFO root fetch - processPackages [django-xformula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_xformula-0.1.2.tar.gz tmp/django_xformula-0.1.3.tar.gz --markdown 20230728/d/django-xformula/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-28 13:24:44] INFO root fetch - processPackages [seagoat]: executing diffoscope
+[2023-07-28 13:24:44] INFO root fetch - processPackages [seagoat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seagoat-0.5.5.tar.gz tmp/seagoat-0.5.6.tar.gz --markdown 20230728/s/seagoat/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-07-28 13:24:44] INFO root fetch - processPackages [matter-observability]: executing diffoscope
+[2023-07-28 13:24:44] INFO root fetch - processPackages [matter-observability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matter_observability-1.4.0-py3-none-any.whl.zip tmp/matter_observability-1.5.0-py3-none-any.whl.zip --markdown 20230728/m/matter-observability/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-28 13:24:44] INFO root fetch - processPackages [subgroups]: Downloading https://files.pythonhosted.org/packages/eb/98/5141087967d9a5f540d81deff2a846bd6638764e26333bda0b56bbe93a13/subgroups-0.1.2-py3-none-any.whl
+[2023-07-28 13:24:44] INFO root fetch - processPackages [pybsky]: executing diffoscope
+[2023-07-28 13:24:44] INFO root fetch - processPackages [pybsky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybsky-0.0.16.tar.gz tmp/pybsky-0.0.2.tar.gz --markdown 20230728/p/pybsky/0.0.16-0.0.2/diff.md --exclude *.pyd
+[2023-07-28 13:24:45] INFO root fetch - processPackages [pulumi-tailscale]: executing diffoscope
+[2023-07-28 13:24:45] INFO root fetch - processPackages [pulumi-tailscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tailscale-0.9.0.tar.gz tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz --markdown 20230728/p/pulumi-tailscale/0.9.0-0.9.1a1656330156/diff.md --exclude *.pyd
+[2023-07-28 13:24:45] INFO root fetch - processPackages [subgroups]: Downloading https://files.pythonhosted.org/packages/e8/ac/fd9c9c625401dcde824ea710e54fa03a2d6088e7da4fd2a6d22f37fba6f7/subgroups-0.1.3-py3-none-any.whl
+[2023-07-28 13:24:45] INFO root fetch - processPackages [subgroups]: executing diffoscope
+[2023-07-28 13:24:45] INFO root fetch - processPackages [subgroups]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subgroups-0.1.2-py3-none-any.whl.zip tmp/subgroups-0.1.3-py3-none-any.whl.zip --markdown 20230728/s/subgroups/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-28 13:24:45] INFO root fetch - processPackages [seppmail-converter]: Remove: archive file [/home/abi/fetcher/tmp/seppmail_converter-1.0.1.tar.gz]
+[2023-07-28 13:24:45] INFO root fetch - processPackages [seppmail-converter]: Remove: archive file [/home/abi/fetcher/tmp/seppmail_converter-1.0.2.tar.gz]
+[2023-07-28 13:24:45] INFO root fetch - main [MainThread]: End processing [seppmail-converter]: success
+[2023-07-28 13:24:45] INFO root fetch - processPackages [AstroInstrumentAD]: Remove: archive file [/home/abi/fetcher/tmp/AstroInstrumentAD-0.13.tar.gz]
+[2023-07-28 13:24:45] INFO root fetch - processPackages [AstroInstrumentAD]: Remove: archive file [/home/abi/fetcher/tmp/AstroInstrumentAD-0.14.tar.gz]
+[2023-07-28 13:24:45] INFO root fetch - main [MainThread]: End processing [AstroInstrumentAD]: success
+[2023-07-28 13:24:46] INFO root fetch - processPackages [ntscraper]: Remove: archive file [/home/abi/fetcher/tmp/ntscraper-0.1.6.tar.gz]
+[2023-07-28 13:24:46] INFO root fetch - processPackages [ntscraper]: Remove: archive file [/home/abi/fetcher/tmp/ntscraper-0.1.7.tar.gz]
+[2023-07-28 13:24:46] INFO root fetch - main [MainThread]: End processing [ntscraper]: success
+[2023-07-28 13:24:46] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.5.5.tar.gz]
+[2023-07-28 13:24:46] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.5.6.tar.gz]
+[2023-07-28 13:24:46] INFO root fetch - main [MainThread]: End processing [seagoat]: success
+[2023-07-28 13:24:46] INFO root fetch - processPackages [anta]: Remove: archive file [/home/abi/fetcher/tmp/anta-0.7.0.tar.gz]
+[2023-07-28 13:24:46] INFO root fetch - processPackages [anta]: Remove: archive file [/home/abi/fetcher/tmp/anta-0.7.1.tar.gz]
+[2023-07-28 13:24:46] INFO root fetch - main [MainThread]: End processing [anta]: success
+[2023-07-28 13:24:46] INFO root fetch - processPackages [matter-observability]: Remove: archive file [/home/abi/fetcher/tmp/matter_observability-1.4.0-py3-none-any.whl.zip]
+[2023-07-28 13:24:46] INFO root fetch - processPackages [matter-observability]: Remove: archive file [/home/abi/fetcher/tmp/matter_observability-1.5.0-py3-none-any.whl.zip]
+[2023-07-28 13:24:46] INFO root fetch - main [MainThread]: End processing [matter-observability]: success
+[2023-07-28 13:24:46] INFO root fetch - processPackages [django-xformula]: Remove: archive file [/home/abi/fetcher/tmp/django_xformula-0.1.2.tar.gz]
+[2023-07-28 13:24:46] INFO root fetch - processPackages [django-xformula]: Remove: archive file [/home/abi/fetcher/tmp/django_xformula-0.1.3.tar.gz]
+[2023-07-28 13:24:46] INFO root fetch - main [MainThread]: End processing [django-xformula]: success
+[2023-07-28 13:24:46] INFO root fetch - processPackages [pybsky]: Remove: archive file [/home/abi/fetcher/tmp/pybsky-0.0.16.tar.gz]
+[2023-07-28 13:24:46] INFO root fetch - processPackages [pybsky]: Remove: archive file [/home/abi/fetcher/tmp/pybsky-0.0.2.tar.gz]
+[2023-07-28 13:24:46] INFO root fetch - main [MainThread]: End processing [pybsky]: success
+[2023-07-28 13:24:46] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.0.tar.gz]
+[2023-07-28 13:24:46] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz]
+[2023-07-28 13:24:46] INFO root fetch - main [MainThread]: End processing [pulumi-tailscale]: success
+[2023-07-28 13:24:46] INFO root fetch - processPackages [subgroups]: Remove: archive file [/home/abi/fetcher/tmp/subgroups-0.1.2-py3-none-any.whl.zip]
+[2023-07-28 13:24:46] INFO root fetch - processPackages [subgroups]: Remove: archive file [/home/abi/fetcher/tmp/subgroups-0.1.3-py3-none-any.whl.zip]
+[2023-07-28 13:24:46] INFO root fetch - main [MainThread]: End processing [subgroups]: success
+[2023-07-28 13:24:46] INFO root fetch - main [MainThread]: Store serial: [19074820]
