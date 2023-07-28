@@ -21333,3 +21333,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 13:14:22] INFO root fetch - processPackages [omero-py]: Remove: archive file [/home/abi/fetcher/tmp/omero-py-5.9.3.tar.gz]
 [2023-07-28 13:14:22] INFO root fetch - main [MainThread]: End processing [omero-py]: success
 [2023-07-28 13:14:22] INFO root fetch - main [MainThread]: Store serial: [19074763]
+[2023-07-28 13:19:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19074763]
+[2023-07-28 13:19:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-28 13:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bamt
+[2023-07-28 13:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-aujob
+[2023-07-28 13:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hikari-bot
+[2023-07-28 13:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scriptworker
+[2023-07-28 13:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: byquant
+[2023-07-28 13:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onapsdk
+[2023-07-28 13:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydcc
+[2023-07-28 13:19:31] INFO root fetch - processPackages [bamt]: New version: [1.1.43] Old Version: [1.1.41]
+[2023-07-28 13:19:31] INFO root fetch - processPackages [nonebot-plugin-aujob]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-28 13:19:31] INFO root fetch - processPackages [onapsdk]: New version: [9.6.0] Old Version: [9.5.1]
+[2023-07-28 13:19:31] INFO root fetch - processPackages [byquant]: New version: [1.7.28] Old Version: [1.7.27]
+[2023-07-28 13:19:31] INFO root fetch - processPackages [hikari-bot]: New version: [0.3.9.6] Old Version: [0.3.9.5]
+[2023-07-28 13:19:31] INFO root fetch - processPackages [scriptworker]: New version: [9.0.0] Old Version: [8.1.1]
+[2023-07-28 13:19:31] INFO root fetch - processPackages [pydcc]: New version: [0.2.27] Old Version: [0.2.26]
+[2023-07-28 13:19:31] INFO root fetch - processPackages [nonebot-plugin-aujob]: Downloading https://files.pythonhosted.org/packages/3b/41/94bfbf23778eea9fc2b04321622dd0f9ca1068d49df3b2f64a6d08df06a1/nonebot_plugin_aujob-0.0.4.tar.gz
+[2023-07-28 13:19:31] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/50/80/5d572828b911b73f0959c20da4171184b6a0c5d7a184864abd9a88faa7a7/byquant-1.7.27.tar.gz
+[2023-07-28 13:19:31] INFO root fetch - processPackages [bamt]: Downloading https://files.pythonhosted.org/packages/20/de/53c10713a64917c726b07123ba6d7e6e1275096f8df9a15a4e820438958c/bamt-1.1.41.tar.gz
+[2023-07-28 13:19:31] INFO root fetch - processPackages [hikari-bot]: Downloading https://files.pythonhosted.org/packages/4f/93/058cbbaf4ba58707ac2c54c7e41d37b4d49b15ed7ac0a175bbae74da1ce3/hikari_bot-0.3.9.5.tar.gz
+[2023-07-28 13:19:31] INFO root fetch - processPackages [onapsdk]: Downloading https://files.pythonhosted.org/packages/34/8d/de179917b707edfd9bb4c028c49d7efff1d14da5c21b6030c9f58ff65c7e/onapsdk-9.5.1.tar.gz
+[2023-07-28 13:19:31] INFO root fetch - processPackages [scriptworker]: Downloading https://files.pythonhosted.org/packages/ea/d1/fdc110b0449a65fae3a72bfcfd8bfa198a3b3c8d6f2ea779fa67cc7df6f8/scriptworker-8.1.1.tar.gz
+[2023-07-28 13:19:31] INFO root fetch - processPackages [pydcc]: Downloading https://files.pythonhosted.org/packages/f4/c6/6862a05a2bf31cba800abd5c2743bd446b30f2488f7140afb611197f33ec/pydcc-0.2.26.tar.gz
+[2023-07-28 13:19:31] INFO root fetch - processPackages [nonebot-plugin-aujob]: Downloading https://files.pythonhosted.org/packages/1b/e5/dcc79686a46f0b3300f734a4800d20a3f4cb459b776295b2cf7dd03a07d8/nonebot_plugin_aujob-0.0.5.tar.gz
+[2023-07-28 13:19:32] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/c5/65/36b99ea5a0da40f3154f816f1a3c4fe082aea847190d7bdf31c43c6901f8/byquant-1.7.28-py3-none-any.whl
+[2023-07-28 13:19:32] INFO root fetch - processPackages [bamt]: Downloading https://files.pythonhosted.org/packages/7d/5b/17240a9bca3e1d095248426f150d2ecb64bdebc6e99b8b5033fd5fd374c5/bamt-1.1.43.tar.gz
+[2023-07-28 13:19:32] INFO root fetch - processPackages [pydcc]: Downloading https://files.pythonhosted.org/packages/20/c1/927056db64ae5ec4e4fbb0d7a96b87f82f8c6cd239b89a69a0f57875d14c/pydcc-0.2.27.tar.gz
+[2023-07-28 13:19:32] INFO root fetch - processPackages [nonebot-plugin-aujob]: executing diffoscope
+[2023-07-28 13:19:32] INFO root fetch - processPackages [nonebot-plugin-aujob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_aujob-0.0.4.tar.gz tmp/nonebot_plugin_aujob-0.0.5.tar.gz --markdown 20230728/n/nonebot-plugin-aujob/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-28 13:19:32] INFO root fetch - processPackages [hikari-bot]: Downloading https://files.pythonhosted.org/packages/79/ba/1ff78e1167a5d6a8b4552f023c992b2c8fcebb7faeac9af5eee55f7a772d/hikari_bot-0.3.9.6.tar.gz
+[2023-07-28 13:19:32] INFO root fetch - processPackages [bamt]: executing diffoscope
+[2023-07-28 13:19:32] INFO root fetch - processPackages [bamt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bamt-1.1.41.tar.gz tmp/bamt-1.1.43.tar.gz --markdown 20230728/b/bamt/1.1.41-1.1.43/diff.md --exclude *.pyd
+[2023-07-28 13:19:32] INFO root fetch - processPackages [hikari-bot]: executing diffoscope
+[2023-07-28 13:19:32] INFO root fetch - processPackages [hikari-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikari_bot-0.3.9.5.tar.gz tmp/hikari_bot-0.3.9.6.tar.gz --markdown 20230728/h/hikari-bot/0.3.9.5-0.3.9.6/diff.md --exclude *.pyd
+[2023-07-28 13:19:32] INFO root fetch - processPackages [scriptworker]: Downloading https://files.pythonhosted.org/packages/a2/89/b354991a23a47adcd499805e932e2c7be941ac3d6ecd8c5e012415a35363/scriptworker-9.0.0.tar.gz
+[2023-07-28 13:19:32] INFO root fetch - processPackages [pydcc]: executing diffoscope
+[2023-07-28 13:19:32] INFO root fetch - processPackages [pydcc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydcc-0.2.26.tar.gz tmp/pydcc-0.2.27.tar.gz --markdown 20230728/p/pydcc/0.2.26-0.2.27/diff.md --exclude *.pyd
+[2023-07-28 13:19:32] INFO root fetch - processPackages [byquant]: executing diffoscope
+[2023-07-28 13:19:32] INFO root fetch - processPackages [byquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byquant-1.7.27.tar.gz tmp/byquant-1.7.28-py3-none-any.whl.zip --markdown 20230728/b/byquant/1.7.27-1.7.28/diff.md --exclude *.pyd
+[2023-07-28 13:19:32] INFO root fetch - processPackages [scriptworker]: executing diffoscope
+[2023-07-28 13:19:32] INFO root fetch - processPackages [scriptworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scriptworker-8.1.1.tar.gz tmp/scriptworker-9.0.0.tar.gz --markdown 20230728/s/scriptworker/8.1.1-9.0.0/diff.md --exclude *.pyd
+[2023-07-28 13:19:32] INFO root fetch - processPackages [onapsdk]: Downloading https://files.pythonhosted.org/packages/54/d9/b0ae90c2fb352493a8e31989ab994f4540b0ae9dec8292b1372a1d01c994/onapsdk-9.6.0.tar.gz
+[2023-07-28 13:19:32] INFO root fetch - processPackages [onapsdk]: executing diffoscope
+[2023-07-28 13:19:32] INFO root fetch - processPackages [onapsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onapsdk-9.5.1.tar.gz tmp/onapsdk-9.6.0.tar.gz --markdown 20230728/o/onapsdk/9.5.1-9.6.0/diff.md --exclude *.pyd
+[2023-07-28 13:19:33] INFO root fetch - processPackages [nonebot-plugin-aujob]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_aujob-0.0.4.tar.gz]
+[2023-07-28 13:19:33] INFO root fetch - processPackages [nonebot-plugin-aujob]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_aujob-0.0.5.tar.gz]
+[2023-07-28 13:19:33] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-aujob]: success
+[2023-07-28 13:19:33] INFO root fetch - processPackages [pydcc]: Remove: archive file [/home/abi/fetcher/tmp/pydcc-0.2.26.tar.gz]
+[2023-07-28 13:19:33] INFO root fetch - processPackages [pydcc]: Remove: archive file [/home/abi/fetcher/tmp/pydcc-0.2.27.tar.gz]
+[2023-07-28 13:19:33] INFO root fetch - main [MainThread]: End processing [pydcc]: success
+[2023-07-28 13:19:33] INFO root fetch - processPackages [hikari-bot]: Remove: archive file [/home/abi/fetcher/tmp/hikari_bot-0.3.9.5.tar.gz]
+[2023-07-28 13:19:33] INFO root fetch - processPackages [hikari-bot]: Remove: archive file [/home/abi/fetcher/tmp/hikari_bot-0.3.9.6.tar.gz]
+[2023-07-28 13:19:33] INFO root fetch - main [MainThread]: End processing [hikari-bot]: success
+[2023-07-28 13:19:33] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.27.tar.gz]
+[2023-07-28 13:19:33] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.28-py3-none-any.whl.zip]
+[2023-07-28 13:19:33] INFO root fetch - main [MainThread]: End processing [byquant]: success
+[2023-07-28 13:19:34] INFO root fetch - processPackages [onapsdk]: Remove: archive file [/home/abi/fetcher/tmp/onapsdk-9.5.1.tar.gz]
+[2023-07-28 13:19:34] INFO root fetch - processPackages [onapsdk]: Remove: archive file [/home/abi/fetcher/tmp/onapsdk-9.6.0.tar.gz]
+[2023-07-28 13:19:34] INFO root fetch - main [MainThread]: End processing [onapsdk]: success
+[2023-07-28 13:19:34] INFO root fetch - processPackages [bamt]: Remove: archive file [/home/abi/fetcher/tmp/bamt-1.1.41.tar.gz]
+[2023-07-28 13:19:34] INFO root fetch - processPackages [bamt]: Remove: archive file [/home/abi/fetcher/tmp/bamt-1.1.43.tar.gz]
+[2023-07-28 13:19:34] INFO root fetch - main [MainThread]: End processing [bamt]: success
+[2023-07-28 13:19:34] INFO root fetch - processPackages [scriptworker]: Remove: archive file [/home/abi/fetcher/tmp/scriptworker-8.1.1.tar.gz]
+[2023-07-28 13:19:34] INFO root fetch - processPackages [scriptworker]: Remove: archive file [/home/abi/fetcher/tmp/scriptworker-9.0.0.tar.gz]
+[2023-07-28 13:19:34] INFO root fetch - main [MainThread]: End processing [scriptworker]: success
+[2023-07-28 13:19:34] INFO root fetch - main [MainThread]: Store serial: [19074784]
