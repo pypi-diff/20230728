@@ -15094,3 +15094,128 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 09:04:06] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
 [2023-07-28 09:04:06] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
 [2023-07-28 09:04:06] INFO root fetch - main [MainThread]: Store serial: [19072649]
+[2023-07-28 09:09:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19072649]
+[2023-07-28 09:09:14] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-28 09:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdfix-sdk
+[2023-07-28 09:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-rest-auth-e2e
+[2023-07-28 09:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: histcite-python
+[2023-07-28 09:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-07-28 09:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: collective.accordionviews
+[2023-07-28 09:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pathdiff
+[2023-07-28 09:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agoraiot
+[2023-07-28 09:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agora-busclient
+[2023-07-28 09:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agora-config
+[2023-07-28 09:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: agora-logging
+[2023-07-28 09:09:14] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-28 09:09:14] INFO root fetch - processPackages [pdfix-sdk]: New version: [7.0.1] Old Version: [7.0.0]
+[2023-07-28 09:09:14] WARNING root fetch - processPackages [pathdiff]: Skipping, unable to determine old version
+[2023-07-28 09:09:14] INFO root fetch - processPackages [pathdiff]: Start processing: agora-redis-client
+[2023-07-28 09:09:14] INFO root fetch - main [MainThread]: End processing [pathdiff] error
+[2023-07-28 09:09:14] WARNING root fetch - processPackages [django-rest-auth-e2e]: Skipping, unable to determine old version
+[2023-07-28 09:09:14] INFO root fetch - processPackages [django-rest-auth-e2e]: Start processing: agora-utils
+[2023-07-28 09:09:14] INFO root fetch - main [MainThread]: End processing [django-rest-auth-e2e] error
+[2023-07-28 09:09:14] INFO root fetch - processPackages [histcite-python]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-28 09:09:14] INFO root fetch - processPackages [agora-busclient]: New version: [1.1.32] Old Version: [1.1.31]
+[2023-07-28 09:09:14] INFO root fetch - processPackages [agora-config]: New version: [1.1.32] Old Version: [1.1.31]
+[2023-07-28 09:09:14] INFO root fetch - processPackages [collective.accordionviews]: New version: [1.2] Old Version: [1.1b4]
+[2023-07-28 09:09:14] INFO root fetch - processPackages [agoraiot]: New version: [1.1.32] Old Version: [1.1.31]
+[2023-07-28 09:09:14] INFO root fetch - processPackages [agora-logging]: New version: [1.1.32] Old Version: [1.1.31]
+[2023-07-28 09:09:15] INFO root fetch - processPackages [agora-redis-client]: New version: [1.1.32] Old Version: [1.1.31]
+[2023-07-28 09:09:15] INFO root fetch - processPackages [agora-utils]: New version: [1.1.32] Old Version: [1.1.31]
+[2023-07-28 09:09:15] INFO root fetch - processPackages [agora-config]: Downloading https://files.pythonhosted.org/packages/d0/00/c12937f0115bb53af69013644c0f9ead56a2d9806149a5f5ed6d14c41176/agora_config-1.1.31-py2.py3-none-any.whl
+[2023-07-28 09:09:15] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-07-28 09:09:15] INFO root fetch - processPackages [agora-busclient]: Downloading https://files.pythonhosted.org/packages/f3/9d/cca846d9099515a565e16d1baf8d261ee65514c888ee4e0aacf31814975e/agora_busclient-1.1.31-py2.py3-none-any.whl
+[2023-07-28 09:09:15] INFO root fetch - processPackages [pdfix-sdk]: Downloading https://files.pythonhosted.org/packages/bc/94/de4c2f07a4892f7c3c7ec5d0dc92df0797fc0b9c5125919564016fdae598/pdfix_sdk-7.0.0.tar.gz
+[2023-07-28 09:09:15] INFO root fetch - processPackages [agora-logging]: Downloading https://files.pythonhosted.org/packages/02/76/e536de32db33248edf8aa7810dce1aedb2299f4128b34c163af680ac3b40/agora_logging-1.1.31-py2.py3-none-any.whl
+[2023-07-28 09:09:15] INFO root fetch - processPackages [agora-utils]: Downloading https://files.pythonhosted.org/packages/4b/56/75e1d9fc8e9b3d9704bf8956ee9350f6d06e6e93dac56a5e1604af91dd83/agora_utils-1.1.31-py2.py3-none-any.whl
+[2023-07-28 09:09:15] INFO root fetch - processPackages [agoraiot]: Downloading https://files.pythonhosted.org/packages/fb/58/f512545392fe926337ed3725470ca10488280ed416e9b4c17ca00ceb28df/agoraiot-1.1.31-py2.py3-none-any.whl
+[2023-07-28 09:09:15] INFO root fetch - processPackages [histcite-python]: Downloading https://files.pythonhosted.org/packages/96/87/862f37661cc7b578d508a0a36107c7ca1e6c5c4890e94a85944d1e6fdecf/histcite-python-0.3.3.tar.gz
+[2023-07-28 09:09:15] INFO root fetch - processPackages [collective.accordionviews]: Downloading https://files.pythonhosted.org/packages/60/ae/cc2ea0757335ffba13547969efdbe545de8cef9d9650a7c83950d635fd3c/collective.accordionviews-1.1b4.tar.gz
+[2023-07-28 09:09:15] INFO root fetch - processPackages [agora-redis-client]: Downloading https://files.pythonhosted.org/packages/f2/7e/ec38bc26cacf9012046cac42f1135fc8bbca7eba7960bc3d7baca7e34d34/agora_redis_client-1.1.31-py2.py3-none-any.whl
+[2023-07-28 09:09:15] WARNING root fetch - processPackages [pdfix-sdk]: Skipping package: exceeds size limit 47471084>=10485760
+[2023-07-28 09:09:15] INFO root fetch - processPackages [pdfix-sdk]: Start processing: codingtoolkit
+[2023-07-28 09:09:15] INFO root fetch - main [MainThread]: End processing [pdfix-sdk] error
+[2023-07-28 09:09:15] INFO root fetch - processPackages [codingtoolkit]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-28 09:09:15] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-07-28 09:09:15] INFO root fetch - processPackages [agora-config]: Downloading https://files.pythonhosted.org/packages/85/b3/558d9dc85da80cdb3bd7f60eb8f03a16c4d9724b3145c6a43ef2b95e8775/agora_config-1.1.32-py2.py3-none-any.whl
+[2023-07-28 09:09:15] INFO root fetch - processPackages [agora-busclient]: Downloading https://files.pythonhosted.org/packages/31/b6/3a38c4267c8248284bfe6b796f149d160890d99f005496034f4271c4e186/agora_busclient-1.1.32-py2.py3-none-any.whl
+[2023-07-28 09:09:15] INFO root fetch - processPackages [agora-utils]: Downloading https://files.pythonhosted.org/packages/cb/72/17e824b0b6d7e6dc49de927be658bc8e952a8bddd2bef6261b5f58dfd6b4/agora_utils-1.1.32-py2.py3-none-any.whl
+[2023-07-28 09:09:15] INFO root fetch - processPackages [agora-logging]: Downloading https://files.pythonhosted.org/packages/65/a8/4a1802ba47db4d0bcf39d37a2af8d0ae103e5b3e7bca179a560b82942d26/agora_logging-1.1.32-py2.py3-none-any.whl
+[2023-07-28 09:09:15] INFO root fetch - processPackages [codingtoolkit]: Downloading https://files.pythonhosted.org/packages/11/df/2f9fbf14f85f67e30196d33cb562209eae6c07b5350e6ada1097c0901455/codingtoolkit-0.0.2.tar.gz
+[2023-07-28 09:09:15] INFO root fetch - processPackages [agoraiot]: Downloading https://files.pythonhosted.org/packages/66/e3/c27bdaf880c345e0bc20e9418c54c5d165544d69830b22d0d3c785f8e6b8/agoraiot-1.1.32-py2.py3-none-any.whl
+[2023-07-28 09:09:15] INFO root fetch - processPackages [collective.accordionviews]: Downloading https://files.pythonhosted.org/packages/25/9b/96ff802720d56b075d115b8cf2cbf6c6811042dc9762e899df91c6f2da55/collective.accordionviews-1.2.tar.gz
+[2023-07-28 09:09:15] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-07-28 09:09:15] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230728/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-28 09:09:15] INFO root fetch - processPackages [agora-utils]: executing diffoscope
+[2023-07-28 09:09:15] INFO root fetch - processPackages [agora-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_utils-1.1.31-py2.py3-none-any.whl.zip tmp/agora_utils-1.1.32-py2.py3-none-any.whl.zip --markdown 20230728/a/agora-utils/1.1.31-1.1.32/diff.md --exclude *.pyd
+[2023-07-28 09:09:15] INFO root fetch - processPackages [agora-config]: executing diffoscope
+[2023-07-28 09:09:15] INFO root fetch - processPackages [agora-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_config-1.1.31-py2.py3-none-any.whl.zip tmp/agora_config-1.1.32-py2.py3-none-any.whl.zip --markdown 20230728/a/agora-config/1.1.31-1.1.32/diff.md --exclude *.pyd
+[2023-07-28 09:09:15] INFO root fetch - processPackages [histcite-python]: Downloading https://files.pythonhosted.org/packages/33/08/b61b0c9e49d398ac9b20793a543aeb5882f8e399d5e36a9a84c7ac768529/histcite-python-0.4.0.tar.gz
+[2023-07-28 09:09:15] INFO root fetch - processPackages [agora-redis-client]: Downloading https://files.pythonhosted.org/packages/d2/d6/2b8410ea30ed0e5048edd3193c9fcb0a4fc5e141cfe8e1155ff2598cea20/agora_redis_client-1.1.32-py2.py3-none-any.whl
+[2023-07-28 09:09:15] INFO root fetch - processPackages [agora-busclient]: executing diffoscope
+[2023-07-28 09:09:15] INFO root fetch - processPackages [agora-busclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_busclient-1.1.31-py2.py3-none-any.whl.zip tmp/agora_busclient-1.1.32-py2.py3-none-any.whl.zip --markdown 20230728/a/agora-busclient/1.1.31-1.1.32/diff.md --exclude *.pyd
+[2023-07-28 09:09:16] INFO root fetch - processPackages [agora-logging]: executing diffoscope
+[2023-07-28 09:09:16] INFO root fetch - processPackages [agora-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_logging-1.1.31-py2.py3-none-any.whl.zip tmp/agora_logging-1.1.32-py2.py3-none-any.whl.zip --markdown 20230728/a/agora-logging/1.1.31-1.1.32/diff.md --exclude *.pyd
+[2023-07-28 09:09:16] INFO root fetch - processPackages [collective.accordionviews]: executing diffoscope
+[2023-07-28 09:09:16] INFO root fetch - processPackages [collective.accordionviews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.accordionviews-1.1b4.tar.gz tmp/collective.accordionviews-1.2.tar.gz --markdown 20230728/c/collective.accordionviews/1.1b4-1.2/diff.md --exclude *.pyd
+[2023-07-28 09:09:16] INFO root fetch - processPackages [agoraiot]: executing diffoscope
+[2023-07-28 09:09:16] INFO root fetch - processPackages [agoraiot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agoraiot-1.1.31-py2.py3-none-any.whl.zip tmp/agoraiot-1.1.32-py2.py3-none-any.whl.zip --markdown 20230728/a/agoraiot/1.1.31-1.1.32/diff.md --exclude *.pyd
+[2023-07-28 09:09:16] INFO root fetch - processPackages [agora-redis-client]: executing diffoscope
+[2023-07-28 09:09:16] INFO root fetch - processPackages [agora-redis-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_redis_client-1.1.31-py2.py3-none-any.whl.zip tmp/agora_redis_client-1.1.32-py2.py3-none-any.whl.zip --markdown 20230728/a/agora-redis-client/1.1.31-1.1.32/diff.md --exclude *.pyd
+[2023-07-28 09:09:16] INFO root fetch - processPackages [histcite-python]: executing diffoscope
+[2023-07-28 09:09:16] INFO root fetch - processPackages [histcite-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histcite-python-0.3.3.tar.gz tmp/histcite-python-0.4.0.tar.gz --markdown 20230728/h/histcite-python/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-07-28 09:09:16] INFO root fetch - processPackages [codingtoolkit]: Downloading https://files.pythonhosted.org/packages/6d/dd/7f004b345191efac9eb748fd3e88c3fdbf73670e92c6e4fd1aa4d2621cf1/codingtoolkit-0.0.3.tar.gz
+[2023-07-28 09:09:16] INFO root fetch - processPackages [codingtoolkit]: executing diffoscope
+[2023-07-28 09:09:16] INFO root fetch - processPackages [codingtoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codingtoolkit-0.0.2.tar.gz tmp/codingtoolkit-0.0.3.tar.gz --markdown 20230728/c/codingtoolkit/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-28 09:09:17] INFO root fetch - processPackages [agora-utils]: Remove: archive file [/home/abi/fetcher/tmp/agora_utils-1.1.31-py2.py3-none-any.whl.zip]
+[2023-07-28 09:09:17] INFO root fetch - processPackages [agora-utils]: Remove: archive file [/home/abi/fetcher/tmp/agora_utils-1.1.32-py2.py3-none-any.whl.zip]
+[2023-07-28 09:09:17] INFO root fetch - processPackages [agora-utils]: Start processing: beam-sdk
+[2023-07-28 09:09:17] INFO root fetch - main [MainThread]: End processing [agora-utils]: success
+[2023-07-28 09:09:17] INFO root fetch - processPackages [beam-sdk]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-28 09:09:17] INFO root fetch - processPackages [beam-sdk]: Downloading https://files.pythonhosted.org/packages/d6/21/9666fc17e5c5d3b0f75cde3f0ad0a33e2fe3063aa155fc1fc4593572bb8d/beam-sdk-0.9.8.tar.gz
+[2023-07-28 09:09:17] INFO root fetch - processPackages [agora-busclient]: Remove: archive file [/home/abi/fetcher/tmp/agora_busclient-1.1.31-py2.py3-none-any.whl.zip]
+[2023-07-28 09:09:17] INFO root fetch - processPackages [agora-busclient]: Remove: archive file [/home/abi/fetcher/tmp/agora_busclient-1.1.32-py2.py3-none-any.whl.zip]
+[2023-07-28 09:09:17] INFO root fetch - processPackages [agora-busclient]: Start processing: cjptools
+[2023-07-28 09:09:17] INFO root fetch - main [MainThread]: End processing [agora-busclient]: success
+[2023-07-28 09:09:17] INFO root fetch - processPackages [agora-redis-client]: Remove: archive file [/home/abi/fetcher/tmp/agora_redis_client-1.1.31-py2.py3-none-any.whl.zip]
+[2023-07-28 09:09:17] INFO root fetch - processPackages [agora-redis-client]: Remove: archive file [/home/abi/fetcher/tmp/agora_redis_client-1.1.32-py2.py3-none-any.whl.zip]
+[2023-07-28 09:09:17] INFO root fetch - processPackages [agora-redis-client]: Start processing: tf-hub-nightly
+[2023-07-28 09:09:17] INFO root fetch - main [MainThread]: End processing [agora-redis-client]: success
+[2023-07-28 09:09:17] WARNING root fetch - processPackages [cjptools]: Skipping, unable to determine old version
+[2023-07-28 09:09:17] INFO root fetch - main [MainThread]: End processing [cjptools] error
+[2023-07-28 09:09:17] INFO root fetch - processPackages [beam-sdk]: Downloading https://files.pythonhosted.org/packages/64/d7/1ec63c342b9af2c5412a757ed5c8a6c98db462032364060ff95bda50e556/beam-sdk-0.9.9.tar.gz
+[2023-07-28 09:09:17] INFO root fetch - processPackages [agora-config]: Remove: archive file [/home/abi/fetcher/tmp/agora_config-1.1.31-py2.py3-none-any.whl.zip]
+[2023-07-28 09:09:17] INFO root fetch - processPackages [agora-config]: Remove: archive file [/home/abi/fetcher/tmp/agora_config-1.1.32-py2.py3-none-any.whl.zip]
+[2023-07-28 09:09:17] INFO root fetch - main [MainThread]: End processing [agora-config]: success
+[2023-07-28 09:09:17] INFO root fetch - processPackages [agoraiot]: Remove: archive file [/home/abi/fetcher/tmp/agoraiot-1.1.31-py2.py3-none-any.whl.zip]
+[2023-07-28 09:09:17] INFO root fetch - processPackages [agoraiot]: Remove: archive file [/home/abi/fetcher/tmp/agoraiot-1.1.32-py2.py3-none-any.whl.zip]
+[2023-07-28 09:09:17] INFO root fetch - main [MainThread]: End processing [agoraiot]: success
+[2023-07-28 09:09:17] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-07-28 09:09:17] INFO root fetch - processPackages [agora-logging]: Remove: archive file [/home/abi/fetcher/tmp/agora_logging-1.1.31-py2.py3-none-any.whl.zip]
+[2023-07-28 09:09:17] INFO root fetch - processPackages [agora-logging]: Remove: archive file [/home/abi/fetcher/tmp/agora_logging-1.1.32-py2.py3-none-any.whl.zip]
+[2023-07-28 09:09:17] INFO root fetch - main [MainThread]: End processing [agora-logging]: success
+[2023-07-28 09:09:17] INFO root fetch - processPackages [beam-sdk]: executing diffoscope
+[2023-07-28 09:09:17] INFO root fetch - processPackages [beam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beam-sdk-0.9.8.tar.gz tmp/beam-sdk-0.9.9.tar.gz --markdown 20230728/b/beam-sdk/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-28 09:09:17] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-07-28 09:09:17] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-07-28 09:09:17] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-07-28 09:09:17] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-07-28 09:09:18] INFO root fetch - processPackages [histcite-python]: Remove: archive file [/home/abi/fetcher/tmp/histcite-python-0.3.3.tar.gz]
+[2023-07-28 09:09:18] INFO root fetch - processPackages [histcite-python]: Remove: archive file [/home/abi/fetcher/tmp/histcite-python-0.4.0.tar.gz]
+[2023-07-28 09:09:18] INFO root fetch - main [MainThread]: End processing [histcite-python]: success
+[2023-07-28 09:09:18] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-07-28 09:09:18] INFO root fetch - processPackages [collective.accordionviews]: Remove: archive file [/home/abi/fetcher/tmp/collective.accordionviews-1.1b4.tar.gz]
+[2023-07-28 09:09:18] INFO root fetch - processPackages [collective.accordionviews]: Remove: archive file [/home/abi/fetcher/tmp/collective.accordionviews-1.2.tar.gz]
+[2023-07-28 09:09:18] INFO root fetch - main [MainThread]: End processing [collective.accordionviews]: success
+[2023-07-28 09:09:18] INFO root fetch - processPackages [codingtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/codingtoolkit-0.0.2.tar.gz]
+[2023-07-28 09:09:18] INFO root fetch - processPackages [codingtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/codingtoolkit-0.0.3.tar.gz]
+[2023-07-28 09:09:18] INFO root fetch - main [MainThread]: End processing [codingtoolkit]: success
+[2023-07-28 09:09:18] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-07-28 09:09:18] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230728/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-07-28 09:09:18] INFO root fetch - processPackages [beam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/beam-sdk-0.9.8.tar.gz]
+[2023-07-28 09:09:18] INFO root fetch - processPackages [beam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/beam-sdk-0.9.9.tar.gz]
+[2023-07-28 09:09:18] INFO root fetch - main [MainThread]: End processing [beam-sdk]: success
+[2023-07-28 09:09:18] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-07-28 09:09:18] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-07-28 09:09:18] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-07-28 09:09:18] INFO root fetch - main [MainThread]: Store serial: [19072691]
