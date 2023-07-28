@@ -12713,3 +12713,51 @@
 [2023-07-28 06:44:04] INFO root fetch - processPackages [odoo-addon-project-task-material]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_task_material-16.0.1.0.0.3-py3-none-any.whl.zip]
 [2023-07-28 06:44:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-task-material]: success
 [2023-07-28 06:44:04] INFO root fetch - main [MainThread]: Store serial: [19071694]
+[2023-07-28 06:49:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19071694]
+[2023-07-28 06:49:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-28 06:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fgo-api-types
+[2023-07-28 06:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HandyLLM
+[2023-07-28 06:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openjij
+[2023-07-28 06:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-printing-simple-configuration
+[2023-07-28 06:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ifunnygifmaker
+[2023-07-28 06:49:13] INFO root fetch - processPackages [odoo-addon-printing-simple-configuration]: New version: [16.0.1.0.1.4] Old Version: [16.0.1.0.1.2]
+[2023-07-28 06:49:13] INFO root fetch - processPackages [ifunnygifmaker]: New version: [1.0.0] Old Version: [0.2.3]
+[2023-07-28 06:49:13] INFO root fetch - processPackages [HandyLLM]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-28 06:49:13] INFO root fetch - processPackages [fgo-api-types]: New version: [2023.7.9.5.5.49] Old Version: [2023.7.7.16.36.40]
+[2023-07-28 06:49:13] INFO root fetch - processPackages [openjij]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-07-28 06:49:13] INFO root fetch - processPackages [ifunnygifmaker]: Downloading https://files.pythonhosted.org/packages/e1/e2/90f3cab49b1b09e643827d0760069e9e9fb49184106006edc7ecb641dcfb/ifunnygifmaker-0.2.3.tar.gz
+[2023-07-28 06:49:13] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/6f/90/fd22e069ca7b8453cb4912298233613f643e6a9f92b369b038a0a08f88d4/fgo_api_types-2023.7.7.16.36.40.tar.gz
+[2023-07-28 06:49:13] INFO root fetch - processPackages [HandyLLM]: Downloading https://files.pythonhosted.org/packages/9a/10/59a27ba1fe21cd8a08900a28e6b77e86aebdb83924ce2af90a5fe69383c4/HandyLLM-0.2.1.tar.gz
+[2023-07-28 06:49:13] INFO root fetch - processPackages [odoo-addon-printing-simple-configuration]: Downloading https://files.pythonhosted.org/packages/0a/9d/659e07dbf826b1043195ed3715f76500243ce22f7ba12bdffc834debb768/odoo_addon_printing_simple_configuration-16.0.1.0.1.2-py3-none-any.whl
+[2023-07-28 06:49:13] INFO root fetch - processPackages [openjij]: Downloading https://files.pythonhosted.org/packages/f0/a0/a4b3318f53b9c11f098ced5827173e5a28c1fd12b96cbc14079ae4560860/openjij-0.7.3.tar.gz
+[2023-07-28 06:49:13] INFO root fetch - processPackages [ifunnygifmaker]: Downloading https://files.pythonhosted.org/packages/b6/b7/cd1db4e960eda5befe19dac63ddced4bcf2db71e8fa8067494ed8eec6b06/ifunnygifmaker-1.0.0.tar.gz
+[2023-07-28 06:49:13] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/4d/93/78d98c0a688a8f0ac29191feea8aa59cc6f63e883d4dd1d8a84f3fe997b8/fgo_api_types-2023.7.9.5.5.49.tar.gz
+[2023-07-28 06:49:14] INFO root fetch - processPackages [ifunnygifmaker]: executing diffoscope
+[2023-07-28 06:49:14] INFO root fetch - processPackages [ifunnygifmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifunnygifmaker-0.2.3.tar.gz tmp/ifunnygifmaker-1.0.0.tar.gz --markdown 20230728/i/ifunnygifmaker/0.2.3-1.0.0/diff.md --exclude *.pyd
+[2023-07-28 06:49:14] INFO root fetch - processPackages [odoo-addon-printing-simple-configuration]: Downloading https://files.pythonhosted.org/packages/49/71/c58d5cd545d1572a9f4289479c32548e2c0a3cb1101c902b480dd182ab7c/odoo_addon_printing_simple_configuration-16.0.1.0.1.4-py3-none-any.whl
+[2023-07-28 06:49:14] INFO root fetch - processPackages [HandyLLM]: Downloading https://files.pythonhosted.org/packages/fa/0c/483e9113232342b05cbbf2bdeff92e929365dc681b8ad6266757a65dcdfc/HandyLLM-0.3.0.tar.gz
+[2023-07-28 06:49:14] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2023-07-28 06:49:14] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2023.7.7.16.36.40.tar.gz tmp/fgo_api_types-2023.7.9.5.5.49.tar.gz --markdown 20230728/f/fgo-api-types/2023.7.7.16.36.40-2023.7.9.5.5.49/diff.md --exclude *.pyd
+[2023-07-28 06:49:14] INFO root fetch - processPackages [openjij]: Downloading https://files.pythonhosted.org/packages/ad/59/5070487775eccc36fa499fc5556abe7b9d7d6f1115fa4cf85f6b5c1ec1ec/openjij-0.7.4.tar.gz
+[2023-07-28 06:49:14] INFO root fetch - processPackages [odoo-addon-printing-simple-configuration]: executing diffoscope
+[2023-07-28 06:49:14] INFO root fetch - processPackages [odoo-addon-printing-simple-configuration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_printing_simple_configuration-16.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_printing_simple_configuration-16.0.1.0.1.4-py3-none-any.whl.zip --markdown 20230728/o/odoo-addon-printing-simple-configuration/16.0.1.0.1.2-16.0.1.0.1.4/diff.md --exclude *.pyd
+[2023-07-28 06:49:14] INFO root fetch - processPackages [HandyLLM]: executing diffoscope
+[2023-07-28 06:49:14] INFO root fetch - processPackages [HandyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HandyLLM-0.2.1.tar.gz tmp/HandyLLM-0.3.0.tar.gz --markdown 20230728/H/HandyLLM/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-28 06:49:14] INFO root fetch - processPackages [openjij]: executing diffoscope
+[2023-07-28 06:49:14] INFO root fetch - processPackages [openjij]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openjij-0.7.3.tar.gz tmp/openjij-0.7.4.tar.gz --markdown 20230728/o/openjij/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-07-28 06:49:14] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.7.7.16.36.40.tar.gz]
+[2023-07-28 06:49:14] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.7.9.5.5.49.tar.gz]
+[2023-07-28 06:49:14] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2023-07-28 06:49:15] INFO root fetch - processPackages [ifunnygifmaker]: Remove: archive file [/home/abi/fetcher/tmp/ifunnygifmaker-0.2.3.tar.gz]
+[2023-07-28 06:49:15] INFO root fetch - processPackages [ifunnygifmaker]: Remove: archive file [/home/abi/fetcher/tmp/ifunnygifmaker-1.0.0.tar.gz]
+[2023-07-28 06:49:15] INFO root fetch - main [MainThread]: End processing [ifunnygifmaker]: success
+[2023-07-28 06:49:15] INFO root fetch - processPackages [HandyLLM]: Remove: archive file [/home/abi/fetcher/tmp/HandyLLM-0.2.1.tar.gz]
+[2023-07-28 06:49:15] INFO root fetch - processPackages [HandyLLM]: Remove: archive file [/home/abi/fetcher/tmp/HandyLLM-0.3.0.tar.gz]
+[2023-07-28 06:49:15] INFO root fetch - main [MainThread]: End processing [HandyLLM]: success
+[2023-07-28 06:49:15] INFO root fetch - processPackages [odoo-addon-printing-simple-configuration]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_printing_simple_configuration-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2023-07-28 06:49:15] INFO root fetch - processPackages [odoo-addon-printing-simple-configuration]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_printing_simple_configuration-16.0.1.0.1.4-py3-none-any.whl.zip]
+[2023-07-28 06:49:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-printing-simple-configuration]: success
+[2023-07-28 06:49:15] INFO root fetch - processPackages [openjij]: Remove: archive file [/home/abi/fetcher/tmp/openjij-0.7.3.tar.gz]
+[2023-07-28 06:49:15] INFO root fetch - processPackages [openjij]: Remove: archive file [/home/abi/fetcher/tmp/openjij-0.7.4.tar.gz]
+[2023-07-28 06:49:15] INFO root fetch - main [MainThread]: End processing [openjij]: success
+[2023-07-28 06:49:15] INFO root fetch - main [MainThread]: Store serial: [19071739]
