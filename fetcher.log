@@ -15863,3 +15863,170 @@ AssertionError: tmp/pyepsilla-0.0.5.tar.gz does not exist
 [2023-07-28 09:47:06] INFO root fetch - processPackages [vvv-rpc-server]: Remove: archive file [/home/abi/fetcher/tmp/vvv_rpc_server-0.0.9-py3-none-any.whl.zip]
 [2023-07-28 09:47:06] INFO root fetch - main [MainThread]: End processing [vvv-rpc-server]: success
 [2023-07-28 09:47:06] INFO root fetch - main [MainThread]: Store serial: [19072907]
+[2023-07-28 09:52:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19072907]
+[2023-07-28 09:52:17] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-28 09:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opentf-toolkit-nightly
+[2023-07-28 09:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opentf-toolkit
+[2023-07-28 09:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazyface
+[2023-07-28 09:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ingescape
+[2023-07-28 09:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-forestadmin
+[2023-07-28 09:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: project-helpers
+[2023-07-28 09:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opentf-tools-nightly
+[2023-07-28 09:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: threedi-schema
+[2023-07-28 09:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ansys-pyensight-core
+[2023-07-28 09:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opentf-tools
+[2023-07-28 09:52:17] INFO root fetch - processPackages [ansys-pyensight-core]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-28 09:52:17] WARNING root fetch - processPackages [project-helpers]: Skipping, unable to determine old version
+[2023-07-28 09:52:17] INFO root fetch - processPackages [project-helpers]: Start processing: tf-nightly-cpu
+[2023-07-28 09:52:17] INFO root fetch - main [MainThread]: End processing [project-helpers] error
+[2023-07-28 09:52:17] INFO root fetch - processPackages [threedi-schema]: New version: [0.217.7] Old Version: [0.217.6]
+[2023-07-28 09:52:17] INFO root fetch - processPackages [opentf-toolkit]: New version: [0.49.0] Old Version: [0.48.0]
+[2023-07-28 09:52:17] WARNING root fetch - processPackages [lazyface]: Skipping, unable to determine old version
+[2023-07-28 09:52:17] INFO root fetch - processPackages [lazyface]: Start processing: keras-nightly
+[2023-07-28 09:52:17] INFO root fetch - main [MainThread]: End processing [lazyface] error
+[2023-07-28 09:52:17] INFO root fetch - processPackages [opentf-tools-nightly]: New version: [0.43.0.dev460] Old Version: [0.43.0.dev455]
+[2023-07-28 09:52:17] INFO root fetch - processPackages [ingescape]: New version: [3.5.4] Old Version: [3.5.3]
+[2023-07-28 09:52:17] INFO root fetch - processPackages [opentf-tools]: New version: [0.42.0] Old Version: [0.41.0]
+[2023-07-28 09:52:17] INFO root fetch - processPackages [django-forestadmin]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-07-28 09:52:17] INFO root fetch - processPackages [opentf-toolkit-nightly]: New version: [0.50.0.dev644] Old Version: [0.50.0.dev641]
+[2023-07-28 09:52:17] INFO root fetch - processPackages [ansys-pyensight-core]: Downloading https://files.pythonhosted.org/packages/6e/8f/b954d441313a9dc3df6fb84bab747911f18f1ca72d3639aef740234422c8/ansys_pyensight_core-0.5.1.tar.gz
+[2023-07-28 09:52:17] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230728] Old Version: [2.14.0.dev20230727]
+[2023-07-28 09:52:17] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-07-28 09:52:17] INFO root fetch - processPackages [opentf-tools-nightly]: Downloading https://files.pythonhosted.org/packages/72/19/52c079526d1f469dee305a37ac0416c004ab3f2b95a57f84487e3f39ba33/opentf_tools_nightly-0.43.0.dev455-py3-none-any.whl
+[2023-07-28 09:52:17] INFO root fetch - processPackages [ingescape]: Downloading https://files.pythonhosted.org/packages/2c/82/f67a88e5b6464df2c282b995459891f2dddbf44b81ff7ba8f10d2e965974/ingescape-3.5.3.tar.gz
+[2023-07-28 09:52:17] INFO root fetch - processPackages [threedi-schema]: Downloading https://files.pythonhosted.org/packages/97/d4/267c196aab3cd11c903c98426af92c3f38f5830afb3b55b288e99bb47cc7/threedi-schema-0.217.6.tar.gz
+[2023-07-28 09:52:17] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-07-28 09:52:17] INFO root fetch - processPackages [opentf-tools]: Downloading https://files.pythonhosted.org/packages/84/05/2747ea6a540ef3a31ff643651e6f61c01d42a80d86816833c6cf2e16c5ec/opentf_tools-0.41.0-py3-none-any.whl
+[2023-07-28 09:52:17] INFO root fetch - processPackages [opentf-toolkit]: Downloading https://files.pythonhosted.org/packages/2d/a1/0ae415ffc84a73eb3eeb66cfbf75d2ccc45287ee80e10a7e065cae1f9df0/opentf_toolkit-0.48.0-py3-none-any.whl
+[2023-07-28 09:52:17] INFO root fetch - processPackages [django-forestadmin]: Downloading https://files.pythonhosted.org/packages/3c/ed/f27ab12e3200ce89244b5ac4f985cf1b03fcf5be360411691fde62d6b97e/django-forestadmin-1.6.1.tar.gz
+[2023-07-28 09:52:17] INFO root fetch - processPackages [opentf-toolkit-nightly]: Downloading https://files.pythonhosted.org/packages/87/46/8f3534ce02a5a0218894f917f9402145f3781705d5b8a38deb88649e9775/opentf_toolkit_nightly-0.50.0.dev641-py3-none-any.whl
+[2023-07-28 09:52:17] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/7d/67/200ffc71d69d89c3bc1b69d8e527bd2927049507031f69d5605785113dd3/tf_nightly_cpu-2.14.0.dev20230727-cp39-cp39-win_amd64.whl
+[2023-07-28 09:52:17] WARNING root fetch - processPackages [ingescape]: Skipping package: exceeds size limit 15150121>=10485760
+[2023-07-28 09:52:17] INFO root fetch - processPackages [ingescape]: Start processing: gspatial-plot
+[2023-07-28 09:52:17] INFO root fetch - main [MainThread]: End processing [ingescape] error
+[2023-07-28 09:52:18] INFO root fetch - processPackages [gspatial-plot]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-28 09:52:18] INFO root fetch - processPackages [ansys-pyensight-core]: Downloading https://files.pythonhosted.org/packages/ca/d2/28ce4c99ff66938a0021069a28619bf97efb52c61899163aa45866dcf18d/ansys_pyensight_core-0.5.2.tar.gz
+[2023-07-28 09:52:18] INFO root fetch - processPackages [opentf-tools-nightly]: Downloading https://files.pythonhosted.org/packages/42/87/8ebaca35d2e794b5dfc634190ad05d12a55929e6a09bc7971d833e829809/opentf_tools_nightly-0.43.0.dev460-py3-none-any.whl
+[2023-07-28 09:52:18] INFO root fetch - processPackages [threedi-schema]: Downloading https://files.pythonhosted.org/packages/d4/9b/bb010cb917ac2049aae7df58c907e916e23103eaf4031192008cf2595337/threedi-schema-0.217.7.tar.gz
+[2023-07-28 09:52:18] INFO root fetch - processPackages [opentf-toolkit]: Downloading https://files.pythonhosted.org/packages/ff/db/3fdde2170bfe7e156abeee3f32c410bdf59aa08337979d2dc4fc09a024ab/opentf_toolkit-0.49.0-py3-none-any.whl
+[2023-07-28 09:52:18] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-07-28 09:52:18] INFO root fetch - processPackages [opentf-tools]: Downloading https://files.pythonhosted.org/packages/4f/73/f1873a2a1b8dcb1815a068b83784f1eb0478d3a936fb93bf8d462a4dd3b1/opentf_tools-0.42.0-py3-none-any.whl
+[2023-07-28 09:52:18] INFO root fetch - processPackages [gspatial-plot]: Downloading https://files.pythonhosted.org/packages/81/bb/4c06f760b1439d5eb11c0601fd3c4184426991c51262cc96a2025df96b8e/gspatial_plot-0.1.2.tar.gz
+[2023-07-28 09:52:18] INFO root fetch - processPackages [ansys-pyensight-core]: executing diffoscope
+[2023-07-28 09:52:18] INFO root fetch - processPackages [ansys-pyensight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_pyensight_core-0.5.1.tar.gz tmp/ansys_pyensight_core-0.5.2.tar.gz --markdown 20230728/a/ansys-pyensight-core/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-28 09:52:18] INFO root fetch - processPackages [django-forestadmin]: Downloading https://files.pythonhosted.org/packages/42/04/465c700441a002959b33afded7a9e1bbb2201a41e489a3adf94feee02620/django-forestadmin-1.6.2.tar.gz
+[2023-07-28 09:52:18] INFO root fetch - processPackages [opentf-tools-nightly]: executing diffoscope
+[2023-07-28 09:52:18] INFO root fetch - processPackages [opentf-tools-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_tools_nightly-0.43.0.dev455-py3-none-any.whl.zip tmp/opentf_tools_nightly-0.43.0.dev460-py3-none-any.whl.zip --markdown 20230728/o/opentf-tools-nightly/0.43.0.dev455-0.43.0.dev460/diff.md --exclude *.pyd
+[2023-07-28 09:52:18] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/f3/77/95e098b61c0d5c7218d47660e54884684055ee98edeee1d0d69a29251e7c/tf_nightly_cpu-2.14.0.dev20230728-cp39-cp39-win_amd64.whl
+[2023-07-28 09:52:18] INFO root fetch - processPackages [opentf-toolkit-nightly]: Downloading https://files.pythonhosted.org/packages/6f/e5/029861006bfc082a3329a6b1fed3b1caed62fbae6ffd7d9761a8afdf8bfd/opentf_toolkit_nightly-0.50.0.dev644-py3-none-any.whl
+[2023-07-28 09:52:18] INFO root fetch - processPackages [threedi-schema]: executing diffoscope
+[2023-07-28 09:52:18] INFO root fetch - processPackages [threedi-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedi-schema-0.217.6.tar.gz tmp/threedi-schema-0.217.7.tar.gz --markdown 20230728/t/threedi-schema/0.217.6-0.217.7/diff.md --exclude *.pyd
+[2023-07-28 09:52:18] INFO root fetch - processPackages [opentf-toolkit]: executing diffoscope
+[2023-07-28 09:52:18] INFO root fetch - processPackages [opentf-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_toolkit-0.48.0-py3-none-any.whl.zip tmp/opentf_toolkit-0.49.0-py3-none-any.whl.zip --markdown 20230728/o/opentf-toolkit/0.48.0-0.49.0/diff.md --exclude *.pyd
+[2023-07-28 09:52:18] INFO root fetch - processPackages [opentf-tools]: executing diffoscope
+[2023-07-28 09:52:18] INFO root fetch - processPackages [opentf-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_tools-0.41.0-py3-none-any.whl.zip tmp/opentf_tools-0.42.0-py3-none-any.whl.zip --markdown 20230728/o/opentf-tools/0.41.0-0.42.0/diff.md --exclude *.pyd
+[2023-07-28 09:52:18] INFO root fetch - processPackages [django-forestadmin]: executing diffoscope
+[2023-07-28 09:52:18] INFO root fetch - processPackages [django-forestadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-forestadmin-1.6.1.tar.gz tmp/django-forestadmin-1.6.2.tar.gz --markdown 20230728/d/django-forestadmin/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-07-28 09:52:18] INFO root fetch - processPackages [opentf-toolkit-nightly]: executing diffoscope
+[2023-07-28 09:52:18] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-07-28 09:52:18] INFO root fetch - processPackages [opentf-toolkit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_toolkit_nightly-0.50.0.dev641-py3-none-any.whl.zip tmp/opentf_toolkit_nightly-0.50.0.dev644-py3-none-any.whl.zip --markdown 20230728/o/opentf-toolkit-nightly/0.50.0.dev641-0.50.0.dev644/diff.md --exclude *.pyd
+[2023-07-28 09:52:18] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230728/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-07-28 09:52:18] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-28 09:52:18] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230727-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230728-cp39-cp39-win_amd64.whl.zip --markdown 20230728/t/tf-nightly-cpu/2.14.0.dev20230727-2.14.0.dev20230728/diff.md --exclude *.pyd
+[2023-07-28 09:52:19] INFO root fetch - processPackages [gspatial-plot]: Downloading https://files.pythonhosted.org/packages/25/92/a5a3f0710f21bd6efc21e4b69c7df6e89554ae581a30a598f1564da22e07/gspatial_plot-0.2.0.tar.gz
+[2023-07-28 09:52:19] INFO root fetch - processPackages [gspatial-plot]: executing diffoscope
+[2023-07-28 09:52:19] INFO root fetch - processPackages [gspatial-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gspatial_plot-0.1.2.tar.gz tmp/gspatial_plot-0.2.0.tar.gz --markdown 20230728/g/gspatial-plot/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-28 09:52:19] INFO root fetch - processPackages [opentf-tools-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_tools_nightly-0.43.0.dev455-py3-none-any.whl.zip]
+[2023-07-28 09:52:19] INFO root fetch - processPackages [opentf-tools-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_tools_nightly-0.43.0.dev460-py3-none-any.whl.zip]
+[2023-07-28 09:52:19] INFO root fetch - processPackages [opentf-tools-nightly]: Start processing: ewoksserver
+[2023-07-28 09:52:19] INFO root fetch - main [MainThread]: End processing [opentf-tools-nightly]: success
+[2023-07-28 09:52:19] INFO root fetch - processPackages [ewoksserver]: New version: [0.3.0rc0] Old Version: [0.2.1]
+[2023-07-28 09:52:20] INFO root fetch - processPackages [ansys-pyensight-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys_pyensight_core-0.5.1.tar.gz]
+[2023-07-28 09:52:20] INFO root fetch - processPackages [ansys-pyensight-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys_pyensight_core-0.5.2.tar.gz]
+[2023-07-28 09:52:20] INFO root fetch - processPackages [ansys-pyensight-core]: Start processing: XoxoDay
+[2023-07-28 09:52:20] INFO root fetch - main [MainThread]: End processing [ansys-pyensight-core]: success
+[2023-07-28 09:52:20] INFO root fetch - processPackages [ewoksserver]: Downloading https://files.pythonhosted.org/packages/b8/8d/f98497502fcdfb64111bef2763347683d21c0c7c0e8124466b2d96bd0ce4/ewoksserver-0.2.1.tar.gz
+[2023-07-28 09:52:20] INFO root fetch - processPackages [XoxoDay]: New version: [0.0.31] Old Version: [0.0.30]
+[2023-07-28 09:52:20] INFO root fetch - processPackages [opentf-tools]: Remove: archive file [/home/abi/fetcher/tmp/opentf_tools-0.41.0-py3-none-any.whl.zip]
+[2023-07-28 09:52:20] INFO root fetch - processPackages [opentf-tools]: Remove: archive file [/home/abi/fetcher/tmp/opentf_tools-0.42.0-py3-none-any.whl.zip]
+[2023-07-28 09:52:20] INFO root fetch - processPackages [opentf-tools]: Start processing: arthub-api
+[2023-07-28 09:52:20] INFO root fetch - main [MainThread]: End processing [opentf-tools]: success
+[2023-07-28 09:52:20] INFO root fetch - processPackages [arthub-api]: New version: [1.8.4] Old Version: [1.8.3]
+[2023-07-28 09:52:20] INFO root fetch - processPackages [threedi-schema]: Remove: archive file [/home/abi/fetcher/tmp/threedi-schema-0.217.6.tar.gz]
+[2023-07-28 09:52:20] INFO root fetch - processPackages [threedi-schema]: Remove: archive file [/home/abi/fetcher/tmp/threedi-schema-0.217.7.tar.gz]
+[2023-07-28 09:52:20] INFO root fetch - processPackages [threedi-schema]: Start processing: regfile-generics
+[2023-07-28 09:52:20] INFO root fetch - main [MainThread]: End processing [threedi-schema]: success
+[2023-07-28 09:52:20] INFO root fetch - processPackages [opentf-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/opentf_toolkit-0.48.0-py3-none-any.whl.zip]
+[2023-07-28 09:52:20] INFO root fetch - processPackages [opentf-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/opentf_toolkit-0.49.0-py3-none-any.whl.zip]
+[2023-07-28 09:52:20] INFO root fetch - processPackages [opentf-toolkit]: Start processing: ansys-mapdl-core
+[2023-07-28 09:52:20] INFO root fetch - main [MainThread]: End processing [opentf-toolkit]: success
+[2023-07-28 09:52:20] INFO root fetch - processPackages [opentf-toolkit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_toolkit_nightly-0.50.0.dev641-py3-none-any.whl.zip]
+[2023-07-28 09:52:20] INFO root fetch - processPackages [opentf-toolkit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_toolkit_nightly-0.50.0.dev644-py3-none-any.whl.zip]
+[2023-07-28 09:52:20] INFO root fetch - processPackages [opentf-toolkit-nightly]: Start processing: sn-test
+[2023-07-28 09:52:20] INFO root fetch - main [MainThread]: End processing [opentf-toolkit-nightly]: success
+[2023-07-28 09:52:20] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230727-cp39-cp39-win_amd64.whl.zip]
+[2023-07-28 09:52:20] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230728-cp39-cp39-win_amd64.whl.zip]
+[2023-07-28 09:52:20] INFO root fetch - processPackages [tf-nightly-cpu]: Start processing: rongdavbaaddins
+[2023-07-28 09:52:20] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-28 09:52:20] INFO root fetch - processPackages [regfile-generics]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-07-28 09:52:20] INFO root fetch - processPackages [XoxoDay]: Downloading https://files.pythonhosted.org/packages/b2/2d/b5420dba18df6681878c950c1630d4cc38915eee0be6fa46a26c1e15f63d/XoxoDay-0.0.30.tar.gz
+[2023-07-28 09:52:20] INFO root fetch - processPackages [ansys-mapdl-core]: New version: [0.65.1] Old Version: [0.65.0]
+[2023-07-28 09:52:20] INFO root fetch - processPackages [sn-test]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-28 09:52:20] INFO root fetch - processPackages [arthub-api]: Downloading https://files.pythonhosted.org/packages/76/b6/3f03a944a1c922cc907955a9fc69df3576594113ecc65ee529fe198d56d1/arthub_api-1.8.3.tar.gz
+[2023-07-28 09:52:20] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.1.0.9] Old Version: [0.1.0.8]
+[2023-07-28 09:52:20] INFO root fetch - processPackages [ewoksserver]: Downloading https://files.pythonhosted.org/packages/54/72/d0f7bb0caa64efb761b7790b07fb6d25dd6042f1da16d7fd1c3ced187a37/ewoksserver-0.3.0rc0.tar.gz
+[2023-07-28 09:52:20] INFO root fetch - processPackages [ewoksserver]: executing diffoscope
+[2023-07-28 09:52:20] INFO root fetch - processPackages [ewoksserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewoksserver-0.2.1.tar.gz tmp/ewoksserver-0.3.0rc0.tar.gz --markdown 20230728/e/ewoksserver/0.2.1-0.3.0rc0/diff.md --exclude *.pyd
+[2023-07-28 09:52:20] INFO root fetch - processPackages [regfile-generics]: Downloading https://files.pythonhosted.org/packages/6c/85/b46719e6918d0ac9205b3256d6364fbe87c979f2903a3662363fab02d8fa/regfile_generics-0.0.3.tar.gz
+[2023-07-28 09:52:20] INFO root fetch - processPackages [ansys-mapdl-core]: Downloading https://files.pythonhosted.org/packages/83/ca/7bfbf7be7ba270ae9d8f497d21947f9bce90b7d7e73e83a6a411d00bdb3a/ansys_mapdl_core-0.65.0.tar.gz
+[2023-07-28 09:52:20] INFO root fetch - processPackages [sn-test]: Downloading https://files.pythonhosted.org/packages/5e/ef/977eb784d975e5ce254c96d39659736627b2f56a866b9a6a1c0fbbbf5e18/sn_test-1.0.4.tar.gz
+[2023-07-28 09:52:20] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/b4/d1/71f4fdb12eb521d5d44547866644639f07b6466ae6479519bf370fea10ee/rongdavbaaddins-0.1.0.8.tar.gz
+[2023-07-28 09:52:20] INFO root fetch - processPackages [XoxoDay]: Downloading https://files.pythonhosted.org/packages/b5/4a/267ec5bbfa0bf9f91971b5a81ee8a984d030b19f833efa8ee7be6ae812d4/XoxoDay-0.0.31.tar.gz
+[2023-07-28 09:52:20] INFO root fetch - processPackages [django-forestadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-forestadmin-1.6.1.tar.gz]
+[2023-07-28 09:52:20] INFO root fetch - processPackages [django-forestadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-forestadmin-1.6.2.tar.gz]
+[2023-07-28 09:52:20] INFO root fetch - main [MainThread]: End processing [django-forestadmin]: success
+[2023-07-28 09:52:20] INFO root fetch - processPackages [arthub-api]: Downloading https://files.pythonhosted.org/packages/3b/6d/eb48a15a8ffd19b523f9f2aa2358489b090b26b88582b61dd2d7d6ccec82/arthub_api-1.8.4.tar.gz
+[2023-07-28 09:52:21] INFO root fetch - processPackages [XoxoDay]: executing diffoscope
+[2023-07-28 09:52:21] INFO root fetch - processPackages [XoxoDay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XoxoDay-0.0.30.tar.gz tmp/XoxoDay-0.0.31.tar.gz --markdown 20230728/X/XoxoDay/0.0.30-0.0.31/diff.md --exclude *.pyd
+[2023-07-28 09:52:21] INFO root fetch - processPackages [regfile-generics]: Downloading https://files.pythonhosted.org/packages/92/82/61246afebfbad4da08532f3ca61d923bb8b31ff6d0e62b6911d031f3e80c/regfile_generics-0.1.0.tar.gz
+[2023-07-28 09:52:21] INFO root fetch - processPackages [arthub-api]: executing diffoscope
+[2023-07-28 09:52:21] INFO root fetch - processPackages [arthub-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arthub_api-1.8.3.tar.gz tmp/arthub_api-1.8.4.tar.gz --markdown 20230728/a/arthub-api/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2023-07-28 09:52:21] INFO root fetch - processPackages [sn-test]: Downloading https://files.pythonhosted.org/packages/12/03/e7a94f50195eb22d0ab415a38d5e4f7d54e67c8bfc8ad3f43620d1d6faa2/sn_test-1.0.5.tar.gz
+[2023-07-28 09:52:21] INFO root fetch - processPackages [regfile-generics]: executing diffoscope
+[2023-07-28 09:52:21] INFO root fetch - processPackages [regfile-generics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regfile_generics-0.0.3.tar.gz tmp/regfile_generics-0.1.0.tar.gz --markdown 20230728/r/regfile-generics/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-07-28 09:52:21] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/2d/e7/a55d5c8592f9f362772913becd17384e2afebc4b305dc45283a37222fe3d/rongdavbaaddins-0.1.0.9.tar.gz
+[2023-07-28 09:52:21] INFO root fetch - processPackages [ansys-mapdl-core]: Downloading https://files.pythonhosted.org/packages/30/73/ae6c570012c737db370ec7aa6f64cad4300555053070da91caf34d966635/ansys_mapdl_core-0.65.1.tar.gz
+[2023-07-28 09:52:21] INFO root fetch - processPackages [sn-test]: executing diffoscope
+[2023-07-28 09:52:21] INFO root fetch - processPackages [sn-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sn_test-1.0.4.tar.gz tmp/sn_test-1.0.5.tar.gz --markdown 20230728/s/sn-test/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-28 09:52:21] INFO root fetch - processPackages [gspatial-plot]: Remove: archive file [/home/abi/fetcher/tmp/gspatial_plot-0.1.2.tar.gz]
+[2023-07-28 09:52:21] INFO root fetch - processPackages [gspatial-plot]: Remove: archive file [/home/abi/fetcher/tmp/gspatial_plot-0.2.0.tar.gz]
+[2023-07-28 09:52:21] INFO root fetch - main [MainThread]: End processing [gspatial-plot]: success
+[2023-07-28 09:52:21] INFO root fetch - processPackages [ansys-mapdl-core]: executing diffoscope
+[2023-07-28 09:52:21] INFO root fetch - processPackages [ansys-mapdl-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_mapdl_core-0.65.0.tar.gz tmp/ansys_mapdl_core-0.65.1.tar.gz --markdown 20230728/a/ansys-mapdl-core/0.65.0-0.65.1/diff.md --exclude *.pyd
+[2023-07-28 09:52:22] INFO root fetch - processPackages [ewoksserver]: Remove: archive file [/home/abi/fetcher/tmp/ewoksserver-0.2.1.tar.gz]
+[2023-07-28 09:52:22] INFO root fetch - processPackages [ewoksserver]: Remove: archive file [/home/abi/fetcher/tmp/ewoksserver-0.3.0rc0.tar.gz]
+[2023-07-28 09:52:22] INFO root fetch - main [MainThread]: End processing [ewoksserver]: success
+[2023-07-28 09:52:22] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2023-07-28 09:52:22] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.1.0.8.tar.gz tmp/rongdavbaaddins-0.1.0.9.tar.gz --markdown 20230728/r/rongdavbaaddins/0.1.0.8-0.1.0.9/diff.md --exclude *.pyd
+[2023-07-28 09:52:22] INFO root fetch - processPackages [XoxoDay]: Remove: archive file [/home/abi/fetcher/tmp/XoxoDay-0.0.30.tar.gz]
+[2023-07-28 09:52:22] INFO root fetch - processPackages [XoxoDay]: Remove: archive file [/home/abi/fetcher/tmp/XoxoDay-0.0.31.tar.gz]
+[2023-07-28 09:52:22] INFO root fetch - main [MainThread]: End processing [XoxoDay]: success
+[2023-07-28 09:52:22] INFO root fetch - processPackages [arthub-api]: Remove: archive file [/home/abi/fetcher/tmp/arthub_api-1.8.3.tar.gz]
+[2023-07-28 09:52:22] INFO root fetch - processPackages [arthub-api]: Remove: archive file [/home/abi/fetcher/tmp/arthub_api-1.8.4.tar.gz]
+[2023-07-28 09:52:22] INFO root fetch - main [MainThread]: End processing [arthub-api]: success
+[2023-07-28 09:52:22] INFO root fetch - processPackages [regfile-generics]: Remove: archive file [/home/abi/fetcher/tmp/regfile_generics-0.0.3.tar.gz]
+[2023-07-28 09:52:22] INFO root fetch - processPackages [regfile-generics]: Remove: archive file [/home/abi/fetcher/tmp/regfile_generics-0.1.0.tar.gz]
+[2023-07-28 09:52:22] INFO root fetch - main [MainThread]: End processing [regfile-generics]: success
+[2023-07-28 09:52:22] INFO root fetch - processPackages [sn-test]: Remove: archive file [/home/abi/fetcher/tmp/sn_test-1.0.4.tar.gz]
+[2023-07-28 09:52:22] INFO root fetch - processPackages [sn-test]: Remove: archive file [/home/abi/fetcher/tmp/sn_test-1.0.5.tar.gz]
+[2023-07-28 09:52:22] INFO root fetch - main [MainThread]: End processing [sn-test]: success
+[2023-07-28 09:52:23] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-07-28 09:52:23] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-07-28 09:52:23] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-07-28 09:52:23] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.1.0.8.tar.gz]
+[2023-07-28 09:52:23] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.1.0.9.tar.gz]
+[2023-07-28 09:52:23] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
+[2023-07-28 09:52:25] INFO root fetch - processPackages [ansys-mapdl-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys_mapdl_core-0.65.0.tar.gz]
+[2023-07-28 09:52:25] INFO root fetch - processPackages [ansys-mapdl-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys_mapdl_core-0.65.1.tar.gz]
+[2023-07-28 09:52:25] INFO root fetch - main [MainThread]: End processing [ansys-mapdl-core]: success
+[2023-07-28 09:52:25] INFO root fetch - main [MainThread]: Store serial: [19072990]
