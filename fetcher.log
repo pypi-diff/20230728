@@ -15267,3 +15267,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 09:14:37] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-07-28 09:14:37] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-07-28 09:14:37] INFO root fetch - main [MainThread]: Store serial: [19072710]
+[2023-07-28 09:19:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19072710]
+[2023-07-28 09:19:46] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-28 09:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: salure-helpers-maxxton
+[2023-07-28 09:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pathdiff
+[2023-07-28 09:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MyMalDependency
+[2023-07-28 09:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ewoksweb
+[2023-07-28 09:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastapi-authlib
+[2023-07-28 09:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yoctools
+[2023-07-28 09:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cjptools
+[2023-07-28 09:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tuiview
+[2023-07-28 09:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pih-MIO
+[2023-07-28 09:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nifcloud
+[2023-07-28 09:19:46] INFO root fetch - processPackages [nifcloud]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-07-28 09:19:46] WARNING root fetch - processPackages [salure-helpers-maxxton]: Skipping, unable to determine old version
+[2023-07-28 09:19:46] INFO root fetch - main [MainThread]: End processing [salure-helpers-maxxton] error
+[2023-07-28 09:19:46] INFO root fetch - processPackages [fastapi-authlib]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-28 09:19:46] INFO root fetch - processPackages [pathdiff]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-28 09:19:46] INFO root fetch - processPackages [MyMalDependency]: New version: [4.1.1] Old Version: [2.1.1]
+[2023-07-28 09:19:46] WARNING root fetch - processPackages [tuiview]: Skipping, unable to determine old version
+[2023-07-28 09:19:46] WARNING root fetch - processPackages [pih-MIO]: Skipping, unable to determine old version
+[2023-07-28 09:19:46] INFO root fetch - main [MainThread]: End processing [tuiview] error
+[2023-07-28 09:19:46] INFO root fetch - main [MainThread]: End processing [pih-MIO] error
+[2023-07-28 09:19:46] INFO root fetch - processPackages [ewoksweb]: New version: [0.3.0rc0] Old Version: [0.1.0rc4]
+[2023-07-28 09:19:46] INFO root fetch - processPackages [cjptools]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-28 09:19:46] INFO root fetch - processPackages [yoctools]: New version: [2.0.9] Old Version: [2.0.7]
+[2023-07-28 09:19:46] INFO root fetch - processPackages [MyMalDependency]: Downloading https://files.pythonhosted.org/packages/75/ad/00854a6201068d1160b864a38ffaece8351a7732243a9bc4d1aaa4a688d8/MyMalDependency-2.1.1.tar.gz
+[2023-07-28 09:19:46] INFO root fetch - processPackages [nifcloud]: Downloading https://files.pythonhosted.org/packages/cf/1d/9a95709ef0ad1b890f6811a2a6f76db79826e2035713dac466114bf79417/nifcloud-1.7.0.tar.gz
+[2023-07-28 09:19:46] INFO root fetch - processPackages [pathdiff]: Downloading https://files.pythonhosted.org/packages/42/d0/45c94e59a373863a7140e5af13d46c0deaf0def80983e1712c8b366dfdc9/pathdiff-1.0.0.tar.gz
+[2023-07-28 09:19:46] INFO root fetch - processPackages [fastapi-authlib]: Downloading https://files.pythonhosted.org/packages/28/8b/699aec7f6fa1383f85070e022464ae1e048d403ae563939634485576165d/fastapi_authlib-0.0.2.tar.gz
+[2023-07-28 09:19:46] INFO root fetch - processPackages [cjptools]: Downloading https://files.pythonhosted.org/packages/e1/43/822b179198ce7de192edc379770c95f2817510786126e97223152deef0d6/cjptools-0.1.1.tar.gz
+[2023-07-28 09:19:46] INFO root fetch - processPackages [yoctools]: Downloading https://files.pythonhosted.org/packages/09/20/a6c22149ead092bcf5bfddd514b11bce936edc3d917fba0b87e50edba2dd/yoctools-2.0.7.tar.gz
+[2023-07-28 09:19:46] INFO root fetch - processPackages [ewoksweb]: Downloading https://files.pythonhosted.org/packages/68/73/05768423486d4c3c69a6b23bdba0ac4c4aaf4a86334d5e86c63937f491ed/ewoksweb-0.1.0rc4.tar.gz
+[2023-07-28 09:19:47] INFO root fetch - processPackages [MyMalDependency]: Downloading https://files.pythonhosted.org/packages/1f/50/325af839a7e2500adf36d7f36b8356d52c68233ccb96c72fb5b7636c7a18/MyMalDependency-4.1.1.tar.gz
+[2023-07-28 09:19:47] INFO root fetch - processPackages [nifcloud]: Downloading https://files.pythonhosted.org/packages/27/78/bc6ff1f009e0a015f018245c9b528741ba40706b7e1f2c6799ca5d4a44a5/nifcloud-1.7.1.tar.gz
+[2023-07-28 09:19:47] INFO root fetch - processPackages [pathdiff]: Downloading https://files.pythonhosted.org/packages/ca/25/159d9f447f30c83a55565f564b490bd7db906d04fe290ce6ff8bd9f9a6a4/pathdiff-1.0.1.tar.gz
+[2023-07-28 09:19:47] INFO root fetch - processPackages [fastapi-authlib]: Downloading https://files.pythonhosted.org/packages/33/fa/af3fb19734b66031dda711bfd8c00e3565b111c9dcafc54688723a108d09/fastapi_authlib-0.0.3.tar.gz
+[2023-07-28 09:19:47] INFO root fetch - processPackages [cjptools]: Downloading https://files.pythonhosted.org/packages/14/36/4b67064282e2251544a57aaffd6426c1b937a91a515b0edd7e2859421a5a/cjptools-0.1.2.tar.gz
+[2023-07-28 09:19:47] INFO root fetch - processPackages [nifcloud]: executing diffoscope
+[2023-07-28 09:19:47] INFO root fetch - processPackages [nifcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nifcloud-1.7.0.tar.gz tmp/nifcloud-1.7.1.tar.gz --markdown 20230728/n/nifcloud/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-07-28 09:19:47] INFO root fetch - processPackages [MyMalDependency]: executing diffoscope
+[2023-07-28 09:19:47] INFO root fetch - processPackages [MyMalDependency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MyMalDependency-2.1.1.tar.gz tmp/MyMalDependency-4.1.1.tar.gz --markdown 20230728/M/MyMalDependency/2.1.1-4.1.1/diff.md --exclude *.pyd
+[2023-07-28 09:19:47] INFO root fetch - processPackages [pathdiff]: executing diffoscope
+[2023-07-28 09:19:47] INFO root fetch - processPackages [pathdiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathdiff-1.0.0.tar.gz tmp/pathdiff-1.0.1.tar.gz --markdown 20230728/p/pathdiff/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-28 09:19:47] INFO root fetch - processPackages [fastapi-authlib]: executing diffoscope
+[2023-07-28 09:19:47] INFO root fetch - processPackages [fastapi-authlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_authlib-0.0.2.tar.gz tmp/fastapi_authlib-0.0.3.tar.gz --markdown 20230728/f/fastapi-authlib/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-28 09:19:47] INFO root fetch - processPackages [ewoksweb]: Downloading https://files.pythonhosted.org/packages/9a/af/ef2fed3922152d25e342c412b3454f954c75669d2cf955fd69770df55071/ewoksweb-0.3.0rc0.tar.gz
+[2023-07-28 09:19:47] INFO root fetch - processPackages [cjptools]: executing diffoscope
+[2023-07-28 09:19:47] INFO root fetch - processPackages [cjptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjptools-0.1.1.tar.gz tmp/cjptools-0.1.2.tar.gz --markdown 20230728/c/cjptools/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-28 09:19:47] INFO root fetch - processPackages [ewoksweb]: executing diffoscope
+[2023-07-28 09:19:47] INFO root fetch - processPackages [ewoksweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewoksweb-0.1.0rc4.tar.gz tmp/ewoksweb-0.3.0rc0.tar.gz --markdown 20230728/e/ewoksweb/0.1.0rc4-0.3.0rc0/diff.md --exclude *.pyd
+[2023-07-28 09:19:48] INFO root fetch - processPackages [yoctools]: Downloading https://files.pythonhosted.org/packages/72/8f/1faa61e65723d613fb6313f889b8da66ca965420bbbc147155105d89936d/yoctools-2.0.9.tar.gz
+[2023-07-28 09:19:48] INFO root fetch - processPackages [MyMalDependency]: Remove: archive file [/home/abi/fetcher/tmp/MyMalDependency-2.1.1.tar.gz]
+[2023-07-28 09:19:48] INFO root fetch - processPackages [MyMalDependency]: Remove: archive file [/home/abi/fetcher/tmp/MyMalDependency-4.1.1.tar.gz]
+[2023-07-28 09:19:48] INFO root fetch - main [MainThread]: End processing [MyMalDependency]: success
+[2023-07-28 09:19:48] INFO root fetch - processPackages [pathdiff]: Remove: archive file [/home/abi/fetcher/tmp/pathdiff-1.0.0.tar.gz]
+[2023-07-28 09:19:48] INFO root fetch - processPackages [pathdiff]: Remove: archive file [/home/abi/fetcher/tmp/pathdiff-1.0.1.tar.gz]
+[2023-07-28 09:19:48] INFO root fetch - main [MainThread]: End processing [pathdiff]: success
+[2023-07-28 09:19:48] INFO root fetch - processPackages [fastapi-authlib]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_authlib-0.0.2.tar.gz]
+[2023-07-28 09:19:48] INFO root fetch - processPackages [fastapi-authlib]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_authlib-0.0.3.tar.gz]
+[2023-07-28 09:19:48] INFO root fetch - main [MainThread]: End processing [fastapi-authlib]: success
+[2023-07-28 09:19:48] INFO root fetch - processPackages [cjptools]: Remove: archive file [/home/abi/fetcher/tmp/cjptools-0.1.1.tar.gz]
+[2023-07-28 09:19:48] INFO root fetch - processPackages [cjptools]: Remove: archive file [/home/abi/fetcher/tmp/cjptools-0.1.2.tar.gz]
+[2023-07-28 09:19:48] INFO root fetch - main [MainThread]: End processing [cjptools]: success
+[2023-07-28 09:19:48] INFO root fetch - processPackages [nifcloud]: Remove: archive file [/home/abi/fetcher/tmp/nifcloud-1.7.0.tar.gz]
+[2023-07-28 09:19:48] INFO root fetch - processPackages [nifcloud]: Remove: archive file [/home/abi/fetcher/tmp/nifcloud-1.7.1.tar.gz]
+[2023-07-28 09:19:48] INFO root fetch - main [MainThread]: End processing [nifcloud]: success
+[2023-07-28 09:19:49] INFO root fetch - processPackages [yoctools]: executing diffoscope
+[2023-07-28 09:19:49] INFO root fetch - processPackages [yoctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoctools-2.0.7.tar.gz tmp/yoctools-2.0.9.tar.gz --markdown 20230728/y/yoctools/2.0.7-2.0.9/diff.md --exclude *.pyd
+[2023-07-28 09:19:49] INFO root fetch - processPackages [ewoksweb]: Remove: archive file [/home/abi/fetcher/tmp/ewoksweb-0.1.0rc4.tar.gz]
+[2023-07-28 09:19:49] INFO root fetch - processPackages [ewoksweb]: Remove: archive file [/home/abi/fetcher/tmp/ewoksweb-0.3.0rc0.tar.gz]
+[2023-07-28 09:19:49] INFO root fetch - main [MainThread]: End processing [ewoksweb]: success
+[2023-07-28 09:20:33] INFO root fetch - processPackages [yoctools]: Remove: archive file [/home/abi/fetcher/tmp/yoctools-2.0.7.tar.gz]
+[2023-07-28 09:20:33] INFO root fetch - processPackages [yoctools]: Remove: archive file [/home/abi/fetcher/tmp/yoctools-2.0.9.tar.gz]
+[2023-07-28 09:20:33] INFO root fetch - main [MainThread]: End processing [yoctools]: success
+[2023-07-28 09:20:33] INFO root fetch - main [MainThread]: Store serial: [19072741]
