@@ -9583,3 +9583,58 @@
 [2023-07-28 03:51:03] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
 [2023-07-28 03:51:03] INFO root fetch - main [MainThread]: End processing [docarray]: success
 [2023-07-28 03:51:03] INFO root fetch - main [MainThread]: Store serial: [19070298]
+[2023-07-28 03:56:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19070298]
+[2023-07-28 03:56:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-28 03:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nepattern
+[2023-07-28 03:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kingunit
+[2023-07-28 03:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lbTool
+[2023-07-28 03:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lbTool
+[2023-07-28 03:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vessl
+[2023-07-28 03:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chikpos
+[2023-07-28 03:56:12] INFO root fetch - processPackages [lbTool]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-28 03:56:12] INFO root fetch - processPackages [chikpos]: New version: [2.0.0rc1] Old Version: [1.0.11]
+[2023-07-28 03:56:12] INFO root fetch - processPackages [kingunit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 03:56:12] INFO root fetch - processPackages [lbTool]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-28 03:56:12] INFO root fetch - processPackages [nepattern]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-28 03:56:12] INFO root fetch - processPackages [vessl]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-28 03:56:12] INFO root fetch - processPackages [kingunit]: Downloading https://files.pythonhosted.org/packages/09/c8/105d3a57559617bd57969538b1efbaa9111c8059519823c7a9c33182f1cd/kingunit-0.0.8.tar.gz
+[2023-07-28 03:56:12] INFO root fetch - processPackages [lbTool]: Downloading https://files.pythonhosted.org/packages/60/e9/30ebbc9413adefcf0f9b227d2fd994dc819881824b21a88b39faad6bc5b7/lbTool-1.0.0.tar.gz
+[2023-07-28 03:56:12] INFO root fetch - processPackages [lbTool]: Downloading https://files.pythonhosted.org/packages/60/e9/30ebbc9413adefcf0f9b227d2fd994dc819881824b21a88b39faad6bc5b7/lbTool-1.0.0.tar.gz
+[2023-07-28 03:56:12] INFO root fetch - processPackages [chikpos]: Downloading https://files.pythonhosted.org/packages/08/41/e730cf3f23df9f9704e8cc2de0639abfae721adaa0fa2b87747bb4346f1e/chikpos-1.0.11.tar.gz
+[2023-07-28 03:56:12] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/38/7d/1b2b94a1083188f3376a0af9cb2701abb4c084a8e0608a25f97e191ab3e7/vessl-0.1.98.tar.gz
+[2023-07-28 03:56:12] INFO root fetch - processPackages [nepattern]: Downloading https://files.pythonhosted.org/packages/32/5a/2fccd28dcb5dd59a147f4be0e0294b1a25783868d9ac4aa98e7f405c0e5b/nepattern-0.5.8.tar.gz
+[2023-07-28 03:56:12] INFO root fetch - processPackages [kingunit]: Downloading https://files.pythonhosted.org/packages/d4/46/8def2239f454d9c89cd880682e454e5bf6571e85d69087a3439f53342875/kingunit-0.0.9.tar.gz
+[2023-07-28 03:56:12] INFO root fetch - processPackages [lbTool]: Downloading https://files.pythonhosted.org/packages/f1/7e/49e72e897a71ac15cc44e7dfdf52abe4063eff0e037d40372574ba95d3a3/lbTool-1.1.0.tar.gz
+[2023-07-28 03:56:12] INFO root fetch - processPackages [lbTool]: Downloading https://files.pythonhosted.org/packages/f1/7e/49e72e897a71ac15cc44e7dfdf52abe4063eff0e037d40372574ba95d3a3/lbTool-1.1.0.tar.gz
+[2023-07-28 03:56:13] INFO root fetch - processPackages [kingunit]: executing diffoscope
+[2023-07-28 03:56:13] INFO root fetch - processPackages [kingunit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kingunit-0.0.8.tar.gz tmp/kingunit-0.0.9.tar.gz --markdown 20230728/k/kingunit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 03:56:13] INFO root fetch - processPackages [lbTool]: executing diffoscope
+[2023-07-28 03:56:13] INFO root fetch - processPackages [lbTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbTool-1.0.0.tar.gz tmp/lbTool-1.1.0.tar.gz --markdown 20230728/l/lbTool/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-28 03:56:13] INFO root fetch - processPackages [lbTool]: executing diffoscope
+[2023-07-28 03:56:13] INFO root fetch - processPackages [lbTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbTool-1.0.0.tar.gz tmp/lbTool-1.1.0.tar.gz --markdown 20230728/l/lbTool/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-28 03:56:13] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/21/b8/cbd9a61ba9f582b647d4ef42d4b54900e40293bc599bde0a7f1fe73974bc/vessl-0.1.99.tar.gz
+[2023-07-28 03:56:13] INFO root fetch - processPackages [nepattern]: Downloading https://files.pythonhosted.org/packages/9f/eb/8376ce384671cae3244bee0946b5056253816857de96163159030b6de991/nepattern-0.5.9.tar.gz
+[2023-07-28 03:56:13] INFO root fetch - processPackages [chikpos]: Downloading https://files.pythonhosted.org/packages/fc/32/e25b0fb616af5ea9bc9999c83b9d30bd889911dcd86c98ec0ddb13aa14cb/chikpos-2.0.0rc1.tar.gz
+[2023-07-28 03:56:13] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2023-07-28 03:56:13] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.98.tar.gz tmp/vessl-0.1.99.tar.gz --markdown 20230728/v/vessl/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-28 03:56:13] INFO root fetch - processPackages [nepattern]: executing diffoscope
+[2023-07-28 03:56:13] INFO root fetch - processPackages [nepattern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nepattern-0.5.8.tar.gz tmp/nepattern-0.5.9.tar.gz --markdown 20230728/n/nepattern/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-28 03:56:13] INFO root fetch - processPackages [chikpos]: executing diffoscope
+[2023-07-28 03:56:13] INFO root fetch - processPackages [chikpos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chikpos-1.0.11.tar.gz tmp/chikpos-2.0.0rc1.tar.gz --markdown 20230728/c/chikpos/1.0.11-2.0.0rc1/diff.md --exclude *.pyd
+[2023-07-28 03:56:13] INFO root fetch - processPackages [lbTool]: Remove: archive file [/home/abi/fetcher/tmp/lbTool-1.0.0.tar.gz]
+[2023-07-28 03:56:13] INFO root fetch - processPackages [lbTool]: Remove: archive file [/home/abi/fetcher/tmp/lbTool-1.1.0.tar.gz]
+[2023-07-28 03:56:14] INFO root fetch - main [MainThread]: End processing [lbTool]: success
+[2023-07-28 03:56:14] INFO root fetch - processPackages [kingunit]: Remove: archive file [/home/abi/fetcher/tmp/kingunit-0.0.8.tar.gz]
+[2023-07-28 03:56:14] INFO root fetch - processPackages [kingunit]: Remove: archive file [/home/abi/fetcher/tmp/kingunit-0.0.9.tar.gz]
+[2023-07-28 03:56:14] INFO root fetch - main [MainThread]: End processing [kingunit]: success
+[2023-07-28 03:56:14] INFO root fetch - main [MainThread]: End processing [lbTool]: success
+[2023-07-28 03:56:14] INFO root fetch - processPackages [nepattern]: Remove: archive file [/home/abi/fetcher/tmp/nepattern-0.5.8.tar.gz]
+[2023-07-28 03:56:14] INFO root fetch - processPackages [nepattern]: Remove: archive file [/home/abi/fetcher/tmp/nepattern-0.5.9.tar.gz]
+[2023-07-28 03:56:14] INFO root fetch - main [MainThread]: End processing [nepattern]: success
+[2023-07-28 03:56:15] INFO root fetch - processPackages [chikpos]: Remove: archive file [/home/abi/fetcher/tmp/chikpos-1.0.11.tar.gz]
+[2023-07-28 03:56:15] INFO root fetch - processPackages [chikpos]: Remove: archive file [/home/abi/fetcher/tmp/chikpos-2.0.0rc1.tar.gz]
+[2023-07-28 03:56:15] INFO root fetch - main [MainThread]: End processing [chikpos]: success
+[2023-07-28 03:56:17] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.98.tar.gz]
+[2023-07-28 03:56:17] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
+[2023-07-28 03:56:17] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2023-07-28 03:56:17] INFO root fetch - main [MainThread]: Store serial: [19070333]
