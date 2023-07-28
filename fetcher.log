@@ -20453,3 +20453,93 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 12:32:30] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.0.8.tar.gz]
 [2023-07-28 12:32:30] INFO root fetch - main [MainThread]: End processing [lark-oapi]: success
 [2023-07-28 12:32:30] INFO root fetch - main [MainThread]: Store serial: [19074485]
+[2023-07-28 12:37:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19074485]
+[2023-07-28 12:37:39] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-28 12:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: byquant
+[2023-07-28 12:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: msci.sdk
+[2023-07-28 12:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-sm-crm-donation
+[2023-07-28 12:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opensafely-cohort-extractor
+[2023-07-28 12:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: camrcs
+[2023-07-28 12:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyspark-helpers
+[2023-07-28 12:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bus-station
+[2023-07-28 12:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ATTools
+[2023-07-28 12:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-private-bucket
+[2023-07-28 12:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: llama-trainer
+[2023-07-28 12:37:39] INFO root fetch - processPackages [byquant]: New version: [1.7.27] Old Version: [1.7.26]
+[2023-07-28 12:37:39] WARNING root fetch - processPackages [odoo12-addon-sm-crm-donation]: Skipping, unable to determine old version
+[2023-07-28 12:37:39] INFO root fetch - processPackages [odoo12-addon-sm-crm-donation]: Start processing: wodoo
+[2023-07-28 12:37:39] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sm-crm-donation] error
+[2023-07-28 12:37:39] INFO root fetch - processPackages [bus-station]: New version: [7.2.0] Old Version: [7.1.0]
+[2023-07-28 12:37:39] INFO root fetch - processPackages [ATTools]: New version: [0.2] Old Version: [0.1]
+[2023-07-28 12:37:39] WARNING root fetch - processPackages [llama-trainer]: Skipping, unable to determine old version
+[2023-07-28 12:37:39] INFO root fetch - main [MainThread]: End processing [llama-trainer] error
+[2023-07-28 12:37:39] INFO root fetch - processPackages [camrcs]: New version: [0.7.1] Old Version: [0.7]
+[2023-07-28 12:37:39] INFO root fetch - processPackages [pyspark-helpers]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-07-28 12:37:39] INFO root fetch - processPackages [msci.sdk]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-28 12:37:39] INFO root fetch - processPackages [opensafely-cohort-extractor]: New version: [1.9.0] Old Version: [1.87.0]
+[2023-07-28 12:37:40] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-28 12:37:40] INFO root fetch - processPackages [pyspark-helpers]: Downloading https://files.pythonhosted.org/packages/58/65/f670829b5316395dd4e8e240f755640db757a347ff2bad1103c3bb899def/pyspark_helpers-0.1.4.tar.gz
+[2023-07-28 12:37:40] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-07-28 12:37:40] INFO root fetch - processPackages [ATTools]: Downloading https://files.pythonhosted.org/packages/96/b0/39c35a26dad953f4510a7b6b5db992998e28d7f49f73d84f4646b54aa855/ATTools-0.1.tar.gz
+[2023-07-28 12:37:40] INFO root fetch - processPackages [bus-station]: Downloading https://files.pythonhosted.org/packages/80/a5/f0802420fb6df067281ce3257465285da0bde436263e38bc19be8d8fbb2c/bus_station-7.1.0.tar.gz
+[2023-07-28 12:37:40] INFO root fetch - processPackages [wodoo]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-28 12:37:40] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/cd/82/59e5ee6b325b21076d9d9b97a3dd7a18d594b11cce68755a0b19b683c28f/byquant-1.7.26.tar.gz
+[2023-07-28 12:37:40] INFO root fetch - processPackages [opensafely-cohort-extractor]: Downloading https://files.pythonhosted.org/packages/3e/89/a0523a1b7aba75e7b8b5f72637da2574f29f8b6250567682cd60ebf6af2c/opensafely-cohort-extractor-1.87.0.tar.gz
+[2023-07-28 12:37:40] INFO root fetch - processPackages [camrcs]: Downloading https://files.pythonhosted.org/packages/2f/ef/e8f52d7e79e31f3a79315d92fc3a75b81c99d10337e1bd7e803b6cc75a99/camrcs-0.7.tar.gz
+[2023-07-28 12:37:40] INFO root fetch - processPackages [msci.sdk]: Downloading https://files.pythonhosted.org/packages/3c/f7/7f6a7689831d0af0f2c2563ef1dc86a9221e15a519501d4f79a0360cda2b/msci.sdk-1.0.1-py3-none-any.whl
+[2023-07-28 12:37:40] INFO root fetch - processPackages [pyspark-helpers]: Downloading https://files.pythonhosted.org/packages/cf/a3/2405e07934b6b0813d1f47a10bb91d61204173bf85b9b28ff16af428d424/pyspark_helpers-0.2.0.tar.gz
+[2023-07-28 12:37:40] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/f1/e5/4eaf4bac81e606caa8deb3d95f64c8de95dc532f6bd16aef12de595f56cc/wodoo-0.4.8.tar.gz
+[2023-07-28 12:37:40] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-07-28 12:37:40] INFO root fetch - processPackages [ATTools]: Downloading https://files.pythonhosted.org/packages/d9/d3/5ef8ba48340c7300e54b314a03ca7c6c3d7c0d5e6eb00aeb9a1b852467d4/ATTools-0.2.tar.gz
+[2023-07-28 12:37:40] INFO root fetch - processPackages [pyspark-helpers]: executing diffoscope
+[2023-07-28 12:37:40] INFO root fetch - processPackages [pyspark-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspark_helpers-0.1.4.tar.gz tmp/pyspark_helpers-0.2.0.tar.gz --markdown 20230728/p/pyspark-helpers/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-07-28 12:37:40] INFO root fetch - processPackages [camrcs]: Downloading https://files.pythonhosted.org/packages/1b/66/dac44e97e58e10f47efc1353a30fa9dcd68718c6810d526ebad332c63c31/camrcs-0.7.1.tar.gz
+[2023-07-28 12:37:40] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-07-28 12:37:40] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230728/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-28 12:37:40] INFO root fetch - processPackages [bus-station]: Downloading https://files.pythonhosted.org/packages/ef/c1/0789ea801d38fea1379012bee825e44c612eabdab8e41bdb2ca35d9b3835/bus_station-7.2.0.tar.gz
+[2023-07-28 12:37:40] INFO root fetch - processPackages [ATTools]: executing diffoscope
+[2023-07-28 12:37:40] INFO root fetch - processPackages [ATTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ATTools-0.1.tar.gz tmp/ATTools-0.2.tar.gz --markdown 20230728/A/ATTools/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-28 12:37:40] INFO root fetch - processPackages [opensafely-cohort-extractor]: Downloading https://files.pythonhosted.org/packages/90/a5/56f116b906e0c32a549533b3a6db3939c73dbc7153b203f4204c96d04275/opensafely-cohort-extractor-1.9.0.tar.gz
+[2023-07-28 12:37:40] INFO root fetch - processPackages [msci.sdk]: Downloading https://files.pythonhosted.org/packages/95/dd/14b8b4687fdfb339209eac1e8dea546e488aaa26b43a5f894cabedcef357/msci.sdk-1.1.0-py3-none-any.whl
+[2023-07-28 12:37:40] INFO root fetch - processPackages [camrcs]: executing diffoscope
+[2023-07-28 12:37:40] INFO root fetch - processPackages [camrcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camrcs-0.7.tar.gz tmp/camrcs-0.7.1.tar.gz --markdown 20230728/c/camrcs/0.7-0.7.1/diff.md --exclude *.pyd
+[2023-07-28 12:37:40] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/34/e8/81686b3a77a0edae554159a95e4782f911bd4ea59a2990954162a6b1e97e/wodoo-0.4.9.tar.gz
+[2023-07-28 12:37:40] INFO root fetch - processPackages [bus-station]: executing diffoscope
+[2023-07-28 12:37:40] INFO root fetch - processPackages [bus-station]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bus_station-7.1.0.tar.gz tmp/bus_station-7.2.0.tar.gz --markdown 20230728/b/bus-station/7.1.0-7.2.0/diff.md --exclude *.pyd
+[2023-07-28 12:37:40] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/50/80/5d572828b911b73f0959c20da4171184b6a0c5d7a184864abd9a88faa7a7/byquant-1.7.27.tar.gz
+[2023-07-28 12:37:40] INFO root fetch - processPackages [opensafely-cohort-extractor]: executing diffoscope
+[2023-07-28 12:37:40] INFO root fetch - processPackages [opensafely-cohort-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensafely-cohort-extractor-1.87.0.tar.gz tmp/opensafely-cohort-extractor-1.9.0.tar.gz --markdown 20230728/o/opensafely-cohort-extractor/1.87.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-28 12:37:41] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-07-28 12:37:41] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.8.tar.gz tmp/wodoo-0.4.9.tar.gz --markdown 20230728/w/wodoo/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-28 12:37:41] INFO root fetch - processPackages [msci.sdk]: executing diffoscope
+[2023-07-28 12:37:41] INFO root fetch - processPackages [msci.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msci.sdk-1.0.1-py3-none-any.whl.zip tmp/msci.sdk-1.1.0-py3-none-any.whl.zip --markdown 20230728/m/msci.sdk/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-28 12:37:41] INFO root fetch - processPackages [byquant]: executing diffoscope
+[2023-07-28 12:37:41] INFO root fetch - processPackages [byquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byquant-1.7.26.tar.gz tmp/byquant-1.7.27.tar.gz --markdown 20230728/b/byquant/1.7.26-1.7.27/diff.md --exclude *.pyd
+[2023-07-28 12:37:41] INFO root fetch - processPackages [pyspark-helpers]: Remove: archive file [/home/abi/fetcher/tmp/pyspark_helpers-0.1.4.tar.gz]
+[2023-07-28 12:37:41] INFO root fetch - processPackages [pyspark-helpers]: Remove: archive file [/home/abi/fetcher/tmp/pyspark_helpers-0.2.0.tar.gz]
+[2023-07-28 12:37:41] INFO root fetch - main [MainThread]: End processing [pyspark-helpers]: success
+[2023-07-28 12:37:41] INFO root fetch - processPackages [ATTools]: Remove: archive file [/home/abi/fetcher/tmp/ATTools-0.1.tar.gz]
+[2023-07-28 12:37:41] INFO root fetch - processPackages [ATTools]: Remove: archive file [/home/abi/fetcher/tmp/ATTools-0.2.tar.gz]
+[2023-07-28 12:37:41] INFO root fetch - main [MainThread]: End processing [ATTools]: success
+[2023-07-28 12:37:42] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz]
+[2023-07-28 12:37:42] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
+[2023-07-28 12:37:42] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-07-28 12:37:42] INFO root fetch - processPackages [camrcs]: Remove: archive file [/home/abi/fetcher/tmp/camrcs-0.7.tar.gz]
+[2023-07-28 12:37:42] INFO root fetch - processPackages [camrcs]: Remove: archive file [/home/abi/fetcher/tmp/camrcs-0.7.1.tar.gz]
+[2023-07-28 12:37:42] INFO root fetch - main [MainThread]: End processing [camrcs]: success
+[2023-07-28 12:37:42] INFO root fetch - processPackages [opensafely-cohort-extractor]: Remove: archive file [/home/abi/fetcher/tmp/opensafely-cohort-extractor-1.87.0.tar.gz]
+[2023-07-28 12:37:42] INFO root fetch - processPackages [opensafely-cohort-extractor]: Remove: archive file [/home/abi/fetcher/tmp/opensafely-cohort-extractor-1.9.0.tar.gz]
+[2023-07-28 12:37:42] INFO root fetch - main [MainThread]: End processing [opensafely-cohort-extractor]: success
+[2023-07-28 12:37:42] INFO root fetch - processPackages [bus-station]: Remove: archive file [/home/abi/fetcher/tmp/bus_station-7.1.0.tar.gz]
+[2023-07-28 12:37:42] INFO root fetch - processPackages [bus-station]: Remove: archive file [/home/abi/fetcher/tmp/bus_station-7.2.0.tar.gz]
+[2023-07-28 12:37:42] INFO root fetch - main [MainThread]: End processing [bus-station]: success
+[2023-07-28 12:37:42] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.8.tar.gz]
+[2023-07-28 12:37:42] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.9.tar.gz]
+[2023-07-28 12:37:42] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-07-28 12:37:42] INFO root fetch - processPackages [msci.sdk]: Remove: archive file [/home/abi/fetcher/tmp/msci.sdk-1.0.1-py3-none-any.whl.zip]
+[2023-07-28 12:37:42] INFO root fetch - processPackages [msci.sdk]: Remove: archive file [/home/abi/fetcher/tmp/msci.sdk-1.1.0-py3-none-any.whl.zip]
+[2023-07-28 12:37:42] INFO root fetch - main [MainThread]: End processing [msci.sdk]: success
+[2023-07-28 12:37:43] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.26.tar.gz]
+[2023-07-28 12:37:43] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.27.tar.gz]
+[2023-07-28 12:37:43] INFO root fetch - main [MainThread]: End processing [byquant]: success
+[2023-07-28 12:37:43] INFO root fetch - main [MainThread]: Store serial: [19074520]
