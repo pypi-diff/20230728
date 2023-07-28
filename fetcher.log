@@ -14932,3 +14932,103 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 08:53:29] INFO root fetch - processPackages [coptpy]: Remove: archive file [/home/abi/fetcher/tmp/coptpy-6.5.7-cp39-cp39-win_amd64.whl.zip]
 [2023-07-28 08:53:29] INFO root fetch - main [MainThread]: End processing [coptpy]: success
 [2023-07-28 08:53:29] INFO root fetch - main [MainThread]: Store serial: [19072584]
+[2023-07-28 08:58:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19072584]
+[2023-07-28 08:58:51] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-28 08:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jcloud
+[2023-07-28 08:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: perftester
+[2023-07-28 08:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatllm
+[2023-07-28 08:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qibo
+[2023-07-28 08:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: attune-project-api
+[2023-07-28 08:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thematos
+[2023-07-28 08:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dai-python-commons
+[2023-07-28 08:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neptune-fastai
+[2023-07-28 08:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-07-28 08:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chatllm
+[2023-07-28 08:58:51] INFO root fetch - processPackages [qibo]: New version: [0.1.9] Old Version: [0.1.8rc0]
+[2023-07-28 08:58:51] INFO root fetch - processPackages [jcloud]: New version: [0.2.9.dev4] Old Version: [0.2.9.dev3]
+[2023-07-28 08:58:51] INFO root fetch - processPackages [thematos]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-28 08:58:51] INFO root fetch - processPackages [neptune-fastai]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-28 08:58:51] INFO root fetch - processPackages [dai-python-commons]: New version: [5.2.0] Old Version: [5.1.0]
+[2023-07-28 08:58:51] INFO root fetch - processPackages [attune-project-api]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-28 08:58:51] INFO root fetch - processPackages [perftester]: New version: [0.7.0] Old Version: [0.6.3]
+[2023-07-28 08:58:51] INFO root fetch - processPackages [chatllm]: New version: [2023.7.4.13.43.50] Old Version: [2023.7.4.12.13.14]
+[2023-07-28 08:58:51] INFO root fetch - processPackages [chatllm]: New version: [2023.7.4.13.43.50] Old Version: [2023.7.4.12.13.14]
+[2023-07-28 08:58:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-28 08:58:52] INFO root fetch - processPackages [attune-project-api]: Downloading https://files.pythonhosted.org/packages/d7/f8/ced67fc9acf12de675f2d634457c7373e34106fd88baa6288503685dd4d6/attune-project-api-0.9.8.tar.gz
+[2023-07-28 08:58:52] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/ac/15/d8015b5ea1834f5c18e47edecc9b74875a43e81a49b4b2b2372660959ee1/chatllm-2023.7.4.12.13.14.tar.gz
+[2023-07-28 08:58:52] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/ac/15/d8015b5ea1834f5c18e47edecc9b74875a43e81a49b4b2b2372660959ee1/chatllm-2023.7.4.12.13.14.tar.gz
+[2023-07-28 08:58:52] WARNING root fetch - processPackages [chatllm]: Skipping package: exceeds size limit 11352041>=10485760
+[2023-07-28 08:58:52] INFO root fetch - processPackages [chatllm]: Start processing: balderhub-rfb
+[2023-07-28 08:58:52] INFO root fetch - main [MainThread]: End processing [chatllm] error
+[2023-07-28 08:58:52] WARNING root fetch - processPackages [chatllm]: Skipping package: exceeds size limit 11352041>=10485760
+[2023-07-28 08:58:52] INFO root fetch - processPackages [chatllm]: Start processing: xj-invoice
+[2023-07-28 08:58:52] INFO root fetch - main [MainThread]: End processing [chatllm] error
+[2023-07-28 08:58:52] INFO root fetch - processPackages [qibo]: Downloading https://files.pythonhosted.org/packages/01/94/0a45bb4545851bf077a42860016f8153c9271c38f02ecdb43d7007974b32/qibo-0.1.8rc0.tar.gz
+[2023-07-28 08:58:52] INFO root fetch - processPackages [thematos]: Downloading https://files.pythonhosted.org/packages/8e/71/6215eea196208fb1a2cf1e2b2513fcb4901423a2523d1d7e2c2c792ccc44/thematos-0.2.0.tar.gz
+[2023-07-28 08:58:52] INFO root fetch - processPackages [dai-python-commons]: Downloading https://files.pythonhosted.org/packages/08/f7/5b7eb2f7753d551c14d531919d0b171df06c388a870db9b258af9faa9e69/dai_python_commons-5.1.0.tar.gz
+[2023-07-28 08:58:52] INFO root fetch - processPackages [neptune-fastai]: Downloading https://files.pythonhosted.org/packages/a5/1d/7f2bf9fe5a8d02941def03d4870e13400455e02f4652aa65cf0f75d761f0/neptune_fastai-1.1.0.tar.gz
+[2023-07-28 08:58:52] INFO root fetch - processPackages [perftester]: Downloading https://files.pythonhosted.org/packages/63/51/852027c7b69401330317b5ea227b1479467950f7a2b280fd5ba5dfc1b2f6/perftester-0.6.3.tar.gz
+[2023-07-28 08:58:52] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/1e/e9/2ee85f52ab6322d4a54c8cb7ecb15a40c220f775204569488ec63ad4e395/jcloud-0.2.9.dev3.tar.gz
+[2023-07-28 08:58:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-07-28 08:58:52] WARNING root fetch - processPackages [balderhub-rfb]: Skipping, unable to determine old version
+[2023-07-28 08:58:52] INFO root fetch - processPackages [balderhub-rfb]: Start processing: codingtoolkit
+[2023-07-28 08:58:52] INFO root fetch - main [MainThread]: End processing [balderhub-rfb] error
+[2023-07-28 08:58:52] INFO root fetch - processPackages [xj-invoice]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-07-28 08:58:52] WARNING root fetch - processPackages [codingtoolkit]: Skipping, unable to determine old version
+[2023-07-28 08:58:52] INFO root fetch - main [MainThread]: End processing [codingtoolkit] error
+[2023-07-28 08:58:52] INFO root fetch - processPackages [xj-invoice]: Downloading https://files.pythonhosted.org/packages/8f/a8/6ccf5ba58df70541e82764c6a8e664574509e720a9ebae521eb95658f7ef/xj_invoice-1.0.7.tar.gz
+[2023-07-28 08:58:52] INFO root fetch - processPackages [attune-project-api]: Downloading https://files.pythonhosted.org/packages/c7/16/d44eb9ceaa1f24e93d7e0ef5a7cc8f16ca2354efe09e1f3d05025fa94147/attune-project-api-0.9.9.tar.gz
+[2023-07-28 08:58:52] INFO root fetch - processPackages [thematos]: Downloading https://files.pythonhosted.org/packages/68/2e/1530e925d65e5170f504fe14cc303194539d886249d17734b16ec8e12df4/thematos-0.2.1.tar.gz
+[2023-07-28 08:58:52] INFO root fetch - processPackages [dai-python-commons]: Downloading https://files.pythonhosted.org/packages/9d/00/feccd7bcc14b2b42111ed2b35e4adcd4eca7b59b124d6837855ed98c6787/dai_python_commons-5.2.0.tar.gz
+[2023-07-28 08:58:52] INFO root fetch - processPackages [xj-invoice]: Downloading https://files.pythonhosted.org/packages/a9/77/baae3fb8c2842e9ee7a0d5261ca27a183ef075f699c7e37397093b4062f2/xj_invoice-1.0.9.tar.gz
+[2023-07-28 08:58:52] INFO root fetch - processPackages [attune-project-api]: executing diffoscope
+[2023-07-28 08:58:52] INFO root fetch - processPackages [attune-project-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attune-project-api-0.9.8.tar.gz tmp/attune-project-api-0.9.9.tar.gz --markdown 20230728/a/attune-project-api/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-28 08:58:52] INFO root fetch - processPackages [perftester]: Downloading https://files.pythonhosted.org/packages/44/d2/133f28196e6270407180dd7aad7ed8f133a631f500c39a98d87bc4d9bea8/perftester-0.7.0.tar.gz
+[2023-07-28 08:58:52] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/bb/b0/d7ca100ca332b39b692bce70264e0ab3f4134daafc57ab3b397666234d61/jcloud-0.2.9.dev4.tar.gz
+[2023-07-28 08:58:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-07-28 08:58:52] INFO root fetch - processPackages [qibo]: Downloading https://files.pythonhosted.org/packages/57/56/3f48535dad44a519686fc64727f3bd6ca20b64d74a7870ad392055da16ed/qibo-0.1.9.tar.gz
+[2023-07-28 08:58:52] INFO root fetch - processPackages [neptune-fastai]: Downloading https://files.pythonhosted.org/packages/ae/15/46740e2d6ff5db8d8676f35c0e4cdb07b0c88e454c894c4a0a6ddbf4801a/neptune_fastai-1.1.1.tar.gz
+[2023-07-28 08:58:52] INFO root fetch - processPackages [dai-python-commons]: executing diffoscope
+[2023-07-28 08:58:52] INFO root fetch - processPackages [dai-python-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dai_python_commons-5.1.0.tar.gz tmp/dai_python_commons-5.2.0.tar.gz --markdown 20230728/d/dai-python-commons/5.1.0-5.2.0/diff.md --exclude *.pyd
+[2023-07-28 08:58:52] INFO root fetch - processPackages [thematos]: executing diffoscope
+[2023-07-28 08:58:52] INFO root fetch - processPackages [thematos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thematos-0.2.0.tar.gz tmp/thematos-0.2.1.tar.gz --markdown 20230728/t/thematos/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-28 08:58:52] INFO root fetch - processPackages [xj-invoice]: executing diffoscope
+[2023-07-28 08:58:52] INFO root fetch - processPackages [xj-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_invoice-1.0.7.tar.gz tmp/xj_invoice-1.0.9.tar.gz --markdown 20230728/x/xj-invoice/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-07-28 08:58:53] INFO root fetch - processPackages [perftester]: executing diffoscope
+[2023-07-28 08:58:53] INFO root fetch - processPackages [perftester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perftester-0.6.3.tar.gz tmp/perftester-0.7.0.tar.gz --markdown 20230728/p/perftester/0.6.3-0.7.0/diff.md --exclude *.pyd
+[2023-07-28 08:58:53] INFO root fetch - processPackages [jcloud]: executing diffoscope
+[2023-07-28 08:58:53] INFO root fetch - processPackages [jcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcloud-0.2.9.dev3.tar.gz tmp/jcloud-0.2.9.dev4.tar.gz --markdown 20230728/j/jcloud/0.2.9.dev3-0.2.9.dev4/diff.md --exclude *.pyd
+[2023-07-28 08:58:53] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-07-28 08:58:53] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230728/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-28 08:58:53] INFO root fetch - processPackages [neptune-fastai]: executing diffoscope
+[2023-07-28 08:58:53] INFO root fetch - processPackages [neptune-fastai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neptune_fastai-1.1.0.tar.gz tmp/neptune_fastai-1.1.1.tar.gz --markdown 20230728/n/neptune-fastai/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-28 08:58:53] INFO root fetch - processPackages [qibo]: executing diffoscope
+[2023-07-28 08:58:53] INFO root fetch - processPackages [qibo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qibo-0.1.8rc0.tar.gz tmp/qibo-0.1.9.tar.gz --markdown 20230728/q/qibo/0.1.8rc0-0.1.9/diff.md --exclude *.pyd
+[2023-07-28 08:58:54] INFO root fetch - processPackages [thematos]: Remove: archive file [/home/abi/fetcher/tmp/thematos-0.2.0.tar.gz]
+[2023-07-28 08:58:54] INFO root fetch - processPackages [thematos]: Remove: archive file [/home/abi/fetcher/tmp/thematos-0.2.1.tar.gz]
+[2023-07-28 08:58:54] INFO root fetch - main [MainThread]: End processing [thematos]: success
+[2023-07-28 08:58:54] INFO root fetch - processPackages [dai-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/dai_python_commons-5.1.0.tar.gz]
+[2023-07-28 08:58:54] INFO root fetch - processPackages [dai-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/dai_python_commons-5.2.0.tar.gz]
+[2023-07-28 08:58:54] INFO root fetch - main [MainThread]: End processing [dai-python-commons]: success
+[2023-07-28 08:58:54] INFO root fetch - processPackages [attune-project-api]: Remove: archive file [/home/abi/fetcher/tmp/attune-project-api-0.9.8.tar.gz]
+[2023-07-28 08:58:54] INFO root fetch - processPackages [attune-project-api]: Remove: archive file [/home/abi/fetcher/tmp/attune-project-api-0.9.9.tar.gz]
+[2023-07-28 08:58:54] INFO root fetch - main [MainThread]: End processing [attune-project-api]: success
+[2023-07-28 08:58:54] INFO root fetch - processPackages [perftester]: Remove: archive file [/home/abi/fetcher/tmp/perftester-0.6.3.tar.gz]
+[2023-07-28 08:58:54] INFO root fetch - processPackages [perftester]: Remove: archive file [/home/abi/fetcher/tmp/perftester-0.7.0.tar.gz]
+[2023-07-28 08:58:54] INFO root fetch - main [MainThread]: End processing [perftester]: success
+[2023-07-28 08:58:54] INFO root fetch - processPackages [jcloud]: Remove: archive file [/home/abi/fetcher/tmp/jcloud-0.2.9.dev3.tar.gz]
+[2023-07-28 08:58:54] INFO root fetch - processPackages [jcloud]: Remove: archive file [/home/abi/fetcher/tmp/jcloud-0.2.9.dev4.tar.gz]
+[2023-07-28 08:58:54] INFO root fetch - main [MainThread]: End processing [jcloud]: success
+[2023-07-28 08:58:54] INFO root fetch - processPackages [neptune-fastai]: Remove: archive file [/home/abi/fetcher/tmp/neptune_fastai-1.1.0.tar.gz]
+[2023-07-28 08:58:54] INFO root fetch - processPackages [neptune-fastai]: Remove: archive file [/home/abi/fetcher/tmp/neptune_fastai-1.1.1.tar.gz]
+[2023-07-28 08:58:54] INFO root fetch - main [MainThread]: End processing [neptune-fastai]: success
+[2023-07-28 08:58:54] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-07-28 08:58:54] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-07-28 08:58:54] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-07-28 08:58:54] INFO root fetch - processPackages [xj-invoice]: Remove: archive file [/home/abi/fetcher/tmp/xj_invoice-1.0.7.tar.gz]
+[2023-07-28 08:58:54] INFO root fetch - processPackages [xj-invoice]: Remove: archive file [/home/abi/fetcher/tmp/xj_invoice-1.0.9.tar.gz]
+[2023-07-28 08:58:54] INFO root fetch - main [MainThread]: End processing [xj-invoice]: success
+[2023-07-28 08:58:55] INFO root fetch - processPackages [qibo]: Remove: archive file [/home/abi/fetcher/tmp/qibo-0.1.8rc0.tar.gz]
+[2023-07-28 08:58:55] INFO root fetch - processPackages [qibo]: Remove: archive file [/home/abi/fetcher/tmp/qibo-0.1.9.tar.gz]
+[2023-07-28 08:58:55] INFO root fetch - main [MainThread]: End processing [qibo]: success
+[2023-07-28 08:58:55] INFO root fetch - main [MainThread]: Store serial: [19072626]
