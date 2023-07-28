@@ -13075,3 +13075,51 @@
 [2023-07-28 07:15:31] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230727-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
 [2023-07-28 07:15:31] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-07-28 07:15:31] INFO root fetch - main [MainThread]: Store serial: [19071906]
+[2023-07-28 07:20:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19071906]
+[2023-07-28 07:20:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-28 07:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidpe-rift-pipe
+[2023-07-28 07:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rouskinhf
+[2023-07-28 07:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uagents-twilio-test-dummy
+[2023-07-28 07:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datamorph-airflow
+[2023-07-28 07:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: morm
+[2023-07-28 07:20:45] INFO root fetch - processPackages [uagents-twilio-test-dummy]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-28 07:20:45] INFO root fetch - processPackages [morm]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-07-28 07:20:45] INFO root fetch - processPackages [rouskinhf]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-28 07:20:45] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.5.4.dev20230728] Old Version: [0.5.4.dev20230727]
+[2023-07-28 07:20:45] INFO root fetch - processPackages [morm]: Downloading https://files.pythonhosted.org/packages/15/c8/8665c8c54c7d851ef917c1173e4130fac7041c804e5efa66829da66743ce/morm-1.5.1-py3-none-any.whl
+[2023-07-28 07:20:45] INFO root fetch - processPackages [datamorph-airflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 07:20:45] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/a8/be/ccf01d7e866b13097c0b0e5d5683cc610200fff95620c3c07ed9f5de7a06/rapidpe_rift_pipe-0.5.4.dev20230727.tar.gz
+[2023-07-28 07:20:45] INFO root fetch - processPackages [uagents-twilio-test-dummy]: Downloading https://files.pythonhosted.org/packages/48/32/cfb49269f4500489c108a5d1364a89cdda573b37ec46269efe4f0d81e096/uagents_twilio_test_dummy-1.0.3.tar.gz
+[2023-07-28 07:20:45] INFO root fetch - processPackages [rouskinhf]: Downloading https://files.pythonhosted.org/packages/40/47/96bb23072d612633558c15a0680d172ec9b1040a4e0c40f230b4ae24c3fb/rouskinhf-0.2.4.tar.gz
+[2023-07-28 07:20:45] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/59/4d/c3dced18864c4aedf5ad119c9bad76da645fb5cae9f9b05d9a754d72a223/datamorph-airflow-0.0.8.tar.gz
+[2023-07-28 07:20:45] INFO root fetch - processPackages [morm]: Downloading https://files.pythonhosted.org/packages/27/f3/6c68775929d616b716950922d6606101c95eb11aaf72ab5aee2c66d0e619/morm-1.5.2-py3-none-any.whl
+[2023-07-28 07:20:45] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/aa/04/ef43d661691b90e9dec7c71da18e595d5ce1a9dbae14f8593e29238e0078/rapidpe_rift_pipe-0.5.4.dev20230728.tar.gz
+[2023-07-28 07:20:45] INFO root fetch - processPackages [uagents-twilio-test-dummy]: Downloading https://files.pythonhosted.org/packages/b2/17/5a14fda93f481d85e06d0c3e80e9143f8801121048df721ec40e64b30434/uagents_twilio_test_dummy-1.0.4.tar.gz
+[2023-07-28 07:20:45] INFO root fetch - processPackages [morm]: executing diffoscope
+[2023-07-28 07:20:45] INFO root fetch - processPackages [morm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morm-1.5.1-py3-none-any.whl.zip tmp/morm-1.5.2-py3-none-any.whl.zip --markdown 20230728/m/morm/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-07-28 07:20:45] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-07-28 07:20:45] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.5.4.dev20230727.tar.gz tmp/rapidpe_rift_pipe-0.5.4.dev20230728.tar.gz --markdown 20230728/r/rapidpe-rift-pipe/0.5.4.dev20230727-0.5.4.dev20230728/diff.md --exclude *.pyd
+[2023-07-28 07:20:45] INFO root fetch - processPackages [rouskinhf]: Downloading https://files.pythonhosted.org/packages/06/bd/005233b302d42b227538ddab421ddab3953595002d64a11fec9bab6b381b/rouskinhf-0.2.5.tar.gz
+[2023-07-28 07:20:45] INFO root fetch - processPackages [uagents-twilio-test-dummy]: executing diffoscope
+[2023-07-28 07:20:45] INFO root fetch - processPackages [uagents-twilio-test-dummy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uagents_twilio_test_dummy-1.0.3.tar.gz tmp/uagents_twilio_test_dummy-1.0.4.tar.gz --markdown 20230728/u/uagents-twilio-test-dummy/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-28 07:20:45] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/d6/cc/1166b410c837b95fb511c395addcef726790ddba91c635d807935681f0c5/datamorph-airflow-0.0.9.tar.gz
+[2023-07-28 07:20:45] INFO root fetch - processPackages [rouskinhf]: executing diffoscope
+[2023-07-28 07:20:45] INFO root fetch - processPackages [rouskinhf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rouskinhf-0.2.4.tar.gz tmp/rouskinhf-0.2.5.tar.gz --markdown 20230728/r/rouskinhf/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-28 07:20:45] INFO root fetch - processPackages [datamorph-airflow]: executing diffoscope
+[2023-07-28 07:20:45] INFO root fetch - processPackages [datamorph-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamorph-airflow-0.0.8.tar.gz tmp/datamorph-airflow-0.0.9.tar.gz --markdown 20230728/d/datamorph-airflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 07:20:46] INFO root fetch - processPackages [morm]: Remove: archive file [/home/abi/fetcher/tmp/morm-1.5.1-py3-none-any.whl.zip]
+[2023-07-28 07:20:46] INFO root fetch - processPackages [morm]: Remove: archive file [/home/abi/fetcher/tmp/morm-1.5.2-py3-none-any.whl.zip]
+[2023-07-28 07:20:46] INFO root fetch - main [MainThread]: End processing [morm]: success
+[2023-07-28 07:20:46] INFO root fetch - processPackages [uagents-twilio-test-dummy]: Remove: archive file [/home/abi/fetcher/tmp/uagents_twilio_test_dummy-1.0.3.tar.gz]
+[2023-07-28 07:20:46] INFO root fetch - processPackages [uagents-twilio-test-dummy]: Remove: archive file [/home/abi/fetcher/tmp/uagents_twilio_test_dummy-1.0.4.tar.gz]
+[2023-07-28 07:20:46] INFO root fetch - main [MainThread]: End processing [uagents-twilio-test-dummy]: success
+[2023-07-28 07:20:46] INFO root fetch - processPackages [datamorph-airflow]: Remove: archive file [/home/abi/fetcher/tmp/datamorph-airflow-0.0.8.tar.gz]
+[2023-07-28 07:20:46] INFO root fetch - processPackages [datamorph-airflow]: Remove: archive file [/home/abi/fetcher/tmp/datamorph-airflow-0.0.9.tar.gz]
+[2023-07-28 07:20:46] INFO root fetch - main [MainThread]: End processing [datamorph-airflow]: success
+[2023-07-28 07:20:46] INFO root fetch - processPackages [rouskinhf]: Remove: archive file [/home/abi/fetcher/tmp/rouskinhf-0.2.4.tar.gz]
+[2023-07-28 07:20:46] INFO root fetch - processPackages [rouskinhf]: Remove: archive file [/home/abi/fetcher/tmp/rouskinhf-0.2.5.tar.gz]
+[2023-07-28 07:20:46] INFO root fetch - main [MainThread]: End processing [rouskinhf]: success
+[2023-07-28 07:20:46] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230727.tar.gz]
+[2023-07-28 07:20:46] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230728.tar.gz]
+[2023-07-28 07:20:46] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-07-28 07:20:46] INFO root fetch - main [MainThread]: Store serial: [19071919]
