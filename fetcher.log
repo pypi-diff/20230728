@@ -13937,3 +13937,100 @@
 [2023-07-28 08:07:56] INFO root fetch - processPackages [yangsuite-netconf]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite_netconf-1.17.8.post0.dev38-py3-none-any.whl.zip]
 [2023-07-28 08:07:56] INFO root fetch - main [MainThread]: End processing [yangsuite-netconf]: success
 [2023-07-28 08:07:56] INFO root fetch - main [MainThread]: Store serial: [19072189]
+[2023-07-28 08:13:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19072189]
+[2023-07-28 08:13:07] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-28 08:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: awyes
+[2023-07-28 08:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2023-07-28 08:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bagbag
+[2023-07-28 08:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-lambda-env-modeler
+[2023-07-28 08:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Nuitka-winsvc
+[2023-07-28 08:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trainyard
+[2023-07-28 08:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gydz
+[2023-07-28 08:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: awyes
+[2023-07-28 08:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cyberdrop-dl
+[2023-07-28 08:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: adafri
+[2023-07-28 08:13:08] INFO root fetch - processPackages [awyes]: New version: [10.0.9] Old Version: [10.0.8]
+[2023-07-28 08:13:08] INFO root fetch - processPackages [adafri]: New version: [0.0.69] Old Version: [0.0.68]
+[2023-07-28 08:13:08] INFO root fetch - processPackages [Nuitka-winsvc]: New version: [1.7.7] Old Version: [1.7.6]
+[2023-07-28 08:13:08] INFO root fetch - processPackages [trainyard]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-28 08:13:08] INFO root fetch - processPackages [awyes]: New version: [10.0.9] Old Version: [10.0.8]
+[2023-07-28 08:13:08] WARNING root fetch - processPackages [gydz]: Skipping, unable to determine old version
+[2023-07-28 08:13:08] INFO root fetch - processPackages [gydz]: Start processing: pyyardian
+[2023-07-28 08:13:08] INFO root fetch - main [MainThread]: End processing [gydz] error
+[2023-07-28 08:13:08] INFO root fetch - processPackages [aws-lambda-env-modeler]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-28 08:13:08] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230728060820] Old Version: [2.2.1.dev20230727181833]
+[2023-07-28 08:13:08] INFO root fetch - processPackages [bagbag]: New version: [0.61.9] Old Version: [0.61.8]
+[2023-07-28 08:13:08] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-07-28 08:13:08] INFO root fetch - processPackages [pyyardian]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-07-28 08:13:08] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/c7/0f/48dd93a150cac1223d1cfb1d82483aadb820ec9484ceeb18c0f91da4446a/adafri-0.0.68.tar.gz
+[2023-07-28 08:13:08] INFO root fetch - processPackages [trainyard]: Downloading https://files.pythonhosted.org/packages/c0/2d/f2c28fb7fd4b870bd018a7cccdea6124f89b17ab25e947cbe2456abc0189/trainyard-0.0.2.tar.gz
+[2023-07-28 08:13:08] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/cd/76/55be7b8f30dc129c6ae0f4eed39bfa287dcc4599c3f8951a9304f9c5951c/localstack-core-2.2.1.dev20230727181833.tar.gz
+[2023-07-28 08:13:08] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/8c/89/cc59ec85ceb84655e5594f6eeef7ec3c8016e0af7a17bf380d7dc103d848/bagbag-0.61.8.tar.gz
+[2023-07-28 08:13:08] INFO root fetch - processPackages [awyes]: Downloading https://files.pythonhosted.org/packages/e0/e6/e65039d7a3547e1ca4b9e7ea6eb09fb04feaa1714c91aa45d9f5c809c284/awyes-10.0.8.tar.gz
+[2023-07-28 08:13:08] INFO root fetch - processPackages [awyes]: Downloading https://files.pythonhosted.org/packages/e0/e6/e65039d7a3547e1ca4b9e7ea6eb09fb04feaa1714c91aa45d9f5c809c284/awyes-10.0.8.tar.gz
+[2023-07-28 08:13:08] INFO root fetch - processPackages [Nuitka-winsvc]: Downloading https://files.pythonhosted.org/packages/fd/98/1b0dc9bca15fba12da508cf5c4e50c41ea5ef1bd4c190f009c0e971c99d4/Nuitka-winsvc-1.7.6.tar.gz
+[2023-07-28 08:13:08] INFO root fetch - processPackages [aws-lambda-env-modeler]: Downloading https://files.pythonhosted.org/packages/cf/af/ae005e3e7009d174c811f1f49cabc6df218e4d21e0096fbedd2041e2888a/aws_lambda_env_modeler-1.0.2.tar.gz
+[2023-07-28 08:13:08] INFO root fetch - processPackages [pyyardian]: Downloading https://files.pythonhosted.org/packages/b8/be/0bfede62cfdd24f8b447b8a9f9c6925c19d8f66ae4092d5a8ff8b4c8791f/pyyardian-0.0.2.tar.gz
+[2023-07-28 08:13:08] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-07-28 08:13:08] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/f4/a0/f3b12e2242d73f2fab32f09d79d61afd809acff96b844cab2fea44158038/adafri-0.0.69.tar.gz
+[2023-07-28 08:13:08] INFO root fetch - processPackages [trainyard]: Downloading https://files.pythonhosted.org/packages/66/7b/4a279346932f18dc75dd2a1a1f8515fed14bf279cf02bdd8f3728620278f/trainyard-0.0.3.tar.gz
+[2023-07-28 08:13:08] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/fb/58/f5ca29d807666556a43f975cb3d44dcb5abd3b628cd9e902f64626051fab/bagbag-0.61.9.tar.gz
+[2023-07-28 08:13:08] INFO root fetch - processPackages [awyes]: Downloading https://files.pythonhosted.org/packages/b4/b3/ef5cfd62bd3820ecf029b981474b2436064f394d8696994f9dd500790d3c/awyes-10.0.9.tar.gz
+[2023-07-28 08:13:08] INFO root fetch - processPackages [awyes]: Downloading https://files.pythonhosted.org/packages/b4/b3/ef5cfd62bd3820ecf029b981474b2436064f394d8696994f9dd500790d3c/awyes-10.0.9.tar.gz
+[2023-07-28 08:13:08] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-28 08:13:08] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.68.tar.gz tmp/adafri-0.0.69.tar.gz --markdown 20230728/a/adafri/0.0.68-0.0.69/diff.md --exclude *.pyd
+[2023-07-28 08:13:08] INFO root fetch - processPackages [aws-lambda-env-modeler]: Downloading https://files.pythonhosted.org/packages/88/ad/c2114fa4247015fc4303483aa6ab243ce95e947606a364cf26c8276702cf/aws_lambda_env_modeler-1.0.3.tar.gz
+[2023-07-28 08:13:08] INFO root fetch - processPackages [pyyardian]: Downloading https://files.pythonhosted.org/packages/60/9e/76a7e05241468ad69c37d689e5ed4f413b3729adc1d40e6cd051780b41be/pyyardian-1.0.0.tar.gz
+[2023-07-28 08:13:09] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-07-28 08:13:09] INFO root fetch - processPackages [trainyard]: executing diffoscope
+[2023-07-28 08:13:09] INFO root fetch - processPackages [trainyard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trainyard-0.0.2.tar.gz tmp/trainyard-0.0.3.tar.gz --markdown 20230728/t/trainyard/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-28 08:13:09] INFO root fetch - processPackages [awyes]: executing diffoscope
+[2023-07-28 08:13:09] INFO root fetch - processPackages [awyes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awyes-10.0.8.tar.gz tmp/awyes-10.0.9.tar.gz --markdown 20230728/a/awyes/10.0.8-10.0.9/diff.md --exclude *.pyd
+[2023-07-28 08:13:09] INFO root fetch - processPackages [aws-lambda-env-modeler]: executing diffoscope
+[2023-07-28 08:13:09] INFO root fetch - processPackages [pyyardian]: executing diffoscope
+[2023-07-28 08:13:09] INFO root fetch - processPackages [aws-lambda-env-modeler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_lambda_env_modeler-1.0.2.tar.gz tmp/aws_lambda_env_modeler-1.0.3.tar.gz --markdown 20230728/a/aws-lambda-env-modeler/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-28 08:13:09] INFO root fetch - processPackages [pyyardian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyyardian-0.0.2.tar.gz tmp/pyyardian-1.0.0.tar.gz --markdown 20230728/p/pyyardian/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-07-28 08:13:09] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/fb/df/4ca06bafa44872081de39761f2420f1ca3849e258e5ba5e776222d2b7451/localstack-core-2.2.1.dev20230728060820.tar.gz
+[2023-07-28 08:13:09] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-07-28 08:13:09] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.61.8.tar.gz tmp/bagbag-0.61.9.tar.gz --markdown 20230728/b/bagbag/0.61.8-0.61.9/diff.md --exclude *.pyd
+[2023-07-28 08:13:09] INFO root fetch - processPackages [awyes]: executing diffoscope
+[2023-07-28 08:13:09] INFO root fetch - processPackages [awyes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awyes-10.0.8.tar.gz tmp/awyes-10.0.9.tar.gz --markdown 20230728/a/awyes/10.0.8-10.0.9/diff.md --exclude *.pyd
+[2023-07-28 08:13:09] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-07-28 08:13:09] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230728/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-07-28 08:13:09] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-28 08:13:09] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.1.dev20230727181833.tar.gz tmp/localstack-core-2.2.1.dev20230728060820.tar.gz --markdown 20230728/l/localstack-core/2.2.1.dev20230727181833-2.2.1.dev20230728060820/diff.md --exclude *.pyd
+[2023-07-28 08:13:09] INFO root fetch - processPackages [Nuitka-winsvc]: Downloading https://files.pythonhosted.org/packages/bd/fc/cc4e677cb203e3bd0a07e689c4fb744d4cce822f482f6926e2bfbaaa2809/Nuitka-winsvc-1.7.7.tar.gz
+[2023-07-28 08:13:09] INFO root fetch - processPackages [Nuitka-winsvc]: executing diffoscope
+[2023-07-28 08:13:09] INFO root fetch - processPackages [Nuitka-winsvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nuitka-winsvc-1.7.6.tar.gz tmp/Nuitka-winsvc-1.7.7.tar.gz --markdown 20230728/N/Nuitka-winsvc/1.7.6-1.7.7/diff.md --exclude *.pyd
+[2023-07-28 08:13:10] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.68.tar.gz]
+[2023-07-28 08:13:10] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.69.tar.gz]
+[2023-07-28 08:13:10] INFO root fetch - processPackages [adafri]: Start processing: irdev-pycolor
+[2023-07-28 08:13:10] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-28 08:13:10] WARNING root fetch - processPackages [irdev-pycolor]: Skipping, unable to determine old version
+[2023-07-28 08:13:10] INFO root fetch - main [MainThread]: End processing [irdev-pycolor] error
+[2023-07-28 08:13:10] INFO root fetch - processPackages [pyyardian]: Remove: archive file [/home/abi/fetcher/tmp/pyyardian-0.0.2.tar.gz]
+[2023-07-28 08:13:10] INFO root fetch - processPackages [pyyardian]: Remove: archive file [/home/abi/fetcher/tmp/pyyardian-1.0.0.tar.gz]
+[2023-07-28 08:13:10] INFO root fetch - main [MainThread]: End processing [pyyardian]: success
+[2023-07-28 08:13:10] INFO root fetch - processPackages [aws-lambda-env-modeler]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_env_modeler-1.0.2.tar.gz]
+[2023-07-28 08:13:10] INFO root fetch - processPackages [aws-lambda-env-modeler]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_env_modeler-1.0.3.tar.gz]
+[2023-07-28 08:13:10] INFO root fetch - main [MainThread]: End processing [aws-lambda-env-modeler]: success
+[2023-07-28 08:13:10] INFO root fetch - processPackages [awyes]: Remove: archive file [/home/abi/fetcher/tmp/awyes-10.0.8.tar.gz]
+[2023-07-28 08:13:10] INFO root fetch - processPackages [awyes]: Remove: archive file [/home/abi/fetcher/tmp/awyes-10.0.9.tar.gz]
+[2023-07-28 08:13:10] INFO root fetch - main [MainThread]: End processing [awyes]: success
+[2023-07-28 08:13:10] INFO root fetch - processPackages [trainyard]: Remove: archive file [/home/abi/fetcher/tmp/trainyard-0.0.2.tar.gz]
+[2023-07-28 08:13:10] INFO root fetch - processPackages [trainyard]: Remove: archive file [/home/abi/fetcher/tmp/trainyard-0.0.3.tar.gz]
+[2023-07-28 08:13:10] INFO root fetch - main [MainThread]: End processing [trainyard]: success
+[2023-07-28 08:13:10] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-07-28 08:13:10] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-07-28 08:13:10] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-07-28 08:13:10] INFO root fetch - main [MainThread]: End processing [awyes]: success
+[2023-07-28 08:13:11] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.8.tar.gz]
+[2023-07-28 08:13:11] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.9.tar.gz]
+[2023-07-28 08:13:11] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-07-28 08:13:13] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230727181833.tar.gz]
+[2023-07-28 08:13:13] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230728060820.tar.gz]
+[2023-07-28 08:13:13] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-28 08:13:22] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-winsvc-1.7.6.tar.gz]
+[2023-07-28 08:13:22] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-winsvc-1.7.7.tar.gz]
+[2023-07-28 08:13:22] INFO root fetch - main [MainThread]: End processing [Nuitka-winsvc]: success
+[2023-07-28 08:13:22] INFO root fetch - main [MainThread]: Store serial: [19072230]
