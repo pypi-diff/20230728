@@ -1889,3 +1889,96 @@
 [2023-07-28 02:04:58] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230727.post419.tar.gz]
 [2023-07-28 02:04:58] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-07-28 02:04:58] INFO root fetch - main [MainThread]: Store serial: [19067615]
+[2023-07-28 02:10:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19067615]
+[2023-07-28 02:10:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-28 02:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: br-navigator
+[2023-07-28 02:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openllm
+[2023-07-28 02:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaxutils-nightly
+[2023-07-28 02:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ml-compiler-opt
+[2023-07-28 02:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lbt-ladybug
+[2023-07-28 02:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchlayers-nightly
+[2023-07-28 02:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sweetrpg-api-core
+[2023-07-28 02:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vesselapi
+[2023-07-28 02:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lbt-honeybee
+[2023-07-28 02:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-common
+[2023-07-28 02:10:07] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202307280006] Old Version: [0.0.1.dev202307270006]
+[2023-07-28 02:10:07] INFO root fetch - processPackages [br-navigator]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-28 02:10:07] INFO root fetch - processPackages [openllm]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-28 02:10:07] INFO root fetch - processPackages [vesselapi]: New version: [3.5.2] Old Version: [3.42.0]
+[2023-07-28 02:10:07] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-28 02:10:07] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230727] Old Version: [0.0.8.dev20230726]
+[2023-07-28 02:10:07] INFO root fetch - processPackages [sweetrpg-api-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-28 02:10:07] INFO root fetch - processPackages [lbt-ladybug]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-28 02:10:07] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1690416438] Old Version: [1690330057]
+[2023-07-28 02:10:07] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-28 02:10:07] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/4b/7f/8a81b3e557a51147a8c41ce7ddd8047e8f700e6ada81b388cb42ce262cf3/ml-compiler-opt-0.0.1.dev202307270006.tar.gz
+[2023-07-28 02:10:07] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-28 02:10:07] INFO root fetch - processPackages [lbt-ladybug]: Downloading https://files.pythonhosted.org/packages/e4/ac/474c600d6f495b8d63c49d7689b2b076f0c5f94c22728fe795233852a9e1/lbt-ladybug-0.8.1.tar.gz
+[2023-07-28 02:10:07] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/5d/9d/2398efc534be1a806373637db31588bc65727faee8d3d4ad1e210310552e/sweetrpg-api-core-0.0.98.tar.gz
+[2023-07-28 02:10:07] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/f7/ee/ac802edc6e33b31f19c12f9a57019f5a17296914b31c1f9b2d775c74c5d3/jaxutils-nightly-0.0.8.dev20230726.tar.gz
+[2023-07-28 02:10:07] INFO root fetch - processPackages [br-navigator]: Downloading https://files.pythonhosted.org/packages/b7/63/877bc5500e38779082a980ce9fbff6d8c1ccc2b7ed3d0c20a82a2e03a587/br_navigator-0.0.1-cp39-abi3-musllinux_1_1_armv7l.whl
+[2023-07-28 02:10:07] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/15/bb/9bce523bb48ec1bb46c6a4f6dc7f7aac81741f2d9e0020c7a644849899f4/vesselapi-3.42.0.tar.gz
+[2023-07-28 02:10:07] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/27/2b/ed3ffae21d77ed89079f47e2fe2393ec44984370420855383049649df8d0/openllm-0.2.8.tar.gz
+[2023-07-28 02:10:07] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/7d/4e/89b52b8a49e26ad5c1a7d02086713e8b8c5c08e786799a4ac1778f40afeb/torchlayers-nightly-1690330057.tar.gz
+[2023-07-28 02:10:08] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-07-28 02:10:08] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-28 02:10:08] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/82/f2/105170d36bec43bbe554de48bf20f0f1727c0db0e62b44a2412f0e180fa6/vesselapi-3.5.2.tar.gz
+[2023-07-28 02:10:08] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-28 02:10:08] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230728/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-28 02:10:08] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/97/d1/878a207a52d2d4e7c255a4dcab1544538dfb4d752947eb082ca38170d09a/jaxutils-nightly-0.0.8.dev20230727.tar.gz
+[2023-07-28 02:10:08] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/26/34/079da1cf24048d6e6b62e0c7eba10261536278e6ca402de6bfd91fc7e745/ml-compiler-opt-0.0.1.dev202307280006.tar.gz
+[2023-07-28 02:10:08] INFO root fetch - processPackages [vesselapi]: executing diffoscope
+[2023-07-28 02:10:08] INFO root fetch - processPackages [vesselapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselapi-3.42.0.tar.gz tmp/vesselapi-3.5.2.tar.gz --markdown 20230728/v/vesselapi/3.42.0-3.5.2/diff.md --exclude *.pyd
+[2023-07-28 02:10:08] INFO root fetch - processPackages [lbt-ladybug]: Downloading https://files.pythonhosted.org/packages/6e/e7/a4e6dcfc6b2750475acd6dee9e849a991053471ff22a90aa8f986eaef25b/lbt-ladybug-0.9.0.tar.gz
+[2023-07-28 02:10:08] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/73/16/fd2ca80319e30addc5fb4d6191aba65ef2b84c0d9610b07cb7ce012ded26/torchlayers-nightly-1690416438.tar.gz
+[2023-07-28 02:10:08] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-07-28 02:10:08] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230726.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230727.tar.gz --markdown 20230728/j/jaxutils-nightly/0.0.8.dev20230726-0.0.8.dev20230727/diff.md --exclude *.pyd
+[2023-07-28 02:10:08] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/bf/6c/3cd8f95074a8f63967790523ccf02ffe9aef45c9c675b0a443c0371e8e04/sweetrpg-api-core-0.0.99.tar.gz
+[2023-07-28 02:10:08] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-07-28 02:10:08] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202307270006.tar.gz tmp/ml-compiler-opt-0.0.1.dev202307280006.tar.gz --markdown 20230728/m/ml-compiler-opt/0.0.1.dev202307270006-0.0.1.dev202307280006/diff.md --exclude *.pyd
+[2023-07-28 02:10:08] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-07-28 02:10:08] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-07-28 02:10:08] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1690330057.tar.gz tmp/torchlayers-nightly-1690416438.tar.gz --markdown 20230728/t/torchlayers-nightly/1690330057-1690416438/diff.md --exclude *.pyd
+[2023-07-28 02:10:08] INFO root fetch - processPackages [br-navigator]: Downloading https://files.pythonhosted.org/packages/2b/de/c02ee4577b5f6c400957898207821b2e6d9373051733864122e28f026dfa/br_navigator-0.0.2-cp39-abi3-musllinux_1_1_armv7l.whl
+[2023-07-28 02:10:08] INFO root fetch - processPackages [lbt-ladybug]: executing diffoscope
+[2023-07-28 02:10:08] INFO root fetch - processPackages [lbt-ladybug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-ladybug-0.8.1.tar.gz tmp/lbt-ladybug-0.9.0.tar.gz --markdown 20230728/l/lbt-ladybug/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-28 02:10:08] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/98/f2/69a32c5942ad1129fcfb76a36387dcc633b9ed99c9dfe82516730dacc46a/openllm-0.2.9.tar.gz
+[2023-07-28 02:10:08] INFO root fetch - processPackages [br-navigator]: executing diffoscope
+[2023-07-28 02:10:08] INFO root fetch - processPackages [br-navigator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/br_navigator-0.0.1-cp39-abi3-musllinux_1_1_armv7l.whl.zip tmp/br_navigator-0.0.2-cp39-abi3-musllinux_1_1_armv7l.whl.zip --markdown 20230728/b/br-navigator/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-28 02:10:09] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2023-07-28 02:10:09] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.2.8.tar.gz tmp/openllm-0.2.9.tar.gz --markdown 20230728/o/openllm/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-28 02:10:09] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-07-28 02:10:09] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230728/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-28 02:10:09] INFO root fetch - processPackages [sweetrpg-api-core]: executing diffoscope
+[2023-07-28 02:10:09] INFO root fetch - processPackages [sweetrpg-api-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-api-core-0.0.98.tar.gz tmp/sweetrpg-api-core-0.0.99.tar.gz --markdown 20230728/s/sweetrpg-api-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-28 02:10:09] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-28 02:10:09] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-28 02:10:09] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-28 02:10:10] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230726.tar.gz]
+[2023-07-28 02:10:10] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230727.tar.gz]
+[2023-07-28 02:10:10] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-07-28 02:10:10] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1690330057.tar.gz]
+[2023-07-28 02:10:10] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1690416438.tar.gz]
+[2023-07-28 02:10:10] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-07-28 02:10:10] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307270006.tar.gz]
+[2023-07-28 02:10:10] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307280006.tar.gz]
+[2023-07-28 02:10:10] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-07-28 02:10:10] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-07-28 02:10:10] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-07-28 02:10:10] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-07-28 02:10:10] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.98.tar.gz]
+[2023-07-28 02:10:10] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.99.tar.gz]
+[2023-07-28 02:10:10] INFO root fetch - main [MainThread]: End processing [sweetrpg-api-core]: success
+[2023-07-28 02:10:11] INFO root fetch - processPackages [lbt-ladybug]: Remove: archive file [/home/abi/fetcher/tmp/lbt-ladybug-0.8.1.tar.gz]
+[2023-07-28 02:10:11] INFO root fetch - processPackages [lbt-ladybug]: Remove: archive file [/home/abi/fetcher/tmp/lbt-ladybug-0.9.0.tar.gz]
+[2023-07-28 02:10:11] INFO root fetch - main [MainThread]: End processing [lbt-ladybug]: success
+[2023-07-28 02:10:11] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.42.0.tar.gz]
+[2023-07-28 02:10:11] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.5.2.tar.gz]
+[2023-07-28 02:10:11] INFO root fetch - main [MainThread]: End processing [vesselapi]: success
+[2023-07-28 02:10:11] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.2.8.tar.gz]
+[2023-07-28 02:10:11] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.2.9.tar.gz]
+[2023-07-28 02:10:11] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2023-07-28 02:10:28] INFO root fetch - processPackages [br-navigator]: Remove: archive file [/home/abi/fetcher/tmp/br_navigator-0.0.1-cp39-abi3-musllinux_1_1_armv7l.whl.zip]
+[2023-07-28 02:10:28] INFO root fetch - processPackages [br-navigator]: Remove: archive file [/home/abi/fetcher/tmp/br_navigator-0.0.2-cp39-abi3-musllinux_1_1_armv7l.whl.zip]
+[2023-07-28 02:10:28] INFO root fetch - main [MainThread]: End processing [br-navigator]: success
+[2023-07-28 02:10:28] INFO root fetch - main [MainThread]: Store serial: [19067648]
