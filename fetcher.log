@@ -12914,3 +12914,59 @@
 [2023-07-28 07:04:51] INFO root fetch - processPackages [ipyeos]: Remove: archive file [/home/abi/fetcher/tmp/ipyeos-0.4.7.tar.gz]
 [2023-07-28 07:04:51] INFO root fetch - main [MainThread]: End processing [ipyeos]: success
 [2023-07-28 07:04:51] INFO root fetch - main [MainThread]: Store serial: [19071840]
+[2023-07-28 07:09:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19071840]
+[2023-07-28 07:10:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-28 07:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapid-pe
+[2023-07-28 07:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zzq-strings-sum
+[2023-07-28 07:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dask-cuda
+[2023-07-28 07:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dask-cuda
+[2023-07-28 07:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: morm
+[2023-07-28 07:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zzq-strings-sum
+[2023-07-28 07:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fern-sentra
+[2023-07-28 07:10:00] INFO root fetch - processPackages [zzq-strings-sum]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-28 07:10:00] WARNING root fetch - processPackages [fern-sentra]: Skipping, unable to determine old version
+[2023-07-28 07:10:00] INFO root fetch - main [MainThread]: End processing [fern-sentra] error
+[2023-07-28 07:10:00] INFO root fetch - processPackages [zzq-strings-sum]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-28 07:10:00] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230728] Old Version: [0.1.1.dev20230727]
+[2023-07-28 07:10:00] INFO root fetch - processPackages [morm]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-07-28 07:10:00] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230728] Old Version: [23.8.0a230727]
+[2023-07-28 07:10:00] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230728] Old Version: [23.8.0a230727]
+[2023-07-28 07:10:00] INFO root fetch - processPackages [morm]: Downloading https://files.pythonhosted.org/packages/15/c8/8665c8c54c7d851ef917c1173e4130fac7041c804e5efa66829da66743ce/morm-1.5.1-py3-none-any.whl
+[2023-07-28 07:10:00] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/00/5c/7c7a8dc1e579409a05a25e8cf9421cbccbbac82a37c31a6aa46e2ab299b1/dask-cuda-23.8.0a230727.tar.gz
+[2023-07-28 07:10:00] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/00/5c/7c7a8dc1e579409a05a25e8cf9421cbccbbac82a37c31a6aa46e2ab299b1/dask-cuda-23.8.0a230727.tar.gz
+[2023-07-28 07:10:00] INFO root fetch - processPackages [zzq-strings-sum]: Downloading https://files.pythonhosted.org/packages/ba/d9/6d0076775da5c8c68a31970c7f81ae97f242942d0c226e35794829e07a90/zzq-strings-sum-0.5.0.tar.gz
+[2023-07-28 07:10:00] INFO root fetch - processPackages [zzq-strings-sum]: Downloading https://files.pythonhosted.org/packages/ba/d9/6d0076775da5c8c68a31970c7f81ae97f242942d0c226e35794829e07a90/zzq-strings-sum-0.5.0.tar.gz
+[2023-07-28 07:10:00] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/57/bf/d901a19312ad41658b9849727677020be49dfa13c9b08dc37b71536d61d4/rapid_pe-0.1.1.dev20230727.tar.gz
+[2023-07-28 07:10:01] INFO root fetch - processPackages [zzq-strings-sum]: Downloading https://files.pythonhosted.org/packages/da/be/51c404e70a0e3b51acdbac2f0eb533780b5679d3b21f5f0c273124a4e0d4/zzq-strings-sum-0.5.1.tar.gz
+[2023-07-28 07:10:01] INFO root fetch - processPackages [zzq-strings-sum]: Downloading https://files.pythonhosted.org/packages/da/be/51c404e70a0e3b51acdbac2f0eb533780b5679d3b21f5f0c273124a4e0d4/zzq-strings-sum-0.5.1.tar.gz
+[2023-07-28 07:10:01] INFO root fetch - processPackages [morm]: Downloading https://files.pythonhosted.org/packages/27/f3/6c68775929d616b716950922d6606101c95eb11aaf72ab5aee2c66d0e619/morm-1.5.2-py3-none-any.whl
+[2023-07-28 07:10:01] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/09/76/06ab56f57926875c24a749cec431b238b7b2140c6a9385650fa5cc847d46/dask-cuda-23.8.0a230728.tar.gz
+[2023-07-28 07:10:01] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/09/76/06ab56f57926875c24a749cec431b238b7b2140c6a9385650fa5cc847d46/dask-cuda-23.8.0a230728.tar.gz
+[2023-07-28 07:10:01] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/8d/d3/2e0388d97dfd7dd4f833c0cbd78077a5620c94456a644eb0f2479ef2f365/rapid_pe-0.1.1.dev20230728.tar.gz
+[2023-07-28 07:10:01] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-28 07:10:01] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230727.tar.gz tmp/dask-cuda-23.8.0a230728.tar.gz --markdown 20230728/d/dask-cuda/23.8.0a230727-23.8.0a230728/diff.md --exclude *.pyd
+[2023-07-28 07:10:01] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-28 07:10:01] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230727.tar.gz tmp/dask-cuda-23.8.0a230728.tar.gz --markdown 20230728/d/dask-cuda/23.8.0a230727-23.8.0a230728/diff.md --exclude *.pyd
+[2023-07-28 07:10:01] INFO root fetch - processPackages [zzq-strings-sum]: executing diffoscope
+[2023-07-28 07:10:01] INFO root fetch - processPackages [zzq-strings-sum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zzq-strings-sum-0.5.0.tar.gz tmp/zzq-strings-sum-0.5.1.tar.gz --markdown 20230728/z/zzq-strings-sum/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-28 07:10:01] INFO root fetch - processPackages [zzq-strings-sum]: executing diffoscope
+[2023-07-28 07:10:01] INFO root fetch - processPackages [zzq-strings-sum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zzq-strings-sum-0.5.0.tar.gz tmp/zzq-strings-sum-0.5.1.tar.gz --markdown 20230728/z/zzq-strings-sum/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-28 07:10:01] INFO root fetch - processPackages [morm]: executing diffoscope
+[2023-07-28 07:10:01] INFO root fetch - processPackages [morm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morm-1.5.1-py3-none-any.whl.zip tmp/morm-1.5.2-py3-none-any.whl.zip --markdown 20230728/m/morm/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-07-28 07:10:01] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-28 07:10:01] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230727.tar.gz tmp/rapid_pe-0.1.1.dev20230728.tar.gz --markdown 20230728/r/rapid-pe/0.1.1.dev20230727-0.1.1.dev20230728/diff.md --exclude *.pyd
+[2023-07-28 07:10:02] INFO root fetch - processPackages [zzq-strings-sum]: Remove: archive file [/home/abi/fetcher/tmp/zzq-strings-sum-0.5.0.tar.gz]
+[2023-07-28 07:10:02] INFO root fetch - processPackages [zzq-strings-sum]: Remove: archive file [/home/abi/fetcher/tmp/zzq-strings-sum-0.5.1.tar.gz]
+[2023-07-28 07:10:02] INFO root fetch - main [MainThread]: End processing [zzq-strings-sum]: success
+[2023-07-28 07:10:02] INFO root fetch - main [MainThread]: End processing [zzq-strings-sum]: success
+[2023-07-28 07:10:02] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230727.tar.gz]
+[2023-07-28 07:10:02] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230728.tar.gz]
+[2023-07-28 07:10:02] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-28 07:10:02] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230727.tar.gz]
+[2023-07-28 07:10:02] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230728.tar.gz]
+[2023-07-28 07:10:02] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-28 07:10:02] INFO root fetch - processPackages [morm]: Remove: archive file [/home/abi/fetcher/tmp/morm-1.5.1-py3-none-any.whl.zip]
+[2023-07-28 07:10:02] INFO root fetch - processPackages [morm]: Remove: archive file [/home/abi/fetcher/tmp/morm-1.5.2-py3-none-any.whl.zip]
+[2023-07-28 07:10:02] INFO root fetch - main [MainThread]: End processing [morm]: success
+[2023-07-28 07:10:02] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-28 07:10:02] INFO root fetch - main [MainThread]: Store serial: [19071862]
