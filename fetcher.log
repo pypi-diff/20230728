@@ -20543,3 +20543,187 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 12:37:43] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.27.tar.gz]
 [2023-07-28 12:37:43] INFO root fetch - main [MainThread]: End processing [byquant]: success
 [2023-07-28 12:37:43] INFO root fetch - main [MainThread]: Store serial: [19074520]
+[2023-07-28 12:42:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19074520]
+[2023-07-28 12:42:52] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-28 12:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: read-structure-step
+[2023-07-28 12:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coregio
+[2023-07-28 12:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SeedrClient
+[2023-07-28 12:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apache-iotdb
+[2023-07-28 12:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-aujob
+[2023-07-28 12:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: example-package-kian
+[2023-07-28 12:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bot-common
+[2023-07-28 12:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py3seed
+[2023-07-28 12:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ATTools
+[2023-07-28 12:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: skypilot-nightly
+[2023-07-28 12:42:52] INFO root fetch - processPackages [nonebot-plugin-aujob]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-28 12:42:52] INFO root fetch - processPackages [ATTools]: New version: [0.3] Old Version: [0.2]
+[2023-07-28 12:42:52] INFO root fetch - processPackages [read-structure-step]: New version: [2023.7.6] Old Version: [2023.7.28]
+[2023-07-28 12:42:52] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20230727] Old Version: [1.0.0.dev20230726]
+[2023-07-28 12:42:52] WARNING root fetch - processPackages [SeedrClient]: Skipping, unable to determine old version
+[2023-07-28 12:42:52] INFO root fetch - processPackages [SeedrClient]: Start processing: anta
+[2023-07-28 12:42:52] WARNING root fetch - processPackages [example-package-kian]: Skipping, unable to determine old version
+[2023-07-28 12:42:52] INFO root fetch - main [MainThread]: End processing [SeedrClient] error
+[2023-07-28 12:42:52] INFO root fetch - processPackages [example-package-kian]: Start processing: cm-two
+[2023-07-28 12:42:52] INFO root fetch - main [MainThread]: End processing [example-package-kian] error
+[2023-07-28 12:42:52] INFO root fetch - processPackages [coregio]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-28 12:42:52] INFO root fetch - processPackages [bot-common]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-28 12:42:52] INFO root fetch - processPackages [apache-iotdb]: New version: [1.1.2] Old Version: [1.1.0]
+[2023-07-28 12:42:52] INFO root fetch - processPackages [py3seed]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-28 12:42:52] INFO root fetch - processPackages [anta]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-28 12:42:52] INFO root fetch - processPackages [cm-two]: New version: [2.3.588] Old Version: [2.3.587]
+[2023-07-28 12:42:52] INFO root fetch - processPackages [ATTools]: Downloading https://files.pythonhosted.org/packages/d9/d3/5ef8ba48340c7300e54b314a03ca7c6c3d7c0d5e6eb00aeb9a1b852467d4/ATTools-0.2.tar.gz
+[2023-07-28 12:42:52] INFO root fetch - processPackages [nonebot-plugin-aujob]: Downloading https://files.pythonhosted.org/packages/85/9d/02b2886030c0854ea2cf7de98c967a34e7d4cff64a337695c283c6ba9d2d/nonebot_plugin_aujob-0.0.2.tar.gz
+[2023-07-28 12:42:52] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/1b/b2/89e2f4e514419dd02eed1ab43a6ee5ef2ef2046b68a37185d60fab232543/skypilot-nightly-1.0.0.dev20230726.tar.gz
+[2023-07-28 12:42:52] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/1c/77/2d29f4448516e9b8fa24cb9f76f3ad7dc640b2d57300be07760e217e3a17/py3seed-0.2.3.tar.gz
+[2023-07-28 12:42:52] INFO root fetch - processPackages [bot-common]: Downloading https://files.pythonhosted.org/packages/2a/47/b7a6506be100a92926df660fd3c287dde79fa75b6b2c31ccfc9f62afe0d3/bot_common-0.1.8.tar.gz
+[2023-07-28 12:42:52] INFO root fetch - processPackages [read-structure-step]: Downloading https://files.pythonhosted.org/packages/67/fb/f95139c6d8f5a5ae3f366de93aa75d70e2699bcc90d7097163e0e63aa35a/read_structure_step-2023.7.28.tar.gz
+[2023-07-28 12:42:53] INFO root fetch - processPackages [coregio]: Downloading https://files.pythonhosted.org/packages/43/3c/7ba0913ff11e2a399dc800c918e1d3a7fcaea4be22642b570bfbb9589902/coregio-0.5.1.tar.gz
+[2023-07-28 12:42:53] INFO root fetch - processPackages [apache-iotdb]: Downloading https://files.pythonhosted.org/packages/15/99/bf0d6eae0c005a4dcc88068be36ea3e5b4dcb26e50b6698b4bd814d052e9/apache-iotdb-1.1.0.tar.gz
+[2023-07-28 12:42:53] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/e8/e6/81d23ff4651178b2e70e98f4542c369bcd28ae8be6ebff2fca3f2afd703b/cm_two-2.3.587-py3-none-any.whl
+[2023-07-28 12:42:53] INFO root fetch - processPackages [anta]: Downloading https://files.pythonhosted.org/packages/6d/3a/57076426ee131cd9902549d2a41daf82f61bf69050c528d37a664e1a6af9/anta-0.6.0.tar.gz
+[2023-07-28 12:42:53] INFO root fetch - processPackages [ATTools]: Downloading https://files.pythonhosted.org/packages/fc/91/d034a723b7bba09423809abd71d2dbd68a93a9ef44c4b979707d15eb0c06/ATTools-0.3.tar.gz
+[2023-07-28 12:42:53] INFO root fetch - processPackages [bot-common]: Downloading https://files.pythonhosted.org/packages/81/ab/a40afda484f0fe760e5ca087ae4460ac0c64860f68761792a763c0585bc0/bot_common-0.1.9.tar.gz
+[2023-07-28 12:42:53] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/55/f6/4b784b789fd73e802a4e9ffd94ee078e6c5bfe10f1af9eef09ebf88f86fb/py3seed-0.2.4.tar.gz
+[2023-07-28 12:42:53] INFO root fetch - processPackages [nonebot-plugin-aujob]: Downloading https://files.pythonhosted.org/packages/fd/b0/a616f30ca46c4153733342dd3691eb7622b2b0faab14842b72dba8cae2ca/nonebot_plugin_aujob-0.0.3.tar.gz
+[2023-07-28 12:42:53] INFO root fetch - processPackages [read-structure-step]: Downloading https://files.pythonhosted.org/packages/c9/dc/da4dcf0dbf84ebcfb7d7f48a22e5632ea8d1d930ffc891c1ccc099f3cf7a/read_structure_step-2023.7.6.tar.gz
+[2023-07-28 12:42:53] INFO root fetch - processPackages [coregio]: Downloading https://files.pythonhosted.org/packages/6d/75/d184ada44b5ac9e042055aaa7bd225f74ae7b2feeff47f926ae493efa398/coregio-0.5.2.tar.gz
+[2023-07-28 12:42:53] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/8a/7c/a0e50b81e2e98e567bf862e2c52c12868b40e068d87664f256db4d953d0c/skypilot-nightly-1.0.0.dev20230727.tar.gz
+[2023-07-28 12:42:53] INFO root fetch - processPackages [bot-common]: executing diffoscope
+[2023-07-28 12:42:53] INFO root fetch - processPackages [bot-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bot_common-0.1.8.tar.gz tmp/bot_common-0.1.9.tar.gz --markdown 20230728/b/bot-common/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-28 12:42:53] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/76/f4/87f10ed86e8b912f45f0a061b805811c5795f2ad57d6842673f6e6a87094/cm_two-2.3.588-py3-none-any.whl
+[2023-07-28 12:42:53] INFO root fetch - processPackages [nonebot-plugin-aujob]: executing diffoscope
+[2023-07-28 12:42:53] INFO root fetch - processPackages [nonebot-plugin-aujob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_aujob-0.0.2.tar.gz tmp/nonebot_plugin_aujob-0.0.3.tar.gz --markdown 20230728/n/nonebot-plugin-aujob/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-28 12:42:53] INFO root fetch - processPackages [ATTools]: executing diffoscope
+[2023-07-28 12:42:53] INFO root fetch - processPackages [ATTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ATTools-0.2.tar.gz tmp/ATTools-0.3.tar.gz --markdown 20230728/A/ATTools/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-28 12:42:53] INFO root fetch - processPackages [anta]: Downloading https://files.pythonhosted.org/packages/2b/c5/bca135b6ec950d1045acf2a6bc4ea12ff8c0f254ed3e4a400611227a31fe/anta-0.7.0.tar.gz
+[2023-07-28 12:42:53] INFO root fetch - processPackages [apache-iotdb]: Downloading https://files.pythonhosted.org/packages/51/36/6e73e46e1d6b2d2272a5a1b369da16dd36a3120aa883ea86d2a9a85ce105/apache-iotdb-1.1.2.tar.gz
+[2023-07-28 12:42:53] INFO root fetch - processPackages [coregio]: executing diffoscope
+[2023-07-28 12:42:53] INFO root fetch - processPackages [coregio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coregio-0.5.1.tar.gz tmp/coregio-0.5.2.tar.gz --markdown 20230728/c/coregio/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-28 12:42:53] INFO root fetch - processPackages [py3seed]: executing diffoscope
+[2023-07-28 12:42:53] INFO root fetch - processPackages [py3seed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3seed-0.2.3.tar.gz tmp/py3seed-0.2.4.tar.gz --markdown 20230728/p/py3seed/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-28 12:42:53] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2023-07-28 12:42:53] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20230726.tar.gz tmp/skypilot-nightly-1.0.0.dev20230727.tar.gz --markdown 20230728/s/skypilot-nightly/1.0.0.dev20230726-1.0.0.dev20230727/diff.md --exclude *.pyd
+[2023-07-28 12:42:53] INFO root fetch - processPackages [read-structure-step]: executing diffoscope
+[2023-07-28 12:42:53] INFO root fetch - processPackages [read-structure-step]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/read_structure_step-2023.7.28.tar.gz tmp/read_structure_step-2023.7.6.tar.gz --markdown 20230728/r/read-structure-step/2023.7.28-2023.7.6/diff.md --exclude *.pyd
+[2023-07-28 12:42:53] INFO root fetch - processPackages [anta]: executing diffoscope
+[2023-07-28 12:42:53] INFO root fetch - processPackages [anta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anta-0.6.0.tar.gz tmp/anta-0.7.0.tar.gz --markdown 20230728/a/anta/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-28 12:42:53] INFO root fetch - processPackages [apache-iotdb]: executing diffoscope
+[2023-07-28 12:42:53] INFO root fetch - processPackages [apache-iotdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-iotdb-1.1.0.tar.gz tmp/apache-iotdb-1.1.2.tar.gz --markdown 20230728/a/apache-iotdb/1.1.0-1.1.2/diff.md --exclude *.pyd
+[2023-07-28 12:42:54] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-07-28 12:42:54] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.587-py3-none-any.whl.zip tmp/cm_two-2.3.588-py3-none-any.whl.zip --markdown 20230728/c/cm-two/2.3.587-2.3.588/diff.md --exclude *.pyd
+[2023-07-28 12:42:55] INFO root fetch - processPackages [ATTools]: Remove: archive file [/home/abi/fetcher/tmp/ATTools-0.2.tar.gz]
+[2023-07-28 12:42:55] INFO root fetch - processPackages [ATTools]: Remove: archive file [/home/abi/fetcher/tmp/ATTools-0.3.tar.gz]
+[2023-07-28 12:42:55] INFO root fetch - main [MainThread]: End processing [ATTools]: success
+[2023-07-28 12:42:55] INFO root fetch - processPackages [nonebot-plugin-aujob]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_aujob-0.0.2.tar.gz]
+[2023-07-28 12:42:55] INFO root fetch - processPackages [nonebot-plugin-aujob]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_aujob-0.0.3.tar.gz]
+[2023-07-28 12:42:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-aujob]: success
+[2023-07-28 12:42:55] INFO root fetch - processPackages [bot-common]: Remove: archive file [/home/abi/fetcher/tmp/bot_common-0.1.8.tar.gz]
+[2023-07-28 12:42:55] INFO root fetch - processPackages [bot-common]: Remove: archive file [/home/abi/fetcher/tmp/bot_common-0.1.9.tar.gz]
+[2023-07-28 12:42:55] INFO root fetch - main [MainThread]: End processing [bot-common]: success
+[2023-07-28 12:42:55] INFO root fetch - processPackages [coregio]: Remove: archive file [/home/abi/fetcher/tmp/coregio-0.5.1.tar.gz]
+[2023-07-28 12:42:55] INFO root fetch - processPackages [coregio]: Remove: archive file [/home/abi/fetcher/tmp/coregio-0.5.2.tar.gz]
+[2023-07-28 12:42:55] INFO root fetch - main [MainThread]: End processing [coregio]: success
+[2023-07-28 12:42:55] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: time="2023-07-28T12:42:54+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-07-28 12:42:55] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-07-28 12:42:55] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.2.3.tar.gz]
+[2023-07-28 12:42:55] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.2.4.tar.gz]
+[2023-07-28 12:42:55] INFO root fetch - main [MainThread]: End processing [py3seed]: success
+[2023-07-28 12:42:55] INFO root fetch - processPackages [anta]: Remove: archive file [/home/abi/fetcher/tmp/anta-0.6.0.tar.gz]
+[2023-07-28 12:42:55] INFO root fetch - processPackages [anta]: Remove: archive file [/home/abi/fetcher/tmp/anta-0.7.0.tar.gz]
+[2023-07-28 12:42:55] INFO root fetch - main [MainThread]: End processing [anta]: success
+[2023-07-28 12:42:55] INFO root fetch - processPackages [read-structure-step]: Remove: archive file [/home/abi/fetcher/tmp/read_structure_step-2023.7.28.tar.gz]
+[2023-07-28 12:42:55] INFO root fetch - processPackages [read-structure-step]: Remove: archive file [/home/abi/fetcher/tmp/read_structure_step-2023.7.6.tar.gz]
+[2023-07-28 12:42:55] INFO root fetch - main [MainThread]: End processing [read-structure-step]: success
+[2023-07-28 12:42:56] INFO root fetch - processPackages [apache-iotdb]: Remove: archive file [/home/abi/fetcher/tmp/apache-iotdb-1.1.0.tar.gz]
+[2023-07-28 12:42:56] INFO root fetch - processPackages [apache-iotdb]: Remove: archive file [/home/abi/fetcher/tmp/apache-iotdb-1.1.2.tar.gz]
+[2023-07-28 12:42:56] INFO root fetch - main [MainThread]: End processing [apache-iotdb]: success
+[2023-07-28 12:42:56] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230726.tar.gz]
+[2023-07-28 12:42:56] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230727.tar.gz]
+[2023-07-28 12:42:56] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2023-07-28 12:42:56] INFO root fetch - main [MainThread]: Store serial: [19074559]
