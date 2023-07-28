@@ -20259,3 +20259,197 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 12:26:27] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230728060820.tar.gz]
 [2023-07-28 12:26:27] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-07-28 12:26:27] INFO root fetch - main [MainThread]: Store serial: [19074434]
+[2023-07-28 12:31:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19074434]
+[2023-07-28 12:31:35] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-28 12:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: danling
+[2023-07-28 12:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aio-pika
+[2023-07-28 12:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-opensky
+[2023-07-28 12:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: embody-codec
+[2023-07-28 12:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uni-sdk
+[2023-07-28 12:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sapgui
+[2023-07-28 12:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wwpdb.utils.nmr
+[2023-07-28 12:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ATTools
+[2023-07-28 12:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: load-atoms
+[2023-07-28 12:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cm-two
+[2023-07-28 12:31:35] INFO root fetch - processPackages [cm-two]: New version: [2.3.586] Old Version: [2.3.584]
+[2023-07-28 12:31:35] INFO root fetch - processPackages [danling]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-28 12:31:36] INFO root fetch - processPackages [uni-sdk]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-28 12:31:36] INFO root fetch - processPackages [embody-codec]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-28 12:31:36] INFO root fetch - processPackages [wwpdb.utils.nmr]: New version: [0.29] Old Version: [0.28.dev1]
+[2023-07-28 12:31:36] INFO root fetch - processPackages [python-opensky]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-28 12:31:36] WARNING root fetch - processPackages [sapgui]: Skipping, unable to determine old version
+[2023-07-28 12:31:36] INFO root fetch - processPackages [sapgui]: Start processing: dash-express
+[2023-07-28 12:31:36] INFO root fetch - main [MainThread]: End processing [sapgui] error
+[2023-07-28 12:31:36] WARNING root fetch - processPackages [ATTools]: Skipping, unable to determine old version
+[2023-07-28 12:31:36] INFO root fetch - processPackages [ATTools]: Start processing: thinkPass
+[2023-07-28 12:31:36] INFO root fetch - main [MainThread]: End processing [ATTools] error
+[2023-07-28 12:31:36] INFO root fetch - processPackages [load-atoms]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 12:31:36] INFO root fetch - processPackages [aio-pika]: New version: [9.2.0] Old Version: [9.1.5]
+[2023-07-28 12:31:36] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-07-28 12:31:36] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.584-py3-none-any.whl.zip tmp/cm_two-2.3.586-py3-none-any.whl.zip --markdown 20230728/c/cm-two/2.3.584-2.3.586/diff.md --exclude *.pyd
+[2023-07-28 12:31:36] INFO root fetch - processPackages [thinkPass]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-07-28 12:31:36] INFO root fetch - processPackages [danling]: Downloading https://files.pythonhosted.org/packages/eb/fa/de5f2def4160a45b5f50b4af90280823b803f72d46787da91b47bee6be41/danling-0.2.8.tar.gz
+[2023-07-28 12:31:36] WARNING root fetch - processPackages [dash-express]: Skipping, unable to determine old version
+[2023-07-28 12:31:36] INFO root fetch - processPackages [dash-express]: Start processing: pepperize.cdk-private-bucket
+[2023-07-28 12:31:36] INFO root fetch - main [MainThread]: End processing [dash-express] error
+[2023-07-28 12:31:36] INFO root fetch - processPackages [thinkPass]: Downloading https://files.pythonhosted.org/packages/d9/13/09e9ceb8ca28db997f0b6e1037124b8f32e16d4a0e69bc1275d6ddc369a5/thinkPass-1.0.1.tar.gz
+[2023-07-28 12:31:36] INFO root fetch - processPackages [uni-sdk]: Downloading https://files.pythonhosted.org/packages/dc/fe/b0a08b0bf76ec9df7cf75d9ce2c49e361e7a07cc48d5459f310271c55770/uni-sdk-0.2.0.tar.gz
+[2023-07-28 12:31:36] INFO root fetch - processPackages [embody-codec]: Downloading https://files.pythonhosted.org/packages/be/8e/d27f9cf42aac9e1d93d50f6595c75b042365a1208fb9a803f87d53fe2592/embody_codec-1.0.8.tar.gz
+[2023-07-28 12:31:36] INFO root fetch - processPackages [wwpdb.utils.nmr]: Downloading https://files.pythonhosted.org/packages/e6/9b/9060b5ef9a11e45cc51dbc5e533588752107192ff5a5d7c63e4484fb8018/wwpdb.utils.nmr-0.28.dev1.tar.gz
+[2023-07-28 12:31:36] INFO root fetch - processPackages [aio-pika]: Downloading https://files.pythonhosted.org/packages/84/ab/c971555fd8a05c6859addd9d08a717b2eaf6909388b1e7b04756e05cf91b/aio_pika-9.1.5.tar.gz
+[2023-07-28 12:31:36] INFO root fetch - processPackages [load-atoms]: Downloading https://files.pythonhosted.org/packages/87/b0/e1018f2e1c3385c1ff26d69d0307902beb12fda0dde5f8036f7ec9448eb5/load-atoms-0.0.8.tar.gz
+[2023-07-28 12:31:36] INFO root fetch - processPackages [python-opensky]: Downloading https://files.pythonhosted.org/packages/e6/3d/25e229d9939cb5c1bb3d644d0c9187192e12b344d411531125485f326cb7/python_opensky-0.0.9.tar.gz
+[2023-07-28 12:31:36] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-28 12:31:36] INFO root fetch - processPackages [thinkPass]: Downloading https://files.pythonhosted.org/packages/d7/d0/f208b92149cdde810576339a83011f775eb6797524b6d52a8389b1f1473c/thinkPass-2.0.0.tar.gz
+[2023-07-28 12:31:36] INFO root fetch - processPackages [uni-sdk]: Downloading https://files.pythonhosted.org/packages/7c/a5/3310d2d5db8646bf17cfd60b09d584a9b4bd077ce5914bf0204cc8e4ff86/uni-sdk-0.3.0.tar.gz
+[2023-07-28 12:31:36] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-07-28 12:31:36] INFO root fetch - processPackages [aio-pika]: Downloading https://files.pythonhosted.org/packages/90/c8/2c2cc16b3b8145aec61326c76e5ffb086a2a40aa7588f61623ad04fb4c5c/aio_pika-9.2.0.tar.gz
+[2023-07-28 12:31:36] INFO root fetch - processPackages [thinkPass]: executing diffoscope
+[2023-07-28 12:31:36] INFO root fetch - processPackages [thinkPass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thinkPass-1.0.1.tar.gz tmp/thinkPass-2.0.0.tar.gz --markdown 20230728/t/thinkPass/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-28 12:31:36] INFO root fetch - processPackages [python-opensky]: Downloading https://files.pythonhosted.org/packages/15/88/38d8e279664b3cdf89981eee04ce36f01adb6cbee79f11dce6b029831e08/python_opensky-0.1.0.tar.gz
+[2023-07-28 12:31:36] INFO root fetch - processPackages [embody-codec]: Downloading https://files.pythonhosted.org/packages/7d/57/0c220ff3b777024e60dd44ce88c7057ec13b04bccd5b5536c45ea4875d8a/embody_codec-1.0.9.tar.gz
+[2023-07-28 12:31:36] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: time="2023-07-28T12:31:36+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-07-28 12:31:36] INFO root fetch - processPackages [cm-two]: Start processing: lark-oapi
+[2023-07-28 12:31:36] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-07-28 12:31:36] INFO root fetch - processPackages [uni-sdk]: executing diffoscope
+[2023-07-28 12:31:36] INFO root fetch - processPackages [uni-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uni-sdk-0.2.0.tar.gz tmp/uni-sdk-0.3.0.tar.gz --markdown 20230728/u/uni-sdk/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-28 12:31:36] INFO root fetch - processPackages [load-atoms]: Downloading https://files.pythonhosted.org/packages/db/fd/b94c92ee70a8d26b65872f25a6c07bcc4a0cde8336d34ff30c6cd9c95452/load-atoms-0.0.9.tar.gz
+[2023-07-28 12:31:36] INFO root fetch - processPackages [lark-oapi]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-28 12:31:36] INFO root fetch - processPackages [aio-pika]: executing diffoscope
+[2023-07-28 12:31:36] INFO root fetch - processPackages [aio-pika]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio_pika-9.1.5.tar.gz tmp/aio_pika-9.2.0.tar.gz --markdown 20230728/a/aio-pika/9.1.5-9.2.0/diff.md --exclude *.pyd
+[2023-07-28 12:31:36] INFO root fetch - processPackages [wwpdb.utils.nmr]: Downloading https://files.pythonhosted.org/packages/99/67/22b3c671c436d46c423b4619a011c00f75650c96dca5c422eb20c1bec587/wwpdb.utils.nmr-0.29.tar.gz
+[2023-07-28 12:31:36] INFO root fetch - processPackages [python-opensky]: executing diffoscope
+[2023-07-28 12:31:36] INFO root fetch - processPackages [python-opensky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_opensky-0.0.9.tar.gz tmp/python_opensky-0.1.0.tar.gz --markdown 20230728/p/python-opensky/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-28 12:31:37] INFO root fetch - processPackages [lark-oapi]: Downloading https://files.pythonhosted.org/packages/03/12/9d738059afd7295e2305f32307ca21eb73f7088c796dda3a32dc3297b535/lark-oapi-1.0.7.tar.gz
+[2023-07-28 12:31:37] INFO root fetch - processPackages [danling]: Downloading https://files.pythonhosted.org/packages/73/a7/97b5a6bb02e949a47e52eeed99053b0ebe6a580018dc0ac4478973b528f2/danling-0.2.9.tar.gz
+[2023-07-28 12:31:37] INFO root fetch - processPackages [load-atoms]: executing diffoscope
+[2023-07-28 12:31:37] INFO root fetch - processPackages [load-atoms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/load-atoms-0.0.8.tar.gz tmp/load-atoms-0.0.9.tar.gz --markdown 20230728/l/load-atoms/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 12:31:37] INFO root fetch - processPackages [embody-codec]: executing diffoscope
+[2023-07-28 12:31:37] INFO root fetch - processPackages [embody-codec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embody_codec-1.0.8.tar.gz tmp/embody_codec-1.0.9.tar.gz --markdown 20230728/e/embody-codec/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-28 12:31:37] INFO root fetch - processPackages [wwpdb.utils.nmr]: executing diffoscope
+[2023-07-28 12:31:37] INFO root fetch - processPackages [wwpdb.utils.nmr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.utils.nmr-0.28.dev1.tar.gz tmp/wwpdb.utils.nmr-0.29.tar.gz --markdown 20230728/w/wwpdb.utils.nmr/0.28.dev1-0.29/diff.md --exclude *.pyd
+[2023-07-28 12:31:37] INFO root fetch - processPackages [lark-oapi]: Downloading https://files.pythonhosted.org/packages/db/89/d513f03ed62dcdcc01cb27016c2024510981035e3eee919442d6bef15fd4/lark-oapi-1.0.8.tar.gz
+[2023-07-28 12:31:37] INFO root fetch - processPackages [danling]: executing diffoscope
+[2023-07-28 12:31:37] INFO root fetch - processPackages [danling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danling-0.2.8.tar.gz tmp/danling-0.2.9.tar.gz --markdown 20230728/d/danling/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-28 12:31:37] INFO root fetch - processPackages [lark-oapi]: executing diffoscope
+[2023-07-28 12:31:37] INFO root fetch - processPackages [lark-oapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lark-oapi-1.0.7.tar.gz tmp/lark-oapi-1.0.8.tar.gz --markdown 20230728/l/lark-oapi/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-28 12:31:37] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-07-28 12:31:38] INFO root fetch - processPackages [thinkPass]: Remove: archive file [/home/abi/fetcher/tmp/thinkPass-1.0.1.tar.gz]
+[2023-07-28 12:31:38] INFO root fetch - processPackages [thinkPass]: Remove: archive file [/home/abi/fetcher/tmp/thinkPass-2.0.0.tar.gz]
+[2023-07-28 12:31:38] INFO root fetch - main [MainThread]: End processing [thinkPass]: success
+[2023-07-28 12:31:38] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-07-28 12:31:38] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230728/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-28 12:31:38] INFO root fetch - processPackages [uni-sdk]: Remove: archive file [/home/abi/fetcher/tmp/uni-sdk-0.2.0.tar.gz]
+[2023-07-28 12:31:38] INFO root fetch - processPackages [uni-sdk]: Remove: archive file [/home/abi/fetcher/tmp/uni-sdk-0.3.0.tar.gz]
+[2023-07-28 12:31:38] INFO root fetch - main [MainThread]: End processing [uni-sdk]: success
+[2023-07-28 12:31:38] INFO root fetch - processPackages [python-opensky]: Remove: archive file [/home/abi/fetcher/tmp/python_opensky-0.0.9.tar.gz]
+[2023-07-28 12:31:38] INFO root fetch - processPackages [python-opensky]: Remove: archive file [/home/abi/fetcher/tmp/python_opensky-0.1.0.tar.gz]
+[2023-07-28 12:31:38] INFO root fetch - main [MainThread]: End processing [python-opensky]: success
+[2023-07-28 12:31:38] INFO root fetch - processPackages [aio-pika]: Remove: archive file [/home/abi/fetcher/tmp/aio_pika-9.1.5.tar.gz]
+[2023-07-28 12:31:38] INFO root fetch - processPackages [aio-pika]: Remove: archive file [/home/abi/fetcher/tmp/aio_pika-9.2.0.tar.gz]
+[2023-07-28 12:31:38] INFO root fetch - main [MainThread]: End processing [aio-pika]: success
+[2023-07-28 12:31:38] INFO root fetch - processPackages [load-atoms]: Remove: archive file [/home/abi/fetcher/tmp/load-atoms-0.0.8.tar.gz]
+[2023-07-28 12:31:38] INFO root fetch - processPackages [load-atoms]: Remove: archive file [/home/abi/fetcher/tmp/load-atoms-0.0.9.tar.gz]
+[2023-07-28 12:31:38] INFO root fetch - main [MainThread]: End processing [load-atoms]: success
+[2023-07-28 12:31:38] INFO root fetch - processPackages [embody-codec]: Remove: archive file [/home/abi/fetcher/tmp/embody_codec-1.0.8.tar.gz]
+[2023-07-28 12:31:38] INFO root fetch - processPackages [embody-codec]: Remove: archive file [/home/abi/fetcher/tmp/embody_codec-1.0.9.tar.gz]
+[2023-07-28 12:31:38] INFO root fetch - main [MainThread]: End processing [embody-codec]: success
+[2023-07-28 12:31:39] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz]
+[2023-07-28 12:31:39] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
+[2023-07-28 12:31:39] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-07-28 12:31:39] INFO root fetch - processPackages [danling]: Remove: archive file [/home/abi/fetcher/tmp/danling-0.2.8.tar.gz]
+[2023-07-28 12:31:39] INFO root fetch - processPackages [danling]: Remove: archive file [/home/abi/fetcher/tmp/danling-0.2.9.tar.gz]
+[2023-07-28 12:31:39] INFO root fetch - main [MainThread]: End processing [danling]: success
+[2023-07-28 12:31:40] INFO root fetch - processPackages [wwpdb.utils.nmr]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.utils.nmr-0.28.dev1.tar.gz]
+[2023-07-28 12:31:40] INFO root fetch - processPackages [wwpdb.utils.nmr]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.utils.nmr-0.29.tar.gz]
+[2023-07-28 12:31:40] INFO root fetch - main [MainThread]: End processing [wwpdb.utils.nmr]: success
+[2023-07-28 12:32:30] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.0.7.tar.gz]
+[2023-07-28 12:32:30] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.0.8.tar.gz]
+[2023-07-28 12:32:30] INFO root fetch - main [MainThread]: End processing [lark-oapi]: success
+[2023-07-28 12:32:30] INFO root fetch - main [MainThread]: Store serial: [19074485]
