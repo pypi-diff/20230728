@@ -18291,3 +18291,135 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 11:23:10] INFO root fetch - processPackages [manila]: Remove: archive file [/home/abi/fetcher/tmp/manila-9.1.5.tar.gz]
 [2023-07-28 11:23:10] INFO root fetch - main [MainThread]: End processing [manila]: success
 [2023-07-28 11:23:10] INFO root fetch - main [MainThread]: Store serial: [19073839]
+[2023-07-28 11:28:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19073839]
+[2023-07-28 11:28:19] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-28 11:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dcnum
+[2023-07-28 11:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: copernicus-marine-client
+[2023-07-28 11:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thetiscore
+[2023-07-28 11:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bluecellulab
+[2023-07-28 11:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cai-causal-graph
+[2023-07-28 11:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: harrier
+[2023-07-28 11:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bluecellulab
+[2023-07-28 11:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lark-oapi
+[2023-07-28 11:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: thetis
+[2023-07-28 11:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mahdix
+[2023-07-28 11:28:19] INFO root fetch - processPackages [copernicus-marine-client]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-07-28 11:28:19] INFO root fetch - processPackages [thetiscore]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-28 11:28:19] INFO root fetch - processPackages [cai-causal-graph]: New version: [0.1.0.dev0] Old Version: [0.0.0]
+[2023-07-28 11:28:19] INFO root fetch - processPackages [harrier]: New version: [0.9] Old Version: [0.8]
+[2023-07-28 11:28:19] INFO root fetch - processPackages [bluecellulab]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-28 11:28:19] INFO root fetch - processPackages [dcnum]: New version: [0.11.7] Old Version: [0.11.6]
+[2023-07-28 11:28:19] INFO root fetch - processPackages [bluecellulab]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-28 11:28:19] INFO root fetch - processPackages [lark-oapi]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-28 11:28:19] INFO root fetch - processPackages [mahdix]: New version: [0.1.4.2] Old Version: [0.1.4.1]
+[2023-07-28 11:28:19] WARNING root fetch - processPackages [thetis]: Skipping, unable to determine old version
+[2023-07-28 11:28:19] INFO root fetch - processPackages [thetis]: Start processing: pkgUdit
+[2023-07-28 11:28:19] INFO root fetch - main [MainThread]: End processing [thetis] error
+[2023-07-28 11:28:20] INFO root fetch - processPackages [pkgUdit]: New version: [1.1.5.7] Old Version: [1.1.5.6]
+[2023-07-28 11:28:20] INFO root fetch - processPackages [copernicus-marine-client]: Downloading https://files.pythonhosted.org/packages/5f/96/a44e9ab263598a6f0858406b553d5e4dff56b35cadf3183abff1c5995f31/copernicus_marine_client-0.8.7.tar.gz
+[2023-07-28 11:28:20] INFO root fetch - processPackages [harrier]: Downloading https://files.pythonhosted.org/packages/c8/b8/a4f3daecc2f89333b8bc52bc3fe74e7a7171e764d5027b18ddf96247d472/harrier-0.8.tar.gz
+[2023-07-28 11:28:20] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/15/44/d21ed876d8d48a96d28683b6c6b8f60e09d2850759041c34d6b91a7f199b/bluecellulab-1.3.0.tar.gz
+[2023-07-28 11:28:20] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/15/44/d21ed876d8d48a96d28683b6c6b8f60e09d2850759041c34d6b91a7f199b/bluecellulab-1.3.0.tar.gz
+[2023-07-28 11:28:20] INFO root fetch - processPackages [lark-oapi]: Downloading https://files.pythonhosted.org/packages/09/3a/59ca80c37e8d0393e9ee0afb2f37e629d9347166a653377eca5bd5696b41/lark-oapi-1.0.6.tar.gz
+[2023-07-28 11:28:20] INFO root fetch - processPackages [mahdix]: Downloading https://files.pythonhosted.org/packages/0d/bb/7f311fb206347272ad641b6648e8c0fab1042c33b02f46c552707174d495/mahdix-0.1.4.1.tar.gz
+[2023-07-28 11:28:20] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/68/5b/d54a12f274518c8866d0bdc0d0eb3baae5022dd5e466b612d074c758213c/dcnum-0.11.6.tar.gz
+[2023-07-28 11:28:20] WARNING root fetch - processPackages [bluecellulab]: Skipping package: exceeds size limit 13681223>=10485760
+[2023-07-28 11:28:20] INFO root fetch - processPackages [bluecellulab]: Start processing: nucliadb-contributor-assets
+[2023-07-28 11:28:20] INFO root fetch - main [MainThread]: End processing [bluecellulab] error
+[2023-07-28 11:28:20] WARNING root fetch - processPackages [bluecellulab]: Skipping package: exceeds size limit 13681223>=10485760
+[2023-07-28 11:28:20] INFO root fetch - processPackages [bluecellulab]: Start processing: t4gpd
+[2023-07-28 11:28:20] INFO root fetch - main [MainThread]: End processing [bluecellulab] error
+[2023-07-28 11:28:20] INFO root fetch - processPackages [pkgUdit]: Downloading https://files.pythonhosted.org/packages/56/e3/eb9b06b345bb71f46c18516ae799ed412a362c91a8e2287e75b935110406/pkgUdit-1.1.5.6.tar.gz
+[2023-07-28 11:28:20] INFO root fetch - processPackages [cai-causal-graph]: Downloading https://files.pythonhosted.org/packages/cd/ba/50bd811908f82e31668dda3f8c384a8b2f83110eed688862476bef6627df/cai_causal_graph-0.0.0.tar.gz
+[2023-07-28 11:28:20] INFO root fetch - processPackages [thetiscore]: Downloading https://files.pythonhosted.org/packages/b4/e0/1a399efd8974c70713f923dcea689dfef202865be44cc80f5469cf5ee819/thetiscore-0.1.0-cp39-cp39-win_amd64.whl
+[2023-07-28 11:28:20] INFO root fetch - processPackages [t4gpd]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-28 11:28:20] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post918] Old Version: [1.0.0.post917]
+[2023-07-28 11:28:20] INFO root fetch - processPackages [copernicus-marine-client]: Downloading https://files.pythonhosted.org/packages/95/6a/508fb49cf42b5649183b00581d11df5a879aafbf26b205a07c032ef3526c/copernicus_marine_client-0.8.8.tar.gz
+[2023-07-28 11:28:20] INFO root fetch - processPackages [t4gpd]: Downloading https://files.pythonhosted.org/packages/fa/1c/befa20ba5a0c7d0bef1b45c25bbc706f254a17c98b92a16ab28a9412d77f/t4gpd-0.7.0.tar.gz
+[2023-07-28 11:28:20] INFO root fetch - processPackages [harrier]: Downloading https://files.pythonhosted.org/packages/da/d9/73d4e1ea6f732875f65a6b72509e5e47a74ca299ba2c860f476012c2ec6a/harrier-0.9.tar.gz
+[2023-07-28 11:28:20] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/48/96/6e418cbd248a2a36266e43ac61140a1caad9ac61556e7e514c48ad7b1071/nucliadb_contributor_assets-1.0.0.post917-py3-none-any.whl
+[2023-07-28 11:28:20] INFO root fetch - processPackages [mahdix]: Downloading https://files.pythonhosted.org/packages/0a/7c/07de7453bb3c13288a1c889831042351cc13b7c723a478544967d99746ff/mahdix-0.1.4.2.tar.gz
+[2023-07-28 11:28:20] INFO root fetch - processPackages [lark-oapi]: Downloading https://files.pythonhosted.org/packages/03/12/9d738059afd7295e2305f32307ca21eb73f7088c796dda3a32dc3297b535/lark-oapi-1.0.7.tar.gz
+[2023-07-28 11:28:20] INFO root fetch - processPackages [copernicus-marine-client]: executing diffoscope
+[2023-07-28 11:28:20] INFO root fetch - processPackages [copernicus-marine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copernicus_marine_client-0.8.7.tar.gz tmp/copernicus_marine_client-0.8.8.tar.gz --markdown 20230728/c/copernicus-marine-client/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-07-28 11:28:20] INFO root fetch - processPackages [cai-causal-graph]: Downloading https://files.pythonhosted.org/packages/67/c8/96dd4f7041a0461798d0a9bac3b39bf216c317443b06b0157fdb01a9c9cb/cai_causal_graph-0.1.0.dev0.tar.gz
+[2023-07-28 11:28:20] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/5f/8b/902183510b5e5f22ef1b70acfd07730084747903fe2487fb95af150574e9/dcnum-0.11.7.tar.gz
+[2023-07-28 11:28:20] INFO root fetch - processPackages [harrier]: executing diffoscope
+[2023-07-28 11:28:20] INFO root fetch - processPackages [harrier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harrier-0.8.tar.gz tmp/harrier-0.9.tar.gz --markdown 20230728/h/harrier/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-28 11:28:20] INFO root fetch - processPackages [pkgUdit]: Downloading https://files.pythonhosted.org/packages/7d/10/4cf8edfa96d30536e30a92dde40a40b90c231994f88ccbdf8f57c58c25e9/pkgUdit-1.1.5.7.tar.gz
+[2023-07-28 11:28:20] INFO root fetch - processPackages [cai-causal-graph]: executing diffoscope
+[2023-07-28 11:28:20] INFO root fetch - processPackages [cai-causal-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cai_causal_graph-0.0.0.tar.gz tmp/cai_causal_graph-0.1.0.dev0.tar.gz --markdown 20230728/c/cai-causal-graph/0.0.0-0.1.0.dev0/diff.md --exclude *.pyd
+[2023-07-28 11:28:20] INFO root fetch - processPackages [mahdix]: executing diffoscope
+[2023-07-28 11:28:20] INFO root fetch - processPackages [mahdix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mahdix-0.1.4.1.tar.gz tmp/mahdix-0.1.4.2.tar.gz --markdown 20230728/m/mahdix/0.1.4.1-0.1.4.2/diff.md --exclude *.pyd
+[2023-07-28 11:28:21] INFO root fetch - processPackages [lark-oapi]: executing diffoscope
+[2023-07-28 11:28:21] INFO root fetch - processPackages [lark-oapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lark-oapi-1.0.6.tar.gz tmp/lark-oapi-1.0.7.tar.gz --markdown 20230728/l/lark-oapi/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-28 11:28:21] INFO root fetch - processPackages [pkgUdit]: executing diffoscope
+[2023-07-28 11:28:21] INFO root fetch - processPackages [pkgUdit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgUdit-1.1.5.6.tar.gz tmp/pkgUdit-1.1.5.7.tar.gz --markdown 20230728/p/pkgUdit/1.1.5.6-1.1.5.7/diff.md --exclude *.pyd
+[2023-07-28 11:28:21] INFO root fetch - processPackages [t4gpd]: Downloading https://files.pythonhosted.org/packages/81/1a/3af8b5764d5c2430e7d3f635a2ce8e809347082d01b9d5104038b010923c/t4gpd-0.7.1.tar.gz
+[2023-07-28 11:28:21] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/34/ef/ee7281dbeefb19e383bb9f1e8180a8c2816c5ea9d0b3b7efcf86963383f9/nucliadb_contributor_assets-1.0.0.post918-py3-none-any.whl
+[2023-07-28 11:28:21] INFO root fetch - processPackages [dcnum]: executing diffoscope
+[2023-07-28 11:28:21] INFO root fetch - processPackages [dcnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcnum-0.11.6.tar.gz tmp/dcnum-0.11.7.tar.gz --markdown 20230728/d/dcnum/0.11.6-0.11.7/diff.md --exclude *.pyd
+[2023-07-28 11:28:21] INFO root fetch - processPackages [thetiscore]: Downloading https://files.pythonhosted.org/packages/b8/dc/5a6d6a428e82885a6f9293928e304fd9f6efb60741deb44e1846ad29f59f/thetiscore-0.1.1-cp39-cp39-win_amd64.whl
+[2023-07-28 11:28:21] INFO root fetch - processPackages [t4gpd]: executing diffoscope
+[2023-07-28 11:28:21] INFO root fetch - processPackages [t4gpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t4gpd-0.7.0.tar.gz tmp/t4gpd-0.7.1.tar.gz --markdown 20230728/t/t4gpd/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-28 11:28:21] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-07-28 11:28:21] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post917-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post918-py3-none-any.whl.zip --markdown 20230728/n/nucliadb-contributor-assets/1.0.0.post917-1.0.0.post918/diff.md --exclude *.pyd
+[2023-07-28 11:28:21] INFO root fetch - processPackages [thetiscore]: executing diffoscope
+[2023-07-28 11:28:21] INFO root fetch - processPackages [thetiscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thetiscore-0.1.0-cp39-cp39-win_amd64.whl.zip tmp/thetiscore-0.1.1-cp39-cp39-win_amd64.whl.zip --markdown 20230728/t/thetiscore/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-28 11:28:21] INFO root fetch - processPackages [copernicus-marine-client]: Remove: archive file [/home/abi/fetcher/tmp/copernicus_marine_client-0.8.7.tar.gz]
+[2023-07-28 11:28:21] INFO root fetch - processPackages [copernicus-marine-client]: Remove: archive file [/home/abi/fetcher/tmp/copernicus_marine_client-0.8.8.tar.gz]
+[2023-07-28 11:28:21] INFO root fetch - processPackages [copernicus-marine-client]: Start processing: gitreview-gpt
+[2023-07-28 11:28:21] INFO root fetch - main [MainThread]: End processing [copernicus-marine-client]: success
+[2023-07-28 11:28:21] WARNING root fetch - processPackages [gitreview-gpt]: Skipping, unable to determine old version
+[2023-07-28 11:28:21] INFO root fetch - processPackages [gitreview-gpt]: Start processing: pkgAnant
+[2023-07-28 11:28:21] INFO root fetch - main [MainThread]: End processing [gitreview-gpt] error
+[2023-07-28 11:28:22] INFO root fetch - processPackages [pkgAnant]: New version: [3.3.3] Old Version: [3.2.3]
+[2023-07-28 11:28:22] INFO root fetch - processPackages [pkgAnant]: Downloading https://files.pythonhosted.org/packages/29/9f/a460020f107dfbfa8aa7308ebcb3731da50a1f2d9402e5df8b34435c2200/pkgAnant-3.2.3.tar.gz
+[2023-07-28 11:28:22] INFO root fetch - processPackages [mahdix]: Remove: archive file [/home/abi/fetcher/tmp/mahdix-0.1.4.1.tar.gz]
+[2023-07-28 11:28:22] INFO root fetch - processPackages [mahdix]: Remove: archive file [/home/abi/fetcher/tmp/mahdix-0.1.4.2.tar.gz]
+[2023-07-28 11:28:22] INFO root fetch - processPackages [mahdix]: Start processing: odin-sdk-python
+[2023-07-28 11:28:22] INFO root fetch - main [MainThread]: End processing [mahdix]: success
+[2023-07-28 11:28:22] INFO root fetch - processPackages [harrier]: Remove: archive file [/home/abi/fetcher/tmp/harrier-0.8.tar.gz]
+[2023-07-28 11:28:22] INFO root fetch - processPackages [cai-causal-graph]: Remove: archive file [/home/abi/fetcher/tmp/cai_causal_graph-0.0.0.tar.gz]
+[2023-07-28 11:28:22] INFO root fetch - processPackages [harrier]: Remove: archive file [/home/abi/fetcher/tmp/harrier-0.9.tar.gz]
+[2023-07-28 11:28:22] INFO root fetch - processPackages [cai-causal-graph]: Remove: archive file [/home/abi/fetcher/tmp/cai_causal_graph-0.1.0.dev0.tar.gz]
+[2023-07-28 11:28:22] INFO root fetch - processPackages [harrier]: Start processing: smartscheduler
+[2023-07-28 11:28:22] INFO root fetch - main [MainThread]: End processing [harrier]: success
+[2023-07-28 11:28:22] INFO root fetch - main [MainThread]: End processing [cai-causal-graph]: success
+[2023-07-28 11:28:22] INFO root fetch - processPackages [pkgUdit]: Remove: archive file [/home/abi/fetcher/tmp/pkgUdit-1.1.5.6.tar.gz]
+[2023-07-28 11:28:22] INFO root fetch - processPackages [pkgUdit]: Remove: archive file [/home/abi/fetcher/tmp/pkgUdit-1.1.5.7.tar.gz]
+[2023-07-28 11:28:22] INFO root fetch - main [MainThread]: End processing [pkgUdit]: success
+[2023-07-28 11:28:22] INFO root fetch - processPackages [odin-sdk-python]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-28 11:28:22] INFO root fetch - processPackages [smartscheduler]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-28 11:28:22] INFO root fetch - processPackages [pkgAnant]: Downloading https://files.pythonhosted.org/packages/bd/79/0afed452b7709de9c4ea77938c98ae84492a1274f9ba179244b9d067ad58/pkgAnant-3.3.3.tar.gz
+[2023-07-28 11:28:22] INFO root fetch - processPackages [odin-sdk-python]: Downloading https://files.pythonhosted.org/packages/60/3f/be78a6a73cfec1cbfa56e762340f4639018707c7efa11a2ff46e9ee3a907/odin_sdk_python-0.0.5.tar.gz
+[2023-07-28 11:28:22] INFO root fetch - processPackages [pkgAnant]: executing diffoscope
+[2023-07-28 11:28:22] INFO root fetch - processPackages [pkgAnant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgAnant-3.2.3.tar.gz tmp/pkgAnant-3.3.3.tar.gz --markdown 20230728/p/pkgAnant/3.2.3-3.3.3/diff.md --exclude *.pyd
+[2023-07-28 11:28:22] INFO root fetch - processPackages [smartscheduler]: Downloading https://files.pythonhosted.org/packages/4c/33/31fdf3ef44bf04e0bf672abacf8372633f0fc2caa188e8c5d2739a2c6a2f/smartscheduler-0.0.1.tar.gz
+[2023-07-28 11:28:22] WARNING root fetch - processPackages [smartscheduler]: Skipping package: exceeds size limit 17320896>=10485760
+[2023-07-28 11:28:22] INFO root fetch - main [MainThread]: End processing [smartscheduler] error
+[2023-07-28 11:28:22] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.11.6.tar.gz]
+[2023-07-28 11:28:22] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.11.7.tar.gz]
+[2023-07-28 11:28:22] INFO root fetch - main [MainThread]: End processing [dcnum]: success
+[2023-07-28 11:28:22] INFO root fetch - processPackages [odin-sdk-python]: Downloading https://files.pythonhosted.org/packages/b7/da/b79e8346ff1c4443c8312f79d79e023e164dbbcf6f1b55df58331c02ff04/odin_sdk_python-0.0.6.tar.gz
+[2023-07-28 11:28:23] INFO root fetch - processPackages [thetiscore]: Remove: archive file [/home/abi/fetcher/tmp/thetiscore-0.1.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-28 11:28:23] INFO root fetch - processPackages [thetiscore]: Remove: archive file [/home/abi/fetcher/tmp/thetiscore-0.1.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-28 11:28:23] INFO root fetch - main [MainThread]: End processing [thetiscore]: success
+[2023-07-28 11:28:23] INFO root fetch - processPackages [odin-sdk-python]: executing diffoscope
+[2023-07-28 11:28:23] INFO root fetch - processPackages [odin-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odin_sdk_python-0.0.5.tar.gz tmp/odin_sdk_python-0.0.6.tar.gz --markdown 20230728/o/odin-sdk-python/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-28 11:28:23] INFO root fetch - processPackages [pkgAnant]: Remove: archive file [/home/abi/fetcher/tmp/pkgAnant-3.2.3.tar.gz]
+[2023-07-28 11:28:23] INFO root fetch - processPackages [pkgAnant]: Remove: archive file [/home/abi/fetcher/tmp/pkgAnant-3.3.3.tar.gz]
+[2023-07-28 11:28:23] INFO root fetch - main [MainThread]: End processing [pkgAnant]: success
+[2023-07-28 11:28:23] INFO root fetch - processPackages [odin-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/odin_sdk_python-0.0.5.tar.gz]
+[2023-07-28 11:28:23] INFO root fetch - processPackages [odin-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/odin_sdk_python-0.0.6.tar.gz]
+[2023-07-28 11:28:23] INFO root fetch - main [MainThread]: End processing [odin-sdk-python]: success
+[2023-07-28 11:28:24] INFO root fetch - processPackages [t4gpd]: Remove: archive file [/home/abi/fetcher/tmp/t4gpd-0.7.0.tar.gz]
+[2023-07-28 11:28:24] INFO root fetch - processPackages [t4gpd]: Remove: archive file [/home/abi/fetcher/tmp/t4gpd-0.7.1.tar.gz]
+[2023-07-28 11:28:24] INFO root fetch - main [MainThread]: End processing [t4gpd]: success
+[2023-07-28 11:28:35] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post917-py3-none-any.whl.zip]
+[2023-07-28 11:28:35] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post918-py3-none-any.whl.zip]
+[2023-07-28 11:28:35] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-07-28 11:29:14] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.0.6.tar.gz]
+[2023-07-28 11:29:14] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.0.7.tar.gz]
+[2023-07-28 11:29:14] INFO root fetch - main [MainThread]: End processing [lark-oapi]: success
+[2023-07-28 11:29:14] INFO root fetch - main [MainThread]: Store serial: [19073897]
