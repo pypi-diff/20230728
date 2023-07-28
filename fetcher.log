@@ -12567,3 +12567,74 @@
 [2023-07-28 06:33:41] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.4.6.tar.gz]
 [2023-07-28 06:33:41] INFO root fetch - main [MainThread]: End processing [pymino]: success
 [2023-07-28 06:33:41] INFO root fetch - main [MainThread]: Store serial: [19071573]
+[2023-07-28 06:38:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19071573]
+[2023-07-28 06:38:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-28 06:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-aws
+[2023-07-28 06:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: miso2
+[2023-07-28 06:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snowflake-connector-python-nightly
+[2023-07-28 06:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adafruit-circuitpython-display-text
+[2023-07-28 06:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keksik-api
+[2023-07-28 06:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sparksampling
+[2023-07-28 06:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dsds
+[2023-07-28 06:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ifunnygifmaker
+[2023-07-28 06:38:50] INFO root fetch - processPackages [keksik-api]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-28 06:38:50] INFO root fetch - processPackages [sparksampling]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-28 06:38:50] INFO root fetch - processPackages [miso2]: New version: [3.0.5] Old Version: [3.0.4]
+[2023-07-28 06:38:50] INFO root fetch - processPackages [adafruit-circuitpython-display-text]: New version: [3.0.0] Old Version: [2.9.5]
+[2023-07-28 06:38:50] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2023.7.8] Old Version: [2023.7.6]
+[2023-07-28 06:38:50] INFO root fetch - processPackages [cdktf-cdktf-provider-aws]: New version: [9.0.9] Old Version: [9.0.8]
+[2023-07-28 06:38:50] INFO root fetch - processPackages [ifunnygifmaker]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-28 06:38:50] INFO root fetch - processPackages [keksik-api]: Downloading https://files.pythonhosted.org/packages/95/48/9fa020cb54cfb6ca2e26b9348a9854b2f2c042365f3eaaf43b8dd9fd66e9/keksik_api-0.2.2.tar.gz
+[2023-07-28 06:38:50] INFO root fetch - processPackages [dsds]: New version: [0.0.23] Old Version: [0.0.21]
+[2023-07-28 06:38:50] INFO root fetch - processPackages [sparksampling]: Downloading https://files.pythonhosted.org/packages/70/c6/3479eaa5822eabd56ed40cefea0a2ecc7af4ebbff4d9a37e7cff7ac71597/sparksampling-0.3.1.tar.gz
+[2023-07-28 06:38:50] INFO root fetch - processPackages [cdktf-cdktf-provider-aws]: Downloading https://files.pythonhosted.org/packages/aa/2e/834bb9d56f903b34743b3b8d5766864ad4e2a039b6c88e65b6d835c946e4/cdktf-cdktf-provider-aws-9.0.8.tar.gz
+[2023-07-28 06:38:50] INFO root fetch - processPackages [miso2]: Downloading https://files.pythonhosted.org/packages/45/82/dc4690125cdbdd1cb48a050882a5feb63d4fa9e731f1b53e2a90edbc8fb0/miso2-3.0.4.tar.gz
+[2023-07-28 06:38:50] INFO root fetch - processPackages [adafruit-circuitpython-display-text]: Downloading https://files.pythonhosted.org/packages/d5/22/bc90bc665fddcaeef4061f0f5fe11d58c2e42cc97ce4e1c874098453fffd/adafruit-circuitpython-display-text-2.9.5.tar.gz
+[2023-07-28 06:38:50] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/c9/81/c4d9965bfca21c8ac1ee47fa96c6efeeb51fa6f29adea9b6c656c1e1186f/snowflake-connector-python-nightly-2023.7.6.tar.gz
+[2023-07-28 06:38:50] INFO root fetch - processPackages [ifunnygifmaker]: Downloading https://files.pythonhosted.org/packages/bd/eb/dc6f7c8e290f1f4faa3c31b8e0cf30a8c22b0fd119aaf6612b8c63f2ff0e/ifunnygifmaker-0.2.2.tar.gz
+[2023-07-28 06:38:50] INFO root fetch - processPackages [dsds]: Downloading https://files.pythonhosted.org/packages/14/a8/49ef06bfa8e6cf3852250611d82aa2ec7c0169029f6649ab85ed0f0e083e/dsds-0.0.21.tar.gz
+[2023-07-28 06:38:50] INFO root fetch - processPackages [keksik-api]: Downloading https://files.pythonhosted.org/packages/22/9b/44cd1d2534532d12a4b378f1ce8de36282f297b68ce28c528f0ad9233c64/keksik_api-0.2.3.tar.gz
+[2023-07-28 06:38:50] INFO root fetch - processPackages [keksik-api]: executing diffoscope
+[2023-07-28 06:38:50] INFO root fetch - processPackages [keksik-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keksik_api-0.2.2.tar.gz tmp/keksik_api-0.2.3.tar.gz --markdown 20230728/k/keksik-api/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-28 06:38:50] INFO root fetch - processPackages [ifunnygifmaker]: Downloading https://files.pythonhosted.org/packages/e1/e2/90f3cab49b1b09e643827d0760069e9e9fb49184106006edc7ecb641dcfb/ifunnygifmaker-0.2.3.tar.gz
+[2023-07-28 06:38:50] INFO root fetch - processPackages [adafruit-circuitpython-display-text]: Downloading https://files.pythonhosted.org/packages/61/fa/c0f769090d54fbd1b08532a8335c69f67558d498257468c2d9c7df3fe29f/adafruit-circuitpython-display-text-3.0.0.tar.gz
+[2023-07-28 06:38:50] INFO root fetch - processPackages [miso2]: Downloading https://files.pythonhosted.org/packages/86/c2/6f38af3c1d4212a5f204a6c8842ee0e387286f3e247e99c0e66cf249828e/miso2-3.0.5.tar.gz
+[2023-07-28 06:38:50] WARNING root fetch - processPackages [cdktf-cdktf-provider-aws]: Skipping package: exceeds size limit 23814479>=10485760
+[2023-07-28 06:38:50] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-aws] error
+[2023-07-28 06:38:50] INFO root fetch - processPackages [dsds]: Downloading https://files.pythonhosted.org/packages/8b/ec/15160702e6e2788434082574942b80b01956bdca272c469bf6c1ac889440/dsds-0.0.23.tar.gz
+[2023-07-28 06:38:50] INFO root fetch - processPackages [adafruit-circuitpython-display-text]: executing diffoscope
+[2023-07-28 06:38:50] INFO root fetch - processPackages [adafruit-circuitpython-display-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-display-text-2.9.5.tar.gz tmp/adafruit-circuitpython-display-text-3.0.0.tar.gz --markdown 20230728/a/adafruit-circuitpython-display-text/2.9.5-3.0.0/diff.md --exclude *.pyd
+[2023-07-28 06:38:50] INFO root fetch - processPackages [miso2]: executing diffoscope
+[2023-07-28 06:38:50] INFO root fetch - processPackages [miso2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miso2-3.0.4.tar.gz tmp/miso2-3.0.5.tar.gz --markdown 20230728/m/miso2/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2023-07-28 06:38:50] INFO root fetch - processPackages [dsds]: executing diffoscope
+[2023-07-28 06:38:50] INFO root fetch - processPackages [dsds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsds-0.0.21.tar.gz tmp/dsds-0.0.23.tar.gz --markdown 20230728/d/dsds/0.0.21-0.0.23/diff.md --exclude *.pyd
+[2023-07-28 06:38:50] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/40/16/80ea6fef1c1c6972dd25b43e5e7b1a2c889d92d33fd7e8988c16dd4d98be/snowflake-connector-python-nightly-2023.7.8.tar.gz
+[2023-07-28 06:38:51] INFO root fetch - processPackages [ifunnygifmaker]: executing diffoscope
+[2023-07-28 06:38:51] INFO root fetch - processPackages [ifunnygifmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifunnygifmaker-0.2.2.tar.gz tmp/ifunnygifmaker-0.2.3.tar.gz --markdown 20230728/i/ifunnygifmaker/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-28 06:38:51] INFO root fetch - processPackages [snowflake-connector-python-nightly]: executing diffoscope
+[2023-07-28 06:38:51] INFO root fetch - processPackages [snowflake-connector-python-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-nightly-2023.7.6.tar.gz tmp/snowflake-connector-python-nightly-2023.7.8.tar.gz --markdown 20230728/s/snowflake-connector-python-nightly/2023.7.6-2023.7.8/diff.md --exclude *.pyd
+[2023-07-28 06:38:51] INFO root fetch - processPackages [sparksampling]: Downloading https://files.pythonhosted.org/packages/23/d9/adbcc9a1dd5df1aaf4137b0018e44cd700edd4589128b0f8db17e411d62e/sparksampling-0.4.0.tar.gz
+[2023-07-28 06:38:51] INFO root fetch - processPackages [sparksampling]: executing diffoscope
+[2023-07-28 06:38:51] INFO root fetch - processPackages [sparksampling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparksampling-0.3.1.tar.gz tmp/sparksampling-0.4.0.tar.gz --markdown 20230728/s/sparksampling/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-28 06:38:51] INFO root fetch - processPackages [keksik-api]: Remove: archive file [/home/abi/fetcher/tmp/keksik_api-0.2.2.tar.gz]
+[2023-07-28 06:38:51] INFO root fetch - processPackages [keksik-api]: Remove: archive file [/home/abi/fetcher/tmp/keksik_api-0.2.3.tar.gz]
+[2023-07-28 06:38:51] INFO root fetch - main [MainThread]: End processing [keksik-api]: success
+[2023-07-28 06:38:51] INFO root fetch - processPackages [adafruit-circuitpython-display-text]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-display-text-2.9.5.tar.gz]
+[2023-07-28 06:38:51] INFO root fetch - processPackages [adafruit-circuitpython-display-text]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-display-text-3.0.0.tar.gz]
+[2023-07-28 06:38:51] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-display-text]: success
+[2023-07-28 06:38:52] INFO root fetch - processPackages [ifunnygifmaker]: Remove: archive file [/home/abi/fetcher/tmp/ifunnygifmaker-0.2.2.tar.gz]
+[2023-07-28 06:38:52] INFO root fetch - processPackages [ifunnygifmaker]: Remove: archive file [/home/abi/fetcher/tmp/ifunnygifmaker-0.2.3.tar.gz]
+[2023-07-28 06:38:52] INFO root fetch - main [MainThread]: End processing [ifunnygifmaker]: success
+[2023-07-28 06:38:52] INFO root fetch - processPackages [dsds]: Remove: archive file [/home/abi/fetcher/tmp/dsds-0.0.21.tar.gz]
+[2023-07-28 06:38:52] INFO root fetch - processPackages [dsds]: Remove: archive file [/home/abi/fetcher/tmp/dsds-0.0.23.tar.gz]
+[2023-07-28 06:38:52] INFO root fetch - main [MainThread]: End processing [dsds]: success
+[2023-07-28 06:38:52] INFO root fetch - processPackages [miso2]: Remove: archive file [/home/abi/fetcher/tmp/miso2-3.0.4.tar.gz]
+[2023-07-28 06:38:52] INFO root fetch - processPackages [miso2]: Remove: archive file [/home/abi/fetcher/tmp/miso2-3.0.5.tar.gz]
+[2023-07-28 06:38:52] INFO root fetch - main [MainThread]: End processing [miso2]: success
+[2023-07-28 06:38:52] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.7.6.tar.gz]
+[2023-07-28 06:38:52] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.7.8.tar.gz]
+[2023-07-28 06:38:52] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
+[2023-07-28 06:38:53] INFO root fetch - processPackages [sparksampling]: Remove: archive file [/home/abi/fetcher/tmp/sparksampling-0.3.1.tar.gz]
+[2023-07-28 06:38:53] INFO root fetch - processPackages [sparksampling]: Remove: archive file [/home/abi/fetcher/tmp/sparksampling-0.4.0.tar.gz]
+[2023-07-28 06:38:53] INFO root fetch - main [MainThread]: End processing [sparksampling]: success
+[2023-07-28 06:38:53] INFO root fetch - main [MainThread]: Store serial: [19071648]
