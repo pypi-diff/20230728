@@ -17239,3 +17239,145 @@ AssertionError: tmp/pyepsilla-0.0.5.tar.gz does not exist
 [2023-07-28 10:50:11] INFO root fetch - processPackages [esbmtk]: Remove: archive file [/home/abi/fetcher/tmp/esbmtk-0.9.0.1.tar.gz]
 [2023-07-28 10:50:11] INFO root fetch - main [MainThread]: End processing [esbmtk]: success
 [2023-07-28 10:50:11] INFO root fetch - main [MainThread]: Store serial: [19073492]
+[2023-07-28 10:55:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19073492]
+[2023-07-28 10:55:19] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-28 10:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opencv-gst-rtsp-server
+[2023-07-28 10:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geohydrodemo
+[2023-07-28 10:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kodexa
+[2023-07-28 10:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langdechat
+[2023-07-28 10:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scoda-tk
+[2023-07-28 10:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zipline.py
+[2023-07-28 10:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: designate-dashboard
+[2023-07-28 10:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: textboost
+[2023-07-28 10:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nanomonsv
+[2023-07-28 10:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zipline.py
+[2023-07-28 10:55:19] ERROR root fetch - processPackages [opencv-gst-rtsp-server]: Unable to get metadata: No such project 'opencv-gst-rtsp-server'
+[2023-07-28 10:55:19] INFO root fetch - processPackages [opencv-gst-rtsp-server]: Start processing: chellow
+[2023-07-28 10:55:19] INFO root fetch - main [MainThread]: End processing [opencv-gst-rtsp-server] error
+[2023-07-28 10:55:20] INFO root fetch - processPackages [kodexa]: New version: [6.3.35690079772] Old Version: [6.3.35668071917]
+[2023-07-28 10:55:20] INFO root fetch - processPackages [geohydrodemo]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-28 10:55:20] INFO root fetch - processPackages [designate-dashboard]: New version: [9.0.1] Old Version: [9.0.0.0rc1]
+[2023-07-28 10:55:20] INFO root fetch - processPackages [langdechat]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-28 10:55:20] WARNING root fetch - processPackages [textboost]: Skipping, unable to determine old version
+[2023-07-28 10:55:20] INFO root fetch - processPackages [zipline.py]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-28 10:55:20] INFO root fetch - processPackages [textboost]: Start processing: phrase-api
+[2023-07-28 10:55:20] INFO root fetch - processPackages [scoda-tk]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-28 10:55:20] INFO root fetch - processPackages [zipline.py]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-28 10:55:20] INFO root fetch - main [MainThread]: End processing [textboost] error
+[2023-07-28 10:55:20] INFO root fetch - processPackages [nanomonsv]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-28 10:55:20] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2023-07-28 10:55:20] INFO root fetch - processPackages [phrase-api]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-28 10:55:20] INFO root fetch - processPackages [langdechat]: Downloading https://files.pythonhosted.org/packages/df/69/7aaed027ac5f5f3ff300f6101c5e95b97ef7e1f530e169969ac554f29103/langdechat-0.1.0.tar.gz
+[2023-07-28 10:55:20] INFO root fetch - processPackages [phrase-api]: Downloading https://files.pythonhosted.org/packages/02/7d/8ea3cb3514c98f05d3eb971e2cc91f0aed9b1c806276507fe6d11d13c72f/phrase-api-1.9.0.tar.gz
+[2023-07-28 10:55:20] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/a3/ac/8962d4fa6805954195c2696535c6f9e0b5986ecc821f59e2706c0ed15bda/kodexa-6.3.35668071917.tar.gz
+[2023-07-28 10:55:20] INFO root fetch - processPackages [geohydrodemo]: Downloading https://files.pythonhosted.org/packages/ba/e3/bb44243d222e59132beec5e5ddf6ccec916ca443aee99a4bef15f6d3c1fa/geohydrodemo-0.0.2.tar.gz
+[2023-07-28 10:55:20] INFO root fetch - processPackages [zipline.py]: Downloading https://files.pythonhosted.org/packages/ab/3e/1f28ade873192f84aba2b5918df57abdcd52a17173f046e2bcaf4c769e91/zipline.py-0.8.0.tar.gz
+[2023-07-28 10:55:20] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/09/08/9e9f322977b524d8271b03bca1982778270b86ae628fcd8c5c48d71526b2/scoda-tk-0.0.4.tar.gz
+[2023-07-28 10:55:20] INFO root fetch - processPackages [designate-dashboard]: Downloading https://files.pythonhosted.org/packages/52/7c/42700e3351515a65b668568958ce318741e73e9c1b17a1c2dfa3cafbc802/designate-dashboard-9.0.0.0rc1.tar.gz
+[2023-07-28 10:55:20] INFO root fetch - processPackages [nanomonsv]: Downloading https://files.pythonhosted.org/packages/da/ac/138e4e0d794c91e35f8c446052200544bce864f4a237a8f9b9cc2e67c937/nanomonsv-0.7.0.tar.gz
+[2023-07-28 10:55:20] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2023-07-28 10:55:20] INFO root fetch - processPackages [zipline.py]: Downloading https://files.pythonhosted.org/packages/ab/3e/1f28ade873192f84aba2b5918df57abdcd52a17173f046e2bcaf4c769e91/zipline.py-0.8.0.tar.gz
+[2023-07-28 10:55:20] INFO root fetch - processPackages [langdechat]: Downloading https://files.pythonhosted.org/packages/a0/23/0fb9428d0b9b655f93d6a2e76bd7e607b041f674d56ea0a7e338343a8975/langdechat-0.1.1.tar.gz
+[2023-07-28 10:55:20] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/1e/16/78d4d7df907eb0e1fa8fe6b67f1df36c34f8d9372ec0de7e8c9bff158212/kodexa-6.3.35690079772.tar.gz
+[2023-07-28 10:55:20] INFO root fetch - processPackages [phrase-api]: Downloading https://files.pythonhosted.org/packages/42/af/115541751a7a970c90964768932279833319569dccdf56517ae3e3e98a55/phrase-api-1.9.1.tar.gz
+[2023-07-28 10:55:20] INFO root fetch - processPackages [zipline.py]: Downloading https://files.pythonhosted.org/packages/97/87/01b8399182012c00aaa5272f4c4a7227987424a010e1358f717f58c0c5c2/zipline.py-0.8.1.tar.gz
+[2023-07-28 10:55:20] INFO root fetch - processPackages [zipline.py]: Downloading https://files.pythonhosted.org/packages/97/87/01b8399182012c00aaa5272f4c4a7227987424a010e1358f717f58c0c5c2/zipline.py-0.8.1.tar.gz
+[2023-07-28 10:55:20] INFO root fetch - processPackages [geohydrodemo]: Downloading https://files.pythonhosted.org/packages/94/0d/d9cc73a15c06b644a3115deb65d1f80807d66958ffd7ffc5b8a10a3c5bf6/geohydrodemo-0.0.3.tar.gz
+[2023-07-28 10:55:21] INFO root fetch - processPackages [nanomonsv]: Downloading https://files.pythonhosted.org/packages/b1/46/d041d265d6ac53bb6979b475b30df43f02e47a1481d0f36816d033918927/nanomonsv-0.7.1.tar.gz
+[2023-07-28 10:55:21] INFO root fetch - processPackages [langdechat]: executing diffoscope
+[2023-07-28 10:55:21] INFO root fetch - processPackages [langdechat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langdechat-0.1.0.tar.gz tmp/langdechat-0.1.1.tar.gz --markdown 20230728/l/langdechat/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-28 10:55:21] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2023-07-28 10:55:21] INFO root fetch - processPackages [designate-dashboard]: Downloading https://files.pythonhosted.org/packages/43/5f/cdab4d415a22d36759124dd35d19de34b34da9ccb44eae1b177e28716335/designate-dashboard-9.0.1.tar.gz
+[2023-07-28 10:55:21] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-07-28 10:55:21] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.3.35668071917.tar.gz tmp/kodexa-6.3.35690079772.tar.gz --markdown 20230728/k/kodexa/6.3.35668071917-6.3.35690079772/diff.md --exclude *.pyd
+[2023-07-28 10:55:21] INFO root fetch - processPackages [geohydrodemo]: executing diffoscope
+[2023-07-28 10:55:21] INFO root fetch - processPackages [geohydrodemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geohydrodemo-0.0.2.tar.gz tmp/geohydrodemo-0.0.3.tar.gz --markdown 20230728/g/geohydrodemo/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-28 10:55:21] INFO root fetch - processPackages [phrase-api]: executing diffoscope
+[2023-07-28 10:55:21] INFO root fetch - processPackages [phrase-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phrase-api-1.9.0.tar.gz tmp/phrase-api-1.9.1.tar.gz --markdown 20230728/p/phrase-api/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-28 10:55:21] INFO root fetch - processPackages [zipline.py]: executing diffoscope
+[2023-07-28 10:55:21] INFO root fetch - processPackages [zipline.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline.py-0.8.0.tar.gz tmp/zipline.py-0.8.1.tar.gz --markdown 20230728/z/zipline.py/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-28 10:55:21] INFO root fetch - processPackages [zipline.py]: executing diffoscope
+[2023-07-28 10:55:21] INFO root fetch - processPackages [zipline.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline.py-0.8.0.tar.gz tmp/zipline.py-0.8.1.tar.gz --markdown 20230728/z/zipline.py/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-28 10:55:21] INFO root fetch - processPackages [nanomonsv]: executing diffoscope
+[2023-07-28 10:55:21] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/53/0d/eaaac756f091017d40fe9f27197492b60eb9da1cfe95c2ba503c75b95fa4/scoda-tk-0.0.5.tar.gz
+[2023-07-28 10:55:21] INFO root fetch - processPackages [nanomonsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanomonsv-0.7.0.tar.gz tmp/nanomonsv-0.7.1.tar.gz --markdown 20230728/n/nanomonsv/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-28 10:55:21] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2023-07-28 10:55:21] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20230728/c/chellow/2826-2827/diff.md --exclude *.pyd
+[2023-07-28 10:55:21] INFO root fetch - processPackages [designate-dashboard]: executing diffoscope
+[2023-07-28 10:55:21] INFO root fetch - processPackages [designate-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/designate-dashboard-9.0.0.0rc1.tar.gz tmp/designate-dashboard-9.0.1.tar.gz --markdown 20230728/d/designate-dashboard/9.0.0.0rc1-9.0.1/diff.md --exclude *.pyd
+[2023-07-28 10:55:21] INFO root fetch - processPackages [scoda-tk]: executing diffoscope
+[2023-07-28 10:55:21] INFO root fetch - processPackages [scoda-tk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoda-tk-0.0.4.tar.gz tmp/scoda-tk-0.0.5.tar.gz --markdown 20230728/s/scoda-tk/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-28 10:55:22] INFO root fetch - processPackages [langdechat]: Remove: archive file [/home/abi/fetcher/tmp/langdechat-0.1.0.tar.gz]
+[2023-07-28 10:55:22] INFO root fetch - processPackages [langdechat]: Remove: archive file [/home/abi/fetcher/tmp/langdechat-0.1.1.tar.gz]
+[2023-07-28 10:55:22] INFO root fetch - processPackages [langdechat]: Start processing: nifti-mrs
+[2023-07-28 10:55:22] INFO root fetch - main [MainThread]: End processing [langdechat]: success
+[2023-07-28 10:55:22] INFO root fetch - processPackages [nifti-mrs]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-28 10:55:22] INFO root fetch - processPackages [nifti-mrs]: Downloading https://files.pythonhosted.org/packages/f8/12/5b95abe67f67e910c19162d02a5a6d61d6d51e4c8bcfddd818fe7c3e0200/nifti_mrs-1.0.0.tar.gz
+[2023-07-28 10:55:22] INFO root fetch - processPackages [zipline.py]: Remove: archive file [/home/abi/fetcher/tmp/zipline.py-0.8.0.tar.gz]
+[2023-07-28 10:55:22] INFO root fetch - processPackages [zipline.py]: Remove: archive file [/home/abi/fetcher/tmp/zipline.py-0.8.1.tar.gz]
+[2023-07-28 10:55:22] INFO root fetch - processPackages [zipline.py]: Start processing: qcloud-setup
+[2023-07-28 10:55:22] INFO root fetch - main [MainThread]: End processing [zipline.py]: success
+[2023-07-28 10:55:22] INFO root fetch - processPackages [qcloud-setup]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-28 10:55:22] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.3.35668071917.tar.gz]
+[2023-07-28 10:55:22] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.3.35690079772.tar.gz]
+[2023-07-28 10:55:22] INFO root fetch - processPackages [kodexa]: Start processing: planbee
+[2023-07-28 10:55:22] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-07-28 10:55:22] INFO root fetch - processPackages [nifti-mrs]: Downloading https://files.pythonhosted.org/packages/89/d8/32c6f389b9e67b3b1b686bebf8ad338c1c8c4875aaa844d358a6efd4851f/nifti_mrs-1.0.1.tar.gz
+[2023-07-28 10:55:22] INFO root fetch - processPackages [zipline.py]: Start processing: heat-dashboard
+[2023-07-28 10:55:22] INFO root fetch - main [MainThread]: End processing [zipline.py]: success
+[2023-07-28 10:55:22] INFO root fetch - processPackages [planbee]: New version: [0.2] Old Version: [0.1.5]
+[2023-07-28 10:55:22] INFO root fetch - processPackages [qcloud-setup]: Downloading https://files.pythonhosted.org/packages/68/31/1168ae58d9c7b555c0550b25fcc1d28f2171d00fc0978a68a07864d3b523/qcloud_setup-1.0.3.tar.gz
+[2023-07-28 10:55:23] INFO root fetch - processPackages [geohydrodemo]: Remove: archive file [/home/abi/fetcher/tmp/geohydrodemo-0.0.2.tar.gz]
+[2023-07-28 10:55:23] INFO root fetch - processPackages [geohydrodemo]: Remove: archive file [/home/abi/fetcher/tmp/geohydrodemo-0.0.3.tar.gz]
+[2023-07-28 10:55:23] INFO root fetch - processPackages [geohydrodemo]: Start processing: mango-agents
+[2023-07-28 10:55:23] INFO root fetch - main [MainThread]: End processing [geohydrodemo]: success
+[2023-07-28 10:55:23] INFO root fetch - processPackages [planbee]: Downloading https://files.pythonhosted.org/packages/44/07/bf81a5138a8203229cbc35eac0ec6f07a1108ecbd1f7989bec89d82ce0ee/planbee-0.1.5.tar.gz
+[2023-07-28 10:55:23] INFO root fetch - processPackages [heat-dashboard]: New version: [9.0.0.0rc1] Old Version: [9.0.0]
+[2023-07-28 10:55:23] INFO root fetch - processPackages [nifti-mrs]: executing diffoscope
+[2023-07-28 10:55:23] INFO root fetch - processPackages [nifti-mrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nifti_mrs-1.0.0.tar.gz tmp/nifti_mrs-1.0.1.tar.gz --markdown 20230728/n/nifti-mrs/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-28 10:55:23] INFO root fetch - processPackages [qcloud-setup]: Downloading https://files.pythonhosted.org/packages/6c/7e/1697535f7c6e2054343bc842cc318ab6c5692c65b3731d9a698d62f43829/qcloud_setup-1.0.4.tar.gz
+[2023-07-28 10:55:23] INFO root fetch - processPackages [mango-agents]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-28 10:55:23] INFO root fetch - processPackages [nanomonsv]: Remove: archive file [/home/abi/fetcher/tmp/nanomonsv-0.7.0.tar.gz]
+[2023-07-28 10:55:23] INFO root fetch - processPackages [nanomonsv]: Remove: archive file [/home/abi/fetcher/tmp/nanomonsv-0.7.1.tar.gz]
+[2023-07-28 10:55:23] INFO root fetch - main [MainThread]: End processing [nanomonsv]: success
+[2023-07-28 10:55:23] INFO root fetch - processPackages [planbee]: Downloading https://files.pythonhosted.org/packages/d7/35/2377c6f2779e316a78e2e768d48aebd2e7f039677504b72bf424d0e60ed0/planbee-0.2.tar.gz
+[2023-07-28 10:55:23] INFO root fetch - processPackages [heat-dashboard]: Downloading https://files.pythonhosted.org/packages/e3/60/ea2df3e33c3a6513880df979be9568ca526edf75b72706ecc8332c09aed9/heat-dashboard-9.0.0.tar.gz
+[2023-07-28 10:55:23] INFO root fetch - processPackages [qcloud-setup]: executing diffoscope
+[2023-07-28 10:55:23] INFO root fetch - processPackages [qcloud-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcloud_setup-1.0.3.tar.gz tmp/qcloud_setup-1.0.4.tar.gz --markdown 20230728/q/qcloud-setup/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-28 10:55:23] INFO root fetch - processPackages [planbee]: executing diffoscope
+[2023-07-28 10:55:23] INFO root fetch - processPackages [planbee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planbee-0.1.5.tar.gz tmp/planbee-0.2.tar.gz --markdown 20230728/p/planbee/0.1.5-0.2/diff.md --exclude *.pyd
+[2023-07-28 10:55:23] INFO root fetch - processPackages [mango-agents]: Downloading https://files.pythonhosted.org/packages/be/2e/ec8474dd91eb40fb2405b89d53ef1d12804a01ae4988d442dc58c6a4f55e/mango-agents-1.0.1.tar.gz
+[2023-07-28 10:55:23] INFO root fetch - processPackages [designate-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/designate-dashboard-9.0.0.0rc1.tar.gz]
+[2023-07-28 10:55:23] INFO root fetch - processPackages [designate-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/designate-dashboard-9.0.1.tar.gz]
+[2023-07-28 10:55:23] INFO root fetch - main [MainThread]: End processing [designate-dashboard]: success
+[2023-07-28 10:55:23] INFO root fetch - processPackages [heat-dashboard]: Downloading https://files.pythonhosted.org/packages/e3/86/c02cd2555ff7d8044663605158e11b9d4df38bab993c3c4c289a43ccbf79/heat-dashboard-9.0.0.0rc1.tar.gz
+[2023-07-28 10:55:24] INFO root fetch - processPackages [mango-agents]: Downloading https://files.pythonhosted.org/packages/6a/73/f1d0433a32d219ab8e8ac1ce6b26a06377361fc16184c28d2bc25875ff17/mango-agents-1.1.0.tar.gz
+[2023-07-28 10:55:24] INFO root fetch - processPackages [heat-dashboard]: executing diffoscope
+[2023-07-28 10:55:24] INFO root fetch - processPackages [heat-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heat-dashboard-9.0.0.tar.gz tmp/heat-dashboard-9.0.0.0rc1.tar.gz --markdown 20230728/h/heat-dashboard/9.0.0-9.0.0.0rc1/diff.md --exclude *.pyd
+[2023-07-28 10:55:24] INFO root fetch - processPackages [mango-agents]: executing diffoscope
+[2023-07-28 10:55:24] INFO root fetch - processPackages [mango-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango-agents-1.0.1.tar.gz tmp/mango-agents-1.1.0.tar.gz --markdown 20230728/m/mango-agents/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-28 10:55:24] INFO root fetch - processPackages [nifti-mrs]: Remove: archive file [/home/abi/fetcher/tmp/nifti_mrs-1.0.0.tar.gz]
+[2023-07-28 10:55:24] INFO root fetch - processPackages [nifti-mrs]: Remove: archive file [/home/abi/fetcher/tmp/nifti_mrs-1.0.1.tar.gz]
+[2023-07-28 10:55:24] INFO root fetch - main [MainThread]: End processing [nifti-mrs]: success
+[2023-07-28 10:55:24] INFO root fetch - processPackages [qcloud-setup]: Remove: archive file [/home/abi/fetcher/tmp/qcloud_setup-1.0.3.tar.gz]
+[2023-07-28 10:55:24] INFO root fetch - processPackages [qcloud-setup]: Remove: archive file [/home/abi/fetcher/tmp/qcloud_setup-1.0.4.tar.gz]
+[2023-07-28 10:55:24] INFO root fetch - main [MainThread]: End processing [qcloud-setup]: success
+[2023-07-28 10:55:24] INFO root fetch - processPackages [planbee]: Remove: archive file [/home/abi/fetcher/tmp/planbee-0.1.5.tar.gz]
+[2023-07-28 10:55:24] INFO root fetch - processPackages [planbee]: Remove: archive file [/home/abi/fetcher/tmp/planbee-0.2.tar.gz]
+[2023-07-28 10:55:24] INFO root fetch - main [MainThread]: End processing [planbee]: success
+[2023-07-28 10:55:25] INFO root fetch - processPackages [mango-agents]: Remove: archive file [/home/abi/fetcher/tmp/mango-agents-1.0.1.tar.gz]
+[2023-07-28 10:55:25] INFO root fetch - processPackages [mango-agents]: Remove: archive file [/home/abi/fetcher/tmp/mango-agents-1.1.0.tar.gz]
+[2023-07-28 10:55:25] INFO root fetch - main [MainThread]: End processing [mango-agents]: success
+[2023-07-28 10:55:25] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2826.tar.gz]
+[2023-07-28 10:55:25] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
+[2023-07-28 10:55:25] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2023-07-28 10:55:26] INFO root fetch - processPackages [phrase-api]: Remove: archive file [/home/abi/fetcher/tmp/phrase-api-1.9.0.tar.gz]
+[2023-07-28 10:55:26] INFO root fetch - processPackages [phrase-api]: Remove: archive file [/home/abi/fetcher/tmp/phrase-api-1.9.1.tar.gz]
+[2023-07-28 10:55:26] INFO root fetch - main [MainThread]: End processing [phrase-api]: success
+[2023-07-28 10:55:26] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.0.4.tar.gz]
+[2023-07-28 10:55:26] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.0.5.tar.gz]
+[2023-07-28 10:55:26] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
+[2023-07-28 10:55:27] INFO root fetch - processPackages [heat-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/heat-dashboard-9.0.0.tar.gz]
+[2023-07-28 10:55:27] INFO root fetch - processPackages [heat-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/heat-dashboard-9.0.0.0rc1.tar.gz]
+[2023-07-28 10:55:27] INFO root fetch - main [MainThread]: End processing [heat-dashboard]: success
+[2023-07-28 10:55:27] INFO root fetch - main [MainThread]: Store serial: [19073558]
