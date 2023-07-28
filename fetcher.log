@@ -17877,3 +17877,305 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 11:11:29] INFO root fetch - processPackages [ansys-dpf-gatebin]: Remove: archive file [/home/abi/fetcher/tmp/ansys_dpf_gatebin-0.4.0-py3-none-win_amd64.whl.zip]
 [2023-07-28 11:11:29] INFO root fetch - main [MainThread]: End processing [ansys-dpf-gatebin]: success
 [2023-07-28 11:11:29] INFO root fetch - main [MainThread]: Store serial: [19073713]
+[2023-07-28 11:16:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19073713]
+[2023-07-28 11:16:49] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-07-28 11:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybabylonjs
+[2023-07-28 11:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pineboo
+[2023-07-28 11:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovn-octavia-provider
+[2023-07-28 11:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mass-analytics
+[2023-07-28 11:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tipg
+[2023-07-28 11:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cm-two
+[2023-07-28 11:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oapi2mockserver
+[2023-07-28 11:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: amazon-scrape
+[2023-07-28 11:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TDCRPy
+[2023-07-28 11:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: netbox-topology-views
+[2023-07-28 11:16:49] INFO root fetch - processPackages [ovn-octavia-provider]: New version: [4.0.1] Old Version: [4.0.0.0rc2]
+[2023-07-28 11:16:49] INFO root fetch - processPackages [pybabylonjs]: New version: [1.4.0] Old Version: [1.3.3b1]
+[2023-07-28 11:16:49] INFO root fetch - processPackages [mass-analytics]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-28 11:16:49] INFO root fetch - processPackages [tipg]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-28 11:16:49] INFO root fetch - processPackages [oapi2mockserver]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 11:16:49] INFO root fetch - processPackages [amazon-scrape]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-28 11:16:49] INFO root fetch - processPackages [pineboo]: New version: [1.0.5] Old Version: [1.0.4.6]
+[2023-07-28 11:16:49] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 11:16:49] INFO root fetch - processPackages [cm-two]: New version: [2.3.581] Old Version: [2.3.58]
+[2023-07-28 11:16:49] INFO root fetch - processPackages [netbox-topology-views]: New version: [3.6.2] Old Version: [3.6.1]
+[2023-07-28 11:16:50] INFO root fetch - processPackages [pybabylonjs]: Downloading https://files.pythonhosted.org/packages/b8/e8/8fe711af1627e2097d3c74ad1f596bd62a58c302880146b05a3e840b4eab/pybabylonjs-1.3.3b1-py2.py3-none-any.whl
+[2023-07-28 11:16:50] INFO root fetch - processPackages [amazon-scrape]: Downloading https://files.pythonhosted.org/packages/83/0a/d847c03b8ad3b32eaf9cc8450d83881687a1e95313bdf4bc55de367e65d5/amazon_scrape-1.0.2.tar.gz
+[2023-07-28 11:16:50] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-28 11:16:50] INFO root fetch - processPackages [ovn-octavia-provider]: Downloading https://files.pythonhosted.org/packages/46/dc/6f293b4e314856caa23d801648515cbb34351e82c92699c52ad76f3e3756/ovn-octavia-provider-4.0.0.0rc2.tar.gz
+[2023-07-28 11:16:50] INFO root fetch - processPackages [mass-analytics]: Downloading https://files.pythonhosted.org/packages/50/68/0e88d56222aaa0168e3bdb6139eed83fd048a7c77d2f15ca419eb1bf5888/mass_analytics-1.0.8.tar.gz
+[2023-07-28 11:16:50] INFO root fetch - processPackages [oapi2mockserver]: Downloading https://files.pythonhosted.org/packages/c9/6e/63be0f468393da663732c53d0b3a19b3b846d46eba394be62a6b2a0cb489/oapi2mockserver-0.0.8.tar.gz
+[2023-07-28 11:16:50] INFO root fetch - processPackages [tipg]: Downloading https://files.pythonhosted.org/packages/5f/c0/7fd75616338f943c1c7bac23a88a9bf2bbe91a123b1805e4e58cc31f33bd/tipg-0.3.0.tar.gz
+[2023-07-28 11:16:50] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/9f/d3/e75116e3066040e6f5ef899f464bcf93093dc2eef95bd0f4e9dc80377a95/pineboo-1.0.4.6.tar.gz
+[2023-07-28 11:16:50] INFO root fetch - processPackages [netbox-topology-views]: Downloading https://files.pythonhosted.org/packages/06/64/f3739117d8c75455e85d30daabaf06892b79826445c506a97f9a64023ca0/netbox-topology-views-3.6.1.tar.gz
+[2023-07-28 11:16:50] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/9b/78/8ecdc2e39f4d2619d612a3cca061ed44c0285b734cc5928020403149edda/cm_two-2.3.581-py3-none-any.whl
+[2023-07-28 11:16:50] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-28 11:16:50] INFO root fetch - processPackages [amazon-scrape]: Downloading https://files.pythonhosted.org/packages/30/dd/674c6134a0ddd1f6a88dc47d2b483f645890879c5638641f9b23ae61917d/amazon_scrape-1.0.3.tar.gz
+[2023-07-28 11:16:50] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-07-28 11:16:50] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.58-py3-none-any.whl.zip tmp/cm_two-2.3.581-py3-none-any.whl.zip --markdown 20230728/c/cm-two/2.3.58-2.3.581/diff.md --exclude *.pyd
+[2023-07-28 11:16:50] INFO root fetch - processPackages [mass-analytics]: Downloading https://files.pythonhosted.org/packages/91/ed/69a1a184aaad7267ed67f71d0b45cf1555f76f61df527a0a80e49919a420/mass_analytics-1.0.9.tar.gz
+[2023-07-28 11:16:50] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-28 11:16:50] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230728/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 11:16:50] INFO root fetch - processPackages [amazon-scrape]: executing diffoscope
+[2023-07-28 11:16:50] INFO root fetch - processPackages [amazon-scrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon_scrape-1.0.2.tar.gz tmp/amazon_scrape-1.0.3.tar.gz --markdown 20230728/a/amazon-scrape/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-28 11:16:50] INFO root fetch - processPackages [tipg]: Downloading https://files.pythonhosted.org/packages/30/bd/28a8bf6d0c7586990f06edb4d848d747164c76ae111095d69a21189fbfab/tipg-0.3.1.tar.gz
+[2023-07-28 11:16:50] INFO root fetch - processPackages [pybabylonjs]: Downloading https://files.pythonhosted.org/packages/1f/fe/3c5eba01e8788dafba37d0dad1ca723ba0b8a325aac386bb2913360ee1b8/pybabylonjs-1.4.0-py2.py3-none-any.whl
+[2023-07-28 11:16:50] INFO root fetch - processPackages [mass-analytics]: executing diffoscope
+[2023-07-28 11:16:50] INFO root fetch - processPackages [mass-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_analytics-1.0.8.tar.gz tmp/mass_analytics-1.0.9.tar.gz --markdown 20230728/m/mass-analytics/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-28 11:16:50] INFO root fetch - processPackages [netbox-topology-views]: Downloading https://files.pythonhosted.org/packages/04/31/2bca34800047de9f4b16133175f708ce615ac9d9ab47df6320ffb060860b/netbox-topology-views-3.6.2.tar.gz
+[2023-07-28 11:16:50] INFO root fetch - processPackages [oapi2mockserver]: Downloading https://files.pythonhosted.org/packages/29/b7/3d90f93a9ae54e8c2cbd3e6ab17bd6098860a5460d3b1fed757c7346f5cb/oapi2mockserver-0.0.9.tar.gz
+[2023-07-28 11:16:50] INFO root fetch - processPackages [tipg]: executing diffoscope
+[2023-07-28 11:16:50] INFO root fetch - processPackages [tipg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tipg-0.3.0.tar.gz tmp/tipg-0.3.1.tar.gz --markdown 20230728/t/tipg/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-28 11:16:51] INFO root fetch - processPackages [netbox-topology-views]: executing diffoscope
+[2023-07-28 11:16:51] INFO root fetch - processPackages [netbox-topology-views]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-topology-views-3.6.1.tar.gz tmp/netbox-topology-views-3.6.2.tar.gz --markdown 20230728/n/netbox-topology-views/3.6.1-3.6.2/diff.md --exclude *.pyd
+[2023-07-28 11:16:51] INFO root fetch - processPackages [oapi2mockserver]: executing diffoscope
+[2023-07-28 11:16:51] INFO root fetch - processPackages [oapi2mockserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oapi2mockserver-0.0.8.tar.gz tmp/oapi2mockserver-0.0.9.tar.gz --markdown 20230728/o/oapi2mockserver/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 11:16:51] INFO root fetch - processPackages [ovn-octavia-provider]: Downloading https://files.pythonhosted.org/packages/af/2f/f3d59833506d79a61e483a39f3f5bb39b78f36a1f6983fb2ca461da1e8e1/ovn-octavia-provider-4.0.1.tar.gz
+[2023-07-28 11:16:51] INFO root fetch - processPackages [pybabylonjs]: executing diffoscope
+[2023-07-28 11:16:51] INFO root fetch - processPackages [pybabylonjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybabylonjs-1.3.3b1-py2.py3-none-any.whl.zip tmp/pybabylonjs-1.4.0-py2.py3-none-any.whl.zip --markdown 20230728/p/pybabylonjs/1.3.3b1-1.4.0/diff.md --exclude *.pyd
+[2023-07-28 11:16:51] INFO root fetch - processPackages [ovn-octavia-provider]: executing diffoscope
+[2023-07-28 11:16:51] INFO root fetch - processPackages [ovn-octavia-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovn-octavia-provider-4.0.0.0rc2.tar.gz tmp/ovn-octavia-provider-4.0.1.tar.gz --markdown 20230728/o/ovn-octavia-provider/4.0.0.0rc2-4.0.1/diff.md --exclude *.pyd
+[2023-07-28 11:16:51] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: time="2023-07-28T11:16:50+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-07-28 11:16:51] INFO root fetch - processPackages [cm-two]: Start processing: nonebot-plugin-aujob
+[2023-07-28 11:16:51] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-07-28 11:16:51] WARNING root fetch - processPackages [nonebot-plugin-aujob]: Skipping, unable to determine old version
+[2023-07-28 11:16:51] INFO root fetch - processPackages [nonebot-plugin-aujob]: Start processing: manila-ui
+[2023-07-28 11:16:51] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-aujob] error
+[2023-07-28 11:16:51] INFO root fetch - processPackages [manila-ui]: New version: [9.0.0.0rc1] Old Version: [9.0.0]
+[2023-07-28 11:16:51] INFO root fetch - processPackages [amazon-scrape]: Remove: archive file [/home/abi/fetcher/tmp/amazon_scrape-1.0.2.tar.gz]
+[2023-07-28 11:16:51] INFO root fetch - processPackages [amazon-scrape]: Remove: archive file [/home/abi/fetcher/tmp/amazon_scrape-1.0.3.tar.gz]
+[2023-07-28 11:16:51] INFO root fetch - processPackages [amazon-scrape]: Start processing: pkgAnant
+[2023-07-28 11:16:51] INFO root fetch - main [MainThread]: End processing [amazon-scrape]: success
+[2023-07-28 11:16:51] INFO root fetch - processPackages [pkgAnant]: New version: [3.2.3] Old Version: [3.1.1]
+[2023-07-28 11:16:52] INFO root fetch - processPackages [pkgAnant]: Downloading https://files.pythonhosted.org/packages/73/36/213436fc9ec58576d34005531277b9a1f062e1a716b77fe2f46d1867b9a9/pkgAnant-3.1.1.tar.gz
+[2023-07-28 11:16:52] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-28 11:16:52] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-28 11:16:52] INFO root fetch - processPackages [TDCRPy]: Start processing: kuryr-kubernetes
+[2023-07-28 11:16:52] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-28 11:16:52] INFO root fetch - processPackages [manila-ui]: Downloading https://files.pythonhosted.org/packages/2e/12/048704b40c37bfa6e15b5cd80c903b9ed9eba6bdcde9af18e3436095b42e/manila-ui-9.0.0.tar.gz
+[2023-07-28 11:16:52] INFO root fetch - processPackages [mass-analytics]: Remove: archive file [/home/abi/fetcher/tmp/mass_analytics-1.0.8.tar.gz]
+[2023-07-28 11:16:52] INFO root fetch - processPackages [mass-analytics]: Remove: archive file [/home/abi/fetcher/tmp/mass_analytics-1.0.9.tar.gz]
+[2023-07-28 11:16:52] INFO root fetch - processPackages [mass-analytics]: Start processing: logtalk-jupyter-kernel
+[2023-07-28 11:16:52] INFO root fetch - main [MainThread]: End processing [mass-analytics]: success
+[2023-07-28 11:16:52] INFO root fetch - processPackages [kuryr-kubernetes]: New version: [8.0.0.0rc1] Old Version: [8.0.0]
+[2023-07-28 11:16:52] INFO root fetch - processPackages [logtalk-jupyter-kernel]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-28 11:16:52] INFO root fetch - processPackages [tipg]: Remove: archive file [/home/abi/fetcher/tmp/tipg-0.3.0.tar.gz]
+[2023-07-28 11:16:52] INFO root fetch - processPackages [tipg]: Remove: archive file [/home/abi/fetcher/tmp/tipg-0.3.1.tar.gz]
+[2023-07-28 11:16:52] INFO root fetch - processPackages [tipg]: Start processing: pkgUdit
+[2023-07-28 11:16:52] INFO root fetch - main [MainThread]: End processing [tipg]: success
+[2023-07-28 11:16:52] INFO root fetch - processPackages [oapi2mockserver]: Remove: archive file [/home/abi/fetcher/tmp/oapi2mockserver-0.0.8.tar.gz]
+[2023-07-28 11:16:52] INFO root fetch - processPackages [oapi2mockserver]: Remove: archive file [/home/abi/fetcher/tmp/oapi2mockserver-0.0.9.tar.gz]
+[2023-07-28 11:16:52] INFO root fetch - processPackages [oapi2mockserver]: Start processing: pih-mio
+[2023-07-28 11:16:52] INFO root fetch - main [MainThread]: End processing [oapi2mockserver]: success
+[2023-07-28 11:16:52] INFO root fetch - processPackages [pkgAnant]: Downloading https://files.pythonhosted.org/packages/29/9f/a460020f107dfbfa8aa7308ebcb3731da50a1f2d9402e5df8b34435c2200/pkgAnant-3.2.3.tar.gz
+[2023-07-28 11:16:52] INFO root fetch - processPackages [pkgUdit]: New version: [1.1.5.6] Old Version: [1.1.5.5]
+[2023-07-28 11:16:52] INFO root fetch - processPackages [kuryr-kubernetes]: Downloading https://files.pythonhosted.org/packages/a6/96/65c282e6860be3806778971b83c8b6d0a3632d08fd2e43d47a7df0335f9c/kuryr-kubernetes-8.0.0.tar.gz
+[2023-07-28 11:16:52] INFO root fetch - processPackages [pih-mio]: New version: [1.48] Old Version: [1.47203]
+[2023-07-28 11:16:52] INFO root fetch - processPackages [logtalk-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/bf/6e/bf4f0f075ae455ba35d83b45efeeffc92e4ca67468106deca42e012be433/logtalk-jupyter-kernel-0.3.0.tar.gz
+[2023-07-28 11:16:52] INFO root fetch - processPackages [pkgAnant]: executing diffoscope
+[2023-07-28 11:16:52] INFO root fetch - processPackages [pkgAnant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgAnant-3.1.1.tar.gz tmp/pkgAnant-3.2.3.tar.gz --markdown 20230728/p/pkgAnant/3.1.1-3.2.3/diff.md --exclude *.pyd
+[2023-07-28 11:16:52] INFO root fetch - processPackages [manila-ui]: Downloading https://files.pythonhosted.org/packages/5d/08/d75b837ed35ebaab3b468994fb0ae6db43b9cc95a1337089e65d555f6e56/manila-ui-9.0.0.0rc1.tar.gz
+[2023-07-28 11:16:52] INFO root fetch - processPackages [pkgUdit]: Downloading https://files.pythonhosted.org/packages/2f/2c/6a19cbd16d0422a14bbb0f16cb96725ef575b81c440c0626d3c09146d4b6/pkgUdit-1.1.5.5.tar.gz
+[2023-07-28 11:16:52] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/10/8f/39d0b03722f509d00701f7d23370ec75aa8d0253a6c473421a9c3eefb034/pih_mio-1.47203.tar.gz
+[2023-07-28 11:16:52] INFO root fetch - processPackages [netbox-topology-views]: Remove: archive file [/home/abi/fetcher/tmp/netbox-topology-views-3.6.1.tar.gz]
+[2023-07-28 11:16:52] INFO root fetch - processPackages [netbox-topology-views]: Remove: archive file [/home/abi/fetcher/tmp/netbox-topology-views-3.6.2.tar.gz]
+[2023-07-28 11:16:52] INFO root fetch - processPackages [netbox-topology-views]: Start processing: lark-oapi
+[2023-07-28 11:16:52] INFO root fetch - main [MainThread]: End processing [netbox-topology-views]: success
+[2023-07-28 11:16:52] INFO root fetch - processPackages [lark-oapi]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-28 11:16:52] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/cf/3c/e968fa0b3cd2758d3aeb916a82dd58e778fb393ea83ad998f97c1cca773b/pineboo-1.0.5.tar.gz
+[2023-07-28 11:16:52] INFO root fetch - processPackages [logtalk-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/d5/f7/1a9e0fe4af12c915e1af109f6f22f25060ea7d703bda30454da05a40bb57/logtalk-jupyter-kernel-0.4.0.tar.gz
+[2023-07-28 11:16:52] INFO root fetch - processPackages [pkgUdit]: Downloading https://files.pythonhosted.org/packages/56/e3/eb9b06b345bb71f46c18516ae799ed412a362c91a8e2287e75b935110406/pkgUdit-1.1.5.6.tar.gz
+[2023-07-28 11:16:52] INFO root fetch - processPackages [lark-oapi]: Downloading https://files.pythonhosted.org/packages/af/8f/c351bd18232fbb7c0bcfb0eab09c3ce9c6e32afd83478cf613e99929b19a/lark-oapi-1.0.5.tar.gz
+[2023-07-28 11:16:53] INFO root fetch - processPackages [logtalk-jupyter-kernel]: executing diffoscope
+[2023-07-28 11:16:53] INFO root fetch - processPackages [logtalk-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logtalk-jupyter-kernel-0.3.0.tar.gz tmp/logtalk-jupyter-kernel-0.4.0.tar.gz --markdown 20230728/l/logtalk-jupyter-kernel/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-28 11:16:53] INFO root fetch - processPackages [ovn-octavia-provider]: Remove: archive file [/home/abi/fetcher/tmp/ovn-octavia-provider-4.0.0.0rc2.tar.gz]
+[2023-07-28 11:16:53] INFO root fetch - processPackages [ovn-octavia-provider]: Remove: archive file [/home/abi/fetcher/tmp/ovn-octavia-provider-4.0.1.tar.gz]
+[2023-07-28 11:16:53] INFO root fetch - processPackages [ovn-octavia-provider]: Start processing: scoda-tk
+[2023-07-28 11:16:53] INFO root fetch - main [MainThread]: End processing [ovn-octavia-provider]: success
+[2023-07-28 11:16:53] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/01/88/524ec4262f0d161945d3248dc9a0957332a95db5662fb6308e7317f00bd2/pih_mio-1.48.tar.gz
+[2023-07-28 11:16:53] INFO root fetch - processPackages [scoda-tk]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-28 11:16:53] INFO root fetch - processPackages [pkgUdit]: executing diffoscope
+[2023-07-28 11:16:53] INFO root fetch - processPackages [pkgUdit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgUdit-1.1.5.5.tar.gz tmp/pkgUdit-1.1.5.6.tar.gz --markdown 20230728/p/pkgUdit/1.1.5.5-1.1.5.6/diff.md --exclude *.pyd
+[2023-07-28 11:16:53] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/09/08/9e9f322977b524d8271b03bca1982778270b86ae628fcd8c5c48d71526b2/scoda-tk-0.0.4.tar.gz
+[2023-07-28 11:16:53] INFO root fetch - processPackages [manila-ui]: executing diffoscope
+[2023-07-28 11:16:53] INFO root fetch - processPackages [manila-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manila-ui-9.0.0.tar.gz tmp/manila-ui-9.0.0.0rc1.tar.gz --markdown 20230728/m/manila-ui/9.0.0-9.0.0.0rc1/diff.md --exclude *.pyd
+[2023-07-28 11:16:53] INFO root fetch - processPackages [pih-mio]: executing diffoscope
+[2023-07-28 11:16:53] INFO root fetch - processPackages [pih-mio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih_mio-1.47203.tar.gz tmp/pih_mio-1.48.tar.gz --markdown 20230728/p/pih-mio/1.47203-1.48/diff.md --exclude *.pyd
+[2023-07-28 11:16:53] INFO root fetch - processPackages [pkgAnant]: Remove: archive file [/home/abi/fetcher/tmp/pkgAnant-3.1.1.tar.gz]
+[2023-07-28 11:16:53] INFO root fetch - processPackages [pkgAnant]: Remove: archive file [/home/abi/fetcher/tmp/pkgAnant-3.2.3.tar.gz]
+[2023-07-28 11:16:53] INFO root fetch - processPackages [pkgAnant]: Start processing: deep-training
+[2023-07-28 11:16:53] INFO root fetch - main [MainThread]: End processing [pkgAnant]: success
+[2023-07-28 11:16:53] INFO root fetch - processPackages [lark-oapi]: Downloading https://files.pythonhosted.org/packages/09/3a/59ca80c37e8d0393e9ee0afb2f37e629d9347166a653377eca5bd5696b41/lark-oapi-1.0.6.tar.gz
+[2023-07-28 11:16:53] INFO root fetch - processPackages [kuryr-kubernetes]: Downloading https://files.pythonhosted.org/packages/60/ac/3c2be1f8d0986191b94a108659ab25d597be5225205fdbd5a945737ba817/kuryr-kubernetes-8.0.0.0rc1.tar.gz
+[2023-07-28 11:16:53] INFO root fetch - processPackages [deep-training]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-28 11:16:53] INFO root fetch - processPackages [lark-oapi]: executing diffoscope
+[2023-07-28 11:16:53] INFO root fetch - processPackages [lark-oapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lark-oapi-1.0.5.tar.gz tmp/lark-oapi-1.0.6.tar.gz --markdown 20230728/l/lark-oapi/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-28 11:16:53] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/87/b3/3c8fcf7b1e70c43e235098b71636333ed9cdfaf9b6c6fbc85f67531280e1/deep_training-0.1.8-py3-none-any.whl
+[2023-07-28 11:16:53] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/53/0d/eaaac756f091017d40fe9f27197492b60eb9da1cfe95c2ba503c75b95fa4/scoda-tk-0.0.5.tar.gz
+[2023-07-28 11:16:53] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2023-07-28 11:16:53] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-1.0.4.6.tar.gz tmp/pineboo-1.0.5.tar.gz --markdown 20230728/p/pineboo/1.0.4.6-1.0.5/diff.md --exclude *.pyd
+[2023-07-28 11:16:53] INFO root fetch - processPackages [kuryr-kubernetes]: executing diffoscope
+[2023-07-28 11:16:53] INFO root fetch - processPackages [kuryr-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuryr-kubernetes-8.0.0.tar.gz tmp/kuryr-kubernetes-8.0.0.0rc1.tar.gz --markdown 20230728/k/kuryr-kubernetes/8.0.0-8.0.0.0rc1/diff.md --exclude *.pyd
+[2023-07-28 11:16:54] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/97/8f/30bf3a3b2b45dc48f23a82065cc1cff429cfa9ec38e2c8dfd40bc15ada07/deep_training-0.1.9-py3-none-any.whl
+[2023-07-28 11:16:54] INFO root fetch - processPackages [deep-training]: executing diffoscope
+[2023-07-28 11:16:54] INFO root fetch - processPackages [deep-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_training-0.1.8-py3-none-any.whl.zip tmp/deep_training-0.1.9-py3-none-any.whl.zip --markdown 20230728/d/deep-training/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-28 11:16:54] INFO root fetch - processPackages [scoda-tk]: executing diffoscope
+[2023-07-28 11:16:54] INFO root fetch - processPackages [scoda-tk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoda-tk-0.0.4.tar.gz tmp/scoda-tk-0.0.5.tar.gz --markdown 20230728/s/scoda-tk/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-28 11:16:54] INFO root fetch - processPackages [logtalk-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/logtalk-jupyter-kernel-0.3.0.tar.gz]
+[2023-07-28 11:16:54] INFO root fetch - processPackages [logtalk-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/logtalk-jupyter-kernel-0.4.0.tar.gz]
+[2023-07-28 11:16:54] INFO root fetch - processPackages [logtalk-jupyter-kernel]: Start processing: filtro
+[2023-07-28 11:16:54] INFO root fetch - main [MainThread]: End processing [logtalk-jupyter-kernel]: success
+[2023-07-28 11:16:54] INFO root fetch - processPackages [pkgUdit]: Remove: archive file [/home/abi/fetcher/tmp/pkgUdit-1.1.5.5.tar.gz]
+[2023-07-28 11:16:54] INFO root fetch - processPackages [pkgUdit]: Remove: archive file [/home/abi/fetcher/tmp/pkgUdit-1.1.5.6.tar.gz]
+[2023-07-28 11:16:54] INFO root fetch - processPackages [pkgUdit]: Start processing: zun
+[2023-07-28 11:16:54] INFO root fetch - main [MainThread]: End processing [pkgUdit]: success
+[2023-07-28 11:16:54] INFO root fetch - processPackages [filtro]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-07-28 11:16:54] INFO root fetch - processPackages [zun]: New version: [9.1.0] Old Version: [9.0.0.0rc1]
+[2023-07-28 11:16:54] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih_mio-1.47203.tar.gz]
+[2023-07-28 11:16:54] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih_mio-1.48.tar.gz]
+[2023-07-28 11:16:54] INFO root fetch - processPackages [pih-mio]: Start processing: neutron
+[2023-07-28 11:16:54] INFO root fetch - main [MainThread]: End processing [pih-mio]: success
+[2023-07-28 11:16:54] INFO root fetch - processPackages [neutron]: New version: [23.0.0.0b2] Old Version: [23.0.0.0b1]
+[2023-07-28 11:16:54] INFO root fetch - processPackages [filtro]: Downloading https://files.pythonhosted.org/packages/f9/ab/132c40df0219803b633d9e795c5ba315b336ab9c7d40bbd8d0e7c7f454a4/filtro-0.1.1.tar.gz
+[2023-07-28 11:16:54] INFO root fetch - processPackages [zun]: Downloading https://files.pythonhosted.org/packages/40/51/083ae385117b53d55d7c9b90b424ec1d8a099389b4f78ee9b81e4ecb1122/zun-9.0.0.0rc1.tar.gz
+[2023-07-28 11:16:54] INFO root fetch - processPackages [neutron]: Downloading https://files.pythonhosted.org/packages/15/9a/0521bc5d5042ebffba8fdca282db7a66d1f29a699138003af0dcc77d4ba1/neutron-23.0.0.0b1.tar.gz
+[2023-07-28 11:16:55] INFO root fetch - processPackages [filtro]: Downloading https://files.pythonhosted.org/packages/25/23/82cfd4bebfb4a2b9ca2ebec9c7534d7f97932f743c6449318d134e08397b/filtro-0.1.3.tar.gz
+[2023-07-28 11:16:55] WARNING root fetch - processPackages [neutron]: Skipping package: exceeds size limit 14037048>=10485760
+[2023-07-28 11:16:55] INFO root fetch - processPackages [neutron]: Start processing: pih-mio
+[2023-07-28 11:16:55] INFO root fetch - main [MainThread]: End processing [neutron] error
+[2023-07-28 11:16:55] INFO root fetch - processPackages [pih-mio]: New version: [1.48001] Old Version: [1.48]
+[2023-07-28 11:16:55] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/01/88/524ec4262f0d161945d3248dc9a0957332a95db5662fb6308e7317f00bd2/pih_mio-1.48.tar.gz
+[2023-07-28 11:16:55] INFO root fetch - processPackages [filtro]: executing diffoscope
+[2023-07-28 11:16:55] INFO root fetch - processPackages [filtro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filtro-0.1.1.tar.gz tmp/filtro-0.1.3.tar.gz --markdown 20230728/f/filtro/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-07-28 11:16:55] INFO root fetch - processPackages [zun]: Downloading https://files.pythonhosted.org/packages/0c/a7/51dd0d950ca2d3fb24e1e7dcb324b443e2d90b3ff56fea083da9660d874e/zun-9.1.0.tar.gz
+[2023-07-28 11:16:55] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/ee/bc/3c32e21ee871f9f77a2b510b7d06e126914dc9d6c8058c3365b33f92068e/pih_mio-1.48001.tar.gz
+[2023-07-28 11:16:55] INFO root fetch - processPackages [zun]: executing diffoscope
+[2023-07-28 11:16:55] INFO root fetch - processPackages [zun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zun-9.0.0.0rc1.tar.gz tmp/zun-9.1.0.tar.gz --markdown 20230728/z/zun/9.0.0.0rc1-9.1.0/diff.md --exclude *.pyd
+[2023-07-28 11:16:56] INFO root fetch - processPackages [pih-mio]: executing diffoscope
+[2023-07-28 11:16:56] INFO root fetch - processPackages [pih-mio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih_mio-1.48.tar.gz tmp/pih_mio-1.48001.tar.gz --markdown 20230728/p/pih-mio/1.48-1.48001/diff.md --exclude *.pyd
+[2023-07-28 11:16:56] INFO root fetch - processPackages [pybabylonjs]: Remove: archive file [/home/abi/fetcher/tmp/pybabylonjs-1.3.3b1-py2.py3-none-any.whl.zip]
+[2023-07-28 11:16:56] INFO root fetch - processPackages [pybabylonjs]: Remove: archive file [/home/abi/fetcher/tmp/pybabylonjs-1.4.0-py2.py3-none-any.whl.zip]
+[2023-07-28 11:16:56] INFO root fetch - processPackages [pybabylonjs]: Start processing: bus-station
+[2023-07-28 11:16:56] INFO root fetch - main [MainThread]: End processing [pybabylonjs]: success
+[2023-07-28 11:16:56] INFO root fetch - processPackages [bus-station]: New version: [7.1.0] Old Version: [7.0.0]
+[2023-07-28 11:16:56] INFO root fetch - processPackages [bus-station]: Downloading https://files.pythonhosted.org/packages/06/b0/dd548ae201607e2e464d4cac9e259fd8f8ecb077baa1d6bc037a93e8d30d/bus_station-7.0.0.tar.gz
+[2023-07-28 11:16:56] INFO root fetch - processPackages [filtro]: Remove: archive file [/home/abi/fetcher/tmp/filtro-0.1.1.tar.gz]
+[2023-07-28 11:16:56] INFO root fetch - processPackages [filtro]: Remove: archive file [/home/abi/fetcher/tmp/filtro-0.1.3.tar.gz]
+[2023-07-28 11:16:56] INFO root fetch - main [MainThread]: End processing [filtro]: success
+[2023-07-28 11:16:57] INFO root fetch - processPackages [bus-station]: Downloading https://files.pythonhosted.org/packages/80/a5/f0802420fb6df067281ce3257465285da0bde436263e38bc19be8d8fbb2c/bus_station-7.1.0.tar.gz
+[2023-07-28 11:16:57] INFO root fetch - processPackages [bus-station]: executing diffoscope
+[2023-07-28 11:16:57] INFO root fetch - processPackages [bus-station]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bus_station-7.0.0.tar.gz tmp/bus_station-7.1.0.tar.gz --markdown 20230728/b/bus-station/7.0.0-7.1.0/diff.md --exclude *.pyd
+[2023-07-28 11:16:57] INFO root fetch - processPackages [deep-training]: Remove: archive file [/home/abi/fetcher/tmp/deep_training-0.1.8-py3-none-any.whl.zip]
+[2023-07-28 11:16:57] INFO root fetch - processPackages [deep-training]: Remove: archive file [/home/abi/fetcher/tmp/deep_training-0.1.9-py3-none-any.whl.zip]
+[2023-07-28 11:16:57] INFO root fetch - main [MainThread]: End processing [deep-training]: success
+[2023-07-28 11:16:57] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih_mio-1.48.tar.gz]
+[2023-07-28 11:16:57] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih_mio-1.48001.tar.gz]
+[2023-07-28 11:16:57] INFO root fetch - main [MainThread]: End processing [pih-mio]: success
+[2023-07-28 11:16:57] INFO root fetch - processPackages [manila-ui]: Remove: archive file [/home/abi/fetcher/tmp/manila-ui-9.0.0.tar.gz]
+[2023-07-28 11:16:57] INFO root fetch - processPackages [manila-ui]: Remove: archive file [/home/abi/fetcher/tmp/manila-ui-9.0.0.0rc1.tar.gz]
+[2023-07-28 11:16:57] INFO root fetch - main [MainThread]: End processing [manila-ui]: success
+[2023-07-28 11:16:58] INFO root fetch - processPackages [kuryr-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/kuryr-kubernetes-8.0.0.tar.gz]
+[2023-07-28 11:16:58] INFO root fetch - processPackages [kuryr-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/kuryr-kubernetes-8.0.0.0rc1.tar.gz]
+[2023-07-28 11:16:58] INFO root fetch - main [MainThread]: End processing [kuryr-kubernetes]: success
+[2023-07-28 11:16:58] INFO root fetch - processPackages [bus-station]: Remove: archive file [/home/abi/fetcher/tmp/bus_station-7.0.0.tar.gz]
+[2023-07-28 11:16:58] INFO root fetch - processPackages [bus-station]: Remove: archive file [/home/abi/fetcher/tmp/bus_station-7.1.0.tar.gz]
+[2023-07-28 11:16:58] INFO root fetch - main [MainThread]: End processing [bus-station]: success
+[2023-07-28 11:16:59] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.0.4.tar.gz]
+[2023-07-28 11:16:59] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.0.5.tar.gz]
+[2023-07-28 11:16:59] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
+[2023-07-28 11:17:00] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-1.0.4.6.tar.gz]
+[2023-07-28 11:17:00] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-1.0.5.tar.gz]
+[2023-07-28 11:17:00] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2023-07-28 11:17:00] INFO root fetch - processPackages [zun]: Remove: archive file [/home/abi/fetcher/tmp/zun-9.0.0.0rc1.tar.gz]
+[2023-07-28 11:17:00] INFO root fetch - processPackages [zun]: Remove: archive file [/home/abi/fetcher/tmp/zun-9.1.0.tar.gz]
+[2023-07-28 11:17:00] INFO root fetch - main [MainThread]: End processing [zun]: success
+[2023-07-28 11:17:47] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.0.5.tar.gz]
+[2023-07-28 11:17:47] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.0.6.tar.gz]
+[2023-07-28 11:17:47] INFO root fetch - main [MainThread]: End processing [lark-oapi]: success
+[2023-07-28 11:17:47] INFO root fetch - main [MainThread]: Store serial: [19073797]
