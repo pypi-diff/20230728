@@ -14460,3 +14460,156 @@ AssertionError: tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz does not e
 [2023-07-28 08:37:16] INFO root fetch - processPackages [gitops]: Remove: archive file [/home/abi/fetcher/tmp/gitops-0.9.8.tar.gz]
 [2023-07-28 08:37:16] INFO root fetch - main [MainThread]: End processing [gitops]: success
 [2023-07-28 08:37:16] INFO root fetch - main [MainThread]: Store serial: [19072416]
+[2023-07-28 08:42:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19072416]
+[2023-07-28 08:42:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-28 08:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-28 08:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cm-two
+[2023-07-28 08:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CodingToolKit
+[2023-07-28 08:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: marqo
+[2023-07-28 08:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fugle-trade-core
+[2023-07-28 08:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chemtools-py
+[2023-07-28 08:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eodc-faas-openeo
+[2023-07-28 08:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: VantiveCommerceSDK
+[2023-07-28 08:42:25] INFO root fetch - processPackages [fugle-trade-core]: New version: [1.0.0] Old Version: [0.5.1]
+[2023-07-28 08:42:25] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-28 08:42:25] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2023.7.4] Old Version: [2023.7.3]
+[2023-07-28 08:42:25] INFO root fetch - processPackages [VantiveCommerceSDK]: New version: [9.14.0] Old Version: [9.12.2]
+[2023-07-28 08:42:25] WARNING root fetch - processPackages [CodingToolKit]: Skipping, unable to determine old version
+[2023-07-28 08:42:25] INFO root fetch - main [MainThread]: End processing [CodingToolKit] error
+[2023-07-28 08:42:25] INFO root fetch - processPackages [chemtools-py]: New version: [0.0.1] Old Version: [0.0]
+[2023-07-28 08:42:25] INFO root fetch - processPackages [cm-two]: New version: [2.3.56] Old Version: [2.3.55]
+[2023-07-28 08:42:25] INFO root fetch - processPackages [marqo]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-28 08:42:25] INFO root fetch - processPackages [fugle-trade-core]: Downloading https://files.pythonhosted.org/packages/b1/10/f56f78943f980754d69c2357c92f0a5600e425107a082ad987fd402a1f38/fugle_trade_core-0.5.1-cp37-abi3-win_amd64.whl
+[2023-07-28 08:42:25] INFO root fetch - processPackages [VantiveCommerceSDK]: Downloading https://files.pythonhosted.org/packages/6d/ef/eef13efdef2fa41e41efb240e670e5ebfd9dbcd9dc6d006c3ea0de7672b1/VantiveCommerceSDK-9.12.2.tar.gz
+[2023-07-28 08:42:25] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-28 08:42:25] INFO root fetch - processPackages [chemtools-py]: Downloading https://files.pythonhosted.org/packages/39/15/e8c6ed9123b17a34edd1108f08b197f19f7511c3e2951c820f73fa6fa90c/chemtools-py-0.0.tar.gz
+[2023-07-28 08:42:25] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/5e/c9/6c8b9dd1e89614dde55b3a719952a42a162fdc2f592635403cf9eebdb8a5/eodc_faas_openeo-2023.7.3.tar.gz
+[2023-07-28 08:42:26] INFO root fetch - processPackages [marqo]: Downloading https://files.pythonhosted.org/packages/82/b6/782beb7832bc5c2feab52170c991aa252a3ead2bed1950f7637d412ccdf4/marqo-1.1.0.tar.gz
+[2023-07-28 08:42:26] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/35/fa/64402f396816948f33da20638886ed106af97ad5e72e6bb71009e4bc9169/cm_two-2.3.56-py3-none-any.whl
+[2023-07-28 08:42:26] INFO root fetch - processPackages [chemtools-py]: Downloading https://files.pythonhosted.org/packages/88/d2/d7212699c5c099b5904cf6dc05217c9b27717d62c5a96a2c8eee03616a19/chemtools-py-0.0.1.tar.gz
+[2023-07-28 08:42:26] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/cb/ac/e4972492b5c3832469517455c1da3c90db2012cad65f4f0da96ee86eb1bc/eodc_faas_openeo-2023.7.4.tar.gz
+[2023-07-28 08:42:26] INFO root fetch - processPackages [marqo]: Downloading https://files.pythonhosted.org/packages/76/5b/a43844272b6aca2a531ade4919a871cd8546964d287a61a1eeab436f5d0e/marqo-1.1.1.tar.gz
+[2023-07-28 08:42:26] INFO root fetch - processPackages [chemtools-py]: executing diffoscope
+[2023-07-28 08:42:26] INFO root fetch - processPackages [chemtools-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemtools-py-0.0.tar.gz tmp/chemtools-py-0.0.1.tar.gz --markdown 20230728/c/chemtools-py/0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-28 08:42:26] INFO root fetch - processPackages [VantiveCommerceSDK]: Downloading https://files.pythonhosted.org/packages/47/33/5f37f7b306e93fe63dec8e48fb51e2f12c04aa399dc89acf5e3065622fc2/VantiveCommerceSDK-9.14.0.tar.gz
+[2023-07-28 08:42:26] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2023-07-28 08:42:26] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2023.7.3.tar.gz tmp/eodc_faas_openeo-2023.7.4.tar.gz --markdown 20230728/e/eodc-faas-openeo/2023.7.3-2023.7.4/diff.md --exclude *.pyd
+[2023-07-28 08:42:26] INFO root fetch - processPackages [marqo]: executing diffoscope
+[2023-07-28 08:42:26] INFO root fetch - processPackages [marqo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marqo-1.1.0.tar.gz tmp/marqo-1.1.1.tar.gz --markdown 20230728/m/marqo/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-28 08:42:26] INFO root fetch - processPackages [fugle-trade-core]: Downloading https://files.pythonhosted.org/packages/78/ad/4d861700e000607ca028ce87561f290475678c09ae84ac5260030f9ffcaf/fugle_trade_core-1.0.0-cp37-abi3-win_amd64.whl
+[2023-07-28 08:42:26] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-28 08:42:26] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-07-28 08:42:26] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.55-py3-none-any.whl.zip tmp/cm_two-2.3.56-py3-none-any.whl.zip --markdown 20230728/c/cm-two/2.3.55-2.3.56/diff.md --exclude *.pyd
+[2023-07-28 08:42:26] INFO root fetch - processPackages [VantiveCommerceSDK]: executing diffoscope
+[2023-07-28 08:42:26] INFO root fetch - processPackages [VantiveCommerceSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VantiveCommerceSDK-9.12.2.tar.gz tmp/VantiveCommerceSDK-9.14.0.tar.gz --markdown 20230728/V/VantiveCommerceSDK/9.12.2-9.14.0/diff.md --exclude *.pyd
+[2023-07-28 08:42:26] INFO root fetch - processPackages [fugle-trade-core]: executing diffoscope
+[2023-07-28 08:42:26] INFO root fetch - processPackages [fugle-trade-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fugle_trade_core-0.5.1-cp37-abi3-win_amd64.whl.zip tmp/fugle_trade_core-1.0.0-cp37-abi3-win_amd64.whl.zip --markdown 20230728/f/fugle-trade-core/0.5.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-28 08:42:27] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2023.7.3.tar.gz]
+[2023-07-28 08:42:27] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2023.7.4.tar.gz]
+[2023-07-28 08:42:27] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2023-07-28 08:42:27] INFO root fetch - processPackages [chemtools-py]: Remove: archive file [/home/abi/fetcher/tmp/chemtools-py-0.0.tar.gz]
+[2023-07-28 08:42:27] INFO root fetch - processPackages [chemtools-py]: Remove: archive file [/home/abi/fetcher/tmp/chemtools-py-0.0.1.tar.gz]
+[2023-07-28 08:42:27] INFO root fetch - main [MainThread]: End processing [chemtools-py]: success
+[2023-07-28 08:42:27] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: time="2023-07-28T08:42:26+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-07-28 08:42:27] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-07-28 08:42:27] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-28 08:42:27] INFO root fetch - processPackages [fugle-trade-core]: Remove: archive file [/home/abi/fetcher/tmp/fugle_trade_core-0.5.1-cp37-abi3-win_amd64.whl.zip]
+[2023-07-28 08:42:27] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230728/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-28 08:42:27] INFO root fetch - processPackages [fugle-trade-core]: Remove: archive file [/home/abi/fetcher/tmp/fugle_trade_core-1.0.0-cp37-abi3-win_amd64.whl.zip]
+[2023-07-28 08:42:27] INFO root fetch - main [MainThread]: End processing [fugle-trade-core]: success
+[2023-07-28 08:42:27] INFO root fetch - processPackages [marqo]: Remove: archive file [/home/abi/fetcher/tmp/marqo-1.1.0.tar.gz]
+[2023-07-28 08:42:27] INFO root fetch - processPackages [marqo]: Remove: archive file [/home/abi/fetcher/tmp/marqo-1.1.1.tar.gz]
+[2023-07-28 08:42:27] INFO root fetch - main [MainThread]: End processing [marqo]: success
+[2023-07-28 08:42:28] INFO root fetch - processPackages [VantiveCommerceSDK]: Remove: archive file [/home/abi/fetcher/tmp/VantiveCommerceSDK-9.12.2.tar.gz]
+[2023-07-28 08:42:28] INFO root fetch - processPackages [VantiveCommerceSDK]: Remove: archive file [/home/abi/fetcher/tmp/VantiveCommerceSDK-9.14.0.tar.gz]
+[2023-07-28 08:42:28] INFO root fetch - main [MainThread]: End processing [VantiveCommerceSDK]: success
+[2023-07-28 08:42:28] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-28 08:42:28] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-28 08:42:28] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-28 08:42:28] INFO root fetch - main [MainThread]: Store serial: [19072445]
