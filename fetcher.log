@@ -21060,3 +21060,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 12:58:40] INFO root fetch - processPackages [cvat-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cvat_sdk-2.5.2.tar.gz]
 [2023-07-28 12:58:40] INFO root fetch - main [MainThread]: End processing [cvat-sdk]: success
 [2023-07-28 12:58:40] INFO root fetch - main [MainThread]: Store serial: [19074664]
+[2023-07-28 13:03:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19074664]
+[2023-07-28 13:03:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-28 13:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wheezy.validation
+[2023-07-28 13:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wheezy.caching
+[2023-07-28 13:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wheezy.web
+[2023-07-28 13:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unigui
+[2023-07-28 13:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wheezy.captcha
+[2023-07-28 13:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opensafely
+[2023-07-28 13:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: h2lib
+[2023-07-28 13:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-07-28 13:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vavacars-data-utils
+[2023-07-28 13:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wodoo
+[2023-07-28 13:03:50] INFO root fetch - processPackages [wheezy.validation]: New version: [3.2.0] Old Version: [3.0.1]
+[2023-07-28 13:03:50] INFO root fetch - processPackages [unigui]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-07-28 13:03:50] WARNING root fetch - processPackages [h2lib]: Skipping, unable to determine old version
+[2023-07-28 13:03:50] INFO root fetch - processPackages [wheezy.web]: New version: [3.2.0] Old Version: [3.0.1]
+[2023-07-28 13:03:50] INFO root fetch - main [MainThread]: End processing [h2lib] error
+[2023-07-28 13:03:50] INFO root fetch - processPackages [wheezy.caching]: New version: [3.2.0] Old Version: [3.0.1]
+[2023-07-28 13:03:50] INFO root fetch - processPackages [vavacars-data-utils]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-28 13:03:50] INFO root fetch - processPackages [opensafely]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-28 13:03:50] INFO root fetch - processPackages [wodoo]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-28 13:03:50] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-28 13:03:50] INFO root fetch - processPackages [wheezy.validation]: Downloading https://files.pythonhosted.org/packages/17/9f/ba2997421004b04897aacfbb8e18dc59ea03dbabacc31b6f23a7fd27fcac/wheezy.validation-3.0.1.tar.gz
+[2023-07-28 13:03:50] INFO root fetch - processPackages [wheezy.captcha]: New version: [3.2.0] Old Version: [3.0.2]
+[2023-07-28 13:03:50] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/f1/e5/4eaf4bac81e606caa8deb3d95f64c8de95dc532f6bd16aef12de595f56cc/wodoo-0.4.8.tar.gz
+[2023-07-28 13:03:50] INFO root fetch - processPackages [wheezy.caching]: Downloading https://files.pythonhosted.org/packages/7e/10/934ee8281ae33d07af4bfe352e5a48878e97431f9e10e7d75f91fc000c77/wheezy.caching-3.0.1.tar.gz
+[2023-07-28 13:03:50] INFO root fetch - processPackages [wheezy.web]: Downloading https://files.pythonhosted.org/packages/b8/2c/a12f9b0809ea1a81e50c378703070efb8dd80c57705baa64cde861029600/wheezy.web-3.0.1.tar.gz
+[2023-07-28 13:03:50] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/55/83/922458a4ba8b7fc2947ad9c20fda2627ce5f7bf35b813d7727ff8eba246f/unigui-1.9.5.tar.gz
+[2023-07-28 13:03:50] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-07-28 13:03:50] INFO root fetch - processPackages [vavacars-data-utils]: Downloading https://files.pythonhosted.org/packages/57/44/91feff589ab268d8599ad194acac8025c588ef9aa1e392e400e4b27c7609/vavacars_data_utils-1.1.1.tar.gz
+[2023-07-28 13:03:50] INFO root fetch - processPackages [opensafely]: Downloading https://files.pythonhosted.org/packages/41/40/8404743bac96e403c4e3cdaa6569f9e35faa80b3fa32b600bcc81fc6aa42/opensafely-1.9.1.tar.gz
+[2023-07-28 13:03:50] INFO root fetch - processPackages [wheezy.captcha]: Downloading https://files.pythonhosted.org/packages/03/27/c5f03d36b4c01ec949f0d5ae0661621c90b4c30c6bcc9f080a70f2977aa6/wheezy.captcha-3.0.2.tar.gz
+[2023-07-28 13:03:50] INFO root fetch - processPackages [wheezy.validation]: Downloading https://files.pythonhosted.org/packages/84/82/5fa35baa204c710abb0d234422c3b48ac5712e1d395c12f07b4afa6f6765/wheezy.validation-3.2.0.tar.gz
+[2023-07-28 13:03:51] INFO root fetch - processPackages [wheezy.validation]: executing diffoscope
+[2023-07-28 13:03:51] INFO root fetch - processPackages [wheezy.caching]: Downloading https://files.pythonhosted.org/packages/3b/52/71e97bdbaceffd40bd4763dab329bd09a77ec715765808d40e17e7c071ce/wheezy.caching-3.2.0.tar.gz
+[2023-07-28 13:03:51] INFO root fetch - processPackages [wheezy.validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheezy.validation-3.0.1.tar.gz tmp/wheezy.validation-3.2.0.tar.gz --markdown 20230728/w/wheezy.validation/3.0.1-3.2.0/diff.md --exclude *.pyd
+[2023-07-28 13:03:51] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/34/e8/81686b3a77a0edae554159a95e4782f911bd4ea59a2990954162a6b1e97e/wodoo-0.4.9.tar.gz
+[2023-07-28 13:03:51] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-07-28 13:03:51] INFO root fetch - processPackages [wheezy.web]: Downloading https://files.pythonhosted.org/packages/63/3c/30fa7b895c35e8215a429e6d79f8d4d1e725e960da2f7f5ec991c35eb1ad/wheezy.web-3.2.0.tar.gz
+[2023-07-28 13:03:51] INFO root fetch - processPackages [vavacars-data-utils]: Downloading https://files.pythonhosted.org/packages/61/0e/09b09d3b318c7d980099b54da264c9031b4e285790f19c0249cfef312655/vavacars_data_utils-1.1.2.tar.gz
+[2023-07-28 13:03:51] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-07-28 13:03:51] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.8.tar.gz tmp/wodoo-0.4.9.tar.gz --markdown 20230728/w/wodoo/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-28 13:03:51] INFO root fetch - processPackages [wheezy.caching]: executing diffoscope
+[2023-07-28 13:03:51] INFO root fetch - processPackages [wheezy.caching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheezy.caching-3.0.1.tar.gz tmp/wheezy.caching-3.2.0.tar.gz --markdown 20230728/w/wheezy.caching/3.0.1-3.2.0/diff.md --exclude *.pyd
+[2023-07-28 13:03:51] INFO root fetch - processPackages [wheezy.captcha]: Downloading https://files.pythonhosted.org/packages/cb/6b/fbee3c9ab6ddaa0b2e91069f11cd16b4713a2a7431345c33e5ec54a9dcdf/wheezy.captcha-3.2.0.tar.gz
+[2023-07-28 13:03:51] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/fe/ca/cd5a55ed8de9a904abcaf5faa68f499286a11c09b6c24debcc3d70a305d9/unigui-1.9.6.tar.gz
+[2023-07-28 13:03:51] INFO root fetch - processPackages [wheezy.web]: executing diffoscope
+[2023-07-28 13:03:51] INFO root fetch - processPackages [wheezy.web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheezy.web-3.0.1.tar.gz tmp/wheezy.web-3.2.0.tar.gz --markdown 20230728/w/wheezy.web/3.0.1-3.2.0/diff.md --exclude *.pyd
+[2023-07-28 13:03:51] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-07-28 13:03:51] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230728/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-28 13:03:51] INFO root fetch - processPackages [vavacars-data-utils]: executing diffoscope
+[2023-07-28 13:03:51] INFO root fetch - processPackages [vavacars-data-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vavacars_data_utils-1.1.1.tar.gz tmp/vavacars_data_utils-1.1.2.tar.gz --markdown 20230728/v/vavacars-data-utils/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-28 13:03:51] INFO root fetch - processPackages [wheezy.captcha]: executing diffoscope
+[2023-07-28 13:03:51] INFO root fetch - processPackages [wheezy.captcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheezy.captcha-3.0.2.tar.gz tmp/wheezy.captcha-3.2.0.tar.gz --markdown 20230728/w/wheezy.captcha/3.0.2-3.2.0/diff.md --exclude *.pyd
+[2023-07-28 13:03:51] INFO root fetch - processPackages [unigui]: executing diffoscope
+[2023-07-28 13:03:51] INFO root fetch - processPackages [unigui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unigui-1.9.5.tar.gz tmp/unigui-1.9.6.tar.gz --markdown 20230728/u/unigui/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-07-28 13:03:51] INFO root fetch - processPackages [opensafely]: Downloading https://files.pythonhosted.org/packages/64/67/da5b006e72fe5cc72d10eaf72c3aeb470703a1b5be1f749c06a3c315dc3e/opensafely-1.9.2.tar.gz
+[2023-07-28 13:03:52] INFO root fetch - processPackages [wheezy.validation]: Remove: archive file [/home/abi/fetcher/tmp/wheezy.validation-3.0.1.tar.gz]
+[2023-07-28 13:03:52] INFO root fetch - processPackages [wheezy.validation]: Remove: archive file [/home/abi/fetcher/tmp/wheezy.validation-3.2.0.tar.gz]
+[2023-07-28 13:03:52] INFO root fetch - main [MainThread]: End processing [wheezy.validation]: success
+[2023-07-28 13:03:52] INFO root fetch - processPackages [opensafely]: executing diffoscope
+[2023-07-28 13:03:52] INFO root fetch - processPackages [opensafely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensafely-1.9.1.tar.gz tmp/opensafely-1.9.2.tar.gz --markdown 20230728/o/opensafely/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-28 13:03:52] INFO root fetch - processPackages [wheezy.caching]: Remove: archive file [/home/abi/fetcher/tmp/wheezy.caching-3.0.1.tar.gz]
+[2023-07-28 13:03:52] INFO root fetch - processPackages [wheezy.caching]: Remove: archive file [/home/abi/fetcher/tmp/wheezy.caching-3.2.0.tar.gz]
+[2023-07-28 13:03:52] INFO root fetch - main [MainThread]: End processing [wheezy.caching]: success
+[2023-07-28 13:03:52] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz]
+[2023-07-28 13:03:52] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz]
+[2023-07-28 13:03:52] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-07-28 13:03:52] INFO root fetch - processPackages [wheezy.web]: Remove: archive file [/home/abi/fetcher/tmp/wheezy.web-3.0.1.tar.gz]
+[2023-07-28 13:03:52] INFO root fetch - processPackages [wheezy.web]: Remove: archive file [/home/abi/fetcher/tmp/wheezy.web-3.2.0.tar.gz]
+[2023-07-28 13:03:52] INFO root fetch - main [MainThread]: End processing [wheezy.web]: success
+[2023-07-28 13:03:52] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.8.tar.gz]
+[2023-07-28 13:03:52] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.9.tar.gz]
+[2023-07-28 13:03:52] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-07-28 13:03:52] INFO root fetch - processPackages [wheezy.captcha]: Remove: archive file [/home/abi/fetcher/tmp/wheezy.captcha-3.0.2.tar.gz]
+[2023-07-28 13:03:52] INFO root fetch - processPackages [wheezy.captcha]: Remove: archive file [/home/abi/fetcher/tmp/wheezy.captcha-3.2.0.tar.gz]
+[2023-07-28 13:03:52] INFO root fetch - main [MainThread]: End processing [wheezy.captcha]: success
+[2023-07-28 13:03:53] INFO root fetch - processPackages [vavacars-data-utils]: Remove: archive file [/home/abi/fetcher/tmp/vavacars_data_utils-1.1.1.tar.gz]
+[2023-07-28 13:03:53] INFO root fetch - processPackages [vavacars-data-utils]: Remove: archive file [/home/abi/fetcher/tmp/vavacars_data_utils-1.1.2.tar.gz]
+[2023-07-28 13:03:53] INFO root fetch - main [MainThread]: End processing [vavacars-data-utils]: success
+[2023-07-28 13:03:53] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.9.5.tar.gz]
+[2023-07-28 13:03:53] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.9.6.tar.gz]
+[2023-07-28 13:03:53] INFO root fetch - main [MainThread]: End processing [unigui]: success
+[2023-07-28 13:03:54] INFO root fetch - processPackages [opensafely]: Remove: archive file [/home/abi/fetcher/tmp/opensafely-1.9.1.tar.gz]
+[2023-07-28 13:03:54] INFO root fetch - processPackages [opensafely]: Remove: archive file [/home/abi/fetcher/tmp/opensafely-1.9.2.tar.gz]
+[2023-07-28 13:03:54] INFO root fetch - main [MainThread]: End processing [opensafely]: success
+[2023-07-28 13:03:54] INFO root fetch - main [MainThread]: Store serial: [19074694]
