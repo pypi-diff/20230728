@@ -12761,3 +12761,67 @@
 [2023-07-28 06:49:15] INFO root fetch - processPackages [openjij]: Remove: archive file [/home/abi/fetcher/tmp/openjij-0.7.4.tar.gz]
 [2023-07-28 06:49:15] INFO root fetch - main [MainThread]: End processing [openjij]: success
 [2023-07-28 06:49:15] INFO root fetch - main [MainThread]: Store serial: [19071739]
+[2023-07-28 06:54:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19071739]
+[2023-07-28 06:54:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-28 06:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ifunnygifmaker
+[2023-07-28 06:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pami
+[2023-07-28 06:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sanic-security
+[2023-07-28 06:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gitops
+[2023-07-28 06:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ifunnygifmaker
+[2023-07-28 06:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dsds
+[2023-07-28 06:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yapx
+[2023-07-28 06:54:24] INFO root fetch - processPackages [ifunnygifmaker]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-28 06:54:24] INFO root fetch - processPackages [ifunnygifmaker]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-28 06:54:24] INFO root fetch - processPackages [yapx]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-28 06:54:24] INFO root fetch - processPackages [dsds]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-07-28 06:54:24] INFO root fetch - processPackages [gitops]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-07-28 06:54:24] INFO root fetch - processPackages [pami]: New version: [2023.7.7] Old Version: [2023.7.28.1]
+[2023-07-28 06:54:24] INFO root fetch - processPackages [sanic-security]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-28 06:54:24] INFO root fetch - processPackages [dsds]: Downloading https://files.pythonhosted.org/packages/8b/ec/15160702e6e2788434082574942b80b01956bdca272c469bf6c1ac889440/dsds-0.0.23.tar.gz
+[2023-07-28 06:54:24] INFO root fetch - processPackages [ifunnygifmaker]: Downloading https://files.pythonhosted.org/packages/18/a1/22b63247e929c736790227b0806ca9c8d72ec93871c25ad06094aa64e542/ifunnygifmaker-1.0.2.tar.gz
+[2023-07-28 06:54:24] INFO root fetch - processPackages [ifunnygifmaker]: Downloading https://files.pythonhosted.org/packages/18/a1/22b63247e929c736790227b0806ca9c8d72ec93871c25ad06094aa64e542/ifunnygifmaker-1.0.2.tar.gz
+[2023-07-28 06:54:24] INFO root fetch - processPackages [gitops]: Downloading https://files.pythonhosted.org/packages/d7/7d/32d8e2cd57d1b9f160168c79642b03cce3c879758c84179733a2bcb095d5/gitops-0.9.7.tar.gz
+[2023-07-28 06:54:24] INFO root fetch - processPackages [yapx]: Downloading https://files.pythonhosted.org/packages/37/df/2bc286d10da7fcd033918f157be289b83d48456ef1e7958ae6fa8584257b/yapx-0.2.1.tar.gz
+[2023-07-28 06:54:24] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/56/32/17ae14510833135c573c7721b8eedff79cd01d21b93968a4a5f92c15b564/pami-2023.7.28.1.tar.gz
+[2023-07-28 06:54:24] INFO root fetch - processPackages [sanic-security]: Downloading https://files.pythonhosted.org/packages/97/8e/010d8c95f266d46ae059b7f411b03fbed45c3d397825f7ef0ffac6082682/sanic-security-1.9.8.tar.gz
+[2023-07-28 06:54:25] INFO root fetch - processPackages [dsds]: Downloading https://files.pythonhosted.org/packages/2b/6f/fba8042a2805556ad67642033a29b954d26a3625320232f47482e2cf46db/dsds-0.0.24.tar.gz
+[2023-07-28 06:54:25] INFO root fetch - processPackages [gitops]: Downloading https://files.pythonhosted.org/packages/35/a2/a6b8ecb5528074acc324a799084d617910b5f9457284406808a542b0c1c1/gitops-0.9.8.tar.gz
+[2023-07-28 06:54:25] INFO root fetch - processPackages [ifunnygifmaker]: Downloading https://files.pythonhosted.org/packages/fa/10/7bac75fe69969c0ac831afb374628f02dd3fcab035ac967679c1802d4a0d/ifunnygifmaker-1.0.3.tar.gz
+[2023-07-28 06:54:25] INFO root fetch - processPackages [ifunnygifmaker]: Downloading https://files.pythonhosted.org/packages/fa/10/7bac75fe69969c0ac831afb374628f02dd3fcab035ac967679c1802d4a0d/ifunnygifmaker-1.0.3.tar.gz
+[2023-07-28 06:54:25] INFO root fetch - processPackages [yapx]: Downloading https://files.pythonhosted.org/packages/75/bd/85bc7f28c4addf64a820ffc04349a8d27b527675876a6cac6b8fff126cca/yapx-0.2.2.tar.gz
+[2023-07-28 06:54:25] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/e5/b5/d3f8f4040d5ecd0e1161e74b0d0aa44917c676425d43137299c53e5096b5/pami-2023.7.7.tar.gz
+[2023-07-28 06:54:25] INFO root fetch - processPackages [dsds]: executing diffoscope
+[2023-07-28 06:54:25] INFO root fetch - processPackages [dsds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsds-0.0.23.tar.gz tmp/dsds-0.0.24.tar.gz --markdown 20230728/d/dsds/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-07-28 06:54:25] INFO root fetch - processPackages [yapx]: executing diffoscope
+[2023-07-28 06:54:25] INFO root fetch - processPackages [yapx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yapx-0.2.1.tar.gz tmp/yapx-0.2.2.tar.gz --markdown 20230728/y/yapx/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-28 06:54:25] INFO root fetch - processPackages [gitops]: executing diffoscope
+[2023-07-28 06:54:25] INFO root fetch - processPackages [gitops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitops-0.9.7.tar.gz tmp/gitops-0.9.8.tar.gz --markdown 20230728/g/gitops/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-07-28 06:54:25] INFO root fetch - processPackages [ifunnygifmaker]: executing diffoscope
+[2023-07-28 06:54:25] INFO root fetch - processPackages [ifunnygifmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifunnygifmaker-1.0.2.tar.gz tmp/ifunnygifmaker-1.0.3.tar.gz --markdown 20230728/i/ifunnygifmaker/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-28 06:54:25] INFO root fetch - processPackages [ifunnygifmaker]: executing diffoscope
+[2023-07-28 06:54:25] INFO root fetch - processPackages [ifunnygifmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifunnygifmaker-1.0.2.tar.gz tmp/ifunnygifmaker-1.0.3.tar.gz --markdown 20230728/i/ifunnygifmaker/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-28 06:54:25] INFO root fetch - processPackages [pami]: executing diffoscope
+[2023-07-28 06:54:25] INFO root fetch - processPackages [pami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pami-2023.7.28.1.tar.gz tmp/pami-2023.7.7.tar.gz --markdown 20230728/p/pami/2023.7.28.1-2023.7.7/diff.md --exclude *.pyd
+[2023-07-28 06:54:25] INFO root fetch - processPackages [sanic-security]: Downloading https://files.pythonhosted.org/packages/e6/51/bf5adbbe544913e29a8d4c0897a46e3f89761245b8b6f5e613a08badbc01/sanic-security-1.9.9.tar.gz
+[2023-07-28 06:54:26] INFO root fetch - processPackages [sanic-security]: executing diffoscope
+[2023-07-28 06:54:26] INFO root fetch - processPackages [sanic-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanic-security-1.9.8.tar.gz tmp/sanic-security-1.9.9.tar.gz --markdown 20230728/s/sanic-security/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-28 06:54:26] INFO root fetch - processPackages [ifunnygifmaker]: Remove: archive file [/home/abi/fetcher/tmp/ifunnygifmaker-1.0.2.tar.gz]
+[2023-07-28 06:54:26] INFO root fetch - processPackages [ifunnygifmaker]: Remove: archive file [/home/abi/fetcher/tmp/ifunnygifmaker-1.0.3.tar.gz]
+[2023-07-28 06:54:26] INFO root fetch - main [MainThread]: End processing [ifunnygifmaker]: success
+[2023-07-28 06:54:26] INFO root fetch - main [MainThread]: End processing [ifunnygifmaker]: success
+[2023-07-28 06:54:26] INFO root fetch - processPackages [dsds]: Remove: archive file [/home/abi/fetcher/tmp/dsds-0.0.23.tar.gz]
+[2023-07-28 06:54:26] INFO root fetch - processPackages [dsds]: Remove: archive file [/home/abi/fetcher/tmp/dsds-0.0.24.tar.gz]
+[2023-07-28 06:54:26] INFO root fetch - main [MainThread]: End processing [dsds]: success
+[2023-07-28 06:54:26] INFO root fetch - processPackages [gitops]: Remove: archive file [/home/abi/fetcher/tmp/gitops-0.9.7.tar.gz]
+[2023-07-28 06:54:26] INFO root fetch - processPackages [gitops]: Remove: archive file [/home/abi/fetcher/tmp/gitops-0.9.8.tar.gz]
+[2023-07-28 06:54:26] INFO root fetch - main [MainThread]: End processing [gitops]: success
+[2023-07-28 06:54:26] INFO root fetch - processPackages [yapx]: Remove: archive file [/home/abi/fetcher/tmp/yapx-0.2.1.tar.gz]
+[2023-07-28 06:54:26] INFO root fetch - processPackages [yapx]: Remove: archive file [/home/abi/fetcher/tmp/yapx-0.2.2.tar.gz]
+[2023-07-28 06:54:26] INFO root fetch - main [MainThread]: End processing [yapx]: success
+[2023-07-28 06:54:27] INFO root fetch - processPackages [sanic-security]: Remove: archive file [/home/abi/fetcher/tmp/sanic-security-1.9.8.tar.gz]
+[2023-07-28 06:54:27] INFO root fetch - processPackages [sanic-security]: Remove: archive file [/home/abi/fetcher/tmp/sanic-security-1.9.9.tar.gz]
+[2023-07-28 06:54:27] INFO root fetch - main [MainThread]: End processing [sanic-security]: success
+[2023-07-28 06:54:28] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.7.28.1.tar.gz]
+[2023-07-28 06:54:28] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.7.7.tar.gz]
+[2023-07-28 06:54:28] INFO root fetch - main [MainThread]: End processing [pami]: success
+[2023-07-28 06:54:28] INFO root fetch - main [MainThread]: Store serial: [19071766]
