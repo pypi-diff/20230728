@@ -19387,3 +19387,129 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 11:56:20] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.7.17.tar.gz]
 [2023-07-28 11:56:20] INFO root fetch - main [MainThread]: End processing [steamship]: success
 [2023-07-28 11:56:20] INFO root fetch - main [MainThread]: Store serial: [19074193]
+[2023-07-28 12:01:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19074193]
+[2023-07-28 12:01:29] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-28 12:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: argdeco-josugoar
+[2023-07-28 12:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-wavefront
+[2023-07-28 12:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libmytoken
+[2023-07-28 12:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: extendable
+[2023-07-28 12:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dolibs
+[2023-07-28 12:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ccxt
+[2023-07-28 12:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flash-attn
+[2023-07-28 12:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: esse
+[2023-07-28 12:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bombaysoftwares-pysupp
+[2023-07-28 12:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tdnpathviz
+[2023-07-28 12:01:29] INFO root fetch - processPackages [tdnpathviz]: New version: [0.1.2.9] Old Version: [0.1.2.8]
+[2023-07-28 12:01:29] INFO root fetch - processPackages [argdeco-josugoar]: New version: [1.6.0] Old Version: [1.4.0]
+[2023-07-28 12:01:29] INFO root fetch - processPackages [flash-attn]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-28 12:01:29] INFO root fetch - processPackages [extendable]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-28 12:01:29] INFO root fetch - processPackages [dolibs]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-28 12:01:29] INFO root fetch - processPackages [bombaysoftwares-pysupp]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-28 12:01:29] INFO root fetch - processPackages [esse]: New version: [2023.7.28.post0] Old Version: [2023.7.14.post0]
+[2023-07-28 12:01:29] INFO root fetch - processPackages [pulumi-wavefront]: New version: [1.5.0a1690537009] Old Version: [1.5.0a1690265807]
+[2023-07-28 12:01:29] WARNING root fetch - processPackages [libmytoken]: Skipping, unable to determine old version
+[2023-07-28 12:01:29] INFO root fetch - processPackages [libmytoken]: Start processing: flynt
+[2023-07-28 12:01:29] INFO root fetch - main [MainThread]: End processing [libmytoken] error
+[2023-07-28 12:01:29] INFO root fetch - processPackages [ccxt]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-28 12:01:29] INFO root fetch - processPackages [flynt]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-28 12:01:29] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ad/7d/8330d03fabbc3e43fd950e4c4fc50051c4c1ed03e1de206a341ccc8c1663/ccxt-4.0.8.tar.gz
+[2023-07-28 12:01:29] INFO root fetch - processPackages [tdnpathviz]: Downloading https://files.pythonhosted.org/packages/82/30/7dfc3181293709fb5a092d3f34163ff9e41ce077f3b529ec39012b24fe7c/tdnpathviz-0.1.2.8-py3-none-any.whl
+[2023-07-28 12:01:29] INFO root fetch - processPackages [argdeco-josugoar]: Downloading https://files.pythonhosted.org/packages/d4/92/a7316b7f6758134a1fb4ee4df398daae0c82dd5afb7c4393e825e56fd59c/argdeco-josugoar-1.4.0.tar.gz
+[2023-07-28 12:01:29] INFO root fetch - processPackages [dolibs]: Downloading https://files.pythonhosted.org/packages/8a/75/23b3ddb8e815532248495ff22c67b328c08b2364e2be7374cb62134cac51/dolibs-0.1.9.tar.gz
+[2023-07-28 12:01:29] INFO root fetch - processPackages [flash-attn]: Downloading https://files.pythonhosted.org/packages/8a/fc/2aaa1def50b35e29abf44fbdfbb301aeb34b02e7e9724cac2eb95d5b22f4/flash_attn-2.0.1.tar.gz
+[2023-07-28 12:01:29] INFO root fetch - processPackages [extendable]: Downloading https://files.pythonhosted.org/packages/29/36/bae5dd1f18e972be22f03605e653a929bcfe73ef4cb08a27dff12462ef58/extendable-1.1.0.tar.gz
+[2023-07-28 12:01:29] INFO root fetch - processPackages [bombaysoftwares-pysupp]: Downloading https://files.pythonhosted.org/packages/b4/51/d402bf3458b81319c232970f3485b584660b8d61ec892e0893435ff9abfc/bombaysoftwares-pysupp-1.0.3.tar.gz
+[2023-07-28 12:01:29] INFO root fetch - processPackages [esse]: Downloading https://files.pythonhosted.org/packages/10/a2/c2c9874feffac9d36907167a60bd1e2fc2924b7252aca6664d0d0c2544ec/esse-2023.7.14.post0.tar.gz
+[2023-07-28 12:01:29] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/b8/1b/9df6a0425fd5f79381dfbdf7ba87f9e99b82f4a07b8ac10ad6cd9fcd3a31/pulumi_wavefront-1.5.0a1690265807.tar.gz
+[2023-07-28 12:01:30] INFO root fetch - processPackages [flynt]: Downloading https://files.pythonhosted.org/packages/55/2c/99eb5109cba45d9b3ec7172029e3e9396cba5c458313fc61b833a125c646/flynt-1.0.0.tar.gz
+[2023-07-28 12:01:30] INFO root fetch - processPackages [argdeco-josugoar]: Downloading https://files.pythonhosted.org/packages/00/2e/293c5d28bb9e49f10f9e811dc78d5c6a232948507d372b0e777f83472461/argdeco-josugoar-1.6.0.tar.gz
+[2023-07-28 12:01:30] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/32/a5/e913d1abd897de7e300e2702f68a742f7dba4a8d682a377a41f7423bd968/ccxt-4.0.9.tar.gz
+[2023-07-28 12:01:30] INFO root fetch - processPackages [dolibs]: Downloading https://files.pythonhosted.org/packages/28/2f/197f9253f7ea31804aa0ac5c8d6ef20b2ca3b7dc02d92e69eaa5fd30014c/dolibs-0.2.0.tar.gz
+[2023-07-28 12:01:30] INFO root fetch - processPackages [extendable]: Downloading https://files.pythonhosted.org/packages/60/6f/6c17616a2d0acb2506f035dbcedb782b86cdfd9764a9d3bcfa62e8fe7377/extendable-1.2.0.tar.gz
+[2023-07-28 12:01:30] INFO root fetch - processPackages [bombaysoftwares-pysupp]: Downloading https://files.pythonhosted.org/packages/46/9e/99cb1cfb7ac29cfebf0b3b85f224db32236e8b78771587f9fad2774206a0/bombaysoftwares-pysupp-1.0.4.tar.gz
+[2023-07-28 12:01:30] INFO root fetch - processPackages [esse]: Downloading https://files.pythonhosted.org/packages/13/da/c9793f0a5aa75148b1b21a8cd58cf73842372b09e926040355a166249208/esse-2023.7.28.post0.tar.gz
+[2023-07-28 12:01:30] INFO root fetch - processPackages [flynt]: Downloading https://files.pythonhosted.org/packages/2a/6d/7ff4354c9b7cc3f4fc96758350d8dedf87fe7f036bd49d394f96327faca4/flynt-1.0.1.tar.gz
+[2023-07-28 12:01:30] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/a6/bb/12af1b67c2fe7fee12d8cdcbf5115ef00827584115cc6ca822f5b9cedac2/pulumi_wavefront-1.5.0a1690537009.tar.gz
+[2023-07-28 12:01:30] INFO root fetch - processPackages [argdeco-josugoar]: executing diffoscope
+[2023-07-28 12:01:30] INFO root fetch - processPackages [argdeco-josugoar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argdeco-josugoar-1.4.0.tar.gz tmp/argdeco-josugoar-1.6.0.tar.gz --markdown 20230728/a/argdeco-josugoar/1.4.0-1.6.0/diff.md --exclude *.pyd
+[2023-07-28 12:01:30] INFO root fetch - processPackages [tdnpathviz]: Downloading https://files.pythonhosted.org/packages/c4/ab/c33845d9bcb0da0781d8b86f3d500c0a2831024985fafecdada9fc1fe5fd/tdnpathviz-0.1.2.9-py3-none-any.whl
+[2023-07-28 12:01:30] INFO root fetch - processPackages [dolibs]: executing diffoscope
+[2023-07-28 12:01:30] INFO root fetch - processPackages [dolibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolibs-0.1.9.tar.gz tmp/dolibs-0.2.0.tar.gz --markdown 20230728/d/dolibs/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-28 12:01:30] INFO root fetch - processPackages [flash-attn]: Downloading https://files.pythonhosted.org/packages/98/58/da22da6184dca61d2c2f372bb6b261b2d09fae2aff7e4180748a94e8183b/flash_attn-2.0.2.tar.gz
+[2023-07-28 12:01:30] INFO root fetch - processPackages [extendable]: executing diffoscope
+[2023-07-28 12:01:30] INFO root fetch - processPackages [extendable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extendable-1.1.0.tar.gz tmp/extendable-1.2.0.tar.gz --markdown 20230728/e/extendable/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-28 12:01:30] INFO root fetch - processPackages [bombaysoftwares-pysupp]: executing diffoscope
+[2023-07-28 12:01:30] INFO root fetch - processPackages [bombaysoftwares-pysupp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bombaysoftwares-pysupp-1.0.3.tar.gz tmp/bombaysoftwares-pysupp-1.0.4.tar.gz --markdown 20230728/b/bombaysoftwares-pysupp/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-28 12:01:30] INFO root fetch - processPackages [flynt]: executing diffoscope
+[2023-07-28 12:01:30] INFO root fetch - processPackages [flynt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flynt-1.0.0.tar.gz tmp/flynt-1.0.1.tar.gz --markdown 20230728/f/flynt/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-28 12:01:30] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2023-07-28 12:01:30] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-1.5.0a1690265807.tar.gz tmp/pulumi_wavefront-1.5.0a1690537009.tar.gz --markdown 20230728/p/pulumi-wavefront/1.5.0a1690265807-1.5.0a1690537009/diff.md --exclude *.pyd
+[2023-07-28 12:01:30] INFO root fetch - processPackages [esse]: executing diffoscope
+[2023-07-28 12:01:30] INFO root fetch - processPackages [esse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esse-2023.7.14.post0.tar.gz tmp/esse-2023.7.28.post0.tar.gz --markdown 20230728/e/esse/2023.7.14.post0-2023.7.28.post0/diff.md --exclude *.pyd
+[2023-07-28 12:01:30] INFO root fetch - processPackages [tdnpathviz]: executing diffoscope
+[2023-07-28 12:01:30] INFO root fetch - processPackages [tdnpathviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdnpathviz-0.1.2.8-py3-none-any.whl.zip tmp/tdnpathviz-0.1.2.9-py3-none-any.whl.zip --markdown 20230728/t/tdnpathviz/0.1.2.8-0.1.2.9/diff.md --exclude *.pyd
+[2023-07-28 12:01:30] INFO root fetch - processPackages [flash-attn]: executing diffoscope
+[2023-07-28 12:01:30] INFO root fetch - processPackages [flash-attn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flash_attn-2.0.1.tar.gz tmp/flash_attn-2.0.2.tar.gz --markdown 20230728/f/flash-attn/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-28 12:01:30] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-07-28 12:01:30] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.8.tar.gz tmp/ccxt-4.0.9.tar.gz --markdown 20230728/c/ccxt/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-28 12:01:32] INFO root fetch - processPackages [argdeco-josugoar]: Remove: archive file [/home/abi/fetcher/tmp/argdeco-josugoar-1.4.0.tar.gz]
+[2023-07-28 12:01:32] INFO root fetch - processPackages [argdeco-josugoar]: Remove: archive file [/home/abi/fetcher/tmp/argdeco-josugoar-1.6.0.tar.gz]
+[2023-07-28 12:01:32] INFO root fetch - processPackages [argdeco-josugoar]: Start processing: kcli
+[2023-07-28 12:01:32] INFO root fetch - main [MainThread]: End processing [argdeco-josugoar]: success
+[2023-07-28 12:01:32] INFO root fetch - processPackages [extendable]: Remove: archive file [/home/abi/fetcher/tmp/extendable-1.1.0.tar.gz]
+[2023-07-28 12:01:32] INFO root fetch - processPackages [extendable]: Remove: archive file [/home/abi/fetcher/tmp/extendable-1.2.0.tar.gz]
+[2023-07-28 12:01:32] INFO root fetch - processPackages [kcli]: New version: [99.0.202307280959] Old Version: [99.0.202307272058]
+[2023-07-28 12:01:32] INFO root fetch - processPackages [extendable]: Start processing: insight-plugin
+[2023-07-28 12:01:32] INFO root fetch - main [MainThread]: End processing [extendable]: success
+[2023-07-28 12:01:32] INFO root fetch - processPackages [dolibs]: Remove: archive file [/home/abi/fetcher/tmp/dolibs-0.1.9.tar.gz]
+[2023-07-28 12:01:32] INFO root fetch - processPackages [dolibs]: Remove: archive file [/home/abi/fetcher/tmp/dolibs-0.2.0.tar.gz]
+[2023-07-28 12:01:32] INFO root fetch - processPackages [dolibs]: Start processing: bullhorn
+[2023-07-28 12:01:32] INFO root fetch - main [MainThread]: End processing [dolibs]: success
+[2023-07-28 12:01:32] INFO root fetch - processPackages [bombaysoftwares-pysupp]: Remove: archive file [/home/abi/fetcher/tmp/bombaysoftwares-pysupp-1.0.3.tar.gz]
+[2023-07-28 12:01:32] INFO root fetch - processPackages [bombaysoftwares-pysupp]: Remove: archive file [/home/abi/fetcher/tmp/bombaysoftwares-pysupp-1.0.4.tar.gz]
+[2023-07-28 12:01:32] INFO root fetch - processPackages [bombaysoftwares-pysupp]: Start processing: titan-iris
+[2023-07-28 12:01:32] INFO root fetch - main [MainThread]: End processing [bombaysoftwares-pysupp]: success
+[2023-07-28 12:01:32] INFO root fetch - processPackages [bullhorn]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-28 12:01:32] WARNING root fetch - processPackages [insight-plugin]: Skipping, unable to determine old version
+[2023-07-28 12:01:32] INFO root fetch - main [MainThread]: End processing [insight-plugin] error
+[2023-07-28 12:01:32] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/99/a9/82fc26750221448b76bbcf968e3b03b2ed1a5ff83c41ebdea554b4a52014/kcli-99.0.202307272058-py3-none-any.whl
+[2023-07-28 12:01:32] INFO root fetch - processPackages [titan-iris]: New version: [0.9.3.dev99] Old Version: [0.9.2.dev5]
+[2023-07-28 12:01:32] INFO root fetch - processPackages [bullhorn]: Downloading https://files.pythonhosted.org/packages/f3/c1/51210e6901a3efb4af266074a88282286ebd0119dcc5750bdfcf10105680/bullhorn-0.0.4.tar.gz
+[2023-07-28 12:01:32] INFO root fetch - processPackages [flynt]: Remove: archive file [/home/abi/fetcher/tmp/flynt-1.0.0.tar.gz]
+[2023-07-28 12:01:32] INFO root fetch - processPackages [flynt]: Remove: archive file [/home/abi/fetcher/tmp/flynt-1.0.1.tar.gz]
+[2023-07-28 12:01:32] INFO root fetch - main [MainThread]: End processing [flynt]: success
+[2023-07-28 12:01:32] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d8/4a/02919e9fa5b5ed0fc3b652fc6bd854246cd85b81a3bf56f61ea4ea1bbe89/titan-iris-0.9.2.dev5.tar.gz
+[2023-07-28 12:01:32] INFO root fetch - processPackages [tdnpathviz]: Remove: archive file [/home/abi/fetcher/tmp/tdnpathviz-0.1.2.8-py3-none-any.whl.zip]
+[2023-07-28 12:01:32] INFO root fetch - processPackages [tdnpathviz]: Remove: archive file [/home/abi/fetcher/tmp/tdnpathviz-0.1.2.9-py3-none-any.whl.zip]
+[2023-07-28 12:01:32] INFO root fetch - main [MainThread]: End processing [tdnpathviz]: success
+[2023-07-28 12:01:32] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-1.5.0a1690265807.tar.gz]
+[2023-07-28 12:01:32] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-1.5.0a1690537009.tar.gz]
+[2023-07-28 12:01:32] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2023-07-28 12:01:32] INFO root fetch - processPackages [bullhorn]: Downloading https://files.pythonhosted.org/packages/15/f7/27749ddac4e78a41a9a896f1809a65a7c03d56592f0fe3b94cd16d0498f5/bullhorn-0.0.5.tar.gz
+[2023-07-28 12:01:32] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/e6/3c/18cd2bade8545377203ce5c15b460e11ef1f135b4425a3d1901bcb1e2061/titan-iris-0.9.3.dev99.tar.gz
+[2023-07-28 12:01:32] INFO root fetch - processPackages [bullhorn]: executing diffoscope
+[2023-07-28 12:01:32] INFO root fetch - processPackages [bullhorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bullhorn-0.0.4.tar.gz tmp/bullhorn-0.0.5.tar.gz --markdown 20230728/b/bullhorn/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-28 12:01:32] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/76/ac/511556143f8bee776c9783f47001c8ff007791db4fcc79269f20d2de9c12/kcli-99.0.202307280959-py3-none-any.whl
+[2023-07-28 12:01:32] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-07-28 12:01:32] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.9.2.dev5.tar.gz tmp/titan-iris-0.9.3.dev99.tar.gz --markdown 20230728/t/titan-iris/0.9.2.dev5-0.9.3.dev99/diff.md --exclude *.pyd
+[2023-07-28 12:01:33] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-28 12:01:33] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307272058-py3-none-any.whl.zip tmp/kcli-99.0.202307280959-py3-none-any.whl.zip --markdown 20230728/k/kcli/99.0.202307272058-99.0.202307280959/diff.md --exclude *.pyd
+[2023-07-28 12:01:33] INFO root fetch - processPackages [bullhorn]: Remove: archive file [/home/abi/fetcher/tmp/bullhorn-0.0.4.tar.gz]
+[2023-07-28 12:01:33] INFO root fetch - processPackages [bullhorn]: Remove: archive file [/home/abi/fetcher/tmp/bullhorn-0.0.5.tar.gz]
+[2023-07-28 12:01:33] INFO root fetch - main [MainThread]: End processing [bullhorn]: success
+[2023-07-28 12:01:33] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.2.dev5.tar.gz]
+[2023-07-28 12:01:33] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.3.dev99.tar.gz]
+[2023-07-28 12:01:33] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-07-28 12:01:36] INFO root fetch - processPackages [esse]: Remove: archive file [/home/abi/fetcher/tmp/esse-2023.7.14.post0.tar.gz]
+[2023-07-28 12:01:36] INFO root fetch - processPackages [esse]: Remove: archive file [/home/abi/fetcher/tmp/esse-2023.7.28.post0.tar.gz]
+[2023-07-28 12:01:36] INFO root fetch - main [MainThread]: End processing [esse]: success
+[2023-07-28 12:01:36] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307272058-py3-none-any.whl.zip]
+[2023-07-28 12:01:36] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307280959-py3-none-any.whl.zip]
+[2023-07-28 12:01:36] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-28 12:01:36] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.8.tar.gz]
+[2023-07-28 12:01:36] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
+[2023-07-28 12:01:36] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-07-28 12:01:52] INFO root fetch - processPackages [flash-attn]: Remove: archive file [/home/abi/fetcher/tmp/flash_attn-2.0.1.tar.gz]
+[2023-07-28 12:01:52] INFO root fetch - processPackages [flash-attn]: Remove: archive file [/home/abi/fetcher/tmp/flash_attn-2.0.2.tar.gz]
+[2023-07-28 12:01:52] INFO root fetch - main [MainThread]: End processing [flash-attn]: success
+[2023-07-28 12:01:52] INFO root fetch - main [MainThread]: Store serial: [19074238]
