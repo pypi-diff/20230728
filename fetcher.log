@@ -9862,3 +9862,43 @@
 [2023-07-28 04:12:24] INFO root fetch - processPackages [aioscrapy-redis]: Remove: archive file [/home/abi/fetcher/tmp/aioscrapy_redis-0.3.tar.gz]
 [2023-07-28 04:12:24] INFO root fetch - main [MainThread]: End processing [aioscrapy-redis]: success
 [2023-07-28 04:12:24] INFO root fetch - main [MainThread]: Store serial: [19070429]
+[2023-07-28 04:17:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19070429]
+[2023-07-28 04:17:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-28 04:17:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: html-content-extractor
+[2023-07-28 04:17:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstract-ai
+[2023-07-28 04:17:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oloren
+[2023-07-28 04:17:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-ai
+[2023-07-28 04:17:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chichicha
+[2023-07-28 04:17:32] INFO root fetch - processPackages [abstract-ai]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-28 04:17:32] INFO root fetch - processPackages [chichicha]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-07-28 04:17:32] WARNING root fetch - processPackages [html-content-extractor]: Skipping, unable to determine old version
+[2023-07-28 04:17:32] INFO root fetch - main [MainThread]: End processing [html-content-extractor] error
+[2023-07-28 04:17:32] INFO root fetch - processPackages [abstract-ai]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-28 04:17:32] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 04:17:32] INFO root fetch - processPackages [chichicha]: Downloading https://files.pythonhosted.org/packages/ff/af/6c5672ae0356e55c558150f788cd792046b88f7e4e085084a130b650734f/chichicha-2.4.0.tar.gz
+[2023-07-28 04:17:32] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-07-28 04:17:32] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/ff/42/8df2d5df6b0a299a287eb9bcecfab7f497a9cce0d8319f1f941aa595d714/abstract_ai-0.1.0.tar.gz
+[2023-07-28 04:17:32] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/ff/42/8df2d5df6b0a299a287eb9bcecfab7f497a9cce0d8319f1f941aa595d714/abstract_ai-0.1.0.tar.gz
+[2023-07-28 04:17:33] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/07/9b/1fef3536651bf5be0d852e628f3b2ab74735cb843f4949062f2533e48e9e/abstract_ai-0.1.1.tar.gz
+[2023-07-28 04:17:33] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/07/9b/1fef3536651bf5be0d852e628f3b2ab74735cb843f4949062f2533e48e9e/abstract_ai-0.1.1.tar.gz
+[2023-07-28 04:17:33] INFO root fetch - processPackages [chichicha]: Downloading https://files.pythonhosted.org/packages/d8/2c/98081864590dadc8bcf68a9fa0f8bd37db2f2bfaf3c9ade82f60efaaf304/chichicha-2.5.0.tar.gz
+[2023-07-28 04:17:33] INFO root fetch - processPackages [abstract-ai]: executing diffoscope
+[2023-07-28 04:17:33] INFO root fetch - processPackages [abstract-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_ai-0.1.0.tar.gz tmp/abstract_ai-0.1.1.tar.gz --markdown 20230728/a/abstract-ai/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-28 04:17:33] INFO root fetch - processPackages [abstract-ai]: executing diffoscope
+[2023-07-28 04:17:33] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-07-28 04:17:33] INFO root fetch - processPackages [abstract-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_ai-0.1.0.tar.gz tmp/abstract_ai-0.1.1.tar.gz --markdown 20230728/a/abstract-ai/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-28 04:17:33] INFO root fetch - processPackages [chichicha]: executing diffoscope
+[2023-07-28 04:17:33] INFO root fetch - processPackages [chichicha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chichicha-2.4.0.tar.gz tmp/chichicha-2.5.0.tar.gz --markdown 20230728/c/chichicha/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-07-28 04:17:33] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-07-28 04:17:33] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230728/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 04:17:34] INFO root fetch - processPackages [abstract-ai]: Remove: archive file [/home/abi/fetcher/tmp/abstract_ai-0.1.0.tar.gz]
+[2023-07-28 04:17:34] INFO root fetch - processPackages [abstract-ai]: Remove: archive file [/home/abi/fetcher/tmp/abstract_ai-0.1.1.tar.gz]
+[2023-07-28 04:17:34] INFO root fetch - main [MainThread]: End processing [abstract-ai]: success
+[2023-07-28 04:17:34] INFO root fetch - main [MainThread]: End processing [abstract-ai]: success
+[2023-07-28 04:17:34] INFO root fetch - processPackages [chichicha]: Remove: archive file [/home/abi/fetcher/tmp/chichicha-2.4.0.tar.gz]
+[2023-07-28 04:17:34] INFO root fetch - processPackages [chichicha]: Remove: archive file [/home/abi/fetcher/tmp/chichicha-2.5.0.tar.gz]
+[2023-07-28 04:17:34] INFO root fetch - main [MainThread]: End processing [chichicha]: success
+[2023-07-28 04:17:37] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-07-28 04:17:37] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-07-28 04:17:37] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-07-28 04:17:37] INFO root fetch - main [MainThread]: Store serial: [19070452]
