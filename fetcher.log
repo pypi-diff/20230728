@@ -16030,3 +16030,65 @@ AssertionError: tmp/pyepsilla-0.0.5.tar.gz does not exist
 [2023-07-28 09:52:25] INFO root fetch - processPackages [ansys-mapdl-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys_mapdl_core-0.65.1.tar.gz]
 [2023-07-28 09:52:25] INFO root fetch - main [MainThread]: End processing [ansys-mapdl-core]: success
 [2023-07-28 09:52:25] INFO root fetch - main [MainThread]: Store serial: [19072990]
+[2023-07-28 09:57:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19072990]
+[2023-07-28 09:57:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-28 09:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2023-07-28 09:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-ssi-employee-document-mixin
+[2023-07-28 09:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatllm
+[2023-07-28 09:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: warpzone-sdk
+[2023-07-28 09:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ramodels
+[2023-07-28 09:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-viewflow
+[2023-07-28 09:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iminuit
+[2023-07-28 09:57:36] INFO root fetch - processPackages [warpzone-sdk]: New version: [8.3.7] Old Version: [8.3.6]
+[2023-07-28 09:57:36] INFO root fetch - processPackages [odoo14-addon-ssi-employee-document-mixin]: New version: [14.0.3.1.0] Old Version: [14.0.3.0.1]
+[2023-07-28 09:57:36] INFO root fetch - processPackages [iminuit]: New version: [2.9.0] Old Version: [2.8.4]
+[2023-07-28 09:57:36] INFO root fetch - processPackages [chatllm]: New version: [2023.7.4.13.43.50] Old Version: [2023.7.4.12.13.14]
+[2023-07-28 09:57:36] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-28 09:57:36] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-07-28 09:57:36] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/71/f7/0ef197adb373194703fce88e55b3e0208bd5c9d2673f127a766cedc0df8d/warpzone_sdk-8.3.6.tar.gz
+[2023-07-28 09:57:36] INFO root fetch - processPackages [django-viewflow]: New version: [2.0.0b6] Old Version: [2.0.0b5]
+[2023-07-28 09:57:36] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-28 09:57:37] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/ac/15/d8015b5ea1834f5c18e47edecc9b74875a43e81a49b4b2b2372660959ee1/chatllm-2023.7.4.12.13.14.tar.gz
+[2023-07-28 09:57:37] WARNING root fetch - processPackages [chatllm]: Skipping package: exceeds size limit 11352041>=10485760
+[2023-07-28 09:57:37] INFO root fetch - main [MainThread]: End processing [chatllm] error
+[2023-07-28 09:57:37] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-07-28 09:57:37] INFO root fetch - processPackages [odoo14-addon-ssi-employee-document-mixin]: Downloading https://files.pythonhosted.org/packages/d3/c4/ecfaa8ed12993c35773bee188259c455d280680ca02b785cc34c0bb894b8/odoo14_addon_ssi_employee_document_mixin-14.0.3.0.1-py3-none-any.whl
+[2023-07-28 09:57:37] INFO root fetch - processPackages [iminuit]: Downloading https://files.pythonhosted.org/packages/02/93/03a5b0c66b17027400a0e596fec5928e6b895eaf8c46902878ceaecd7902/iminuit-2.8.4.tar.gz
+[2023-07-28 09:57:37] INFO root fetch - processPackages [django-viewflow]: Downloading https://files.pythonhosted.org/packages/9f/58/ce139429c471f28516f5efafe7a885847e69cdc12d17c78a3d1d850187a5/django-viewflow-2.0.0b5.tar.gz
+[2023-07-28 09:57:37] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/88/18/6e2159296dfc8888e40ff4dc5729db3107a764c2ef15c9bedbdc8da0c2c9/warpzone_sdk-8.3.7.tar.gz
+[2023-07-28 09:57:37] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-28 09:57:37] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-07-28 09:57:37] INFO root fetch - processPackages [warpzone-sdk]: executing diffoscope
+[2023-07-28 09:57:37] INFO root fetch - processPackages [warpzone-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warpzone_sdk-8.3.6.tar.gz tmp/warpzone_sdk-8.3.7.tar.gz --markdown 20230728/w/warpzone-sdk/8.3.6-8.3.7/diff.md --exclude *.pyd
+[2023-07-28 09:57:37] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-07-28 09:57:37] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230728/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-07-28 09:57:37] INFO root fetch - processPackages [odoo14-addon-ssi-employee-document-mixin]: Downloading https://files.pythonhosted.org/packages/5c/e2/ca6db6d3693b8494bb196c0911f58d1248c28a9d5caeb3462db91568b520/odoo14_addon_ssi_employee_document_mixin-14.0.3.1.0-py3-none-any.whl
+[2023-07-28 09:57:37] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-28 09:57:37] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230728/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-28 09:57:37] INFO root fetch - processPackages [iminuit]: Downloading https://files.pythonhosted.org/packages/2c/d9/a53b8644237fd08bc603600867cd3ad1d29dbb2a007d8d28b51f7759c540/iminuit-2.9.0.tar.gz
+[2023-07-28 09:57:37] INFO root fetch - processPackages [odoo14-addon-ssi-employee-document-mixin]: executing diffoscope
+[2023-07-28 09:57:37] INFO root fetch - processPackages [odoo14-addon-ssi-employee-document-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_employee_document_mixin-14.0.3.0.1-py3-none-any.whl.zip tmp/odoo14_addon_ssi_employee_document_mixin-14.0.3.1.0-py3-none-any.whl.zip --markdown 20230728/o/odoo14-addon-ssi-employee-document-mixin/14.0.3.0.1-14.0.3.1.0/diff.md --exclude *.pyd
+[2023-07-28 09:57:37] INFO root fetch - processPackages [iminuit]: executing diffoscope
+[2023-07-28 09:57:37] INFO root fetch - processPackages [iminuit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iminuit-2.8.4.tar.gz tmp/iminuit-2.9.0.tar.gz --markdown 20230728/i/iminuit/2.8.4-2.9.0/diff.md --exclude *.pyd
+[2023-07-28 09:57:38] INFO root fetch - processPackages [django-viewflow]: Downloading https://files.pythonhosted.org/packages/ae/92/7982a3640d51dd716426cb770cd086662ee21ffc834609ec2416d5ccb43f/django-viewflow-2.0.0b6.tar.gz
+[2023-07-28 09:57:38] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-8.3.6.tar.gz]
+[2023-07-28 09:57:38] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-8.3.7.tar.gz]
+[2023-07-28 09:57:38] INFO root fetch - main [MainThread]: End processing [warpzone-sdk]: success
+[2023-07-28 09:57:38] INFO root fetch - processPackages [odoo14-addon-ssi-employee-document-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_employee_document_mixin-14.0.3.0.1-py3-none-any.whl.zip]
+[2023-07-28 09:57:38] INFO root fetch - processPackages [odoo14-addon-ssi-employee-document-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_employee_document_mixin-14.0.3.1.0-py3-none-any.whl.zip]
+[2023-07-28 09:57:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-employee-document-mixin]: success
+[2023-07-28 09:57:38] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-07-28 09:57:38] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-07-28 09:57:38] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-07-28 09:57:38] INFO root fetch - processPackages [django-viewflow]: executing diffoscope
+[2023-07-28 09:57:38] INFO root fetch - processPackages [django-viewflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-viewflow-2.0.0b5.tar.gz tmp/django-viewflow-2.0.0b6.tar.gz --markdown 20230728/d/django-viewflow/2.0.0b5-2.0.0b6/diff.md --exclude *.pyd
+[2023-07-28 09:57:40] INFO root fetch - processPackages [iminuit]: Remove: archive file [/home/abi/fetcher/tmp/iminuit-2.8.4.tar.gz]
+[2023-07-28 09:57:40] INFO root fetch - processPackages [iminuit]: Remove: archive file [/home/abi/fetcher/tmp/iminuit-2.9.0.tar.gz]
+[2023-07-28 09:57:40] INFO root fetch - main [MainThread]: End processing [iminuit]: success
+[2023-07-28 09:57:40] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-28 09:57:40] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-28 09:57:40] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-28 09:57:41] INFO root fetch - processPackages [django-viewflow]: Remove: archive file [/home/abi/fetcher/tmp/django-viewflow-2.0.0b5.tar.gz]
+[2023-07-28 09:57:41] INFO root fetch - processPackages [django-viewflow]: Remove: archive file [/home/abi/fetcher/tmp/django-viewflow-2.0.0b6.tar.gz]
+[2023-07-28 09:57:41] INFO root fetch - main [MainThread]: End processing [django-viewflow]: success
+[2023-07-28 09:57:41] INFO root fetch - main [MainThread]: Store serial: [19073035]
