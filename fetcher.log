@@ -10171,3 +10171,116 @@
 [2023-07-28 04:33:47] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.9.tar.gz]
 [2023-07-28 04:33:47] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-07-28 04:33:47] INFO root fetch - main [MainThread]: Store serial: [19070565]
+[2023-07-28 04:38:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19070565]
+[2023-07-28 04:39:00] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-28 04:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grafana-backup
+[2023-07-28 04:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphreduce
+[2023-07-28 04:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edc-metadata
+[2023-07-28 04:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: image2layout-computer-vision
+[2023-07-28 04:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-partner-statement
+[2023-07-28 04:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edc-model
+[2023-07-28 04:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qcs-sdk-python
+[2023-07-28 04:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: brainchain
+[2023-07-28 04:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lagrange-points
+[2023-07-28 04:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dominx
+[2023-07-28 04:39:00] INFO root fetch - processPackages [odoo14-addon-partner-statement]: New version: [14.0.1.4.5.dev8] Old Version: [14.0.1.4.5.dev7]
+[2023-07-28 04:39:00] WARNING root fetch - processPackages [lagrange-points]: Skipping, unable to determine old version
+[2023-07-28 04:39:00] INFO root fetch - processPackages [lagrange-points]: Start processing: edc-visit-schedule
+[2023-07-28 04:39:00] INFO root fetch - main [MainThread]: End processing [lagrange-points] error
+[2023-07-28 04:39:00] WARNING root fetch - processPackages [dominx]: Skipping, unable to determine old version
+[2023-07-28 04:39:00] INFO root fetch - processPackages [dominx]: Start processing: nanohelp
+[2023-07-28 04:39:00] INFO root fetch - main [MainThread]: End processing [dominx] error
+[2023-07-28 04:39:00] INFO root fetch - processPackages [image2layout-computer-vision]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-28 04:39:00] INFO root fetch - processPackages [edc-model]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-28 04:39:00] INFO root fetch - processPackages [brainchain]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-28 04:39:00] INFO root fetch - processPackages [grafana-backup]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-28 04:39:00] INFO root fetch - processPackages [graphreduce]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-28 04:39:00] WARNING root fetch - processPackages [nanohelp]: Skipping, unable to determine old version
+[2023-07-28 04:39:00] INFO root fetch - processPackages [nanohelp]: Start processing: volcengine-python-sdk
+[2023-07-28 04:39:00] INFO root fetch - main [MainThread]: End processing [nanohelp] error
+[2023-07-28 04:39:00] INFO root fetch - processPackages [edc-metadata]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-28 04:39:00] INFO root fetch - processPackages [edc-visit-schedule]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-28 04:39:00] INFO root fetch - processPackages [qcs-sdk-python]: New version: [0.9.1rc0] Old Version: [0.9.1]
+[2023-07-28 04:39:00] INFO root fetch - processPackages [volcengine-python-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-28 04:39:01] INFO root fetch - processPackages [graphreduce]: Downloading https://files.pythonhosted.org/packages/5a/fc/5adb5779220941f443888867b1490b1c99eaf335c73b3bd01eae08119fc7/graphreduce-1.5.2.tar.gz
+[2023-07-28 04:39:01] INFO root fetch - processPackages [odoo14-addon-partner-statement]: Downloading https://files.pythonhosted.org/packages/aa/4d/ccb1b6cb39c26879445e99fec4f21feb4141cd495aef8582f102a4c1aaf6/odoo14_addon_partner_statement-14.0.1.4.5.dev7-py3-none-any.whl
+[2023-07-28 04:39:01] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/ff/75/e607b174f4efc875809400aaf720dd84ad23c6cf463baaa0667f9f458263/volcengine-python-sdk-1.0.8.tar.gz
+[2023-07-28 04:39:01] INFO root fetch - processPackages [brainchain]: Downloading https://files.pythonhosted.org/packages/bb/e2/f5613480c4c5e32aee5ec3cea095d1b9eda0b510653d83cc4eec36ffa599/brainchain-0.4.1.tar.gz
+[2023-07-28 04:39:01] INFO root fetch - processPackages [edc-model]: Downloading https://files.pythonhosted.org/packages/2f/50/3f093f49f84fdca943092a526df4af7162f963b74ba735c31e895648d975/edc_model-0.3.8-py3-none-any.whl
+[2023-07-28 04:39:01] INFO root fetch - processPackages [edc-metadata]: Downloading https://files.pythonhosted.org/packages/31/9d/7e4dc7d00a9f09501415d10d685657f87a104cade0c183eeed14910dacce/edc_metadata-0.3.8-py3-none-any.whl
+[2023-07-28 04:39:01] INFO root fetch - processPackages [image2layout-computer-vision]: Downloading https://files.pythonhosted.org/packages/85/e7/caa98c1d6e2132fbccadec2c50d3d25f9c89c96cda8353ca08bbfcb0d7fe/image2layout_computer_vision-0.0.6.tar.gz
+[2023-07-28 04:39:01] INFO root fetch - processPackages [edc-visit-schedule]: Downloading https://files.pythonhosted.org/packages/55/62/08b5eb66559fe5f11493a7403cf1549605588ac96f1433e68190de33a591/edc_visit_schedule-0.3.8-py3-none-any.whl
+[2023-07-28 04:39:01] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/ae/01/0fb2c446d87f5050c97d355db924cb5d1550c365f87131b08c8d55030eec/qcs_sdk_python-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-28 04:39:01] INFO root fetch - processPackages [grafana-backup]: Downloading https://files.pythonhosted.org/packages/a3/83/17107bbff526701fb1685c48fea4930bef073cc315f402f95fde11029140/grafana-backup-1.3.3.tar.gz
+[2023-07-28 04:39:01] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/53/6e/bc2e8996b329c0459547989d687871830a3d17036f25d8455e66ffe3b1a8/volcengine-python-sdk-1.0.9.tar.gz
+[2023-07-28 04:39:01] INFO root fetch - processPackages [grafana-backup]: executing diffoscope
+[2023-07-28 04:39:01] INFO root fetch - processPackages [grafana-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana-backup-1.3.2.tar.gz tmp/grafana-backup-1.3.3.tar.gz --markdown 20230728/g/grafana-backup/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-28 04:39:01] INFO root fetch - processPackages [graphreduce]: Downloading https://files.pythonhosted.org/packages/49/2a/e34a1f6052d283d873e55772ac671e65c328d4778c9be2904a856f5eff2d/graphreduce-1.5.3.tar.gz
+[2023-07-28 04:39:01] INFO root fetch - processPackages [brainchain]: Downloading https://files.pythonhosted.org/packages/61/99/6b90e644cd1d1ef246b909eef6e031fc4c619f09b8c0f18e69689908cb30/brainchain-0.4.2.tar.gz
+[2023-07-28 04:39:01] INFO root fetch - processPackages [volcengine-python-sdk]: executing diffoscope
+[2023-07-28 04:39:01] INFO root fetch - processPackages [volcengine-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-python-sdk-1.0.8.tar.gz tmp/volcengine-python-sdk-1.0.9.tar.gz --markdown 20230728/v/volcengine-python-sdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-28 04:39:01] INFO root fetch - processPackages [odoo14-addon-partner-statement]: Downloading https://files.pythonhosted.org/packages/71/cf/7c674b87c3203685c437de34e30f57b6ca8dbf361eb3e3b7b6f9169479b4/odoo14_addon_partner_statement-14.0.1.4.5.dev8-py3-none-any.whl
+[2023-07-28 04:39:01] INFO root fetch - processPackages [image2layout-computer-vision]: Downloading https://files.pythonhosted.org/packages/54/1d/94e26c5c73fc0de4529c1fae8bd52acb11188a26130df0a3e52b62972143/image2layout_computer_vision-0.0.7.tar.gz
+[2023-07-28 04:39:01] INFO root fetch - processPackages [graphreduce]: executing diffoscope
+[2023-07-28 04:39:01] INFO root fetch - processPackages [graphreduce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphreduce-1.5.2.tar.gz tmp/graphreduce-1.5.3.tar.gz --markdown 20230728/g/graphreduce/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-28 04:39:01] INFO root fetch - processPackages [brainchain]: executing diffoscope
+[2023-07-28 04:39:01] INFO root fetch - processPackages [brainchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainchain-0.4.1.tar.gz tmp/brainchain-0.4.2.tar.gz --markdown 20230728/b/brainchain/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-28 04:39:01] INFO root fetch - processPackages [edc-model]: Downloading https://files.pythonhosted.org/packages/22/c1/0520252af45753682431977db2a79bf94298e33d9063bd1f7d801159fbad/edc_model-0.3.9-py3-none-any.whl
+[2023-07-28 04:39:01] INFO root fetch - processPackages [edc-metadata]: Downloading https://files.pythonhosted.org/packages/fc/87/223d66df835d66d65b4b4fee1285f68343b30d95b0385ea166afd9f48874/edc_metadata-0.3.9-py3-none-any.whl
+[2023-07-28 04:39:01] INFO root fetch - processPackages [image2layout-computer-vision]: executing diffoscope
+[2023-07-28 04:39:01] INFO root fetch - processPackages [image2layout-computer-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image2layout_computer_vision-0.0.6.tar.gz tmp/image2layout_computer_vision-0.0.7.tar.gz --markdown 20230728/i/image2layout-computer-vision/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-28 04:39:01] INFO root fetch - processPackages [odoo14-addon-partner-statement]: executing diffoscope
+[2023-07-28 04:39:01] INFO root fetch - processPackages [odoo14-addon-partner-statement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_partner_statement-14.0.1.4.5.dev7-py3-none-any.whl.zip tmp/odoo14_addon_partner_statement-14.0.1.4.5.dev8-py3-none-any.whl.zip --markdown 20230728/o/odoo14-addon-partner-statement/14.0.1.4.5.dev7-14.0.1.4.5.dev8/diff.md --exclude *.pyd
+[2023-07-28 04:39:01] INFO root fetch - processPackages [edc-visit-schedule]: Downloading https://files.pythonhosted.org/packages/d5/72/3df1323c5292ddeb8587bdab58504a97371317f435cce78a6e93a1c6561a/edc_visit_schedule-0.3.9-py3-none-any.whl
+[2023-07-28 04:39:01] INFO root fetch - processPackages [edc-metadata]: executing diffoscope
+[2023-07-28 04:39:01] INFO root fetch - processPackages [edc-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_metadata-0.3.8-py3-none-any.whl.zip tmp/edc_metadata-0.3.9-py3-none-any.whl.zip --markdown 20230728/e/edc-metadata/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-28 04:39:01] INFO root fetch - processPackages [edc-model]: executing diffoscope
+[2023-07-28 04:39:01] INFO root fetch - processPackages [edc-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_model-0.3.8-py3-none-any.whl.zip tmp/edc_model-0.3.9-py3-none-any.whl.zip --markdown 20230728/e/edc-model/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-28 04:39:02] INFO root fetch - processPackages [edc-visit-schedule]: executing diffoscope
+[2023-07-28 04:39:02] INFO root fetch - processPackages [edc-visit-schedule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_visit_schedule-0.3.8-py3-none-any.whl.zip tmp/edc_visit_schedule-0.3.9-py3-none-any.whl.zip --markdown 20230728/e/edc-visit-schedule/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-28 04:39:02] INFO root fetch - processPackages [grafana-backup]: Remove: archive file [/home/abi/fetcher/tmp/grafana-backup-1.3.2.tar.gz]
+[2023-07-28 04:39:02] INFO root fetch - processPackages [grafana-backup]: Remove: archive file [/home/abi/fetcher/tmp/grafana-backup-1.3.3.tar.gz]
+[2023-07-28 04:39:02] INFO root fetch - processPackages [grafana-backup]: Start processing: graia-broadcast
+[2023-07-28 04:39:02] INFO root fetch - main [MainThread]: End processing [grafana-backup]: success
+[2023-07-28 04:39:02] INFO root fetch - processPackages [graia-broadcast]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-07-28 04:39:02] INFO root fetch - processPackages [graia-broadcast]: Downloading https://files.pythonhosted.org/packages/0e/73/12db803a0653fdb1df3662b25ed789d44aa87dfe7ca86424e2a23b073b79/graia-broadcast-0.8.9.tar.gz
+[2023-07-28 04:39:03] INFO root fetch - processPackages [graphreduce]: Remove: archive file [/home/abi/fetcher/tmp/graphreduce-1.5.2.tar.gz]
+[2023-07-28 04:39:03] INFO root fetch - processPackages [graphreduce]: Remove: archive file [/home/abi/fetcher/tmp/graphreduce-1.5.3.tar.gz]
+[2023-07-28 04:39:03] INFO root fetch - processPackages [graphreduce]: Start processing: VMConnect
+[2023-07-28 04:39:03] INFO root fetch - main [MainThread]: End processing [graphreduce]: success
+[2023-07-28 04:39:03] INFO root fetch - processPackages [brainchain]: Remove: archive file [/home/abi/fetcher/tmp/brainchain-0.4.1.tar.gz]
+[2023-07-28 04:39:03] INFO root fetch - processPackages [brainchain]: Remove: archive file [/home/abi/fetcher/tmp/brainchain-0.4.2.tar.gz]
+[2023-07-28 04:39:03] INFO root fetch - main [MainThread]: End processing [brainchain]: success
+[2023-07-28 04:39:03] WARNING root fetch - processPackages [VMConnect]: Skipping, unable to determine old version
+[2023-07-28 04:39:03] INFO root fetch - main [MainThread]: End processing [VMConnect] error
+[2023-07-28 04:39:03] INFO root fetch - processPackages [graia-broadcast]: Downloading https://files.pythonhosted.org/packages/bb/b6/1e12c5c4c947738dd16cc772420e87e8482984dcf5e94bc92fe2ae57c0cf/graia-broadcast-0.9.0.tar.gz
+[2023-07-28 04:39:03] INFO root fetch - processPackages [image2layout-computer-vision]: Remove: archive file [/home/abi/fetcher/tmp/image2layout_computer_vision-0.0.6.tar.gz]
+[2023-07-28 04:39:03] INFO root fetch - processPackages [image2layout-computer-vision]: Remove: archive file [/home/abi/fetcher/tmp/image2layout_computer_vision-0.0.7.tar.gz]
+[2023-07-28 04:39:03] INFO root fetch - main [MainThread]: End processing [image2layout-computer-vision]: success
+[2023-07-28 04:39:03] INFO root fetch - processPackages [graia-broadcast]: executing diffoscope
+[2023-07-28 04:39:03] INFO root fetch - processPackages [graia-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graia-broadcast-0.8.9.tar.gz tmp/graia-broadcast-0.9.0.tar.gz --markdown 20230728/g/graia-broadcast/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-07-28 04:39:03] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/2e/f1/272ed4b50250474a48d15284cb78d9fa628df46edf6e61cbe635ff067749/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-28 04:39:03] INFO root fetch - processPackages [odoo14-addon-partner-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_partner_statement-14.0.1.4.5.dev7-py3-none-any.whl.zip]
+[2023-07-28 04:39:03] INFO root fetch - processPackages [odoo14-addon-partner-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_partner_statement-14.0.1.4.5.dev8-py3-none-any.whl.zip]
+[2023-07-28 04:39:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-partner-statement]: success
+[2023-07-28 04:39:03] INFO root fetch - processPackages [edc-model]: Remove: archive file [/home/abi/fetcher/tmp/edc_model-0.3.8-py3-none-any.whl.zip]
+[2023-07-28 04:39:03] INFO root fetch - processPackages [edc-model]: Remove: archive file [/home/abi/fetcher/tmp/edc_model-0.3.9-py3-none-any.whl.zip]
+[2023-07-28 04:39:03] INFO root fetch - main [MainThread]: End processing [edc-model]: success
+[2023-07-28 04:39:03] INFO root fetch - processPackages [edc-visit-schedule]: Remove: archive file [/home/abi/fetcher/tmp/edc_visit_schedule-0.3.8-py3-none-any.whl.zip]
+[2023-07-28 04:39:03] INFO root fetch - processPackages [edc-visit-schedule]: Remove: archive file [/home/abi/fetcher/tmp/edc_visit_schedule-0.3.9-py3-none-any.whl.zip]
+[2023-07-28 04:39:03] INFO root fetch - main [MainThread]: End processing [edc-visit-schedule]: success
+[2023-07-28 04:39:03] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc_metadata-0.3.8-py3-none-any.whl.zip]
+[2023-07-28 04:39:03] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc_metadata-0.3.9-py3-none-any.whl.zip]
+[2023-07-28 04:39:03] INFO root fetch - main [MainThread]: End processing [edc-metadata]: success
+[2023-07-28 04:39:04] INFO root fetch - processPackages [graia-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/graia-broadcast-0.8.9.tar.gz]
+[2023-07-28 04:39:04] INFO root fetch - processPackages [graia-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/graia-broadcast-0.9.0.tar.gz]
+[2023-07-28 04:39:04] INFO root fetch - main [MainThread]: End processing [graia-broadcast]: success
+[2023-07-28 04:39:04] INFO root fetch - processPackages [qcs-sdk-python]: executing diffoscope
+[2023-07-28 04:39:04] INFO root fetch - processPackages [qcs-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_sdk_python-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230728/q/qcs-sdk-python/0.9.1-0.9.1rc0/diff.md --exclude *.pyd
+[2023-07-28 04:39:12] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.8.tar.gz]
+[2023-07-28 04:39:12] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
+[2023-07-28 04:39:12] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
+[2023-07-28 04:40:53] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-28 04:40:53] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-28 04:40:53] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
+[2023-07-28 04:40:53] INFO root fetch - main [MainThread]: Store serial: [19070628]
