@@ -17616,3 +17616,264 @@ AssertionError: tmp/pyepsilla-0.0.5.tar.gz does not exist
 [2023-07-28 11:05:56] INFO root fetch - processPackages [heat-agents]: Remove: archive file [/home/abi/fetcher/tmp/heat-agents-6.0.0.0rc1.tar.gz]
 [2023-07-28 11:05:56] INFO root fetch - main [MainThread]: End processing [heat-agents]: success
 [2023-07-28 11:05:56] INFO root fetch - main [MainThread]: Store serial: [19073656]
+[2023-07-28 11:11:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19073656]
+[2023-07-28 11:11:05] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-28 11:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cm-two
+[2023-07-28 11:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensorneko-util
+[2023-07-28 11:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorneko
+[2023-07-28 11:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-aea-cosmpy
+[2023-07-28 11:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snk
+[2023-07-28 11:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ansys-dpf-gate
+[2023-07-28 11:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ansys-grpc-dpf
+[2023-07-28 11:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ansys-dpf-gatebin
+[2023-07-28 11:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stimela
+[2023-07-28 11:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: caloutils
+[2023-07-28 11:11:05] INFO root fetch - processPackages [tensorneko-util]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-28 11:11:05] INFO root fetch - processPackages [ansys-grpc-dpf]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-07-28 11:11:05] WARNING root fetch - processPackages [caloutils]: Skipping, unable to determine old version
+[2023-07-28 11:11:05] INFO root fetch - processPackages [caloutils]: Start processing: indykite-sdk-python
+[2023-07-28 11:11:05] INFO root fetch - main [MainThread]: End processing [caloutils] error
+[2023-07-28 11:11:05] INFO root fetch - processPackages [cm-two]: New version: [2.3.58] Old Version: [2.3.57]
+[2023-07-28 11:11:05] INFO root fetch - processPackages [open-aea-cosmpy]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-28 11:11:05] INFO root fetch - processPackages [snk]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-28 11:11:05] INFO root fetch - processPackages [ansys-dpf-gatebin]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-28 11:11:05] INFO root fetch - processPackages [ansys-dpf-gate]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-28 11:11:05] INFO root fetch - processPackages [stimela]: New version: [2.0rc6] Old Version: [2.0rc4]
+[2023-07-28 11:11:05] INFO root fetch - processPackages [tensorneko]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-28 11:11:05] INFO root fetch - processPackages [indykite-sdk-python]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-28 11:11:05] INFO root fetch - processPackages [open-aea-cosmpy]: Downloading https://files.pythonhosted.org/packages/39/8b/e188b71cc6faa3bc61d905679cc8d3390e85854fdf50a3cd22702b1c51cc/open_aea_cosmpy-0.6.3.tar.gz
+[2023-07-28 11:11:05] INFO root fetch - processPackages [tensorneko-util]: Downloading https://files.pythonhosted.org/packages/1b/6a/b1472c64467b16499c62b390dbd6b5a8b77cf69f4914f4870ca3489c9f83/tensorneko_util-0.3.0.tar.gz
+[2023-07-28 11:11:05] INFO root fetch - processPackages [ansys-grpc-dpf]: Downloading https://files.pythonhosted.org/packages/69/54/319868d1f06615e43ce48147d05b89ca51dc7499840d554e76c8226cf59e/ansys_grpc_dpf-0.7.1-py3-none-any.whl
+[2023-07-28 11:11:05] INFO root fetch - processPackages [ansys-dpf-gatebin]: Downloading https://files.pythonhosted.org/packages/56/00/e9d739422dfd8c0cf0a9d2f3af934008dbd009fa7041e96e6a850a1f5a2d/ansys_dpf_gatebin-0.3.1-py3-none-win_amd64.whl
+[2023-07-28 11:11:05] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/54/33/ed6257a47eacf50e2ac7965bb117827af5a1e5eddb02d20dc3f15cc9a81a/snk-0.9.2.tar.gz
+[2023-07-28 11:11:05] INFO root fetch - processPackages [ansys-dpf-gate]: Downloading https://files.pythonhosted.org/packages/10/a9/73b736ca5aaf96ab7f14deee3664e06deb17888f6872c084155cbb1b1f51/ansys_dpf_gate-0.3.1-py3-none-any.whl
+[2023-07-28 11:11:06] INFO root fetch - processPackages [tensorneko]: Downloading https://files.pythonhosted.org/packages/ec/40/ac76f798dcc1e83adeda0d9c5021c228c9bbcdd353855c179f9b650dee1e/tensorneko-0.3.0.tar.gz
+[2023-07-28 11:11:06] INFO root fetch - processPackages [stimela]: Downloading https://files.pythonhosted.org/packages/54/97/73b4c7af8223ea8bef528bee2fcbf5db576c132f83dbd6fc9e4290af3f1b/stimela-2.0rc4.tar.gz
+[2023-07-28 11:11:06] INFO root fetch - processPackages [indykite-sdk-python]: Downloading https://files.pythonhosted.org/packages/50/f3/0a2a0a7f8486f219a6a319ede3c2de5288cb2e115cd7139571b4cd724d82/indykite-sdk-python-1.8.0.tar.gz
+[2023-07-28 11:11:06] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/7c/b3/c06aa12b455190c2b2adafe9fc74abcb483e0cdedd17472cbd95323bee1b/cm_two-2.3.58-py3-none-any.whl
+[2023-07-28 11:11:06] INFO root fetch - processPackages [open-aea-cosmpy]: Downloading https://files.pythonhosted.org/packages/59/e9/b4ea4081d1d476ed002b36f75719f4fa35ce5a208caa212c77dc3da194ab/open_aea_cosmpy-0.6.4.tar.gz
+[2023-07-28 11:11:06] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-07-28 11:11:06] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.57-py3-none-any.whl.zip tmp/cm_two-2.3.58-py3-none-any.whl.zip --markdown 20230728/c/cm-two/2.3.57-2.3.58/diff.md --exclude *.pyd
+[2023-07-28 11:11:06] INFO root fetch - processPackages [ansys-grpc-dpf]: Downloading https://files.pythonhosted.org/packages/6c/3b/ec9132337f711a3c3f5b7d5f88b14cf218db7509e16ee5787b0b98746ce2/ansys_grpc_dpf-0.8.0-py3-none-any.whl
+[2023-07-28 11:11:06] INFO root fetch - processPackages [tensorneko-util]: Downloading https://files.pythonhosted.org/packages/50/8c/04716934df3048073bb7ae5050476c5822d79e57a6d3ed235f6aa49956d8/tensorneko_util-0.3.1.tar.gz
+[2023-07-28 11:11:06] INFO root fetch - processPackages [ansys-dpf-gate]: Downloading https://files.pythonhosted.org/packages/7e/64/e7ab538d2cec2b08d79322aa080923e33e1014ecb63fb1b3fbcdfb60e94a/ansys_dpf_gate-0.4.0-py3-none-any.whl
+[2023-07-28 11:11:06] INFO root fetch - processPackages [open-aea-cosmpy]: executing diffoscope
+[2023-07-28 11:11:06] INFO root fetch - processPackages [open-aea-cosmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_aea_cosmpy-0.6.3.tar.gz tmp/open_aea_cosmpy-0.6.4.tar.gz --markdown 20230728/o/open-aea-cosmpy/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-07-28 11:11:06] INFO root fetch - processPackages [tensorneko]: Downloading https://files.pythonhosted.org/packages/c5/a6/8480bf5ee643433f192b22295934f18437849ffc47ca3297e85ef8c89c63/tensorneko-0.3.1.tar.gz
+[2023-07-28 11:11:06] INFO root fetch - processPackages [ansys-dpf-gatebin]: Downloading https://files.pythonhosted.org/packages/d1/cd/9a1343a333ccf2fccb8335937d999b7e39717e220bc92aaaadc76a3b0465/ansys_dpf_gatebin-0.4.0-py3-none-win_amd64.whl
+[2023-07-28 11:11:06] INFO root fetch - processPackages [ansys-grpc-dpf]: executing diffoscope
+[2023-07-28 11:11:06] INFO root fetch - processPackages [ansys-grpc-dpf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_grpc_dpf-0.7.1-py3-none-any.whl.zip tmp/ansys_grpc_dpf-0.8.0-py3-none-any.whl.zip --markdown 20230728/a/ansys-grpc-dpf/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-07-28 11:11:06] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/1c/e9/336f86dec3e01b44b3e34cc162ca9a0ca4108fb07244fd97031ad3205df1/snk-0.9.3.tar.gz
+[2023-07-28 11:11:06] INFO root fetch - processPackages [tensorneko]: executing diffoscope
+[2023-07-28 11:11:06] INFO root fetch - processPackages [tensorneko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorneko-0.3.0.tar.gz tmp/tensorneko-0.3.1.tar.gz --markdown 20230728/t/tensorneko/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-28 11:11:06] INFO root fetch - processPackages [ansys-dpf-gate]: executing diffoscope
+[2023-07-28 11:11:06] INFO root fetch - processPackages [ansys-dpf-gate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_dpf_gate-0.3.1-py3-none-any.whl.zip tmp/ansys_dpf_gate-0.4.0-py3-none-any.whl.zip --markdown 20230728/a/ansys-dpf-gate/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-28 11:11:06] INFO root fetch - processPackages [tensorneko-util]: executing diffoscope
+[2023-07-28 11:11:06] INFO root fetch - processPackages [tensorneko-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorneko_util-0.3.0.tar.gz tmp/tensorneko_util-0.3.1.tar.gz --markdown 20230728/t/tensorneko-util/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-28 11:11:06] INFO root fetch - processPackages [stimela]: Downloading https://files.pythonhosted.org/packages/52/ee/35cc7a1208f275705d35ea3f73488b5c82ea8c6cf931649fa8f1e47c6532/stimela-2.0rc6.tar.gz
+[2023-07-28 11:11:06] INFO root fetch - processPackages [indykite-sdk-python]: Downloading https://files.pythonhosted.org/packages/1d/24/d3c0f1913c780f3c300d6d0606ce03543a97b03f19a6fc0be3c53e1b8774/indykite-sdk-python-1.9.0.tar.gz
+[2023-07-28 11:11:06] INFO root fetch - processPackages [snk]: executing diffoscope
+[2023-07-28 11:11:06] INFO root fetch - processPackages [snk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snk-0.9.2.tar.gz tmp/snk-0.9.3.tar.gz --markdown 20230728/s/snk/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-28 11:11:07] INFO root fetch - processPackages [ansys-dpf-gatebin]: executing diffoscope
+[2023-07-28 11:11:07] INFO root fetch - processPackages [ansys-dpf-gatebin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_dpf_gatebin-0.3.1-py3-none-win_amd64.whl.zip tmp/ansys_dpf_gatebin-0.4.0-py3-none-win_amd64.whl.zip --markdown 20230728/a/ansys-dpf-gatebin/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-28 11:11:07] INFO root fetch - processPackages [stimela]: executing diffoscope
+[2023-07-28 11:11:07] INFO root fetch - processPackages [stimela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimela-2.0rc4.tar.gz tmp/stimela-2.0rc6.tar.gz --markdown 20230728/s/stimela/2.0rc4-2.0rc6/diff.md --exclude *.pyd
+[2023-07-28 11:11:07] INFO root fetch - processPackages [indykite-sdk-python]: executing diffoscope
+[2023-07-28 11:11:07] INFO root fetch - processPackages [indykite-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indykite-sdk-python-1.8.0.tar.gz tmp/indykite-sdk-python-1.9.0.tar.gz --markdown 20230728/i/indykite-sdk-python/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-28 11:11:07] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: time="2023-07-28T11:11:06+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-07-28 11:11:07] INFO root fetch - processPackages [cm-two]: Start processing: easypoint
+[2023-07-28 11:11:07] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-07-28 11:11:07] INFO root fetch - processPackages [easypoint]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-28 11:11:07] INFO root fetch - processPackages [easypoint]: Downloading https://files.pythonhosted.org/packages/5e/d5/91933be55c3e251070557274c3ff0b40755390f96420ae6b4902951439e4/easypoint-0.1.0.tar.gz
+[2023-07-28 11:11:08] INFO root fetch - processPackages [easypoint]: Downloading https://files.pythonhosted.org/packages/3d/14/28442ac3fdbfabbe40845de3503c37a4c835505046c5a3812f7dc6aecf02/easypoint-0.2.0.tar.gz
+[2023-07-28 11:11:08] INFO root fetch - processPackages [easypoint]: executing diffoscope
+[2023-07-28 11:11:08] INFO root fetch - processPackages [easypoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easypoint-0.1.0.tar.gz tmp/easypoint-0.2.0.tar.gz --markdown 20230728/e/easypoint/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-28 11:11:08] INFO root fetch - processPackages [ansys-grpc-dpf]: Remove: archive file [/home/abi/fetcher/tmp/ansys_grpc_dpf-0.7.1-py3-none-any.whl.zip]
+[2023-07-28 11:11:08] INFO root fetch - processPackages [ansys-grpc-dpf]: Remove: archive file [/home/abi/fetcher/tmp/ansys_grpc_dpf-0.8.0-py3-none-any.whl.zip]
+[2023-07-28 11:11:08] INFO root fetch - processPackages [ansys-grpc-dpf]: Start processing: apit212
+[2023-07-28 11:11:08] INFO root fetch - main [MainThread]: End processing [ansys-grpc-dpf]: success
+[2023-07-28 11:11:08] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.9.2.tar.gz]
+[2023-07-28 11:11:08] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.9.3.tar.gz]
+[2023-07-28 11:11:08] INFO root fetch - processPackages [snk]: Start processing: yetl-framework
+[2023-07-28 11:11:08] INFO root fetch - main [MainThread]: End processing [snk]: success
+[2023-07-28 11:11:08] INFO root fetch - processPackages [apit212]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-07-28 11:11:08] INFO root fetch - processPackages [yetl-framework]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-28 11:11:08] INFO root fetch - processPackages [apit212]: Downloading https://files.pythonhosted.org/packages/7d/32/e2693189db8da006df5f28aaa59057deddb4938171177a984965eb589c57/apit212-0.0.9.tar.gz
+[2023-07-28 11:11:08] INFO root fetch - processPackages [tensorneko]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko-0.3.0.tar.gz]
+[2023-07-28 11:11:08] INFO root fetch - processPackages [tensorneko]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko-0.3.1.tar.gz]
+[2023-07-28 11:11:08] INFO root fetch - processPackages [tensorneko]: Start processing: scrunch
+[2023-07-28 11:11:08] INFO root fetch - main [MainThread]: End processing [tensorneko]: success
+[2023-07-28 11:11:08] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/13/ca/297b0ec859c872ca5b7d6574feae3c6c9b68dbc9dc3c996421bdedeb34e7/yetl-framework-2.0.2.tar.gz
+[2023-07-28 11:11:08] INFO root fetch - processPackages [scrunch]: New version: [6.5.2015.post1690508651] Old Version: [6.5.2014.post1690481109]
+[2023-07-28 11:11:08] INFO root fetch - processPackages [tensorneko-util]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko_util-0.3.0.tar.gz]
+[2023-07-28 11:11:08] INFO root fetch - processPackages [tensorneko-util]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko_util-0.3.1.tar.gz]
+[2023-07-28 11:11:08] INFO root fetch - processPackages [tensorneko-util]: Start processing: enot-latency-server
+[2023-07-28 11:11:08] INFO root fetch - main [MainThread]: End processing [tensorneko-util]: success
+[2023-07-28 11:11:09] INFO root fetch - processPackages [enot-latency-server]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-28 11:11:09] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/ca/16/2303e5df65ede706d83b967cbf127095de86201f750816b8257e52b6fc21/scrunch-6.5.2014.post1690481109.tar.gz
+[2023-07-28 11:11:09] INFO root fetch - processPackages [apit212]: Downloading https://files.pythonhosted.org/packages/e2/be/c4a9a8366e21a077e8838dc2f9ab1b4cdd9083f8902454cd08a80ca28ed8/apit212-1.0.0.tar.gz
+[2023-07-28 11:11:09] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/d4/97/50d87fbc56a2b720b079d3bf5ec71dccaeec7ddddd72958808f399645453/yetl-framework-2.0.3.tar.gz
+[2023-07-28 11:11:09] INFO root fetch - processPackages [enot-latency-server]: Downloading https://files.pythonhosted.org/packages/d9/9a/6c728a188127449ceb2440cc41a78ef4fcb11e755720f223bc4a9c7b1132/enot-latency-server-1.1.0.tar.gz
+[2023-07-28 11:11:09] INFO root fetch - processPackages [stimela]: Remove: archive file [/home/abi/fetcher/tmp/stimela-2.0rc4.tar.gz]
+[2023-07-28 11:11:09] INFO root fetch - processPackages [stimela]: Remove: archive file [/home/abi/fetcher/tmp/stimela-2.0rc6.tar.gz]
+[2023-07-28 11:11:09] INFO root fetch - processPackages [stimela]: Start processing: hezar
+[2023-07-28 11:11:09] INFO root fetch - main [MainThread]: End processing [stimela]: success
+[2023-07-28 11:11:09] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/04/01/ce226759ad2581bd11cd5c6fbcf59e9f376b3180821bbc3b93a8ec47ba46/scrunch-6.5.2015.post1690508651.tar.gz
+[2023-07-28 11:11:09] INFO root fetch - processPackages [hezar]: New version: [0.17.0] Old Version: [0.16.0]
+[2023-07-28 11:11:09] INFO root fetch - processPackages [apit212]: executing diffoscope
+[2023-07-28 11:11:09] INFO root fetch - processPackages [apit212]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apit212-0.0.9.tar.gz tmp/apit212-1.0.0.tar.gz --markdown 20230728/a/apit212/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-07-28 11:11:09] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/de/10/f0605c66cf2d4003dbb86800c7af9f96a9b4bfcfe711e7ad67823dacec97/hezar-0.16.0.tar.gz
+[2023-07-28 11:11:09] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-07-28 11:11:09] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2014.post1690481109.tar.gz tmp/scrunch-6.5.2015.post1690508651.tar.gz --markdown 20230728/s/scrunch/6.5.2014.post1690481109-6.5.2015.post1690508651/diff.md --exclude *.pyd
+[2023-07-28 11:11:09] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-07-28 11:11:09] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-2.0.2.tar.gz tmp/yetl-framework-2.0.3.tar.gz --markdown 20230728/y/yetl-framework/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-28 11:11:09] INFO root fetch - processPackages [indykite-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/indykite-sdk-python-1.8.0.tar.gz]
+[2023-07-28 11:11:09] INFO root fetch - processPackages [indykite-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/indykite-sdk-python-1.9.0.tar.gz]
+[2023-07-28 11:11:09] INFO root fetch - processPackages [indykite-sdk-python]: Start processing: HOGBEN
+[2023-07-28 11:11:09] INFO root fetch - main [MainThread]: End processing [indykite-sdk-python]: success
+[2023-07-28 11:11:09] INFO root fetch - processPackages [HOGBEN]: New version: [1.2.1] Old Version: [1.1.2.2023.5.19]
+[2023-07-28 11:11:09] INFO root fetch - processPackages [enot-latency-server]: Downloading https://files.pythonhosted.org/packages/f3/34/f9b1ed946a80cbedc34c2655a6f957d8c0da4dda1fa6941fe6aa516bcd70/enot_latency_server-1.1.1-py3-none-any.whl
+[2023-07-28 11:11:09] INFO root fetch - processPackages [ansys-dpf-gate]: Remove: archive file [/home/abi/fetcher/tmp/ansys_dpf_gate-0.3.1-py3-none-any.whl.zip]
+[2023-07-28 11:11:09] INFO root fetch - processPackages [ansys-dpf-gate]: Remove: archive file [/home/abi/fetcher/tmp/ansys_dpf_gate-0.4.0-py3-none-any.whl.zip]
+[2023-07-28 11:11:09] INFO root fetch - processPackages [ansys-dpf-gate]: Start processing: my-python-module
+[2023-07-28 11:11:09] INFO root fetch - main [MainThread]: End processing [ansys-dpf-gate]: success
+[2023-07-28 11:11:09] INFO root fetch - processPackages [my-python-module]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-28 11:11:09] INFO root fetch - processPackages [easypoint]: Remove: archive file [/home/abi/fetcher/tmp/easypoint-0.1.0.tar.gz]
+[2023-07-28 11:11:09] INFO root fetch - processPackages [easypoint]: Remove: archive file [/home/abi/fetcher/tmp/easypoint-0.2.0.tar.gz]
+[2023-07-28 11:11:09] INFO root fetch - processPackages [easypoint]: Start processing: pybabylonjs
+[2023-07-28 11:11:09] INFO root fetch - main [MainThread]: End processing [easypoint]: success
+[2023-07-28 11:11:09] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/44/b8/4adf8abb5e8c89bf61e9244a80d59ab5c86ea7cb9eddfe04297e905615b9/hezar-0.17.0.tar.gz
+[2023-07-28 11:11:09] INFO root fetch - processPackages [HOGBEN]: Downloading https://files.pythonhosted.org/packages/52/ab/591115b2515fc6115635adf69fd191a6f105ef04cc4411c59b9dab45b1fb/HOGBEN-1.1.2.2023.5.19.tar.gz
+[2023-07-28 11:11:09] INFO root fetch - processPackages [enot-latency-server]: executing diffoscope
+[2023-07-28 11:11:09] INFO root fetch - processPackages [enot-latency-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enot-latency-server-1.1.0.tar.gz tmp/enot_latency_server-1.1.1-py3-none-any.whl.zip --markdown 20230728/e/enot-latency-server/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-28 11:11:09] INFO root fetch - processPackages [my-python-module]: Downloading https://files.pythonhosted.org/packages/9c/c5/7df7a632f15229673737573588fe10c02123e1b5b7e3e29047ea9fa59a2f/my_python_module-0.5.3.tar.gz
+[2023-07-28 11:11:09] INFO root fetch - processPackages [pybabylonjs]: New version: [1.4.0] Old Version: [1.3.3b1]
+[2023-07-28 11:11:10] INFO root fetch - processPackages [hezar]: executing diffoscope
+[2023-07-28 11:11:10] INFO root fetch - processPackages [hezar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hezar-0.16.0.tar.gz tmp/hezar-0.17.0.tar.gz --markdown 20230728/h/hezar/0.16.0-0.17.0/diff.md --exclude *.pyd
+[2023-07-28 11:11:10] INFO root fetch - processPackages [open-aea-cosmpy]: Remove: archive file [/home/abi/fetcher/tmp/open_aea_cosmpy-0.6.3.tar.gz]
+[2023-07-28 11:11:10] INFO root fetch - processPackages [open-aea-cosmpy]: Remove: archive file [/home/abi/fetcher/tmp/open_aea_cosmpy-0.6.4.tar.gz]
+[2023-07-28 11:11:10] INFO root fetch - main [MainThread]: End processing [open-aea-cosmpy]: success
+[2023-07-28 11:11:10] INFO root fetch - processPackages [HOGBEN]: Downloading https://files.pythonhosted.org/packages/51/21/bb92c2ed27fff8ae044be92b2703a9f57ab7c4ec15e9fca41661e8f130b7/HOGBEN-1.2.1.tar.gz
+[2023-07-28 11:11:10] INFO root fetch - processPackages [pybabylonjs]: Downloading https://files.pythonhosted.org/packages/b8/e8/8fe711af1627e2097d3c74ad1f596bd62a58c302880146b05a3e840b4eab/pybabylonjs-1.3.3b1-py2.py3-none-any.whl
+[2023-07-28 11:11:10] INFO root fetch - processPackages [my-python-module]: Downloading https://files.pythonhosted.org/packages/ca/1a/4c1659e692b7d37078910dd4b5ca2e036f1ba054ce476d17f94d273b316d/my_python_module-0.5.4.tar.gz
+[2023-07-28 11:11:10] INFO root fetch - processPackages [HOGBEN]: executing diffoscope
+[2023-07-28 11:11:10] INFO root fetch - processPackages [HOGBEN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HOGBEN-1.1.2.2023.5.19.tar.gz tmp/HOGBEN-1.2.1.tar.gz --markdown 20230728/H/HOGBEN/1.1.2.2023.5.19-1.2.1/diff.md --exclude *.pyd
+[2023-07-28 11:11:10] INFO root fetch - processPackages [my-python-module]: executing diffoscope
+[2023-07-28 11:11:10] INFO root fetch - processPackages [my-python-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_python_module-0.5.3.tar.gz tmp/my_python_module-0.5.4.tar.gz --markdown 20230728/m/my-python-module/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-28 11:11:10] INFO root fetch - processPackages [apit212]: Remove: archive file [/home/abi/fetcher/tmp/apit212-0.0.9.tar.gz]
+[2023-07-28 11:11:10] INFO root fetch - processPackages [apit212]: Remove: archive file [/home/abi/fetcher/tmp/apit212-1.0.0.tar.gz]
+[2023-07-28 11:11:10] INFO root fetch - main [MainThread]: End processing [apit212]: success
+[2023-07-28 11:11:10] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-2.0.2.tar.gz]
+[2023-07-28 11:11:10] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-2.0.3.tar.gz]
+[2023-07-28 11:11:10] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-07-28 11:11:10] INFO root fetch - processPackages [enot-latency-server]: Remove: archive file [/home/abi/fetcher/tmp/enot-latency-server-1.1.0.tar.gz]
+[2023-07-28 11:11:10] INFO root fetch - processPackages [enot-latency-server]: Remove: archive file [/home/abi/fetcher/tmp/enot_latency_server-1.1.1-py3-none-any.whl.zip]
+[2023-07-28 11:11:10] INFO root fetch - main [MainThread]: End processing [enot-latency-server]: success
+[2023-07-28 11:11:11] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2014.post1690481109.tar.gz]
+[2023-07-28 11:11:11] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2015.post1690508651.tar.gz]
+[2023-07-28 11:11:11] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-07-28 11:11:11] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.16.0.tar.gz]
+[2023-07-28 11:11:11] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.17.0.tar.gz]
+[2023-07-28 11:11:11] INFO root fetch - main [MainThread]: End processing [hezar]: success
+[2023-07-28 11:11:11] INFO root fetch - processPackages [HOGBEN]: Remove: archive file [/home/abi/fetcher/tmp/HOGBEN-1.1.2.2023.5.19.tar.gz]
+[2023-07-28 11:11:11] INFO root fetch - processPackages [HOGBEN]: Remove: archive file [/home/abi/fetcher/tmp/HOGBEN-1.2.1.tar.gz]
+[2023-07-28 11:11:11] INFO root fetch - main [MainThread]: End processing [HOGBEN]: success
+[2023-07-28 11:11:11] INFO root fetch - processPackages [my-python-module]: Remove: archive file [/home/abi/fetcher/tmp/my_python_module-0.5.3.tar.gz]
+[2023-07-28 11:11:11] INFO root fetch - processPackages [my-python-module]: Remove: archive file [/home/abi/fetcher/tmp/my_python_module-0.5.4.tar.gz]
+[2023-07-28 11:11:11] INFO root fetch - main [MainThread]: End processing [my-python-module]: success
+[2023-07-28 11:11:12] INFO root fetch - processPackages [pybabylonjs]: Downloading https://files.pythonhosted.org/packages/1f/fe/3c5eba01e8788dafba37d0dad1ca723ba0b8a325aac386bb2913360ee1b8/pybabylonjs-1.4.0-py2.py3-none-any.whl
+[2023-07-28 11:11:14] INFO root fetch - processPackages [pybabylonjs]: executing diffoscope
+[2023-07-28 11:11:14] INFO root fetch - processPackages [pybabylonjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybabylonjs-1.3.3b1-py2.py3-none-any.whl.zip tmp/pybabylonjs-1.4.0-py2.py3-none-any.whl.zip --markdown 20230728/p/pybabylonjs/1.3.3b1-1.4.0/diff.md --exclude *.pyd
+[2023-07-28 11:11:17] INFO root fetch - processPackages [pybabylonjs]: Remove: archive file [/home/abi/fetcher/tmp/pybabylonjs-1.3.3b1-py2.py3-none-any.whl.zip]
+[2023-07-28 11:11:17] INFO root fetch - processPackages [pybabylonjs]: Remove: archive file [/home/abi/fetcher/tmp/pybabylonjs-1.4.0-py2.py3-none-any.whl.zip]
+[2023-07-28 11:11:17] INFO root fetch - main [MainThread]: End processing [pybabylonjs]: success
+[2023-07-28 11:11:29] INFO root fetch - processPackages [ansys-dpf-gatebin]: Remove: archive file [/home/abi/fetcher/tmp/ansys_dpf_gatebin-0.3.1-py3-none-win_amd64.whl.zip]
+[2023-07-28 11:11:29] INFO root fetch - processPackages [ansys-dpf-gatebin]: Remove: archive file [/home/abi/fetcher/tmp/ansys_dpf_gatebin-0.4.0-py3-none-win_amd64.whl.zip]
+[2023-07-28 11:11:29] INFO root fetch - main [MainThread]: End processing [ansys-dpf-gatebin]: success
+[2023-07-28 11:11:29] INFO root fetch - main [MainThread]: Store serial: [19073713]
