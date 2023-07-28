@@ -16324,3 +16324,99 @@ AssertionError: tmp/pyepsilla-0.0.5.tar.gz does not exist
 [2023-07-28 10:08:13] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-2.9.2.tar.gz]
 [2023-07-28 10:08:13] INFO root fetch - main [MainThread]: End processing [lyrebird]: success
 [2023-07-28 10:08:13] INFO root fetch - main [MainThread]: Store serial: [19073135]
+[2023-07-28 10:13:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19073135]
+[2023-07-28 10:13:21] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-28 10:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hatch-ci
+[2023-07-28 10:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sn-test
+[2023-07-28 10:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vango
+[2023-07-28 10:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: volworld-aws-api-common
+[2023-07-28 10:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ndspy
+[2023-07-28 10:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lyrebird-bugit
+[2023-07-28 10:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: satindex
+[2023-07-28 10:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ccdt
+[2023-07-28 10:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nvosscript
+[2023-07-28 10:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: arcane-core
+[2023-07-28 10:13:22] INFO root fetch - processPackages [vango]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-28 10:13:22] INFO root fetch - processPackages [hatch-ci]: New version: [0.0.2b9] Old Version: [0.0.2b8]
+[2023-07-28 10:13:22] INFO root fetch - processPackages [sn-test]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-28 10:13:22] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-28 10:13:22] WARNING root fetch - processPackages [satindex]: Skipping, unable to determine old version
+[2023-07-28 10:13:22] INFO root fetch - processPackages [satindex]: Start processing: mypy-boto3-builder
+[2023-07-28 10:13:22] INFO root fetch - main [MainThread]: End processing [satindex] error
+[2023-07-28 10:13:22] INFO root fetch - processPackages [nvosscript]: New version: [1.3.7.6] Old Version: [1.3.7.5]
+[2023-07-28 10:13:22] INFO root fetch - processPackages [lyrebird-bugit]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-28 10:13:22] INFO root fetch - processPackages [ndspy]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-07-28 10:13:22] INFO root fetch - processPackages [ccdt]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-28 10:13:22] INFO root fetch - processPackages [arcane-core]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-28 10:13:22] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/4f/03/1a8cb5ed7c62216b0304feb4cdeec346cd7e27cf0b65c05a56973a80a11f/hatch_ci-0.0.2b8.tar.gz
+[2023-07-28 10:13:22] INFO root fetch - processPackages [sn-test]: Downloading https://files.pythonhosted.org/packages/12/03/e7a94f50195eb22d0ab415a38d5e4f7d54e67c8bfc8ad3f43620d1d6faa2/sn_test-1.0.5.tar.gz
+[2023-07-28 10:13:22] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/c7/82/7aefcc55e9d34309e43a1c4f62f535a10cbf84c23f14b0b54efb88505de6/volworld_aws_api_common-0.1.98.tar.gz
+[2023-07-28 10:13:22] INFO root fetch - processPackages [mypy-boto3-builder]: New version: [7.9.2] Old Version: [7.9.1]
+[2023-07-28 10:13:22] INFO root fetch - processPackages [vango]: Downloading https://files.pythonhosted.org/packages/de/f6/f05f774f5a1d43b6bcfd39d44033a05d7a2db9c60ed9e05dea4c434a14cf/vango-1.2.1.tar.gz
+[2023-07-28 10:13:22] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/4b/74/4580a005cbe4f6dc4e16ce3a9feb5716c4cf901b4839d048dfff2001ee3d/ccdt-2.1.8.tar.gz
+[2023-07-28 10:13:22] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/43/27/9a4dd86115b114f13d386be07f55c0d1a37de53ef6cd43ba8e43f55f680f/nvosscript-1.3.7.5.tar.gz
+[2023-07-28 10:13:22] INFO root fetch - processPackages [ndspy]: Downloading https://files.pythonhosted.org/packages/a4/45/f8c3aecb4ec69639a726a66f256b4345b5c61555a49c72228b297f0bf9f6/ndspy-4.0.0.tar.gz
+[2023-07-28 10:13:22] INFO root fetch - processPackages [lyrebird-bugit]: Downloading https://files.pythonhosted.org/packages/d3/95/eace435b1592036295ad9c2b6e0aa3e11d0bb883a7e34745dab498e8a890/lyrebird-bugit-1.9.0.tar.gz
+[2023-07-28 10:13:22] INFO root fetch - processPackages [arcane-core]: Downloading https://files.pythonhosted.org/packages/3c/b0/d7f95c209eb6edb3e4752587309fdef94ccd7386e2213b9b3c7b142c390a/arcane-core-1.9.0.tar.gz
+[2023-07-28 10:13:22] INFO root fetch - processPackages [mypy-boto3-builder]: Downloading https://files.pythonhosted.org/packages/ee/11/341b105bf6345e78400793dd64c53ee46392936cabff33772d368be4ab89/mypy-boto3-builder-7.9.1.tar.gz
+[2023-07-28 10:13:22] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/85/c0/0151fa36df35a94f04ec24e70e3a88eb186696b9f9258ee1d18d894c66d6/volworld_aws_api_common-0.1.99.tar.gz
+[2023-07-28 10:13:22] INFO root fetch - processPackages [sn-test]: Downloading https://files.pythonhosted.org/packages/71/37/6bf279c6f215a325cf3d5151933e90b7a9ceb9103e03d419b4246b0d7b53/sn_test-1.0.6.tar.gz
+[2023-07-28 10:13:22] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/d5/f2/7926d58fa933cd6e8d4ce55e92df2097043f323dba456534345b8dd248c1/ccdt-2.1.9.tar.gz
+[2023-07-28 10:13:22] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/62/db/67f143bfad9e5e0541ccaf7ee93d08ad1dd3733e76b39375ac5923459fe4/hatch_ci-0.0.2b9.tar.gz
+[2023-07-28 10:13:22] INFO root fetch - processPackages [vango]: Downloading https://files.pythonhosted.org/packages/a1/0e/adf93a83de1b031a634226782a98f888234e2cd72b5e6f30c4e41b52453c/vango-1.2.2.tar.gz
+[2023-07-28 10:13:22] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/12/77/896ebfe4ee3b7fc71100dab396c1de66e03bf6bcb0b3f6f51415a962021a/nvosscript-1.3.7.6.tar.gz
+[2023-07-28 10:13:23] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-07-28 10:13:23] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.98.tar.gz tmp/volworld_aws_api_common-0.1.99.tar.gz --markdown 20230728/v/volworld-aws-api-common/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-28 10:13:23] INFO root fetch - processPackages [sn-test]: executing diffoscope
+[2023-07-28 10:13:23] INFO root fetch - processPackages [sn-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sn_test-1.0.5.tar.gz tmp/sn_test-1.0.6.tar.gz --markdown 20230728/s/sn-test/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-28 10:13:23] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-07-28 10:13:23] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.8.tar.gz tmp/ccdt-2.1.9.tar.gz --markdown 20230728/c/ccdt/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-28 10:13:23] INFO root fetch - processPackages [nvosscript]: executing diffoscope
+[2023-07-28 10:13:23] INFO root fetch - processPackages [nvosscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvosscript-1.3.7.5.tar.gz tmp/nvosscript-1.3.7.6.tar.gz --markdown 20230728/n/nvosscript/1.3.7.5-1.3.7.6/diff.md --exclude *.pyd
+[2023-07-28 10:13:23] INFO root fetch - processPackages [arcane-core]: Downloading https://files.pythonhosted.org/packages/d8/72/f32417f15b0645149ab7cd5f9d6c33e2e2642dce5604d2245a8e77daedc4/arcane-core-1.9.1.tar.gz
+[2023-07-28 10:13:23] INFO root fetch - processPackages [ndspy]: Downloading https://files.pythonhosted.org/packages/12/19/33a7a3b4549950ad96fbbf2944b9e69dc67e54c0b99fc22b309e146cbd3b/ndspy-4.1.0.tar.gz
+[2023-07-28 10:13:23] INFO root fetch - processPackages [hatch-ci]: executing diffoscope
+[2023-07-28 10:13:23] INFO root fetch - processPackages [hatch-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_ci-0.0.2b8.tar.gz tmp/hatch_ci-0.0.2b9.tar.gz --markdown 20230728/h/hatch-ci/0.0.2b8-0.0.2b9/diff.md --exclude *.pyd
+[2023-07-28 10:13:23] INFO root fetch - processPackages [mypy-boto3-builder]: Downloading https://files.pythonhosted.org/packages/fe/ae/2a0da74f6827713d434b6fdb09c80ff83f450cffa43c5b8811492236e7ac/mypy-boto3-builder-7.9.2.tar.gz
+[2023-07-28 10:13:23] INFO root fetch - processPackages [vango]: executing diffoscope
+[2023-07-28 10:13:23] INFO root fetch - processPackages [vango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vango-1.2.1.tar.gz tmp/vango-1.2.2.tar.gz --markdown 20230728/v/vango/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-28 10:13:23] INFO root fetch - processPackages [arcane-core]: executing diffoscope
+[2023-07-28 10:13:23] INFO root fetch - processPackages [arcane-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcane-core-1.9.0.tar.gz tmp/arcane-core-1.9.1.tar.gz --markdown 20230728/a/arcane-core/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-28 10:13:23] INFO root fetch - processPackages [ndspy]: executing diffoscope
+[2023-07-28 10:13:23] INFO root fetch - processPackages [ndspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndspy-4.0.0.tar.gz tmp/ndspy-4.1.0.tar.gz --markdown 20230728/n/ndspy/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-07-28 10:13:23] INFO root fetch - processPackages [mypy-boto3-builder]: executing diffoscope
+[2023-07-28 10:13:23] INFO root fetch - processPackages [mypy-boto3-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-builder-7.9.1.tar.gz tmp/mypy-boto3-builder-7.9.2.tar.gz --markdown 20230728/m/mypy-boto3-builder/7.9.1-7.9.2/diff.md --exclude *.pyd
+[2023-07-28 10:13:24] INFO root fetch - processPackages [lyrebird-bugit]: Downloading https://files.pythonhosted.org/packages/e5/f0/e11fd63cc79d9b3c22836e7848a7f61dc72450e691ccf4c287491a1fa9ee/lyrebird-bugit-1.9.1.tar.gz
+[2023-07-28 10:13:24] INFO root fetch - processPackages [sn-test]: Remove: archive file [/home/abi/fetcher/tmp/sn_test-1.0.5.tar.gz]
+[2023-07-28 10:13:24] INFO root fetch - processPackages [sn-test]: Remove: archive file [/home/abi/fetcher/tmp/sn_test-1.0.6.tar.gz]
+[2023-07-28 10:13:24] INFO root fetch - main [MainThread]: End processing [sn-test]: success
+[2023-07-28 10:13:24] INFO root fetch - processPackages [nvosscript]: Remove: archive file [/home/abi/fetcher/tmp/nvosscript-1.3.7.5.tar.gz]
+[2023-07-28 10:13:24] INFO root fetch - processPackages [nvosscript]: Remove: archive file [/home/abi/fetcher/tmp/nvosscript-1.3.7.6.tar.gz]
+[2023-07-28 10:13:24] INFO root fetch - main [MainThread]: End processing [nvosscript]: success
+[2023-07-28 10:13:24] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.8.tar.gz]
+[2023-07-28 10:13:24] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.9.tar.gz]
+[2023-07-28 10:13:24] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-07-28 10:13:24] INFO root fetch - processPackages [volworld-aws-api-common]: Remove: archive file [/home/abi/fetcher/tmp/volworld_aws_api_common-0.1.98.tar.gz]
+[2023-07-28 10:13:24] INFO root fetch - processPackages [volworld-aws-api-common]: Remove: archive file [/home/abi/fetcher/tmp/volworld_aws_api_common-0.1.99.tar.gz]
+[2023-07-28 10:13:24] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-07-28 10:13:24] INFO root fetch - processPackages [arcane-core]: Remove: archive file [/home/abi/fetcher/tmp/arcane-core-1.9.0.tar.gz]
+[2023-07-28 10:13:24] INFO root fetch - processPackages [arcane-core]: Remove: archive file [/home/abi/fetcher/tmp/arcane-core-1.9.1.tar.gz]
+[2023-07-28 10:13:24] INFO root fetch - main [MainThread]: End processing [arcane-core]: success
+[2023-07-28 10:13:24] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.2b8.tar.gz]
+[2023-07-28 10:13:24] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.2b9.tar.gz]
+[2023-07-28 10:13:24] INFO root fetch - main [MainThread]: End processing [hatch-ci]: success
+[2023-07-28 10:13:24] INFO root fetch - processPackages [vango]: Remove: archive file [/home/abi/fetcher/tmp/vango-1.2.1.tar.gz]
+[2023-07-28 10:13:24] INFO root fetch - processPackages [vango]: Remove: archive file [/home/abi/fetcher/tmp/vango-1.2.2.tar.gz]
+[2023-07-28 10:13:24] INFO root fetch - main [MainThread]: End processing [vango]: success
+[2023-07-28 10:13:24] INFO root fetch - processPackages [ndspy]: Remove: archive file [/home/abi/fetcher/tmp/ndspy-4.0.0.tar.gz]
+[2023-07-28 10:13:24] INFO root fetch - processPackages [ndspy]: Remove: archive file [/home/abi/fetcher/tmp/ndspy-4.1.0.tar.gz]
+[2023-07-28 10:13:24] INFO root fetch - main [MainThread]: End processing [ndspy]: success
+[2023-07-28 10:13:25] INFO root fetch - processPackages [lyrebird-bugit]: executing diffoscope
+[2023-07-28 10:13:25] INFO root fetch - processPackages [lyrebird-bugit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrebird-bugit-1.9.0.tar.gz tmp/lyrebird-bugit-1.9.1.tar.gz --markdown 20230728/l/lyrebird-bugit/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-28 10:13:25] INFO root fetch - processPackages [mypy-boto3-builder]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-builder-7.9.1.tar.gz]
+[2023-07-28 10:13:25] INFO root fetch - processPackages [mypy-boto3-builder]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-builder-7.9.2.tar.gz]
+[2023-07-28 10:13:25] INFO root fetch - main [MainThread]: End processing [mypy-boto3-builder]: success
+[2023-07-28 10:13:27] INFO root fetch - processPackages [lyrebird-bugit]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-bugit-1.9.0.tar.gz]
+[2023-07-28 10:13:27] INFO root fetch - processPackages [lyrebird-bugit]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-bugit-1.9.1.tar.gz]
+[2023-07-28 10:13:27] INFO root fetch - main [MainThread]: End processing [lyrebird-bugit]: success
+[2023-07-28 10:13:27] INFO root fetch - main [MainThread]: Store serial: [19073166]
