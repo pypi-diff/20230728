@@ -10635,3 +10635,59 @@
 [2023-07-28 04:57:22] WARNING root fetch - processPackages [luau]: Skipping package: exceeds size limit 36993103>=10485760
 [2023-07-28 04:57:22] INFO root fetch - main [MainThread]: End processing [luau] error
 [2023-07-28 04:57:22] INFO root fetch - main [MainThread]: Store serial: [19070780]
+[2023-07-28 05:02:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19070780]
+[2023-07-28 05:02:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-28 05:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agentaction
+[2023-07-28 05:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nanohelp
+[2023-07-28 05:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: describealign
+[2023-07-28 05:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aioscrapy-redis
+[2023-07-28 05:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gnssanalysis
+[2023-07-28 05:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nlmpy
+[2023-07-28 05:02:31] INFO root fetch - processPackages [describealign]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-28 05:02:31] INFO root fetch - processPackages [agentaction]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-28 05:02:31] INFO root fetch - processPackages [aioscrapy-redis]: New version: [0.4] Old Version: [0.3]
+[2023-07-28 05:02:31] INFO root fetch - processPackages [gnssanalysis]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 05:02:31] INFO root fetch - processPackages [nlmpy]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-28 05:02:31] INFO root fetch - processPackages [nanohelp]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-28 05:02:31] INFO root fetch - processPackages [gnssanalysis]: Downloading https://files.pythonhosted.org/packages/e0/2d/6e9b2e6b7338eb4ade3a80238c53fe3d7046af99576c4229b166e23c1a3a/gnssanalysis-0.0.8.tar.gz
+[2023-07-28 05:02:31] INFO root fetch - processPackages [aioscrapy-redis]: Downloading https://files.pythonhosted.org/packages/cd/d5/258f9cc1fd5a9cf6fe03b8448979f9ef996bbd283bd238d878d58cd4e0df/aioscrapy_redis-0.3.tar.gz
+[2023-07-28 05:02:31] INFO root fetch - processPackages [agentaction]: Downloading https://files.pythonhosted.org/packages/04/13/4a7441042c2dec946991472944053824da6e9fb54abe1ed22405c1064fcb/agentaction-0.1.3.tar.gz
+[2023-07-28 05:02:31] INFO root fetch - processPackages [describealign]: Downloading https://files.pythonhosted.org/packages/e9/52/fa0bce2ff5b86f8ee4aafe68e6580749f16f6e2258f430d1e3b0aa151a48/describealign-0.1.1.tar.gz
+[2023-07-28 05:02:31] INFO root fetch - processPackages [nlmpy]: Downloading https://files.pythonhosted.org/packages/5d/78/cf36dc82aa290345799d0689b074fba0d8bdc297e184da96282058691344/nlmpy-1.1.1.tar.gz
+[2023-07-28 05:02:31] INFO root fetch - processPackages [nanohelp]: Downloading https://files.pythonhosted.org/packages/46/84/22b6aaedfbd2fccf3eec95e0cdc7d65aab5a0e6f96ab56e6c22b4a8f5c17/nanohelp-0.0.5.tar.gz
+[2023-07-28 05:02:31] INFO root fetch - processPackages [gnssanalysis]: Downloading https://files.pythonhosted.org/packages/e1/ac/da507121836c683adba00ccb9f5f955063e24f97656ce240e4354a9cbe10/gnssanalysis-0.0.9.tar.gz
+[2023-07-28 05:02:31] INFO root fetch - processPackages [nanohelp]: executing diffoscope
+[2023-07-28 05:02:31] INFO root fetch - processPackages [nanohelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanohelp-0.0.4.tar.gz tmp/nanohelp-0.0.5.tar.gz --markdown 20230728/n/nanohelp/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-28 05:02:32] INFO root fetch - processPackages [aioscrapy-redis]: Downloading https://files.pythonhosted.org/packages/a9/d1/c8a4c2c04a25b5ab58d7639912f6f89660030aac8f3f98c07cef6275cccd/aioscrapy_redis-0.4.tar.gz
+[2023-07-28 05:02:32] INFO root fetch - processPackages [agentaction]: Downloading https://files.pythonhosted.org/packages/ff/a0/66c54649cafe28ed1afa77b6801bc2ab1d5cfd67629f70a25126ce4800c9/agentaction-0.1.4.tar.gz
+[2023-07-28 05:02:32] INFO root fetch - processPackages [describealign]: Downloading https://files.pythonhosted.org/packages/55/d8/9c482504f58debaae6098dc9fac929a153e1e67110d5b283c6c5f63925bb/describealign-0.1.2.tar.gz
+[2023-07-28 05:02:32] INFO root fetch - processPackages [gnssanalysis]: executing diffoscope
+[2023-07-28 05:02:32] INFO root fetch - processPackages [gnssanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnssanalysis-0.0.8.tar.gz tmp/gnssanalysis-0.0.9.tar.gz --markdown 20230728/g/gnssanalysis/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 05:02:32] INFO root fetch - processPackages [nlmpy]: Downloading https://files.pythonhosted.org/packages/c1/e3/19d4483531c41a1742f1d43273b3c8d96c92f6095347fc15d45440cc296e/nlmpy-1.1.2.tar.gz
+[2023-07-28 05:02:32] INFO root fetch - processPackages [agentaction]: executing diffoscope
+[2023-07-28 05:02:32] INFO root fetch - processPackages [agentaction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentaction-0.1.3.tar.gz tmp/agentaction-0.1.4.tar.gz --markdown 20230728/a/agentaction/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-28 05:02:32] INFO root fetch - processPackages [describealign]: executing diffoscope
+[2023-07-28 05:02:32] INFO root fetch - processPackages [describealign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/describealign-0.1.1.tar.gz tmp/describealign-0.1.2.tar.gz --markdown 20230728/d/describealign/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-28 05:02:32] INFO root fetch - processPackages [aioscrapy-redis]: executing diffoscope
+[2023-07-28 05:02:32] INFO root fetch - processPackages [aioscrapy-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioscrapy_redis-0.3.tar.gz tmp/aioscrapy_redis-0.4.tar.gz --markdown 20230728/a/aioscrapy-redis/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-28 05:02:32] INFO root fetch - processPackages [nlmpy]: executing diffoscope
+[2023-07-28 05:02:32] INFO root fetch - processPackages [nlmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlmpy-1.1.1.tar.gz tmp/nlmpy-1.1.2.tar.gz --markdown 20230728/n/nlmpy/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-28 05:02:32] INFO root fetch - processPackages [nanohelp]: Remove: archive file [/home/abi/fetcher/tmp/nanohelp-0.0.4.tar.gz]
+[2023-07-28 05:02:32] INFO root fetch - processPackages [nanohelp]: Remove: archive file [/home/abi/fetcher/tmp/nanohelp-0.0.5.tar.gz]
+[2023-07-28 05:02:32] INFO root fetch - main [MainThread]: End processing [nanohelp]: success
+[2023-07-28 05:02:33] INFO root fetch - processPackages [gnssanalysis]: Remove: archive file [/home/abi/fetcher/tmp/gnssanalysis-0.0.8.tar.gz]
+[2023-07-28 05:02:33] INFO root fetch - processPackages [gnssanalysis]: Remove: archive file [/home/abi/fetcher/tmp/gnssanalysis-0.0.9.tar.gz]
+[2023-07-28 05:02:33] INFO root fetch - main [MainThread]: End processing [gnssanalysis]: success
+[2023-07-28 05:02:33] INFO root fetch - processPackages [agentaction]: Remove: archive file [/home/abi/fetcher/tmp/agentaction-0.1.3.tar.gz]
+[2023-07-28 05:02:33] INFO root fetch - processPackages [agentaction]: Remove: archive file [/home/abi/fetcher/tmp/agentaction-0.1.4.tar.gz]
+[2023-07-28 05:02:33] INFO root fetch - main [MainThread]: End processing [agentaction]: success
+[2023-07-28 05:02:33] INFO root fetch - processPackages [aioscrapy-redis]: Remove: archive file [/home/abi/fetcher/tmp/aioscrapy_redis-0.3.tar.gz]
+[2023-07-28 05:02:33] INFO root fetch - processPackages [aioscrapy-redis]: Remove: archive file [/home/abi/fetcher/tmp/aioscrapy_redis-0.4.tar.gz]
+[2023-07-28 05:02:33] INFO root fetch - main [MainThread]: End processing [aioscrapy-redis]: success
+[2023-07-28 05:02:33] INFO root fetch - processPackages [describealign]: Remove: archive file [/home/abi/fetcher/tmp/describealign-0.1.1.tar.gz]
+[2023-07-28 05:02:33] INFO root fetch - processPackages [describealign]: Remove: archive file [/home/abi/fetcher/tmp/describealign-0.1.2.tar.gz]
+[2023-07-28 05:02:33] INFO root fetch - main [MainThread]: End processing [describealign]: success
+[2023-07-28 05:02:33] INFO root fetch - processPackages [nlmpy]: Remove: archive file [/home/abi/fetcher/tmp/nlmpy-1.1.1.tar.gz]
+[2023-07-28 05:02:33] INFO root fetch - processPackages [nlmpy]: Remove: archive file [/home/abi/fetcher/tmp/nlmpy-1.1.2.tar.gz]
+[2023-07-28 05:02:33] INFO root fetch - main [MainThread]: End processing [nlmpy]: success
+[2023-07-28 05:02:33] INFO root fetch - main [MainThread]: Store serial: [19070797]
