@@ -17018,3 +17018,97 @@ AssertionError: tmp/pyepsilla-0.0.5.tar.gz does not exist
 [2023-07-28 10:39:35] INFO root fetch - processPackages [visyn-core]: Remove: archive file [/home/abi/fetcher/tmp/visyn_core-3.1.0-py3-none-any.whl.zip]
 [2023-07-28 10:39:35] INFO root fetch - main [MainThread]: End processing [visyn-core]: success
 [2023-07-28 10:39:35] INFO root fetch - main [MainThread]: Store serial: [19073400]
+[2023-07-28 10:44:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19073400]
+[2023-07-28 10:44:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-28 10:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trove
+[2023-07-28 10:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rfidtools
+[2023-07-28 10:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tff-nightly
+[2023-07-28 10:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FSRS-Optimizer
+[2023-07-28 10:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rfidtools
+[2023-07-28 10:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdmb
+[2023-07-28 10:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: t4gpd
+[2023-07-28 10:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aio-mqtt-mod
+[2023-07-28 10:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dask-expr
+[2023-07-28 10:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tfy-mlflow-client
+[2023-07-28 10:44:44] INFO root fetch - processPackages [rfidtools]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-28 10:44:44] INFO root fetch - processPackages [trove]: New version: [8.0.1] Old Version: [19.0.0.0rc1]
+[2023-07-28 10:44:44] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230727] Old Version: [0.0.1.dev20230726]
+[2023-07-28 10:44:44] WARNING root fetch - processPackages [FSRS-Optimizer]: Skipping, unable to determine old version
+[2023-07-28 10:44:44] INFO root fetch - processPackages [FSRS-Optimizer]: Start processing: tfp-nightly
+[2023-07-28 10:44:44] INFO root fetch - main [MainThread]: End processing [FSRS-Optimizer] error
+[2023-07-28 10:44:44] INFO root fetch - processPackages [t4gpd]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-28 10:44:44] INFO root fetch - processPackages [rfidtools]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-28 10:44:44] INFO root fetch - processPackages [aio-mqtt-mod]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-28 10:44:44] INFO root fetch - processPackages [cdmb]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-28 10:44:44] INFO root fetch - processPackages [tfy-mlflow-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 10:44:44] INFO root fetch - processPackages [dask-expr]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-28 10:44:44] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-07-28 10:44:44] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/8e/fa/b90adaf1bd460754dbc58d31c1894ab690496e057d002efd93b8aa9a9a50/tff_nightly-0.0.1.dev20230726-py2.py3-none-any.whl
+[2023-07-28 10:44:44] INFO root fetch - processPackages [rfidtools]: Downloading https://files.pythonhosted.org/packages/21/7b/d344b3192843254e119fa01b5608564e0b0fd912613471b38f1470ce6f14/rfidtools-1.1.0.tar.gz
+[2023-07-28 10:44:44] INFO root fetch - processPackages [rfidtools]: Downloading https://files.pythonhosted.org/packages/21/7b/d344b3192843254e119fa01b5608564e0b0fd912613471b38f1470ce6f14/rfidtools-1.1.0.tar.gz
+[2023-07-28 10:44:44] INFO root fetch - processPackages [trove]: Downloading https://files.pythonhosted.org/packages/14/6e/37f12e761debcc677cdfbc061573759029ef8737756b329803bd7a51d127/trove-19.0.0.0rc1.tar.gz
+[2023-07-28 10:44:44] INFO root fetch - processPackages [t4gpd]: Downloading https://files.pythonhosted.org/packages/e6/4d/481ad5c59e4442b309d74d39d2ee2c1b9f7e23046dd0f0e107d3dad4014e/t4gpd-0.6.0.tar.gz
+[2023-07-28 10:44:44] INFO root fetch - processPackages [cdmb]: Downloading https://files.pythonhosted.org/packages/80/97/99b805a485a388806f7bd754acdeadfe771f958991f4755b2ff72ecfdaa0/cdmb-1.2.0.tar.gz
+[2023-07-28 10:44:44] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-07-28 10:44:44] INFO root fetch - processPackages [dask-expr]: Downloading https://files.pythonhosted.org/packages/a5/0d/f00ec816dc4ef4c2c37c5550afa526b728af07608931dd2eab0691061908/dask-expr-0.1.1.tar.gz
+[2023-07-28 10:44:44] INFO root fetch - processPackages [aio-mqtt-mod]: Downloading https://files.pythonhosted.org/packages/64/b6/207063752de33ab567fb63f5e608fb5126526249e06db28112b60db596ef/aio-mqtt-mod-0.3.3.tar.gz
+[2023-07-28 10:44:44] INFO root fetch - processPackages [tfy-mlflow-client]: Downloading https://files.pythonhosted.org/packages/43/f0/45be21abdff732bb8de13f178413b52bd098bb8395e239c8721423f39e0e/tfy-mlflow-client-0.0.8.tar.gz
+[2023-07-28 10:44:44] INFO root fetch - processPackages [rfidtools]: Downloading https://files.pythonhosted.org/packages/81/6c/b9fcdd0d4b9a9b8b6b725e672ebd5af73fee1e3e9f9a845854c590093e6f/rfidtools-1.1.1.tar.gz
+[2023-07-28 10:44:44] INFO root fetch - processPackages [rfidtools]: Downloading https://files.pythonhosted.org/packages/81/6c/b9fcdd0d4b9a9b8b6b725e672ebd5af73fee1e3e9f9a845854c590093e6f/rfidtools-1.1.1.tar.gz
+[2023-07-28 10:44:45] INFO root fetch - processPackages [rfidtools]: executing diffoscope
+[2023-07-28 10:44:45] INFO root fetch - processPackages [rfidtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfidtools-1.1.0.tar.gz tmp/rfidtools-1.1.1.tar.gz --markdown 20230728/r/rfidtools/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-28 10:44:45] INFO root fetch - processPackages [dask-expr]: Downloading https://files.pythonhosted.org/packages/e2/5d/4ddf5ae21c96fc5c5d920274805104411ba5cdda5764308bf1056c2043a6/dask-expr-0.1.2.tar.gz
+[2023-07-28 10:44:45] INFO root fetch - processPackages [rfidtools]: executing diffoscope
+[2023-07-28 10:44:45] INFO root fetch - processPackages [rfidtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfidtools-1.1.0.tar.gz tmp/rfidtools-1.1.1.tar.gz --markdown 20230728/r/rfidtools/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-28 10:44:45] INFO root fetch - processPackages [aio-mqtt-mod]: Downloading https://files.pythonhosted.org/packages/af/19/ec24221723bddcd7ae28113d6ac9691f386dc50a3ed2767808658055adb8/aio-mqtt-mod-0.3.4.tar.gz
+[2023-07-28 10:44:45] INFO root fetch - processPackages [cdmb]: Downloading https://files.pythonhosted.org/packages/b1/ed/f6b00f18a04e4a5cbe3452c923d3d445de170a1d53b1b1ba20a74b9e88ea/cdmb-1.2.1.tar.gz
+[2023-07-28 10:44:45] INFO root fetch - processPackages [t4gpd]: Downloading https://files.pythonhosted.org/packages/fa/1c/befa20ba5a0c7d0bef1b45c25bbc706f254a17c98b92a16ab28a9412d77f/t4gpd-0.7.0.tar.gz
+[2023-07-28 10:44:45] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/92/64/470fb34d5d4a0e568295a2acc9ab8a6535c10f4d494d8ebc6f10e0943aa0/tff_nightly-0.0.1.dev20230727-py2.py3-none-any.whl
+[2023-07-28 10:44:45] INFO root fetch - processPackages [aio-mqtt-mod]: executing diffoscope
+[2023-07-28 10:44:45] INFO root fetch - processPackages [aio-mqtt-mod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio-mqtt-mod-0.3.3.tar.gz tmp/aio-mqtt-mod-0.3.4.tar.gz --markdown 20230728/a/aio-mqtt-mod/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-28 10:44:45] INFO root fetch - processPackages [cdmb]: executing diffoscope
+[2023-07-28 10:44:45] INFO root fetch - processPackages [cdmb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdmb-1.2.0.tar.gz tmp/cdmb-1.2.1.tar.gz --markdown 20230728/c/cdmb/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-28 10:44:45] INFO root fetch - processPackages [dask-expr]: executing diffoscope
+[2023-07-28 10:44:45] INFO root fetch - processPackages [dask-expr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-expr-0.1.1.tar.gz tmp/dask-expr-0.1.2.tar.gz --markdown 20230728/d/dask-expr/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-28 10:44:45] INFO root fetch - processPackages [t4gpd]: executing diffoscope
+[2023-07-28 10:44:45] INFO root fetch - processPackages [t4gpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t4gpd-0.6.0.tar.gz tmp/t4gpd-0.7.0.tar.gz --markdown 20230728/t/t4gpd/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-28 10:44:45] INFO root fetch - processPackages [trove]: Downloading https://files.pythonhosted.org/packages/ac/f4/23471b58f0b20058da0a9f22caa1fc43606932971165c50dcdc40139814a/trove-8.0.1.tar.gz
+[2023-07-28 10:44:45] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-28 10:44:45] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230726-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230727-py2.py3-none-any.whl.zip --markdown 20230728/t/tff-nightly/0.0.1.dev20230726-0.0.1.dev20230727/diff.md --exclude *.pyd
+[2023-07-28 10:44:45] INFO root fetch - processPackages [tfy-mlflow-client]: Downloading https://files.pythonhosted.org/packages/99/46/ec87ff507a911f7eb4550bd758513440cf543ba1d9701b042b5caf64682a/tfy-mlflow-client-0.0.9.tar.gz
+[2023-07-28 10:44:46] INFO root fetch - processPackages [rfidtools]: Remove: archive file [/home/abi/fetcher/tmp/rfidtools-1.1.0.tar.gz]
+[2023-07-28 10:44:46] INFO root fetch - processPackages [rfidtools]: Remove: archive file [/home/abi/fetcher/tmp/rfidtools-1.1.1.tar.gz]
+[2023-07-28 10:44:46] INFO root fetch - main [MainThread]: End processing [rfidtools]: success
+[2023-07-28 10:44:46] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-07-28 10:44:46] INFO root fetch - main [MainThread]: End processing [rfidtools]: success
+[2023-07-28 10:44:46] INFO root fetch - processPackages [trove]: executing diffoscope
+[2023-07-28 10:44:46] INFO root fetch - processPackages [trove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trove-19.0.0.0rc1.tar.gz tmp/trove-8.0.1.tar.gz --markdown 20230728/t/trove/19.0.0.0rc1-8.0.1/diff.md --exclude *.pyd
+[2023-07-28 10:44:46] INFO root fetch - processPackages [aio-mqtt-mod]: Remove: archive file [/home/abi/fetcher/tmp/aio-mqtt-mod-0.3.3.tar.gz]
+[2023-07-28 10:44:46] INFO root fetch - processPackages [aio-mqtt-mod]: Remove: archive file [/home/abi/fetcher/tmp/aio-mqtt-mod-0.3.4.tar.gz]
+[2023-07-28 10:44:46] INFO root fetch - main [MainThread]: End processing [aio-mqtt-mod]: success
+[2023-07-28 10:44:46] INFO root fetch - processPackages [dask-expr]: Remove: archive file [/home/abi/fetcher/tmp/dask-expr-0.1.1.tar.gz]
+[2023-07-28 10:44:46] INFO root fetch - processPackages [dask-expr]: Remove: archive file [/home/abi/fetcher/tmp/dask-expr-0.1.2.tar.gz]
+[2023-07-28 10:44:46] INFO root fetch - main [MainThread]: End processing [dask-expr]: success
+[2023-07-28 10:44:47] INFO root fetch - processPackages [tfy-mlflow-client]: executing diffoscope
+[2023-07-28 10:44:47] INFO root fetch - processPackages [tfy-mlflow-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfy-mlflow-client-0.0.8.tar.gz tmp/tfy-mlflow-client-0.0.9.tar.gz --markdown 20230728/t/tfy-mlflow-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 10:44:47] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-07-28 10:44:47] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230728/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-07-28 10:44:47] INFO root fetch - processPackages [cdmb]: Remove: archive file [/home/abi/fetcher/tmp/cdmb-1.2.0.tar.gz]
+[2023-07-28 10:44:47] INFO root fetch - processPackages [cdmb]: Remove: archive file [/home/abi/fetcher/tmp/cdmb-1.2.1.tar.gz]
+[2023-07-28 10:44:47] INFO root fetch - main [MainThread]: End processing [cdmb]: success
+[2023-07-28 10:44:47] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230726-py2.py3-none-any.whl.zip]
+[2023-07-28 10:44:47] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230727-py2.py3-none-any.whl.zip]
+[2023-07-28 10:44:47] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-28 10:44:48] INFO root fetch - processPackages [t4gpd]: Remove: archive file [/home/abi/fetcher/tmp/t4gpd-0.6.0.tar.gz]
+[2023-07-28 10:44:48] INFO root fetch - processPackages [t4gpd]: Remove: archive file [/home/abi/fetcher/tmp/t4gpd-0.7.0.tar.gz]
+[2023-07-28 10:44:48] INFO root fetch - main [MainThread]: End processing [t4gpd]: success
+[2023-07-28 10:44:49] INFO root fetch - processPackages [tfy-mlflow-client]: Remove: archive file [/home/abi/fetcher/tmp/tfy-mlflow-client-0.0.8.tar.gz]
+[2023-07-28 10:44:49] INFO root fetch - processPackages [tfy-mlflow-client]: Remove: archive file [/home/abi/fetcher/tmp/tfy-mlflow-client-0.0.9.tar.gz]
+[2023-07-28 10:44:49] INFO root fetch - main [MainThread]: End processing [tfy-mlflow-client]: success
+[2023-07-28 10:44:52] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-07-28 10:44:52] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-07-28 10:44:52] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-07-28 10:44:57] INFO root fetch - processPackages [trove]: Remove: archive file [/home/abi/fetcher/tmp/trove-19.0.0.0rc1.tar.gz]
+[2023-07-28 10:44:57] INFO root fetch - processPackages [trove]: Remove: archive file [/home/abi/fetcher/tmp/trove-8.0.1.tar.gz]
+[2023-07-28 10:44:57] INFO root fetch - main [MainThread]: End processing [trove]: success
+[2023-07-28 10:44:57] INFO root fetch - main [MainThread]: Store serial: [19073438]
