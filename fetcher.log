@@ -22780,3 +22780,189 @@ AssertionError: tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip does not exi
 [2023-07-28 14:22:29] INFO root fetch - processPackages [moptipyapps]: Remove: archive file [/home/abi/fetcher/tmp/moptipyapps-0.8.9.tar.gz]
 [2023-07-28 14:22:29] INFO root fetch - main [MainThread]: End processing [moptipyapps]: success
 [2023-07-28 14:22:29] INFO root fetch - main [MainThread]: Store serial: [19075328]
+[2023-07-28 14:27:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19075328]
+[2023-07-28 14:27:38] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-28 14:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cm-two
+[2023-07-28 14:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyJMT
+[2023-07-28 14:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mots
+[2023-07-28 14:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nuregi
+[2023-07-28 14:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyFlyt
+[2023-07-28 14:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pixel-font-builder
+[2023-07-28 14:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: voysen
+[2023-07-28 14:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pybsky
+[2023-07-28 14:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: semgrep-rules-manager
+[2023-07-28 14:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-aap
+[2023-07-28 14:27:38] WARNING root fetch - processPackages [pyJMT]: Skipping, unable to determine old version
+[2023-07-28 14:27:38] INFO root fetch - processPackages [pyJMT]: Start processing: heatmap_cli
+[2023-07-28 14:27:38] INFO root fetch - main [MainThread]: End processing [pyJMT] error
+[2023-07-28 14:27:38] INFO root fetch - processPackages [pixel-font-builder]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-28 14:27:38] INFO root fetch - processPackages [pybsky]: New version: [0.0.2] Old Version: [0.0.19]
+[2023-07-28 14:27:38] INFO root fetch - processPackages [mots]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-28 14:27:38] INFO root fetch - processPackages [python-aap]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-28 14:27:38] INFO root fetch - processPackages [nuregi]: New version: [0.2.0.dev3] Old Version: [0.2.0.dev2]
+[2023-07-28 14:27:38] INFO root fetch - processPackages [cm-two]: New version: [2.3.59] Old Version: [2.3.589]
+[2023-07-28 14:27:38] WARNING root fetch - processPackages [voysen]: Skipping, unable to determine old version
+[2023-07-28 14:27:38] INFO root fetch - processPackages [voysen]: Start processing: fauna
+[2023-07-28 14:27:38] INFO root fetch - main [MainThread]: End processing [voysen] error
+[2023-07-28 14:27:38] WARNING root fetch - processPackages [semgrep-rules-manager]: Skipping, unable to determine old version
+[2023-07-28 14:27:38] INFO root fetch - processPackages [semgrep-rules-manager]: Start processing: dql-alpha
+[2023-07-28 14:27:38] INFO root fetch - main [MainThread]: End processing [semgrep-rules-manager] error
+[2023-07-28 14:27:38] INFO root fetch - processPackages [PyFlyt]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-28 14:27:38] INFO root fetch - processPackages [heatmap_cli]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-28 14:27:38] INFO root fetch - processPackages [python-aap]: Downloading https://files.pythonhosted.org/packages/0c/01/a7cac2a280183145ac00235ef695733c1c45ad3f4a78953fa8092f2e4dd0/python_aap-0.0.3.tar.gz
+[2023-07-28 14:27:38] INFO root fetch - processPackages [mots]: Downloading https://files.pythonhosted.org/packages/a3/88/f9c23f70f9f4423332a84b5f7708fd0cada8d4d37b71f59a9f13d60cbc5a/mots-0.9.0.tar.gz
+[2023-07-28 14:27:38] INFO root fetch - processPackages [nuregi]: Downloading https://files.pythonhosted.org/packages/a2/dc/5ec0bc42a41ff507e565f1e28698432e6aef9d8581fe17685ab996641d47/nuregi-0.2.0.dev2.tar.gz
+[2023-07-28 14:27:38] INFO root fetch - processPackages [fauna]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-07-28 14:27:39] INFO root fetch - processPackages [dql-alpha]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-28 14:27:39] INFO root fetch - processPackages [pixel-font-builder]: Downloading https://files.pythonhosted.org/packages/7a/fc/e4cdbaf249eaa53ebd5a924f5568f64d35d61620a1e797e155dae397628b/pixel-font-builder-0.0.7.tar.gz
+[2023-07-28 14:27:39] INFO root fetch - processPackages [pybsky]: Downloading https://files.pythonhosted.org/packages/03/ca/8e90d7e351ada7e7d582b746baa18c6c5971e4ed9f0d92e0d1342413338d/pybsky-0.0.19.tar.gz
+[2023-07-28 14:27:39] INFO root fetch - processPackages [PyFlyt]: Downloading https://files.pythonhosted.org/packages/b7/d5/c0d88b0f84ee0491ec70b13910bd9ef830bde46893732be9d7946072cba5/PyFlyt-0.9.3.tar.gz
+[2023-07-28 14:27:39] INFO root fetch - processPackages [heatmap_cli]: Downloading https://files.pythonhosted.org/packages/e0/75/370ef8926efdeb62fedc5fcd5f21d30049668d83ceb2299dfc21d4f557e3/heatmap_cli-0.2.0.tar.gz
+[2023-07-28 14:27:39] INFO root fetch - processPackages [fauna]: Downloading https://files.pythonhosted.org/packages/5c/d4/e67d7a81ef0202af9c18117697b7208130d31bf14141fcf9cda4b7d7ca6d/fauna-0.7.1-py2.py3-none-any.whl
+[2023-07-28 14:27:39] INFO root fetch - processPackages [dql-alpha]: Downloading https://files.pythonhosted.org/packages/60/8e/27c481daa147be803b678cc7bfdff371dfff6e0cc9ec15e0bfe25ef6773c/dql-alpha-0.8.0.tar.gz
+[2023-07-28 14:27:39] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/3e/36/0c01b7ed461390524eae5fac0304266f95f48231e5c21a818f73b6d2d396/cm_two-2.3.59-py3-none-any.whl
+[2023-07-28 14:27:39] INFO root fetch - processPackages [mots]: Downloading https://files.pythonhosted.org/packages/ff/ef/8ee931e3490f43bd868a2f4871203265d243ea08218ee35851ddedff015b/mots-0.9.1.tar.gz
+[2023-07-28 14:27:39] INFO root fetch - processPackages [python-aap]: Downloading https://files.pythonhosted.org/packages/d5/92/8d8d2d3c67dc0441b96077cc9de03db1fd79997b37ab42aa7f7ac2115995/python_aap-0.0.4.tar.gz
+[2023-07-28 14:27:39] INFO root fetch - processPackages [pybsky]: Downloading https://files.pythonhosted.org/packages/0b/4f/9bfc6629f95fe43de98933064ceb9fc67e79395357a1a8b13f5cbf9461cc/pybsky-0.0.2.tar.gz
+[2023-07-28 14:27:39] INFO root fetch - processPackages [nuregi]: Downloading https://files.pythonhosted.org/packages/5a/18/85dc8515e90cc4584a4fa9552414f168b49885d381e9c6aa316b4c58ab2b/nuregi-0.2.0.dev3.tar.gz
+[2023-07-28 14:27:39] INFO root fetch - processPackages [pixel-font-builder]: Downloading https://files.pythonhosted.org/packages/79/ad/e5074cef3451521cb8b859d7f8e55bc7e0b814fc84479c02b995ced8b444/pixel-font-builder-0.0.8.tar.gz
+[2023-07-28 14:27:39] INFO root fetch - processPackages [PyFlyt]: Downloading https://files.pythonhosted.org/packages/da/65/a58ac237bdbaff01181226c942507222037c9492128850a96aa8e0e87afe/PyFlyt-0.9.4.tar.gz
+[2023-07-28 14:27:39] INFO root fetch - processPackages [mots]: executing diffoscope
+[2023-07-28 14:27:39] INFO root fetch - processPackages [mots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mots-0.9.0.tar.gz tmp/mots-0.9.1.tar.gz --markdown 20230728/m/mots/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-28 14:27:39] INFO root fetch - processPackages [pybsky]: executing diffoscope
+[2023-07-28 14:27:39] INFO root fetch - processPackages [pybsky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybsky-0.0.19.tar.gz tmp/pybsky-0.0.2.tar.gz --markdown 20230728/p/pybsky/0.0.19-0.0.2/diff.md --exclude *.pyd
+[2023-07-28 14:27:39] INFO root fetch - processPackages [pixel-font-builder]: executing diffoscope
+[2023-07-28 14:27:39] INFO root fetch - processPackages [pixel-font-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixel-font-builder-0.0.7.tar.gz tmp/pixel-font-builder-0.0.8.tar.gz --markdown 20230728/p/pixel-font-builder/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-28 14:27:39] INFO root fetch - processPackages [heatmap_cli]: Downloading https://files.pythonhosted.org/packages/16/29/2f8fd12c1044c354c4771cc4ac39e39adbeab017c234442ebaa6cabb4c8e/heatmap_cli-0.2.1.tar.gz
+[2023-07-28 14:27:39] INFO root fetch - processPackages [python-aap]: executing diffoscope
+[2023-07-28 14:27:39] INFO root fetch - processPackages [python-aap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_aap-0.0.3.tar.gz tmp/python_aap-0.0.4.tar.gz --markdown 20230728/p/python-aap/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-28 14:27:39] INFO root fetch - processPackages [fauna]: Downloading https://files.pythonhosted.org/packages/e9/79/04483aaa0772a8be13e01ccab2310ccb9015692ba036cd3f99d46cc40ba9/fauna-0.8.0-py2.py3-none-any.whl
+[2023-07-28 14:27:39] INFO root fetch - processPackages [nuregi]: executing diffoscope
+[2023-07-28 14:27:39] INFO root fetch - processPackages [nuregi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuregi-0.2.0.dev2.tar.gz tmp/nuregi-0.2.0.dev3.tar.gz --markdown 20230728/n/nuregi/0.2.0.dev2-0.2.0.dev3/diff.md --exclude *.pyd
+[2023-07-28 14:27:39] INFO root fetch - processPackages [PyFlyt]: executing diffoscope
+[2023-07-28 14:27:39] INFO root fetch - processPackages [PyFlyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFlyt-0.9.3.tar.gz tmp/PyFlyt-0.9.4.tar.gz --markdown 20230728/P/PyFlyt/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-28 14:27:39] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-07-28 14:27:39] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.589-py3-none-any.whl.zip tmp/cm_two-2.3.59-py3-none-any.whl.zip --markdown 20230728/c/cm-two/2.3.589-2.3.59/diff.md --exclude *.pyd
+[2023-07-28 14:27:39] INFO root fetch - processPackages [heatmap_cli]: executing diffoscope
+[2023-07-28 14:27:39] INFO root fetch - processPackages [heatmap_cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heatmap_cli-0.2.0.tar.gz tmp/heatmap_cli-0.2.1.tar.gz --markdown 20230728/h/heatmap_cli/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-28 14:27:39] INFO root fetch - processPackages [fauna]: executing diffoscope
+[2023-07-28 14:27:39] INFO root fetch - processPackages [fauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fauna-0.7.1-py2.py3-none-any.whl.zip tmp/fauna-0.8.0-py2.py3-none-any.whl.zip --markdown 20230728/f/fauna/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-07-28 14:27:40] INFO root fetch - processPackages [dql-alpha]: Downloading https://files.pythonhosted.org/packages/5f/4b/932e15e7e71f8b51b4966e96056e13cbd2203696a798fbe0c15a8ad136d8/dql-alpha-0.9.0.tar.gz
+[2023-07-28 14:27:40] INFO root fetch - processPackages [dql-alpha]: executing diffoscope
+[2023-07-28 14:27:40] INFO root fetch - processPackages [dql-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dql-alpha-0.8.0.tar.gz tmp/dql-alpha-0.9.0.tar.gz --markdown 20230728/d/dql-alpha/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-28 14:27:41] INFO root fetch - processPackages [pybsky]: Remove: archive file [/home/abi/fetcher/tmp/pybsky-0.0.19.tar.gz]
+[2023-07-28 14:27:41] INFO root fetch - processPackages [pybsky]: Remove: archive file [/home/abi/fetcher/tmp/pybsky-0.0.2.tar.gz]
+[2023-07-28 14:27:41] INFO root fetch - main [MainThread]: End processing [pybsky]: success
+[2023-07-28 14:27:41] INFO root fetch - processPackages [nuregi]: Remove: archive file [/home/abi/fetcher/tmp/nuregi-0.2.0.dev2.tar.gz]
+[2023-07-28 14:27:41] INFO root fetch - processPackages [nuregi]: Remove: archive file [/home/abi/fetcher/tmp/nuregi-0.2.0.dev3.tar.gz]
+[2023-07-28 14:27:41] INFO root fetch - main [MainThread]: End processing [nuregi]: success
+[2023-07-28 14:27:41] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: time="2023-07-28T14:27:39+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-07-28 14:27:41] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-07-28 14:27:41] INFO root fetch - processPackages [pixel-font-builder]: Remove: archive file [/home/abi/fetcher/tmp/pixel-font-builder-0.0.7.tar.gz]
+[2023-07-28 14:27:41] INFO root fetch - processPackages [pixel-font-builder]: Remove: archive file [/home/abi/fetcher/tmp/pixel-font-builder-0.0.8.tar.gz]
+[2023-07-28 14:27:41] INFO root fetch - main [MainThread]: End processing [pixel-font-builder]: success
+[2023-07-28 14:27:41] INFO root fetch - processPackages [python-aap]: Remove: archive file [/home/abi/fetcher/tmp/python_aap-0.0.3.tar.gz]
+[2023-07-28 14:27:41] INFO root fetch - processPackages [python-aap]: Remove: archive file [/home/abi/fetcher/tmp/python_aap-0.0.4.tar.gz]
+[2023-07-28 14:27:41] INFO root fetch - main [MainThread]: End processing [python-aap]: success
+[2023-07-28 14:27:41] INFO root fetch - processPackages [PyFlyt]: Remove: archive file [/home/abi/fetcher/tmp/PyFlyt-0.9.3.tar.gz]
+[2023-07-28 14:27:41] INFO root fetch - processPackages [PyFlyt]: Remove: archive file [/home/abi/fetcher/tmp/PyFlyt-0.9.4.tar.gz]
+[2023-07-28 14:27:41] INFO root fetch - main [MainThread]: End processing [PyFlyt]: success
+[2023-07-28 14:27:41] INFO root fetch - processPackages [heatmap_cli]: Remove: archive file [/home/abi/fetcher/tmp/heatmap_cli-0.2.0.tar.gz]
+[2023-07-28 14:27:41] INFO root fetch - processPackages [heatmap_cli]: Remove: archive file [/home/abi/fetcher/tmp/heatmap_cli-0.2.1.tar.gz]
+[2023-07-28 14:27:41] INFO root fetch - main [MainThread]: End processing [heatmap_cli]: success
+[2023-07-28 14:27:41] INFO root fetch - processPackages [mots]: Remove: archive file [/home/abi/fetcher/tmp/mots-0.9.0.tar.gz]
+[2023-07-28 14:27:41] INFO root fetch - processPackages [mots]: Remove: archive file [/home/abi/fetcher/tmp/mots-0.9.1.tar.gz]
+[2023-07-28 14:27:41] INFO root fetch - main [MainThread]: End processing [mots]: success
+[2023-07-28 14:27:41] INFO root fetch - processPackages [fauna]: Remove: archive file [/home/abi/fetcher/tmp/fauna-0.7.1-py2.py3-none-any.whl.zip]
+[2023-07-28 14:27:41] INFO root fetch - processPackages [fauna]: Remove: archive file [/home/abi/fetcher/tmp/fauna-0.8.0-py2.py3-none-any.whl.zip]
+[2023-07-28 14:27:41] INFO root fetch - main [MainThread]: End processing [fauna]: success
+[2023-07-28 14:27:41] INFO root fetch - processPackages [dql-alpha]: Remove: archive file [/home/abi/fetcher/tmp/dql-alpha-0.8.0.tar.gz]
+[2023-07-28 14:27:41] INFO root fetch - processPackages [dql-alpha]: Remove: archive file [/home/abi/fetcher/tmp/dql-alpha-0.9.0.tar.gz]
+[2023-07-28 14:27:41] INFO root fetch - main [MainThread]: End processing [dql-alpha]: success
+[2023-07-28 14:27:41] INFO root fetch - main [MainThread]: Store serial: [19075371]
