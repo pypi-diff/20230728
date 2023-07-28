@@ -11815,3 +11815,60 @@
 [2023-07-28 05:46:36] INFO root fetch - processPackages [aliyun-python-sdk-oos]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-oos-1.5.9.tar.gz]
 [2023-07-28 05:46:36] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-oos]: success
 [2023-07-28 05:46:36] INFO root fetch - main [MainThread]: Store serial: [19071281]
+[2023-07-28 05:51:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19071281]
+[2023-07-28 05:51:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-28 05:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-oos20190601-py2
+[2023-07-28 05:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipen-board
+[2023-07-28 05:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-oos20190601
+[2023-07-28 05:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adbench
+[2023-07-28 05:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbus-fast
+[2023-07-28 05:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: not1mm
+[2023-07-28 05:51:44] INFO root fetch - processPackages [alibabacloud-oos20190601]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-28 05:51:44] INFO root fetch - processPackages [pipen-board]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-28 05:51:44] INFO root fetch - processPackages [alibabacloud-oos20190601-py2]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-28 05:51:44] INFO root fetch - processPackages [adbench]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-28 05:51:44] INFO root fetch - processPackages [dbus-fast]: New version: [1.9.0] Old Version: [1.87.3]
+[2023-07-28 05:51:44] INFO root fetch - processPackages [not1mm]: New version: [23.7.5] Old Version: [23.7.27]
+[2023-07-28 05:51:44] INFO root fetch - processPackages [alibabacloud-oos20190601]: Downloading https://files.pythonhosted.org/packages/82/ec/659a2dcbae78b3be3ce8b0a850db2560a2d7edd0fa68133cf2555d604137/alibabacloud_oos20190601-1.0.5.tar.gz
+[2023-07-28 05:51:44] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/2f/b0/f14f2bfb598d65addf39ae7ad4c0777344e5e462a0a80648cedcd5b2abe7/pipen_board-0.8.0.tar.gz
+[2023-07-28 05:51:44] INFO root fetch - processPackages [alibabacloud-oos20190601-py2]: Downloading https://files.pythonhosted.org/packages/66/4b/fa05ea9672dd7680f73f7c7bb625d81298ba96dc43257e07756c7a106200/alibabacloud_oos20190601_py2-1.0.0.tar.gz
+[2023-07-28 05:51:44] INFO root fetch - processPackages [adbench]: Downloading https://files.pythonhosted.org/packages/78/11/5301693db34c4815e348549f1d2db3e99077dc3684787edc40d9ecdf481e/adbench-0.1.8.tar.gz
+[2023-07-28 05:51:44] INFO root fetch - processPackages [dbus-fast]: Downloading https://files.pythonhosted.org/packages/1c/f3/15af1ac32b2bc60f2be784adb10c9bfac8dad6ee58dc63f9529807e9650c/dbus_fast-1.87.3.tar.gz
+[2023-07-28 05:51:44] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/5d/88/e747a5c67a0d217bed316aa46767c3bf902ddc1847620c58a8a4681936ef/not1mm-23.7.27.tar.gz
+[2023-07-28 05:51:44] INFO root fetch - processPackages [alibabacloud-oos20190601-py2]: Downloading https://files.pythonhosted.org/packages/fe/fa/62aebc3e45f60bf0edaa772192fa1adc1abacbfdfa6266ba11c5b9d3d856/alibabacloud_oos20190601_py2-1.0.1.tar.gz
+[2023-07-28 05:51:44] INFO root fetch - processPackages [alibabacloud-oos20190601]: Downloading https://files.pythonhosted.org/packages/69/2f/eb7ef5b0267df7a3b686087b08860672ea429bb3d2c3b6cba044ccc37fb5/alibabacloud_oos20190601-1.0.6.tar.gz
+[2023-07-28 05:51:44] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/31/54/d8ac530455d4e135a084c74ac01dceb2befc79b69d1303265f8a68b33107/pipen_board-0.8.1.tar.gz
+[2023-07-28 05:51:45] INFO root fetch - processPackages [adbench]: Downloading https://files.pythonhosted.org/packages/e8/8f/0b4b621d5b8aec3d67c9361100d3f6c81144abd004900174ef2fc42d79bf/adbench-0.1.9.tar.gz
+[2023-07-28 05:51:45] INFO root fetch - processPackages [dbus-fast]: Downloading https://files.pythonhosted.org/packages/92/ae/c3c53a04e95ba345f52d781a0c0b64e88013908c58e877b6d0d298dda498/dbus-fast-1.9.0.tar.gz
+[2023-07-28 05:51:45] INFO root fetch - processPackages [alibabacloud-oos20190601-py2]: executing diffoscope
+[2023-07-28 05:51:45] INFO root fetch - processPackages [alibabacloud-oos20190601-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_oos20190601_py2-1.0.0.tar.gz tmp/alibabacloud_oos20190601_py2-1.0.1.tar.gz --markdown 20230728/a/alibabacloud-oos20190601-py2/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-28 05:51:45] INFO root fetch - processPackages [alibabacloud-oos20190601]: executing diffoscope
+[2023-07-28 05:51:45] INFO root fetch - processPackages [alibabacloud-oos20190601]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_oos20190601-1.0.5.tar.gz tmp/alibabacloud_oos20190601-1.0.6.tar.gz --markdown 20230728/a/alibabacloud-oos20190601/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-28 05:51:45] INFO root fetch - processPackages [adbench]: executing diffoscope
+[2023-07-28 05:51:45] INFO root fetch - processPackages [adbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbench-0.1.8.tar.gz tmp/adbench-0.1.9.tar.gz --markdown 20230728/a/adbench/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-28 05:51:45] INFO root fetch - processPackages [pipen-board]: executing diffoscope
+[2023-07-28 05:51:45] INFO root fetch - processPackages [pipen-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_board-0.8.0.tar.gz tmp/pipen_board-0.8.1.tar.gz --markdown 20230728/p/pipen-board/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-28 05:51:45] INFO root fetch - processPackages [dbus-fast]: executing diffoscope
+[2023-07-28 05:51:45] INFO root fetch - processPackages [dbus-fast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbus_fast-1.87.3.tar.gz tmp/dbus-fast-1.9.0.tar.gz --markdown 20230728/d/dbus-fast/1.87.3-1.9.0/diff.md --exclude *.pyd
+[2023-07-28 05:51:45] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/0f/74/bcd01321629495c1cb7e8955b07622e3b31ffe00e23020de1b8e98cea136/not1mm-23.7.5.tar.gz
+[2023-07-28 05:51:45] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-07-28 05:51:45] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.7.27.tar.gz tmp/not1mm-23.7.5.tar.gz --markdown 20230728/n/not1mm/23.7.27-23.7.5/diff.md --exclude *.pyd
+[2023-07-28 05:51:46] INFO root fetch - processPackages [adbench]: Remove: archive file [/home/abi/fetcher/tmp/adbench-0.1.8.tar.gz]
+[2023-07-28 05:51:46] INFO root fetch - processPackages [adbench]: Remove: archive file [/home/abi/fetcher/tmp/adbench-0.1.9.tar.gz]
+[2023-07-28 05:51:46] INFO root fetch - main [MainThread]: End processing [adbench]: success
+[2023-07-28 05:51:46] INFO root fetch - processPackages [dbus-fast]: Remove: archive file [/home/abi/fetcher/tmp/dbus_fast-1.87.3.tar.gz]
+[2023-07-28 05:51:46] INFO root fetch - processPackages [dbus-fast]: Remove: archive file [/home/abi/fetcher/tmp/dbus-fast-1.9.0.tar.gz]
+[2023-07-28 05:51:46] INFO root fetch - main [MainThread]: End processing [dbus-fast]: success
+[2023-07-28 05:51:46] INFO root fetch - processPackages [alibabacloud-oos20190601-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_oos20190601_py2-1.0.0.tar.gz]
+[2023-07-28 05:51:46] INFO root fetch - processPackages [alibabacloud-oos20190601-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_oos20190601_py2-1.0.1.tar.gz]
+[2023-07-28 05:51:46] INFO root fetch - main [MainThread]: End processing [alibabacloud-oos20190601-py2]: success
+[2023-07-28 05:51:46] INFO root fetch - processPackages [alibabacloud-oos20190601]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_oos20190601-1.0.5.tar.gz]
+[2023-07-28 05:51:46] INFO root fetch - processPackages [alibabacloud-oos20190601]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_oos20190601-1.0.6.tar.gz]
+[2023-07-28 05:51:46] INFO root fetch - main [MainThread]: End processing [alibabacloud-oos20190601]: success
+[2023-07-28 05:51:48] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-23.7.27.tar.gz]
+[2023-07-28 05:51:48] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-23.7.5.tar.gz]
+[2023-07-28 05:51:48] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-07-28 05:51:55] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.8.0.tar.gz]
+[2023-07-28 05:51:55] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.8.1.tar.gz]
+[2023-07-28 05:51:55] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
+[2023-07-28 05:51:55] INFO root fetch - main [MainThread]: Store serial: [19071299]
