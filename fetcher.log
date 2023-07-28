@@ -12638,3 +12638,78 @@
 [2023-07-28 06:38:53] INFO root fetch - processPackages [sparksampling]: Remove: archive file [/home/abi/fetcher/tmp/sparksampling-0.4.0.tar.gz]
 [2023-07-28 06:38:53] INFO root fetch - main [MainThread]: End processing [sparksampling]: success
 [2023-07-28 06:38:53] INFO root fetch - main [MainThread]: Store serial: [19071648]
+[2023-07-28 06:43:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19071648]
+[2023-07-28 06:44:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-28 06:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-project-task-material
+[2023-07-28 06:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-project
+[2023-07-28 06:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cq23
+[2023-07-28 06:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jij-cimod
+[2023-07-28 06:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: argparse-tui
+[2023-07-28 06:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: efpy
+[2023-07-28 06:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fgo-api-types
+[2023-07-28 06:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ifunnygifmaker
+[2023-07-28 06:44:01] INFO root fetch - processPackages [odoo-addons-oca-project]: New version: [16.0.20230727.0] Old Version: [16.0.20230726.0]
+[2023-07-28 06:44:01] INFO root fetch - processPackages [odoo-addon-project-task-material]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-07-28 06:44:01] INFO root fetch - processPackages [cq23]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-07-28 06:44:01] INFO root fetch - processPackages [argparse-tui]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-28 06:44:01] INFO root fetch - processPackages [ifunnygifmaker]: New version: [1.0.0] Old Version: [0.2.3]
+[2023-07-28 06:44:01] INFO root fetch - processPackages [efpy]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-28 06:44:01] INFO root fetch - processPackages [fgo-api-types]: New version: [2023.7.9.5.5.49] Old Version: [2023.7.7.16.36.40]
+[2023-07-28 06:44:01] INFO root fetch - processPackages [jij-cimod]: New version: [1.4.9] Old Version: [1.4.7]
+[2023-07-28 06:44:01] INFO root fetch - processPackages [ifunnygifmaker]: Downloading https://files.pythonhosted.org/packages/e1/e2/90f3cab49b1b09e643827d0760069e9e9fb49184106006edc7ecb641dcfb/ifunnygifmaker-0.2.3.tar.gz
+[2023-07-28 06:44:01] INFO root fetch - processPackages [odoo-addon-project-task-material]: Downloading https://files.pythonhosted.org/packages/cb/64/f1482208c3f863bde18062952edf09efabd55a27c2a9e0b482669c91d5e9/odoo_addon_project_task_material-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-28 06:44:01] INFO root fetch - processPackages [odoo-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/20/13/ee5bd755564b8faeeb29ffb7a381ed67f59339d18935999356f870acc403/odoo_addons_oca_project-16.0.20230726.0-py3-none-any.whl
+[2023-07-28 06:44:01] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/3a/f5/465afabbc74c91c703a78172ebbbbfbf4ed0b176b9fc74201784ccd9fbe8/cq23-2.6.0.tar.gz
+[2023-07-28 06:44:02] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/6f/90/fd22e069ca7b8453cb4912298233613f643e6a9f92b369b038a0a08f88d4/fgo_api_types-2023.7.7.16.36.40.tar.gz
+[2023-07-28 06:44:02] INFO root fetch - processPackages [efpy]: Downloading https://files.pythonhosted.org/packages/16/03/45c5ce99b832935ee52ab732b995aa08a6ef9fa7854aa74deb6ee1646d27/efpy-0.1.5.tar.gz
+[2023-07-28 06:44:02] INFO root fetch - processPackages [argparse-tui]: Downloading https://files.pythonhosted.org/packages/5e/45/3ab6f91862cb1243fcd6530f59962ce4d6eeb2bea66d83d5b14a804f3eab/argparse-tui-0.1.2.tar.gz
+[2023-07-28 06:44:02] INFO root fetch - processPackages [jij-cimod]: Downloading https://files.pythonhosted.org/packages/b1/1e/c38b1095e232287868756aa68624d17da65cfe5131005a61c868e9f9b386/jij_cimod-1.4.7.tar.gz
+[2023-07-28 06:44:02] INFO root fetch - processPackages [ifunnygifmaker]: Downloading https://files.pythonhosted.org/packages/b6/b7/cd1db4e960eda5befe19dac63ddced4bcf2db71e8fa8067494ed8eec6b06/ifunnygifmaker-1.0.0.tar.gz
+[2023-07-28 06:44:02] INFO root fetch - processPackages [odoo-addon-project-task-material]: Downloading https://files.pythonhosted.org/packages/67/58/73447d2a7bede10ceff572235ee702688f39257ed03a47efa9c666e568b9/odoo_addon_project_task_material-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-28 06:44:02] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/4d/93/78d98c0a688a8f0ac29191feea8aa59cc6f63e883d4dd1d8a84f3fe997b8/fgo_api_types-2023.7.9.5.5.49.tar.gz
+[2023-07-28 06:44:02] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/72/83/fe5fac01f5cb9adfda66d49519f2f105f238684f5ab23946d87847022005/cq23-2.6.1.tar.gz
+[2023-07-28 06:44:02] INFO root fetch - processPackages [odoo-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/ca/23/71190ddbeda6f2f7f9886875552645410b93bbd14c05c720f574ed3b07ed/odoo_addons_oca_project-16.0.20230727.0-py3-none-any.whl
+[2023-07-28 06:44:02] INFO root fetch - processPackages [efpy]: Downloading https://files.pythonhosted.org/packages/a7/fd/c4c4eefdfc12eb751f7e21705f546b62f5dd73e88158742902c1cf7bb7c4/efpy-0.1.6.tar.gz
+[2023-07-28 06:44:02] INFO root fetch - processPackages [argparse-tui]: Downloading https://files.pythonhosted.org/packages/0a/43/5288737460e26b5ed8ecc648cdd2ec003d6173e31e382376669194d697ee/argparse-tui-0.1.3.tar.gz
+[2023-07-28 06:44:02] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2023-07-28 06:44:02] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2023.7.7.16.36.40.tar.gz tmp/fgo_api_types-2023.7.9.5.5.49.tar.gz --markdown 20230728/f/fgo-api-types/2023.7.7.16.36.40-2023.7.9.5.5.49/diff.md --exclude *.pyd
+[2023-07-28 06:44:02] INFO root fetch - processPackages [ifunnygifmaker]: executing diffoscope
+[2023-07-28 06:44:02] INFO root fetch - processPackages [ifunnygifmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifunnygifmaker-0.2.3.tar.gz tmp/ifunnygifmaker-1.0.0.tar.gz --markdown 20230728/i/ifunnygifmaker/0.2.3-1.0.0/diff.md --exclude *.pyd
+[2023-07-28 06:44:02] INFO root fetch - processPackages [efpy]: executing diffoscope
+[2023-07-28 06:44:02] INFO root fetch - processPackages [efpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efpy-0.1.5.tar.gz tmp/efpy-0.1.6.tar.gz --markdown 20230728/e/efpy/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-28 06:44:02] INFO root fetch - processPackages [odoo-addon-project-task-material]: executing diffoscope
+[2023-07-28 06:44:02] INFO root fetch - processPackages [odoo-addon-project-task-material]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_task_material-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_project_task_material-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230728/o/odoo-addon-project-task-material/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-28 06:44:02] INFO root fetch - processPackages [cq23]: executing diffoscope
+[2023-07-28 06:44:02] INFO root fetch - processPackages [cq23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cq23-2.6.0.tar.gz tmp/cq23-2.6.1.tar.gz --markdown 20230728/c/cq23/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-07-28 06:44:02] INFO root fetch - processPackages [odoo-addons-oca-project]: executing diffoscope
+[2023-07-28 06:44:02] INFO root fetch - processPackages [odoo-addons-oca-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_project-16.0.20230726.0-py3-none-any.whl.zip tmp/odoo_addons_oca_project-16.0.20230727.0-py3-none-any.whl.zip --markdown 20230728/o/odoo-addons-oca-project/16.0.20230726.0-16.0.20230727.0/diff.md --exclude *.pyd
+[2023-07-28 06:44:02] INFO root fetch - processPackages [argparse-tui]: executing diffoscope
+[2023-07-28 06:44:02] INFO root fetch - processPackages [argparse-tui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argparse-tui-0.1.2.tar.gz tmp/argparse-tui-0.1.3.tar.gz --markdown 20230728/a/argparse-tui/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-28 06:44:02] INFO root fetch - processPackages [jij-cimod]: Downloading https://files.pythonhosted.org/packages/93/5e/59ed273ce841a0e37e6b94da34a96289dcf930918900bd81d2e33922020e/jij_cimod-1.4.9.tar.gz
+[2023-07-28 06:44:02] INFO root fetch - processPackages [jij-cimod]: executing diffoscope
+[2023-07-28 06:44:02] INFO root fetch - processPackages [jij-cimod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jij_cimod-1.4.7.tar.gz tmp/jij_cimod-1.4.9.tar.gz --markdown 20230728/j/jij-cimod/1.4.7-1.4.9/diff.md --exclude *.pyd
+[2023-07-28 06:44:03] INFO root fetch - processPackages [ifunnygifmaker]: Remove: archive file [/home/abi/fetcher/tmp/ifunnygifmaker-0.2.3.tar.gz]
+[2023-07-28 06:44:03] INFO root fetch - processPackages [ifunnygifmaker]: Remove: archive file [/home/abi/fetcher/tmp/ifunnygifmaker-1.0.0.tar.gz]
+[2023-07-28 06:44:03] INFO root fetch - main [MainThread]: End processing [ifunnygifmaker]: success
+[2023-07-28 06:44:03] INFO root fetch - processPackages [odoo-addons-oca-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_project-16.0.20230726.0-py3-none-any.whl.zip]
+[2023-07-28 06:44:03] INFO root fetch - processPackages [odoo-addons-oca-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_project-16.0.20230727.0-py3-none-any.whl.zip]
+[2023-07-28 06:44:03] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-project]: success
+[2023-07-28 06:44:04] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-2.6.0.tar.gz]
+[2023-07-28 06:44:04] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-2.6.1.tar.gz]
+[2023-07-28 06:44:04] INFO root fetch - main [MainThread]: End processing [cq23]: success
+[2023-07-28 06:44:04] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.7.7.16.36.40.tar.gz]
+[2023-07-28 06:44:04] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.7.9.5.5.49.tar.gz]
+[2023-07-28 06:44:04] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2023-07-28 06:44:04] INFO root fetch - processPackages [efpy]: Remove: archive file [/home/abi/fetcher/tmp/efpy-0.1.5.tar.gz]
+[2023-07-28 06:44:04] INFO root fetch - processPackages [efpy]: Remove: archive file [/home/abi/fetcher/tmp/efpy-0.1.6.tar.gz]
+[2023-07-28 06:44:04] INFO root fetch - main [MainThread]: End processing [efpy]: success
+[2023-07-28 06:44:04] INFO root fetch - processPackages [argparse-tui]: Remove: archive file [/home/abi/fetcher/tmp/argparse-tui-0.1.2.tar.gz]
+[2023-07-28 06:44:04] INFO root fetch - processPackages [argparse-tui]: Remove: archive file [/home/abi/fetcher/tmp/argparse-tui-0.1.3.tar.gz]
+[2023-07-28 06:44:04] INFO root fetch - main [MainThread]: End processing [argparse-tui]: success
+[2023-07-28 06:44:04] INFO root fetch - processPackages [jij-cimod]: Remove: archive file [/home/abi/fetcher/tmp/jij_cimod-1.4.7.tar.gz]
+[2023-07-28 06:44:04] INFO root fetch - processPackages [jij-cimod]: Remove: archive file [/home/abi/fetcher/tmp/jij_cimod-1.4.9.tar.gz]
+[2023-07-28 06:44:04] INFO root fetch - main [MainThread]: End processing [jij-cimod]: success
+[2023-07-28 06:44:04] INFO root fetch - processPackages [odoo-addon-project-task-material]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_task_material-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-28 06:44:04] INFO root fetch - processPackages [odoo-addon-project-task-material]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_task_material-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-28 06:44:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-task-material]: success
+[2023-07-28 06:44:04] INFO root fetch - main [MainThread]: Store serial: [19071694]
