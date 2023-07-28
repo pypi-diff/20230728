@@ -10497,3 +10497,141 @@
 [2023-07-28 04:52:07] INFO root fetch - processPackages [pulumi-huaweicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_huaweicloud-0.0.8.tar.gz]
 [2023-07-28 04:52:07] INFO root fetch - main [MainThread]: End processing [pulumi-huaweicloud]: success
 [2023-07-28 04:52:07] INFO root fetch - main [MainThread]: Store serial: [19070721]
+[2023-07-28 04:57:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19070721]
+[2023-07-28 04:57:16] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-28 04:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-ai
+[2023-07-28 04:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nanohelp
+[2023-07-28 04:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pgsqlx
+[2023-07-28 04:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lalsuite
+[2023-07-28 04:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pgsqlx-generator
+[2023-07-28 04:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nanohelp
+[2023-07-28 04:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gptfunctionutil
+[2023-07-28 04:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mysqlx
+[2023-07-28 04:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: multifocal-stitching
+[2023-07-28 04:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mysqlx-generator
+[2023-07-28 04:57:16] INFO root fetch - processPackages [nanohelp]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-28 04:57:16] INFO root fetch - processPackages [mysqlx]: New version: [1.6.8] Old Version: [1.6.6]
+[2023-07-28 04:57:16] INFO root fetch - processPackages [abstract-ai]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-28 04:57:16] INFO root fetch - processPackages [pgsqlx-generator]: New version: [1.7.0] Old Version: [1.6.9]
+[2023-07-28 04:57:16] INFO root fetch - processPackages [gptfunctionutil]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-28 04:57:16] INFO root fetch - processPackages [mysqlx-generator]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-07-28 04:57:16] INFO root fetch - processPackages [nanohelp]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-28 04:57:16] INFO root fetch - processPackages [pgsqlx]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-07-28 04:57:16] INFO root fetch - processPackages [multifocal-stitching]: New version: [0.2] Old Version: [0.1.1]
+[2023-07-28 04:57:16] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-07-28 04:57:16] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/1e/96/6f0a0754e65fb3fecc9c2db2c65e57ac878538167eecba35593b3c7e2434/mysqlx-1.6.6.tar.gz
+[2023-07-28 04:57:16] INFO root fetch - processPackages [pgsqlx-generator]: Downloading https://files.pythonhosted.org/packages/59/54/96183400d074e58ed178d3275146ba22fb47b19942019bc9576fed039548/pgsqlx-generator-1.6.9.tar.gz
+[2023-07-28 04:57:16] INFO root fetch - processPackages [mysqlx-generator]: Downloading https://files.pythonhosted.org/packages/1e/17/9cc3bbc5d15ac0ddeb52010cb191382fc120801f92fddd0509d41070cfde/mysqlx-generator-1.6.8.tar.gz
+[2023-07-28 04:57:16] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/ea/f5/bc5d958ff622d7eb53146976d0ae79a16249b9fb4afeb5873c9eb7ab5e3e/pgsqlx-1.6.8.tar.gz
+[2023-07-28 04:57:16] INFO root fetch - processPackages [multifocal-stitching]: Downloading https://files.pythonhosted.org/packages/16/d5/54d7ef15c557cca530839e9af8df3830b2002f47d6bcfcf0e2eec67f0b3a/multifocal-stitching-0.1.1.tar.gz
+[2023-07-28 04:57:16] INFO root fetch - processPackages [nanohelp]: Downloading https://files.pythonhosted.org/packages/b7/31/6c2fa762cf22bead408b2560451205e3eeea86bb8723ab633222773bb101/nanohelp-0.0.2.tar.gz
+[2023-07-28 04:57:16] INFO root fetch - processPackages [nanohelp]: Downloading https://files.pythonhosted.org/packages/b7/31/6c2fa762cf22bead408b2560451205e3eeea86bb8723ab633222773bb101/nanohelp-0.0.2.tar.gz
+[2023-07-28 04:57:16] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/2e/c1/1ab0814e51aa137a7e5671a8aba79f90359e2cad7d02523e1e3da98d622a/abstract_ai-0.1.2.tar.gz
+[2023-07-28 04:57:16] INFO root fetch - processPackages [gptfunctionutil]: Downloading https://files.pythonhosted.org/packages/65/9c/207ed87dacb95cd5467e04aeda9e494bb0007bfd8a6dc0190f622fc5ff6c/gptfunctionutil-0.2.2.tar.gz
+[2023-07-28 04:57:16] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-28 04:57:17] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-07-28 04:57:17] INFO root fetch - processPackages [lalsuite]: Start processing: turboyaml
+[2023-07-28 04:57:17] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-07-28 04:57:17] INFO root fetch - processPackages [mysqlx-generator]: Downloading https://files.pythonhosted.org/packages/c1/30/826bb4fabc99512fe8b9939148ca0df7b24ff2d116486b76aa05fb33c8ae/mysqlx-generator-1.6.9.tar.gz
+[2023-07-28 04:57:17] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/3a/2e/67e759aebb45274b8eeecfc0733c9623d997e9d13e5b962401b26f452e61/pgsqlx-1.6.9.tar.gz
+[2023-07-28 04:57:17] INFO root fetch - processPackages [pgsqlx-generator]: Downloading https://files.pythonhosted.org/packages/bc/30/dc518f2149a64ba299e6f3e62697837ffc029ec816a015171e285ee1ed2d/pgsqlx-generator-1.7.0.tar.gz
+[2023-07-28 04:57:17] INFO root fetch - processPackages [turboyaml]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-28 04:57:17] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/02/75/fc18d2c4e61348652548c6dff17698afd3e9ef78b3ba4634a08a15ff8638/mysqlx-1.6.8.tar.gz
+[2023-07-28 04:57:17] INFO root fetch - processPackages [multifocal-stitching]: Downloading https://files.pythonhosted.org/packages/a0/ae/080245c57dc30d38cb71ac73fd4cc58eb68c5d49cfa64a1bdf2ccd6051c7/multifocal-stitching-0.2.tar.gz
+[2023-07-28 04:57:17] INFO root fetch - processPackages [nanohelp]: Downloading https://files.pythonhosted.org/packages/b2/e3/975412f02ca479cfada8839d56008ab859f61f77b045885795ced91ed14a/nanohelp-0.0.3.tar.gz
+[2023-07-28 04:57:17] INFO root fetch - processPackages [nanohelp]: Downloading https://files.pythonhosted.org/packages/b2/e3/975412f02ca479cfada8839d56008ab859f61f77b045885795ced91ed14a/nanohelp-0.0.3.tar.gz
+[2023-07-28 04:57:17] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/a9/5b/fa7b49d77c134f63c2374835df3bc2e1886f1259bba0c59453819fe846b7/abstract_ai-0.1.3.tar.gz
+[2023-07-28 04:57:17] INFO root fetch - processPackages [mysqlx-generator]: executing diffoscope
+[2023-07-28 04:57:17] INFO root fetch - processPackages [mysqlx-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-generator-1.6.8.tar.gz tmp/mysqlx-generator-1.6.9.tar.gz --markdown 20230728/m/mysqlx-generator/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-07-28 04:57:17] INFO root fetch - processPackages [gptfunctionutil]: Downloading https://files.pythonhosted.org/packages/d6/cb/d014c861363991f82a98f77a89601c8c1854938cf014b71b248494bab333/gptfunctionutil-0.2.3.tar.gz
+[2023-07-28 04:57:17] INFO root fetch - processPackages [pgsqlx]: executing diffoscope
+[2023-07-28 04:57:17] INFO root fetch - processPackages [pgsqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgsqlx-1.6.8.tar.gz tmp/pgsqlx-1.6.9.tar.gz --markdown 20230728/p/pgsqlx/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-07-28 04:57:17] INFO root fetch - processPackages [pgsqlx-generator]: executing diffoscope
+[2023-07-28 04:57:17] INFO root fetch - processPackages [pgsqlx-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgsqlx-generator-1.6.9.tar.gz tmp/pgsqlx-generator-1.7.0.tar.gz --markdown 20230728/p/pgsqlx-generator/1.6.9-1.7.0/diff.md --exclude *.pyd
+[2023-07-28 04:57:17] INFO root fetch - processPackages [turboyaml]: Downloading https://files.pythonhosted.org/packages/c8/ba/09f87e258b0a7bad2a6dddddb35778faf6c10030475757c7e5f5b152689d/turboyaml-0.0.1.tar.gz
+[2023-07-28 04:57:17] INFO root fetch - processPackages [mysqlx]: executing diffoscope
+[2023-07-28 04:57:17] INFO root fetch - processPackages [mysqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-1.6.6.tar.gz tmp/mysqlx-1.6.8.tar.gz --markdown 20230728/m/mysqlx/1.6.6-1.6.8/diff.md --exclude *.pyd
+[2023-07-28 04:57:17] INFO root fetch - processPackages [multifocal-stitching]: executing diffoscope
+[2023-07-28 04:57:17] INFO root fetch - processPackages [multifocal-stitching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multifocal-stitching-0.1.1.tar.gz tmp/multifocal-stitching-0.2.tar.gz --markdown 20230728/m/multifocal-stitching/0.1.1-0.2/diff.md --exclude *.pyd
+[2023-07-28 04:57:17] INFO root fetch - processPackages [nanohelp]: executing diffoscope
+[2023-07-28 04:57:17] INFO root fetch - processPackages [nanohelp]: executing diffoscope
+[2023-07-28 04:57:17] INFO root fetch - processPackages [nanohelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanohelp-0.0.2.tar.gz tmp/nanohelp-0.0.3.tar.gz --markdown 20230728/n/nanohelp/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-28 04:57:17] INFO root fetch - processPackages [nanohelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanohelp-0.0.2.tar.gz tmp/nanohelp-0.0.3.tar.gz --markdown 20230728/n/nanohelp/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-28 04:57:17] INFO root fetch - processPackages [abstract-ai]: executing diffoscope
+[2023-07-28 04:57:17] INFO root fetch - processPackages [abstract-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_ai-0.1.2.tar.gz tmp/abstract_ai-0.1.3.tar.gz --markdown 20230728/a/abstract-ai/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-28 04:57:17] INFO root fetch - processPackages [gptfunctionutil]: executing diffoscope
+[2023-07-28 04:57:17] INFO root fetch - processPackages [gptfunctionutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptfunctionutil-0.2.2.tar.gz tmp/gptfunctionutil-0.2.3.tar.gz --markdown 20230728/g/gptfunctionutil/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-28 04:57:17] INFO root fetch - processPackages [turboyaml]: Downloading https://files.pythonhosted.org/packages/e2/42/2b6f86d6cee923198fb7e6cdd610b0ab900788a65f82135b6a086720186b/turboyaml-0.0.2.tar.gz
+[2023-07-28 04:57:18] INFO root fetch - processPackages [turboyaml]: executing diffoscope
+[2023-07-28 04:57:18] INFO root fetch - processPackages [turboyaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turboyaml-0.0.1.tar.gz tmp/turboyaml-0.0.2.tar.gz --markdown 20230728/t/turboyaml/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-28 04:57:18] INFO root fetch - processPackages [mysqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-generator-1.6.8.tar.gz]
+[2023-07-28 04:57:18] INFO root fetch - processPackages [mysqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-generator-1.6.9.tar.gz]
+[2023-07-28 04:57:18] INFO root fetch - processPackages [mysqlx-generator]: Start processing: cisco-sdwan
+[2023-07-28 04:57:18] INFO root fetch - main [MainThread]: End processing [mysqlx-generator]: success
+[2023-07-28 04:57:18] INFO root fetch - processPackages [cisco-sdwan]: New version: [1.9] Old Version: [1.8]
+[2023-07-28 04:57:18] INFO root fetch - processPackages [pgsqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-generator-1.6.9.tar.gz]
+[2023-07-28 04:57:18] INFO root fetch - processPackages [pgsqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-generator-1.7.0.tar.gz]
+[2023-07-28 04:57:18] INFO root fetch - processPackages [pgsqlx-generator]: Start processing: shipyard-census
+[2023-07-28 04:57:18] INFO root fetch - main [MainThread]: End processing [pgsqlx-generator]: success
+[2023-07-28 04:57:18] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.6.8.tar.gz]
+[2023-07-28 04:57:18] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.6.9.tar.gz]
+[2023-07-28 04:57:18] INFO root fetch - processPackages [pgsqlx]: Start processing: nanohelp
+[2023-07-28 04:57:18] INFO root fetch - main [MainThread]: End processing [pgsqlx]: success
+[2023-07-28 04:57:18] INFO root fetch - processPackages [shipyard-census]: New version: [0.1.1a3] Old Version: [0.1.1a2]
+[2023-07-28 04:57:19] INFO root fetch - processPackages [nanohelp]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-28 04:57:19] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.6.6.tar.gz]
+[2023-07-28 04:57:19] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.6.8.tar.gz]
+[2023-07-28 04:57:19] INFO root fetch - processPackages [mysqlx]: Start processing: django-migration-rollback
+[2023-07-28 04:57:19] INFO root fetch - main [MainThread]: End processing [mysqlx]: success
+[2023-07-28 04:57:19] INFO root fetch - processPackages [shipyard-census]: Downloading https://files.pythonhosted.org/packages/36/a7/30c013ad74108753ec4a15f8ff095bf0375d383ce97241334f08ce628e17/shipyard_census-0.1.1a2.tar.gz
+[2023-07-28 04:57:19] INFO root fetch - processPackages [cisco-sdwan]: Downloading https://files.pythonhosted.org/packages/dd/b0/3c6d029fa198b8938d73cb230e55160393f6920204483f036e2258c68877/cisco-sdwan-1.8.tar.gz
+[2023-07-28 04:57:19] INFO root fetch - processPackages [django-migration-rollback]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-28 04:57:19] INFO root fetch - processPackages [abstract-ai]: Remove: archive file [/home/abi/fetcher/tmp/abstract_ai-0.1.2.tar.gz]
+[2023-07-28 04:57:19] INFO root fetch - processPackages [abstract-ai]: Remove: archive file [/home/abi/fetcher/tmp/abstract_ai-0.1.3.tar.gz]
+[2023-07-28 04:57:19] INFO root fetch - processPackages [abstract-ai]: Start processing: luau
+[2023-07-28 04:57:19] INFO root fetch - main [MainThread]: End processing [abstract-ai]: success
+[2023-07-28 04:57:19] INFO root fetch - processPackages [shipyard-census]: Downloading https://files.pythonhosted.org/packages/e1/dd/691ef2fb3013456cbbc868386b768dd5675a33870183953f93bf54abe0f8/shipyard_census-0.1.1a3.tar.gz
+[2023-07-28 04:57:19] INFO root fetch - processPackages [turboyaml]: Remove: archive file [/home/abi/fetcher/tmp/turboyaml-0.0.1.tar.gz]
+[2023-07-28 04:57:19] INFO root fetch - processPackages [turboyaml]: Remove: archive file [/home/abi/fetcher/tmp/turboyaml-0.0.2.tar.gz]
+[2023-07-28 04:57:19] INFO root fetch - main [MainThread]: End processing [turboyaml]: success
+[2023-07-28 04:57:19] INFO root fetch - processPackages [nanohelp]: Downloading https://files.pythonhosted.org/packages/fc/06/f4b7cbe5a5a7381a240fb298408f822180a0c8f6a82006a3918bc570057a/nanohelp-0.0.4.tar.gz
+[2023-07-28 04:57:19] INFO root fetch - processPackages [gptfunctionutil]: Remove: archive file [/home/abi/fetcher/tmp/gptfunctionutil-0.2.2.tar.gz]
+[2023-07-28 04:57:19] INFO root fetch - processPackages [gptfunctionutil]: Remove: archive file [/home/abi/fetcher/tmp/gptfunctionutil-0.2.3.tar.gz]
+[2023-07-28 04:57:19] INFO root fetch - main [MainThread]: End processing [gptfunctionutil]: success
+[2023-07-28 04:57:19] INFO root fetch - processPackages [multifocal-stitching]: Remove: archive file [/home/abi/fetcher/tmp/multifocal-stitching-0.1.1.tar.gz]
+[2023-07-28 04:57:19] INFO root fetch - processPackages [multifocal-stitching]: Remove: archive file [/home/abi/fetcher/tmp/multifocal-stitching-0.2.tar.gz]
+[2023-07-28 04:57:19] INFO root fetch - main [MainThread]: End processing [multifocal-stitching]: success
+[2023-07-28 04:57:19] INFO root fetch - processPackages [shipyard-census]: executing diffoscope
+[2023-07-28 04:57:19] INFO root fetch - processPackages [shipyard-census]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_census-0.1.1a2.tar.gz tmp/shipyard_census-0.1.1a3.tar.gz --markdown 20230728/s/shipyard-census/0.1.1a2-0.1.1a3/diff.md --exclude *.pyd
+[2023-07-28 04:57:19] INFO root fetch - processPackages [django-migration-rollback]: Downloading https://files.pythonhosted.org/packages/0d/74/aa16d602eb074774e2b342968fe2cfe7d9950c494172e8fdca69c6c381ef/django-migration-rollback-1.0.4.tar.gz
+[2023-07-28 04:57:19] INFO root fetch - processPackages [luau]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-28 04:57:19] INFO root fetch - processPackages [nanohelp]: Remove: archive file [/home/abi/fetcher/tmp/nanohelp-0.0.2.tar.gz]
+[2023-07-28 04:57:19] INFO root fetch - processPackages [nanohelp]: Remove: archive file [/home/abi/fetcher/tmp/nanohelp-0.0.3.tar.gz]
+[2023-07-28 04:57:19] INFO root fetch - main [MainThread]: End processing [nanohelp]: success
+[2023-07-28 04:57:19] INFO root fetch - processPackages [cisco-sdwan]: Downloading https://files.pythonhosted.org/packages/94/e4/ba2da02a7680b117d4fc7d34e62f5b4d5a264aa10bcb4e4542a328e55a1f/cisco-sdwan-1.9.tar.gz
+[2023-07-28 04:57:19] INFO root fetch - processPackages [nanohelp]: executing diffoscope
+[2023-07-28 04:57:19] INFO root fetch - processPackages [nanohelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanohelp-0.0.3.tar.gz tmp/nanohelp-0.0.4.tar.gz --markdown 20230728/n/nanohelp/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-28 04:57:19] INFO root fetch - main [MainThread]: End processing [nanohelp]: success
+[2023-07-28 04:57:19] INFO root fetch - processPackages [luau]: Downloading https://files.pythonhosted.org/packages/4e/67/cec291c205779be29a69aae635b017a1870e4008a8e339c20dc6b2d8ee7b/luau-0.4.8.tar.gz
+[2023-07-28 04:57:19] INFO root fetch - processPackages [cisco-sdwan]: executing diffoscope
+[2023-07-28 04:57:19] INFO root fetch - processPackages [cisco-sdwan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cisco-sdwan-1.8.tar.gz tmp/cisco-sdwan-1.9.tar.gz --markdown 20230728/c/cisco-sdwan/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-28 04:57:19] INFO root fetch - processPackages [django-migration-rollback]: Downloading https://files.pythonhosted.org/packages/7a/84/78bfda70be1e3bccc141fb9794fd1b3f17adc983d1cbad775b7b299c8025/django-migration-rollback-1.0.5.tar.gz
+[2023-07-28 04:57:19] INFO root fetch - processPackages [django-migration-rollback]: executing diffoscope
+[2023-07-28 04:57:19] INFO root fetch - processPackages [django-migration-rollback]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-migration-rollback-1.0.4.tar.gz tmp/django-migration-rollback-1.0.5.tar.gz --markdown 20230728/d/django-migration-rollback/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-28 04:57:19] ERROR root fetch - processPackages [nanohelp]: Diffoscope failed: time="2023-07-28T04:57:19+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/nanohelp-0.0.3.tar.gz: No such file or directory
+
+[2023-07-28 04:57:19] INFO root fetch - main [MainThread]: End processing [nanohelp] error
+[2023-07-28 04:57:20] INFO root fetch - processPackages [shipyard-census]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_census-0.1.1a2.tar.gz]
+[2023-07-28 04:57:20] INFO root fetch - processPackages [shipyard-census]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_census-0.1.1a3.tar.gz]
+[2023-07-28 04:57:20] INFO root fetch - main [MainThread]: End processing [shipyard-census]: success
+[2023-07-28 04:57:20] INFO root fetch - processPackages [cisco-sdwan]: Remove: archive file [/home/abi/fetcher/tmp/cisco-sdwan-1.8.tar.gz]
+[2023-07-28 04:57:20] INFO root fetch - processPackages [cisco-sdwan]: Remove: archive file [/home/abi/fetcher/tmp/cisco-sdwan-1.9.tar.gz]
+[2023-07-28 04:57:20] INFO root fetch - main [MainThread]: End processing [cisco-sdwan]: success
+[2023-07-28 04:57:21] INFO root fetch - processPackages [django-migration-rollback]: Remove: archive file [/home/abi/fetcher/tmp/django-migration-rollback-1.0.4.tar.gz]
+[2023-07-28 04:57:21] INFO root fetch - processPackages [django-migration-rollback]: Remove: archive file [/home/abi/fetcher/tmp/django-migration-rollback-1.0.5.tar.gz]
+[2023-07-28 04:57:21] INFO root fetch - main [MainThread]: End processing [django-migration-rollback]: success
+[2023-07-28 04:57:22] INFO root fetch - processPackages [luau]: Downloading https://files.pythonhosted.org/packages/bf/a6/53629f4c39798477f9dac667fc2b401715ce709b59b767e3320f46472eb7/luau-0.4.9.tar.gz
+[2023-07-28 04:57:22] WARNING root fetch - processPackages [luau]: Skipping package: exceeds size limit 36993103>=10485760
+[2023-07-28 04:57:22] INFO root fetch - main [MainThread]: End processing [luau] error
+[2023-07-28 04:57:22] INFO root fetch - main [MainThread]: Store serial: [19070780]
