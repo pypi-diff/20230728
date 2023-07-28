@@ -13876,3 +13876,64 @@
 [2023-07-28 08:02:37] INFO root fetch - processPackages [yangsuite]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite-2.9.9-py3-none-any.whl.zip]
 [2023-07-28 08:02:37] INFO root fetch - main [MainThread]: End processing [yangsuite]: success
 [2023-07-28 08:02:37] INFO root fetch - main [MainThread]: Store serial: [19072165]
+[2023-07-28 08:07:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19072165]
+[2023-07-28 08:07:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-28 08:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fdfat
+[2023-07-28 08:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zzq-strings-sum
+[2023-07-28 08:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-it-withholding-tax
+[2023-07-28 08:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-safedelete-e2e
+[2023-07-28 08:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qetrader
+[2023-07-28 08:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yangsuite-netconf
+[2023-07-28 08:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langstream
+[2023-07-28 08:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zzq-strings-sum
+[2023-07-28 08:07:50] WARNING root fetch - processPackages [langstream]: Skipping, unable to determine old version
+[2023-07-28 08:07:50] INFO root fetch - main [MainThread]: End processing [langstream] error
+[2023-07-28 08:07:50] INFO root fetch - processPackages [fdfat]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-28 08:07:50] INFO root fetch - processPackages [zzq-strings-sum]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-07-28 08:07:50] INFO root fetch - processPackages [zzq-strings-sum]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-07-28 08:07:50] WARNING root fetch - processPackages [django-safedelete-e2e]: Skipping, unable to determine old version
+[2023-07-28 08:07:50] INFO root fetch - processPackages [yangsuite-netconf]: New version: [1.17.8.post0.dev38] Old Version: [1.17.8.post0.dev14]
+[2023-07-28 08:07:50] INFO root fetch - main [MainThread]: End processing [django-safedelete-e2e] error
+[2023-07-28 08:07:50] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: New version: [16.0.1.1.2] Old Version: [16.0.1.1.1.4]
+[2023-07-28 08:07:50] INFO root fetch - processPackages [qetrader]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-28 08:07:50] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/52/42/506d3fba14d58806c280bd41827378afbc8feb465c3c9021fad9db01c7fe/fdfat-0.1.8.tar.gz
+[2023-07-28 08:07:50] INFO root fetch - processPackages [zzq-strings-sum]: Downloading https://files.pythonhosted.org/packages/05/69/bec14fcfca134df3d84b2b6e4087db5ab21272ca95a7b18910a786c4bcbd/zzq-strings-sum-0.5.4.tar.gz
+[2023-07-28 08:07:50] INFO root fetch - processPackages [zzq-strings-sum]: Downloading https://files.pythonhosted.org/packages/05/69/bec14fcfca134df3d84b2b6e4087db5ab21272ca95a7b18910a786c4bcbd/zzq-strings-sum-0.5.4.tar.gz
+[2023-07-28 08:07:50] INFO root fetch - processPackages [yangsuite-netconf]: Downloading https://files.pythonhosted.org/packages/5a/11/5aa11b2dcc9e791c0582581b5c467a630fa98da3812520696e34debc9360/yangsuite_netconf-1.17.8.post0.dev14-py3-none-any.whl
+[2023-07-28 08:07:50] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/6b/c3/3d2fa4d7a50f83d412cef9fa21eb6f4ccdd948f9f3279203578094552080/odoo_addon_l10n_it_withholding_tax-16.0.1.1.1.4-py3-none-any.whl
+[2023-07-28 08:07:50] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/33/f3/6899c69370589ad43d818b9e5cdb2d0d01d7ef88af4613948080645b45db/fdfat-0.1.9.tar.gz
+[2023-07-28 08:07:50] INFO root fetch - processPackages [qetrader]: Downloading https://files.pythonhosted.org/packages/8d/76/412285766440f29addd68f1ad79e9dc15243a5adbd376024a598747d4943/qetrader-1.0.8.tar.gz
+[2023-07-28 08:07:50] INFO root fetch - processPackages [fdfat]: executing diffoscope
+[2023-07-28 08:07:50] INFO root fetch - processPackages [fdfat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdfat-0.1.8.tar.gz tmp/fdfat-0.1.9.tar.gz --markdown 20230728/f/fdfat/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-28 08:07:50] INFO root fetch - processPackages [zzq-strings-sum]: Downloading https://files.pythonhosted.org/packages/b3/88/a9128eb3131225491f0f02f0230466783a6c47e8ee323548e204de49d355/zzq-strings-sum-0.5.5.tar.gz
+[2023-07-28 08:07:50] INFO root fetch - processPackages [zzq-strings-sum]: Downloading https://files.pythonhosted.org/packages/b3/88/a9128eb3131225491f0f02f0230466783a6c47e8ee323548e204de49d355/zzq-strings-sum-0.5.5.tar.gz
+[2023-07-28 08:07:50] INFO root fetch - processPackages [zzq-strings-sum]: executing diffoscope
+[2023-07-28 08:07:50] INFO root fetch - processPackages [zzq-strings-sum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zzq-strings-sum-0.5.4.tar.gz tmp/zzq-strings-sum-0.5.5.tar.gz --markdown 20230728/z/zzq-strings-sum/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-07-28 08:07:50] INFO root fetch - processPackages [zzq-strings-sum]: executing diffoscope
+[2023-07-28 08:07:50] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/44/d6/9f9b18f26232a76e9baea1446d25950a36c4420fea31c8592856da191a83/odoo_addon_l10n_it_withholding_tax-16.0.1.1.2-py3-none-any.whl
+[2023-07-28 08:07:50] INFO root fetch - processPackages [zzq-strings-sum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zzq-strings-sum-0.5.4.tar.gz tmp/zzq-strings-sum-0.5.5.tar.gz --markdown 20230728/z/zzq-strings-sum/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-07-28 08:07:51] INFO root fetch - processPackages [qetrader]: Downloading https://files.pythonhosted.org/packages/ef/df/91b4c73fed70f7bb496ae740924588ff56c86483b7ed58987a240c11af52/qetrader-1.0.9.tar.gz
+[2023-07-28 08:07:51] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: executing diffoscope
+[2023-07-28 08:07:51] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_withholding_tax-16.0.1.1.1.4-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_withholding_tax-16.0.1.1.2-py3-none-any.whl.zip --markdown 20230728/o/odoo-addon-l10n-it-withholding-tax/16.0.1.1.1.4-16.0.1.1.2/diff.md --exclude *.pyd
+[2023-07-28 08:07:51] INFO root fetch - processPackages [qetrader]: executing diffoscope
+[2023-07-28 08:07:51] INFO root fetch - processPackages [qetrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qetrader-1.0.8.tar.gz tmp/qetrader-1.0.9.tar.gz --markdown 20230728/q/qetrader/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-28 08:07:51] INFO root fetch - processPackages [yangsuite-netconf]: Downloading https://files.pythonhosted.org/packages/c3/c4/8fabf796659e4d33c93f7df316b463e07342c195578fd0359b017bdfa0c2/yangsuite_netconf-1.17.8.post0.dev38-py3-none-any.whl
+[2023-07-28 08:07:51] INFO root fetch - processPackages [zzq-strings-sum]: Remove: archive file [/home/abi/fetcher/tmp/zzq-strings-sum-0.5.4.tar.gz]
+[2023-07-28 08:07:51] INFO root fetch - processPackages [zzq-strings-sum]: Remove: archive file [/home/abi/fetcher/tmp/zzq-strings-sum-0.5.5.tar.gz]
+[2023-07-28 08:07:51] INFO root fetch - main [MainThread]: End processing [zzq-strings-sum]: success
+[2023-07-28 08:07:51] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.8.tar.gz]
+[2023-07-28 08:07:51] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.9.tar.gz]
+[2023-07-28 08:07:51] INFO root fetch - main [MainThread]: End processing [fdfat]: success
+[2023-07-28 08:07:51] INFO root fetch - main [MainThread]: End processing [zzq-strings-sum]: success
+[2023-07-28 08:07:52] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_withholding_tax-16.0.1.1.1.4-py3-none-any.whl.zip]
+[2023-07-28 08:07:52] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_withholding_tax-16.0.1.1.2-py3-none-any.whl.zip]
+[2023-07-28 08:07:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-withholding-tax]: success
+[2023-07-28 08:07:52] INFO root fetch - processPackages [qetrader]: Remove: archive file [/home/abi/fetcher/tmp/qetrader-1.0.8.tar.gz]
+[2023-07-28 08:07:52] INFO root fetch - processPackages [qetrader]: Remove: archive file [/home/abi/fetcher/tmp/qetrader-1.0.9.tar.gz]
+[2023-07-28 08:07:52] INFO root fetch - main [MainThread]: End processing [qetrader]: success
+[2023-07-28 08:07:52] INFO root fetch - processPackages [yangsuite-netconf]: executing diffoscope
+[2023-07-28 08:07:52] INFO root fetch - processPackages [yangsuite-netconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yangsuite_netconf-1.17.8.post0.dev14-py3-none-any.whl.zip tmp/yangsuite_netconf-1.17.8.post0.dev38-py3-none-any.whl.zip --markdown 20230728/y/yangsuite-netconf/1.17.8.post0.dev14-1.17.8.post0.dev38/diff.md --exclude *.pyd
+[2023-07-28 08:07:56] INFO root fetch - processPackages [yangsuite-netconf]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite_netconf-1.17.8.post0.dev14-py3-none-any.whl.zip]
+[2023-07-28 08:07:56] INFO root fetch - processPackages [yangsuite-netconf]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite_netconf-1.17.8.post0.dev38-py3-none-any.whl.zip]
+[2023-07-28 08:07:56] INFO root fetch - main [MainThread]: End processing [yangsuite-netconf]: success
+[2023-07-28 08:07:56] INFO root fetch - main [MainThread]: Store serial: [19072189]

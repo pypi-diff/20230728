@@ -1,0 +1,89 @@
+# Comparing `tmp/zzq-strings-sum-0.5.4.tar.gz` & `tmp/zzq-strings-sum-0.5.5.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "zzq-strings-sum-0.5.4.tar", last modified: Fri Jul 28 05:46:20 2023, max compression
++gzip compressed data, was "zzq-strings-sum-0.5.5.tar", last modified: Fri Jul 28 06:02:32 2023, max compression
+```
+
+## Comparing `zzq-strings-sum-0.5.4.tar` & `zzq-strings-sum-0.5.5.tar`
+
+### file list
+
+```diff
+@@ -1,13 +1,16 @@
+-drwxr-xr-x   0 zzq        (501) staff       (20)        0 2023-07-28 05:46:20.315505 zzq-strings-sum-0.5.4/
+--rw-r--r--   0 zzq        (501) staff       (20)     1122 2023-07-28 05:46:20.315384 zzq-strings-sum-0.5.4/PKG-INFO
+--rw-r--r--   0 zzq        (501) staff       (20)      880 2023-07-28 05:02:28.000000 zzq-strings-sum-0.5.4/README.md
+--rw-r--r--   0 zzq        (501) staff       (20)      444 2023-07-28 05:38:45.000000 zzq-strings-sum-0.5.4/pyproject.toml
+--rw-r--r--   0 zzq        (501) staff       (20)       38 2023-07-28 05:46:20.315546 zzq-strings-sum-0.5.4/setup.cfg
+--rw-r--r--   0 zzq        (501) staff       (20)      495 2023-07-28 05:46:17.000000 zzq-strings-sum-0.5.4/setup.py
+-drwxr-xr-x   0 zzq        (501) staff       (20)        0 2023-07-28 05:46:20.314224 zzq-strings-sum-0.5.4/src/
+-drwxr-xr-x   0 zzq        (501) staff       (20)        0 2023-07-28 05:46:20.315235 zzq-strings-sum-0.5.4/src/zzq_strings_sum.egg-info/
+--rw-r--r--   0 zzq        (501) staff       (20)     1122 2023-07-28 05:46:20.000000 zzq-strings-sum-0.5.4/src/zzq_strings_sum.egg-info/PKG-INFO
+--rw-r--r--   0 zzq        (501) staff       (20)      247 2023-07-28 05:46:20.000000 zzq-strings-sum-0.5.4/src/zzq_strings_sum.egg-info/SOURCES.txt
+--rw-r--r--   0 zzq        (501) staff       (20)        1 2023-07-28 05:46:20.000000 zzq-strings-sum-0.5.4/src/zzq_strings_sum.egg-info/dependency_links.txt
+--rw-r--r--   0 zzq        (501) staff       (20)        9 2023-07-28 05:46:20.000000 zzq-strings-sum-0.5.4/src/zzq_strings_sum.egg-info/requires.txt
+--rw-r--r--   0 zzq        (501) staff       (20)        1 2023-07-28 05:46:20.000000 zzq-strings-sum-0.5.4/src/zzq_strings_sum.egg-info/top_level.txt
++drwxr-xr-x   0 zzq        (501) staff       (20)        0 2023-07-28 06:02:32.978931 zzq-strings-sum-0.5.5/
++-rw-r--r--   0 zzq        (501) staff       (20)     1122 2023-07-28 06:02:32.978806 zzq-strings-sum-0.5.5/PKG-INFO
++-rw-r--r--   0 zzq        (501) staff       (20)      880 2023-07-28 05:02:28.000000 zzq-strings-sum-0.5.5/README.md
++-rw-r--r--   0 zzq        (501) staff       (20)       38 2023-07-28 06:02:32.978988 zzq-strings-sum-0.5.5/setup.cfg
++-rw-r--r--   0 zzq        (501) staff       (20)      495 2023-07-28 06:02:30.000000 zzq-strings-sum-0.5.5/setup.py
++drwxr-xr-x   0 zzq        (501) staff       (20)        0 2023-07-28 06:02:32.977276 zzq-strings-sum-0.5.5/src/
++drwxr-xr-x   0 zzq        (501) staff       (20)        0 2023-07-28 06:02:32.977933 zzq-strings-sum-0.5.5/src/api/
++-rw-r--r--   0 zzq        (501) staff       (20)        0 2023-07-28 05:53:05.000000 zzq-strings-sum-0.5.5/src/api/__init__.py
++-rw-r--r--   0 zzq        (501) staff       (20)     2686 2023-07-28 04:47:09.000000 zzq-strings-sum-0.5.5/src/api/apitable_databus_client.py
++-rw-r--r--   0 zzq        (501) staff       (20)      181 2023-07-28 05:28:22.000000 zzq-strings-sum-0.5.5/src/api/z_test_module.py
++drwxr-xr-x   0 zzq        (501) staff       (20)        0 2023-07-28 06:02:32.978654 zzq-strings-sum-0.5.5/src/zzq_strings_sum.egg-info/
++-rw-r--r--   0 zzq        (501) staff       (20)     1122 2023-07-28 06:02:32.000000 zzq-strings-sum-0.5.5/src/zzq_strings_sum.egg-info/PKG-INFO
++-rw-r--r--   0 zzq        (501) staff       (20)      312 2023-07-28 06:02:32.000000 zzq-strings-sum-0.5.5/src/zzq_strings_sum.egg-info/SOURCES.txt
++-rw-r--r--   0 zzq        (501) staff       (20)        1 2023-07-28 06:02:32.000000 zzq-strings-sum-0.5.5/src/zzq_strings_sum.egg-info/dependency_links.txt
++-rw-r--r--   0 zzq        (501) staff       (20)        9 2023-07-28 06:02:32.000000 zzq-strings-sum-0.5.5/src/zzq_strings_sum.egg-info/requires.txt
++-rw-r--r--   0 zzq        (501) staff       (20)        4 2023-07-28 06:02:32.000000 zzq-strings-sum-0.5.5/src/zzq_strings_sum.egg-info/top_level.txt
+```
+
+### Comparing `zzq-strings-sum-0.5.4/PKG-INFO` & `zzq-strings-sum-0.5.5/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: zzq-strings-sum
+-Version: 0.5.4
++Version: 0.5.5
+ Summary: A client for Databus API
+ Home-page: UNKNOWN
+ Author: zzq
+ Author-email: zhaozhiqiang@vikadata.com
+ License: UNKNOWN
+ Platform: UNKNOWN
+ Description-Content-Type: text/markdown
+```
+
+### Comparing `zzq-strings-sum-0.5.4/README.md` & `zzq-strings-sum-0.5.5/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `zzq-strings-sum-0.5.4/src/zzq_strings_sum.egg-info/PKG-INFO` & `zzq-strings-sum-0.5.5/src/zzq_strings_sum.egg-info/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: zzq-strings-sum
+-Version: 0.5.4
++Version: 0.5.5
+ Summary: A client for Databus API
+ Home-page: UNKNOWN
+ Author: zzq
+ Author-email: zhaozhiqiang@vikadata.com
+ License: UNKNOWN
+ Platform: UNKNOWN
+ Description-Content-Type: text/markdown
+```
+
