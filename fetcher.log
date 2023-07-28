@@ -14125,3 +14125,69 @@
 [2023-07-28 08:18:36] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.3.dev20230728.tar.gz]
 [2023-07-28 08:18:36] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-07-28 08:18:36] INFO root fetch - main [MainThread]: Store serial: [19072274]
+[2023-07-28 08:23:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19072274]
+[2023-07-28 08:23:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-28 08:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FunID
+[2023-07-28 08:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: circt
+[2023-07-28 08:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DNBC4tools
+[2023-07-28 08:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Mosek
+[2023-07-28 08:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airflowconversion
+[2023-07-28 08:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xklb
+[2023-07-28 08:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mutual
+[2023-07-28 08:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: keyof
+[2023-07-28 08:23:44] INFO root fetch - processPackages [FunID]: New version: [0.3.9] Old Version: [0.3.8.2]
+[2023-07-28 08:23:44] INFO root fetch - processPackages [mutual]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-28 08:23:44] INFO root fetch - processPackages [DNBC4tools]: New version: [2.1.0] Old Version: [2.0.7]
+[2023-07-28 08:23:44] INFO root fetch - processPackages [airflowconversion]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-28 08:23:44] INFO root fetch - processPackages [circt]: New version: [1.48.1.dev91] Old Version: [1.48.1.dev80]
+[2023-07-28 08:23:44] INFO root fetch - processPackages [xklb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-28 08:23:44] INFO root fetch - processPackages [Mosek]: New version: [9.3.9] Old Version: [9.3.8]
+[2023-07-28 08:23:44] INFO root fetch - processPackages [keyof]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-28 08:23:44] INFO root fetch - processPackages [DNBC4tools]: Downloading https://files.pythonhosted.org/packages/f3/3d/36b5e6396e68cf6238c40079f1ab6389b84615510904d6fabc6ab33139f8/DNBC4tools-2.0.7.tar.gz
+[2023-07-28 08:23:44] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/10/78/158da1876f9993e387cbd6f3e863998fb3d36545c88820f91a57f7a97b99/xklb-2.2.8.tar.gz
+[2023-07-28 08:23:44] INFO root fetch - processPackages [FunID]: Downloading https://files.pythonhosted.org/packages/4a/4a/3bf498c2707726c16177fb6d5e4c1fb6b942aa0f857378f22345cee709b9/FunID-0.3.8.2.tar.gz
+[2023-07-28 08:23:44] INFO root fetch - processPackages [mutual]: Downloading https://files.pythonhosted.org/packages/8d/99/d8683ec432642aefda3f04a360ad803492b2698fa5cdfc97abf31e721583/mutual-0.3.0.tar.gz
+[2023-07-28 08:23:44] INFO root fetch - processPackages [Mosek]: Downloading https://files.pythonhosted.org/packages/4c/32/630b9e420bad8d8d1d1ac6ec6b3e5097f8b1b4783e16b3991153044fad86/Mosek-9.3.8-cp39-cp39-win_amd64.whl
+[2023-07-28 08:23:44] INFO root fetch - processPackages [keyof]: Downloading https://files.pythonhosted.org/packages/ce/79/258109d471b59654a7cd9fce7940e328fb88a771aab36abca3a6ba85ba01/keyof-0.2.0.tar.gz
+[2023-07-28 08:23:44] INFO root fetch - processPackages [airflowconversion]: Downloading https://files.pythonhosted.org/packages/91/02/47f2fdc8aa0c4928847757e6d5940f4760d29a40349d229131668e35c955/airflowconversion-1.0.1.tar.gz
+[2023-07-28 08:23:45] WARNING root fetch - processPackages [FunID]: Skipping package: exceeds size limit 51450650>=10485760
+[2023-07-28 08:23:45] INFO root fetch - main [MainThread]: End processing [FunID] error
+[2023-07-28 08:23:45] INFO root fetch - processPackages [circt]: Downloading https://files.pythonhosted.org/packages/e6/49/147351562ae631232419582ad02ecb2a99bf4c677177239abae473f04d73/circt-1.48.1.dev91-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-28 08:23:45] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/21/af/fbdd09ebcfd5aa404fbf007cfe827b2b56fcfd19c73cc4b3f7f672fe0b3c/xklb-2.2.9.tar.gz
+[2023-07-28 08:23:45] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-07-28 08:23:45] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.2.8.tar.gz tmp/xklb-2.2.9.tar.gz --markdown 20230728/x/xklb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-28 08:23:45] INFO root fetch - processPackages [keyof]: Downloading https://files.pythonhosted.org/packages/12/b2/7363d2d7f4488a506c3e19c0a69769835bd0dd7df7167489ed5ab210bc1e/keyof-0.3.0.tar.gz
+[2023-07-28 08:23:45] INFO root fetch - processPackages [airflowconversion]: Downloading https://files.pythonhosted.org/packages/28/01/2c19f8fde39cacbc4738c2c1dee3e258fb1c7456dc59cdd23ebe545b062b/airflowconversion-1.0.2.tar.gz
+[2023-07-28 08:23:45] INFO root fetch - processPackages [mutual]: Downloading https://files.pythonhosted.org/packages/1e/d4/2edf80ca5ca74c7f0d014c902cc3ac968ba28a65871d3dc743ced264772c/mutual-0.3.1.tar.gz
+[2023-07-28 08:23:45] INFO root fetch - processPackages [airflowconversion]: executing diffoscope
+[2023-07-28 08:23:45] INFO root fetch - processPackages [airflowconversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflowconversion-1.0.1.tar.gz tmp/airflowconversion-1.0.2.tar.gz --markdown 20230728/a/airflowconversion/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-28 08:23:45] INFO root fetch - processPackages [mutual]: executing diffoscope
+[2023-07-28 08:23:45] INFO root fetch - processPackages [mutual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutual-0.3.0.tar.gz tmp/mutual-0.3.1.tar.gz --markdown 20230728/m/mutual/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-28 08:23:45] INFO root fetch - processPackages [keyof]: executing diffoscope
+[2023-07-28 08:23:45] INFO root fetch - processPackages [keyof]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyof-0.2.0.tar.gz tmp/keyof-0.3.0.tar.gz --markdown 20230728/k/keyof/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-28 08:23:45] INFO root fetch - processPackages [DNBC4tools]: Downloading https://files.pythonhosted.org/packages/54/63/3e69d449376cbf19ad0ca4efcc96ba0180350380edf418a91f37a6b52ff7/DNBC4tools-2.1.0.tar.gz
+[2023-07-28 08:23:45] WARNING root fetch - processPackages [DNBC4tools]: Skipping package: exceeds size limit 33127014>=10485760
+[2023-07-28 08:23:45] INFO root fetch - main [MainThread]: End processing [DNBC4tools] error
+[2023-07-28 08:23:46] INFO root fetch - processPackages [mutual]: Remove: archive file [/home/abi/fetcher/tmp/mutual-0.3.0.tar.gz]
+[2023-07-28 08:23:46] INFO root fetch - processPackages [mutual]: Remove: archive file [/home/abi/fetcher/tmp/mutual-0.3.1.tar.gz]
+[2023-07-28 08:23:46] INFO root fetch - main [MainThread]: End processing [mutual]: success
+[2023-07-28 08:23:46] INFO root fetch - processPackages [airflowconversion]: Remove: archive file [/home/abi/fetcher/tmp/airflowconversion-1.0.1.tar.gz]
+[2023-07-28 08:23:46] INFO root fetch - processPackages [airflowconversion]: Remove: archive file [/home/abi/fetcher/tmp/airflowconversion-1.0.2.tar.gz]
+[2023-07-28 08:23:46] INFO root fetch - main [MainThread]: End processing [airflowconversion]: success
+[2023-07-28 08:23:46] INFO root fetch - processPackages [keyof]: Remove: archive file [/home/abi/fetcher/tmp/keyof-0.2.0.tar.gz]
+[2023-07-28 08:23:46] INFO root fetch - processPackages [keyof]: Remove: archive file [/home/abi/fetcher/tmp/keyof-0.3.0.tar.gz]
+[2023-07-28 08:23:46] INFO root fetch - main [MainThread]: End processing [keyof]: success
+[2023-07-28 08:23:46] INFO root fetch - processPackages [circt]: executing diffoscope
+[2023-07-28 08:23:46] INFO root fetch - processPackages [circt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circt-1.48.1.dev80-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/circt-1.48.1.dev91-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230728/c/circt/1.48.1.dev80-1.48.1.dev91/diff.md --exclude *.pyd
+[2023-07-28 08:23:46] INFO root fetch - processPackages [Mosek]: Downloading https://files.pythonhosted.org/packages/f5/78/ea902908d2878b83f8e37f551e0f59478b1840a9f5f031e123c393c88b0e/Mosek-9.3.9-cp39-cp39-win_amd64.whl
+[2023-07-28 08:23:46] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.8.tar.gz]
+[2023-07-28 08:23:46] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
+[2023-07-28 08:23:46] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-07-28 08:23:48] INFO root fetch - processPackages [Mosek]: executing diffoscope
+[2023-07-28 08:23:48] INFO root fetch - processPackages [Mosek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mosek-9.3.8-cp39-cp39-win_amd64.whl.zip tmp/Mosek-9.3.9-cp39-cp39-win_amd64.whl.zip --markdown 20230728/M/Mosek/9.3.8-9.3.9/diff.md --exclude *.pyd
+[2023-07-28 08:24:14] INFO root fetch - processPackages [Mosek]: Remove: archive file [/home/abi/fetcher/tmp/Mosek-9.3.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-28 08:24:14] INFO root fetch - processPackages [Mosek]: Remove: archive file [/home/abi/fetcher/tmp/Mosek-9.3.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-28 08:24:14] INFO root fetch - main [MainThread]: End processing [Mosek]: success
+[2023-07-28 08:26:46] ERROR root fetch - processPackages [circt]: Timeout during execution of pkgdiff
+[2023-07-28 08:26:46] INFO root fetch - main [MainThread]: End processing [circt] error
+[2023-07-28 08:26:46] INFO root fetch - main [MainThread]: Store serial: [19072307]
