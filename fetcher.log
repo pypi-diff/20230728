@@ -11782,3 +11782,36 @@
 [2023-07-28 05:41:25] INFO root fetch - processPackages [flytekitplugins-whylogs]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-whylogs-1.9.0a0.tar.gz]
 [2023-07-28 05:41:25] INFO root fetch - main [MainThread]: End processing [flytekitplugins-whylogs]: success
 [2023-07-28 05:41:25] INFO root fetch - main [MainThread]: Store serial: [19071235]
+[2023-07-28 05:46:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19071235]
+[2023-07-28 05:46:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-28 05:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: namekoplus
+[2023-07-28 05:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aliyun-python-sdk-oos
+[2023-07-28 05:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sacool-plugin
+[2023-07-28 05:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-ai
+[2023-07-28 05:46:34] WARNING root fetch - processPackages [sacool-plugin]: Skipping, unable to determine old version
+[2023-07-28 05:46:34] INFO root fetch - main [MainThread]: End processing [sacool-plugin] error
+[2023-07-28 05:46:34] INFO root fetch - processPackages [namekoplus]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-07-28 05:46:34] INFO root fetch - processPackages [aliyun-python-sdk-oos]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-28 05:46:34] INFO root fetch - processPackages [abstract-ai]: New version: [0.1.3.1] Old Version: [0.1.3]
+[2023-07-28 05:46:34] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/a9/5b/fa7b49d77c134f63c2374835df3bc2e1886f1259bba0c59453819fe846b7/abstract_ai-0.1.3.tar.gz
+[2023-07-28 05:46:34] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/d1/be/b2d3ab346d8b93dbf05d899ef52eb68bb6d178b4781e5567cc808e9b4f09/namekoplus-0.3.2.tar.gz
+[2023-07-28 05:46:34] INFO root fetch - processPackages [aliyun-python-sdk-oos]: Downloading https://files.pythonhosted.org/packages/c6/d4/05da89d7e334e86661f9d6d4d71b1e43b4e7640946ef551adc40b52ee59c/aliyun-python-sdk-oos-1.5.8.tar.gz
+[2023-07-28 05:46:34] INFO root fetch - processPackages [abstract-ai]: Downloading https://files.pythonhosted.org/packages/57/20/661f1067bcb789a0df2de0c3aff431397fd89975c508ce0df7b23a9bdc87/abstract_ai-0.1.3.1.tar.gz
+[2023-07-28 05:46:34] INFO root fetch - processPackages [abstract-ai]: executing diffoscope
+[2023-07-28 05:46:34] INFO root fetch - processPackages [abstract-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_ai-0.1.3.tar.gz tmp/abstract_ai-0.1.3.1.tar.gz --markdown 20230728/a/abstract-ai/0.1.3-0.1.3.1/diff.md --exclude *.pyd
+[2023-07-28 05:46:35] INFO root fetch - processPackages [aliyun-python-sdk-oos]: Downloading https://files.pythonhosted.org/packages/2f/ec/d5c650f46dbf41510176e73ca2ddff09c3de0856def755e1b9b9888db5ee/aliyun-python-sdk-oos-1.5.9.tar.gz
+[2023-07-28 05:46:35] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/5e/38/04e621101a73cfcafd7c3db72db840f72b380addc32e43820870f950a9a2/namekoplus-0.4.0.tar.gz
+[2023-07-28 05:46:35] INFO root fetch - processPackages [aliyun-python-sdk-oos]: executing diffoscope
+[2023-07-28 05:46:35] INFO root fetch - processPackages [aliyun-python-sdk-oos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-oos-1.5.8.tar.gz tmp/aliyun-python-sdk-oos-1.5.9.tar.gz --markdown 20230728/a/aliyun-python-sdk-oos/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-28 05:46:35] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-07-28 05:46:35] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.3.2.tar.gz tmp/namekoplus-0.4.0.tar.gz --markdown 20230728/n/namekoplus/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-28 05:46:35] INFO root fetch - processPackages [abstract-ai]: Remove: archive file [/home/abi/fetcher/tmp/abstract_ai-0.1.3.tar.gz]
+[2023-07-28 05:46:35] INFO root fetch - processPackages [abstract-ai]: Remove: archive file [/home/abi/fetcher/tmp/abstract_ai-0.1.3.1.tar.gz]
+[2023-07-28 05:46:35] INFO root fetch - main [MainThread]: End processing [abstract-ai]: success
+[2023-07-28 05:46:36] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.3.2.tar.gz]
+[2023-07-28 05:46:36] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.0.tar.gz]
+[2023-07-28 05:46:36] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-07-28 05:46:36] INFO root fetch - processPackages [aliyun-python-sdk-oos]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-oos-1.5.8.tar.gz]
+[2023-07-28 05:46:36] INFO root fetch - processPackages [aliyun-python-sdk-oos]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-oos-1.5.9.tar.gz]
+[2023-07-28 05:46:36] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-oos]: success
+[2023-07-28 05:46:36] INFO root fetch - main [MainThread]: Store serial: [19071281]
