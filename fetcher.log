@@ -12383,3 +12383,74 @@
 [2023-07-28 06:18:04] INFO root fetch - processPackages [wpcsys]: Remove: archive file [/home/abi/fetcher/tmp/wpcsys-2.1.7.1.tar.gz]
 [2023-07-28 06:18:04] INFO root fetch - main [MainThread]: End processing [wpcsys]: success
 [2023-07-28 06:18:04] INFO root fetch - main [MainThread]: Store serial: [19071485]
+[2023-07-28 06:23:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19071485]
+[2023-07-28 06:23:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-28 06:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anyforce
+[2023-07-28 06:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: potnanny
+[2023-07-28 06:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mynacode
+[2023-07-28 06:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MeUtils
+[2023-07-28 06:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-openupgrade-scripts
+[2023-07-28 06:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-openupgrade-scripts
+[2023-07-28 06:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opendp
+[2023-07-28 06:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pystools
+[2023-07-28 06:23:13] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-28 06:23:13] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [16.0.1.0.3.9] Old Version: [16.0.1.0.3.7]
+[2023-07-28 06:23:13] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: New version: [14.0.1.0.2.dev99] Old Version: [14.0.1.0.2.dev95]
+[2023-07-28 06:23:13] INFO root fetch - processPackages [potnanny]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-28 06:23:13] INFO root fetch - processPackages [opendp]: New version: [0.8.0a20230727001] Old Version: [0.8.0a20230726001]
+[2023-07-28 06:23:13] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 06:23:13] INFO root fetch - processPackages [anyforce]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-28 06:23:13] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-28 06:23:13] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.7.15.3.6] Old Version: [2023.7.6.9.18.40]
+[2023-07-28 06:23:13] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/d3/f1/f6fef6b574bd57970579f257d2f3b2adf9f6b87b20d9dc2c11e18d2a4a47/pystools-0.0.8.tar.gz
+[2023-07-28 06:23:13] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/03/c2/0074fedd9218c4324bec9cdbb7bc5f7c2c839ea18d1079a715c0d495a660/MeUtils-2023.7.6.9.18.40.tar.gz
+[2023-07-28 06:23:13] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/d2/29/e2cb7ea93979e027e6d5309d7a314ee9e6d65f7021f477e355ae236a55c9/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl
+[2023-07-28 06:23:13] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/ec/50/ce82e83016d56e83f3ba41393c3470ef868ae1581c3f47640932504291c8/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl
+[2023-07-28 06:23:13] INFO root fetch - processPackages [potnanny]: Downloading https://files.pythonhosted.org/packages/af/a8/609796d181aee10575995d6455056faa1a7def988009c89b5847f990e8d4/potnanny-0.1.0.tar.gz
+[2023-07-28 06:23:13] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-28 06:23:13] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/75/22/a60c6e897bc29038e83b0aaba8bd40f9465d8ba0f62d101cda65ef7d9d3a/anyforce-0.8.2.tar.gz
+[2023-07-28 06:23:13] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/9b/5a/9f2cf38e22565c5aa2ecb7be3dbecb7a44f7d23efbd86fd532eacd613f62/pystools-0.0.9.tar.gz
+[2023-07-28 06:23:14] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-28 06:23:14] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230728/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-28 06:23:14] INFO root fetch - processPackages [opendp]: Downloading https://files.pythonhosted.org/packages/10/09/8a3a96feee63fed4b9cb20e2be2f0a7a5ca95ee143731a71eb02a87e5373/opendp-0.8.0a20230726001-py3-none-any.whl
+[2023-07-28 06:23:14] WARNING root fetch - processPackages [opendp]: Skipping package: exceeds size limit 29721948>=10485760
+[2023-07-28 06:23:14] INFO root fetch - main [MainThread]: End processing [opendp] error
+[2023-07-28 06:23:14] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-07-28 06:23:14] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230728/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 06:23:14] INFO root fetch - processPackages [potnanny]: Downloading https://files.pythonhosted.org/packages/b1/94/86f7d84463265d244806868304a4ca7d1747833014ffc194f605c2770e02/potnanny-0.1.1.tar.gz
+[2023-07-28 06:23:14] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/9b/ab/c662247bed8dd85fa8c1d2517b08f7688328858eb44bfe36bed0b0aed718/anyforce-0.9.0.tar.gz
+[2023-07-28 06:23:14] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/1e/99/2f228a790c6fc15f93482f3f0fa7bbad95d15d6e0aa883c7919fe4a66c95/MeUtils-2023.7.7.15.3.6.tar.gz
+[2023-07-28 06:23:14] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/17/81/574f2d588623a030241dff9b1e5a89ed58aca17a00ce25c81995ecf57f8c/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl
+[2023-07-28 06:23:14] INFO root fetch - processPackages [anyforce]: executing diffoscope
+[2023-07-28 06:23:14] INFO root fetch - processPackages [anyforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyforce-0.8.2.tar.gz tmp/anyforce-0.9.0.tar.gz --markdown 20230728/a/anyforce/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-28 06:23:14] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/d0/8c/a24d16c65bf9fe5ae4605a1657606542a2bb75c0ac9281be45aa9cb0464d/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl
+[2023-07-28 06:23:14] INFO root fetch - processPackages [potnanny]: executing diffoscope
+[2023-07-28 06:23:14] INFO root fetch - processPackages [potnanny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/potnanny-0.1.0.tar.gz tmp/potnanny-0.1.1.tar.gz --markdown 20230728/p/potnanny/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-28 06:23:14] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2023-07-28 06:23:14] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl.zip --markdown 20230728/o/odoo-addon-openupgrade-scripts/16.0.1.0.3.7-16.0.1.0.3.9/diff.md --exclude *.pyd
+[2023-07-28 06:23:14] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-28 06:23:14] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.6.9.18.40.tar.gz tmp/MeUtils-2023.7.7.15.3.6.tar.gz --markdown 20230728/M/MeUtils/2023.7.6.9.18.40-2023.7.7.15.3.6/diff.md --exclude *.pyd
+[2023-07-28 06:23:14] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-28 06:23:14] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-28 06:23:14] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-28 06:23:14] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: executing diffoscope
+[2023-07-28 06:23:14] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl.zip tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip --markdown 20230728/o/odoo14-addon-openupgrade-scripts/14.0.1.0.2.dev95-14.0.1.0.2.dev99/diff.md --exclude *.pyd
+[2023-07-28 06:23:15] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.8.tar.gz]
+[2023-07-28 06:23:15] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.9.tar.gz]
+[2023-07-28 06:23:15] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-07-28 06:23:15] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.8.2.tar.gz]
+[2023-07-28 06:23:15] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.9.0.tar.gz]
+[2023-07-28 06:23:15] INFO root fetch - main [MainThread]: End processing [anyforce]: success
+[2023-07-28 06:23:15] INFO root fetch - processPackages [potnanny]: Remove: archive file [/home/abi/fetcher/tmp/potnanny-0.1.0.tar.gz]
+[2023-07-28 06:23:15] INFO root fetch - processPackages [potnanny]: Remove: archive file [/home/abi/fetcher/tmp/potnanny-0.1.1.tar.gz]
+[2023-07-28 06:23:15] INFO root fetch - main [MainThread]: End processing [potnanny]: success
+[2023-07-28 06:23:17] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.7-py3-none-any.whl.zip]
+[2023-07-28 06:23:17] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.3.9-py3-none-any.whl.zip]
+[2023-07-28 06:23:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2023-07-28 06:23:18] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
+[2023-07-28 06:23:18] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.7.15.3.6.tar.gz]
+[2023-07-28 06:23:18] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-28 06:23:18] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl.zip]
+[2023-07-28 06:23:18] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip]
+[2023-07-28 06:23:18] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
+[2023-07-28 06:23:18] INFO root fetch - main [MainThread]: Store serial: [19071506]
