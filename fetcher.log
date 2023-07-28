@@ -11872,3 +11872,131 @@
 [2023-07-28 05:51:55] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.8.1.tar.gz]
 [2023-07-28 05:51:55] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
 [2023-07-28 05:51:55] INFO root fetch - main [MainThread]: Store serial: [19071299]
+[2023-07-28 05:57:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19071299]
+[2023-07-28 05:57:05] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-28 05:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eQTac
+[2023-07-28 05:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rclone-crypt
+[2023-07-28 05:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lb-telemetry
+[2023-07-28 05:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mcemtools
+[2023-07-28 05:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-dcdn20180115-py2
+[2023-07-28 05:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-cdn20180510-py2
+[2023-07-28 05:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-cdn20180510
+[2023-07-28 05:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: foursight-core
+[2023-07-28 05:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-l10n-ro-stock-account
+[2023-07-28 05:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: khoj-assistant
+[2023-07-28 05:57:05] INFO root fetch - processPackages [lb-telemetry]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-28 05:57:05] INFO root fetch - processPackages [eQTac]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-28 05:57:05] INFO root fetch - processPackages [mcemtools]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-28 05:57:05] WARNING root fetch - processPackages [rclone-crypt]: Skipping, unable to determine old version
+[2023-07-28 05:57:05] INFO root fetch - processPackages [rclone-crypt]: Start processing: alibabacloud-dcdn20180115
+[2023-07-28 05:57:05] INFO root fetch - main [MainThread]: End processing [rclone-crypt] error
+[2023-07-28 05:57:05] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.0.1]
+[2023-07-28 05:57:05] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-28 05:57:05] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-28 05:57:05] INFO root fetch - processPackages [alibabacloud-cdn20180510]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-28 05:57:05] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-28 05:57:05] INFO root fetch - processPackages [khoj-assistant]: New version: [0.9.1.dev8] Old Version: [0.9.1.dev7]
+[2023-07-28 05:57:05] INFO root fetch - processPackages [foursight-core]: New version: [4.4.0.1b2] Old Version: [4.4.0]
+[2023-07-28 05:57:05] INFO root fetch - processPackages [lb-telemetry]: Downloading https://files.pythonhosted.org/packages/8a/93/989589bfb10cadad98c16b82c20ba803fee098c52764de661b87fe41382c/lb-telemetry-0.4.0.tar.gz
+[2023-07-28 05:57:05] INFO root fetch - processPackages [mcemtools]: Downloading https://files.pythonhosted.org/packages/2a/c0/102ad6b983dddbff024875728356d41deedbada7fbe2f4397d1e0e233131/mcemtools-0.8.1.tar.gz
+[2023-07-28 05:57:06] INFO root fetch - processPackages [eQTac]: Downloading https://files.pythonhosted.org/packages/1a/19/33f949cba3acc0d76599dc9385a71fa693a0e4ddaf53647588face5fcf32/eQTac-1.0.8.tar.gz
+[2023-07-28 05:57:06] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/4c/78/a09ef295a4750d2883f2b42309d1a24d0453bd4c619466028d61cbb1b79c/odoo_addon_l10n_ro_stock_account-16.0.1.1.0.1-py3-none-any.whl
+[2023-07-28 05:57:06] INFO root fetch - processPackages [alibabacloud-cdn20180510]: Downloading https://files.pythonhosted.org/packages/e1/95/58156658c827b8a345a1bcff7bfab978eeb3e6157a1c0fa2a91995d775c6/alibabacloud_cdn20180510-1.2.8.tar.gz
+[2023-07-28 05:57:06] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Downloading https://files.pythonhosted.org/packages/eb/ef/06e095ffd858068c82d2589cae84966d4d2ac3e73812d62968e16dea80a1/alibabacloud_dcdn20180115_py2-1.1.8.tar.gz
+[2023-07-28 05:57:06] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: Downloading https://files.pythonhosted.org/packages/35/ef/434de7cfc6944271044d56580cb478a0d5ac2d1134625c5f619618723fc4/alibabacloud_cdn20180510_py2-1.2.8.tar.gz
+[2023-07-28 05:57:06] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/6e/f2/17889f984c44a52a668013fcc1609b53c60b73fadd5d644eb0279a12f3c0/foursight_core-4.4.0.tar.gz
+[2023-07-28 05:57:06] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Downloading https://files.pythonhosted.org/packages/2f/88/fe6cfb73e7d5c72f5860767276a2df606b63ca558583a27a818b60598985/alibabacloud_dcdn20180115-1.1.8.tar.gz
+[2023-07-28 05:57:06] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/80/c2/afc116f8f70318334052f67223fb93a5ce1d898f2d901991e87dad33b030/khoj_assistant-0.9.1.dev7.tar.gz
+[2023-07-28 05:57:06] INFO root fetch - processPackages [mcemtools]: Downloading https://files.pythonhosted.org/packages/94/4c/13ed13205e8d2cb1a62d344c137537273f344c41c37b47e1883112990ff0/mcemtools-0.8.2.tar.gz
+[2023-07-28 05:57:06] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/61/6b/f4e32bdd4f4fb3607fdb26d32bf8b73c6e67d09a29dba77e5eb4ebf07909/odoo_addon_l10n_ro_stock_account-16.0.1.2.0-py3-none-any.whl
+[2023-07-28 05:57:06] INFO root fetch - processPackages [lb-telemetry]: Downloading https://files.pythonhosted.org/packages/7a/1a/6871b914472b125e488b806a3d8913c4902a9828449813a097c89c00b137/lb-telemetry-0.5.0.tar.gz
+[2023-07-28 05:57:06] INFO root fetch - processPackages [eQTac]: Downloading https://files.pythonhosted.org/packages/7e/91/29fe48a86ad8d0ca82395c7228f4c792c5d21751854626c941e26f2d11a7/eQTac-1.0.9.tar.gz
+[2023-07-28 05:57:06] INFO root fetch - processPackages [alibabacloud-cdn20180510]: Downloading https://files.pythonhosted.org/packages/27/ed/4efd8c76dab91dff011f164093a515b4c95ad1b26a477f6ad015a3a19599/alibabacloud_cdn20180510-1.2.9.tar.gz
+[2023-07-28 05:57:06] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: executing diffoscope
+[2023-07-28 05:57:06] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_account-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_account-16.0.1.2.0-py3-none-any.whl.zip --markdown 20230728/o/odoo-addon-l10n-ro-stock-account/16.0.1.1.0.1-16.0.1.2.0/diff.md --exclude *.pyd
+[2023-07-28 05:57:06] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: Downloading https://files.pythonhosted.org/packages/c0/ab/4534fca9a4233612688ff128425b4cb3ed491595e204a4732512452a2096/alibabacloud_cdn20180510_py2-1.2.9.tar.gz
+[2023-07-28 05:57:06] INFO root fetch - processPackages [eQTac]: executing diffoscope
+[2023-07-28 05:57:06] INFO root fetch - processPackages [eQTac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eQTac-1.0.8.tar.gz tmp/eQTac-1.0.9.tar.gz --markdown 20230728/e/eQTac/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-28 05:57:06] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/42/dd/9b0fae6fb0e041be5a8d753e65c7572a20ed6dcc6b392dc5444d73f40ac7/foursight_core-4.4.0.1b2.tar.gz
+[2023-07-28 05:57:06] INFO root fetch - processPackages [mcemtools]: executing diffoscope
+[2023-07-28 05:57:06] INFO root fetch - processPackages [mcemtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcemtools-0.8.1.tar.gz tmp/mcemtools-0.8.2.tar.gz --markdown 20230728/m/mcemtools/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-28 05:57:06] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Downloading https://files.pythonhosted.org/packages/25/a0/92e29300ed677fe50a0f0ce94c85630438f1d94f4fd30b950a9a0b4c2777/alibabacloud_dcdn20180115-1.1.9.tar.gz
+[2023-07-28 05:57:06] INFO root fetch - processPackages [lb-telemetry]: executing diffoscope
+[2023-07-28 05:57:06] INFO root fetch - processPackages [lb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lb-telemetry-0.4.0.tar.gz tmp/lb-telemetry-0.5.0.tar.gz --markdown 20230728/l/lb-telemetry/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-28 05:57:06] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Downloading https://files.pythonhosted.org/packages/7b/3b/d2e5e5872bff482675c6c8fb178b95174b8780c80e367084d17a3bc9ccb1/alibabacloud_dcdn20180115_py2-1.1.9.tar.gz
+[2023-07-28 05:57:06] INFO root fetch - processPackages [alibabacloud-cdn20180510]: executing diffoscope
+[2023-07-28 05:57:06] INFO root fetch - processPackages [alibabacloud-cdn20180510]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cdn20180510-1.2.8.tar.gz tmp/alibabacloud_cdn20180510-1.2.9.tar.gz --markdown 20230728/a/alibabacloud-cdn20180510/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-28 05:57:06] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: executing diffoscope
+[2023-07-28 05:57:06] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cdn20180510_py2-1.2.8.tar.gz tmp/alibabacloud_cdn20180510_py2-1.2.9.tar.gz --markdown 20230728/a/alibabacloud-cdn20180510-py2/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-28 05:57:06] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-07-28 05:57:06] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.4.0.tar.gz tmp/foursight_core-4.4.0.1b2.tar.gz --markdown 20230728/f/foursight-core/4.4.0-4.4.0.1b2/diff.md --exclude *.pyd
+[2023-07-28 05:57:06] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: executing diffoscope
+[2023-07-28 05:57:06] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dcdn20180115-1.1.8.tar.gz tmp/alibabacloud_dcdn20180115-1.1.9.tar.gz --markdown 20230728/a/alibabacloud-dcdn20180115/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-28 05:57:06] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/87/c3/a6da041c3dee772521fabc9586096b6809ee0e9289735b249898c5a282a2/khoj_assistant-0.9.1.dev8.tar.gz
+[2023-07-28 05:57:06] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: executing diffoscope
+[2023-07-28 05:57:06] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dcdn20180115_py2-1.1.8.tar.gz tmp/alibabacloud_dcdn20180115_py2-1.1.9.tar.gz --markdown 20230728/a/alibabacloud-dcdn20180115-py2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-28 05:57:07] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-28 05:57:07] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.9.1.dev7.tar.gz tmp/khoj_assistant-0.9.1.dev8.tar.gz --markdown 20230728/k/khoj-assistant/0.9.1.dev7-0.9.1.dev8/diff.md --exclude *.pyd
+[2023-07-28 05:57:08] INFO root fetch - processPackages [eQTac]: Remove: archive file [/home/abi/fetcher/tmp/eQTac-1.0.8.tar.gz]
+[2023-07-28 05:57:08] INFO root fetch - processPackages [eQTac]: Remove: archive file [/home/abi/fetcher/tmp/eQTac-1.0.9.tar.gz]
+[2023-07-28 05:57:08] INFO root fetch - processPackages [eQTac]: Start processing: structio
+[2023-07-28 05:57:08] INFO root fetch - main [MainThread]: End processing [eQTac]: success
+[2023-07-28 05:57:08] INFO root fetch - processPackages [structio]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-07-28 05:57:08] INFO root fetch - processPackages [lb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/lb-telemetry-0.4.0.tar.gz]
+[2023-07-28 05:57:08] INFO root fetch - processPackages [lb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/lb-telemetry-0.5.0.tar.gz]
+[2023-07-28 05:57:08] INFO root fetch - processPackages [lb-telemetry]: Start processing: mynacode
+[2023-07-28 05:57:08] INFO root fetch - main [MainThread]: End processing [lb-telemetry]: success
+[2023-07-28 05:57:08] INFO root fetch - processPackages [structio]: Downloading https://files.pythonhosted.org/packages/f6/68/2148ecc490708d3884089b828de4fed577b2a6a15ecda811e0fd4daeb16d/structio-1.3.5.tar.gz
+[2023-07-28 05:57:08] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-07-28 05:57:08] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-28 05:57:08] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Start processing: alibabacloud-aiccs20230516-py2
+[2023-07-28 05:57:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account]: success
+[2023-07-28 05:57:08] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-28 05:57:08] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115_py2-1.1.8.tar.gz]
+[2023-07-28 05:57:08] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115_py2-1.1.9.tar.gz]
+[2023-07-28 05:57:08] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Start processing: cdktf-cdktf-provider-google-beta
+[2023-07-28 05:57:08] INFO root fetch - main [MainThread]: End processing [alibabacloud-dcdn20180115-py2]: success
+[2023-07-28 05:57:08] INFO root fetch - processPackages [mcemtools]: Remove: archive file [/home/abi/fetcher/tmp/mcemtools-0.8.1.tar.gz]
+[2023-07-28 05:57:08] INFO root fetch - processPackages [mcemtools]: Remove: archive file [/home/abi/fetcher/tmp/mcemtools-0.8.2.tar.gz]
+[2023-07-28 05:57:08] INFO root fetch - main [MainThread]: End processing [mcemtools]: success
+[2023-07-28 05:57:08] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115-1.1.8.tar.gz]
+[2023-07-28 05:57:08] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115-1.1.9.tar.gz]
+[2023-07-28 05:57:08] INFO root fetch - main [MainThread]: End processing [alibabacloud-dcdn20180115]: success
+[2023-07-28 05:57:08] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: New version: [8.0.6] Old Version: [8.0.5]
+[2023-07-28 05:57:08] INFO root fetch - processPackages [alibabacloud-aiccs20230516-py2]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-28 05:57:08] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-28 05:57:08] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.4.0.tar.gz]
+[2023-07-28 05:57:08] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.4.0.1b2.tar.gz]
+[2023-07-28 05:57:08] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-07-28 05:57:08] INFO root fetch - processPackages [structio]: Downloading https://files.pythonhosted.org/packages/9a/6c/5c5bd48a1cfb21d2271099a9c59bf03525d21561f4fe7b2f0e89d86d952d/structio-1.3.6.tar.gz
+[2023-07-28 05:57:08] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Downloading https://files.pythonhosted.org/packages/7a/81/953cc4785705a06c398ee43e967d02c05d3aaaf09bd263f8f420304368a0/cdktf-cdktf-provider-google_beta-8.0.5.tar.gz
+[2023-07-28 05:57:08] INFO root fetch - processPackages [alibabacloud-aiccs20230516-py2]: Downloading https://files.pythonhosted.org/packages/0e/a7/a0281ee606e275b7ed5da85d12b11212706b96ec38e0937ed9e560198e2d/alibabacloud_aiccs20230516_py2-1.0.1.tar.gz
+[2023-07-28 05:57:09] INFO root fetch - processPackages [structio]: executing diffoscope
+[2023-07-28 05:57:09] INFO root fetch - processPackages [structio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structio-1.3.5.tar.gz tmp/structio-1.3.6.tar.gz --markdown 20230728/s/structio/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-07-28 05:57:09] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev7.tar.gz]
+[2023-07-28 05:57:09] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev8.tar.gz]
+[2023-07-28 05:57:09] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-28 05:57:09] WARNING root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Skipping package: exceeds size limit 23345209>=10485760
+[2023-07-28 05:57:09] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google-beta] error
+[2023-07-28 05:57:09] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-28 05:57:09] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cdn20180510_py2-1.2.8.tar.gz]
+[2023-07-28 05:57:09] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cdn20180510_py2-1.2.9.tar.gz]
+[2023-07-28 05:57:09] INFO root fetch - main [MainThread]: End processing [alibabacloud-cdn20180510-py2]: success
+[2023-07-28 05:57:09] INFO root fetch - processPackages [alibabacloud-aiccs20230516-py2]: Downloading https://files.pythonhosted.org/packages/7a/ac/38860887743e1b8e38ffdbb05125eada2c71bd77ff5de9b2314bbb13bc9c/alibabacloud_aiccs20230516_py2-1.0.2.tar.gz
+[2023-07-28 05:57:09] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-28 05:57:09] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230728/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-28 05:57:09] INFO root fetch - processPackages [alibabacloud-cdn20180510]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cdn20180510-1.2.8.tar.gz]
+[2023-07-28 05:57:09] INFO root fetch - processPackages [alibabacloud-cdn20180510]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cdn20180510-1.2.9.tar.gz]
+[2023-07-28 05:57:09] INFO root fetch - main [MainThread]: End processing [alibabacloud-cdn20180510]: success
+[2023-07-28 05:57:09] INFO root fetch - processPackages [alibabacloud-aiccs20230516-py2]: executing diffoscope
+[2023-07-28 05:57:09] INFO root fetch - processPackages [alibabacloud-aiccs20230516-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aiccs20230516_py2-1.0.1.tar.gz tmp/alibabacloud_aiccs20230516_py2-1.0.2.tar.gz --markdown 20230728/a/alibabacloud-aiccs20230516-py2/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-28 05:57:09] INFO root fetch - processPackages [structio]: Remove: archive file [/home/abi/fetcher/tmp/structio-1.3.5.tar.gz]
+[2023-07-28 05:57:09] INFO root fetch - processPackages [structio]: Remove: archive file [/home/abi/fetcher/tmp/structio-1.3.6.tar.gz]
+[2023-07-28 05:57:09] INFO root fetch - main [MainThread]: End processing [structio]: success
+[2023-07-28 05:57:10] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-28 05:57:10] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-28 05:57:10] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-28 05:57:10] INFO root fetch - processPackages [alibabacloud-aiccs20230516-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aiccs20230516_py2-1.0.1.tar.gz]
+[2023-07-28 05:57:10] INFO root fetch - processPackages [alibabacloud-aiccs20230516-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aiccs20230516_py2-1.0.2.tar.gz]
+[2023-07-28 05:57:10] INFO root fetch - main [MainThread]: End processing [alibabacloud-aiccs20230516-py2]: success
+[2023-07-28 05:57:10] INFO root fetch - main [MainThread]: Store serial: [19071349]
