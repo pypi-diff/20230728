@@ -11065,3 +11065,49 @@
 [2023-07-28 05:25:36] INFO root fetch - processPackages [quil]: Remove: archive file [/home/abi/fetcher/tmp/quil-0.4.0rc2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-28 05:25:36] INFO root fetch - main [MainThread]: End processing [quil]: success
 [2023-07-28 05:25:36] INFO root fetch - main [MainThread]: Store serial: [19070986]
+[2023-07-28 05:30:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19070986]
+[2023-07-28 05:30:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-28 05:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bcmd
+[2023-07-28 05:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-helpdesk-mgmt
+[2023-07-28 05:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TheSilent
+[2023-07-28 05:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BraAndKet
+[2023-07-28 05:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: transnormerllm
+[2023-07-28 05:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tccli-intl-en
+[2023-07-28 05:30:47] WARNING root fetch - processPackages [transnormerllm]: Skipping, unable to determine old version
+[2023-07-28 05:30:47] INFO root fetch - main [MainThread]: End processing [transnormerllm] error
+[2023-07-28 05:30:47] INFO root fetch - processPackages [bcmd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 05:30:47] INFO root fetch - processPackages [BraAndKet]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-28 05:30:47] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: New version: [16.0.1.2.0.1] Old Version: [16.0.1.2.0]
+[2023-07-28 05:30:47] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-28 05:30:47] INFO root fetch - processPackages [tccli-intl-en]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-07-28 05:30:47] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/75/fb/28636f65423eaa2d239f42b12cc798c4381ea686c43cb8bff16f31b79d34/odoo_addon_helpdesk_mgmt-16.0.1.2.0-py3-none-any.whl
+[2023-07-28 05:30:47] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-28 05:30:47] ERROR root fetch - processPackages [bcmd]: Unable to fetch info: No such project/version 'bcmd' 0.0.8
+[2023-07-28 05:30:47] INFO root fetch - main [MainThread]: End processing [bcmd] error
+[2023-07-28 05:30:47] INFO root fetch - processPackages [BraAndKet]: Downloading https://files.pythonhosted.org/packages/27/d9/647a8470a4908877f803ed436994df8baf94ba9dd127265143448348e808/BraAndKet-0.8.2.tar.gz
+[2023-07-28 05:30:47] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/f1/30/41af4d3a9dae71d94a6518cc57186cc8cf5a5b38d29a6a50861712b42078/tccli-intl-en-3.0.98.1.tar.gz
+[2023-07-28 05:30:47] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-28 05:30:47] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-28 05:30:47] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230728/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-28 05:30:47] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/40/9d/53db43d518931313a28251f5fc813ba9a76f13a143189445a84c1022bd6c/odoo_addon_helpdesk_mgmt-16.0.1.2.0.1-py3-none-any.whl
+[2023-07-28 05:30:47] INFO root fetch - processPackages [BraAndKet]: Downloading https://files.pythonhosted.org/packages/a2/70/e16b1dff24a70e784ceb96a9036d596a5ff73476b10932d5c77825542635/BraAndKet-0.8.3.tar.gz
+[2023-07-28 05:30:47] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: executing diffoscope
+[2023-07-28 05:30:47] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt-16.0.1.2.0.1-py3-none-any.whl.zip --markdown 20230728/o/odoo-addon-helpdesk-mgmt/16.0.1.2.0-16.0.1.2.0.1/diff.md --exclude *.pyd
+[2023-07-28 05:30:47] INFO root fetch - processPackages [BraAndKet]: executing diffoscope
+[2023-07-28 05:30:47] INFO root fetch - processPackages [BraAndKet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BraAndKet-0.8.2.tar.gz tmp/BraAndKet-0.8.3.tar.gz --markdown 20230728/B/BraAndKet/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-07-28 05:30:48] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/08/e0/99b129dd2c25cb88719c0b1692fbc03b299057b179a6c33831623b44d96b/tccli-intl-en-3.0.99.1.tar.gz
+[2023-07-28 05:30:48] INFO root fetch - processPackages [tccli-intl-en]: executing diffoscope
+[2023-07-28 05:30:48] INFO root fetch - processPackages [tccli-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-intl-en-3.0.98.1.tar.gz tmp/tccli-intl-en-3.0.99.1.tar.gz --markdown 20230728/t/tccli-intl-en/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-07-28 05:30:48] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-28 05:30:48] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-28 05:30:48] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-28 05:30:48] INFO root fetch - processPackages [BraAndKet]: Remove: archive file [/home/abi/fetcher/tmp/BraAndKet-0.8.2.tar.gz]
+[2023-07-28 05:30:48] INFO root fetch - processPackages [BraAndKet]: Remove: archive file [/home/abi/fetcher/tmp/BraAndKet-0.8.3.tar.gz]
+[2023-07-28 05:30:48] INFO root fetch - main [MainThread]: End processing [BraAndKet]: success
+[2023-07-28 05:30:49] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-28 05:30:49] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2023-07-28 05:30:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
+[2023-07-28 05:30:51] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.98.1.tar.gz]
+[2023-07-28 05:30:51] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
+[2023-07-28 05:30:51] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
+[2023-07-28 05:30:51] INFO root fetch - main [MainThread]: Store serial: [19071025]
