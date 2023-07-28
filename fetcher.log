@@ -12257,3 +12257,45 @@
 [2023-07-28 06:07:38] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev9.tar.gz]
 [2023-07-28 06:07:38] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
 [2023-07-28 06:07:38] INFO root fetch - main [MainThread]: Store serial: [19071433]
+[2023-07-28 06:12:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19071433]
+[2023-07-28 06:12:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-28 06:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mcemtools
+[2023-07-28 06:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MeUtils
+[2023-07-28 06:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiearth-openapi
+[2023-07-28 06:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiearth-data
+[2023-07-28 06:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: efpy
+[2023-07-28 06:12:48] WARNING root fetch - processPackages [aiearth-data]: Skipping, unable to determine old version
+[2023-07-28 06:12:48] INFO root fetch - main [MainThread]: End processing [aiearth-data] error
+[2023-07-28 06:12:48] INFO root fetch - processPackages [mcemtools]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-28 06:12:48] INFO root fetch - processPackages [aiearth-openapi]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-28 06:12:48] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.7.15.3.6] Old Version: [2023.7.6.9.18.40]
+[2023-07-28 06:12:48] INFO root fetch - processPackages [efpy]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-28 06:12:48] INFO root fetch - processPackages [mcemtools]: Downloading https://files.pythonhosted.org/packages/94/4c/13ed13205e8d2cb1a62d344c137537273f344c41c37b47e1883112990ff0/mcemtools-0.8.2.tar.gz
+[2023-07-28 06:12:48] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/03/c2/0074fedd9218c4324bec9cdbb7bc5f7c2c839ea18d1079a715c0d495a660/MeUtils-2023.7.6.9.18.40.tar.gz
+[2023-07-28 06:12:48] INFO root fetch - processPackages [aiearth-openapi]: Downloading https://files.pythonhosted.org/packages/bd/61/569b5df4016eebc52c0e6521b54e63dbce11d22550a46a7e3d31d7219497/aiearth-openapi-1.0.0.tar.gz
+[2023-07-28 06:12:48] INFO root fetch - processPackages [efpy]: Downloading https://files.pythonhosted.org/packages/a9/54/ee3539251f5c29c54ffcbccaaf7d556a607fa206e425a2b46e627cb6f054/efpy-0.1.4.tar.gz
+[2023-07-28 06:12:48] INFO root fetch - processPackages [mcemtools]: Downloading https://files.pythonhosted.org/packages/46/7b/07ab8eb7f105a1ea100fd6b0463a2901bdade7bbd9612d613307e745272d/mcemtools-0.8.3.tar.gz
+[2023-07-28 06:12:48] INFO root fetch - processPackages [aiearth-openapi]: Downloading https://files.pythonhosted.org/packages/f9/af/2575f4abc5b11942d6b9b771b56ee903b263a1b4341a0aaf716a6e5c1411/aiearth-openapi-1.1.0.tar.gz
+[2023-07-28 06:12:48] INFO root fetch - processPackages [mcemtools]: executing diffoscope
+[2023-07-28 06:12:48] INFO root fetch - processPackages [mcemtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcemtools-0.8.2.tar.gz tmp/mcemtools-0.8.3.tar.gz --markdown 20230728/m/mcemtools/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-07-28 06:12:48] INFO root fetch - processPackages [efpy]: Downloading https://files.pythonhosted.org/packages/16/03/45c5ce99b832935ee52ab732b995aa08a6ef9fa7854aa74deb6ee1646d27/efpy-0.1.5.tar.gz
+[2023-07-28 06:12:48] INFO root fetch - processPackages [aiearth-openapi]: executing diffoscope
+[2023-07-28 06:12:48] INFO root fetch - processPackages [aiearth-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiearth-openapi-1.0.0.tar.gz tmp/aiearth-openapi-1.1.0.tar.gz --markdown 20230728/a/aiearth-openapi/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-28 06:12:48] INFO root fetch - processPackages [efpy]: executing diffoscope
+[2023-07-28 06:12:48] INFO root fetch - processPackages [efpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efpy-0.1.4.tar.gz tmp/efpy-0.1.5.tar.gz --markdown 20230728/e/efpy/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-28 06:12:49] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/1e/99/2f228a790c6fc15f93482f3f0fa7bbad95d15d6e0aa883c7919fe4a66c95/MeUtils-2023.7.7.15.3.6.tar.gz
+[2023-07-28 06:12:49] INFO root fetch - processPackages [aiearth-openapi]: Remove: archive file [/home/abi/fetcher/tmp/aiearth-openapi-1.0.0.tar.gz]
+[2023-07-28 06:12:49] INFO root fetch - processPackages [aiearth-openapi]: Remove: archive file [/home/abi/fetcher/tmp/aiearth-openapi-1.1.0.tar.gz]
+[2023-07-28 06:12:49] INFO root fetch - main [MainThread]: End processing [aiearth-openapi]: success
+[2023-07-28 06:12:49] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-28 06:12:49] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.6.9.18.40.tar.gz tmp/MeUtils-2023.7.7.15.3.6.tar.gz --markdown 20230728/M/MeUtils/2023.7.6.9.18.40-2023.7.7.15.3.6/diff.md --exclude *.pyd
+[2023-07-28 06:12:49] INFO root fetch - processPackages [mcemtools]: Remove: archive file [/home/abi/fetcher/tmp/mcemtools-0.8.2.tar.gz]
+[2023-07-28 06:12:49] INFO root fetch - processPackages [mcemtools]: Remove: archive file [/home/abi/fetcher/tmp/mcemtools-0.8.3.tar.gz]
+[2023-07-28 06:12:49] INFO root fetch - main [MainThread]: End processing [mcemtools]: success
+[2023-07-28 06:12:49] INFO root fetch - processPackages [efpy]: Remove: archive file [/home/abi/fetcher/tmp/efpy-0.1.4.tar.gz]
+[2023-07-28 06:12:49] INFO root fetch - processPackages [efpy]: Remove: archive file [/home/abi/fetcher/tmp/efpy-0.1.5.tar.gz]
+[2023-07-28 06:12:49] INFO root fetch - main [MainThread]: End processing [efpy]: success
+[2023-07-28 06:12:52] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
+[2023-07-28 06:12:52] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.7.15.3.6.tar.gz]
+[2023-07-28 06:12:52] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-28 06:12:52] INFO root fetch - main [MainThread]: Store serial: [19071458]
