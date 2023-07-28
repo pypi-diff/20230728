@@ -15032,3 +15032,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 08:58:55] INFO root fetch - processPackages [qibo]: Remove: archive file [/home/abi/fetcher/tmp/qibo-0.1.9.tar.gz]
 [2023-07-28 08:58:55] INFO root fetch - main [MainThread]: End processing [qibo]: success
 [2023-07-28 08:58:55] INFO root fetch - main [MainThread]: Store serial: [19072626]
+[2023-07-28 09:03:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19072626]
+[2023-07-28 09:04:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-28 09:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: irsdev-pycolor
+[2023-07-28 09:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-randomprime
+[2023-07-28 09:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-07-28 09:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-repair-type
+[2023-07-28 09:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seqio-nightly
+[2023-07-28 09:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vsure
+[2023-07-28 09:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stdflow
+[2023-07-28 09:04:03] INFO root fetch - processPackages [irsdev-pycolor]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-28 09:04:04] INFO root fetch - processPackages [odoo-addon-repair-type]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.3]
+[2023-07-28 09:04:04] INFO root fetch - processPackages [stdflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 09:04:04] INFO root fetch - processPackages [vsure]: New version: [2.6.3] Old Version: [2.6.2]
+[2023-07-28 09:04:04] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-28 09:04:04] INFO root fetch - processPackages [py-randomprime]: New version: [16.3] Old Version: [1.9.6]
+[2023-07-28 09:04:04] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-07-28 09:04:04] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/37/2b/dc718c9a789aae941c5744468c42fa99c1ca83c6fc824add3debc6df543d/stdflow-0.0.8.tar.gz
+[2023-07-28 09:04:04] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-07-28 09:04:04] INFO root fetch - processPackages [irsdev-pycolor]: Downloading https://files.pythonhosted.org/packages/a8/a6/1676d394b1ba2d436e047486185b6accad22e7df91c4369c31dcb48be91e/irsdev_pycolor-1.0.2.tar.gz
+[2023-07-28 09:04:04] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-07-28 09:04:04] INFO root fetch - processPackages [py-randomprime]: Downloading https://files.pythonhosted.org/packages/c5/cb/9cc1448eb361b462e124fc84bb2c65b7f7564775472990df44de475a065c/py-randomprime-16.3.tar.gz
+[2023-07-28 09:04:04] INFO root fetch - processPackages [vsure]: Downloading https://files.pythonhosted.org/packages/7e/73/9f469845882587b6de9ff28445342393334297421cc681f56e20dfdb8ce5/vsure-2.6.2.tar.gz
+[2023-07-28 09:04:04] INFO root fetch - processPackages [odoo-addon-repair-type]: Downloading https://files.pythonhosted.org/packages/68/14/0786203c3ec0eeb6f1321c932135ebd52a5935c7a4fbb6b086f243e8fe83/odoo_addon_repair_type-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-28 09:04:04] WARNING root fetch - processPackages [py-randomprime]: Skipping package: exceeds size limit 32716661>=10485760
+[2023-07-28 09:04:04] INFO root fetch - main [MainThread]: End processing [py-randomprime] error
+[2023-07-28 09:04:04] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/93/a7/7a92845fb1a7092159c2fbc2b23c0b733e7c93e5cd012f6538ca900ea3b6/stdflow-0.0.9-py3-none-any.whl
+[2023-07-28 09:04:04] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-07-28 09:04:04] INFO root fetch - processPackages [stdflow]: executing diffoscope
+[2023-07-28 09:04:04] INFO root fetch - processPackages [stdflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdflow-0.0.8.tar.gz tmp/stdflow-0.0.9-py3-none-any.whl.zip --markdown 20230728/s/stdflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 09:04:04] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-07-28 09:04:04] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-07-28 09:04:04] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230728/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-28 09:04:04] INFO root fetch - processPackages [odoo-addon-repair-type]: Downloading https://files.pythonhosted.org/packages/68/c8/ec5d8393f3387de62354d0d2afdd184a7b1aea331b16d9c23c3886e60e52/odoo_addon_repair_type-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-28 09:04:04] INFO root fetch - processPackages [vsure]: Downloading https://files.pythonhosted.org/packages/90/42/a020fdcfc45f47f42b752567be362a4df7d17236edef9b4a9d174501b839/vsure-2.6.3.tar.gz
+[2023-07-28 09:04:04] INFO root fetch - processPackages [irsdev-pycolor]: Downloading https://files.pythonhosted.org/packages/09/e6/be14b4fd3738ae3158052bce4d305518b261a81d83c4d78cb5fbb5140f6a/irsdev_pycolor-1.0.3.tar.gz
+[2023-07-28 09:04:04] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-07-28 09:04:04] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230728/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-07-28 09:04:04] INFO root fetch - processPackages [vsure]: executing diffoscope
+[2023-07-28 09:04:04] INFO root fetch - processPackages [vsure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsure-2.6.2.tar.gz tmp/vsure-2.6.3.tar.gz --markdown 20230728/v/vsure/2.6.2-2.6.3/diff.md --exclude *.pyd
+[2023-07-28 09:04:04] INFO root fetch - processPackages [odoo-addon-repair-type]: executing diffoscope
+[2023-07-28 09:04:04] INFO root fetch - processPackages [odoo-addon-repair-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_repair_type-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_repair_type-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230728/o/odoo-addon-repair-type/15.0.1.0.0.3-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-28 09:04:04] INFO root fetch - processPackages [irsdev-pycolor]: executing diffoscope
+[2023-07-28 09:04:04] INFO root fetch - processPackages [irsdev-pycolor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irsdev_pycolor-1.0.2.tar.gz tmp/irsdev_pycolor-1.0.3.tar.gz --markdown 20230728/i/irsdev-pycolor/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-28 09:04:05] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.8.tar.gz]
+[2023-07-28 09:04:05] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.9-py3-none-any.whl.zip]
+[2023-07-28 09:04:05] INFO root fetch - main [MainThread]: End processing [stdflow]: success
+[2023-07-28 09:04:05] INFO root fetch - processPackages [vsure]: Remove: archive file [/home/abi/fetcher/tmp/vsure-2.6.2.tar.gz]
+[2023-07-28 09:04:05] INFO root fetch - processPackages [vsure]: Remove: archive file [/home/abi/fetcher/tmp/vsure-2.6.3.tar.gz]
+[2023-07-28 09:04:05] INFO root fetch - main [MainThread]: End processing [vsure]: success
+[2023-07-28 09:04:05] INFO root fetch - processPackages [odoo-addon-repair-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_type-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-28 09:04:05] INFO root fetch - processPackages [odoo-addon-repair-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_type-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-28 09:04:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-repair-type]: success
+[2023-07-28 09:04:06] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-07-28 09:04:06] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-07-28 09:04:06] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-07-28 09:04:06] INFO root fetch - processPackages [irsdev-pycolor]: Remove: archive file [/home/abi/fetcher/tmp/irsdev_pycolor-1.0.2.tar.gz]
+[2023-07-28 09:04:06] INFO root fetch - processPackages [irsdev-pycolor]: Remove: archive file [/home/abi/fetcher/tmp/irsdev_pycolor-1.0.3.tar.gz]
+[2023-07-28 09:04:06] INFO root fetch - main [MainThread]: End processing [irsdev-pycolor]: success
+[2023-07-28 09:04:06] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-07-28 09:04:06] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-07-28 09:04:06] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-07-28 09:04:06] INFO root fetch - main [MainThread]: Store serial: [19072649]
