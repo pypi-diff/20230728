@@ -13561,3 +13561,153 @@
 [2023-07-28 07:46:50] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.7.7.tar.gz]
 [2023-07-28 07:46:50] INFO root fetch - main [MainThread]: End processing [pami]: success
 [2023-07-28 07:46:50] INFO root fetch - main [MainThread]: Store serial: [19072064]
+[2023-07-28 07:51:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19072064]
+[2023-07-28 07:51:58] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-28 07:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zzq-strings-sum
+[2023-07-28 07:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python3-commons
+[2023-07-28 07:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: runtime-keypath
+[2023-07-28 07:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: awyes
+[2023-07-28 07:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fsrs
+[2023-07-28 07:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: usepy-plugin-logger
+[2023-07-28 07:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agoraiot
+[2023-07-28 07:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agora-busclient
+[2023-07-28 07:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agora-config
+[2023-07-28 07:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: agora-logging
+[2023-07-28 07:51:58] INFO root fetch - processPackages [awyes]: New version: [10.0.7] Old Version: [10.0.6]
+[2023-07-28 07:51:58] INFO root fetch - processPackages [fsrs]: New version: [1.0.0] Old Version: [0.2.2]
+[2023-07-28 07:51:58] INFO root fetch - processPackages [agoraiot]: New version: [1.1.30] Old Version: [1.0.9]
+[2023-07-28 07:51:58] INFO root fetch - processPackages [python3-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 07:51:58] WARNING root fetch - processPackages [runtime-keypath]: Skipping, unable to determine old version
+[2023-07-28 07:51:58] INFO root fetch - processPackages [runtime-keypath]: Start processing: agora-redis-client
+[2023-07-28 07:51:58] INFO root fetch - main [MainThread]: End processing [runtime-keypath] error
+[2023-07-28 07:51:58] INFO root fetch - processPackages [zzq-strings-sum]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-28 07:51:58] INFO root fetch - processPackages [agora-logging]: New version: [1.1.30] Old Version: [1.0.9]
+[2023-07-28 07:51:58] INFO root fetch - processPackages [agora-busclient]: New version: [1.1.30] Old Version: [1.0.9]
+[2023-07-28 07:51:58] INFO root fetch - processPackages [agora-config]: New version: [1.1.30] Old Version: [1.0.9]
+[2023-07-28 07:51:59] INFO root fetch - processPackages [usepy-plugin-logger]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-07-28 07:51:59] INFO root fetch - processPackages [agora-redis-client]: New version: [1.1.30] Old Version: [1.0.30]
+[2023-07-28 07:51:59] INFO root fetch - processPackages [agoraiot]: Downloading https://files.pythonhosted.org/packages/b4/0a/176dd13f5a497634b32c7d6ea11b16c2a383d3c61275449702720b00392e/agoraiot-1.0.9-py2.py3-none-any.whl
+[2023-07-28 07:51:59] INFO root fetch - processPackages [zzq-strings-sum]: Downloading https://files.pythonhosted.org/packages/71/77/0c4146f6fa56187347881e216ef40532aaff966373499cb79559cc252c94/zzq-strings-sum-0.5.3.tar.gz
+[2023-07-28 07:51:59] INFO root fetch - processPackages [agora-busclient]: Downloading https://files.pythonhosted.org/packages/84/91/fdce585fbc9fe0ed208907c48c2e24f9812b7e2a159f422fed99764e7ab3/agora_busclient-1.0.9-py2.py3-none-any.whl
+[2023-07-28 07:51:59] INFO root fetch - processPackages [agora-logging]: Downloading https://files.pythonhosted.org/packages/4b/46/8e527f1076a1d8603244285bf7f9c4921df1a7ed7a6bb6e938f13bb72bf4/agora_logging-1.0.9-py2.py3-none-any.whl
+[2023-07-28 07:51:59] INFO root fetch - processPackages [awyes]: Downloading https://files.pythonhosted.org/packages/5b/7d/5c9be298bed6dfde84003f6b258f00af7b5adfd1e22ee072d62848b0b54f/awyes-10.0.6.tar.gz
+[2023-07-28 07:51:59] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/3d/47/77e98aabfd51b3e6f8909fb7a515d7978843cd537ee465aaa998ff7ef8ae/python3-commons-0.0.8.tar.gz
+[2023-07-28 07:51:59] INFO root fetch - processPackages [usepy-plugin-logger]: Downloading https://files.pythonhosted.org/packages/4d/db/392c0eae98bf364947bb84c2c8de29aa5520aadc72d3f9cca611b24b87eb/usepy_plugin_logger-0.1.4.tar.gz
+[2023-07-28 07:51:59] INFO root fetch - processPackages [agora-redis-client]: Downloading https://files.pythonhosted.org/packages/64/bf/ce8fc5a2f78eafd34bdb0f2359711b585bab4b3bf1fc589b0150115a93d1/agora_redis_client-1.0.30-py2.py3-none-any.whl
+[2023-07-28 07:51:59] INFO root fetch - processPackages [fsrs]: Downloading https://files.pythonhosted.org/packages/11/52/fedf33921fcf2d3c3abc8f86b1a1ed237fdf2d10c4583cfe7d745cba4599/fsrs-0.2.2.tar.gz
+[2023-07-28 07:51:59] INFO root fetch - processPackages [agora-config]: Downloading https://files.pythonhosted.org/packages/b4/be/4986503ea9eb1ff31ad854650d7bed4e8a12ddf712460e60480c0ee44114/agora_config-1.0.9-py2.py3-none-any.whl
+[2023-07-28 07:51:59] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/5f/f3/d875107dc7e55fe5a35509025413eff64f7d978dbceb19982e18ba1a5ca3/python3-commons-0.0.9.tar.gz
+[2023-07-28 07:51:59] INFO root fetch - processPackages [agoraiot]: Downloading https://files.pythonhosted.org/packages/8d/a3/0865d4f8f740e5a18af683cd3bc85350b243d140347fd163da1acc9551fb/agoraiot-1.1.30-py2.py3-none-any.whl
+[2023-07-28 07:51:59] INFO root fetch - processPackages [agora-redis-client]: Downloading https://files.pythonhosted.org/packages/ee/58/e2de84b9e7e053a7b53d7e1ccf2a23cbad5ebb1ac4b5dad03c83572adaf5/agora_redis_client-1.1.30-py2.py3-none-any.whl
+[2023-07-28 07:51:59] INFO root fetch - processPackages [agora-logging]: Downloading https://files.pythonhosted.org/packages/59/61/599be22e3013700f83ee6fa0de9118ee23cf63dc88941a75b4f8b00a5fc6/agora_logging-1.1.30-py2.py3-none-any.whl
+[2023-07-28 07:51:59] INFO root fetch - processPackages [agora-busclient]: Downloading https://files.pythonhosted.org/packages/dc/4e/c4015cbce6febb04d37241e72b72b621eb85654f352abd982a042da24a02/agora_busclient-1.1.30-py2.py3-none-any.whl
+[2023-07-28 07:51:59] INFO root fetch - processPackages [awyes]: Downloading https://files.pythonhosted.org/packages/26/1d/7818bbdc08160ac7c7998901c6530cc79b619f9b0f14190d9ddde692b1f9/awyes-10.0.7.tar.gz
+[2023-07-28 07:51:59] INFO root fetch - processPackages [zzq-strings-sum]: Downloading https://files.pythonhosted.org/packages/05/69/bec14fcfca134df3d84b2b6e4087db5ab21272ca95a7b18910a786c4bcbd/zzq-strings-sum-0.5.4.tar.gz
+[2023-07-28 07:51:59] INFO root fetch - processPackages [agora-config]: Downloading https://files.pythonhosted.org/packages/dd/0f/06cff3f7f21c195997fd6da1d10d2b0bca895c3daf4e62e2f7e5b8c96076/agora_config-1.1.30-py2.py3-none-any.whl
+[2023-07-28 07:51:59] INFO root fetch - processPackages [agoraiot]: executing diffoscope
+[2023-07-28 07:51:59] INFO root fetch - processPackages [agoraiot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agoraiot-1.0.9-py2.py3-none-any.whl.zip tmp/agoraiot-1.1.30-py2.py3-none-any.whl.zip --markdown 20230728/a/agoraiot/1.0.9-1.1.30/diff.md --exclude *.pyd
+[2023-07-28 07:51:59] INFO root fetch - processPackages [python3-commons]: executing diffoscope
+[2023-07-28 07:51:59] INFO root fetch - processPackages [python3-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3-commons-0.0.8.tar.gz tmp/python3-commons-0.0.9.tar.gz --markdown 20230728/p/python3-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 07:52:00] INFO root fetch - processPackages [usepy-plugin-logger]: Downloading https://files.pythonhosted.org/packages/09/72/dabc46b9e637aa85fdc2dcaca66e734b08034b81825c1cc0100a027b7ae3/usepy_plugin_logger-0.1.6.tar.gz
+[2023-07-28 07:52:00] INFO root fetch - processPackages [fsrs]: Downloading https://files.pythonhosted.org/packages/25/0d/b4f63d96c5d53950f1e83e56052eeefb6abc13d33f829849a5460b2d8988/fsrs-1.0.0.tar.gz
+[2023-07-28 07:52:00] INFO root fetch - processPackages [awyes]: executing diffoscope
+[2023-07-28 07:52:00] INFO root fetch - processPackages [awyes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awyes-10.0.6.tar.gz tmp/awyes-10.0.7.tar.gz --markdown 20230728/a/awyes/10.0.6-10.0.7/diff.md --exclude *.pyd
+[2023-07-28 07:52:00] INFO root fetch - processPackages [agora-config]: executing diffoscope
+[2023-07-28 07:52:00] INFO root fetch - processPackages [agora-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_config-1.0.9-py2.py3-none-any.whl.zip tmp/agora_config-1.1.30-py2.py3-none-any.whl.zip --markdown 20230728/a/agora-config/1.0.9-1.1.30/diff.md --exclude *.pyd
+[2023-07-28 07:52:00] INFO root fetch - processPackages [agora-redis-client]: executing diffoscope
+[2023-07-28 07:52:00] INFO root fetch - processPackages [agora-redis-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_redis_client-1.0.30-py2.py3-none-any.whl.zip tmp/agora_redis_client-1.1.30-py2.py3-none-any.whl.zip --markdown 20230728/a/agora-redis-client/1.0.30-1.1.30/diff.md --exclude *.pyd
+[2023-07-28 07:52:00] INFO root fetch - processPackages [agora-logging]: executing diffoscope
+[2023-07-28 07:52:00] INFO root fetch - processPackages [agora-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_logging-1.0.9-py2.py3-none-any.whl.zip tmp/agora_logging-1.1.30-py2.py3-none-any.whl.zip --markdown 20230728/a/agora-logging/1.0.9-1.1.30/diff.md --exclude *.pyd
+[2023-07-28 07:52:00] INFO root fetch - processPackages [usepy-plugin-logger]: executing diffoscope
+[2023-07-28 07:52:00] INFO root fetch - processPackages [usepy-plugin-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usepy_plugin_logger-0.1.4.tar.gz tmp/usepy_plugin_logger-0.1.6.tar.gz --markdown 20230728/u/usepy-plugin-logger/0.1.4-0.1.6/diff.md --exclude *.pyd
+[2023-07-28 07:52:00] INFO root fetch - processPackages [agora-busclient]: executing diffoscope
+[2023-07-28 07:52:00] INFO root fetch - processPackages [agora-busclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_busclient-1.0.9-py2.py3-none-any.whl.zip tmp/agora_busclient-1.1.30-py2.py3-none-any.whl.zip --markdown 20230728/a/agora-busclient/1.0.9-1.1.30/diff.md --exclude *.pyd
+[2023-07-28 07:52:00] INFO root fetch - processPackages [fsrs]: executing diffoscope
+[2023-07-28 07:52:00] INFO root fetch - processPackages [fsrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs-0.2.2.tar.gz tmp/fsrs-1.0.0.tar.gz --markdown 20230728/f/fsrs/0.2.2-1.0.0/diff.md --exclude *.pyd
+[2023-07-28 07:52:00] INFO root fetch - processPackages [zzq-strings-sum]: executing diffoscope
+[2023-07-28 07:52:00] INFO root fetch - processPackages [zzq-strings-sum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zzq-strings-sum-0.5.3.tar.gz tmp/zzq-strings-sum-0.5.4.tar.gz --markdown 20230728/z/zzq-strings-sum/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-28 07:52:01] INFO root fetch - processPackages [agoraiot]: Remove: archive file [/home/abi/fetcher/tmp/agoraiot-1.0.9-py2.py3-none-any.whl.zip]
+[2023-07-28 07:52:01] INFO root fetch - processPackages [agoraiot]: Remove: archive file [/home/abi/fetcher/tmp/agoraiot-1.1.30-py2.py3-none-any.whl.zip]
+[2023-07-28 07:52:01] INFO root fetch - processPackages [agoraiot]: Start processing: agora-utils
+[2023-07-28 07:52:01] INFO root fetch - main [MainThread]: End processing [agoraiot]: success
+[2023-07-28 07:52:01] INFO root fetch - processPackages [agora-utils]: New version: [1.1.30] Old Version: [1.0.9]
+[2023-07-28 07:52:01] INFO root fetch - processPackages [agora-utils]: Downloading https://files.pythonhosted.org/packages/bb/46/5bf6a1160cf2828e539b496682d85243fc627d93d680ae4ecceac1f0798e/agora_utils-1.0.9-py2.py3-none-any.whl
+[2023-07-28 07:52:01] INFO root fetch - processPackages [python3-commons]: Remove: archive file [/home/abi/fetcher/tmp/python3-commons-0.0.8.tar.gz]
+[2023-07-28 07:52:01] INFO root fetch - processPackages [python3-commons]: Remove: archive file [/home/abi/fetcher/tmp/python3-commons-0.0.9.tar.gz]
+[2023-07-28 07:52:01] INFO root fetch - processPackages [python3-commons]: Start processing: django-feed-reader
+[2023-07-28 07:52:01] INFO root fetch - main [MainThread]: End processing [python3-commons]: success
+[2023-07-28 07:52:01] INFO root fetch - processPackages [agora-config]: Remove: archive file [/home/abi/fetcher/tmp/agora_config-1.0.9-py2.py3-none-any.whl.zip]
+[2023-07-28 07:52:01] INFO root fetch - processPackages [agora-config]: Remove: archive file [/home/abi/fetcher/tmp/agora_config-1.1.30-py2.py3-none-any.whl.zip]
+[2023-07-28 07:52:01] INFO root fetch - processPackages [agora-config]: Start processing: alibabacloud-arms20190808-py2
+[2023-07-28 07:52:01] INFO root fetch - main [MainThread]: End processing [agora-config]: success
+[2023-07-28 07:52:01] INFO root fetch - processPackages [django-feed-reader]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-28 07:52:01] INFO root fetch - processPackages [alibabacloud-arms20190808-py2]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-28 07:52:01] INFO root fetch - processPackages [agora-redis-client]: Remove: archive file [/home/abi/fetcher/tmp/agora_redis_client-1.0.30-py2.py3-none-any.whl.zip]
+[2023-07-28 07:52:01] INFO root fetch - processPackages [agora-redis-client]: Remove: archive file [/home/abi/fetcher/tmp/agora_redis_client-1.1.30-py2.py3-none-any.whl.zip]
+[2023-07-28 07:52:01] INFO root fetch - processPackages [agora-redis-client]: Start processing: fennel-ai
+[2023-07-28 07:52:01] INFO root fetch - main [MainThread]: End processing [agora-redis-client]: success
+[2023-07-28 07:52:01] INFO root fetch - processPackages [fsrs]: Remove: archive file [/home/abi/fetcher/tmp/fsrs-0.2.2.tar.gz]
+[2023-07-28 07:52:01] INFO root fetch - processPackages [agora-logging]: Remove: archive file [/home/abi/fetcher/tmp/agora_logging-1.0.9-py2.py3-none-any.whl.zip]
+[2023-07-28 07:52:01] INFO root fetch - processPackages [fsrs]: Remove: archive file [/home/abi/fetcher/tmp/fsrs-1.0.0.tar.gz]
+[2023-07-28 07:52:01] INFO root fetch - processPackages [agora-logging]: Remove: archive file [/home/abi/fetcher/tmp/agora_logging-1.1.30-py2.py3-none-any.whl.zip]
+[2023-07-28 07:52:01] INFO root fetch - processPackages [fsrs]: Start processing: alibabacloud-arms20190808
+[2023-07-28 07:52:01] INFO root fetch - main [MainThread]: End processing [fsrs]: success
+[2023-07-28 07:52:01] INFO root fetch - processPackages [agora-logging]: Start processing: pami
+[2023-07-28 07:52:01] INFO root fetch - main [MainThread]: End processing [agora-logging]: success
+[2023-07-28 07:52:01] INFO root fetch - processPackages [usepy-plugin-logger]: Remove: archive file [/home/abi/fetcher/tmp/usepy_plugin_logger-0.1.4.tar.gz]
+[2023-07-28 07:52:01] INFO root fetch - processPackages [usepy-plugin-logger]: Remove: archive file [/home/abi/fetcher/tmp/usepy_plugin_logger-0.1.6.tar.gz]
+[2023-07-28 07:52:01] INFO root fetch - main [MainThread]: End processing [usepy-plugin-logger]: success
+[2023-07-28 07:52:01] INFO root fetch - processPackages [zzq-strings-sum]: Remove: archive file [/home/abi/fetcher/tmp/zzq-strings-sum-0.5.3.tar.gz]
+[2023-07-28 07:52:01] INFO root fetch - processPackages [zzq-strings-sum]: Remove: archive file [/home/abi/fetcher/tmp/zzq-strings-sum-0.5.4.tar.gz]
+[2023-07-28 07:52:01] INFO root fetch - main [MainThread]: End processing [zzq-strings-sum]: success
+[2023-07-28 07:52:01] INFO root fetch - processPackages [agora-busclient]: Remove: archive file [/home/abi/fetcher/tmp/agora_busclient-1.0.9-py2.py3-none-any.whl.zip]
+[2023-07-28 07:52:01] INFO root fetch - processPackages [agora-busclient]: Remove: archive file [/home/abi/fetcher/tmp/agora_busclient-1.1.30-py2.py3-none-any.whl.zip]
+[2023-07-28 07:52:01] INFO root fetch - main [MainThread]: End processing [agora-busclient]: success
+[2023-07-28 07:52:01] INFO root fetch - processPackages [fennel-ai]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-07-28 07:52:01] INFO root fetch - processPackages [django-feed-reader]: Downloading https://files.pythonhosted.org/packages/b1/41/1fd9a59aa010256d0060865c7c811106b523632b7f70822d6dbd23e33f8a/django-feed-reader-1.0.5.tar.gz
+[2023-07-28 07:52:01] INFO root fetch - processPackages [agora-utils]: Downloading https://files.pythonhosted.org/packages/b4/73/182013fab738bd826dd54b4db87c88222cd926fa61b01b810a1279c9b98b/agora_utils-1.1.30-py2.py3-none-any.whl
+[2023-07-28 07:52:01] INFO root fetch - processPackages [pami]: New version: [2023.7.7] Old Version: [2023.7.28.2]
+[2023-07-28 07:52:01] INFO root fetch - processPackages [alibabacloud-arms20190808-py2]: Downloading https://files.pythonhosted.org/packages/73/b1/93890d94b6df9b3f390ece531f5141d20fc5ae4e533049816f834957f087/alibabacloud_arms20190808_py2-2.0.0.tar.gz
+[2023-07-28 07:52:02] INFO root fetch - processPackages [awyes]: Remove: archive file [/home/abi/fetcher/tmp/awyes-10.0.6.tar.gz]
+[2023-07-28 07:52:02] INFO root fetch - processPackages [awyes]: Remove: archive file [/home/abi/fetcher/tmp/awyes-10.0.7.tar.gz]
+[2023-07-28 07:52:02] INFO root fetch - main [MainThread]: End processing [awyes]: success
+[2023-07-28 07:52:02] INFO root fetch - processPackages [alibabacloud-arms20190808]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-28 07:52:02] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/12/5c/fd555b8dd1cd4101d80c6bb7d0c84fa4e94753e444d1f7078d69d80f516e/pami-2023.7.28.2.tar.gz
+[2023-07-28 07:52:02] INFO root fetch - processPackages [agora-utils]: executing diffoscope
+[2023-07-28 07:52:02] INFO root fetch - processPackages [agora-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_utils-1.0.9-py2.py3-none-any.whl.zip tmp/agora_utils-1.1.30-py2.py3-none-any.whl.zip --markdown 20230728/a/agora-utils/1.0.9-1.1.30/diff.md --exclude *.pyd
+[2023-07-28 07:52:02] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/d4/26/4eb76cfe9ce1dbe30c04220d8454ea3bc2454cab78e5cb06cba758448183/fennel_ai-0.8.6.tar.gz
+[2023-07-28 07:52:02] INFO root fetch - processPackages [alibabacloud-arms20190808]: Downloading https://files.pythonhosted.org/packages/d3/23/2ca0349e113fa6d9b670c955db7d1848fbc3c4d480cb2133f86d2ca81e4b/alibabacloud_arms20190808-2.0.0.tar.gz
+[2023-07-28 07:52:02] INFO root fetch - processPackages [django-feed-reader]: Downloading https://files.pythonhosted.org/packages/b9/0e/73b1f19d9f714a5508553fa87feb611ab2392c45c610b58c8a0ba49ca456/django-feed-reader-1.0.6.tar.gz
+[2023-07-28 07:52:02] INFO root fetch - processPackages [alibabacloud-arms20190808-py2]: Downloading https://files.pythonhosted.org/packages/45/84/d19480c70ce5b88941f397af41d916c7389151e0f25315ac32f2be6cc63a/alibabacloud_arms20190808_py2-2.0.1.tar.gz
+[2023-07-28 07:52:02] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/e5/b5/d3f8f4040d5ecd0e1161e74b0d0aa44917c676425d43137299c53e5096b5/pami-2023.7.7.tar.gz
+[2023-07-28 07:52:02] INFO root fetch - processPackages [django-feed-reader]: executing diffoscope
+[2023-07-28 07:52:02] INFO root fetch - processPackages [django-feed-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-feed-reader-1.0.5.tar.gz tmp/django-feed-reader-1.0.6.tar.gz --markdown 20230728/d/django-feed-reader/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-28 07:52:02] INFO root fetch - processPackages [alibabacloud-arms20190808-py2]: executing diffoscope
+[2023-07-28 07:52:02] INFO root fetch - processPackages [alibabacloud-arms20190808-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_arms20190808_py2-2.0.0.tar.gz tmp/alibabacloud_arms20190808_py2-2.0.1.tar.gz --markdown 20230728/a/alibabacloud-arms20190808-py2/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-28 07:52:02] INFO root fetch - processPackages [pami]: executing diffoscope
+[2023-07-28 07:52:02] INFO root fetch - processPackages [pami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pami-2023.7.28.2.tar.gz tmp/pami-2023.7.7.tar.gz --markdown 20230728/p/pami/2023.7.28.2-2023.7.7/diff.md --exclude *.pyd
+[2023-07-28 07:52:02] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/4c/fc/90b33a768471ec120e5a2eb150847406a26ac2ef34bd6a41f7eb20a0432f/fennel_ai-0.8.7.tar.gz
+[2023-07-28 07:52:02] INFO root fetch - processPackages [alibabacloud-arms20190808]: Downloading https://files.pythonhosted.org/packages/ea/5e/eef2c91dd451bafdeabf33dc333c5b379af00a77b07099a1e61f9a302ff5/alibabacloud_arms20190808-2.0.1.tar.gz
+[2023-07-28 07:52:02] INFO root fetch - processPackages [alibabacloud-arms20190808]: executing diffoscope
+[2023-07-28 07:52:02] INFO root fetch - processPackages [alibabacloud-arms20190808]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_arms20190808-2.0.0.tar.gz tmp/alibabacloud_arms20190808-2.0.1.tar.gz --markdown 20230728/a/alibabacloud-arms20190808/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-28 07:52:02] INFO root fetch - processPackages [fennel-ai]: executing diffoscope
+[2023-07-28 07:52:02] INFO root fetch - processPackages [fennel-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fennel_ai-0.8.6.tar.gz tmp/fennel_ai-0.8.7.tar.gz --markdown 20230728/f/fennel-ai/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-07-28 07:52:03] INFO root fetch - processPackages [agora-utils]: Remove: archive file [/home/abi/fetcher/tmp/agora_utils-1.0.9-py2.py3-none-any.whl.zip]
+[2023-07-28 07:52:03] INFO root fetch - processPackages [agora-utils]: Remove: archive file [/home/abi/fetcher/tmp/agora_utils-1.1.30-py2.py3-none-any.whl.zip]
+[2023-07-28 07:52:03] INFO root fetch - main [MainThread]: End processing [agora-utils]: success
+[2023-07-28 07:52:03] INFO root fetch - processPackages [django-feed-reader]: Remove: archive file [/home/abi/fetcher/tmp/django-feed-reader-1.0.5.tar.gz]
+[2023-07-28 07:52:03] INFO root fetch - processPackages [django-feed-reader]: Remove: archive file [/home/abi/fetcher/tmp/django-feed-reader-1.0.6.tar.gz]
+[2023-07-28 07:52:03] INFO root fetch - main [MainThread]: End processing [django-feed-reader]: success
+[2023-07-28 07:52:04] INFO root fetch - processPackages [alibabacloud-arms20190808-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_arms20190808_py2-2.0.0.tar.gz]
+[2023-07-28 07:52:04] INFO root fetch - processPackages [alibabacloud-arms20190808-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_arms20190808_py2-2.0.1.tar.gz]
+[2023-07-28 07:52:04] INFO root fetch - main [MainThread]: End processing [alibabacloud-arms20190808-py2]: success
+[2023-07-28 07:52:04] INFO root fetch - processPackages [fennel-ai]: Remove: archive file [/home/abi/fetcher/tmp/fennel_ai-0.8.6.tar.gz]
+[2023-07-28 07:52:04] INFO root fetch - processPackages [fennel-ai]: Remove: archive file [/home/abi/fetcher/tmp/fennel_ai-0.8.7.tar.gz]
+[2023-07-28 07:52:04] INFO root fetch - main [MainThread]: End processing [fennel-ai]: success
+[2023-07-28 07:52:04] INFO root fetch - processPackages [alibabacloud-arms20190808]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_arms20190808-2.0.0.tar.gz]
+[2023-07-28 07:52:04] INFO root fetch - processPackages [alibabacloud-arms20190808]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_arms20190808-2.0.1.tar.gz]
+[2023-07-28 07:52:04] INFO root fetch - main [MainThread]: End processing [alibabacloud-arms20190808]: success
+[2023-07-28 07:52:05] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.7.28.2.tar.gz]
+[2023-07-28 07:52:05] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.7.7.tar.gz]
+[2023-07-28 07:52:05] INFO root fetch - main [MainThread]: End processing [pami]: success
+[2023-07-28 07:52:05] INFO root fetch - main [MainThread]: Store serial: [19072108]
