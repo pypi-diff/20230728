@@ -22549,3 +22549,120 @@ AssertionError: tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip does not exi
 [2023-07-28 14:11:54] INFO root fetch - processPackages [wasmpy-build]: Remove: archive file [/home/abi/fetcher/tmp/wasmpy-build-0.4.1.tar.gz]
 [2023-07-28 14:11:54] INFO root fetch - main [MainThread]: End processing [wasmpy-build]: success
 [2023-07-28 14:11:54] INFO root fetch - main [MainThread]: Store serial: [19075220]
+[2023-07-28 14:16:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19075220]
+[2023-07-28 14:17:03] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-28 14:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: virtue
+[2023-07-28 14:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycognaize
+[2023-07-28 14:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-lib-template
+[2023-07-28 14:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphinx-json-schema-spec
+[2023-07-28 14:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auto-archiver
+[2023-07-28 14:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thetiscore
+[2023-07-28 14:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: speedtab
+[2023-07-28 14:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyexiv2
+[2023-07-28 14:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: thetis
+[2023-07-28 14:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pollination-streamlit-io
+[2023-07-28 14:17:03] WARNING root fetch - processPackages [python-lib-template]: Skipping, unable to determine old version
+[2023-07-28 14:17:03] INFO root fetch - processPackages [python-lib-template]: Start processing: hello-pack
+[2023-07-28 14:17:03] INFO root fetch - main [MainThread]: End processing [python-lib-template] error
+[2023-07-28 14:17:03] INFO root fetch - processPackages [auto-archiver]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-28 14:17:03] INFO root fetch - processPackages [thetiscore]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-28 14:17:03] INFO root fetch - processPackages [speedtab]: New version: [0.1.7.2] Old Version: [0.1.7.1]
+[2023-07-28 14:17:03] INFO root fetch - processPackages [virtue]: New version: [2023.7.5] Old Version: [2023.7.4]
+[2023-07-28 14:17:03] INFO root fetch - processPackages [sphinx-json-schema-spec]: New version: [2023.7.3] Old Version: [2023.7.2]
+[2023-07-28 14:17:03] INFO root fetch - processPackages [thetis]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-28 14:17:03] INFO root fetch - processPackages [pyexiv2]: New version: [2.8.2] Old Version: [2.8.1]
+[2023-07-28 14:17:04] INFO root fetch - processPackages [pycognaize]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-28 14:17:04] INFO root fetch - processPackages [pollination-streamlit-io]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-28 14:17:04] WARNING root fetch - processPackages [hello-pack]: Skipping, unable to determine old version
+[2023-07-28 14:17:04] INFO root fetch - processPackages [hello-pack]: Start processing: az-image-converter
+[2023-07-28 14:17:04] INFO root fetch - main [MainThread]: End processing [hello-pack] error
+[2023-07-28 14:17:04] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/24/5f/5a593169c5ead3895357bae1b0afa19997d4620c73b5aa428f6da7a76abc/speedtab-0.1.7.1.tar.gz
+[2023-07-28 14:17:04] INFO root fetch - processPackages [az-image-converter]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-28 14:17:04] INFO root fetch - processPackages [auto-archiver]: Downloading https://files.pythonhosted.org/packages/ae/5d/959f6709a71efa3f7fc518b84192614b005ad8f95fb52befb3bbe7d4bf56/auto_archiver-0.6.1.tar.gz
+[2023-07-28 14:17:04] INFO root fetch - processPackages [thetiscore]: Downloading https://files.pythonhosted.org/packages/b8/dc/5a6d6a428e82885a6f9293928e304fd9f6efb60741deb44e1846ad29f59f/thetiscore-0.1.1-cp39-cp39-win_amd64.whl
+[2023-07-28 14:17:04] INFO root fetch - processPackages [pollination-streamlit-io]: Downloading https://files.pythonhosted.org/packages/17/15/4c33d16aa9b1c63a7b6d57fc304bcba87a36e17745b5767550a4159d02e4/pollination-streamlit-io-0.9.2.tar.gz
+[2023-07-28 14:17:04] INFO root fetch - processPackages [virtue]: Downloading https://files.pythonhosted.org/packages/7b/b7/fb972bbedb517cc8eb488d538ccdbb0993d4de2b0015a7506443db13bd98/virtue-2023.7.4.tar.gz
+[2023-07-28 14:17:04] INFO root fetch - processPackages [az-image-converter]: Downloading https://files.pythonhosted.org/packages/24/f2/ef1a36d3d16f79e9d399e3c9eb55d0a9a57f651d6f95e16cdfa45e0fe040/az_image-converter-0.0.2.tar.gz
+[2023-07-28 14:17:04] INFO root fetch - processPackages [pyexiv2]: Downloading https://files.pythonhosted.org/packages/58/33/4a728cff84f2c6b621ccfd5013901e888300711acfad84c7f7475ca228fe/pyexiv2-2.8.1-cp39-none-win_amd64.whl
+[2023-07-28 14:17:04] INFO root fetch - processPackages [thetis]: Downloading https://files.pythonhosted.org/packages/19/3a/9d510c7d41ed2b01967b3af6e7976ad6d17defabd60ab486b5428894b60e/thetis-0.1.1.tar.gz
+[2023-07-28 14:17:04] INFO root fetch - processPackages [sphinx-json-schema-spec]: Downloading https://files.pythonhosted.org/packages/65/69/747715498c5702a7f7f0c16632238b9233bd4e47200853348c6a82348a34/sphinx_json_schema_spec-2023.7.2.tar.gz
+[2023-07-28 14:17:04] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/5c/36/fb3952a90a0f2e57f9c0c1b9893d6d7dd466a2eae7d75130342669893d31/pycognaize-1.4.8.tar.gz
+[2023-07-28 14:17:04] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/87/e0/64f9710e24aa032ebb597c0ae9f32668abda72d5520003e39fa3b8905aa0/speedtab-0.1.7.2.tar.gz
+[2023-07-28 14:17:04] INFO root fetch - processPackages [auto-archiver]: Downloading https://files.pythonhosted.org/packages/a7/1f/c5ec56824c18727f687fa063e7489b929b7359d0074318652c2dfa84a8bd/auto_archiver-0.6.2.tar.gz
+[2023-07-28 14:17:04] INFO root fetch - processPackages [thetiscore]: Downloading https://files.pythonhosted.org/packages/e9/e8/3a420c4698422b9e340eed61773aa5cc757998a81c364fa4a0d0c25f320d/thetiscore-0.1.2-cp39-cp39-win_amd64.whl
+[2023-07-28 14:17:04] INFO root fetch - processPackages [pollination-streamlit-io]: Downloading https://files.pythonhosted.org/packages/8f/88/39612cd1265361dd994ecd8d02ba175364afe8e50600f0d896b70d07b54c/pollination-streamlit-io-0.9.3.tar.gz
+[2023-07-28 14:17:04] INFO root fetch - processPackages [speedtab]: executing diffoscope
+[2023-07-28 14:17:04] INFO root fetch - processPackages [speedtab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speedtab-0.1.7.1.tar.gz tmp/speedtab-0.1.7.2.tar.gz --markdown 20230728/s/speedtab/0.1.7.1-0.1.7.2/diff.md --exclude *.pyd
+[2023-07-28 14:17:04] INFO root fetch - processPackages [auto-archiver]: executing diffoscope
+[2023-07-28 14:17:04] INFO root fetch - processPackages [auto-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_archiver-0.6.1.tar.gz tmp/auto_archiver-0.6.2.tar.gz --markdown 20230728/a/auto-archiver/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-28 14:17:04] INFO root fetch - processPackages [virtue]: Downloading https://files.pythonhosted.org/packages/7e/38/f9a61e30b67085145e575245ee0e533d53603417d447088a646855d07842/virtue-2023.7.5.tar.gz
+[2023-07-28 14:17:04] INFO root fetch - processPackages [az-image-converter]: Downloading https://files.pythonhosted.org/packages/62/ef/0263070e48ce11f67cb18e7e1c6ef1693a7413bd33acd433c8077d62c28c/az_image-converter-0.0.3.tar.gz
+[2023-07-28 14:17:04] INFO root fetch - processPackages [sphinx-json-schema-spec]: Downloading https://files.pythonhosted.org/packages/c4/3c/d78c8127e9de111b6939b7a59230823eba43042d2b75268012441645bc8b/sphinx_json_schema_spec-2023.7.3.tar.gz
+[2023-07-28 14:17:04] INFO root fetch - processPackages [thetis]: Downloading https://files.pythonhosted.org/packages/71/9a/59d1ccd19070164760544cd2754b14b92bdba497fe7deb772c4d8c73692c/thetis-0.1.2.tar.gz
+[2023-07-28 14:17:04] INFO root fetch - processPackages [pyexiv2]: Downloading https://files.pythonhosted.org/packages/2a/21/4edb9af78f7269fdfa1133d9743f2653242872c173541f56d1f7181daf28/pyexiv2-2.8.2-cp39-none-win_amd64.whl
+[2023-07-28 14:17:05] INFO root fetch - processPackages [virtue]: executing diffoscope
+[2023-07-28 14:17:05] INFO root fetch - processPackages [virtue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtue-2023.7.4.tar.gz tmp/virtue-2023.7.5.tar.gz --markdown 20230728/v/virtue/2023.7.4-2023.7.5/diff.md --exclude *.pyd
+[2023-07-28 14:17:05] INFO root fetch - processPackages [pollination-streamlit-io]: executing diffoscope
+[2023-07-28 14:17:05] INFO root fetch - processPackages [pollination-streamlit-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-streamlit-io-0.9.2.tar.gz tmp/pollination-streamlit-io-0.9.3.tar.gz --markdown 20230728/p/pollination-streamlit-io/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-28 14:17:05] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/fe/bb/26451b0bbddbd03704f60601f1f0392b063e5ada2fb7acef94a2464582c9/pycognaize-1.4.9.tar.gz
+[2023-07-28 14:17:05] INFO root fetch - processPackages [sphinx-json-schema-spec]: executing diffoscope
+[2023-07-28 14:17:05] INFO root fetch - processPackages [sphinx-json-schema-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_json_schema_spec-2023.7.2.tar.gz tmp/sphinx_json_schema_spec-2023.7.3.tar.gz --markdown 20230728/s/sphinx-json-schema-spec/2023.7.2-2023.7.3/diff.md --exclude *.pyd
+[2023-07-28 14:17:05] INFO root fetch - processPackages [az-image-converter]: executing diffoscope
+[2023-07-28 14:17:05] INFO root fetch - processPackages [az-image-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/az_image-converter-0.0.2.tar.gz tmp/az_image-converter-0.0.3.tar.gz --markdown 20230728/a/az-image-converter/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-28 14:17:05] INFO root fetch - processPackages [thetis]: executing diffoscope
+[2023-07-28 14:17:05] INFO root fetch - processPackages [thetis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thetis-0.1.1.tar.gz tmp/thetis-0.1.2.tar.gz --markdown 20230728/t/thetis/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-28 14:17:05] INFO root fetch - processPackages [thetiscore]: executing diffoscope
+[2023-07-28 14:17:05] INFO root fetch - processPackages [thetiscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thetiscore-0.1.1-cp39-cp39-win_amd64.whl.zip tmp/thetiscore-0.1.2-cp39-cp39-win_amd64.whl.zip --markdown 20230728/t/thetiscore/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-28 14:17:05] INFO root fetch - processPackages [pyexiv2]: executing diffoscope
+[2023-07-28 14:17:05] INFO root fetch - processPackages [pyexiv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyexiv2-2.8.1-cp39-none-win_amd64.whl.zip tmp/pyexiv2-2.8.2-cp39-none-win_amd64.whl.zip --markdown 20230728/p/pyexiv2/2.8.1-2.8.2/diff.md --exclude *.pyd
+[2023-07-28 14:17:05] INFO root fetch - processPackages [pycognaize]: executing diffoscope
+[2023-07-28 14:17:05] INFO root fetch - processPackages [pycognaize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycognaize-1.4.8.tar.gz tmp/pycognaize-1.4.9.tar.gz --markdown 20230728/p/pycognaize/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-28 14:17:06] INFO root fetch - processPackages [speedtab]: Remove: archive file [/home/abi/fetcher/tmp/speedtab-0.1.7.1.tar.gz]
+[2023-07-28 14:17:06] INFO root fetch - processPackages [speedtab]: Remove: archive file [/home/abi/fetcher/tmp/speedtab-0.1.7.2.tar.gz]
+[2023-07-28 14:17:06] INFO root fetch - processPackages [speedtab]: Start processing: SpLFastlyWrite
+[2023-07-28 14:17:06] INFO root fetch - main [MainThread]: End processing [speedtab]: success
+[2023-07-28 14:17:06] INFO root fetch - processPackages [SpLFastlyWrite]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-28 14:17:06] INFO root fetch - processPackages [az-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/az_image-converter-0.0.2.tar.gz]
+[2023-07-28 14:17:06] INFO root fetch - processPackages [az-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/az_image-converter-0.0.3.tar.gz]
+[2023-07-28 14:17:06] INFO root fetch - processPackages [az-image-converter]: Start processing: hyfi
+[2023-07-28 14:17:06] INFO root fetch - main [MainThread]: End processing [az-image-converter]: success
+[2023-07-28 14:17:06] INFO root fetch - processPackages [SpLFastlyWrite]: Downloading https://files.pythonhosted.org/packages/3a/ff/e614403cf48b8aeb5edc31053a914b1e25b300a980eafbfe3a06dcdcb4f9/SpLFastlyWrite-1.0.8.tar.gz
+[2023-07-28 14:17:06] INFO root fetch - processPackages [sphinx-json-schema-spec]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_json_schema_spec-2023.7.2.tar.gz]
+[2023-07-28 14:17:06] INFO root fetch - processPackages [sphinx-json-schema-spec]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_json_schema_spec-2023.7.3.tar.gz]
+[2023-07-28 14:17:06] INFO root fetch - main [MainThread]: End processing [sphinx-json-schema-spec]: success
+[2023-07-28 14:17:06] INFO root fetch - processPackages [hyfi]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-28 14:17:06] INFO root fetch - processPackages [virtue]: Remove: archive file [/home/abi/fetcher/tmp/virtue-2023.7.4.tar.gz]
+[2023-07-28 14:17:06] INFO root fetch - processPackages [virtue]: Remove: archive file [/home/abi/fetcher/tmp/virtue-2023.7.5.tar.gz]
+[2023-07-28 14:17:06] INFO root fetch - main [MainThread]: End processing [virtue]: success
+[2023-07-28 14:17:06] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/0c/d5/2fbe9416a9203508f74c38267bf24cf38ed818a052d4711ab45e5c44cb06/hyfi-1.9.3.tar.gz
+[2023-07-28 14:17:06] INFO root fetch - processPackages [thetis]: Remove: archive file [/home/abi/fetcher/tmp/thetis-0.1.1.tar.gz]
+[2023-07-28 14:17:06] INFO root fetch - processPackages [thetis]: Remove: archive file [/home/abi/fetcher/tmp/thetis-0.1.2.tar.gz]
+[2023-07-28 14:17:06] INFO root fetch - main [MainThread]: End processing [thetis]: success
+[2023-07-28 14:17:06] INFO root fetch - processPackages [thetiscore]: Remove: archive file [/home/abi/fetcher/tmp/thetiscore-0.1.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-28 14:17:06] INFO root fetch - processPackages [thetiscore]: Remove: archive file [/home/abi/fetcher/tmp/thetiscore-0.1.2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-28 14:17:06] INFO root fetch - main [MainThread]: End processing [thetiscore]: success
+[2023-07-28 14:17:06] INFO root fetch - processPackages [auto-archiver]: Remove: archive file [/home/abi/fetcher/tmp/auto_archiver-0.6.1.tar.gz]
+[2023-07-28 14:17:06] INFO root fetch - processPackages [auto-archiver]: Remove: archive file [/home/abi/fetcher/tmp/auto_archiver-0.6.2.tar.gz]
+[2023-07-28 14:17:06] INFO root fetch - main [MainThread]: End processing [auto-archiver]: success
+[2023-07-28 14:17:06] INFO root fetch - processPackages [SpLFastlyWrite]: Downloading https://files.pythonhosted.org/packages/f9/0f/e479c8ed47b53541704898e4451ed0f45f481ec9fccb75274a3e9e188f7b/SpLFastlyWrite-1.0.9.tar.gz
+[2023-07-28 14:17:06] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/2f/e2/024fd591185726de091f0bca9a73624944543bd52f723541d967066ff8c9/hyfi-1.9.4.tar.gz
+[2023-07-28 14:17:06] INFO root fetch - processPackages [pycognaize]: Remove: archive file [/home/abi/fetcher/tmp/pycognaize-1.4.8.tar.gz]
+[2023-07-28 14:17:06] INFO root fetch - processPackages [pycognaize]: Remove: archive file [/home/abi/fetcher/tmp/pycognaize-1.4.9.tar.gz]
+[2023-07-28 14:17:06] INFO root fetch - main [MainThread]: End processing [pycognaize]: success
+[2023-07-28 14:17:07] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-28 14:17:07] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.9.3.tar.gz tmp/hyfi-1.9.4.tar.gz --markdown 20230728/h/hyfi/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-28 14:17:07] INFO root fetch - processPackages [SpLFastlyWrite]: executing diffoscope
+[2023-07-28 14:17:07] INFO root fetch - processPackages [SpLFastlyWrite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpLFastlyWrite-1.0.8.tar.gz tmp/SpLFastlyWrite-1.0.9.tar.gz --markdown 20230728/S/SpLFastlyWrite/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-28 14:17:07] INFO root fetch - processPackages [pollination-streamlit-io]: Remove: archive file [/home/abi/fetcher/tmp/pollination-streamlit-io-0.9.2.tar.gz]
+[2023-07-28 14:17:07] INFO root fetch - processPackages [pollination-streamlit-io]: Remove: archive file [/home/abi/fetcher/tmp/pollination-streamlit-io-0.9.3.tar.gz]
+[2023-07-28 14:17:07] INFO root fetch - main [MainThread]: End processing [pollination-streamlit-io]: success
+[2023-07-28 14:17:07] INFO root fetch - processPackages [SpLFastlyWrite]: Remove: archive file [/home/abi/fetcher/tmp/SpLFastlyWrite-1.0.8.tar.gz]
+[2023-07-28 14:17:07] INFO root fetch - processPackages [SpLFastlyWrite]: Remove: archive file [/home/abi/fetcher/tmp/SpLFastlyWrite-1.0.9.tar.gz]
+[2023-07-28 14:17:07] INFO root fetch - main [MainThread]: End processing [SpLFastlyWrite]: success
+[2023-07-28 14:17:08] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.3.tar.gz]
+[2023-07-28 14:17:08] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.4.tar.gz]
+[2023-07-28 14:17:08] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-28 14:17:11] INFO root fetch - processPackages [pyexiv2]: Remove: archive file [/home/abi/fetcher/tmp/pyexiv2-2.8.1-cp39-none-win_amd64.whl.zip]
+[2023-07-28 14:17:11] INFO root fetch - processPackages [pyexiv2]: Remove: archive file [/home/abi/fetcher/tmp/pyexiv2-2.8.2-cp39-none-win_amd64.whl.zip]
+[2023-07-28 14:17:11] INFO root fetch - main [MainThread]: End processing [pyexiv2]: success
+[2023-07-28 14:17:11] INFO root fetch - main [MainThread]: Store serial: [19075289]
