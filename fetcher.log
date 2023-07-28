@@ -12520,3 +12520,50 @@
 [2023-07-28 06:28:30] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.7.7.tar.gz]
 [2023-07-28 06:28:30] INFO root fetch - main [MainThread]: End processing [pami]: success
 [2023-07-28 06:28:30] INFO root fetch - main [MainThread]: Store serial: [19071531]
+[2023-07-28 06:33:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19071531]
+[2023-07-28 06:33:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-28 06:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jinaai
+[2023-07-28 06:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: runtime-keypath
+[2023-07-28 06:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keksik-api
+[2023-07-28 06:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-macos
+[2023-07-28 06:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymino
+[2023-07-28 06:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hatch-ci
+[2023-07-28 06:33:39] INFO root fetch - processPackages [jinaai]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-28 06:33:39] INFO root fetch - processPackages [keksik-api]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-28 06:33:39] WARNING root fetch - processPackages [runtime-keypath]: Skipping, unable to determine old version
+[2023-07-28 06:33:39] INFO root fetch - main [MainThread]: End processing [runtime-keypath] error
+[2023-07-28 06:33:39] INFO root fetch - processPackages [hatch-ci]: New version: [0.0.2b8] Old Version: [0.0.1]
+[2023-07-28 06:33:39] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230726] Old Version: [2.14.0.dev20230725]
+[2023-07-28 06:33:39] INFO root fetch - processPackages [pymino]: New version: [1.2.4.6] Old Version: [1.2.4.5]
+[2023-07-28 06:33:39] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/32/e5/c56422e7810f879b42e5a02afd9faa8935f4b0877e871ff44688d4566919/hatch_ci-0.0.1.tar.gz
+[2023-07-28 06:33:39] INFO root fetch - processPackages [jinaai]: Downloading https://files.pythonhosted.org/packages/db/d0/ec3958249a141e824151e5a9484bc450fb2286e8ab8f23939f48e0bd37bb/jinaai-0.2.3.tar.gz
+[2023-07-28 06:33:39] INFO root fetch - processPackages [keksik-api]: Downloading https://files.pythonhosted.org/packages/75/ba/eb1c017438f7d56293dc0ff8c1c1420519c4d91ba778e1b7a0f0bc05d5c5/keksik_api-0.2.1.tar.gz
+[2023-07-28 06:33:39] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/2d/7f/2643f55735e81364e08f2763d7ccda880c459284f18f48a8a29831b83bbe/pymino-1.2.4.5.tar.gz
+[2023-07-28 06:33:40] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/45/89/e676667a92a538abcb1bfb67ba443884faf9511dcc85d0ef59f7f6a1fd04/tf_nightly_macos-2.14.0.dev20230725-cp39-cp39-macosx_11_0_arm64.whl
+[2023-07-28 06:33:40] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 199254888>=10485760
+[2023-07-28 06:33:40] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-07-28 06:33:40] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/4f/03/1a8cb5ed7c62216b0304feb4cdeec346cd7e27cf0b65c05a56973a80a11f/hatch_ci-0.0.2b8.tar.gz
+[2023-07-28 06:33:40] INFO root fetch - processPackages [jinaai]: Downloading https://files.pythonhosted.org/packages/f0/77/4609bae8a1bb4a4df06dd484d7a3348d4010f4a12cda8e7997d911aa205a/jinaai-0.2.4.tar.gz
+[2023-07-28 06:33:40] INFO root fetch - processPackages [keksik-api]: Downloading https://files.pythonhosted.org/packages/95/48/9fa020cb54cfb6ca2e26b9348a9854b2f2c042365f3eaaf43b8dd9fd66e9/keksik_api-0.2.2.tar.gz
+[2023-07-28 06:33:40] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/b1/ee/99f9d6d0216572caa63c7a1011af2311f4c3c6ac1de4a661ba8ccad3cf9a/pymino-1.2.4.6.tar.gz
+[2023-07-28 06:33:40] INFO root fetch - processPackages [jinaai]: executing diffoscope
+[2023-07-28 06:33:40] INFO root fetch - processPackages [jinaai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinaai-0.2.3.tar.gz tmp/jinaai-0.2.4.tar.gz --markdown 20230728/j/jinaai/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-28 06:33:40] INFO root fetch - processPackages [keksik-api]: executing diffoscope
+[2023-07-28 06:33:40] INFO root fetch - processPackages [keksik-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keksik_api-0.2.1.tar.gz tmp/keksik_api-0.2.2.tar.gz --markdown 20230728/k/keksik-api/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-28 06:33:40] INFO root fetch - processPackages [hatch-ci]: executing diffoscope
+[2023-07-28 06:33:40] INFO root fetch - processPackages [hatch-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_ci-0.0.1.tar.gz tmp/hatch_ci-0.0.2b8.tar.gz --markdown 20230728/h/hatch-ci/0.0.1-0.0.2b8/diff.md --exclude *.pyd
+[2023-07-28 06:33:40] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-07-28 06:33:40] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.2.4.5.tar.gz tmp/pymino-1.2.4.6.tar.gz --markdown 20230728/p/pymino/1.2.4.5-1.2.4.6/diff.md --exclude *.pyd
+[2023-07-28 06:33:41] INFO root fetch - processPackages [jinaai]: Remove: archive file [/home/abi/fetcher/tmp/jinaai-0.2.3.tar.gz]
+[2023-07-28 06:33:41] INFO root fetch - processPackages [jinaai]: Remove: archive file [/home/abi/fetcher/tmp/jinaai-0.2.4.tar.gz]
+[2023-07-28 06:33:41] INFO root fetch - main [MainThread]: End processing [jinaai]: success
+[2023-07-28 06:33:41] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.1.tar.gz]
+[2023-07-28 06:33:41] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.2b8.tar.gz]
+[2023-07-28 06:33:41] INFO root fetch - main [MainThread]: End processing [hatch-ci]: success
+[2023-07-28 06:33:41] INFO root fetch - processPackages [keksik-api]: Remove: archive file [/home/abi/fetcher/tmp/keksik_api-0.2.1.tar.gz]
+[2023-07-28 06:33:41] INFO root fetch - processPackages [keksik-api]: Remove: archive file [/home/abi/fetcher/tmp/keksik_api-0.2.2.tar.gz]
+[2023-07-28 06:33:41] INFO root fetch - main [MainThread]: End processing [keksik-api]: success
+[2023-07-28 06:33:41] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.4.5.tar.gz]
+[2023-07-28 06:33:41] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.4.6.tar.gz]
+[2023-07-28 06:33:41] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-07-28 06:33:41] INFO root fetch - main [MainThread]: Store serial: [19071573]
