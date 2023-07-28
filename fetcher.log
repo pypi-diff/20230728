@@ -9042,3 +9042,194 @@
 [2023-07-28 03:29:30] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
 [2023-07-28 03:29:30] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-07-28 03:29:30] INFO root fetch - main [MainThread]: Store serial: [19069975]
+[2023-07-28 03:34:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19069975]
+[2023-07-28 03:34:41] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-28 03:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyagrum-nightly
+[2023-07-28 03:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycde
+[2023-07-28 03:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bcmd
+[2023-07-28 03:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: radstar
+[2023-07-28 03:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-sops-secrets
+[2023-07-28 03:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-alconna
+[2023-07-28 03:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-ocr_translate
+[2023-07-28 03:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lite-fastapi-local
+[2023-07-28 03:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agentshell
+[2023-07-28 03:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sweetrpg-library-objects
+[2023-07-28 03:34:41] INFO root fetch - processPackages [sweetrpg-library-objects]: New version: [0.0.86] Old Version: [0.0.85]
+[2023-07-28 03:34:41] INFO root fetch - processPackages [agentshell]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-28 03:34:41] INFO root fetch - processPackages [bcmd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 03:34:41] INFO root fetch - processPackages [radstar]: New version: [0.15.1] Old Version: [0.15.0]
+[2023-07-28 03:34:41] INFO root fetch - processPackages [django-ocr_translate]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-28 03:34:41] INFO root fetch - processPackages [lite-fastapi-local]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-07-28 03:34:41] INFO root fetch - processPackages [nonebot-plugin-alconna]: New version: [0.9.3] Old Version: [0.9.0]
+[2023-07-28 03:34:42] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-28 03:34:42] INFO root fetch - processPackages [pycde]: New version: [0.2.1.dev988] Old Version: [0.2.1.dev961]
+[2023-07-28 03:34:42] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/3b/8f/5bc5b1bf1cbb2bd23cd2883844aade1e32b222ebf1f95ad4be614a5a5fab/sweetrpg-library-objects-0.0.85.tar.gz
+[2023-07-28 03:34:42] INFO root fetch - processPackages [agentshell]: Downloading https://files.pythonhosted.org/packages/b9/8c/70dd1a90036a8675dbd811eab98ef8c65b3907cb6625beabbeba01ad7c41/agentshell-0.0.1.tar.gz
+[2023-07-28 03:34:42] INFO root fetch - processPackages [radstar]: Downloading https://files.pythonhosted.org/packages/3b/76/503d6c167b114598a883a555fa39bc36e2b99ec3ae326f491ac6c0637f60/radstar-0.15.0-py3-none-any.whl
+[2023-07-28 03:34:42] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.9.0.9.dev202307281690302491] Old Version: [1.9.0.9.dev202307271690302491]
+[2023-07-28 03:34:42] INFO root fetch - processPackages [lite-fastapi-local]: Downloading https://files.pythonhosted.org/packages/a1/a7/ea210f5c83ebb514392a3ad16bf48053cc01cc38bcda9dabc1b43453dbdc/lite_fastapi_local-0.0.44.tar.gz
+[2023-07-28 03:34:42] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/c8/67/1065373af14f845f6112a3d2cb8d6187d838b4c0d90d89282ccef9f5133d/nonebot-plugin-alconna-0.9.0.tar.gz
+[2023-07-28 03:34:42] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/14/bb/4ff93028b64c93970c4b76f5b7cfe73c743a936ed7a9653b9166cfab7d40/bcmd-0.0.8.tar.gz
+[2023-07-28 03:34:42] INFO root fetch - processPackages [django-ocr_translate]: Downloading https://files.pythonhosted.org/packages/f7/b0/6e6d1864c732e7553c4052fc798e0283effd25340edc03be2ad17665d690/django_ocr_translate-0.1.2.tar.gz
+[2023-07-28 03:34:42] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/5b/7d/8372a702bb2b62b66b14e266345542db9c37a842ba3650c6cbb58a242c34/pyAgrum_nightly-1.9.0.9.dev202307271690302491-cp39-cp39-win_amd64.whl
+[2023-07-28 03:34:42] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-07-28 03:34:42] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/5e/9f/6f76023a2ce599dcc8f9336e4ca97d11bf333da43274c8193887a32463aa/sweetrpg-library-objects-0.0.86.tar.gz
+[2023-07-28 03:34:42] INFO root fetch - processPackages [agentshell]: Downloading https://files.pythonhosted.org/packages/4b/69/dbe37ba77b4b62a0c569df3bb87b12e71e9e228f278660f507bad7ef113e/agentshell-0.0.2.tar.gz
+[2023-07-28 03:34:42] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/b9/ae/7d052a4c453053b2cbbee8bd65271ab000dd63312d3de98a9c90ca0d9952/pycde-0.2.1.dev988-cp39-cp39-win_amd64.whl
+[2023-07-28 03:34:42] INFO root fetch - processPackages [sweetrpg-library-objects]: executing diffoscope
+[2023-07-28 03:34:42] INFO root fetch - processPackages [sweetrpg-library-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-library-objects-0.0.85.tar.gz tmp/sweetrpg-library-objects-0.0.86.tar.gz --markdown 20230728/s/sweetrpg-library-objects/0.0.85-0.0.86/diff.md --exclude *.pyd
+[2023-07-28 03:34:42] INFO root fetch - processPackages [lite-fastapi-local]: Downloading https://files.pythonhosted.org/packages/a1/3c/ed339106eaafa4e888dd01fc1332623e0495e85cc9cfd8bff754dbfcd8ab/lite_fastapi_local-0.0.45.tar.gz
+[2023-07-28 03:34:42] INFO root fetch - processPackages [agentshell]: executing diffoscope
+[2023-07-28 03:34:42] INFO root fetch - processPackages [agentshell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentshell-0.0.1.tar.gz tmp/agentshell-0.0.2.tar.gz --markdown 20230728/a/agentshell/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-28 03:34:42] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/f4/fd/830dd6604cd5dc44a467d959ff595e8da0a087d9b75368acaecfc83c3417/nonebot_plugin_alconna-0.9.3.tar.gz
+[2023-07-28 03:34:42] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/3b/fe/3525534e0b5966e860bd44d83a8fd9b36b7f3431bf8abe081ed29fe6de12/bcmd-0.0.9.tar.gz
+[2023-07-28 03:34:42] INFO root fetch - processPackages [lite-fastapi-local]: executing diffoscope
+[2023-07-28 03:34:42] INFO root fetch - processPackages [lite-fastapi-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lite_fastapi_local-0.0.44.tar.gz tmp/lite_fastapi_local-0.0.45.tar.gz --markdown 20230728/l/lite-fastapi-local/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-07-28 03:34:43] INFO root fetch - processPackages [nonebot-plugin-alconna]: executing diffoscope
+[2023-07-28 03:34:43] INFO root fetch - processPackages [nonebot-plugin-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-alconna-0.9.0.tar.gz tmp/nonebot_plugin_alconna-0.9.3.tar.gz --markdown 20230728/n/nonebot-plugin-alconna/0.9.0-0.9.3/diff.md --exclude *.pyd
+[2023-07-28 03:34:43] INFO root fetch - processPackages [radstar]: Downloading https://files.pythonhosted.org/packages/aa/dd/66c7ba67552b3e87a1a1e243e2d6de5b95c19c6f7ecbe60e5128efeebfe7/radstar-0.15.1-py3-none-any.whl
+[2023-07-28 03:34:43] INFO root fetch - processPackages [django-ocr_translate]: Downloading https://files.pythonhosted.org/packages/24/69/69b9df6bddb78c214a7c62df8020991388b10193b9edb3ed81672051e45e/django_ocr_translate-0.1.3.tar.gz
+[2023-07-28 03:34:43] INFO root fetch - processPackages [bcmd]: executing diffoscope
+[2023-07-28 03:34:43] INFO root fetch - processPackages [bcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcmd-0.0.8.tar.gz tmp/bcmd-0.0.9.tar.gz --markdown 20230728/b/bcmd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 03:34:43] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/6d/f4/029bec7c4d8572fa2ec7976763a4c12818f90c36ed81f002985dd2528f13/pyAgrum_nightly-1.9.0.9.dev202307281690302491-cp39-cp39-win_amd64.whl
+[2023-07-28 03:34:43] INFO root fetch - processPackages [django-ocr_translate]: executing diffoscope
+[2023-07-28 03:34:43] INFO root fetch - processPackages [django-ocr_translate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_ocr_translate-0.1.2.tar.gz tmp/django_ocr_translate-0.1.3.tar.gz --markdown 20230728/d/django-ocr_translate/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-28 03:34:43] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-07-28 03:34:43] INFO root fetch - processPackages [pycde]: executing diffoscope
+[2023-07-28 03:34:43] INFO root fetch - processPackages [pycde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycde-0.2.1.dev961-cp39-cp39-win_amd64.whl.zip tmp/pycde-0.2.1.dev988-cp39-cp39-win_amd64.whl.zip --markdown 20230728/p/pycde/0.2.1.dev961-0.2.1.dev988/diff.md --exclude *.pyd
+[2023-07-28 03:34:43] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-07-28 03:34:43] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230728/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-28 03:34:43] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-07-28 03:34:43] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202307271690302491-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202307281690302491-cp39-cp39-win_amd64.whl.zip --markdown 20230728/p/pyagrum-nightly/1.9.0.9.dev202307271690302491-1.9.0.9.dev202307281690302491/diff.md --exclude *.pyd
+[2023-07-28 03:34:43] INFO root fetch - processPackages [radstar]: executing diffoscope
+[2023-07-28 03:34:43] INFO root fetch - processPackages [radstar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radstar-0.15.0-py3-none-any.whl.zip tmp/radstar-0.15.1-py3-none-any.whl.zip --markdown 20230728/r/radstar/0.15.0-0.15.1/diff.md --exclude *.pyd
+[2023-07-28 03:34:43] INFO root fetch - processPackages [agentshell]: Remove: archive file [/home/abi/fetcher/tmp/agentshell-0.0.1.tar.gz]
+[2023-07-28 03:34:43] INFO root fetch - processPackages [agentshell]: Remove: archive file [/home/abi/fetcher/tmp/agentshell-0.0.2.tar.gz]
+[2023-07-28 03:34:43] INFO root fetch - processPackages [agentshell]: Start processing: nbdev-stdlib
+[2023-07-28 03:34:43] INFO root fetch - main [MainThread]: End processing [agentshell]: success
+[2023-07-28 03:34:44] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-28 03:34:44] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.85.tar.gz]
+[2023-07-28 03:34:44] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.86.tar.gz]
+[2023-07-28 03:34:44] INFO root fetch - processPackages [sweetrpg-library-objects]: Start processing: torchqtm
+[2023-07-28 03:34:44] INFO root fetch - main [MainThread]: End processing [sweetrpg-library-objects]: success
+[2023-07-28 03:34:44] INFO root fetch - processPackages [torchqtm]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-28 03:34:44] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-28 03:34:44] INFO root fetch - processPackages [torchqtm]: Downloading https://files.pythonhosted.org/packages/ae/fd/7e6f534154209c9e3113ec36df74752a89753fe91d463667ba8e70152bab/torchqtm-0.5.0.tar.gz
+[2023-07-28 03:34:44] INFO root fetch - processPackages [lite-fastapi-local]: Remove: archive file [/home/abi/fetcher/tmp/lite_fastapi_local-0.0.44.tar.gz]
+[2023-07-28 03:34:44] INFO root fetch - processPackages [lite-fastapi-local]: Remove: archive file [/home/abi/fetcher/tmp/lite_fastapi_local-0.0.45.tar.gz]
+[2023-07-28 03:34:44] INFO root fetch - processPackages [lite-fastapi-local]: Start processing: sweetrpg-api-core
+[2023-07-28 03:34:44] INFO root fetch - main [MainThread]: End processing [lite-fastapi-local]: success
+[2023-07-28 03:34:44] INFO root fetch - processPackages [sweetrpg-api-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-28 03:34:44] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-28 03:34:44] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.8.tar.gz]
+[2023-07-28 03:34:44] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.9.tar.gz]
+[2023-07-28 03:34:44] INFO root fetch - processPackages [bcmd]: Start processing: aioscrapy-redis
+[2023-07-28 03:34:44] INFO root fetch - main [MainThread]: End processing [bcmd]: success
+[2023-07-28 03:34:44] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/5d/9d/2398efc534be1a806373637db31588bc65727faee8d3d4ad1e210310552e/sweetrpg-api-core-0.0.98.tar.gz
+[2023-07-28 03:34:44] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-alconna-0.9.0.tar.gz]
+[2023-07-28 03:34:44] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_alconna-0.9.3.tar.gz]
+[2023-07-28 03:34:44] INFO root fetch - processPackages [nonebot-plugin-alconna]: Start processing: cq23
+[2023-07-28 03:34:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-alconna]: success
+[2023-07-28 03:34:44] INFO root fetch - processPackages [aioscrapy-redis]: New version: [0.2] Old Version: [0.1]
+[2023-07-28 03:34:44] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-28 03:34:44] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230728/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-28 03:34:44] INFO root fetch - processPackages [cq23]: New version: [2.6.0] Old Version: [2.5.0]
+[2023-07-28 03:34:44] INFO root fetch - processPackages [torchqtm]: Downloading https://files.pythonhosted.org/packages/7c/08/ba0ef3fe2a592ee4124d9c2fbfb911de4801b506b13bb076604b176535c8/torchqtm-0.6.0.tar.gz
+[2023-07-28 03:34:44] INFO root fetch - processPackages [django-ocr_translate]: Remove: archive file [/home/abi/fetcher/tmp/django_ocr_translate-0.1.2.tar.gz]
+[2023-07-28 03:34:44] INFO root fetch - processPackages [django-ocr_translate]: Remove: archive file [/home/abi/fetcher/tmp/django_ocr_translate-0.1.3.tar.gz]
+[2023-07-28 03:34:44] INFO root fetch - processPackages [django-ocr_translate]: Start processing: sweetrpg-web-core
+[2023-07-28 03:34:44] INFO root fetch - main [MainThread]: End processing [django-ocr_translate]: success
+[2023-07-28 03:34:44] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-28 03:34:44] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/bf/6c/3cd8f95074a8f63967790523ccf02ffe9aef45c9c675b0a443c0371e8e04/sweetrpg-api-core-0.0.99.tar.gz
+[2023-07-28 03:34:44] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/57/9b/379f8c80b1f147e85749a0578d574bad7ff01bde54d9878f6daed9891e90/cq23-2.5.0.tar.gz
+[2023-07-28 03:34:44] INFO root fetch - processPackages [aioscrapy-redis]: Downloading https://files.pythonhosted.org/packages/db/e4/a27e209a7c022b600922ca623a15047eb19b20e575f9ebbcb9d8b0b7491d/aioscrapy_redis-0.1.tar.gz
+[2023-07-28 03:34:44] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/10/78/7e4ec24c92190fa564c9ba8a1797ccda0c7472064d109da37e0d283f94d2/sweetrpg-web-core-0.0.98.tar.gz
+[2023-07-28 03:34:45] INFO root fetch - processPackages [sweetrpg-api-core]: executing diffoscope
+[2023-07-28 03:34:45] INFO root fetch - processPackages [sweetrpg-api-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-api-core-0.0.98.tar.gz tmp/sweetrpg-api-core-0.0.99.tar.gz --markdown 20230728/s/sweetrpg-api-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-28 03:34:45] INFO root fetch - processPackages [torchqtm]: executing diffoscope
+[2023-07-28 03:34:45] INFO root fetch - processPackages [torchqtm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchqtm-0.5.0.tar.gz tmp/torchqtm-0.6.0.tar.gz --markdown 20230728/t/torchqtm/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-28 03:34:45] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/bd/15/72a761101e501277066578a42896229ae4a254ecf7602e2e15f38b35310d/sweetrpg-web-core-0.0.99.tar.gz
+[2023-07-28 03:34:45] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/3a/f5/465afabbc74c91c703a78172ebbbbfbf4ed0b176b9fc74201784ccd9fbe8/cq23-2.6.0.tar.gz
+[2023-07-28 03:34:45] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202307271690302491-cp39-cp39-win_amd64.whl.zip]
+[2023-07-28 03:34:45] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202307281690302491-cp39-cp39-win_amd64.whl.zip]
+[2023-07-28 03:34:45] INFO root fetch - processPackages [pyagrum-nightly]: Start processing: nbdev-numpy
+[2023-07-28 03:34:45] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-07-28 03:34:45] INFO root fetch - processPackages [aioscrapy-redis]: Downloading https://files.pythonhosted.org/packages/aa/51/b75f6d7f9a4952e1f608f59a97d204c5d2ec7724eb27939a406a9a43b7c6/aioscrapy_redis-0.2.tar.gz
+[2023-07-28 03:34:45] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-28 03:34:45] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-07-28 03:34:45] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230728/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-28 03:34:45] INFO root fetch - processPackages [aioscrapy-redis]: executing diffoscope
+[2023-07-28 03:34:45] INFO root fetch - processPackages [aioscrapy-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioscrapy_redis-0.1.tar.gz tmp/aioscrapy_redis-0.2.tar.gz --markdown 20230728/a/aioscrapy-redis/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-28 03:34:45] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-28 03:34:45] INFO root fetch - processPackages [cq23]: executing diffoscope
+[2023-07-28 03:34:45] INFO root fetch - processPackages [cq23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cq23-2.5.0.tar.gz tmp/cq23-2.6.0.tar.gz --markdown 20230728/c/cq23/2.5.0-2.6.0/diff.md --exclude *.pyd
+[2023-07-28 03:34:45] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-07-28 03:34:45] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-07-28 03:34:45] INFO root fetch - processPackages [cdk-sops-secrets]: Start processing: botocore
+[2023-07-28 03:34:45] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-07-28 03:34:45] INFO root fetch - processPackages [botocore]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-28 03:34:45] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-28 03:34:45] INFO root fetch - processPackages [botocore]: Downloading https://files.pythonhosted.org/packages/cd/01/3bd0656f80c5afb2f0e09f09215178a501191aef9fff0a43b156cf1c9665/botocore-1.9.8.tar.gz
+[2023-07-28 03:34:45] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-28 03:34:45] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230728/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-28 03:34:46] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.15.0-py3-none-any.whl.zip]
+[2023-07-28 03:34:46] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.15.1-py3-none-any.whl.zip]
+[2023-07-28 03:34:46] INFO root fetch - processPackages [radstar]: Start processing: awscli
+[2023-07-28 03:34:46] INFO root fetch - main [MainThread]: End processing [radstar]: success
+[2023-07-28 03:34:46] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-28 03:34:46] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-28 03:34:46] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: boto3
+[2023-07-28 03:34:46] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-28 03:34:46] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.98.tar.gz]
+[2023-07-28 03:34:46] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.99.tar.gz]
+[2023-07-28 03:34:46] INFO root fetch - processPackages [sweetrpg-api-core]: Start processing: clixx
+[2023-07-28 03:34:46] INFO root fetch - main [MainThread]: End processing [sweetrpg-api-core]: success
+[2023-07-28 03:34:46] INFO root fetch - processPackages [boto3]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-07-28 03:34:46] INFO root fetch - processPackages [awscli]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-28 03:34:46] INFO root fetch - processPackages [boto3]: Downloading https://files.pythonhosted.org/packages/95/51/f6788115251e93bb35a56196036aa225060105616d369a2b1a712f537e1e/boto3-1.9.98.tar.gz
+[2023-07-28 03:34:46] INFO root fetch - processPackages [clixx]: New version: [0.9.0a0] Old Version: [0.8.0a0]
+[2023-07-28 03:34:46] INFO root fetch - processPackages [awscli]: Downloading https://files.pythonhosted.org/packages/84/06/782193c5b3720ef9eff21fa2d4c6b7cab72ac635f9865449796fa78e9551/awscli-1.9.8.tar.gz
+[2023-07-28 03:34:46] INFO root fetch - processPackages [botocore]: Downloading https://files.pythonhosted.org/packages/58/63/da4e26f62f9cf5702bb82462ca688961afdf72123f071831ed927b19c7a0/botocore-1.9.9.tar.gz
+[2023-07-28 03:34:46] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.98.tar.gz]
+[2023-07-28 03:34:46] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.99.tar.gz]
+[2023-07-28 03:34:46] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-07-28 03:34:46] INFO root fetch - processPackages [clixx]: Downloading https://files.pythonhosted.org/packages/8f/9d/a7248e03df306c1052552e838be3a29a7fef6777a954c95717fe4bd5b723/clixx-0.8.0a0.tar.gz
+[2023-07-28 03:34:46] INFO root fetch - processPackages [boto3]: Downloading https://files.pythonhosted.org/packages/a4/40/6b6504d54ab9fbb16030052d363568399b7678ac18dc233de23fe7ed1922/boto3-1.9.99.tar.gz
+[2023-07-28 03:34:46] INFO root fetch - processPackages [awscli]: Downloading https://files.pythonhosted.org/packages/03/ae/0ab53e9f7ac1eff217ca8355af05fe5fbdd9fd087e75a7abcda0c9179848/awscli-1.9.9.tar.gz
+[2023-07-28 03:34:46] INFO root fetch - processPackages [aioscrapy-redis]: Remove: archive file [/home/abi/fetcher/tmp/aioscrapy_redis-0.1.tar.gz]
+[2023-07-28 03:34:46] INFO root fetch - processPackages [aioscrapy-redis]: Remove: archive file [/home/abi/fetcher/tmp/aioscrapy_redis-0.2.tar.gz]
+[2023-07-28 03:34:46] INFO root fetch - main [MainThread]: End processing [aioscrapy-redis]: success
+[2023-07-28 03:34:46] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-2.5.0.tar.gz]
+[2023-07-28 03:34:46] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-2.6.0.tar.gz]
+[2023-07-28 03:34:46] INFO root fetch - main [MainThread]: End processing [cq23]: success
+[2023-07-28 03:34:46] INFO root fetch - processPackages [awscli]: executing diffoscope
+[2023-07-28 03:34:46] INFO root fetch - processPackages [awscli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscli-1.9.8.tar.gz tmp/awscli-1.9.9.tar.gz --markdown 20230728/a/awscli/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-28 03:34:46] INFO root fetch - processPackages [boto3]: executing diffoscope
+[2023-07-28 03:34:46] INFO root fetch - processPackages [boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-1.9.98.tar.gz tmp/boto3-1.9.99.tar.gz --markdown 20230728/b/boto3/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-07-28 03:34:46] INFO root fetch - processPackages [botocore]: executing diffoscope
+[2023-07-28 03:34:46] INFO root fetch - processPackages [botocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-1.9.8.tar.gz tmp/botocore-1.9.9.tar.gz --markdown 20230728/b/botocore/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-28 03:34:47] INFO root fetch - processPackages [clixx]: Downloading https://files.pythonhosted.org/packages/b7/9d/94744cc2e2b342962584c14625933706821b98aa3c1c85b8ab882450292e/clixx-0.9.0a0.tar.gz
+[2023-07-28 03:34:47] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-28 03:34:47] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-28 03:34:47] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-28 03:34:47] INFO root fetch - processPackages [clixx]: executing diffoscope
+[2023-07-28 03:34:47] INFO root fetch - processPackages [clixx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clixx-0.8.0a0.tar.gz tmp/clixx-0.9.0a0.tar.gz --markdown 20230728/c/clixx/0.8.0a0-0.9.0a0/diff.md --exclude *.pyd
+[2023-07-28 03:34:47] INFO root fetch - processPackages [torchqtm]: Remove: archive file [/home/abi/fetcher/tmp/torchqtm-0.5.0.tar.gz]
+[2023-07-28 03:34:47] INFO root fetch - processPackages [torchqtm]: Remove: archive file [/home/abi/fetcher/tmp/torchqtm-0.6.0.tar.gz]
+[2023-07-28 03:34:47] INFO root fetch - main [MainThread]: End processing [torchqtm]: success
+[2023-07-28 03:34:48] INFO root fetch - processPackages [boto3]: Remove: archive file [/home/abi/fetcher/tmp/boto3-1.9.98.tar.gz]
+[2023-07-28 03:34:48] INFO root fetch - processPackages [boto3]: Remove: archive file [/home/abi/fetcher/tmp/boto3-1.9.99.tar.gz]
+[2023-07-28 03:34:48] INFO root fetch - main [MainThread]: End processing [boto3]: success
+[2023-07-28 03:34:48] INFO root fetch - processPackages [clixx]: Remove: archive file [/home/abi/fetcher/tmp/clixx-0.8.0a0.tar.gz]
+[2023-07-28 03:34:48] INFO root fetch - processPackages [clixx]: Remove: archive file [/home/abi/fetcher/tmp/clixx-0.9.0a0.tar.gz]
+[2023-07-28 03:34:48] INFO root fetch - main [MainThread]: End processing [clixx]: success
+[2023-07-28 03:34:52] INFO root fetch - processPackages [awscli]: Remove: archive file [/home/abi/fetcher/tmp/awscli-1.9.8.tar.gz]
+[2023-07-28 03:34:52] INFO root fetch - processPackages [awscli]: Remove: archive file [/home/abi/fetcher/tmp/awscli-1.9.9.tar.gz]
+[2023-07-28 03:34:52] INFO root fetch - main [MainThread]: End processing [awscli]: success
+[2023-07-28 03:34:56] INFO root fetch - processPackages [botocore]: Remove: archive file [/home/abi/fetcher/tmp/botocore-1.9.8.tar.gz]
+[2023-07-28 03:34:56] INFO root fetch - processPackages [botocore]: Remove: archive file [/home/abi/fetcher/tmp/botocore-1.9.9.tar.gz]
+[2023-07-28 03:34:56] INFO root fetch - main [MainThread]: End processing [botocore]: success
+[2023-07-28 03:35:11] INFO root fetch - processPackages [pycde]: Remove: archive file [/home/abi/fetcher/tmp/pycde-0.2.1.dev961-cp39-cp39-win_amd64.whl.zip]
+[2023-07-28 03:35:11] INFO root fetch - processPackages [pycde]: Remove: archive file [/home/abi/fetcher/tmp/pycde-0.2.1.dev988-cp39-cp39-win_amd64.whl.zip]
+[2023-07-28 03:35:11] INFO root fetch - main [MainThread]: End processing [pycde]: success
+[2023-07-28 03:35:11] INFO root fetch - main [MainThread]: Store serial: [19070131]
