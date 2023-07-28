@@ -12000,3 +12000,190 @@
 [2023-07-28 05:57:10] INFO root fetch - processPackages [alibabacloud-aiccs20230516-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aiccs20230516_py2-1.0.2.tar.gz]
 [2023-07-28 05:57:10] INFO root fetch - main [MainThread]: End processing [alibabacloud-aiccs20230516-py2]: success
 [2023-07-28 05:57:10] INFO root fetch - main [MainThread]: Store serial: [19071349]
+[2023-07-28 06:02:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19071349]
+[2023-07-28 06:02:21] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-28 06:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foursight-cgap
+[2023-07-28 06:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adafri
+[2023-07-28 06:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foursight
+[2023-07-28 06:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mynacode
+[2023-07-28 06:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-google
+[2023-07-28 06:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-aiccs20230516
+[2023-07-28 06:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aliyun-python-sdk-adb
+[2023-07-28 06:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: evals-nightly
+[2023-07-28 06:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-l10n-es-aeat
+[2023-07-28 06:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-l10n-es-aeat-mod111
+[2023-07-28 06:02:21] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2023-07-28 06:02:21] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-28 06:02:21] INFO root fetch - processPackages [adafri]: New version: [0.0.67] Old Version: [0.0.66]
+[2023-07-28 06:02:21] INFO root fetch - processPackages [alibabacloud-aiccs20230516]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-28 06:02:21] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: New version: [16.0.2.1.2.3] Old Version: [16.0.2.1.2.2]
+[2023-07-28 06:02:21] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230726] Old Version: [1.0.3.dev20230725]
+[2023-07-28 06:02:21] INFO root fetch - processPackages [aliyun-python-sdk-adb]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-28 06:02:21] INFO root fetch - processPackages [foursight-cgap]: New version: [3.6.0.1b3] Old Version: [3.6.0.1b2]
+[2023-07-28 06:02:21] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: New version: [8.0.7] Old Version: [8.0.6]
+[2023-07-28 06:02:21] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-28 06:02:21] INFO root fetch - processPackages [foursight]: New version: [3.6.1.1b3] Old Version: [3.6.1.1b2]
+[2023-07-28 06:02:21] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/72/96/acc667c5dd439c2f2b1049f3cd1bd80bb98dc76744267f5c0aaa9d091d2a/evals-nightly-1.0.3.dev20230725.tar.gz
+[2023-07-28 06:02:21] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: Downloading https://files.pythonhosted.org/packages/98/60/9dc9f2ead455ca6ae47042acd97b4a7064f7637059a1d3144edb82b6ff66/odoo_addon_l10n_es_aeat_mod111-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-28 06:02:21] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/cb/32/d2a89c24f7e8086d9773527c94f9f0f4ed1a6282c0eab2d89808dfcb76f5/foursight-3.6.1.1b2.tar.gz
+[2023-07-28 06:02:22] INFO root fetch - processPackages [alibabacloud-aiccs20230516]: Downloading https://files.pythonhosted.org/packages/b5/eb/e28d98e57e7cd3c25db92ab5962c2b02c2571eeac78c467ea58b3ef245fd/alibabacloud_aiccs20230516-1.0.1.tar.gz
+[2023-07-28 06:02:22] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/b5/35/4f094248151466220f45e59fb6a8560c807a67e66de3bd4d1c4c802ab335/adafri-0.0.66.tar.gz
+[2023-07-28 06:02:22] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/f3/7c/ec552175d8ce2e2f295308a5578de50ee0868f7facfcf75770aa34715778/foursight_cgap-3.6.0.1b2.tar.gz
+[2023-07-28 06:02:22] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-28 06:02:22] INFO root fetch - processPackages [aliyun-python-sdk-adb]: Downloading https://files.pythonhosted.org/packages/59/29/910c9c929e0a14983b2cbb4981588a165b35aea691e31cb7176301fce408/aliyun-python-sdk-adb-1.0.9.tar.gz
+[2023-07-28 06:02:22] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: Downloading https://files.pythonhosted.org/packages/db/3d/f94d3e066b7fe1be5ee31a28e9964d6c84a16bc45d5e4061d21d3d9e9cee/cdktf-cdktf-provider-google-8.0.6.tar.gz
+[2023-07-28 06:02:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Downloading https://files.pythonhosted.org/packages/c1/95/dfd219082d0f487863004f09ffb11d42227e090352f111f717c7edaa4b82/odoo_addon_l10n_es_aeat-16.0.2.1.2.3-py3-none-any.whl
+[2023-07-28 06:02:22] WARNING root fetch - processPackages [cdktf-cdktf-provider-google]: Skipping package: exceeds size limit 20672108>=10485760
+[2023-07-28 06:02:22] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: Start processing: odoo-addon-l10n-es-aeat-mod115
+[2023-07-28 06:02:22] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google] error
+[2023-07-28 06:02:22] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-28 06:02:22] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230728/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-28 06:02:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2023-07-28 06:02:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: Downloading https://files.pythonhosted.org/packages/48/82/931f39b8b5de80ca81cefba630444220613c2bc4090334868b98a360f385/odoo_addon_l10n_es_aeat_mod111-16.0.1.0.0.7-py3-none-any.whl
+[2023-07-28 06:02:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: executing diffoscope
+[2023-07-28 06:02:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat-16.0.2.1.2.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat-16.0.2.1.2.3-py3-none-any.whl.zip --markdown 20230728/o/odoo-addon-l10n-es-aeat/16.0.2.1.2.2-16.0.2.1.2.3/diff.md --exclude *.pyd
+[2023-07-28 06:02:22] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/db/eb/aa27c0356085573d87b4c8184fe3c992ab1849e5730806b545a4f4caa66c/evals-nightly-1.0.3.dev20230726.tar.gz
+[2023-07-28 06:02:22] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/dd/3b/60b393c72008ded6c13f8fa25d905b30d182efb40868957ebb39825141f8/foursight-3.6.1.1b3.tar.gz
+[2023-07-28 06:02:22] INFO root fetch - processPackages [alibabacloud-aiccs20230516]: Downloading https://files.pythonhosted.org/packages/7f/cd/db3387c826d980f1f04bf1b315dde64e85be8703b8b9330c1d0667c38c21/alibabacloud_aiccs20230516-1.0.2.tar.gz
+[2023-07-28 06:02:22] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/d6/28/5c70b6049dac101241972a7944420b367bade830ef59a0cb87a03e55e556/adafri-0.0.67.tar.gz
+[2023-07-28 06:02:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: executing diffoscope
+[2023-07-28 06:02:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod111-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod111-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230728/o/odoo-addon-l10n-es-aeat-mod111/16.0.1.0.0.6-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-07-28 06:02:22] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/f9/a0/e8cff0399439f40998e982f2733c497e3529c15ee87e0868c1ed0b93f9e7/foursight_cgap-3.6.0.1b3.tar.gz
+[2023-07-28 06:02:22] INFO root fetch - processPackages [aliyun-python-sdk-adb]: Downloading https://files.pythonhosted.org/packages/2d/5e/f9325b169c31379ad307c3c4eb305050dd990354866b014b3ee22a168f11/aliyun-python-sdk-adb-1.1.0.tar.gz
+[2023-07-28 06:02:22] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-07-28 06:02:22] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230725.tar.gz tmp/evals-nightly-1.0.3.dev20230726.tar.gz --markdown 20230728/e/evals-nightly/1.0.3.dev20230725-1.0.3.dev20230726/diff.md --exclude *.pyd
+[2023-07-28 06:02:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: Downloading https://files.pythonhosted.org/packages/15/d1/36bfd8fbcf123642201b02c87f8fa1cafe4b91d03c4f8114cc344eefaa72/odoo_addon_l10n_es_aeat_mod115-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-28 06:02:22] INFO root fetch - processPackages [alibabacloud-aiccs20230516]: executing diffoscope
+[2023-07-28 06:02:22] INFO root fetch - processPackages [alibabacloud-aiccs20230516]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aiccs20230516-1.0.1.tar.gz tmp/alibabacloud_aiccs20230516-1.0.2.tar.gz --markdown 20230728/a/alibabacloud-aiccs20230516/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-28 06:02:22] INFO root fetch - processPackages [aliyun-python-sdk-adb]: executing diffoscope
+[2023-07-28 06:02:22] INFO root fetch - processPackages [aliyun-python-sdk-adb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-adb-1.0.9.tar.gz tmp/aliyun-python-sdk-adb-1.1.0.tar.gz --markdown 20230728/a/aliyun-python-sdk-adb/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-07-28 06:02:22] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-28 06:02:22] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.66.tar.gz tmp/adafri-0.0.67.tar.gz --markdown 20230728/a/adafri/0.0.66-0.0.67/diff.md --exclude *.pyd
+[2023-07-28 06:02:22] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-07-28 06:02:22] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.6.0.1b2.tar.gz tmp/foursight_cgap-3.6.0.1b3.tar.gz --markdown 20230728/f/foursight-cgap/3.6.0.1b2-3.6.0.1b3/diff.md --exclude *.pyd
+[2023-07-28 06:02:22] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-07-28 06:02:22] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.6.1.1b2.tar.gz tmp/foursight-3.6.1.1b3.tar.gz --markdown 20230728/f/foursight/3.6.1.1b2-3.6.1.1b3/diff.md --exclude *.pyd
+[2023-07-28 06:02:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: Downloading https://files.pythonhosted.org/packages/5f/c5/8ea1bff5e5b15c99ab041678237889b2ccfd2774c7ac68ece1bc3712e54f/odoo_addon_l10n_es_aeat_mod115-16.0.1.0.0.7-py3-none-any.whl
+[2023-07-28 06:02:23] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: executing diffoscope
+[2023-07-28 06:02:23] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod115-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod115-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230728/o/odoo-addon-l10n-es-aeat-mod115/16.0.1.0.0.6-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-07-28 06:02:23] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-28 06:02:23] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-28 06:02:23] INFO root fetch - processPackages [mynacode]: Start processing: odoo-addon-l10n-es-aeat-mod347
+[2023-07-28 06:02:23] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-28 06:02:23] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: New version: [16.0.1.5.0.2] Old Version: [16.0.1.5.0.1]
+[2023-07-28 06:02:23] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Downloading https://files.pythonhosted.org/packages/af/83/f038c5e2f8dcf471e2ed3392d1e4d88fdbce7e3d4622e4c93f0fd5be0a4d/odoo_addon_l10n_es_aeat_mod347-16.0.1.5.0.1-py3-none-any.whl
+[2023-07-28 06:02:24] INFO root fetch - processPackages [alibabacloud-aiccs20230516]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aiccs20230516-1.0.1.tar.gz]
+[2023-07-28 06:02:24] INFO root fetch - processPackages [alibabacloud-aiccs20230516]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aiccs20230516-1.0.2.tar.gz]
+[2023-07-28 06:02:24] INFO root fetch - processPackages [alibabacloud-aiccs20230516]: Start processing: foursight-cgap
+[2023-07-28 06:02:24] INFO root fetch - main [MainThread]: End processing [alibabacloud-aiccs20230516]: success
+[2023-07-28 06:02:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Downloading https://files.pythonhosted.org/packages/e5/8f/a65b121a8c2f2c7d00eff462cb826793606c8a827d90e7068c7020b99a78/odoo_addon_l10n_es_aeat_mod347-16.0.1.5.0.2-py3-none-any.whl
+[2023-07-28 06:02:24] INFO root fetch - processPackages [foursight-cgap]: New version: [3.6.0.1b3] Old Version: [3.6.0.1b2]
+[2023-07-28 06:02:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat-16.0.2.1.2.2-py3-none-any.whl.zip]
+[2023-07-28 06:02:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat-16.0.2.1.2.3-py3-none-any.whl.zip]
+[2023-07-28 06:02:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Start processing: odoo-addon-l10n-es-aeat-mod303
+[2023-07-28 06:02:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat]: success
+[2023-07-28 06:02:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: New version: [16.0.2.3.0.5] Old Version: [16.0.2.3.0.4]
+[2023-07-28 06:02:24] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.6.0.1b2.tar.gz]
+[2023-07-28 06:02:24] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.6.0.1b3.tar.gz]
+[2023-07-28 06:02:24] INFO root fetch - processPackages [foursight-cgap]: Start processing: hojichar
+[2023-07-28 06:02:24] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-07-28 06:02:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: executing diffoscope
+[2023-07-28 06:02:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.5.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.5.0.2-py3-none-any.whl.zip --markdown 20230728/o/odoo-addon-l10n-es-aeat-mod347/16.0.1.5.0.1-16.0.1.5.0.2/diff.md --exclude *.pyd
+[2023-07-28 06:02:24] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/f9/a0/e8cff0399439f40998e982f2733c497e3529c15ee87e0868c1ed0b93f9e7/foursight_cgap-3.6.0.1b3.tar.gz
+[2023-07-28 06:02:24] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.6.1.1b2.tar.gz]
+[2023-07-28 06:02:24] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.6.1.1b3.tar.gz]
+[2023-07-28 06:02:24] INFO root fetch - processPackages [foursight]: Start processing: foursight
+[2023-07-28 06:02:24] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-07-28 06:02:24] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.66.tar.gz]
+[2023-07-28 06:02:24] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.67.tar.gz]
+[2023-07-28 06:02:24] INFO root fetch - processPackages [adafri]: Start processing: odoo-addon-l10n-es-aeat-mod390
+[2023-07-28 06:02:24] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-28 06:02:24] INFO root fetch - processPackages [hojichar]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-07-28 06:02:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: New version: [16.0.2.2.0.4] Old Version: [16.0.2.2.0.3]
+[2023-07-28 06:02:24] INFO root fetch - processPackages [foursight]: New version: [3.6.1.1b3] Old Version: [3.6.1.1b2]
+[2023-07-28 06:02:24] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-07-28 06:02:24] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.6.0.1b2.tar.gz tmp/foursight_cgap-3.6.0.1b3.tar.gz --markdown 20230728/f/foursight-cgap/3.6.0.1b2-3.6.0.1b3/diff.md --exclude *.pyd
+[2023-07-28 06:02:24] INFO root fetch - processPackages [hojichar]: Downloading https://files.pythonhosted.org/packages/65/23/efaae0a24289a2e906bfa5577362a19167fb993beb29cbea51d6d8cff2e8/hojichar-0.6.1.tar.gz
+[2023-07-28 06:02:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod111-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-28 06:02:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod111-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-07-28 06:02:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: Start processing: pydflow
+[2023-07-28 06:02:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod111]: success
+[2023-07-28 06:02:24] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/cb/32/d2a89c24f7e8086d9773527c94f9f0f4ed1a6282c0eab2d89808dfcb76f5/foursight-3.6.1.1b2.tar.gz
+[2023-07-28 06:02:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod115-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-28 06:02:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod115-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-07-28 06:02:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: Start processing: odoo-addon-l10n-es-aeat-mod349
+[2023-07-28 06:02:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod115]: success
+[2023-07-28 06:02:24] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-28 06:02:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: New version: [16.0.1.1.0.4] Old Version: [16.0.1.1.0.3]
+[2023-07-28 06:02:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: Downloading https://files.pythonhosted.org/packages/f5/34/2b9a8c698cec853c8e06b31249ab625b3e47119f78dc6cda8d675128b067/odoo_addon_l10n_es_aeat_mod390-16.0.2.2.0.3-py3-none-any.whl
+[2023-07-28 06:02:24] INFO root fetch - processPackages [aliyun-python-sdk-adb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-adb-1.0.9.tar.gz]
+[2023-07-28 06:02:24] INFO root fetch - processPackages [aliyun-python-sdk-adb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-adb-1.1.0.tar.gz]
+[2023-07-28 06:02:24] INFO root fetch - processPackages [aliyun-python-sdk-adb]: Start processing: hatch-ci
+[2023-07-28 06:02:24] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-adb]: success
+[2023-07-28 06:02:24] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-07-28 06:02:25] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/dd/3b/60b393c72008ded6c13f8fa25d905b30d182efb40868957ebb39825141f8/foursight-3.6.1.1b3.tar.gz
+[2023-07-28 06:02:25] INFO root fetch - processPackages [hatch-ci]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-28 06:02:25] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: Downloading https://files.pythonhosted.org/packages/04/b7/fe5848bc9c9fe8e18faf9f0e7bdd498a1fd70a0abcc3081005dd24088e98/odoo_addon_l10n_es_aeat_mod349-16.0.1.1.0.3-py3-none-any.whl
+[2023-07-28 06:02:25] INFO root fetch - processPackages [hojichar]: Downloading https://files.pythonhosted.org/packages/41/5e/cdfcf1820f46c9b9faf0fd6f5390daed420d3fbc70c19b25147e650f7b88/hojichar-0.7.0.tar.gz
+[2023-07-28 06:02:25] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: Downloading https://files.pythonhosted.org/packages/27/67/189e67c8a212b244f9e936a57c6a7807d0775dca752d7f960d1b03694eca/odoo_addon_l10n_es_aeat_mod303-16.0.2.3.0.4-py3-none-any.whl
+[2023-07-28 06:02:25] ERROR root fetch - processPackages [foursight-cgap]: Diffoscope failed: time="2023-07-28T06:02:24+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/foursight_cgap-3.6.0.1b2.tar.gz: No such file or directory
+
+[2023-07-28 06:02:25] INFO root fetch - processPackages [foursight-cgap]: Start processing: mynacode
+[2023-07-28 06:02:25] INFO root fetch - main [MainThread]: End processing [foursight-cgap] error
+[2023-07-28 06:02:25] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-07-28 06:02:25] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.6.1.1b2.tar.gz tmp/foursight-3.6.1.1b3.tar.gz --markdown 20230728/f/foursight/3.6.1.1b2-3.6.1.1b3/diff.md --exclude *.pyd
+[2023-07-28 06:02:25] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-28 06:02:25] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-07-28 06:02:25] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/d8/30/0a8b20fa2e995f41a39fb18c40bc7eb5ae3395173acfdc7083ae853126ce/hatch_ci-0.0.0.tar.gz
+[2023-07-28 06:02:25] INFO root fetch - processPackages [hojichar]: executing diffoscope
+[2023-07-28 06:02:25] INFO root fetch - processPackages [hojichar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hojichar-0.6.1.tar.gz tmp/hojichar-0.7.0.tar.gz --markdown 20230728/h/hojichar/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-07-28 06:02:25] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-28 06:02:25] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230725.tar.gz]
+[2023-07-28 06:02:25] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230726.tar.gz]
+[2023-07-28 06:02:25] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-07-28 06:02:25] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-07-28 06:02:25] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230728/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-28 06:02:25] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: Downloading https://files.pythonhosted.org/packages/e8/34/77e54ffe4dda320249302909a9194daef311e58f091387e344fbfe90c81d/odoo_addon_l10n_es_aeat_mod390-16.0.2.2.0.4-py3-none-any.whl
+[2023-07-28 06:02:25] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: Downloading https://files.pythonhosted.org/packages/12/a1/6a16f87c1c3d9916b5b7d7cfce55b7a6327edaeddf82852450d6981f3598/odoo_addon_l10n_es_aeat_mod349-16.0.1.1.0.4-py3-none-any.whl
+[2023-07-28 06:02:25] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-28 06:02:25] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/32/e5/c56422e7810f879b42e5a02afd9faa8935f4b0877e871ff44688d4566919/hatch_ci-0.0.1.tar.gz
+[2023-07-28 06:02:25] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-28 06:02:25] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230728/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-28 06:02:25] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.5.0.1-py3-none-any.whl.zip]
+[2023-07-28 06:02:25] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.5.0.2-py3-none-any.whl.zip]
+[2023-07-28 06:02:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod347]: success
+[2023-07-28 06:02:25] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: Downloading https://files.pythonhosted.org/packages/28/bb/bd7d62fc70d0282a098276141b2f88bf92d25aac86d2cf32ad009400b3a6/odoo_addon_l10n_es_aeat_mod303-16.0.2.3.0.5-py3-none-any.whl
+[2023-07-28 06:02:25] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: executing diffoscope
+[2023-07-28 06:02:25] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod349-16.0.1.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod349-16.0.1.1.0.4-py3-none-any.whl.zip --markdown 20230728/o/odoo-addon-l10n-es-aeat-mod349/16.0.1.1.0.3-16.0.1.1.0.4/diff.md --exclude *.pyd
+[2023-07-28 06:02:25] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: executing diffoscope
+[2023-07-28 06:02:25] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod390-16.0.2.2.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod390-16.0.2.2.0.4-py3-none-any.whl.zip --markdown 20230728/o/odoo-addon-l10n-es-aeat-mod390/16.0.2.2.0.3-16.0.2.2.0.4/diff.md --exclude *.pyd
+[2023-07-28 06:02:25] INFO root fetch - processPackages [hatch-ci]: executing diffoscope
+[2023-07-28 06:02:25] INFO root fetch - processPackages [hatch-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_ci-0.0.0.tar.gz tmp/hatch_ci-0.0.1.tar.gz --markdown 20230728/h/hatch-ci/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-28 06:02:26] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: executing diffoscope
+[2023-07-28 06:02:26] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod303-16.0.2.3.0.4-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod303-16.0.2.3.0.5-py3-none-any.whl.zip --markdown 20230728/o/odoo-addon-l10n-es-aeat-mod303/16.0.2.3.0.4-16.0.2.3.0.5/diff.md --exclude *.pyd
+[2023-07-28 06:02:26] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.6.1.1b2.tar.gz]
+[2023-07-28 06:02:26] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.6.1.1b3.tar.gz]
+[2023-07-28 06:02:26] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-07-28 06:02:26] INFO root fetch - processPackages [hojichar]: Remove: archive file [/home/abi/fetcher/tmp/hojichar-0.6.1.tar.gz]
+[2023-07-28 06:02:26] INFO root fetch - processPackages [hojichar]: Remove: archive file [/home/abi/fetcher/tmp/hojichar-0.7.0.tar.gz]
+[2023-07-28 06:02:26] INFO root fetch - main [MainThread]: End processing [hojichar]: success
+[2023-07-28 06:02:26] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-28 06:02:26] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-28 06:02:26] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-28 06:02:26] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-07-28 06:02:26] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-07-28 06:02:26] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-07-28 06:02:27] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod349-16.0.1.1.0.3-py3-none-any.whl.zip]
+[2023-07-28 06:02:27] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod349-16.0.1.1.0.4-py3-none-any.whl.zip]
+[2023-07-28 06:02:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod349]: success
+[2023-07-28 06:02:27] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.0.tar.gz]
+[2023-07-28 06:02:27] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.1.tar.gz]
+[2023-07-28 06:02:27] INFO root fetch - main [MainThread]: End processing [hatch-ci]: success
+[2023-07-28 06:02:27] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod390-16.0.2.2.0.3-py3-none-any.whl.zip]
+[2023-07-28 06:02:27] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod390-16.0.2.2.0.4-py3-none-any.whl.zip]
+[2023-07-28 06:02:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod390]: success
+[2023-07-28 06:02:27] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod303-16.0.2.3.0.4-py3-none-any.whl.zip]
+[2023-07-28 06:02:27] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod303-16.0.2.3.0.5-py3-none-any.whl.zip]
+[2023-07-28 06:02:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod303]: success
+[2023-07-28 06:02:27] INFO root fetch - main [MainThread]: Store serial: [19071406]
