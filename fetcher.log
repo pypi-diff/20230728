@@ -21708,3 +21708,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 13:30:00] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2023-07-28 13:30:00] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2023-07-28 13:30:00] INFO root fetch - main [MainThread]: Store serial: [19074865]
+[2023-07-28 13:35:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19074865]
+[2023-07-28 13:35:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-28 13:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-aap
+[2023-07-28 13:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: key-stroke
+[2023-07-28 13:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kili
+[2023-07-28 13:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: work
+[2023-07-28 13:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wwpdb.apps.ann-tasks-v2
+[2023-07-28 13:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: az-image-converter
+[2023-07-28 13:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bamt
+[2023-07-28 13:35:09] INFO root fetch - processPackages [work]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-28 13:35:09] WARNING root fetch - processPackages [az-image-converter]: Skipping, unable to determine old version
+[2023-07-28 13:35:09] INFO root fetch - main [MainThread]: End processing [az-image-converter] error
+[2023-07-28 13:35:09] WARNING root fetch - processPackages [key-stroke]: Skipping, unable to determine old version
+[2023-07-28 13:35:09] INFO root fetch - main [MainThread]: End processing [key-stroke] error
+[2023-07-28 13:35:09] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: New version: [0.34] Old Version: [0.33.3]
+[2023-07-28 13:35:09] INFO root fetch - processPackages [python-aap]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-28 13:35:09] INFO root fetch - processPackages [bamt]: New version: [1.1.44] Old Version: [1.1.41]
+[2023-07-28 13:35:09] INFO root fetch - processPackages [kili]: New version: [2.99.0] Old Version: [2.98.0]
+[2023-07-28 13:35:10] INFO root fetch - processPackages [work]: Downloading https://files.pythonhosted.org/packages/85/ed/afc5a21a54dbebb0631a3bcc56e392348cf2451df6837dbe2ac74ad059a7/work-1.0.1.tar.gz
+[2023-07-28 13:35:10] INFO root fetch - processPackages [python-aap]: Downloading https://files.pythonhosted.org/packages/b9/c9/d20bccfead3485d0f4ebe3a94e9a652a49460215d95a3d62a4fb050507df/python_aap-0.0.1.tar.gz
+[2023-07-28 13:35:10] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/82/1a/9d8d62f4db71c0c98f2af8101e21f42133a2335a53ea5acb86d49e0afcce/kili-2.98.0.tar.gz
+[2023-07-28 13:35:10] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: Downloading https://files.pythonhosted.org/packages/15/b3/b04e3e80eb80bfe4cd627c819b651508de49a61a8eca5ff54a272d4256be/wwpdb.apps.ann_tasks_v2-0.33.3.tar.gz
+[2023-07-28 13:35:10] INFO root fetch - processPackages [bamt]: Downloading https://files.pythonhosted.org/packages/20/de/53c10713a64917c726b07123ba6d7e6e1275096f8df9a15a4e820438958c/bamt-1.1.41.tar.gz
+[2023-07-28 13:35:10] INFO root fetch - processPackages [python-aap]: Downloading https://files.pythonhosted.org/packages/89/b2/8fc623cddf0686260770ade0dfe84c79dabd5c36acd725c6a5e9155061aa/python_aap-0.0.2.tar.gz
+[2023-07-28 13:35:10] INFO root fetch - processPackages [work]: Downloading https://files.pythonhosted.org/packages/10/48/e8296b57c2c5127f252337c24cda025ef7cd3d387404b2653d896dbde711/work-1.0.2.tar.gz
+[2023-07-28 13:35:10] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: Downloading https://files.pythonhosted.org/packages/b8/7b/47dfe86b6bc7748257a986ab2f656bae2ad9717a6d22bc9668fbe4ca40e1/wwpdb.apps.ann_tasks_v2-0.34.tar.gz
+[2023-07-28 13:35:10] INFO root fetch - processPackages [bamt]: Downloading https://files.pythonhosted.org/packages/24/17/e56fe22d54d99c91c7ea1f48360248c5af27ac652813abfa71ec4a410c7e/bamt-1.1.44.tar.gz
+[2023-07-28 13:35:10] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/29/0e/34477795c404b4be48b4e400c823732c9e2857d5f305bbbdbc8203e0ec17/kili-2.99.0.tar.gz
+[2023-07-28 13:35:10] INFO root fetch - processPackages [python-aap]: executing diffoscope
+[2023-07-28 13:35:10] INFO root fetch - processPackages [python-aap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_aap-0.0.1.tar.gz tmp/python_aap-0.0.2.tar.gz --markdown 20230728/p/python-aap/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-28 13:35:10] INFO root fetch - processPackages [work]: executing diffoscope
+[2023-07-28 13:35:10] INFO root fetch - processPackages [work]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/work-1.0.1.tar.gz tmp/work-1.0.2.tar.gz --markdown 20230728/w/work/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-28 13:35:10] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: executing diffoscope
+[2023-07-28 13:35:10] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.apps.ann_tasks_v2-0.33.3.tar.gz tmp/wwpdb.apps.ann_tasks_v2-0.34.tar.gz --markdown 20230728/w/wwpdb.apps.ann-tasks-v2/0.33.3-0.34/diff.md --exclude *.pyd
+[2023-07-28 13:35:10] INFO root fetch - processPackages [bamt]: executing diffoscope
+[2023-07-28 13:35:10] INFO root fetch - processPackages [bamt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bamt-1.1.41.tar.gz tmp/bamt-1.1.44.tar.gz --markdown 20230728/b/bamt/1.1.41-1.1.44/diff.md --exclude *.pyd
+[2023-07-28 13:35:10] INFO root fetch - processPackages [kili]: executing diffoscope
+[2023-07-28 13:35:10] INFO root fetch - processPackages [kili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kili-2.98.0.tar.gz tmp/kili-2.99.0.tar.gz --markdown 20230728/k/kili/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2023-07-28 13:35:11] INFO root fetch - processPackages [work]: Remove: archive file [/home/abi/fetcher/tmp/work-1.0.1.tar.gz]
+[2023-07-28 13:35:11] INFO root fetch - processPackages [work]: Remove: archive file [/home/abi/fetcher/tmp/work-1.0.2.tar.gz]
+[2023-07-28 13:35:11] INFO root fetch - main [MainThread]: End processing [work]: success
+[2023-07-28 13:35:11] INFO root fetch - processPackages [python-aap]: Remove: archive file [/home/abi/fetcher/tmp/python_aap-0.0.1.tar.gz]
+[2023-07-28 13:35:11] INFO root fetch - processPackages [python-aap]: Remove: archive file [/home/abi/fetcher/tmp/python_aap-0.0.2.tar.gz]
+[2023-07-28 13:35:11] INFO root fetch - main [MainThread]: End processing [python-aap]: success
+[2023-07-28 13:35:11] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.98.0.tar.gz]
+[2023-07-28 13:35:11] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.99.0.tar.gz]
+[2023-07-28 13:35:11] INFO root fetch - main [MainThread]: End processing [kili]: success
+[2023-07-28 13:35:11] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.ann_tasks_v2-0.33.3.tar.gz]
+[2023-07-28 13:35:11] INFO root fetch - processPackages [wwpdb.apps.ann-tasks-v2]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.ann_tasks_v2-0.34.tar.gz]
+[2023-07-28 13:35:11] INFO root fetch - main [MainThread]: End processing [wwpdb.apps.ann-tasks-v2]: success
+[2023-07-28 13:35:12] INFO root fetch - processPackages [bamt]: Remove: archive file [/home/abi/fetcher/tmp/bamt-1.1.41.tar.gz]
+[2023-07-28 13:35:12] INFO root fetch - processPackages [bamt]: Remove: archive file [/home/abi/fetcher/tmp/bamt-1.1.44.tar.gz]
+[2023-07-28 13:35:12] INFO root fetch - main [MainThread]: End processing [bamt]: success
+[2023-07-28 13:35:12] INFO root fetch - main [MainThread]: Store serial: [19074894]
