@@ -1,0 +1,832 @@
+# Comparing `tmp/fastapi_authlib-0.0.4.tar.gz` & `tmp/fastapi_authlib-0.0.4a1.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "fastapi_authlib-0.0.4.tar", max compression
++gzip compressed data, was "fastapi_authlib-0.0.4a1.tar", max compression
+```
+
+## Comparing `fastapi_authlib-0.0.4.tar` & `fastapi_authlib-0.0.4a1.tar`
+
+### file list
+
+```diff
+@@ -1,44 +1,43 @@
+--rw-r--r--   0        0        0     1097 2023-05-25 09:49:48.758784 fastapi_authlib-0.0.4/LICENSE
+--rw-r--r--   0        0        0     1903 2023-07-28 10:42:35.763783 fastapi_authlib-0.0.4/pyproject.toml
+--rw-r--r--   0        0        0     3676 2023-07-28 06:34:50.084730 fastapi_authlib-0.0.4/README.md
+--rw-r--r--   0        0        0       36 2023-07-28 10:42:35.783064 fastapi_authlib-0.0.4/src/fastapi_authlib/__init__.py
+--rw-r--r--   0        0        0     3313 2023-05-25 09:49:48.762785 fastapi_authlib-0.0.4/src/fastapi_authlib/alembic/alembic.ini
+--rw-r--r--   0        0        0     2794 2023-05-25 09:49:48.763786 fastapi_authlib-0.0.4/src/fastapi_authlib/alembic/env.py
+--rw-r--r--   0        0        0       38 2023-05-25 09:49:48.762785 fastapi_authlib-0.0.4/src/fastapi_authlib/alembic/README
+--rw-r--r--   0        0        0      534 2023-05-25 09:49:48.763786 fastapi_authlib-0.0.4/src/fastapi_authlib/alembic/script.py.mako
+--rw-r--r--   0        0        0     3390 2023-05-25 09:49:48.764785 fastapi_authlib-0.0.4/src/fastapi_authlib/alembic/versions/a55b1fb4f129_init_database.py
+--rw-r--r--   0        0        0      298 2023-07-28 05:55:20.666180 fastapi_authlib-0.0.4/src/fastapi_authlib/config/__init__.py
+--rw-r--r--   0        0        0      264 2023-07-28 08:24:17.545746 fastapi_authlib-0.0.4/src/fastapi_authlib/config/settings.yml
+--rw-r--r--   0        0        0       15 2023-07-28 06:53:47.009372 fastapi_authlib-0.0.4/src/fastapi_authlib/messages/__init__.py
+--rw-r--r--   0        0        0      219 2023-05-25 09:49:48.765787 fastapi_authlib-0.0.4/src/fastapi_authlib/messages/base.py
+--rw-r--r--   0        0        0      236 2023-05-25 09:49:48.765787 fastapi_authlib-0.0.4/src/fastapi_authlib/messages/user.py
+--rw-r--r--   0        0        0     2906 2023-05-25 09:49:48.766785 fastapi_authlib-0.0.4/src/fastapi_authlib/models.py
+--rw-r--r--   0        0        0     3542 2023-07-28 06:06:00.028011 fastapi_authlib-0.0.4/src/fastapi_authlib/oidc.py
+--rw-r--r--   0        0        0       17 2023-07-28 06:53:46.941374 fastapi_authlib-0.0.4/src/fastapi_authlib/repository/__init__.py
+--rw-r--r--   0        0        0     5347 2023-07-28 06:53:46.989373 fastapi_authlib-0.0.4/src/fastapi_authlib/repository/base.py
+--rw-r--r--   0        0        0      767 2023-07-28 06:53:47.054373 fastapi_authlib-0.0.4/src/fastapi_authlib/repository/group.py
+--rw-r--r--   0        0        0      953 2023-07-28 03:20:37.301648 fastapi_authlib-0.0.4/src/fastapi_authlib/repository/group_user_map.py
+--rw-r--r--   0        0        0     1121 2023-05-25 09:49:48.768786 fastapi_authlib-0.0.4/src/fastapi_authlib/repository/session.py
+--rw-r--r--   0        0        0      751 2023-07-28 06:53:47.075778 fastapi_authlib-0.0.4/src/fastapi_authlib/repository/user.py
+--rw-r--r--   0        0        0       23 2023-05-25 09:49:48.768786 fastapi_authlib-0.0.4/src/fastapi_authlib/rest_api/__init__.py
+--rw-r--r--   0        0        0      799 2023-05-25 09:49:48.769785 fastapi_authlib-0.0.4/src/fastapi_authlib/rest_api/handler/__init__.py
+--rw-r--r--   0        0        0     1404 2023-05-25 09:49:48.769785 fastapi_authlib-0.0.4/src/fastapi_authlib/rest_api/handler/exception_handlers.py
+--rw-r--r--   0        0        0       13 2023-05-25 09:49:48.769785 fastapi_authlib-0.0.4/src/fastapi_authlib/rest_api/routers/__init__.py
+--rw-r--r--   0        0        0     1123 2023-07-28 10:38:24.123842 fastapi_authlib-0.0.4/src/fastapi_authlib/rest_api/routers/login.py
+--rw-r--r--   0        0        0      621 2023-07-26 03:57:56.924608 fastapi_authlib-0.0.4/src/fastapi_authlib/rest_api/routers/logout.py
+--rw-r--r--   0        0        0      489 2023-07-28 03:20:21.991250 fastapi_authlib-0.0.4/src/fastapi_authlib/rest_api/routers/user.py
+--rw-r--r--   0        0        0        0 2023-05-25 09:49:48.771784 fastapi_authlib-0.0.4/src/fastapi_authlib/schemas/__init__.py
+--rw-r--r--   0        0        0      385 2023-05-25 09:49:48.771784 fastapi_authlib-0.0.4/src/fastapi_authlib/schemas/base.py
+--rw-r--r--   0        0        0      504 2023-05-25 09:49:48.771784 fastapi_authlib-0.0.4/src/fastapi_authlib/schemas/group.py
+--rw-r--r--   0        0        0      597 2023-05-25 09:49:48.771784 fastapi_authlib-0.0.4/src/fastapi_authlib/schemas/group_user_map.py
+--rw-r--r--   0        0        0     1011 2023-05-25 09:49:48.772785 fastapi_authlib-0.0.4/src/fastapi_authlib/schemas/session.py
+--rw-r--r--   0        0        0      394 2023-07-28 10:44:32.491209 fastapi_authlib-0.0.4/src/fastapi_authlib/schemas/token.py
+--rw-r--r--   0        0        0      684 2023-05-25 09:49:48.772785 fastapi_authlib-0.0.4/src/fastapi_authlib/schemas/user.py
+--rw-r--r--   0        0        0      102 2023-05-25 09:49:48.772785 fastapi_authlib-0.0.4/src/fastapi_authlib/services/__init__.py
+--rw-r--r--   0        0        0     9840 2023-07-28 10:30:36.225789 fastapi_authlib-0.0.4/src/fastapi_authlib/services/auth.py
+--rw-r--r--   0        0        0     3882 2023-05-25 09:49:48.773785 fastapi_authlib-0.0.4/src/fastapi_authlib/services/base.py
+--rw-r--r--   0        0        0     1384 2023-07-28 10:28:17.856167 fastapi_authlib-0.0.4/src/fastapi_authlib/utils/__init__.py
+--rw-r--r--   0        0        0     2620 2023-07-28 10:38:24.100459 fastapi_authlib-0.0.4/src/fastapi_authlib/utils/auth_dependency.py
+--rw-r--r--   0        0        0      870 2023-05-25 09:49:48.775786 fastapi_authlib-0.0.4/src/fastapi_authlib/utils/exceptions.py
+--rw-r--r--   0        0        0      425 2023-07-28 06:41:28.199278 fastapi_authlib-0.0.4/src/fastapi_authlib/utils/types.py
+--rw-r--r--   0        0        0     4665 1970-01-01 00:00:00.000000 fastapi_authlib-0.0.4/PKG-INFO
++-rw-r--r--   0        0        0     1097 2023-05-25 09:49:48.758784 fastapi_authlib-0.0.4a1/LICENSE
++-rw-r--r--   0        0        0     2008 2023-07-28 08:24:17.564547 fastapi_authlib-0.0.4a1/pyproject.toml
++-rw-r--r--   0        0        0     3676 2023-07-28 06:34:50.084730 fastapi_authlib-0.0.4a1/README.md
++-rw-r--r--   0        0        0       46 2023-07-28 08:24:17.565087 fastapi_authlib-0.0.4a1/src/fastapi_authlib/__init__.py
++-rw-r--r--   0        0        0     3313 2023-05-25 09:49:48.762785 fastapi_authlib-0.0.4a1/src/fastapi_authlib/alembic/alembic.ini
++-rw-r--r--   0        0        0     2794 2023-05-25 09:49:48.763786 fastapi_authlib-0.0.4a1/src/fastapi_authlib/alembic/env.py
++-rw-r--r--   0        0        0       38 2023-05-25 09:49:48.762785 fastapi_authlib-0.0.4a1/src/fastapi_authlib/alembic/README
++-rw-r--r--   0        0        0      534 2023-05-25 09:49:48.763786 fastapi_authlib-0.0.4a1/src/fastapi_authlib/alembic/script.py.mako
++-rw-r--r--   0        0        0     3390 2023-05-25 09:49:48.764785 fastapi_authlib-0.0.4a1/src/fastapi_authlib/alembic/versions/a55b1fb4f129_init_database.py
++-rw-r--r--   0        0        0      298 2023-07-28 05:55:20.666180 fastapi_authlib-0.0.4a1/src/fastapi_authlib/config/__init__.py
++-rw-r--r--   0        0        0      264 2023-07-28 08:24:17.545746 fastapi_authlib-0.0.4a1/src/fastapi_authlib/config/settings.yml
++-rw-r--r--   0        0        0       15 2023-07-28 06:53:47.009372 fastapi_authlib-0.0.4a1/src/fastapi_authlib/messages/__init__.py
++-rw-r--r--   0        0        0      219 2023-05-25 09:49:48.765787 fastapi_authlib-0.0.4a1/src/fastapi_authlib/messages/base.py
++-rw-r--r--   0        0        0      236 2023-05-25 09:49:48.765787 fastapi_authlib-0.0.4a1/src/fastapi_authlib/messages/user.py
++-rw-r--r--   0        0        0     2906 2023-05-25 09:49:48.766785 fastapi_authlib-0.0.4a1/src/fastapi_authlib/models.py
++-rw-r--r--   0        0        0     3542 2023-07-28 06:06:00.028011 fastapi_authlib-0.0.4a1/src/fastapi_authlib/oidc.py
++-rw-r--r--   0        0        0       17 2023-07-28 06:53:46.941374 fastapi_authlib-0.0.4a1/src/fastapi_authlib/repository/__init__.py
++-rw-r--r--   0        0        0     5347 2023-07-28 06:53:46.989373 fastapi_authlib-0.0.4a1/src/fastapi_authlib/repository/base.py
++-rw-r--r--   0        0        0      767 2023-07-28 06:53:47.054373 fastapi_authlib-0.0.4a1/src/fastapi_authlib/repository/group.py
++-rw-r--r--   0        0        0      953 2023-07-28 03:20:37.301648 fastapi_authlib-0.0.4a1/src/fastapi_authlib/repository/group_user_map.py
++-rw-r--r--   0        0        0     1121 2023-05-25 09:49:48.768786 fastapi_authlib-0.0.4a1/src/fastapi_authlib/repository/session.py
++-rw-r--r--   0        0        0      751 2023-07-28 06:53:47.075778 fastapi_authlib-0.0.4a1/src/fastapi_authlib/repository/user.py
++-rw-r--r--   0        0        0       23 2023-05-25 09:49:48.768786 fastapi_authlib-0.0.4a1/src/fastapi_authlib/rest_api/__init__.py
++-rw-r--r--   0        0        0      799 2023-05-25 09:49:48.769785 fastapi_authlib-0.0.4a1/src/fastapi_authlib/rest_api/handler/__init__.py
++-rw-r--r--   0        0        0     1404 2023-05-25 09:49:48.769785 fastapi_authlib-0.0.4a1/src/fastapi_authlib/rest_api/handler/exception_handlers.py
++-rw-r--r--   0        0        0       13 2023-05-25 09:49:48.769785 fastapi_authlib-0.0.4a1/src/fastapi_authlib/rest_api/routers/__init__.py
++-rw-r--r--   0        0        0     1126 2023-07-28 06:54:58.918918 fastapi_authlib-0.0.4a1/src/fastapi_authlib/rest_api/routers/login.py
++-rw-r--r--   0        0        0      621 2023-07-26 03:57:56.924608 fastapi_authlib-0.0.4a1/src/fastapi_authlib/rest_api/routers/logout.py
++-rw-r--r--   0        0        0      489 2023-07-28 03:20:21.991250 fastapi_authlib-0.0.4a1/src/fastapi_authlib/rest_api/routers/user.py
++-rw-r--r--   0        0        0        0 2023-05-25 09:49:48.771784 fastapi_authlib-0.0.4a1/src/fastapi_authlib/schemas/__init__.py
++-rw-r--r--   0        0        0      385 2023-05-25 09:49:48.771784 fastapi_authlib-0.0.4a1/src/fastapi_authlib/schemas/base.py
++-rw-r--r--   0        0        0      504 2023-05-25 09:49:48.771784 fastapi_authlib-0.0.4a1/src/fastapi_authlib/schemas/group.py
++-rw-r--r--   0        0        0      597 2023-05-25 09:49:48.771784 fastapi_authlib-0.0.4a1/src/fastapi_authlib/schemas/group_user_map.py
++-rw-r--r--   0        0        0     1011 2023-05-25 09:49:48.772785 fastapi_authlib-0.0.4a1/src/fastapi_authlib/schemas/session.py
++-rw-r--r--   0        0        0      684 2023-05-25 09:49:48.772785 fastapi_authlib-0.0.4a1/src/fastapi_authlib/schemas/user.py
++-rw-r--r--   0        0        0      102 2023-05-25 09:49:48.772785 fastapi_authlib-0.0.4a1/src/fastapi_authlib/services/__init__.py
++-rw-r--r--   0        0        0     9998 2023-07-28 08:24:17.545746 fastapi_authlib-0.0.4a1/src/fastapi_authlib/services/auth.py
++-rw-r--r--   0        0        0     3882 2023-05-25 09:49:48.773785 fastapi_authlib-0.0.4a1/src/fastapi_authlib/services/base.py
++-rw-r--r--   0        0        0     1291 2023-07-27 06:02:26.732846 fastapi_authlib-0.0.4a1/src/fastapi_authlib/utils/__init__.py
++-rw-r--r--   0        0        0     2612 2023-07-28 08:24:17.546747 fastapi_authlib-0.0.4a1/src/fastapi_authlib/utils/auth_dependency.py
++-rw-r--r--   0        0        0      870 2023-05-25 09:49:48.775786 fastapi_authlib-0.0.4a1/src/fastapi_authlib/utils/exceptions.py
++-rw-r--r--   0        0        0      425 2023-07-28 06:41:28.199278 fastapi_authlib-0.0.4a1/src/fastapi_authlib/utils/types.py
++-rw-r--r--   0        0        0     4667 1970-01-01 00:00:00.000000 fastapi_authlib-0.0.4a1/PKG-INFO
+```
+
+### Comparing `fastapi_authlib-0.0.4/LICENSE` & `fastapi_authlib-0.0.4a1/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `fastapi_authlib-0.0.4/README.md` & `fastapi_authlib-0.0.4a1/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `fastapi_authlib-0.0.4/src/fastapi_authlib/alembic/alembic.ini` & `fastapi_authlib-0.0.4a1/src/fastapi_authlib/alembic/alembic.ini`
+
+ * *Files identical despite different names*
+
+### Comparing `fastapi_authlib-0.0.4/src/fastapi_authlib/alembic/env.py` & `fastapi_authlib-0.0.4a1/src/fastapi_authlib/alembic/env.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastapi_authlib-0.0.4/src/fastapi_authlib/alembic/script.py.mako` & `fastapi_authlib-0.0.4a1/src/fastapi_authlib/alembic/script.py.mako`
+
+ * *Files identical despite different names*
+
+### Comparing `fastapi_authlib-0.0.4/src/fastapi_authlib/alembic/versions/a55b1fb4f129_init_database.py` & `fastapi_authlib-0.0.4a1/src/fastapi_authlib/alembic/versions/a55b1fb4f129_init_database.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastapi_authlib-0.0.4/src/fastapi_authlib/models.py` & `fastapi_authlib-0.0.4a1/src/fastapi_authlib/models.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastapi_authlib-0.0.4/src/fastapi_authlib/oidc.py` & `fastapi_authlib-0.0.4a1/src/fastapi_authlib/oidc.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastapi_authlib-0.0.4/src/fastapi_authlib/repository/base.py` & `fastapi_authlib-0.0.4a1/src/fastapi_authlib/repository/base.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastapi_authlib-0.0.4/src/fastapi_authlib/repository/group.py` & `fastapi_authlib-0.0.4a1/src/fastapi_authlib/repository/group.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastapi_authlib-0.0.4/src/fastapi_authlib/repository/group_user_map.py` & `fastapi_authlib-0.0.4a1/src/fastapi_authlib/repository/group_user_map.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastapi_authlib-0.0.4/src/fastapi_authlib/repository/session.py` & `fastapi_authlib-0.0.4a1/src/fastapi_authlib/repository/session.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastapi_authlib-0.0.4/src/fastapi_authlib/repository/user.py` & `fastapi_authlib-0.0.4a1/src/fastapi_authlib/repository/user.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastapi_authlib-0.0.4/src/fastapi_authlib/rest_api/handler/__init__.py` & `fastapi_authlib-0.0.4a1/src/fastapi_authlib/rest_api/handler/__init__.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastapi_authlib-0.0.4/src/fastapi_authlib/rest_api/handler/exception_handlers.py` & `fastapi_authlib-0.0.4a1/src/fastapi_authlib/rest_api/handler/exception_handlers.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastapi_authlib-0.0.4/src/fastapi_authlib/rest_api/routers/login.py` & `fastapi_authlib-0.0.4a1/src/fastapi_authlib/rest_api/routers/login.py`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -35,8 +35,8 @@
+     """
+     Auth
+     """
+     user = await service.auth(request)
+     # clear session, three-party authentication uses cookies
+     request.session.clear()
+     token = encode_token(user, secret_key=settings.SECRET_KEY, algorithm=settings.ALGORITHM)
+-    return RedirectResponse(url=callback_url, headers={"authorization": f"Bearer {token}"})
++    return RedirectResponse(url=callback_url, headers={"WWW-Authenticate": f"Bearer {token}"})
+```
+
+### Comparing `fastapi_authlib-0.0.4/src/fastapi_authlib/rest_api/routers/logout.py` & `fastapi_authlib-0.0.4a1/src/fastapi_authlib/rest_api/routers/logout.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastapi_authlib-0.0.4/src/fastapi_authlib/schemas/group_user_map.py` & `fastapi_authlib-0.0.4a1/src/fastapi_authlib/schemas/group_user_map.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastapi_authlib-0.0.4/src/fastapi_authlib/schemas/session.py` & `fastapi_authlib-0.0.4a1/src/fastapi_authlib/schemas/session.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastapi_authlib-0.0.4/src/fastapi_authlib/schemas/user.py` & `fastapi_authlib-0.0.4a1/src/fastapi_authlib/schemas/user.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastapi_authlib-0.0.4/src/fastapi_authlib/services/auth.py` & `fastapi_authlib-0.0.4a1/src/fastapi_authlib/services/auth.py`
+
+ * *Files 14% similar despite different names*
+
+```diff
+@@ -1,280 +1,275 @@
+-"""auth"""
+-import logging
+-
+-from authlib.integrations.base_client.errors import OAuthError
+-from authlib.integrations.starlette_client import OAuth
+-from starlette.requests import Request
+-
+-from fastapi_authlib.config import settings
+-from fastapi_authlib.models import User
+-from fastapi_authlib.repository.group import GroupRepository
+-from fastapi_authlib.repository.group_user_map import GroupUserMapRepository
+-from fastapi_authlib.repository.session import SessionRepository
+-from fastapi_authlib.repository.user import UserRepository
+-from fastapi_authlib.schemas.group import GroupCreate
+-from fastapi_authlib.schemas.group_user_map import GroupUserMapCreate
+-from fastapi_authlib.schemas.session import SessionCreate, SessionUpdate
+-from fastapi_authlib.schemas.token import TokenSchema
+-from fastapi_authlib.schemas.user import UserCreate, UserSchema, UserUpdate
+-from fastapi_authlib.services.base import EntityService
+-from fastapi_authlib.utils import get_utc_timestamp
+-from fastapi_authlib.utils.exceptions import (AuthenticationError,
+-                                              ObjectDoesNotExist, OIDCError)
+-
+-logger = logging.getLogger(__name__)
+-
+-
+-class AuthService(EntityService[User, UserCreate, UserUpdate, UserSchema]):
+-    """
+-    Auth service.
+-    """
+-    REPOSITORY_CLASS = UserRepository
+-
+-    def __init__(self):
+-        self.oauth_client = OAuth(settings)
+-        self.register_oauth()
+-        self.exp_period = settings.EXP_PERIOD
+-        self.nts_period = settings.NTS_PERIOD
+-
+-    @property
+-    def session_repository(self):
+-        """Session repository"""
+-        return SessionRepository()
+-
+-    @property
+-    def group_repository(self):
+-        """Group repository"""
+-        return GroupRepository()
+-
+-    @property
+-    def group_user_map_repository(self):
+-        """Group user map repository"""
+-        return GroupUserMapRepository()
+-
+-    def register_oauth(self):
+-        """Register OAuth"""
+-        self.oauth_client.register(
+-            name='oauth',
+-            server_metadata_url=settings.OAUTH_CONF_URL,
+-            client_kwargs={
+-                'scope': 'openid email profile',
+-                'verify': False
+-            }
+-        )
+-
+-    async def login(self, request: Request, redirect_uri: str):
+-        """
+-        Login
+-        :param request:
+-        :param redirect_uri:
+-        :return:
+-        """
+-        return await self.oauth_client.oauth.authorize_redirect(request, redirect_uri)
+-
+-    async def logout(self, user_id: int):
+-        """
+-        Logout
+-        :param user_id:
+-        :return:
+-        """
+-        # 清除数据库中的对应数据
+-        try:
+-            await self.clear_token_info(pk=user_id)
+-        except ObjectDoesNotExist:
+-            logger.warning('User does not exist')
+-
+-    async def auth(self, request: Request, **_) -> dict:
+-        """
+-        Auth
+-        :param request:
+-        :param _:
+-        :return:
+-        """
+-        try:
+-            token = await self.oauth_client.oauth.authorize_access_token(request)
+-        except OAuthError as ex:
+-            logger.error('OAuth Error, exception info: %s', ex)
+-            raise OIDCError('OAuth Error') from ex
+-        userinfo = token.get('userinfo')
+-
+-        # the email is unique
+-        try:
+-            user = await self.repository.get_by_email(userinfo.email)
+-            active = user.active
+-            user_obj_in = UserUpdate(
+-                name=userinfo.name,
+-                nickname=userinfo.nickname,
+-                picture=userinfo.picture,
+-                active=True
+-            )
+-            user = await self.repository.update_by_id(pk=user.id, obj_in=user_obj_in)
+-            if active:
+-                session = await self.session_repository.get_session_from_user_id(user.id)
+-                await self.session_repository.delete_by_id(session.id)
+-
+-        except ObjectDoesNotExist:
+-            user_obj_in = UserCreate(
+-                name=userinfo.name,
+-                nickname=userinfo.nickname,
+-                email=userinfo.email,
+-                email_verified=userinfo.email_verified,
+-                picture=userinfo.picture,
+-                active=True,
+-            )
+-            user = await self.repository.create(obj_in=user_obj_in)
+-
+-        session_obj_in = SessionCreate(user_id=user.id, platform_name=settings.PLATFORM, **token)
+-        await self.session_repository.create(obj_in=session_obj_in)
+-        groups = userinfo.get('groups_direct')
+-        await self.save_group_and_group_user_map(groups, user)
+-
+-        payload = self.format_payload(user)
+-        return payload
+-
+-    async def get_user_by_id(self, pk: int) -> UserSchema:
+-        """
+-        Get user by id
+-        :param pk:
+-        :return:
+-        """
+-        user = await self.repository.get_by_id(pk)
+-        if not user.active:
+-            raise AuthenticationError()
+-        return user
+-
+-    async def clear_token_info(self, pk: int):
+-        """
+-        Clear token info
+-        :param pk:
+-        :return:
+-        """
+-
+-        await self.clear_session_with_user_id(pk=pk)
+-        await self.repository.update_by_id(
+-            pk=pk,
+-            obj_in=UserUpdate(active=False)
+-        )
+-
+-    async def clear_session_with_user_id(self, pk: int):
+-        """
+-        Clear session with user id
+-        :param pk:
+-        :return:
+-        """
+-        try:
+-            session = await self.session_repository.get_session_from_user_id(user_id=pk)
+-            return await self.session_repository.delete_by_id(session.id)
+-        except ObjectDoesNotExist:
+-            logger.warning('Session does not exist')
+-
+-    async def save_group_and_group_user_map(self, groups: list, user: UserSchema) -> None:
+-        """
+-        Save group and group user map
+-        :param groups: group names
+-        :param user:
+-        :return:
+-        """
+-        group_ids = []
+-        for name in groups:
+-            try:
+-                group = await self.group_repository.get_by_name(name=name)
+-            except ObjectDoesNotExist:
+-                group = await self.group_repository.create(obj_in=GroupCreate(name=name))
+-            group_ids.append(group.id)
+-
+-        try:
+-            exist_groups = await self.group_user_map_repository.get_by_user_id(user_id=user.id)
+-            # compare id
+-            exist_group_ids = [group.group_id for group in exist_groups]
+-            exist_group_map = {str(group.group_id): group.id for group in exist_groups}
+-            # delete id
+-            delete_ids = set(exist_group_ids) - set(group_ids)
+-            for group_id in delete_ids:
+-                await self.group_user_map_repository.delete_by_id(exist_group_map.get(str(group_id)))
+-
+-            # insert id
+-            insert_ids = set(group_ids) - set(exist_group_ids)
+-            for group_id in insert_ids:
+-                await self.group_user_map_repository.create(
+-                    obj_in=GroupUserMapCreate(
+-                        group_id=group_id,
+-                        user_id=user.id
+-                    )
+-                )
+-
+-        except ObjectDoesNotExist:
+-            for group_id in group_ids:
+-                await self.group_user_map_repository.create(
+-                    obj_in=GroupUserMapCreate(
+-                        group_id=group_id,
+-                        user_id=user.id
+-                    )
+-                )
+-
+-    async def verify_user(self, pk: int) -> dict:
+-        """
+-        Verify user
+-        :param pk: user id
+-        :return:
+-        """
+-        # check user active
+-        user = await self.repository.get_by_id(pk)
+-        if not user.active:
+-            raise AuthenticationError()
+-
+-        session = await self.session_repository.get_session_from_user_id(pk)
+-        # check token
+-        try:
+-            userinfo = await self.oauth_client.oauth.userinfo(token={'access_token': session.access_token})
+-        except Exception as ex:
+-            logger.debug(
+-                'Get userinfo with access_token of user %s error, try use refresh token, exception info: %s',
+-                pk,
+-                ex
+-            )
+-            try:
+-                # check refresh_token
+-                access_token = await self.oauth_client.oauth.fetch_access_token(
+-                    refresh_token=session.refresh_token,
+-                    grant_type='refresh_token'
+-                )
+-            except Exception as ex:
+-                logger.debug('Get access_token with refresh_token of user %s error', pk)
+-                await self.clear_token_info(pk=pk)
+-                raise AuthenticationError('Token expired error') from ex
+-
+-            userinfo = await self.oauth_client.oauth.userinfo(token={'access_token': access_token})
+-            # save token
+-            await self.session_repository.update_by_id(
+-                pk=session.id,
+-                obj_in=SessionUpdate(**access_token)
+-            )
+-        # compare user and userinfo
+-        update_fields = {key: userinfo.get(key)
+-                         for key in ['name', 'nickname', 'picture']
+-                         if getattr(user, key) != userinfo.get(key)}
+-        if update_fields:
+-            user_obj_in = UserUpdate(**update_fields)
+-            user = await self.repository.update_by_id(pk=pk, obj_in=user_obj_in)
+-
+-        # compare group map
+-        await self.save_group_and_group_user_map(groups=userinfo.get('groups'), user=user)
+-
+-        payload = self.format_payload(user)
+-        return payload
+-
+-    def format_payload(self, user: UserSchema) -> dict:
+-        """
+-        Format payload with user
+-        :param user:
+-        :return:
+-        """
+-        token_schema = TokenSchema(
+-            user_id=user.id,
+-            user_name=user.name,
+-            email=user.email,
+-            iat=get_utc_timestamp(),
+-            exp=get_utc_timestamp(days=self.exp_period),
+-            nst=get_utc_timestamp(minutes=self.nts_period)
+-        )
+-        return token_schema.dict()
++"""auth"""
++import logging
++
++from authlib.integrations.base_client.errors import OAuthError
++from authlib.integrations.starlette_client import OAuth
++from starlette.requests import Request
++
++from fastapi_authlib.config import settings
++from fastapi_authlib.models import User
++from fastapi_authlib.repository.group import GroupRepository
++from fastapi_authlib.repository.group_user_map import GroupUserMapRepository
++from fastapi_authlib.repository.session import SessionRepository
++from fastapi_authlib.repository.user import UserRepository
++from fastapi_authlib.schemas.group import GroupCreate
++from fastapi_authlib.schemas.group_user_map import GroupUserMapCreate
++from fastapi_authlib.schemas.session import SessionCreate, SessionUpdate
++from fastapi_authlib.schemas.user import UserCreate, UserSchema, UserUpdate
++from fastapi_authlib.services.base import EntityService
++from fastapi_authlib.utils import get_utc_timestamp
++from fastapi_authlib.utils.exceptions import (AuthenticationError,
++                                              ObjectDoesNotExist, OIDCError)
++
++logger = logging.getLogger(__name__)
++
++
++class AuthService(EntityService[User, UserCreate, UserUpdate, UserSchema]):
++    """
++    Auth service.
++    """
++    REPOSITORY_CLASS = UserRepository
++
++    def __init__(self):
++        self.oauth_client = OAuth(settings)
++        self.register_oauth()
++        self.exp_period = settings.EXP_PERIOD
++        self.nts_period = settings.NTS_PERIOD
++
++    @property
++    def session_repository(self):
++        """Session repository"""
++        return SessionRepository()
++
++    @property
++    def group_repository(self):
++        """Group repository"""
++        return GroupRepository()
++
++    @property
++    def group_user_map_repository(self):
++        """Group user map repository"""
++        return GroupUserMapRepository()
++
++    def register_oauth(self):
++        """Register OAuth"""
++        self.oauth_client.register(
++            name='oauth',
++            server_metadata_url=settings.OAUTH_CONF_URL,
++            client_kwargs={
++                'scope': 'openid email profile',
++                'verify': False
++            }
++        )
++
++    async def login(self, request: Request, redirect_uri: str):
++        """
++        Login
++        :param request:
++        :param redirect_uri:
++        :return:
++        """
++        return await self.oauth_client.oauth.authorize_redirect(request, redirect_uri)
++
++    async def logout(self, user_id: int):
++        """
++        Logout
++        :param user_id:
++        :return:
++        """
++        # 清除数据库中的对应数据
++        try:
++            await self.clear_token_info(pk=user_id)
++        except ObjectDoesNotExist:
++            logger.warning('User does not exist')
++
++    async def auth(self, request: Request, **_) -> dict:
++        """
++        Auth
++        :param request:
++        :param _:
++        :return:
++        """
++        try:
++            token = await self.oauth_client.oauth.authorize_access_token(request)
++        except OAuthError as ex:
++            logger.error('OAuth Error, exception info: %s', ex)
++            raise OIDCError('OAuth Error') from ex
++        userinfo = token.get('userinfo')
++
++        # the email is unique
++        try:
++            user = await self.repository.get_by_email(userinfo.email)
++            active = user.active
++            user_obj_in = UserUpdate(
++                name=userinfo.name,
++                nickname=userinfo.nickname,
++                picture=userinfo.picture,
++                active=True
++            )
++            user = await self.repository.update_by_id(pk=user.id, obj_in=user_obj_in)
++            if active:
++                session = await self.session_repository.get_session_from_user_id(user.id)
++                await self.session_repository.delete_by_id(session.id)
++
++        except ObjectDoesNotExist:
++            user_obj_in = UserCreate(
++                name=userinfo.name,
++                nickname=userinfo.nickname,
++                email=userinfo.email,
++                email_verified=userinfo.email_verified,
++                picture=userinfo.picture,
++                active=True,
++            )
++            user = await self.repository.create(obj_in=user_obj_in)
++
++        session_obj_in = SessionCreate(user_id=user.id, platform_name=settings.PLATFORM, **token)
++        await self.session_repository.create(obj_in=session_obj_in)
++        groups = userinfo.get('groups_direct')
++        await self.save_group_and_group_user_map(groups, user)
++
++        payload = self.format_payload(user)
++        return payload
++
++    async def get_user_by_id(self, pk: int) -> UserSchema:
++        """
++        Get user by id
++        :param pk:
++        :return:
++        """
++        user = await self.repository.get_by_id(pk)
++        if not user.active:
++            raise AuthenticationError()
++        return user
++
++    async def clear_token_info(self, pk: int):
++        """
++        Clear token info
++        :param pk:
++        :return:
++        """
++
++        await self.clear_session_with_user_id(pk=pk)
++        await self.repository.update_by_id(
++            pk=pk,
++            obj_in=UserUpdate(active=False)
++        )
++
++    async def clear_session_with_user_id(self, pk: int):
++        """
++        Clear session with user id
++        :param pk:
++        :return:
++        """
++        try:
++            session = await self.session_repository.get_session_from_user_id(user_id=pk)
++            return await self.session_repository.delete_by_id(session.id)
++        except ObjectDoesNotExist:
++            logger.warning('Session does not exist')
++
++    async def save_group_and_group_user_map(self, groups: list, user: UserSchema) -> None:
++        """
++        Save group and group user map
++        :param groups: group names
++        :param user:
++        :return:
++        """
++        group_ids = []
++        for name in groups:
++            try:
++                group = await self.group_repository.get_by_name(name=name)
++            except ObjectDoesNotExist:
++                group = await self.group_repository.create(obj_in=GroupCreate(name=name))
++            group_ids.append(group.id)
++
++        try:
++            exist_groups = await self.group_user_map_repository.get_by_user_id(user_id=user.id)
++            # compare id
++            exist_group_ids = [group.group_id for group in exist_groups]
++            exist_group_map = {str(group.group_id): group.id for group in exist_groups}
++            # delete id
++            delete_ids = set(exist_group_ids) - set(group_ids)
++            for group_id in delete_ids:
++                await self.group_user_map_repository.delete_by_id(exist_group_map.get(str(group_id)))
++
++            # insert id
++            insert_ids = set(group_ids) - set(exist_group_ids)
++            for group_id in insert_ids:
++                await self.group_user_map_repository.create(
++                    obj_in=GroupUserMapCreate(
++                        group_id=group_id,
++                        user_id=user.id
++                    )
++                )
++
++        except ObjectDoesNotExist:
++            for group_id in group_ids:
++                await self.group_user_map_repository.create(
++                    obj_in=GroupUserMapCreate(
++                        group_id=group_id,
++                        user_id=user.id
++                    )
++                )
++
++    async def verify_user(self, pk: int) -> dict:
++        """
++        Verify user
++        :param pk: user id
++        :return:
++        """
++        # check user active
++        user = await self.repository.get_by_id(pk)
++        if not user.active:
++            raise AuthenticationError()
++
++        session = await self.session_repository.get_session_from_user_id(pk)
++        # check token
++        try:
++            userinfo = await self.oauth_client.oauth.userinfo(token={'access_token': session.access_token})
++        except Exception as ex:
++            logger.debug(
++                'Get userinfo with access_token of user %s error, try use refresh token, exception info: %s',
++                pk,
++                ex
++            )
++            try:
++                # check refresh_token
++                access_token = await self.oauth_client.oauth.fetch_access_token(
++                    refresh_token=session.refresh_token,
++                    grant_type='refresh_token'
++                )
++            except Exception as ex:
++                logger.debug('Get access_token with refresh_token of user %s error', pk)
++                await self.clear_token_info(pk=pk)
++                raise AuthenticationError('Token expired error') from ex
++
++            userinfo = await self.oauth_client.oauth.userinfo(token={'access_token': access_token})
++            # save token
++            await self.session_repository.update_by_id(
++                pk=session.id,
++                obj_in=SessionUpdate(**access_token)
++            )
++        # compare user and userinfo
++        update_fields = {key: userinfo.get(key)
++                         for key in ['name', 'nickname', 'picture']
++                         if getattr(user, key) != userinfo.get(key)}
++        if update_fields:
++            user_obj_in = UserUpdate(**update_fields)
++            user = await self.repository.update_by_id(pk=pk, obj_in=user_obj_in)
++
++        # compare group map
++        await self.save_group_and_group_user_map(groups=userinfo.get('groups'), user=user)
++
++        payload = self.format_payload(user)
++        return payload
++
++    def format_payload(self, user: UserSchema) -> dict:
++        """
++        Format payload with user
++        :param user:
++        :return:
++        """
++
++        iat = get_utc_timestamp()
++        exp = get_utc_timestamp(days=self.exp_period)
++        nst = get_utc_timestamp(minutes=self.nts_period)
++        return {'user_id': user.id, 'user_name': user.name, 'email': user.email, 'iat': iat, 'exp': exp, 'nst': nst}
+```
+
+### Comparing `fastapi_authlib-0.0.4/src/fastapi_authlib/services/base.py` & `fastapi_authlib-0.0.4a1/src/fastapi_authlib/services/base.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastapi_authlib-0.0.4/src/fastapi_authlib/utils/__init__.py` & `fastapi_authlib-0.0.4a1/src/fastapi_authlib/utils/__init__.py`
+
+ * *Files 16% similar despite different names*
+
+```diff
+@@ -1,16 +1,14 @@
+ """Utils"""
+ 
+ import datetime
+ from typing import Optional, Tuple
+ 
+ import jwt
+ 
+-from fastapi_authlib.schemas.token import TokenSchema
+-
+ 
+ def get_authorization_scheme_param(
+     authorization_header_value: Optional[str],
+ ) -> Tuple[str, str]:
+     """
+     Get authorization scheme param
+     """
+@@ -40,17 +38,16 @@
+     :param secret_key:
+     :param algorithm:
+     :return:
+     """
+     return jwt.encode(payload, secret_key, algorithm=algorithm)
+ 
+ 
+-def decode_token(token: str, secret_key: str, algorithm: str) -> TokenSchema:
++def decode_token(token: str, secret_key: str, algorithm: str) -> dict:
+     """
+     Decode token
+     :param token:
+     :param secret_key:
+     :param algorithm:
+     :return:
+     """
+-    user = jwt.decode(token, secret_key, algorithms=[algorithm])
+-    return TokenSchema(**user)
++    return jwt.decode(token, secret_key, algorithms=[algorithm])
+```
+
+### Comparing `fastapi_authlib-0.0.4/src/fastapi_authlib/utils/exceptions.py` & `fastapi_authlib-0.0.4a1/src/fastapi_authlib/utils/exceptions.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastapi_authlib-0.0.4/PKG-INFO` & `fastapi_authlib-0.0.4a1/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: fastapi-authlib
+-Version: 0.0.4
++Version: 0.0.4a1
+ Summary: A fastapi authlib authentication library
+ License: MIT
+ Author: qiang.xie
+ Author-email: qiang.xie@zncdata.com
+ Requires-Python: >=3.10,<4.0
+ Classifier: License :: OSI Approved :: MIT License
+ Classifier: Operating System :: OS Independent
+```
+

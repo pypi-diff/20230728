@@ -20727,3 +20727,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 12:42:56] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230727.tar.gz]
 [2023-07-28 12:42:56] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
 [2023-07-28 12:42:56] INFO root fetch - main [MainThread]: Store serial: [19074559]
+[2023-07-28 12:48:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19074559]
+[2023-07-28 12:48:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-28 12:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wwpdb.io
+[2023-07-28 12:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agentagenda
+[2023-07-28 12:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swibots
+[2023-07-28 12:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastapi-authlib
+[2023-07-28 12:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pushcart
+[2023-07-28 12:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arfs
+[2023-07-28 12:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wodoo
+[2023-07-28 12:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neoteroi-mkdocs
+[2023-07-28 12:48:05] INFO root fetch - processPackages [neoteroi-mkdocs]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-28 12:48:05] INFO root fetch - processPackages [fastapi-authlib]: New version: [0.0.4a1] Old Version: [0.0.4]
+[2023-07-28 12:48:05] WARNING root fetch - processPackages [agentagenda]: Skipping, unable to determine old version
+[2023-07-28 12:48:05] INFO root fetch - main [MainThread]: End processing [agentagenda] error
+[2023-07-28 12:48:05] INFO root fetch - processPackages [wwpdb.io]: New version: [0.31] Old Version: [0.30]
+[2023-07-28 12:48:05] INFO root fetch - processPackages [pushcart]: New version: [1.6.4] Old Version: [0.1.9]
+[2023-07-28 12:48:05] INFO root fetch - processPackages [arfs]: New version: [2.0.0] Old Version: [1.1.4]
+[2023-07-28 12:48:05] INFO root fetch - processPackages [swibots]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-28 12:48:05] INFO root fetch - processPackages [wodoo]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-28 12:48:05] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/f1/e5/4eaf4bac81e606caa8deb3d95f64c8de95dc532f6bd16aef12de595f56cc/wodoo-0.4.8.tar.gz
+[2023-07-28 12:48:05] INFO root fetch - processPackages [neoteroi-mkdocs]: Downloading https://files.pythonhosted.org/packages/cb/03/48dbf0d26d22f98cab5e9049a31c66feb30192727940e171e460032423be/neoteroi_mkdocs-1.0.3.tar.gz
+[2023-07-28 12:48:05] INFO root fetch - processPackages [fastapi-authlib]: Downloading https://files.pythonhosted.org/packages/cc/83/11c517b5a73f00cadac965ac9651cb609f5e9a52f86bba009fc3fad139db/fastapi_authlib-0.0.4.tar.gz
+[2023-07-28 12:48:05] INFO root fetch - processPackages [pushcart]: Downloading https://files.pythonhosted.org/packages/e2/4e/3558e6d912a4c4490e18c61ff819fcc3d79aed7457a0243f59f475f88ae0/pushcart-0.1.9.tar.gz
+[2023-07-28 12:48:05] INFO root fetch - processPackages [wwpdb.io]: Downloading https://files.pythonhosted.org/packages/f9/51/7c1c194e2b6d0eff3abd279579991b0a8abe24318142addb46b2552a38df/wwpdb.io-0.30.tar.gz
+[2023-07-28 12:48:05] INFO root fetch - processPackages [arfs]: Downloading https://files.pythonhosted.org/packages/98/db/6051180c7dc5748aaebcff8ffaec75181716988bc1df32c2b525d067ca4f/arfs-1.1.4.tar.gz
+[2023-07-28 12:48:05] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/82/69/7c0e6ea9131a9e468c1d9c71b81edc9f90b91af4a877dd59319adaf8fd8d/swibots-1.3.8.tar.gz
+[2023-07-28 12:48:06] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/34/e8/81686b3a77a0edae554159a95e4782f911bd4ea59a2990954162a6b1e97e/wodoo-0.4.9.tar.gz
+[2023-07-28 12:48:06] INFO root fetch - processPackages [fastapi-authlib]: Downloading https://files.pythonhosted.org/packages/f2/5c/f908f7e04595f95fbe01ecd7bb40b126bc42d1a63c64f49af0d46b73ed36/fastapi_authlib-0.0.4a1.tar.gz
+[2023-07-28 12:48:06] INFO root fetch - processPackages [neoteroi-mkdocs]: Downloading https://files.pythonhosted.org/packages/a0/91/4a225a4afb068262f3b7c6bf9452e85c1394de1b356e685964479d88ae9f/neoteroi_mkdocs-1.0.4.tar.gz
+[2023-07-28 12:48:06] INFO root fetch - processPackages [pushcart]: Downloading https://files.pythonhosted.org/packages/13/85/d5d20eae26bb7c2a8638b93fdb785e72a5a815dcd6f721defdac309d67ed/pushcart-1.6.4.tar.gz
+[2023-07-28 12:48:06] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-07-28 12:48:06] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.8.tar.gz tmp/wodoo-0.4.9.tar.gz --markdown 20230728/w/wodoo/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-28 12:48:06] INFO root fetch - processPackages [neoteroi-mkdocs]: executing diffoscope
+[2023-07-28 12:48:06] INFO root fetch - processPackages [neoteroi-mkdocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neoteroi_mkdocs-1.0.3.tar.gz tmp/neoteroi_mkdocs-1.0.4.tar.gz --markdown 20230728/n/neoteroi-mkdocs/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-28 12:48:06] INFO root fetch - processPackages [wwpdb.io]: Downloading https://files.pythonhosted.org/packages/a5/7e/f5551a531130734f2b1f7413a52621ead3344b45f475918e893b4ce870b1/wwpdb.io-0.31.tar.gz
+[2023-07-28 12:48:06] INFO root fetch - processPackages [arfs]: Downloading https://files.pythonhosted.org/packages/c1/c4/8f527a4e845d50c5865acd41c9831ad806cd8d12aa2ba1f0b26913919529/arfs-2.0.0.tar.gz
+[2023-07-28 12:48:06] INFO root fetch - processPackages [pushcart]: executing diffoscope
+[2023-07-28 12:48:06] INFO root fetch - processPackages [pushcart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pushcart-0.1.9.tar.gz tmp/pushcart-1.6.4.tar.gz --markdown 20230728/p/pushcart/0.1.9-1.6.4/diff.md --exclude *.pyd
+[2023-07-28 12:48:06] INFO root fetch - processPackages [fastapi-authlib]: executing diffoscope
+[2023-07-28 12:48:06] INFO root fetch - processPackages [fastapi-authlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_authlib-0.0.4.tar.gz tmp/fastapi_authlib-0.0.4a1.tar.gz --markdown 20230728/f/fastapi-authlib/0.0.4-0.0.4a1/diff.md --exclude *.pyd
+[2023-07-28 12:48:06] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/ea/7b/639e8e0d26f49b658d1704d4d37bd38d8c55e1e5eed2f3f38ca390b8aabf/swibots-1.3.9.tar.gz
+[2023-07-28 12:48:06] INFO root fetch - processPackages [wwpdb.io]: executing diffoscope
+[2023-07-28 12:48:06] INFO root fetch - processPackages [wwpdb.io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.io-0.30.tar.gz tmp/wwpdb.io-0.31.tar.gz --markdown 20230728/w/wwpdb.io/0.30-0.31/diff.md --exclude *.pyd
+[2023-07-28 12:48:06] INFO root fetch - processPackages [arfs]: executing diffoscope
+[2023-07-28 12:48:06] INFO root fetch - processPackages [arfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arfs-1.1.4.tar.gz tmp/arfs-2.0.0.tar.gz --markdown 20230728/a/arfs/1.1.4-2.0.0/diff.md --exclude *.pyd
+[2023-07-28 12:48:06] INFO root fetch - processPackages [swibots]: executing diffoscope
+[2023-07-28 12:48:06] INFO root fetch - processPackages [swibots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swibots-1.3.8.tar.gz tmp/swibots-1.3.9.tar.gz --markdown 20230728/s/swibots/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-28 12:48:07] INFO root fetch - processPackages [pushcart]: Remove: archive file [/home/abi/fetcher/tmp/pushcart-0.1.9.tar.gz]
+[2023-07-28 12:48:07] INFO root fetch - processPackages [pushcart]: Remove: archive file [/home/abi/fetcher/tmp/pushcart-1.6.4.tar.gz]
+[2023-07-28 12:48:07] INFO root fetch - main [MainThread]: End processing [pushcart]: success
+[2023-07-28 12:48:07] INFO root fetch - processPackages [neoteroi-mkdocs]: Remove: archive file [/home/abi/fetcher/tmp/neoteroi_mkdocs-1.0.3.tar.gz]
+[2023-07-28 12:48:07] INFO root fetch - processPackages [neoteroi-mkdocs]: Remove: archive file [/home/abi/fetcher/tmp/neoteroi_mkdocs-1.0.4.tar.gz]
+[2023-07-28 12:48:07] INFO root fetch - main [MainThread]: End processing [neoteroi-mkdocs]: success
+[2023-07-28 12:48:07] INFO root fetch - processPackages [fastapi-authlib]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_authlib-0.0.4.tar.gz]
+[2023-07-28 12:48:07] INFO root fetch - processPackages [fastapi-authlib]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_authlib-0.0.4a1.tar.gz]
+[2023-07-28 12:48:07] INFO root fetch - main [MainThread]: End processing [fastapi-authlib]: success
+[2023-07-28 12:48:07] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.8.tar.gz]
+[2023-07-28 12:48:07] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.9.tar.gz]
+[2023-07-28 12:48:07] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-07-28 12:48:07] INFO root fetch - processPackages [wwpdb.io]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.io-0.30.tar.gz]
+[2023-07-28 12:48:07] INFO root fetch - processPackages [wwpdb.io]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.io-0.31.tar.gz]
+[2023-07-28 12:48:07] INFO root fetch - main [MainThread]: End processing [wwpdb.io]: success
+[2023-07-28 12:48:07] INFO root fetch - processPackages [arfs]: Remove: archive file [/home/abi/fetcher/tmp/arfs-1.1.4.tar.gz]
+[2023-07-28 12:48:07] INFO root fetch - processPackages [arfs]: Remove: archive file [/home/abi/fetcher/tmp/arfs-2.0.0.tar.gz]
+[2023-07-28 12:48:07] INFO root fetch - main [MainThread]: End processing [arfs]: success
+[2023-07-28 12:48:08] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.3.8.tar.gz]
+[2023-07-28 12:48:08] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.3.9.tar.gz]
+[2023-07-28 12:48:08] INFO root fetch - main [MainThread]: End processing [swibots]: success
+[2023-07-28 12:48:08] INFO root fetch - main [MainThread]: Store serial: [19074583]
