@@ -20895,3 +20895,168 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-28 12:53:25] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-6.9.0a1643146354.tar.gz]
 [2023-07-28 12:53:25] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2023-07-28 12:53:25] INFO root fetch - main [MainThread]: Store serial: [19074622]
+[2023-07-28 12:58:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19074622]
+[2023-07-28 12:58:34] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-28 12:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SeedrClient
+[2023-07-28 12:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stdflow
+[2023-07-28 12:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: example-package-kian
+[2023-07-28 12:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: json-tools2
+[2023-07-28 12:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: soccerdata
+[2023-07-28 12:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kodexa
+[2023-07-28 12:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nutils
+[2023-07-28 12:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ATTools
+[2023-07-28 12:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cvat-sdk
+[2023-07-28 12:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-07-28 12:58:34] INFO root fetch - processPackages [SeedrClient]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-28 12:58:34] INFO root fetch - processPackages [example-package-kian]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-28 12:58:34] INFO root fetch - processPackages [nutils]: New version: [8.0] Old Version: [7.3]
+[2023-07-28 12:58:34] INFO root fetch - processPackages [ATTools]: New version: [0.4.1] Old Version: [0.4]
+[2023-07-28 12:58:34] INFO root fetch - processPackages [soccerdata]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-28 12:58:34] INFO root fetch - processPackages [stdflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-28 12:58:34] INFO root fetch - processPackages [cvat-sdk]: New version: [2.5.2] Old Version: [2.5.0]
+[2023-07-28 12:58:34] INFO root fetch - processPackages [json-tools2]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-28 12:58:34] INFO root fetch - processPackages [kodexa]: New version: [6.3.35691157156] Old Version: [6.3.35690907805]
+[2023-07-28 12:58:34] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-28 12:58:34] INFO root fetch - processPackages [ATTools]: Downloading https://files.pythonhosted.org/packages/87/b3/bb0a2ed823c5bbc91ee40e2bc38859135f83d40157841646b98b3ef43d21/ATTools-0.4.tar.gz
+[2023-07-28 12:58:35] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/37/2b/dc718c9a789aae941c5744468c42fa99c1ca83c6fc824add3debc6df543d/stdflow-0.0.8.tar.gz
+[2023-07-28 12:58:35] INFO root fetch - processPackages [json-tools2]: Downloading https://files.pythonhosted.org/packages/5c/96/ab4aa7ba589ac9895aa4dbbf9b9de5a2372adb78ddd8d3b736c15a393bc4/json-tools2-0.0.7.tar.gz
+[2023-07-28 12:58:35] INFO root fetch - processPackages [SeedrClient]: Downloading https://files.pythonhosted.org/packages/26/77/78f4bb5870b4947cda43b59ac7af1ee07d65adc4b1ee1d7f20457b5ea989/SeedrClient-0.1.1.tar.gz
+[2023-07-28 12:58:35] INFO root fetch - processPackages [nutils]: Downloading https://files.pythonhosted.org/packages/67/22/faf10ae9fcfcafd239e75ba4d1b022b0c6d3db899fa2bebf5940081ffbc1/nutils-7.3.tar.gz
+[2023-07-28 12:58:35] INFO root fetch - processPackages [example-package-kian]: Downloading https://files.pythonhosted.org/packages/64/35/37542c323a3ebeaea53d5c99e30bf948dc78f849e92764903ffcaa3a060f/example_package_kian-0.0.1.tar.gz
+[2023-07-28 12:58:35] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/14/56/ffac8898d6d26098e09a839190164af56ac794317b62467cc290a332494f/kodexa-6.3.35690907805.tar.gz
+[2023-07-28 12:58:35] INFO root fetch - processPackages [soccerdata]: Downloading https://files.pythonhosted.org/packages/69/25/d476212dacabdcef5699e60d43b671eab1b51cfd3c97fb1a088cab9d3037/soccerdata-1.5.0.tar.gz
+[2023-07-28 12:58:35] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-07-28 12:58:35] INFO root fetch - processPackages [cvat-sdk]: Downloading https://files.pythonhosted.org/packages/e9/21/8a5245214539275c1b965f096643a2d69f5d13948f37413b24120d6be5ef/cvat_sdk-2.5.0.tar.gz
+[2023-07-28 12:58:35] INFO root fetch - processPackages [stdflow]: Downloading https://files.pythonhosted.org/packages/93/a7/7a92845fb1a7092159c2fbc2b23c0b733e7c93e5cd012f6538ca900ea3b6/stdflow-0.0.9-py3-none-any.whl
+[2023-07-28 12:58:35] INFO root fetch - processPackages [json-tools2]: Downloading https://files.pythonhosted.org/packages/e7/1e/006f4c5fc1ad1dc4b1639406d2bc5335fc12363d7752bde8f97cb759223b/json-tools2-0.0.8.tar.gz
+[2023-07-28 12:58:35] INFO root fetch - processPackages [example-package-kian]: Downloading https://files.pythonhosted.org/packages/f2/85/93bb0121782db126132356ec7c2d41c07e4c62391b754c01f0cb545fbe0c/example_package_kian-0.0.2.tar.gz
+[2023-07-28 12:58:35] INFO root fetch - processPackages [ATTools]: Downloading https://files.pythonhosted.org/packages/fa/62/07a563b2242b6e82e05318cef8b1852a34f1c10b46c60c74e79232b75985/ATTools-0.4.1.tar.gz
+[2023-07-28 12:58:35] INFO root fetch - processPackages [stdflow]: executing diffoscope
+[2023-07-28 12:58:35] INFO root fetch - processPackages [stdflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdflow-0.0.8.tar.gz tmp/stdflow-0.0.9-py3-none-any.whl.zip --markdown 20230728/s/stdflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-28 12:58:35] INFO root fetch - processPackages [nutils]: Downloading https://files.pythonhosted.org/packages/ad/1d/e761f48fccaffccf888eeffbd4c8ab1b2454e6f7f8a567addb8ae2878bfd/nutils-8.0.tar.gz
+[2023-07-28 12:58:35] INFO root fetch - processPackages [SeedrClient]: Downloading https://files.pythonhosted.org/packages/23/b9/49a9e570e80e5e8e7c866371632fe7b6c3f36af3e084593a88884823dcf5/SeedrClient-0.1.2.tar.gz
+[2023-07-28 12:58:35] INFO root fetch - processPackages [soccerdata]: Downloading https://files.pythonhosted.org/packages/9b/73/54c523f619e08c92be7be50fc806236bf1aaa0308c99390680687f25f8f3/soccerdata-1.5.1.tar.gz
+[2023-07-28 12:58:35] INFO root fetch - processPackages [json-tools2]: executing diffoscope
+[2023-07-28 12:58:35] INFO root fetch - processPackages [json-tools2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-tools2-0.0.7.tar.gz tmp/json-tools2-0.0.8.tar.gz --markdown 20230728/j/json-tools2/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-28 12:58:35] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/b1/27/2b9bfe387ff63be449087676c714bdc93ca6d3102fecbee24c6624e044a8/kodexa-6.3.35691157156.tar.gz
+[2023-07-28 12:58:35] INFO root fetch - processPackages [example-package-kian]: executing diffoscope
+[2023-07-28 12:58:35] INFO root fetch - processPackages [example-package-kian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/example_package_kian-0.0.1.tar.gz tmp/example_package_kian-0.0.2.tar.gz --markdown 20230728/e/example-package-kian/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-28 12:58:35] INFO root fetch - processPackages [ATTools]: executing diffoscope
+[2023-07-28 12:58:35] INFO root fetch - processPackages [ATTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ATTools-0.4.tar.gz tmp/ATTools-0.4.1.tar.gz --markdown 20230728/A/ATTools/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-07-28 12:58:35] INFO root fetch - processPackages [SeedrClient]: executing diffoscope
+[2023-07-28 12:58:35] INFO root fetch - processPackages [SeedrClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SeedrClient-0.1.1.tar.gz tmp/SeedrClient-0.1.2.tar.gz --markdown 20230728/S/SeedrClient/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-28 12:58:35] INFO root fetch - processPackages [nutils]: executing diffoscope
+[2023-07-28 12:58:35] INFO root fetch - processPackages [nutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nutils-7.3.tar.gz tmp/nutils-8.0.tar.gz --markdown 20230728/n/nutils/7.3-8.0/diff.md --exclude *.pyd
+[2023-07-28 12:58:35] INFO root fetch - processPackages [cvat-sdk]: Downloading https://files.pythonhosted.org/packages/67/02/4f56b5b61024483b7c99d443e3601fed01f507b2fbbed63dd86fc9d2076d/cvat_sdk-2.5.2.tar.gz
+[2023-07-28 12:58:35] INFO root fetch - processPackages [soccerdata]: executing diffoscope
+[2023-07-28 12:58:35] INFO root fetch - processPackages [soccerdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soccerdata-1.5.0.tar.gz tmp/soccerdata-1.5.1.tar.gz --markdown 20230728/s/soccerdata/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-28 12:58:36] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-07-28 12:58:36] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.3.35690907805.tar.gz tmp/kodexa-6.3.35691157156.tar.gz --markdown 20230728/k/kodexa/6.3.35690907805-6.3.35691157156/diff.md --exclude *.pyd
+[2023-07-28 12:58:36] INFO root fetch - processPackages [cvat-sdk]: executing diffoscope
+[2023-07-28 12:58:36] INFO root fetch - processPackages [cvat-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat_sdk-2.5.0.tar.gz tmp/cvat_sdk-2.5.2.tar.gz --markdown 20230728/c/cvat-sdk/2.5.0-2.5.2/diff.md --exclude *.pyd
+[2023-07-28 12:58:36] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-07-28 12:58:36] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-07-28 12:58:36] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230728/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-28 12:58:36] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.8.tar.gz]
+[2023-07-28 12:58:36] INFO root fetch - processPackages [stdflow]: Remove: archive file [/home/abi/fetcher/tmp/stdflow-0.0.9-py3-none-any.whl.zip]
+[2023-07-28 12:58:36] INFO root fetch - processPackages [stdflow]: Start processing: wheezy.core
+[2023-07-28 12:58:36] INFO root fetch - main [MainThread]: End processing [stdflow]: success
+[2023-07-28 12:58:37] INFO root fetch - processPackages [wheezy.core]: New version: [3.2.0] Old Version: [3.0.1]
+[2023-07-28 12:58:37] INFO root fetch - processPackages [json-tools2]: Remove: archive file [/home/abi/fetcher/tmp/json-tools2-0.0.7.tar.gz]
+[2023-07-28 12:58:37] INFO root fetch - processPackages [json-tools2]: Remove: archive file [/home/abi/fetcher/tmp/json-tools2-0.0.8.tar.gz]
+[2023-07-28 12:58:37] INFO root fetch - processPackages [json-tools2]: Start processing: cvat-cli
+[2023-07-28 12:58:37] INFO root fetch - main [MainThread]: End processing [json-tools2]: success
+[2023-07-28 12:58:37] INFO root fetch - processPackages [ATTools]: Remove: archive file [/home/abi/fetcher/tmp/ATTools-0.4.tar.gz]
+[2023-07-28 12:58:37] INFO root fetch - processPackages [ATTools]: Remove: archive file [/home/abi/fetcher/tmp/ATTools-0.4.1.tar.gz]
+[2023-07-28 12:58:37] INFO root fetch - processPackages [ATTools]: Start processing: wheezy.http
+[2023-07-28 12:58:37] INFO root fetch - main [MainThread]: End processing [ATTools]: success
+[2023-07-28 12:58:37] INFO root fetch - processPackages [example-package-kian]: Remove: archive file [/home/abi/fetcher/tmp/example_package_kian-0.0.1.tar.gz]
+[2023-07-28 12:58:37] INFO root fetch - processPackages [example-package-kian]: Remove: archive file [/home/abi/fetcher/tmp/example_package_kian-0.0.2.tar.gz]
+[2023-07-28 12:58:37] INFO root fetch - processPackages [example-package-kian]: Start processing: wheezy.routing
+[2023-07-28 12:58:37] INFO root fetch - main [MainThread]: End processing [example-package-kian]: success
+[2023-07-28 12:58:37] INFO root fetch - processPackages [cvat-cli]: New version: [2.5.2] Old Version: [2.5.0]
+[2023-07-28 12:58:37] INFO root fetch - processPackages [wheezy.core]: Downloading https://files.pythonhosted.org/packages/01/f0/09ec6f7cb276cb51086696a5fdcbb68eb92189853d7f8510d454fafcf445/wheezy.core-3.0.1.tar.gz
+[2023-07-28 12:58:37] INFO root fetch - processPackages [wheezy.http]: New version: [3.2.0] Old Version: [3.0.1]
+[2023-07-28 12:58:37] INFO root fetch - processPackages [soccerdata]: Remove: archive file [/home/abi/fetcher/tmp/soccerdata-1.5.0.tar.gz]
+[2023-07-28 12:58:37] INFO root fetch - processPackages [soccerdata]: Remove: archive file [/home/abi/fetcher/tmp/soccerdata-1.5.1.tar.gz]
+[2023-07-28 12:58:37] INFO root fetch - processPackages [soccerdata]: Start processing: wheezy.html
+[2023-07-28 12:58:37] INFO root fetch - main [MainThread]: End processing [soccerdata]: success
+[2023-07-28 12:58:37] INFO root fetch - processPackages [SeedrClient]: Remove: archive file [/home/abi/fetcher/tmp/SeedrClient-0.1.1.tar.gz]
+[2023-07-28 12:58:37] INFO root fetch - processPackages [SeedrClient]: Remove: archive file [/home/abi/fetcher/tmp/SeedrClient-0.1.2.tar.gz]
+[2023-07-28 12:58:37] INFO root fetch - processPackages [SeedrClient]: Start processing: wheezy.security
+[2023-07-28 12:58:37] INFO root fetch - main [MainThread]: End processing [SeedrClient]: success
+[2023-07-28 12:58:37] INFO root fetch - processPackages [wheezy.routing]: New version: [3.2.0] Old Version: [3.0.1]
+[2023-07-28 12:58:37] INFO root fetch - processPackages [cvat-cli]: Downloading https://files.pythonhosted.org/packages/a5/26/4bcf88a3bde998e6d6761344ace2df7ae6cc69bec67e4c89648862323ceb/cvat-cli-2.5.0.tar.gz
+[2023-07-28 12:58:37] INFO root fetch - processPackages [wheezy.html]: New version: [3.2.0] Old Version: [3.0.1]
+[2023-07-28 12:58:37] INFO root fetch - processPackages [wheezy.http]: Downloading https://files.pythonhosted.org/packages/f2/ad/ad62c02951babd9054df2b429dbdef464bf8d1d49664eaf4b8f80889d321/wheezy.http-3.0.1.tar.gz
+[2023-07-28 12:58:37] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz]
+[2023-07-28 12:58:37] INFO root fetch - processPackages [wheezy.security]: New version: [3.2.0] Old Version: [3.0.1]
+[2023-07-28 12:58:37] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz]
+[2023-07-28 12:58:37] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Start processing: wheezy.validation
+[2023-07-28 12:58:37] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-07-28 12:58:37] INFO root fetch - processPackages [wheezy.routing]: Downloading https://files.pythonhosted.org/packages/94/ab/e0af9277448446725ff54999bd6ee79139f6e2216edb1f2b4ebf822271dd/wheezy.routing-3.0.1.tar.gz
+[2023-07-28 12:58:37] INFO root fetch - processPackages [wheezy.core]: Downloading https://files.pythonhosted.org/packages/bb/cc/3f49b74f89d109bdc53fc2668bd8098fb5234783bb3bf3636b2baf35bea5/wheezy.core-3.2.0.tar.gz
+[2023-07-28 12:58:37] INFO root fetch - processPackages [wheezy.html]: Downloading https://files.pythonhosted.org/packages/d8/a6/07fdd0158ea6fd77cf6eaf3f11b6f0ea0581389237e5a1a18f967b13a2ec/wheezy.html-3.0.1.tar.gz
+[2023-07-28 12:58:37] INFO root fetch - processPackages [wheezy.security]: Downloading https://files.pythonhosted.org/packages/73/03/e0cc0a41ba6a33bc9f82173fde309081093364d2ee948f8e0a978fbaea6b/wheezy.security-3.0.1.tar.gz
+[2023-07-28 12:58:37] INFO root fetch - processPackages [wheezy.validation]: New version: [3.2.0] Old Version: [3.0.1]
+[2023-07-28 12:58:37] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.3.35690907805.tar.gz]
+[2023-07-28 12:58:37] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.3.35691157156.tar.gz]
+[2023-07-28 12:58:37] INFO root fetch - processPackages [kodexa]: Start processing: wheezy.caching
+[2023-07-28 12:58:37] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-07-28 12:58:37] INFO root fetch - processPackages [cvat-cli]: Downloading https://files.pythonhosted.org/packages/7c/e6/cc27fb4cc1c0012bcc2cd032d9ad3bdf195573adc2006bc2348497fdf043/cvat-cli-2.5.2.tar.gz
+[2023-07-28 12:58:38] INFO root fetch - processPackages [wheezy.core]: executing diffoscope
+[2023-07-28 12:58:38] INFO root fetch - processPackages [wheezy.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheezy.core-3.0.1.tar.gz tmp/wheezy.core-3.2.0.tar.gz --markdown 20230728/w/wheezy.core/3.0.1-3.2.0/diff.md --exclude *.pyd
+[2023-07-28 12:58:38] INFO root fetch - processPackages [wheezy.http]: Downloading https://files.pythonhosted.org/packages/20/6a/e2835f30b9d0467b578b67877cde592f70f03b8fb619125f96fb0ebfe323/wheezy.http-3.2.0.tar.gz
+[2023-07-28 12:58:38] INFO root fetch - processPackages [wheezy.validation]: Downloading https://files.pythonhosted.org/packages/17/9f/ba2997421004b04897aacfbb8e18dc59ea03dbabacc31b6f23a7fd27fcac/wheezy.validation-3.0.1.tar.gz
+[2023-07-28 12:58:38] INFO root fetch - processPackages [cvat-cli]: executing diffoscope
+[2023-07-28 12:58:38] INFO root fetch - processPackages [cvat-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat-cli-2.5.0.tar.gz tmp/cvat-cli-2.5.2.tar.gz --markdown 20230728/c/cvat-cli/2.5.0-2.5.2/diff.md --exclude *.pyd
+[2023-07-28 12:58:38] INFO root fetch - processPackages [wheezy.caching]: New version: [3.2.0] Old Version: [3.0.1]
+[2023-07-28 12:58:38] INFO root fetch - processPackages [wheezy.routing]: Downloading https://files.pythonhosted.org/packages/70/39/c9e7da632b741fef14baf93b593248a93d26cf2a3f5cbd4fc6aca621c2a9/wheezy.routing-3.2.0.tar.gz
+[2023-07-28 12:58:38] INFO root fetch - processPackages [wheezy.html]: Downloading https://files.pythonhosted.org/packages/c4/b4/32e4b1c6e21dc740a3b003fce75cd1e11211de39561b243314653f86e603/wheezy.html-3.2.0.tar.gz
+[2023-07-28 12:58:38] INFO root fetch - processPackages [wheezy.http]: executing diffoscope
+[2023-07-28 12:58:38] INFO root fetch - processPackages [wheezy.http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheezy.http-3.0.1.tar.gz tmp/wheezy.http-3.2.0.tar.gz --markdown 20230728/w/wheezy.http/3.0.1-3.2.0/diff.md --exclude *.pyd
+[2023-07-28 12:58:38] INFO root fetch - processPackages [wheezy.security]: Downloading https://files.pythonhosted.org/packages/0b/20/8da099b98b2a3111956704a307ac0a6f69786fdf58eefa0f9b7d0aac9d99/wheezy.security-3.2.0.tar.gz
+[2023-07-28 12:58:38] INFO root fetch - processPackages [wheezy.routing]: executing diffoscope
+[2023-07-28 12:58:38] INFO root fetch - processPackages [wheezy.routing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheezy.routing-3.0.1.tar.gz tmp/wheezy.routing-3.2.0.tar.gz --markdown 20230728/w/wheezy.routing/3.0.1-3.2.0/diff.md --exclude *.pyd
+[2023-07-28 12:58:38] INFO root fetch - processPackages [wheezy.caching]: Downloading https://files.pythonhosted.org/packages/7e/10/934ee8281ae33d07af4bfe352e5a48878e97431f9e10e7d75f91fc000c77/wheezy.caching-3.0.1.tar.gz
+[2023-07-28 12:58:38] INFO root fetch - processPackages [wheezy.html]: executing diffoscope
+[2023-07-28 12:58:38] INFO root fetch - processPackages [wheezy.html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheezy.html-3.0.1.tar.gz tmp/wheezy.html-3.2.0.tar.gz --markdown 20230728/w/wheezy.html/3.0.1-3.2.0/diff.md --exclude *.pyd
+[2023-07-28 12:58:38] INFO root fetch - processPackages [wheezy.security]: executing diffoscope
+[2023-07-28 12:58:38] INFO root fetch - processPackages [wheezy.security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheezy.security-3.0.1.tar.gz tmp/wheezy.security-3.2.0.tar.gz --markdown 20230728/w/wheezy.security/3.0.1-3.2.0/diff.md --exclude *.pyd
+[2023-07-28 12:58:38] INFO root fetch - processPackages [wheezy.validation]: Downloading https://files.pythonhosted.org/packages/84/82/5fa35baa204c710abb0d234422c3b48ac5712e1d395c12f07b4afa6f6765/wheezy.validation-3.2.0.tar.gz
+[2023-07-28 12:58:38] INFO root fetch - processPackages [wheezy.validation]: executing diffoscope
+[2023-07-28 12:58:38] INFO root fetch - processPackages [wheezy.validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheezy.validation-3.0.1.tar.gz tmp/wheezy.validation-3.2.0.tar.gz --markdown 20230728/w/wheezy.validation/3.0.1-3.2.0/diff.md --exclude *.pyd
+[2023-07-28 12:58:38] INFO root fetch - processPackages [wheezy.caching]: Downloading https://files.pythonhosted.org/packages/3b/52/71e97bdbaceffd40bd4763dab329bd09a77ec715765808d40e17e7c071ce/wheezy.caching-3.2.0.tar.gz
+[2023-07-28 12:58:39] INFO root fetch - processPackages [nutils]: Remove: archive file [/home/abi/fetcher/tmp/nutils-7.3.tar.gz]
+[2023-07-28 12:58:39] INFO root fetch - processPackages [nutils]: Remove: archive file [/home/abi/fetcher/tmp/nutils-8.0.tar.gz]
+[2023-07-28 12:58:39] INFO root fetch - processPackages [wheezy.caching]: executing diffoscope
+[2023-07-28 12:58:39] INFO root fetch - processPackages [wheezy.caching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheezy.caching-3.0.1.tar.gz tmp/wheezy.caching-3.2.0.tar.gz --markdown 20230728/w/wheezy.caching/3.0.1-3.2.0/diff.md --exclude *.pyd
+[2023-07-28 12:58:39] INFO root fetch - main [MainThread]: End processing [nutils]: success
+[2023-07-28 12:58:39] INFO root fetch - processPackages [wheezy.core]: Remove: archive file [/home/abi/fetcher/tmp/wheezy.core-3.0.1.tar.gz]
+[2023-07-28 12:58:39] INFO root fetch - processPackages [wheezy.core]: Remove: archive file [/home/abi/fetcher/tmp/wheezy.core-3.2.0.tar.gz]
+[2023-07-28 12:58:39] INFO root fetch - main [MainThread]: End processing [wheezy.core]: success
+[2023-07-28 12:58:39] INFO root fetch - processPackages [cvat-cli]: Remove: archive file [/home/abi/fetcher/tmp/cvat-cli-2.5.0.tar.gz]
+[2023-07-28 12:58:39] INFO root fetch - processPackages [cvat-cli]: Remove: archive file [/home/abi/fetcher/tmp/cvat-cli-2.5.2.tar.gz]
+[2023-07-28 12:58:39] INFO root fetch - main [MainThread]: End processing [cvat-cli]: success
+[2023-07-28 12:58:39] INFO root fetch - processPackages [wheezy.routing]: Remove: archive file [/home/abi/fetcher/tmp/wheezy.routing-3.0.1.tar.gz]
+[2023-07-28 12:58:39] INFO root fetch - processPackages [wheezy.routing]: Remove: archive file [/home/abi/fetcher/tmp/wheezy.routing-3.2.0.tar.gz]
+[2023-07-28 12:58:39] INFO root fetch - main [MainThread]: End processing [wheezy.routing]: success
+[2023-07-28 12:58:39] INFO root fetch - processPackages [wheezy.http]: Remove: archive file [/home/abi/fetcher/tmp/wheezy.http-3.0.1.tar.gz]
+[2023-07-28 12:58:39] INFO root fetch - processPackages [wheezy.http]: Remove: archive file [/home/abi/fetcher/tmp/wheezy.http-3.2.0.tar.gz]
+[2023-07-28 12:58:39] INFO root fetch - main [MainThread]: End processing [wheezy.http]: success
+[2023-07-28 12:58:39] INFO root fetch - processPackages [wheezy.security]: Remove: archive file [/home/abi/fetcher/tmp/wheezy.security-3.0.1.tar.gz]
+[2023-07-28 12:58:39] INFO root fetch - processPackages [wheezy.security]: Remove: archive file [/home/abi/fetcher/tmp/wheezy.security-3.2.0.tar.gz]
+[2023-07-28 12:58:39] INFO root fetch - main [MainThread]: End processing [wheezy.security]: success
+[2023-07-28 12:58:39] INFO root fetch - processPackages [wheezy.html]: Remove: archive file [/home/abi/fetcher/tmp/wheezy.html-3.0.1.tar.gz]
+[2023-07-28 12:58:39] INFO root fetch - processPackages [wheezy.html]: Remove: archive file [/home/abi/fetcher/tmp/wheezy.html-3.2.0.tar.gz]
+[2023-07-28 12:58:39] INFO root fetch - main [MainThread]: End processing [wheezy.html]: success
+[2023-07-28 12:58:40] INFO root fetch - processPackages [wheezy.validation]: Remove: archive file [/home/abi/fetcher/tmp/wheezy.validation-3.0.1.tar.gz]
+[2023-07-28 12:58:40] INFO root fetch - processPackages [wheezy.validation]: Remove: archive file [/home/abi/fetcher/tmp/wheezy.validation-3.2.0.tar.gz]
+[2023-07-28 12:58:40] INFO root fetch - main [MainThread]: End processing [wheezy.validation]: success
+[2023-07-28 12:58:40] INFO root fetch - processPackages [wheezy.caching]: Remove: archive file [/home/abi/fetcher/tmp/wheezy.caching-3.0.1.tar.gz]
+[2023-07-28 12:58:40] INFO root fetch - processPackages [wheezy.caching]: Remove: archive file [/home/abi/fetcher/tmp/wheezy.caching-3.2.0.tar.gz]
+[2023-07-28 12:58:40] INFO root fetch - main [MainThread]: End processing [wheezy.caching]: success
+[2023-07-28 12:58:40] INFO root fetch - processPackages [cvat-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cvat_sdk-2.5.0.tar.gz]
+[2023-07-28 12:58:40] INFO root fetch - processPackages [cvat-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cvat_sdk-2.5.2.tar.gz]
+[2023-07-28 12:58:40] INFO root fetch - main [MainThread]: End processing [cvat-sdk]: success
+[2023-07-28 12:58:40] INFO root fetch - main [MainThread]: Store serial: [19074664]
