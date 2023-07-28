@@ -1823,3 +1823,69 @@
 [2023-07-28 01:59:42] INFO root fetch - processPackages [AndroidN]: Remove: archive file [/home/abi/fetcher/tmp/AndroidN-0.0.9.tar.gz]
 [2023-07-28 01:59:42] INFO root fetch - main [MainThread]: End processing [AndroidN]: success
 [2023-07-28 01:59:42] INFO root fetch - main [MainThread]: Store serial: [19067589]
+[2023-07-28 02:04:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19067589]
+[2023-07-28 02:04:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-28 02:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zephony
+[2023-07-28 02:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchdatasets-nightly
+[2023-07-28 02:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opensearch-py-ml
+[2023-07-28 02:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mct-nightly
+[2023-07-28 02:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: decomp2dbg
+[2023-07-28 02:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: importTime
+[2023-07-28 02:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jaxkern-nightly
+[2023-07-28 02:04:54] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230727.post419] Old Version: [1.9.0.20230726.post425]
+[2023-07-28 02:04:54] INFO root fetch - processPackages [opensearch-py-ml]: New version: [1.1.0] Old Version: [1.0.0b1]
+[2023-07-28 02:04:54] INFO root fetch - processPackages [decomp2dbg]: New version: [3.5.2] Old Version: [3.5.1]
+[2023-07-28 02:04:54] INFO root fetch - processPackages [importTime]: New version: [1.0.2.2] Old Version: [1.0.1]
+[2023-07-28 02:04:54] INFO root fetch - processPackages [zephony]: New version: [0.9.1] Old Version: [0.8.1]
+[2023-07-28 02:04:54] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-07-28 02:04:54] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1690416196] Old Version: [1690329794]
+[2023-07-28 02:04:54] INFO root fetch - processPackages [importTime]: Downloading https://files.pythonhosted.org/packages/6c/66/e985fb960ceab696177550f892ba290ee0b6e5081a338f0e5cc42ab79576/importTime-1.0.1-py2.py3-none-any.whl
+[2023-07-28 02:04:54] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-07-28 02:04:54] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/e9/b7/5ba2e2f622d581d6ff098b096d55979afd7e4666d853c7fd68c041c3ef3c/torchdatasets-nightly-1690329794.tar.gz
+[2023-07-28 02:04:54] INFO root fetch - processPackages [opensearch-py-ml]: Downloading https://files.pythonhosted.org/packages/24/e6/7d89702a32eccb0ef37ed530c57a0c7cd612301956419ebda911fd429d3c/opensearch_py_ml-1.0.0b1.tar.gz
+[2023-07-28 02:04:54] INFO root fetch - processPackages [decomp2dbg]: Downloading https://files.pythonhosted.org/packages/21/67/d79bff90f0a210fb683bae9ac455ac0cd9ec36f11b42326a8318ac819948/decomp2dbg-3.5.1.tar.gz
+[2023-07-28 02:04:54] INFO root fetch - processPackages [zephony]: Downloading https://files.pythonhosted.org/packages/25/fc/2c8476b699dbf95d4bb27f4b9ef0f67ea923406f77570aae30d0a99459aa/zephony-0.8.1.tar.gz
+[2023-07-28 02:04:55] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/5b/74/1a42795c8f568bd43e0d0ac56ba5b15baab5a19aac5cc240d09d85bb5a1f/mct-nightly-1.9.0.20230726.post425.tar.gz
+[2023-07-28 02:04:55] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-07-28 02:04:55] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/34/46/8ba406d7efdf93c73f0ddc1d3c1e0a6be4f781939d0e333829e9b473690d/torchdatasets-nightly-1690416196.tar.gz
+[2023-07-28 02:04:55] INFO root fetch - processPackages [importTime]: Downloading https://files.pythonhosted.org/packages/1e/e6/8d98948b7500487f91509ff34ebf592a1c0d86dc7555234b663ce4950f9a/importTime-1.0.2.2-py2.py3-none-any.whl
+[2023-07-28 02:04:55] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-07-28 02:04:55] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230728/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-07-28 02:04:55] INFO root fetch - processPackages [decomp2dbg]: Downloading https://files.pythonhosted.org/packages/b1/67/959ffbd2de1167309fb68e1e3523c29ab76db0cedfba2c1926e823ac9b89/decomp2dbg-3.5.2.tar.gz
+[2023-07-28 02:04:55] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-28 02:04:55] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1690329794.tar.gz tmp/torchdatasets-nightly-1690416196.tar.gz --markdown 20230728/t/torchdatasets-nightly/1690329794-1690416196/diff.md --exclude *.pyd
+[2023-07-28 02:04:55] INFO root fetch - processPackages [opensearch-py-ml]: Downloading https://files.pythonhosted.org/packages/91/a3/febbac2e167cb4eba6b46d6c93a22b7c5eb1149016fc0f9394a2edba358d/opensearch_py_ml-1.1.0.tar.gz
+[2023-07-28 02:04:55] INFO root fetch - processPackages [decomp2dbg]: executing diffoscope
+[2023-07-28 02:04:55] INFO root fetch - processPackages [decomp2dbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decomp2dbg-3.5.1.tar.gz tmp/decomp2dbg-3.5.2.tar.gz --markdown 20230728/d/decomp2dbg/3.5.1-3.5.2/diff.md --exclude *.pyd
+[2023-07-28 02:04:55] INFO root fetch - processPackages [zephony]: Downloading https://files.pythonhosted.org/packages/35/3c/05ea992af0402117582743352f4731daf63ced4594fe71f3aa7cda19cc44/zephony-0.9.1.tar.gz
+[2023-07-28 02:04:55] INFO root fetch - processPackages [importTime]: executing diffoscope
+[2023-07-28 02:04:55] INFO root fetch - processPackages [importTime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/importTime-1.0.1-py2.py3-none-any.whl.zip tmp/importTime-1.0.2.2-py2.py3-none-any.whl.zip --markdown 20230728/i/importTime/1.0.1-1.0.2.2/diff.md --exclude *.pyd
+[2023-07-28 02:04:55] INFO root fetch - processPackages [opensearch-py-ml]: executing diffoscope
+[2023-07-28 02:04:55] INFO root fetch - processPackages [opensearch-py-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensearch_py_ml-1.0.0b1.tar.gz tmp/opensearch_py_ml-1.1.0.tar.gz --markdown 20230728/o/opensearch-py-ml/1.0.0b1-1.1.0/diff.md --exclude *.pyd
+[2023-07-28 02:04:55] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/37/3a/49512cd028d576ec581b279553727f0392f034f8a6f8f5e295cc1aee66f7/mct-nightly-1.9.0.20230727.post419.tar.gz
+[2023-07-28 02:04:55] INFO root fetch - processPackages [zephony]: executing diffoscope
+[2023-07-28 02:04:55] INFO root fetch - processPackages [zephony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zephony-0.8.1.tar.gz tmp/zephony-0.9.1.tar.gz --markdown 20230728/z/zephony/0.8.1-0.9.1/diff.md --exclude *.pyd
+[2023-07-28 02:04:55] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-07-28 02:04:55] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230728:/home/abi/fetcher/20230728:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230726.post425.tar.gz tmp/mct-nightly-1.9.0.20230727.post419.tar.gz --markdown 20230728/m/mct-nightly/1.9.0.20230726.post425-1.9.0.20230727.post419/diff.md --exclude *.pyd
+[2023-07-28 02:04:56] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-07-28 02:04:56] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-07-28 02:04:56] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-07-28 02:04:56] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1690329794.tar.gz]
+[2023-07-28 02:04:56] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1690416196.tar.gz]
+[2023-07-28 02:04:56] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-28 02:04:56] INFO root fetch - processPackages [importTime]: Remove: archive file [/home/abi/fetcher/tmp/importTime-1.0.1-py2.py3-none-any.whl.zip]
+[2023-07-28 02:04:56] INFO root fetch - processPackages [importTime]: Remove: archive file [/home/abi/fetcher/tmp/importTime-1.0.2.2-py2.py3-none-any.whl.zip]
+[2023-07-28 02:04:56] INFO root fetch - main [MainThread]: End processing [importTime]: success
+[2023-07-28 02:04:56] INFO root fetch - processPackages [zephony]: Remove: archive file [/home/abi/fetcher/tmp/zephony-0.8.1.tar.gz]
+[2023-07-28 02:04:56] INFO root fetch - processPackages [zephony]: Remove: archive file [/home/abi/fetcher/tmp/zephony-0.9.1.tar.gz]
+[2023-07-28 02:04:56] INFO root fetch - main [MainThread]: End processing [zephony]: success
+[2023-07-28 02:04:56] INFO root fetch - processPackages [decomp2dbg]: Remove: archive file [/home/abi/fetcher/tmp/decomp2dbg-3.5.1.tar.gz]
+[2023-07-28 02:04:56] INFO root fetch - processPackages [decomp2dbg]: Remove: archive file [/home/abi/fetcher/tmp/decomp2dbg-3.5.2.tar.gz]
+[2023-07-28 02:04:56] INFO root fetch - main [MainThread]: End processing [decomp2dbg]: success
+[2023-07-28 02:04:56] INFO root fetch - processPackages [opensearch-py-ml]: Remove: archive file [/home/abi/fetcher/tmp/opensearch_py_ml-1.0.0b1.tar.gz]
+[2023-07-28 02:04:56] INFO root fetch - processPackages [opensearch-py-ml]: Remove: archive file [/home/abi/fetcher/tmp/opensearch_py_ml-1.1.0.tar.gz]
+[2023-07-28 02:04:56] INFO root fetch - main [MainThread]: End processing [opensearch-py-ml]: success
+[2023-07-28 02:04:58] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230726.post425.tar.gz]
+[2023-07-28 02:04:58] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230727.post419.tar.gz]
+[2023-07-28 02:04:58] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-07-28 02:04:58] INFO root fetch - main [MainThread]: Store serial: [19067615]
